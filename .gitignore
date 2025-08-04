@@ -1,0 +1,8 @@
+﻿env
+*_backgrounds/*
+*.tff
+.env
+*.jpg
+tmdbbackgrounds/
+*.log
+__pycache__/
