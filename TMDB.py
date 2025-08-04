@@ -39,6 +39,9 @@ current_year = datetime.now().year
 background_dir = "tmdbbackgrounds"
 excluded_genres = {"Animación", "Terror", "Sci-Fi & Fantasy"}
 
+def normalize_title(title):
+    return " ".join(title.replace("_", " ").replace(date_str, "").split()).strip()
+
 # Eliminar imágenes anteriores
 i = 0
 if os.path.exists(background_dir):
@@ -79,6 +82,13 @@ def draw_multiline_text(draw, position, text, font, fill, spacing, shadow_color=
         draw.multiline_text((position[0] + shadow_offset, position[1] + shadow_offset), text, font=font, fill=shadow_color, spacing=spacing)
     draw.multiline_text(position, text, font=font, fill=fill, spacing=spacing)
 
+def format_duration(minutes):
+    if not isinstance(minutes, int):
+        return ""
+    h = minutes // 60
+    m = minutes % 60
+    return f"{h}h {m}m" if h else f"{m}m"
+
 def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None):
     if not overview.strip():
         print(f"{title} ignorado por falta de descripción")
@@ -103,7 +113,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
 
     draw = ImageDraw.Draw(bckg)
     font_title = ImageFont.truetype(truetype_path, size=190)
-    font_overview = ImageFont.truetype(truetype_path, size=50)
+    font_overview = ImageFont.truetype(truetype_path, size=66)
 
     shadow_color = "black"
     main_color = "white"
@@ -111,15 +121,20 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     metadata_color = "white"
 
     title_position = (200, 420)
-    overview_position = (210, 730)
+    overview_position = (210, 770)
     shadow_offset = 2
     info_position = (210, 650)
 
-    wrapped_overview = "\n".join(textwrap.wrap(overview, width=70))
-    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=18, shadow_color=shadow_color, shadow_offset=shadow_offset)
+    wrapped_lines = textwrap.wrap(overview, width=70)
+    truncated = len(wrapped_lines) > 7
+    wrapped_lines = wrapped_lines[:7]
+    if truncated:
+        wrapped_lines[-1] = wrapped_lines[-1].rstrip('.') + "..."
+    wrapped_overview = "\n".join(wrapped_lines)
+    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=30, shadow_color=shadow_color, shadow_offset=shadow_offset)
 
     if is_movie:
-        additional_info = f"{duration}"
+        additional_info = format_duration(duration)
     else:
         additional_info = f"{seasons} {'Temporada' if seasons == 1 else 'Temporadas'}"
 
@@ -134,7 +149,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     draw.text((title_position[0] + shadow_offset, title_position[1] + shadow_offset), title, font=font_title, fill=shadow_color)
     draw.text(title_position, title, font=font_title, fill=main_color)
 
-    filename = os.path.join(background_dir, f"{clean_filename(title)}_{date_str}.jpg")
+    filename = os.path.join(background_dir, f"{clean_filename(title)}.jpg")
     bckg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
 
@@ -189,7 +204,7 @@ for tv in get_trending("tv"):
 # Subir a Reddit
 def was_already_posted(reddit, subreddit_name, title):
     for submission in reddit.subreddit(subreddit_name).new(limit=25):
-        if submission.title == title:
+        if submission.title.strip().lower() == title.strip().lower():
             return True
     return False
 
@@ -203,10 +218,19 @@ reddit = praw.Reddit(
 
 subreddit_name = "IMDB_esp"
 subreddit = reddit.subreddit(subreddit_name)
+
+# BORRAR POSTEOS EXISTENTES EN REDDIT (ejecutar una sola vez y luego comentar)
+#for submission in reddit.subreddit(subreddit_name).new(limit=100):
+#     try:
+#         submission.delete()
+#         print(f"Borrado: {submission.title}")
+#     except Exception as e:
+#         print(f"Error al borrar {submission.title}: {e}")
+
 for file in os.listdir(background_dir):
     if file.endswith(".jpg"):
         filepath = os.path.join(background_dir, file)
-        title = os.path.splitext(file)[0].replace("_", " ")
+        title = normalize_title(os.path.splitext(file)[0])
         if was_already_posted(reddit, subreddit_name, title):
             print(f"Ya fue publicado en Reddit: {title}")
             continue
