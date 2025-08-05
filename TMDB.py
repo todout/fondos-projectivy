@@ -39,6 +39,7 @@ current_year = datetime.now().year
 background_dir = "tmdbbackgrounds"
 excluded_genres = {"Animación", "Terror", "Sci-Fi & Fantasy"}
 
+
 def normalize_title(title):
     return " ".join(title.replace("_", " ").replace(date_str, "").split()).strip()
 
@@ -54,6 +55,7 @@ os.makedirs(background_dir, exist_ok=True)
 
 # Obtener lista de géneros en español
 genre_map = {}
+
 def load_genres():
     global genre_map
     genres = []
@@ -89,7 +91,18 @@ def format_duration(minutes):
     m = minutes % 60
     return f"{h}h {m}m" if h else f"{m}m"
 
-def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None):
+def get_logo_path(media_type, media_id):
+    endpoint = f"{url}{media_type}/{media_id}/images"
+    response = requests.get(endpoint, headers=headers).json()
+    logos = response.get('logos', [])
+    for logo in logos:
+        if logo.get("iso_639_1") == "es":
+            return "https://image.tmdb.org/t/p/original" + logo["file_path"]
+    if logos:
+        return "https://image.tmdb.org/t/p/original" + logos[0]["file_path"]
+    return None
+
+def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None):
     if not overview.strip():
         print(f"{title} ignorado por falta de descripción")
         return
@@ -113,7 +126,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
 
     draw = ImageDraw.Draw(bckg)
     font_title = ImageFont.truetype(truetype_path, size=190)
-    font_overview = ImageFont.truetype(truetype_path, size=66)
+    font_overview = ImageFont.truetype(truetype_path, size=78)
 
     shadow_color = "black"
     main_color = "white"
@@ -121,9 +134,9 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     metadata_color = "white"
 
     title_position = (200, 420)
-    overview_position = (210, 770)
+    overview_position = (210, 860)
     shadow_offset = 2
-    info_position = (210, 650)
+    info_position = (210, 720)
 
     wrapped_lines = textwrap.wrap(overview, width=70)
     truncated = len(wrapped_lines) > 7
@@ -131,7 +144,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     if truncated:
         wrapped_lines[-1] = wrapped_lines[-1].rstrip('.') + "..."
     wrapped_overview = "\n".join(wrapped_lines)
-    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=30, shadow_color=shadow_color, shadow_offset=shadow_offset)
+    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=42, shadow_color=shadow_color, shadow_offset=shadow_offset)
 
     if is_movie:
         additional_info = format_duration(duration)
@@ -146,12 +159,34 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     draw.text((info_position[0] + shadow_offset, info_position[1] + shadow_offset), info_text, font=font_overview, fill=shadow_color)
     draw.text(info_position, info_text, font=font_overview, fill=overview_color)
 
-    draw.text((title_position[0] + shadow_offset, title_position[1] + shadow_offset), title, font=font_title, fill=shadow_color)
-    draw.text(title_position, title, font=font_title, fill=main_color)
+    # Logo o título
+    logo_url = get_logo_path(media_type, media_id)
+    if logo_url:
+        try:
+            logo_img = Image.open(BytesIO(requests.get(logo_url).content)).convert("RGBA")
+            top_margin = 150
+            bottom_y = info_position[1] - 40
+            max_logo_height = bottom_y - top_margin
+            max_logo_width = 1600  # nuevo valor más ancho
+            ratio = min(max_logo_height / logo_img.height, max_logo_width / logo_img.width)
+            new_width = int(logo_img.width * ratio)
+            new_height = int(logo_img.height * ratio)
+            logo_img = logo_img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+            logo_x = info_position[0] + 10 + (max_logo_width - new_width) // 2
+            logo_y = bottom_y - new_height - 20
+            bckg.paste(logo_img, (logo_x, logo_y), logo_img)
+        except Exception as e:
+            print(f"Error cargando logo: {e}")
+            draw.text((title_position[0] + shadow_offset, title_position[1] + shadow_offset), title, font=font_title, fill=shadow_color)
+            draw.text(title_position, title, font=font_title, fill=main_color)
+    else:
+        draw.text((title_position[0] + shadow_offset, title_position[1] + shadow_offset), title, font=font_title, fill=shadow_color)
+        draw.text(title_position, title, font=font_title, fill=main_color)
 
     filename = os.path.join(background_dir, f"{clean_filename(title)}.jpg")
     bckg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
+
 
 # Obtener trending
 def get_trending(media_type):
@@ -181,7 +216,9 @@ for movie in get_trending("movie"):
         genre_ids=movie.get('genre_ids', []),
         year=year,
         rating=round(movie.get('vote_average', 0), 1),
-        duration=details.get('runtime', 'N/A')
+        duration=details.get('runtime', 'N/A'),
+        media_type="movie",
+        media_id=movie['id']
     )
 
 # Procesar series
@@ -198,7 +235,9 @@ for tv in get_trending("tv"):
         genre_ids=tv.get('genre_ids', []),
         year=year,
         rating=round(tv.get('vote_average', 0), 1),
-        seasons=details.get('number_of_seasons', 0)
+        seasons=details.get('number_of_seasons', 0),
+        media_type="tv",
+        media_id=tv['id']
     )
 
 # Subir a Reddit
@@ -219,8 +258,7 @@ reddit = praw.Reddit(
 subreddit_name = "IMDB_esp"
 subreddit = reddit.subreddit(subreddit_name)
 
-# BORRAR POSTEOS EXISTENTES EN REDDIT (ejecutar una sola vez y luego comentar)
-#for submission in reddit.subreddit(subreddit_name).new(limit=100):
+# for submission in reddit.subreddit(subreddit_name).new(limit=100):
 #     try:
 #         submission.delete()
 #         print(f"Borrado: {submission.title}")
