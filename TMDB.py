@@ -39,7 +39,6 @@ current_year = datetime.now().year
 background_dir = "tmdbbackgrounds"
 excluded_genres = {"Animación", "Terror", "Sci-Fi & Fantasy"}
 
-
 def normalize_title(title):
     return " ".join(title.replace("_", " ").replace(date_str, "").split()).strip()
 
@@ -95,12 +94,39 @@ def get_logo_path(media_type, media_id):
     endpoint = f"{url}{media_type}/{media_id}/images"
     response = requests.get(endpoint, headers=headers).json()
     logos = response.get('logos', [])
-    for logo in logos:
-        if logo.get("iso_639_1") == "es":
-            return "https://image.tmdb.org/t/p/original" + logo["file_path"]
-    if logos:
-        return "https://image.tmdb.org/t/p/original" + logos[0]["file_path"]
-    return None
+    
+    # Filtrar por idioma
+    es_logos = [l for l in logos if l.get("iso_639_1") == "es"]
+    en_logos = [l for l in logos if l.get("iso_639_1") == "en"]
+
+    def avg_luminance(logo_path):
+        try:
+            logo_url = "https://image.tmdb.org/t/p/original" + logo_path
+            logo_img = Image.open(BytesIO(requests.get(logo_url).content)).convert("RGBA")
+            logo_img = logo_img.resize((100, 100))
+            pixels = list(logo_img.getdata())
+            return sum((0.299*r + 0.587*g + 0.114*b) for r, g, b, a in pixels if a > 0) / len(pixels)
+        except:
+            return 0
+
+    def get_best_logo(candidates):
+        sorted_logos = sorted(candidates, key=lambda l: l['width'] / l['height'], reverse=True)
+        top_logos = sorted_logos[:2]
+        if not top_logos:
+            return None
+        if len(top_logos) == 1:
+            return top_logos[0]['file_path']
+        lum1 = avg_luminance(top_logos[0]['file_path'])
+        lum2 = avg_luminance(top_logos[1]['file_path'])
+        return top_logos[0]['file_path'] if lum1 >= lum2 else top_logos[1]['file_path']
+
+    # Preferir español, si no hay usar inglés
+    if es_logos:
+        return get_best_logo(es_logos)
+    elif en_logos:
+        return get_best_logo(en_logos)
+    else:
+        return None
 
 def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None):
     if not overview.strip():
@@ -126,6 +152,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
 
     draw = ImageDraw.Draw(bckg)
     font_title = ImageFont.truetype(truetype_path, size=190)
+    font_info = ImageFont.truetype(truetype_path, size=60)
     font_overview = ImageFont.truetype(truetype_path, size=78)
 
     shadow_color = "black"
@@ -144,7 +171,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     if truncated:
         wrapped_lines[-1] = wrapped_lines[-1].rstrip('.') + "..."
     wrapped_overview = "\n".join(wrapped_lines)
-    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=42, shadow_color=shadow_color, shadow_offset=shadow_offset)
+    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=16, shadow_color=shadow_color, shadow_offset=shadow_offset)
 
     if is_movie:
         additional_info = format_duration(duration)
@@ -156,18 +183,18 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     year_text = str(year)[:4]
     info_text = f"{genre_text}  •  {year_text}  •  {additional_info}  •  {rating_text}"
 
-    draw.text((info_position[0] + shadow_offset, info_position[1] + shadow_offset), info_text, font=font_overview, fill=shadow_color)
-    draw.text(info_position, info_text, font=font_overview, fill=overview_color)
+    draw.text((info_position[0] + shadow_offset, info_position[1] + shadow_offset), info_text, font=font_info, fill=shadow_color)
+    draw.text(info_position, info_text, font=font_info, fill=overview_color)
 
-    # Logo o título
-    logo_url = get_logo_path(media_type, media_id)
-    if logo_url:
+    logo_path = get_logo_path(media_type, media_id)
+    if logo_path:
         try:
+            logo_url = "https://image.tmdb.org/t/p/original" + logo_path
             logo_img = Image.open(BytesIO(requests.get(logo_url).content)).convert("RGBA")
             top_margin = 150
             bottom_y = info_position[1] - 40
             max_logo_height = bottom_y - top_margin
-            max_logo_width = 1600  # nuevo valor más ancho
+            max_logo_width = 1600
             ratio = min(max_logo_height / logo_img.height, max_logo_width / logo_img.width)
             new_width = int(logo_img.width * ratio)
             new_height = int(logo_img.height * ratio)
@@ -258,12 +285,12 @@ reddit = praw.Reddit(
 subreddit_name = "IMDB_esp"
 subreddit = reddit.subreddit(subreddit_name)
 
-# for submission in reddit.subreddit(subreddit_name).new(limit=100):
-#     try:
-#         submission.delete()
-#         print(f"Borrado: {submission.title}")
-#     except Exception as e:
-#         print(f"Error al borrar {submission.title}: {e}")
+for submission in reddit.subreddit(subreddit_name).new(limit=100):
+    try:
+         submission.delete()
+         print(f"Borrado: {submission.title}")
+    except Exception as e:
+         print(f"Error al borrar {submission.title}: {e}")
 
 for file in os.listdir(background_dir):
     if file.endswith(".jpg"):
