@@ -1,306 +1,294 @@
 import requests
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import os
-import shutil
-from urllib.request import urlopen
 import textwrap
-from datetime import datetime, timedelta
+from datetime import datetime
 import praw
-import time
 from dotenv import load_dotenv
+
+# Intentar importar traductor, si falla lo desactivamos
+try:
+    from googletrans import Translator
+    translator = Translator()
+except ImportError:
+    translator = None
 
 # Cargar variables de entorno desde .env
 load_dotenv()
 
-# Base URL for the API
-url = "https://api.themoviedb.org/3/"
-
-# Set your TMDB API Read Access Token key here
+# Base URL de la API de TMDB
+tmdb_url = "https://api.themoviedb.org/3/"
 headers = {
     "accept": "application/json",
     "Authorization": f"Bearer {os.getenv('TMDB_TOKEN')}"
 }
 
-# Load font
-truetype_path = 'Roboto-Light.ttf'
-if not os.path.exists(truetype_path):
-    truetype_url = 'https://github.com/googlefonts/roboto/raw/main/src/hinted/Roboto-Light.ttf'
-    response = requests.get(truetype_url, timeout=10)
-    if response.status_code == 200:
-        with open(truetype_path, 'wb') as f:
-            f.write(response.content)
-
 # Configuración
 date_str = datetime.now().strftime("%Y%m%d")
-numberofmovies = 5
-numberoftvshows = 5
+numberofmovies = 2
+numberoftvshows = 2
 current_year = datetime.now().year
 background_dir = "tmdbbackgrounds"
-excluded_genres = {"Animación", "Terror", "Sci-Fi & Fantasy"}
 
+# Exclusiones
+genre_map = {}
+excluded_genres = {"Animación", "Ciencia ficción", "Terror", "Sci-Fi & Fantasy"}
+excluded_languages = {"zh", "ko"}  # idioma original a excluir: chino y coreano
+excluded_movies = set()    # IDs de películas a excluir
+excluded_tv = set()        # IDs de series a excluir
+
+# Normalizar título para filename y Reddit title
 def normalize_title(title):
     return " ".join(title.replace("_", " ").replace(date_str, "").split()).strip()
 
-# Eliminar imágenes anteriores
-i = 0
-if os.path.exists(background_dir):
-    for file in os.listdir(background_dir):
-        if file.endswith(".jpg"):
-            os.remove(os.path.join(background_dir, file))
-            i += 1
-    print(f"Se eliminaron {i} imágenes previas")
+# Crear directorio de fondos
 os.makedirs(background_dir, exist_ok=True)
 
-# Obtener lista de géneros en español
-genre_map = {}
-
+# Cargar géneros en español
 def load_genres():
     global genre_map
     genres = []
-    for media_type in ["movie", "tv"]:
-        response = requests.get(f"{url}genre/{media_type}/list?language=es-ES", headers=headers)
-        if response.status_code == 200:
-            genres += response.json().get("genres", [])
+    for mtype in ['movie', 'tv']:
+        r = requests.get(f"{tmdb_url}genre/{mtype}/list?language=es-ES", headers=headers)
+        if r.status_code == 200:
+            genres.extend(r.json().get('genres', []))
     genre_map = {g['id']: g['name'] for g in genres}
-    # Corrección de traducciones
-    if "Suspense" in genre_map.values():
-        for key, val in genre_map.items():
-            if val == "Suspense":
-                genre_map[key] = "Suspenso"
+    # Ajuste de traducción de Suspense
+    for gid, name in list(genre_map.items()):
+        if name == 'Suspense':
+            genre_map[gid] = 'Suspenso'
 
-# Funciones auxiliares
-def resize_image(image, height):
-    ratio = height / image.height
-    width = int(image.width * ratio)
-    return image.resize((width, height))
+from PIL import Image as PILImage
 
-def clean_filename(filename):
-    return "".join(c if c.isalnum() or c in "._-" else "_" for c in filename)
+def resize_image(img, height):
+    ratio = height / img.height
+    return img.resize((int(img.width * ratio), height))
 
-def draw_multiline_text(draw, position, text, font, fill, spacing, shadow_color=None, shadow_offset=2):
+def clean_filename(name):
+    return ''.join(c if c.isalnum() or c in '._-' else '_' for c in name)
+
+def draw_multiline_text(draw, pos, text, font, fill, spacing, shadow_color=None, shadow_offset=2):
     if shadow_color:
-        draw.multiline_text((position[0] + shadow_offset, position[1] + shadow_offset), text, font=font, fill=shadow_color, spacing=spacing)
-    draw.multiline_text(position, text, font=font, fill=fill, spacing=spacing)
+        draw.multiline_text((pos[0]+shadow_offset, pos[1]+shadow_offset), text, font=font, fill=shadow_color, spacing=spacing)
+    draw.multiline_text(pos, text, font=font, fill=fill, spacing=spacing)
 
 def format_duration(minutes):
     if not isinstance(minutes, int):
-        return ""
-    h = minutes // 60
-    m = minutes % 60
+        return ''
+    h, m = divmod(minutes, 60)
     return f"{h}h {m}m" if h else f"{m}m"
 
-def get_logo_path(media_type, media_id):
-    endpoint = f"{url}{media_type}/{media_id}/images"
-    response = requests.get(endpoint, headers=headers).json()
-    logos = response.get('logos', [])
-    
-    # Filtrar por idioma
-    es_logos = [l for l in logos if l.get("iso_639_1") == "es"]
-    en_logos = [l for l in logos if l.get("iso_639_1") == "en"]
-
-    def avg_luminance(logo_path):
+def get_logo_path(mtype, mid):
+    r = requests.get(f"{tmdb_url}{mtype}/{mid}/images", headers=headers)
+    if r.status_code != 200:
+        return None
+    logos = r.json().get('logos', [])
+    es = [l for l in logos if l.get('iso_639_1')=='es']
+    en = [l for l in logos if l.get('iso_639_1')=='en']
+    candidates = es or en
+    if not candidates:
+        return None
+    sorted_by_ratio = sorted(candidates, key=lambda l: l['width']/l['height'], reverse=True)[:2]
+    def luminance(path):
         try:
-            logo_url = "https://image.tmdb.org/t/p/original" + logo_path
-            logo_img = Image.open(BytesIO(requests.get(logo_url).content)).convert("RGBA")
-            logo_img = logo_img.resize((100, 100))
-            pixels = list(logo_img.getdata())
-            return sum((0.299*r + 0.587*g + 0.114*b) for r, g, b, a in pixels if a > 0) / len(pixels)
+            data = requests.get('https://image.tmdb.org/t/p/original'+path).content
+            img = PILImage.open(BytesIO(data)).convert('RGBA').resize((50,50))
+            pix = [p for p in img.getdata() if p[3]>0]
+            return sum(0.299*r+0.587*g+0.114*b for r,g,b,a in pix)/len(pix)
         except:
             return 0
+    if len(sorted_by_ratio) == 1:
+        return sorted_by_ratio[0]['file_path']
+    best = sorted_by_ratio[0] if luminance(sorted_by_ratio[0]['file_path']) >= luminance(sorted_by_ratio[1]['file_path']) else sorted_by_ratio[1]
+    return best['file_path']
 
-    def get_best_logo(candidates):
-        sorted_logos = sorted(candidates, key=lambda l: l['width'] / l['height'], reverse=True)
-        top_logos = sorted_logos[:2]
-        if not top_logos:
-            return None
-        if len(top_logos) == 1:
-            return top_logos[0]['file_path']
-        lum1 = avg_luminance(top_logos[0]['file_path'])
-        lum2 = avg_luminance(top_logos[1]['file_path'])
-        return top_logos[0]['file_path'] if lum1 >= lum2 else top_logos[1]['file_path']
-
-    # Preferir español, si no hay usar inglés
-    if es_logos:
-        return get_best_logo(es_logos)
-    elif en_logos:
-        return get_best_logo(en_logos)
-    else:
-        return None
-
+# Procesar y componer imagen
 def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None):
+    # Evitar regenerar si ya existe
+    filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+    if os.path.exists(filename):
+        print(f"Imagen ya existe: {filename}")
+        return False
+    # Descripción: intentar español o traducir inglés
+    if not overview.strip():
+        det = requests.get(f"{tmdb_url}{media_type}/{media_id}?language=es-ES", headers=headers)
+        if det.status_code == 200:
+            overview = det.json().get('overview','') or overview
+    if not overview.strip():
+        det = requests.get(f"{tmdb_url}{media_type}/{media_id}?language=en-US", headers=headers)
+        if det.status_code == 200:
+            overview_en = det.json().get('overview','')
+            if overview_en and translator:
+                overview = translator.translate(overview_en, dest='es').text
+            else:
+                overview = overview_en
     if not overview.strip():
         print(f"{title} ignorado por falta de descripción")
-        return
-
-    genre_names = [genre_map.get(gid, str(gid)) for gid in genre_ids]
-    if any(g in excluded_genres for g in genre_names):
+        return False
+    # Filtrar géneros e IDs
+    if any(genre_map.get(g,'') in excluded_genres for g in genre_ids):
         print(f"{title} ignorado por género excluido")
-        return
-
-    response = requests.get(image_url, timeout=10)
-    if response.status_code != 200:
-        print(f"Failed to download image for {title}")
-        return
-
-    image = Image.open(BytesIO(response.content))
-    image = resize_image(image, 1500)
-    bckg = Image.open("bckg.png")
-    overlay = Image.open("overlay.png")
-    bckg.paste(image, (1175, 0))
-    bckg.paste(overlay, (1175, 0), overlay)
-
-    draw = ImageDraw.Draw(bckg)
-    font_title = ImageFont.truetype(truetype_path, size=190)
-    font_info = ImageFont.truetype(truetype_path, size=60)
-    font_overview = ImageFont.truetype(truetype_path, size=78)
-
-    shadow_color = "black"
-    main_color = "white"
-    overview_color = (150, 150, 150)
-    metadata_color = "white"
-
-    title_position = (200, 420)
-    overview_position = (210, 860)
-    shadow_offset = 2
-    info_position = (210, 720)
-
-    wrapped_lines = textwrap.wrap(overview, width=70)
-    truncated = len(wrapped_lines) > 7
-    wrapped_lines = wrapped_lines[:7]
-    if truncated:
-        wrapped_lines[-1] = wrapped_lines[-1].rstrip('.') + "..."
-    wrapped_overview = "\n".join(wrapped_lines)
-    draw_multiline_text(draw, overview_position, wrapped_overview, font=font_overview, fill=metadata_color, spacing=16, shadow_color=shadow_color, shadow_offset=shadow_offset)
-
-    if is_movie:
-        additional_info = format_duration(duration)
-    else:
-        additional_info = f"{seasons} {'Temporada' if seasons == 1 else 'Temporadas'}"
-
-    genre_text = ", ".join(genre_names)
-    rating_text = "TMDB: " + str(rating)
-    year_text = str(year)[:4]
-    info_text = f"{genre_text}  •  {year_text}  •  {additional_info}  •  {rating_text}"
-
-    draw.text((info_position[0] + shadow_offset, info_position[1] + shadow_offset), info_text, font=font_info, fill=shadow_color)
-    draw.text(info_position, info_text, font=font_info, fill=overview_color)
-
+        return False
+    if media_type=='movie' and media_id in excluded_movies:
+        print(f"{title} ignorado (película excluida)")
+        return False
+    if media_type=='tv' and media_id in excluded_tv:
+        print(f"{title} ignorado (serie excluida)")
+        return False
+    # Descargar imagen
+    r = requests.get(image_url, timeout=10)
+    if r.status_code != 200:
+        print(f"Error al descargar imagen de {title}")
+        return False
+    img = Image.open(BytesIO(r.content))
+    # Redimensionar y componer fondos
+    img = resize_image(img, 1500)
+    bg = Image.open('bckg.png')
+    ov = Image.open('overlay.png')
+    bg.paste(img, (1175,0))
+    bg.paste(ov, (1175,0), ov)
+    draw = ImageDraw.Draw(bg)
+    font_t = ImageFont.truetype('Roboto-Light.ttf',190)
+    font_i = ImageFont.truetype('Roboto-Light.ttf',60)
+    font_o = ImageFont.truetype('Roboto-Light.ttf',78)
+    # Texto overview
+    lines = textwrap.wrap(overview,70)
+    if len(lines)>7:
+        lines = lines[:7]
+        lines[-1] += '...'
+    draw_multiline_text(draw,(210,860),'\n'.join(lines),font_o,(150,150,150),16,'black',2)
+    # Texto info
+    info_extra = format_duration(duration) if is_movie else f"{seasons} Temporada{'s' if seasons>1 else ''}"
+    genre_names = [genre_map.get(g,'') for g in genre_ids]
+    info = f"{', '.join(genre_names)}  •  {year}  •  {info_extra}  •  TMDB: {rating}"
+    draw.text((212,722), info, (150,150,150), font_i)
+    # Logo TMDB
     logo_path = get_logo_path(media_type, media_id)
     if logo_path:
         try:
-            logo_url = "https://image.tmdb.org/t/p/original" + logo_path
-            logo_img = Image.open(BytesIO(requests.get(logo_url).content)).convert("RGBA")
-            top_margin = 150
-            bottom_y = info_position[1] - 40
-            max_logo_height = bottom_y - top_margin
-            max_logo_width = 1600
-            ratio = min(max_logo_height / logo_img.height, max_logo_width / logo_img.width)
-            new_width = int(logo_img.width * ratio)
-            new_height = int(logo_img.height * ratio)
-            logo_img = logo_img.resize((new_width, new_height), Image.Resampling.LANCZOS)
-            logo_x = info_position[0] + 10 + (max_logo_width - new_width) // 2
-            logo_y = bottom_y - new_height - 20
-            bckg.paste(logo_img, (logo_x, logo_y), logo_img)
-        except Exception as e:
-            print(f"Error cargando logo: {e}")
-            draw.text((title_position[0] + shadow_offset, title_position[1] + shadow_offset), title, font=font_title, fill=shadow_color)
-            draw.text(title_position, title, font=font_title, fill=main_color)
+            data = requests.get('https://image.tmdb.org/t/p/original'+logo_path).content
+            logo_img = Image.open(BytesIO(data)).convert('RGBA')
+            w,h = logo_img.size
+            max_h = 720-40-150
+            max_w = 1600
+            ratio = min(max_h/h, max_w/w)
+            logo_img = logo_img.resize((int(w*ratio),int(h*ratio)), Image.Resampling.LANCZOS)
+            x = 210+10 + (max_w-logo_img.width)//2
+            y = 720-40-20-logo_img.height
+            bg.paste(logo_img, (x,y), logo_img)
+        except:
+            draw.text((202,418), title, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
     else:
-        draw.text((title_position[0] + shadow_offset, title_position[1] + shadow_offset), title, font=font_title, fill=shadow_color)
-        draw.text(title_position, title, font=font_title, fill=main_color)
-
-    filename = os.path.join(background_dir, f"{clean_filename(title)}.jpg")
-    bckg.convert('RGB').save(filename)
+        draw.text((202,418), title, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
+    bg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
+    return True
 
+# Función paginada para trending
 
-# Obtener trending
-def get_trending(media_type):
-    endpoint = f"{url}trending/{media_type}/week?language=es-ES"
-    return requests.get(endpoint, headers=headers).json().get("results", [])
+def get_trending_expanded(media_type, max_results=60):
+    results = []
+    page = 1
+    while len(results) < max_results:
+        r = requests.get(f"{tmdb_url}trending/{media_type}/week?language=es-ES&page={page}", headers=headers)
+        if r.status_code != 200:
+            break
+        batch = r.json().get('results', [])
+        if not batch:
+            break
+        results.extend(batch)
+        page += 1
+    return results
 
-def get_movie_details(movie_id):
-    return requests.get(f"{url}movie/{movie_id}?language=es-ES", headers=headers).json()
+# Detalles de movie/tv
+def get_movie_details(m_id):
+    return requests.get(f"{tmdb_url}movie/{m_id}?language=es-ES", headers=headers).json()
 
-def get_tv_details(tv_id):
-    return requests.get(f"{url}tv/{tv_id}?language=es-ES", headers=headers).json()
+def get_tv_details(t_id):
+    return requests.get(f"{tmdb_url}tv/{t_id}?language=es-ES", headers=headers).json()
 
-# Cargar géneros
-load_genres()
-
-# Procesar películas
-for movie in get_trending("movie"):
-    year = movie.get('release_date', '')[:4]
-    if str(current_year) != year:
-        continue
-    details = get_movie_details(movie['id'])
-    process_image(
-        f"https://image.tmdb.org/t/p/original{movie['backdrop_path']}",
-        movie['title'],
-        movie['overview'],
-        is_movie=True,
-        genre_ids=movie.get('genre_ids', []),
-        year=year,
-        rating=round(movie.get('vote_average', 0), 1),
-        duration=details.get('runtime', 'N/A'),
-        media_type="movie",
-        media_id=movie['id']
-    )
-
-# Procesar series
-for tv in get_trending("tv"):
-    year = tv.get('first_air_date', '')[:4]
-    if str(current_year) != year:
-        continue
-    details = get_tv_details(tv['id'])
-    process_image(
-        f"https://image.tmdb.org/t/p/original{tv['backdrop_path']}",
-        tv['name'],
-        tv['overview'],
-        is_movie=False,
-        genre_ids=tv.get('genre_ids', []),
-        year=year,
-        rating=round(tv.get('vote_average', 0), 1),
-        seasons=details.get('number_of_seasons', 0),
-        media_type="tv",
-        media_id=tv['id']
-    )
-
-# Subir a Reddit
-def was_already_posted(reddit, subreddit_name, title):
-    for submission in reddit.subreddit(subreddit_name).new(limit=25):
-        if submission.title.strip().lower() == title.strip().lower():
+# Chequear duplicados en Reddit
+def was_already_posted(subreddit, title, limit=1000):
+    for sub in subreddit.new(limit=limit):
+        if sub.title.strip().lower() == title.strip().lower():
             return True
     return False
 
-reddit = praw.Reddit(
-    client_id=os.getenv("REDDIT_CLIENT_ID"),
-    client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-    user_agent="tmdb uploader by u/" + os.getenv("REDDIT_USERNAME"),
-    username=os.getenv("REDDIT_USERNAME"),
-    password=os.getenv("REDDIT_PASSWORD")
-)
+# Main completo para trending
 
-subreddit_name = "IMDB_esp"
-subreddit = reddit.subreddit(subreddit_name)
+def main():
+    load_genres()
+    reddit = praw.Reddit(
+        client_id=os.getenv('REDDIT_CLIENT_ID'),
+        client_secret=os.getenv('REDDIT_CLIENT_SECRET'),
+        user_agent="tmdb uploader by u/" + os.getenv('REDDIT_USERNAME'),
+        username=os.getenv('REDDIT_USERNAME'),
+        password=os.getenv('REDDIT_PASSWORD')
+    )
+    subreddit = reddit.subreddit(os.getenv('REDDIT_SUBREDDIT','IMDB_esp'))
 
-for submission in reddit.subreddit(subreddit_name).new(limit=100):
-    try:
-         submission.delete()
-         print(f"Borrado: {submission.title}")
-    except Exception as e:
-         print(f"Error al borrar {submission.title}: {e}")
-
-for file in os.listdir(background_dir):
-    if file.endswith(".jpg"):
-        filepath = os.path.join(background_dir, file)
-        title = normalize_title(os.path.splitext(file)[0])
-        if was_already_posted(reddit, subreddit_name, title):
-            print(f"Ya fue publicado en Reddit: {title}")
+    # Películas trending
+    processed = set()
+    count_m = 0
+    for m in get_trending_expanded('movie', max_results=60):
+        if count_m >= numberofmovies:
+            break
+        mid = m.get('id')
+        if mid in processed or mid in excluded_movies:
             continue
-        try:
-            subreddit.submit_image(title, filepath)
-            print(f"Subido a Reddit: {title}")
-        except Exception as e:
-            print(f"Error subiendo {title}: {e}")
+        processed.add(mid)
+        if m.get('original_language') in excluded_languages:
+            continue
+        year = m.get('release_date','')[:4]
+        if year != str(current_year):
+            continue
+        details = get_movie_details(mid)
+        ok = process_image(
+            f"https://image.tmdb.org/t/p/original{m.get('backdrop_path')}",
+            m.get('title',''), m.get('overview',''), True,
+            m.get('genre_ids',[]), year, round(m.get('vote_average',0),1),
+            duration=details.get('runtime'), media_type='movie', media_id=mid
+        )
+        if ok:
+            count_m += 1
+            title_norm = normalize_title(m.get('title',''))
+            if not was_already_posted(subreddit, title_norm):
+                subreddit.submit_image(title_norm, os.path.join(background_dir, clean_filename(m.get('title',''))+'.jpg'))
+                print(f"Subido: {title_norm}")
+    if count_m < numberofmovies:
+        print(f"Solo se generaron {count_m} de {numberofmovies} películas solicitadas")
+
+    # Series trending
+    processed_tv = set()
+    count_t = 0
+    for tv in get_trending_expanded('tv', max_results=60):
+        if count_t >= numberoftvshows:
+            break
+        tid = tv.get('id')
+        if tid in processed_tv or tid in excluded_tv:
+            continue
+        processed_tv.add(tid)
+        if tv.get('original_language') in excluded_languages:
+            continue
+        year = tv.get('first_air_date','')[:4]
+        if year != str(current_year):
+            continue
+        details = get_tv_details(tid)
+        ok = process_image(
+            f"https://image.tmdb.org/t/p/original{tv.get('backdrop_path')}",
+            tv.get('name',''), tv.get('overview',''), False,
+            tv.get('genre_ids',[]), year, round(tv.get('vote_average',0),1),
+            seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid
+        )
+        if ok:
+            count_t += 1
+            title_norm = normalize_title(tv.get('name',''))
+            if not was_already_posted(subreddit, title_norm):
+                subreddit.submit_image(title_norm, os.path.join(background_dir, clean_filename(tv.get('name',''))+'.jpg'))
+                print(f"Subido: {title_norm}")
+    if count_t < numberoftvshows:
+        print(f"Solo se generaron {count_t} de {numberoftvshows} series solicitadas")
+
+if __name__ == '__main__':
+    main()
