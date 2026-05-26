@@ -304,35 +304,31 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     font_i = ImageFont.truetype('Roboto-Light.ttf', 60)
     
     # Renderizado dinámico de la sinopsis y de la razón de Gemini
+    text_to_show = overview.strip()
     if reason:
-        font_o = ImageFont.truetype('Roboto-Light.ttf', 46)
-        paragraphs = [overview.strip(), f"Por qué te gustará: {reason.strip()}"]
-        wrapped_lines = []
-        for p in paragraphs:
-            if not p:
-                continue
-            wrapped_lines.extend(textwrap.wrap(p, 85))
-            if p != paragraphs[-1]:
-                wrapped_lines.append("") # Línea vacía entre bloques
-        # Limitar a máximo 6 líneas
-        if len(wrapped_lines) > 6:
-            wrapped_lines = wrapped_lines[:6]
-            if wrapped_lines[-1] == "":
-                wrapped_lines = wrapped_lines[:-1]
-            else:
-                wrapped_lines[-1] += '...'
-        overview_text = '\n'.join(wrapped_lines)
+        text_to_show += f"\n{reason.strip()}"
+        
+    paragraphs = text_to_show.split('\n')
+    wrapped_lines = []
+    for p in paragraphs:
+        if not p.strip():
+            continue
+        wrapped_lines.extend(textwrap.wrap(p, 70))
+        
+    # Limitar a máximo 4 líneas para evitar salir de la pantalla
+    if len(wrapped_lines) > 4:
+        wrapped_lines = wrapped_lines[:4]
+        wrapped_lines[-1] += '...'
+        
+    overview_text = '\n'.join(wrapped_lines)
+    font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
+    line_spacing = 16
+    
+    # Decidir la posición y de inicio según la cantidad de líneas
+    if len(wrapped_lines) >= 3:
         overview_pos = (210, 800)
-        line_spacing = 10
     else:
-        font_o = ImageFont.truetype('Roboto-Light.ttf', 70)
-        wrapped_lines = textwrap.wrap(overview, 70)
-        if len(wrapped_lines) > 3:
-            wrapped_lines = wrapped_lines[:3]
-            wrapped_lines[-1] += '...'
-        overview_text = '\n'.join(wrapped_lines)
         overview_pos = (210, 860)
-        line_spacing = 16
         
     draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), line_spacing, 'black', 2)
     
