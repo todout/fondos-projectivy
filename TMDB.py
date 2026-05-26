@@ -303,7 +303,11 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     font_t = ImageFont.truetype('Roboto-Light.ttf', 190)
     font_i = ImageFont.truetype('Roboto-Light.ttf', 60)
     
-    # Renderizado dinámico de la sinopsis y de la razón de Gemini
+    # Renderizado de la sinopsis (Siempre a 860, con tamaño 78 y espaciado original 16)
+    font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
+    line_spacing = 16
+    overview_pos = (210, 860)
+    
     text_to_show = overview.strip()
     if reason:
         text_to_show += f"\n{reason.strip()}"
@@ -315,21 +319,12 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
             continue
         wrapped_lines.extend(textwrap.wrap(p, 70))
         
-    # Limitar a máximo 4 líneas para evitar salir de la pantalla
-    if len(wrapped_lines) > 4:
-        wrapped_lines = wrapped_lines[:4]
+    # Limitar a máximo 3 líneas para garantizar que entre perfectamente en el espacio original
+    if len(wrapped_lines) > 3:
+        wrapped_lines = wrapped_lines[:3]
         wrapped_lines[-1] += '...'
         
     overview_text = '\n'.join(wrapped_lines)
-    font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
-    line_spacing = 16
-    
-    # Decidir la posición y de inicio según la cantidad de líneas
-    if len(wrapped_lines) >= 3:
-        overview_pos = (210, 800)
-    else:
-        overview_pos = (210, 860)
-        
     draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), line_spacing, 'black', 2)
     
     # Texto info (Solo mostrar TMDB rating si es mayor a 0.0)
@@ -403,14 +398,14 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     return True
 
 # Procesar película/serie recomendada a partir de ID
-def process_recommended_item(item_id, media_type, reason=None):
+def process_recommended_item(item_id, media_type, custom_overview=None):
     details = tmdb_get(f"{media_type}/{item_id}", {"language": "es-ES"})
     if not details:
         return False
         
     is_movie = (media_type == 'movie')
     title = details.get('title') if is_movie else details.get('name')
-    overview = details.get('overview', '')
+    overview = custom_overview if custom_overview else details.get('overview', '')
     genre_ids = [g['id'] for g in details.get('genres', [])]
     date_key = 'release_date' if is_movie else 'first_air_date'
     year = details.get(date_key, '')[:4]
@@ -437,7 +432,7 @@ def process_recommended_item(item_id, media_type, reason=None):
         seasons=seasons,
         media_type=media_type,
         media_id=item_id,
-        reason=reason
+        reason=None
     )
 
 # Obtener lista amplia de candidatos
@@ -544,12 +539,27 @@ Instrucciones de recomendación:
 5. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
 {{
   "movies": [
-    {{"id": <tmdb_id>, "title": "<titulo>", "reason": "<breve explicación de por qué coincide con sus gustos>"}}
+    {{
+      "id": <tmdb_id>, 
+      "title": "<titulo>", 
+      "combined_text": "<sinopsis_muy_breve_de_la_trama>\\n<razon_de_la_recomendacion_segun_sus_gustos>"
+    }}
   ],
   "tv": [
-    {{"id": <tmdb_id>, "title": "<titulo>", "reason": "<breve explicación de por qué coincide con sus gustos>"}}
+    {{
+      "id": <tmdb_id>, 
+      "title": "<titulo>", 
+      "combined_text": "<sinopsis_muy_breve_de_la_trama>\\n<razon_de_la_recomendacion_segun_sus_gustos>"
+    }}
   ]
 }}
+Nota crítica sobre el campo "combined_text":
+- Debe tener como MÁXIMO 200 caracteres en total.
+- Debe contener dos párrafos muy concisos separados por un único salto de línea (\\n).
+- El primer párrafo resume la trama de forma ultra-breve (ej: 'Un hombre es encarcelado de forma injusta y planea una fuga magistral.').
+- El segundo párrafo explica por qué le gustará en base a sus LIKES (ej: 'Te gustará por su suspenso policial al estilo de El secreto de sus ojos.').
+- Ambos párrafos combinados (incluyendo el salto de línea) deben ser tan cortos que quepan en un máximo de 3 líneas al ser dibujados a tamaño de letra grande en la pantalla (máximo 200 caracteres en total).
+
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
 """
     
@@ -638,16 +648,16 @@ def main():
         for rec in rec_movies:
             mid = rec.get('id')
             title = rec.get('title')
-            reason = rec.get('reason', '')
+            combined_text = rec.get('combined_text', '')
             print(f"Película elegida: {title} (ID: {mid})")
-            if reason:
-                print(f"  Razón: {reason}")
+            if combined_text:
+                print(f"  Texto combinado:\n{combined_text}")
                 
             if mid in excluded_movies:
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(mid, 'movie', reason=reason)
+            ok = process_recommended_item(mid, 'movie', custom_overview=combined_text)
             if ok:
                 success_movies += 1
                 title_norm = normalize_title(title)
@@ -664,16 +674,16 @@ def main():
         for rec in rec_tv:
             tid = rec.get('id')
             title = rec.get('title')
-            reason = rec.get('reason', '')
+            combined_text = rec.get('combined_text', '')
             print(f"Serie elegida: {title} (ID: {tid})")
-            if reason:
-                print(f"  Razón: {reason}")
+            if combined_text:
+                print(f"  Texto combinado:\n{combined_text}")
                 
             if tid in excluded_tv:
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(tid, 'tv', reason=reason)
+            ok = process_recommended_item(tid, 'tv', custom_overview=combined_text)
             if ok:
                 success_tv += 1
                 title_norm = normalize_title(title)
