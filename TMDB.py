@@ -312,7 +312,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     tmdb_desc = overview.strip()
     def format_combined(desc, rec_reason):
         if rec_reason:
-            return f"{desc}\nPor qué te gustará: {rec_reason.strip()}"
+            return f"{desc}\n{rec_reason.strip()}"
         return desc
 
     combined_text = format_combined(tmdb_desc, reason)
@@ -560,7 +560,7 @@ Instrucciones de recomendación:
       "id": <tmdb_id>, 
       "title": "<titulo>", 
       "short_overview": "<sinopsis_condensada_en_espanol>",
-      "reason": "<razon_de_la_recomendacion_segun_sus_gustos>"
+      "reason": "<motivo_de_recomendacion>"
     }}
   ],
   "tv": [
@@ -568,13 +568,17 @@ Instrucciones de recomendación:
       "id": <tmdb_id>, 
       "title": "<titulo>", 
       "short_overview": "<sinopsis_condensada_en_espanol>",
-      "reason": "<razon_de_la_recomendacion_segun_sus_gustos>"
+      "reason": "<motivo_de_recomendacion>"
     }}
   ]
 }}
 Nota crítica sobre los campos:
 - "short_overview" debe ser una sinopsis condensada de la trama en español, muy concisa y directa (máximo 150 caracteres).
-- "reason" debe ser una explicación de por qué le gustará según sus gustos descritos en LIKES (máximo 100 caracteres).
+- "reason" debe ser una explicación breve de por qué se recomienda o gustará (máximo 100 caracteres).
+  - No siempre tiene que relacionarla con una película que ya vio.
+  - Puede basarse en que la obra ganó algún premio importante (ej. Oscar, Goya, etc.), porque es tendencia o popular por algún motivo (ej. dirección, banda sonora, reparto), o porque encaja en su perfil de gustos (thrillers ingeniosos, suspenso, comedia negra).
+  - El texto debe escribirse directamente como la afirmación del motivo (ej: "Te encantará por su dirección ganadora del Oscar y su ritmo implacable." o "Es tendencia mundial por su sorprendente giro final y reparto estelar.").
+  - IMPORTANTE: No incluyas ningún prefijo del estilo "Por qué te gustará" ni "Te gustará" por defecto. Escribe el motivo directamente con naturalidad en español.
 - Mantén el lenguaje natural y atractivo en español.
 
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
