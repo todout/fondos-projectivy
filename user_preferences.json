@@ -1,0 +1,156 @@
+{
+  "likes": [
+    {
+      "id": 411088,
+      "title": "Contratiempo",
+      "genres": [
+        "Drama",
+        "Misterio",
+        "Suspense"
+      ],
+      "year": "2017"
+    },
+    {
+      "id": 408537,
+      "title": "El ciudadano ilustre",
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "year": "2016"
+    },
+    {
+      "id": 67884,
+      "title": "Un cuento chino",
+      "genres": [
+        "Comedia"
+      ],
+      "year": "2011"
+    },
+    {
+      "id": 47383,
+      "title": "El hombre de al lado",
+      "genres": [
+        "Drama",
+        "Suspense",
+        "Comedia"
+      ],
+      "year": "2009"
+    },
+    {
+      "id": 535692,
+      "title": "Mi obra maestra",
+      "genres": [
+        "Comedia"
+      ],
+      "year": "2018"
+    },
+    {
+      "id": 340075,
+      "title": "Sin retorno",
+      "genres": [
+        "Suspense",
+        "Acción"
+      ],
+      "year": "2009"
+    },
+    {
+      "id": 314572,
+      "title": "El patrón, radiografía de un crimen",
+      "genres": [
+        "Drama",
+        "Crimen"
+      ],
+      "year": "2014"
+    },
+    {
+      "id": 632618,
+      "title": "Crímenes de familia",
+      "genres": [
+        "Suspense",
+        "Crimen",
+        "Drama"
+      ],
+      "year": "2020"
+    },
+    {
+      "id": 574088,
+      "title": "El cuento de las comadrejas",
+      "genres": [
+        "Comedia",
+        "Misterio"
+      ],
+      "year": "2019"
+    },
+    {
+      "id": 25376,
+      "title": "El secreto de sus ojos",
+      "genres": [
+        "Misterio",
+        "Suspense",
+        "Drama"
+      ],
+      "year": "2009",
+      "media_type": "movie"
+    }
+  ],
+  "dislikes": [
+    {
+      "id": 13653,
+      "title": "El aura",
+      "genres": [
+        "Drama",
+        "Suspense"
+      ],
+      "year": "2005"
+    },
+    {
+      "id": 167963,
+      "title": "Tesis sobre un homicidio",
+      "genres": [
+        "Suspense",
+        "Drama"
+      ],
+      "year": "2013"
+    },
+    {
+      "id": 27092,
+      "title": "Plata quemada",
+      "genres": [
+        "Romance",
+        "Crimen"
+      ],
+      "year": "2000"
+    },
+    {
+      "id": 394374,
+      "title": "Al final del túnel",
+      "genres": [
+        "Crimen",
+        "Suspense"
+      ],
+      "year": "2016"
+    },
+    {
+      "id": 425942,
+      "title": "Nieve negra",
+      "genres": [
+        "Misterio",
+        "Drama",
+        "Crimen",
+        "Suspense"
+      ],
+      "year": "2017"
+    },
+    {
+      "id": 342163,
+      "title": "Sin hijos",
+      "genres": [
+        "Romance",
+        "Comedia"
+      ],
+      "year": "2015"
+    }
+  ],
+  "neutral": []
+}
