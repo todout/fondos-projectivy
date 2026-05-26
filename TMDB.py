@@ -1,6 +1,7 @@
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from PIL import Image as PILImage
+import unicodedata
 from io import BytesIO
 import os
 import json
@@ -36,6 +37,19 @@ background_dir = "tmdbbackgrounds"
 # Configuración de Gemini
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+
+# Descargar fuentes adicionales si faltan
+font_bold_path = 'Roboto-Black.ttf'
+if not os.path.exists(font_bold_path):
+    try:
+        print("Descargando fuente Roboto-Black.ttf...")
+        r_f = requests.get('https://github.com/googlefonts/roboto/raw/main/src/hinted/Roboto-Black.ttf', timeout=10)
+        if r_f.status_code == 200:
+            with open(font_bold_path, 'wb') as f_b:
+                f_b.write(r_f.content)
+            print("Fuente Roboto-Black.ttf descargada con éxito.")
+    except Exception as e:
+        print(f"Error descargando Roboto-Black: {e}")
 
 # Cargar Exclusiones Dinámicas
 exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Ciencia ficción, Terror, Sci-Fi & Fantasy')
@@ -151,6 +165,51 @@ def format_duration(minutes):
     h, m = divmod(minutes, 60)
     return f"{h}h {m}m" if h else f"{m}m"
 
+# Limpiar caracteres incompatibles con fuentes latinas para evitar cuadrados (tofu)
+def sanitize_title_font(text):
+    cleaned = []
+    for c in text:
+        o = ord(c)
+        # Permitir caracteres de bloques básicos de Europa y América (Latin extended, puntuación común, etc.)
+        if 32 <= o <= 500 or c.isspace() or c in ['–', '—', '’', '‘', '“', '”']:
+            cleaned.append(c)
+    result = "".join(cleaned).strip()
+    if not result:
+        return "Recomendación"
+    return result
+
+# Extraer el color dominante vibrante de la imagen para el título fallback
+def extract_accent_color(img):
+    try:
+        small_img = img.resize((100, 100))
+        paletted = small_img.convert('P', palette=PILImage.Palette.ADAPTIVE, colors=16)
+        palette = paletted.getpalette()
+        color_counts = paletted.getcolors()
+        
+        candidates = []
+        for count, index in color_counts:
+            r = palette[index*3]
+            g = palette[index*3 + 1]
+            b = palette[index*3 + 2]
+            
+            brightness = 0.299*r + 0.587*g + 0.114*b
+            max_val = max(r, g, b)
+            min_val = min(r, g, b)
+            saturation = (max_val - min_val) / max_val if max_val > 0 else 0
+            
+            # Buscar colores vivos de brillo medio-alto (que resalten sobre el degradado oscuro)
+            if 90 < brightness < 220 and saturation > 0.15:
+                candidates.append((count * (1 + saturation), (r, g, b)))
+                
+        if candidates:
+            candidates.sort(reverse=True)
+            return candidates[0][1]
+            
+        return (255, 105, 180) # Fallback fucsia agradable si no encuentra
+    except Exception as e:
+        print(f"Error extrayendo color de acento: {e}")
+        return (255, 105, 180)
+
 def get_logo_path(mtype, mid):
     r_json = tmdb_get(f"{mtype}/{mid}/images")
     if not r_json:
@@ -169,10 +228,16 @@ def get_logo_path(mtype, mid):
         try:
             data = requests.get('https://image.tmdb.org/t/p/original' + path, timeout=10).content
             img = PILImage.open(BytesIO(data)).convert('RGBA').resize((50,50))
-            pix = [p for p in img.getdata() if p[3] > 0]
-            if not pix:
+            pix = img.load()
+            pixels = []
+            for y in range(img.height):
+                for x in range(img.width):
+                    p = pix[x, y]
+                    if p[3] > 0:
+                        pixels.append(p)
+            if not pixels:
                 return 0
-            return sum(0.299*r+0.587*g+0.114*b for r,g,b,a in pix)/len(pix)
+            return sum(0.299*r+0.587*g+0.114*b for r,g,b,a in pixels)/len(pixels)
         except:
             return 0
             
@@ -183,7 +248,7 @@ def get_logo_path(mtype, mid):
     return best['file_path']
 
 # Procesar y componer imagen
-def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None):
+def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None, reason=None):
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
     if os.path.exists(filename):
         print(f"Imagen ya existe: {filename}")
@@ -237,24 +302,57 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     draw = ImageDraw.Draw(bg)
     font_t = ImageFont.truetype('Roboto-Light.ttf', 190)
     font_i = ImageFont.truetype('Roboto-Light.ttf', 60)
-    font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
     
-    # Texto overview
-    lines = textwrap.wrap(overview, 70)
-    if len(lines) > 7:
-        lines = lines[:7]
-        lines[-1] += '...'
-    draw_multiline_text(draw, (210, 860), '\n'.join(lines), font_o, (150, 150, 150), 16, 'black', 2)
+    # Renderizado dinámico de la sinopsis y de la razón de Gemini
+    if reason:
+        font_o = ImageFont.truetype('Roboto-Light.ttf', 46)
+        paragraphs = [overview.strip(), f"Por qué te gustará: {reason.strip()}"]
+        wrapped_lines = []
+        for p in paragraphs:
+            if not p:
+                continue
+            wrapped_lines.extend(textwrap.wrap(p, 85))
+            if p != paragraphs[-1]:
+                wrapped_lines.append("") # Línea vacía entre bloques
+        # Limitar a máximo 6 líneas
+        if len(wrapped_lines) > 6:
+            wrapped_lines = wrapped_lines[:6]
+            if wrapped_lines[-1] == "":
+                wrapped_lines = wrapped_lines[:-1]
+            else:
+                wrapped_lines[-1] += '...'
+        overview_text = '\n'.join(wrapped_lines)
+        overview_pos = (210, 800)
+        line_spacing = 10
+    else:
+        font_o = ImageFont.truetype('Roboto-Light.ttf', 70)
+        wrapped_lines = textwrap.wrap(overview, 70)
+        if len(wrapped_lines) > 3:
+            wrapped_lines = wrapped_lines[:3]
+            wrapped_lines[-1] += '...'
+        overview_text = '\n'.join(wrapped_lines)
+        overview_pos = (210, 860)
+        line_spacing = 16
+        
+    draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), line_spacing, 'black', 2)
     
-    # Texto info
+    # Texto info (Solo mostrar TMDB rating si es mayor a 0.0)
     info_extra = format_duration(duration) if is_movie else f"{seasons} Temporada{'s' if seasons > 1 else ''}"
     genre_names = [genre_map.get(g, '') for g in genre_ids]
     genre_names = [gn for gn in genre_names if gn]
-    info = f"{', '.join(genre_names)}  •  {year}  •  {info_extra}  •  TMDB: {rating}"
+    
+    info_parts = [", ".join(genre_names), year, info_extra]
+    if rating and rating > 0.0:
+        info_parts.append(f"TMDB: {rating}")
+    info_parts = [p for p in info_parts if p.strip()]
+    info = "  •  ".join(info_parts)
+    
     draw.text((212, 722), info, (150, 150, 150), font_i)
     
-    # Logo TMDB
+    # Logo TMDB / Título Fallback estilizado con Roboto-Black
     logo_path = get_logo_path(media_type, media_id)
+    logo_drawn = False
+    
     if logo_path:
         try:
             data = requests.get('https://image.tmdb.org/t/p/original'+logo_path, timeout=10).content
@@ -267,18 +365,49 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
             x = 210+10 + (max_w-logo_img.width)//2
             y = 720-40-20-logo_img.height
             bg.paste(logo_img, (x, y), logo_img)
+            logo_drawn = True
         except Exception as e:
-            print(f"Error cargando logo de {title}: {e}")
-            draw.text((202, 418), title, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
-    else:
-        draw.text((202, 418), title, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
+            print(f"Error cargando logo de {title}, usando texto: {e}")
+            
+    if not logo_drawn:
+        # Sanitizar título para prevenir tofu
+        title_clean = sanitize_title_font(title)
+        # Extraer color de acento dinámico de la foto
+        accent_color = extract_accent_color(img)
         
+        try:
+            if len(title_clean) > 15:
+                # Dos líneas, fuente más compacta
+                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', 130)
+                title_wrapped = textwrap.wrap(title_clean, width=14)
+                if len(title_wrapped) > 2:
+                    title_wrapped = title_wrapped[:2]
+                    title_wrapped[-1] += '...'
+                title_text = '\n'.join(title_wrapped)
+                title_pos = (210, 340)
+                line_spacing = 10
+            else:
+                # Una línea, tamaño grande
+                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', 170)
+                title_text = title_clean
+                title_pos = (210, 450)
+                line_spacing = 0
+                
+            # Sombra negra
+            shadow_offset = 4
+            draw.multiline_text((title_pos[0]+shadow_offset, title_pos[1]+shadow_offset), title_text, fill='black', font=font_t_bold, spacing=line_spacing)
+            # Título principal con el color extraído
+            draw.multiline_text(title_pos, title_text, fill=accent_color, font=font_t_bold, spacing=line_spacing)
+        except Exception as e:
+            print(f"Error dibujando título estilizado: {e}")
+            draw.text((202, 418), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
+            
     bg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
     return True
 
 # Procesar película/serie recomendada a partir de ID
-def process_recommended_item(item_id, media_type):
+def process_recommended_item(item_id, media_type, reason=None):
     details = tmdb_get(f"{media_type}/{item_id}", {"language": "es-ES"})
     if not details:
         return False
@@ -311,7 +440,8 @@ def process_recommended_item(item_id, media_type):
         duration=duration,
         seasons=seasons,
         media_type=media_type,
-        media_id=item_id
+        media_id=item_id,
+        reason=reason
     )
 
 # Obtener lista amplia de candidatos
@@ -521,7 +651,7 @@ def main():
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(mid, 'movie')
+            ok = process_recommended_item(mid, 'movie', reason=reason)
             if ok:
                 success_movies += 1
                 title_norm = normalize_title(title)
@@ -547,7 +677,7 @@ def main():
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(tid, 'tv')
+            ok = process_recommended_item(tid, 'tv', reason=reason)
             if ok:
                 success_tv += 1
                 title_norm = normalize_title(title)
