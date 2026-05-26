@@ -178,6 +178,24 @@ def sanitize_title_font(text):
         return "Recomendación"
     return result
 
+# Dividir un título largo en exactamente dos líneas equilibradas
+def split_title_into_two_lines(title):
+    words = title.split(' ')
+    if len(words) <= 1:
+        return title
+    best_diff = float('inf')
+    best_split = len(words) // 2
+    for i in range(1, len(words)):
+        line1 = " ".join(words[:i])
+        line2 = " ".join(words[i:])
+        diff = abs(len(line1) - len(line2))
+        if diff < best_diff:
+            best_diff = diff
+            best_split = i
+    line1 = " ".join(words[:best_split])
+    line2 = " ".join(words[best_split:])
+    return f"{line1}\n{line2}"
+
 # Extraer el color dominante vibrante de la imagen para el título fallback
 def extract_accent_color(img):
     try:
@@ -187,6 +205,7 @@ def extract_accent_color(img):
         color_counts = paletted.getcolors()
         
         candidates = []
+        fallback_candidates = []
         for count, index in color_counts:
             r = palette[index*3]
             g = palette[index*3 + 1]
@@ -197,36 +216,62 @@ def extract_accent_color(img):
             min_val = min(r, g, b)
             saturation = (max_val - min_val) / max_val if max_val > 0 else 0
             
-            # Buscar colores vivos de brillo medio-alto (que resalten sobre el degradado oscuro)
-            if 90 < brightness < 220 and saturation > 0.15:
-                candidates.append((count * (1 + saturation), (r, g, b)))
+            # Buscar colores vibrantes destacados con buen contraste
+            if 60 < brightness < 220 and saturation > 0.15:
+                # Priorizar fuertemente la saturación para destacar colores vivos sobre tonos de piel/neutros
+                score = count * (saturation ** 3)
+                candidates.append((score, (r, g, b)))
                 
+            # Fallback en caso de que no haya colores altamente saturados
+            if 80 < brightness < 230 and saturation > 0.05:
+                score = count * saturation
+                fallback_candidates.append((score, (r, g, b)))
+                
+        import colorsys
+        def make_color_vibrant(rgb):
+            r_val, g_val, b_val = [x / 255.0 for x in rgb]
+            h, s, v = colorsys.rgb_to_hsv(r_val, g_val, b_val)
+            v = max(v, 0.92) # Asegurar brillo mínimo del 92% para legibilidad
+            s = max(s, 0.55) # Asegurar saturación mínima del 55% para vivacidad
+            r_new, g_new, b_new = colorsys.hsv_to_rgb(h, s, v)
+            return (int(r_new * 255), int(g_new * 255), int(b_new * 255))
+
         if candidates:
             candidates.sort(reverse=True)
-            return candidates[0][1]
+            return make_color_vibrant(candidates[0][1])
+        elif fallback_candidates:
+            fallback_candidates.sort(reverse=True)
+            return make_color_vibrant(fallback_candidates[0][1])
             
-        return (255, 105, 180) # Fallback fucsia agradable si no encuentra
+        return (255, 105, 180) # Fallback fucsia si todo falla
     except Exception as e:
         print(f"Error extrayendo color de acento: {e}")
         return (255, 105, 180)
+
 
 def get_logo_path(mtype, mid):
     r_json = tmdb_get(f"{mtype}/{mid}/images")
     if not r_json:
         return None
-        
     logos = r_json.get('logos', [])
     es = [l for l in logos if l.get('iso_639_1') == 'es']
     en = [l for l in logos if l.get('iso_639_1') == 'en']
-    candidates = es or en
+    none = [l for l in logos if l.get('iso_639_1') is None]
+    candidates = es or en or none
     if not candidates:
         return None
+        
+    # Filtrar candidatos por relación de aspecto horizontal razonable (evitar créditos/banners muy finos)
+    filtered_candidates = [l for l in candidates if 1.5 <= l['width']/l['height'] <= 8.0]
+    if filtered_candidates:
+        candidates = filtered_candidates
         
     sorted_by_ratio = sorted(candidates, key=lambda l: l['width']/l['height'], reverse=True)[:2]
     
     def luminance(path):
         try:
-            data = requests.get('https://image.tmdb.org/t/p/original' + path, timeout=10).content
+            # Usar tamaño pequeño w185 para calcular luminancia de forma rápida y eficiente
+            data = requests.get('https://image.tmdb.org/t/p/w185' + path, timeout=10).content
             img = PILImage.open(BytesIO(data)).convert('RGBA').resize((50,50))
             pix = img.load()
             pixels = []
@@ -246,6 +291,56 @@ def get_logo_path(mtype, mid):
         
     best = sorted_by_ratio[0] if luminance(sorted_by_ratio[0]['file_path']) >= luminance(sorted_by_ratio[1]['file_path']) else sorted_by_ratio[1]
     return best['file_path']
+
+
+def summarize_with_gemini(title, overview, reason=None):
+    if not GEMINI_API_KEY:
+        return None
+        
+    prompt = f"""Eres un editor de texto experto. Tu tarea es condensar y estructurar la sinopsis y el motivo de recomendación de la obra '{title}' en español.
+    
+    Sinopsis original:
+    {overview}
+    """
+    if reason:
+        prompt += f"\nMotivo de recomendación original:\n{reason}\n"
+        
+    prompt += """
+    Instrucciones de formato y longitud:
+    1. Debes generar exactamente DOS bloques separados por un único salto de línea simple (\\n), es decir, un punto y aparte inmediato sin ninguna línea en blanco o vacía entre ellos.
+    2. El BLOQUE 1 debe ser la sinopsis condensada pero informativa de la trama (entre 260 y 310 caracteres).
+    3. El BLOQUE 2 debe ser el motivo de recomendación de por qué le gustará al usuario (entre 110 y 140 caracteres).
+    4. La suma total de caracteres de ambos bloques combinados no debe superar los 450 caracteres bajo ninguna circunstancia.
+    5. Devuelve ÚNICAMENTE el texto resultante en español, sin comillas externas, sin bloques de código, y sin texto introductorio.
+    """
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+    
+    try:
+        r = requests.post(url, json=payload, timeout=45)
+        if r.status_code == 200:
+            resp_json = r.json()
+            summary = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
+            # Limpiar comillas si las hay
+            if (summary.startswith('"') and summary.endswith('"')) or (summary.startswith("'") and summary.endswith("'")):
+                summary = summary[1:-1].strip()
+            # Limpiar markdown de bloques de código por si acaso
+            if summary.startswith("```"):
+                lines = summary.split("\n")
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines[-1].strip() == "```":
+                    lines = lines[:-1]
+                summary = "\n".join(lines).strip()
+            return summary
+    except Exception as e:
+        print(f"Error al resumir con Gemini: {e}")
+    return None
+
+
 
 # Procesar y componer imagen
 def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None):
@@ -303,10 +398,30 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     font_t = ImageFont.truetype('Roboto-Light.ttf', 190)
     font_i = ImageFont.truetype('Roboto-Light.ttf', 60)
     
-    # Renderizado de la sinopsis (Siempre a 860, con tamaño 78 y espaciado original 16)
+    # Determinar si el logo se puede cargar antes de dibujar info/sinopsis
+    logo_path = get_logo_path(media_type, media_id)
+    logo_drawn = False
+    logo_img = None
+    if logo_path:
+        try:
+            data = requests.get('https://image.tmdb.org/t/p/original'+logo_path, timeout=10).content
+            logo_img = Image.open(BytesIO(data)).convert('RGBA')
+            logo_drawn = True
+        except Exception as e:
+            print(f"Error cargando logo de {title}, usando texto: {e}")
+            
+    # Ajustar coordenadas dinámicas en base a si se dibuja logo o texto
+    if logo_drawn:
+        info_pos_y = 720
+        overview_pos_y = 860
+    else:
+        info_pos_y = 640
+        overview_pos_y = 780
+        
+    # Renderizado de la sinopsis
     font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
     line_spacing = 16
-    overview_pos = (210, 860)
+    overview_pos = (210, overview_pos_y)
     
     # 1. Intentar con la sinopsis oficial completa + recomendación
     tmdb_desc = overview.strip()
@@ -315,30 +430,51 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
             return f"{desc}\n{rec_reason.strip()}"
         return desc
 
-    combined_text = format_combined(tmdb_desc, reason)
-    paragraphs = combined_text.split('\n')
-    wrapped_lines = []
-    for p in paragraphs:
-        if not p.strip():
-            continue
-        wrapped_lines.extend(textwrap.wrap(p, 70))
-        
-    # Si la combinación supera las 7 líneas y tenemos una sinopsis corta de Gemini, usamos esa
-    if len(wrapped_lines) > 7 and short_overview and reason:
-        combined_text = format_combined(short_overview.strip(), reason)
-        paragraphs = combined_text.split('\n')
-        wrapped_lines = []
+    def wrap_text_to_paragraphs(text, max_total_lines=7):
+        paragraphs = text.split('\n')
+        wrapped_p = []
+        lines_count = 0
         for p in paragraphs:
             if not p.strip():
                 continue
-            wrapped_lines.extend(textwrap.wrap(p, 70))
+            p_lines = textwrap.wrap(p.strip(), 75)
+            wrapped_p.append(p_lines)
+            lines_count += len(p_lines)
+        return wrapped_p, lines_count
+
+    combined_text = format_combined(tmdb_desc, reason)
+    wrapped_p, lines_count = wrap_text_to_paragraphs(combined_text)
+    
+    # Si la combinación supera las 7 líneas:
+    if lines_count > 7:
+        success_summarize = False
+        if GEMINI_API_KEY:
+            print(f"La sinopsis completa de '{title}' supera las 7 líneas ({lines_count} líneas). Solicitando resumen dinámico a Gemini...")
+            # Intentar resumir a partir de la sinopsis completa
+            summarized = summarize_with_gemini(title, tmdb_desc, reason)
+            if summarized:
+                combined_text = summarized
+                wrapped_p, lines_count = wrap_text_to_paragraphs(combined_text)
+                success_summarize = True
+                
+        # Fallback si Gemini falla o no hay API key: usar short_overview si existe
+        if not success_summarize and short_overview and reason:
+            combined_text = format_combined(short_overview.strip(), reason)
+            wrapped_p, lines_count = wrap_text_to_paragraphs(combined_text)
             
-    # Si sigue superando las 7 líneas, truncamos estrictamente a 7 líneas
-    if len(wrapped_lines) > 7:
-        wrapped_lines = wrapped_lines[:7]
-        wrapped_lines[-1] += '...'
+    # Si sigue superando las 7 líneas, truncamos estrictamente a 7 líneas como último recurso
+    if lines_count > 7:
+        # Truncamiento plano para garantizar que quepa
+        flat_lines = []
+        for p_lines in wrapped_p:
+            flat_lines.extend(p_lines)
         
-    overview_text = '\n'.join(wrapped_lines)
+        flat_lines = flat_lines[:7]
+        flat_lines[-1] += '...'
+        overview_text = '\n'.join(flat_lines)
+    else:
+        overview_text = "\n".join(["\n".join(p_lines) for p_lines in wrapped_p])
+        
     draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), line_spacing, 'black', 2)
     
     # Texto info (Solo mostrar TMDB rating si es mayor a 0.0)
@@ -352,18 +488,13 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     info_parts = [p for p in info_parts if p.strip()]
     info = "  •  ".join(info_parts)
     
-    # Dibujar info con sombra en posición original (210, 720)
-    draw.text((210 + 2, 720 + 2), info, fill='black', font=font_i)
-    draw.text((210, 720), info, fill=(150, 150, 150), font=font_i)
+    # Dibujar info con sombra
+    draw.text((210 + 2, info_pos_y + 2), info, fill='black', font=font_i)
+    draw.text((210, info_pos_y), info, fill=(150, 150, 150), font=font_i)
     
-    # Logo TMDB / Título Fallback estilizado con Roboto-Black
-    logo_path = get_logo_path(media_type, media_id)
-    logo_drawn = False
-    
-    if logo_path:
+    # Dibujar el logo si está disponible
+    if logo_drawn and logo_img:
         try:
-            data = requests.get('https://image.tmdb.org/t/p/original'+logo_path, timeout=10).content
-            logo_img = Image.open(BytesIO(data)).convert('RGBA')
             w, h = logo_img.size
             max_h = 720-40-150
             max_w = 1600
@@ -372,32 +503,55 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
             x = 210+10 + (max_w-logo_img.width)//2
             y = 720-40-20-logo_img.height
             bg.paste(logo_img, (x, y), logo_img)
-            logo_drawn = True
         except Exception as e:
-            print(f"Error cargando logo de {title}, usando texto: {e}")
+            print(f"Error pegando logo de {title}: {e}")
+            logo_drawn = False  # Si falla el pegado, intentamos dibujar el texto
             
     if not logo_drawn:
-        # Sanitizar título para prevenir tofu
-        title_clean = sanitize_title_font(title)
+        # Sanitizar título para prevenir tofu y pasar a mayúsculas
+        title_clean = sanitize_title_font(title).upper()
         # Extraer color de acento dinámico de la foto
         accent_color = extract_accent_color(img)
         
         try:
-            if len(title_clean) > 15:
-                # Dos líneas, fuente más compacta
-                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', 130)
-                title_wrapped = textwrap.wrap(title_clean, width=14)
-                if len(title_wrapped) > 2:
-                    title_wrapped = title_wrapped[:2]
-                    title_wrapped[-1] += '...'
-                title_text = '\n'.join(title_wrapped)
-                title_pos = (210, 340)
+            # Dividir en 2 líneas si tiene más de 16 caracteres y contiene espacios
+            if len(title_clean) > 16 and ' ' in title_clean:
+                # Dividir el título de forma equilibrada en exactamente 2 líneas
+                title_text = split_title_into_two_lines(title_clean)
+                lines = title_text.split('\n')
+                max_line = max(lines, key=len)
+                
+                font_size = 320
+                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                # Permitir decrecer hasta tamaño 80 para que quepan títulos extremadamente largos en 2 líneas
+                while draw.textlength(max_line, font=font_t_bold) > 2200 and font_size > 80:
+                    font_size -= 5
+                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                    
+                bbox = draw.multiline_textbbox((0, 0), title_text, font=font_t_bold, spacing=10)
+                # Calcular Y dinámicamente según el límite inferior real de la caja de texto (bbox[3]) para asegurar un espaciado de 50px
+                title_pos_y = info_pos_y - bbox[3] - 50
+                if title_pos_y < 80:
+                    title_pos_y = 80
+                    
+                title_pos = (210, title_pos_y)
                 line_spacing = 10
             else:
-                # Una línea, tamaño grande
-                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', 170)
+                # Una línea, tamaño gigante
                 title_text = title_clean
-                title_pos = (210, 450)
+                font_size = 380
+                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                while draw.textlength(title_text, font=font_t_bold) > 2200 and font_size > 110:
+                    font_size -= 5
+                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                    
+                # Calcular Y dinámicamente según el límite inferior real de la caja de texto (bbox[3]) para asegurar un espaciado de 50px
+                bbox = draw.textbbox((0, 0), title_text, font=font_t_bold)
+                title_pos_y = info_pos_y - bbox[3] - 50
+                if title_pos_y < 80:
+                    title_pos_y = 80
+                    
+                title_pos = (210, title_pos_y)
                 line_spacing = 0
                 
             # Sombra negra
@@ -407,7 +561,8 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
             draw.multiline_text(title_pos, title_text, fill=accent_color, font=font_t_bold, spacing=line_spacing)
         except Exception as e:
             print(f"Error dibujando título estilizado: {e}")
-            draw.text((202, 418), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
+            fallback_y = 338
+            draw.text((202, fallback_y), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
             
     bg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
@@ -623,6 +778,37 @@ def was_already_posted(subreddit, title, limit=1000):
         return False
     return False
 
+# Sincronización de fondos locales existentes con Reddit
+def sync_existing_backgrounds_to_reddit(subreddit):
+    print("\n--- Iniciando Sincronización de Fondos Locales con Reddit ---")
+    if not os.path.exists(background_dir):
+        print("El directorio de fondos no existe.")
+        return
+        
+    files = [f for f in os.listdir(background_dir) if f.endswith('.jpg')]
+    if not files:
+        print("No se encontraron fondos locales (.jpg) para sincronizar.")
+        return
+        
+    print(f"Detectados {len(files)} fondos locales. Verificando subidas en Reddit...")
+    for filename in files:
+        filepath = os.path.join(background_dir, filename)
+        # Reconstruir el título a partir del nombre del archivo
+        name_no_ext = os.path.splitext(filename)[0]
+        title_reconstructed = name_no_ext.replace('_', ' ').strip()
+        title_norm = " ".join(title_reconstructed.split()).upper()
+        
+        # Consultar Reddit directamente utilizando la función existente sin almacenar en memoria
+        if not was_already_posted(subreddit, title_norm):
+            try:
+                subreddit.submit_image(title_norm, filepath)
+                print(f"Sincronizado/Subido a Reddit: {title_norm}")
+            except Exception as e:
+                print(f"Error subiendo '{title_norm}' durante sincronización: {e}")
+        else:
+            print(f"Ya publicado en Reddit: {title_norm}")
+    print("--- Sincronización de Fondos Locales Finalizada ---\n")
+
 # Main completo
 def main():
     load_genres()
@@ -635,6 +821,9 @@ def main():
         password=os.getenv('REDDIT_PASSWORD')
     )
     subreddit = reddit.subreddit(os.getenv('REDDIT_SUBREDDIT','IMDB_esp'))
+    
+    # Sincronizar fondos ya existentes en disco con Reddit al arrancar
+    sync_existing_backgrounds_to_reddit(subreddit)
     
     # Cargar gustos del usuario
     preferences = load_preferences()
@@ -681,11 +870,12 @@ def main():
                 continue
                 
             ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
-            if ok:
-                success_movies += 1
-                title_norm = normalize_title(title)
+            filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+            if os.path.exists(filename):
+                if ok:
+                    success_movies += 1
+                title_norm = normalize_title(title).upper()
                 if not was_already_posted(subreddit, title_norm):
-                    filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
                     try:
                         subreddit.submit_image(title_norm, filename)
                         print(f"Subido a Reddit: {title_norm}")
@@ -709,11 +899,12 @@ def main():
                 continue
                 
             ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
-            if ok:
-                success_tv += 1
-                title_norm = normalize_title(title)
+            filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+            if os.path.exists(filename):
+                if ok:
+                    success_tv += 1
+                title_norm = normalize_title(title).upper()
                 if not was_already_posted(subreddit, title_norm):
-                    filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
                     try:
                         subreddit.submit_image(title_norm, filename)
                         print(f"Subido a Reddit: {title_norm}")
@@ -755,12 +946,13 @@ def main():
                 m.get('genre_ids', []), year, round(rating, 1),
                 duration=details.get('runtime'), media_type='movie', media_id=mid
             )
-            if ok:
-                success_movies += 1
-                count_m += 1
-                title_norm = normalize_title(m.get('title', ''))
+            filename = os.path.join(background_dir, clean_filename(m.get('title', '')) + '.jpg')
+            if os.path.exists(filename):
+                if ok:
+                    success_movies += 1
+                    count_m += 1
+                title_norm = normalize_title(m.get('title', '')).upper()
                 if not was_already_posted(subreddit, title_norm):
-                    filename = os.path.join(background_dir, clean_filename(m.get('title', '')) + '.jpg')
                     try:
                         subreddit.submit_image(title_norm, filename)
                         print(f"Subido a Reddit (fallback): {title_norm}")
@@ -799,12 +991,13 @@ def main():
                 tv.get('genre_ids', []), year, round(rating, 1),
                 seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid
             )
-            if ok:
-                success_tv += 1
-                count_t += 1
-                title_norm = normalize_title(tv.get('name', ''))
+            filename = os.path.join(background_dir, clean_filename(tv.get('name', '')) + '.jpg')
+            if os.path.exists(filename):
+                if ok:
+                    success_tv += 1
+                    count_t += 1
+                title_norm = normalize_title(tv.get('name', '')).upper()
                 if not was_already_posted(subreddit, title_norm):
-                    filename = os.path.join(background_dir, clean_filename(tv.get('name', '')) + '.jpg')
                     try:
                         subreddit.submit_image(title_norm, filename)
                         print(f"Subido a Reddit (fallback): {title_norm}")
