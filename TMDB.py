@@ -248,7 +248,7 @@ def get_logo_path(mtype, mid):
     return best['file_path']
 
 # Procesar y componer imagen
-def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None, reason=None):
+def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None):
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
     if os.path.exists(filename):
         print(f"Imagen ya existe: {filename}")
@@ -308,20 +308,34 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     line_spacing = 16
     overview_pos = (210, 860)
     
-    text_to_show = overview.strip()
-    if reason:
-        text_to_show += f"\n{reason.strip()}"
-        
-    paragraphs = text_to_show.split('\n')
+    # 1. Intentar con la sinopsis oficial completa + recomendación
+    tmdb_desc = overview.strip()
+    def format_combined(desc, rec_reason):
+        if rec_reason:
+            return f"{desc}\nPor qué te gustará: {rec_reason.strip()}"
+        return desc
+
+    combined_text = format_combined(tmdb_desc, reason)
+    paragraphs = combined_text.split('\n')
     wrapped_lines = []
     for p in paragraphs:
         if not p.strip():
             continue
         wrapped_lines.extend(textwrap.wrap(p, 70))
         
-    # Limitar a máximo 3 líneas para garantizar que entre perfectamente en el espacio original
-    if len(wrapped_lines) > 3:
-        wrapped_lines = wrapped_lines[:3]
+    # Si la combinación supera las 7 líneas y tenemos una sinopsis corta de Gemini, usamos esa
+    if len(wrapped_lines) > 7 and short_overview and reason:
+        combined_text = format_combined(short_overview.strip(), reason)
+        paragraphs = combined_text.split('\n')
+        wrapped_lines = []
+        for p in paragraphs:
+            if not p.strip():
+                continue
+            wrapped_lines.extend(textwrap.wrap(p, 70))
+            
+    # Si sigue superando las 7 líneas, truncamos estrictamente a 7 líneas
+    if len(wrapped_lines) > 7:
+        wrapped_lines = wrapped_lines[:7]
         wrapped_lines[-1] += '...'
         
     overview_text = '\n'.join(wrapped_lines)
@@ -338,7 +352,9 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     info_parts = [p for p in info_parts if p.strip()]
     info = "  •  ".join(info_parts)
     
-    draw.text((212, 722), info, (150, 150, 150), font_i)
+    # Dibujar info con sombra en posición original (210, 720)
+    draw.text((210 + 2, 720 + 2), info, fill='black', font=font_i)
+    draw.text((210, 720), info, fill=(150, 150, 150), font=font_i)
     
     # Logo TMDB / Título Fallback estilizado con Roboto-Black
     logo_path = get_logo_path(media_type, media_id)
@@ -398,14 +414,14 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     return True
 
 # Procesar película/serie recomendada a partir de ID
-def process_recommended_item(item_id, media_type, custom_overview=None):
+def process_recommended_item(item_id, media_type, short_overview=None, reason=None):
     details = tmdb_get(f"{media_type}/{item_id}", {"language": "es-ES"})
     if not details:
         return False
         
     is_movie = (media_type == 'movie')
     title = details.get('title') if is_movie else details.get('name')
-    overview = custom_overview if custom_overview else details.get('overview', '')
+    overview = details.get('overview', '')
     genre_ids = [g['id'] for g in details.get('genres', [])]
     date_key = 'release_date' if is_movie else 'first_air_date'
     year = details.get(date_key, '')[:4]
@@ -432,7 +448,8 @@ def process_recommended_item(item_id, media_type, custom_overview=None):
         seasons=seasons,
         media_type=media_type,
         media_id=item_id,
-        reason=None
+        short_overview=short_overview,
+        reason=reason
     )
 
 # Obtener lista amplia de candidatos
@@ -542,23 +559,23 @@ Instrucciones de recomendación:
     {{
       "id": <tmdb_id>, 
       "title": "<titulo>", 
-      "combined_text": "<sinopsis_muy_breve_de_la_trama>\\n<razon_de_la_recomendacion_segun_sus_gustos>"
+      "short_overview": "<sinopsis_condensada_en_espanol>",
+      "reason": "<razon_de_la_recomendacion_segun_sus_gustos>"
     }}
   ],
   "tv": [
     {{
       "id": <tmdb_id>, 
       "title": "<titulo>", 
-      "combined_text": "<sinopsis_muy_breve_de_la_trama>\\n<razon_de_la_recomendacion_segun_sus_gustos>"
+      "short_overview": "<sinopsis_condensada_en_espanol>",
+      "reason": "<razon_de_la_recomendacion_segun_sus_gustos>"
     }}
   ]
 }}
-Nota crítica sobre el campo "combined_text":
-- Debe tener como MÁXIMO 200 caracteres en total.
-- Debe contener dos párrafos muy concisos separados por un único salto de línea (\\n).
-- El primer párrafo resume la trama de forma ultra-breve (ej: 'Un hombre es encarcelado de forma injusta y planea una fuga magistral.').
-- El segundo párrafo explica por qué le gustará en base a sus LIKES (ej: 'Te gustará por su suspenso policial al estilo de El secreto de sus ojos.').
-- Ambos párrafos combinados (incluyendo el salto de línea) deben ser tan cortos que quepan en un máximo de 3 líneas al ser dibujados a tamaño de letra grande en la pantalla (máximo 200 caracteres en total).
+Nota crítica sobre los campos:
+- "short_overview" debe ser una sinopsis condensada de la trama en español, muy concisa y directa (máximo 150 caracteres).
+- "reason" debe ser una explicación de por qué le gustará según sus gustos descritos en LIKES (máximo 100 caracteres).
+- Mantén el lenguaje natural y atractivo en español.
 
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
 """
@@ -648,16 +665,18 @@ def main():
         for rec in rec_movies:
             mid = rec.get('id')
             title = rec.get('title')
-            combined_text = rec.get('combined_text', '')
+            short_overview = rec.get('short_overview', '')
+            reason = rec.get('reason', '')
             print(f"Película elegida: {title} (ID: {mid})")
-            if combined_text:
-                print(f"  Texto combinado:\n{combined_text}")
+            if short_overview or reason:
+                print(f"  Sinopsis corta de IA: {short_overview}")
+                print(f"  Razón: {reason}")
                 
             if mid in excluded_movies:
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(mid, 'movie', custom_overview=combined_text)
+            ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
             if ok:
                 success_movies += 1
                 title_norm = normalize_title(title)
@@ -674,16 +693,18 @@ def main():
         for rec in rec_tv:
             tid = rec.get('id')
             title = rec.get('title')
-            combined_text = rec.get('combined_text', '')
+            short_overview = rec.get('short_overview', '')
+            reason = rec.get('reason', '')
             print(f"Serie elegida: {title} (ID: {tid})")
-            if combined_text:
-                print(f"  Texto combinado:\n{combined_text}")
+            if short_overview or reason:
+                print(f"  Sinopsis corta de IA: {short_overview}")
+                print(f"  Razón: {reason}")
                 
             if tid in excluded_tv:
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(tid, 'tv', custom_overview=combined_text)
+            ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
             if ok:
                 success_tv += 1
                 title_norm = normalize_title(title)
