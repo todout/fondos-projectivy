@@ -153,7 +153,7 @@ def get_imdb_rating(imdb_id):
         print(f"Error al obtener calificación de IMDb vía OMDb: {e}")
     return None
 
-def get_letterboxd_rating(original_title, english_title, spanish_title):
+def get_letterboxd_rating(original_title, english_title, spanish_title, year=None):
     slugs = []
     if english_title:
         slugs.append(slugify(english_title))
@@ -169,11 +169,17 @@ def get_letterboxd_rating(original_title, english_title, spanish_title):
             seen.add(s)
             unique_slugs.append(s)
             
+    # Intentar primero con el año de lanzamiento para evitar colisión de títulos
+    urls = []
+    for slug in unique_slugs:
+        if year:
+            urls.append(f"https://letterboxd.com/film/{slug}-{year}/")
+        urls.append(f"https://letterboxd.com/film/{slug}/")
+        
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    for slug in unique_slugs:
-        url = f"https://letterboxd.com/film/{slug}/"
+    for url in urls:
         try:
             r = requests.get(url, headers=headers, timeout=10)
             if r.status_code == 200:
@@ -342,7 +348,9 @@ def get_all_ratings_for_media(tmdb_id, is_movie, tmdb_rating=None, tmdb_votes=No
         
     # Letterboxd rating (películas únicamente)
     if is_movie:
-        lb_res = get_letterboxd_rating(original_title, english_title, spanish_title)
+        date_key = 'release_date' if is_movie else 'first_air_date'
+        year = details_es.get(date_key, '')[:4]
+        lb_res = get_letterboxd_rating(original_title, english_title, spanish_title, year=year)
         if lb_res:
             ratings["letterboxd"] = lb_res
             
@@ -636,7 +644,7 @@ def summarize_with_gemini(title, overview, reason=None):
 
 
 # Procesar y componer imagen
-def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None):
+def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None, tv_type=None):
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
     if os.path.exists(filename):
         print(f"Imagen ya existe: {filename}")
@@ -689,7 +697,6 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     
     draw = ImageDraw.Draw(bg)
     font_t = ImageFont.truetype('Roboto-Light.ttf', 190)
-    font_i = ImageFont.truetype('Roboto-Light.ttf', 50)
     
     # Determinar si el logo se puede cargar antes de dibujar info/sinopsis
     logo_path = get_logo_path(media_type, media_id)
@@ -703,17 +710,207 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
         except Exception as e:
             print(f"Error cargando logo de {title}, usando texto: {e}")
             
-    # Ajustar coordenadas dinámicas en base a si se dibuja logo o texto
-    if logo_drawn:
-        info_pos_y = 720
-        overview_pos_y = 860
-    else:
-        info_pos_y = 640
-        overview_pos_y = 780
-        
-    # Renderizado de la sinopsis
+    # Fuentes para el nuevo layout
+    font_metadata = ImageFont.truetype('Roboto-Light.ttf', 50)
     font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
-    line_spacing = 16
+    
+    # 1. Dibujar Título o Logo
+    title_pos_y = 160
+    title_actual_bottom_y = title_pos_y + 100 # Fallback por si acaso
+    title_width = 800 # Fallback
+    
+    if logo_drawn and logo_img:
+        try:
+            w, h = logo_img.size
+            max_h = 380 # Altura máxima para dejar suficiente espacio al resto de elementos
+            max_w = 1600
+            ratio = min(max_h/h, max_w/w)
+            logo_img = logo_img.resize((int(w*ratio), int(h*ratio)), Image.Resampling.LANCZOS)
+            x_logo = 210 + (max_w - logo_img.width) // 2
+            y_logo = title_pos_y + (max_h - logo_img.height) // 2
+            bg.paste(logo_img, (x_logo, y_logo), logo_img)
+            title_actual_bottom_y = y_logo + logo_img.height
+            title_width = logo_img.width
+        except Exception as e:
+            print(f"Error pegando logo de {title}: {e}")
+            logo_drawn = False  # Intentar dibujar el texto si falla
+            
+    if not logo_drawn:
+        # Sanitizar título para prevenir tofu y pasar a mayúsculas
+        title_clean = sanitize_title_font(title).upper()
+        # Extraer color de acento dinámico de la foto
+        accent_color = extract_accent_color(img)
+        
+        try:
+            # Dividir en 2 líneas si tiene más de 16 caracteres y contiene espacios
+            if len(title_clean) > 16 and ' ' in title_clean:
+                title_text = split_title_into_two_lines(title_clean)
+                lines = title_text.split('\n')
+                max_line = max(lines, key=len)
+                
+                font_size = 320
+                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                while draw.textlength(max_line, font=font_t_bold) > 2200 and font_size > 80:
+                    font_size -= 5
+                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                    
+                bbox = draw.multiline_textbbox((0, 0), title_text, font=font_t_bold, spacing=10)
+                title_pos = (210, title_pos_y)
+                line_spacing = 10
+            else:
+                title_text = title_clean
+                font_size = 380
+                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                while draw.textlength(title_text, font=font_t_bold) > 2200 and font_size > 110:
+                    font_size -= 5
+                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                    
+                bbox = draw.textbbox((0, 0), title_text, font=font_t_bold)
+                title_pos = (210, title_pos_y)
+                line_spacing = 0
+                
+            # Sombra negra
+            shadow_offset = 4
+            draw.multiline_text((title_pos[0]+shadow_offset, title_pos[1]+shadow_offset), title_text, fill='black', font=font_t_bold, spacing=line_spacing)
+            # Título principal con el color extraído
+            draw.multiline_text(title_pos, title_text, fill=accent_color, font=font_t_bold, spacing=line_spacing)
+            title_actual_bottom_y = title_pos_y + bbox[3]
+            title_width = bbox[2] - bbox[0]
+        except Exception as e:
+            print(f"Error dibujando título estilizado: {e}")
+            fallback_y = 338
+            draw.text((202, fallback_y), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
+            title_actual_bottom_y = fallback_y + 190
+            title_width = int(draw.textlength(title_clean, font=font_t))
+            
+    # 2. Construir Metadatos
+    if is_movie:
+        info_extra = format_duration(duration)
+    else:
+        # Detectar miniserie
+        if not tv_type and media_type == 'tv' and media_id:
+            det = tmdb_get(f"{media_type}/{media_id}", {"language": "es-ES"})
+            if det:
+                tv_type = det.get('type')
+        
+        if tv_type == 'Miniseries':
+            info_extra = "Miniserie"
+        else:
+            info_extra = f"{seasons} Temporada{'s' if seasons > 1 else ''}"
+            
+    genre_names = [genre_map.get(g, '') for g in genre_ids]
+    genre_names = [gn for gn in genre_names if gn]
+    
+    metadata_parts = [", ".join(genre_names), year, info_extra]
+    metadata_parts = [p for p in metadata_parts if p.strip()]
+    metadata_text = "  •  ".join(metadata_parts)
+    
+    metadata_width = draw.textlength(metadata_text, font=font_metadata)
+    
+    # 3. Determinar calificaciones que entran por ancho de pantalla
+    platforms_priority = ["imdb", "tmdb", "letterboxd", "metacritic", "rottentomatoes", "filmaffinity"]
+    available_platforms = []
+    if isinstance(ratings, dict):
+        available_platforms = [p for p in platforms_priority if p in ratings and ratings[p].get('rating') is not None]
+        
+    # Deduplicar imdb y tmdb para no mostrar dos iconos de imdb idénticos
+    if "imdb" in available_platforms and "tmdb" in available_platforms:
+        available_platforms.remove("tmdb")
+        
+    # Límite dinámico basado en el ancho del título
+    max_allowed_width = max(title_width, 1000)
+    max_allowed_width = min(max_allowed_width, 1600)  # Evitar desbordar la parte oscura
+    
+    fav_size = 44  # Tamaño unificado para ir en la misma línea
+    sep = "  •  "
+    sep_w = draw.textlength(sep, font=font_metadata)
+    
+    platforms_to_draw = []
+    if available_platforms:
+        # Siempre incluir el primero (IMDb o TMDb)
+        platforms_to_draw.append(available_platforms[0])
+        
+        # Calcular ancho acumulado con el primero
+        data = ratings[available_platforms[0]]
+        rating_val = data.get("rating")
+        votes_val = data.get("votes")
+        rating_text = f"{rating_val:.1f} ({votes_val})" if votes_val else f"{rating_val:.1f}"
+        
+        current_w = metadata_width + sep_w + fav_size + 10 + draw.textlength(rating_text, font=font_metadata)
+        
+        # Probar si caben los demás
+        for platform in available_platforms[1:]:
+            data = ratings[platform]
+            rating_val = data.get("rating")
+            votes_val = data.get("votes")
+            rating_text = f"{rating_val:.1f} ({votes_val})" if votes_val else f"{rating_val:.1f}"
+            
+            # Ancho de calificación: separador (35px) + favicon (fav_size) + gap (10px) + texto
+            rating_w = 35 + fav_size + 10 + draw.textlength(rating_text, font=font_metadata)
+            
+            if current_w + rating_w <= max_allowed_width:
+                platforms_to_draw.append(platform)
+                current_w += rating_w
+            else:
+                break
+                
+    # 4. Dibujar Metadatos y Calificaciones inline
+    metadata_pos_y = title_actual_bottom_y + 40
+    y_center = metadata_pos_y + fav_size // 2
+    
+    # Dibujar metadatos con sombra y centrado vertical
+    m_bbox = draw.textbbox((0, 0), metadata_text, font=font_metadata)
+    m_offset_y = (m_bbox[1] + m_bbox[3]) / 2
+    y_text = y_center - m_offset_y
+    draw.text((210 + 2, y_text + 2), metadata_text, fill='black', font=font_metadata)
+    draw.text((210, y_text), metadata_text, fill=(150, 150, 150), font=font_metadata)
+    
+    x = 210 + int(metadata_width)
+    
+    if platforms_to_draw:
+        # Separador inicial
+        sep_bbox = draw.textbbox((0, 0), sep, font=font_metadata)
+        sep_offset_y = (sep_bbox[1] + sep_bbox[3]) / 2
+        y_sep = y_center - sep_offset_y
+        draw.text((x + 2, y_sep + 2), sep, fill='black', font=font_metadata)
+        draw.text((x, y_sep), sep, fill=(150, 150, 150), font=font_metadata)
+        x += int(sep_w)
+        
+        cwd = os.path.dirname(os.path.abspath(__file__))
+        for idx, platform in enumerate(platforms_to_draw):
+            data = ratings[platform]
+            rating_val = data.get("rating")
+            votes_val = data.get("votes")
+            rating_text = f"{rating_val:.1f} ({votes_val})" if votes_val else f"{rating_val:.1f}"
+            
+            # Dibujar favicon
+            favicon_name = "imdb" if platform == "tmdb" else platform
+            favicon_path = os.path.join(cwd, f"{favicon_name}_favicon.png")
+            if os.path.exists(favicon_path):
+                try:
+                    fav = Image.open(favicon_path).convert("RGBA")
+                    fav = fav.resize((fav_size, fav_size), Image.Resampling.LANCZOS)
+                    # Centrado vertical de la imagen
+                    bg.paste(fav, (x, y_center - fav_size // 2), fav)
+                    x += fav_size + 10
+                except Exception as e:
+                    print(f"Error pegando favicon de {platform}: {e}")
+            
+            # Dibujar texto de calificación con sombra y centrado vertical
+            r_bbox = draw.textbbox((0, 0), rating_text, font=font_metadata)
+            r_offset_y = (r_bbox[1] + r_bbox[3]) / 2
+            y_r_text = y_center - r_offset_y
+            
+            draw.text((x + 2, y_r_text + 2), rating_text, fill='black', font=font_metadata)
+            draw.text((x, y_r_text), rating_text, fill=(150, 150, 150), font=font_metadata)
+            x += int(draw.textlength(rating_text, font=font_metadata))
+            
+            # Separador entre calificaciones
+            if idx < len(platforms_to_draw) - 1:
+                x += 35
+                
+    # 5. Dibujar Sinopsis
+    overview_pos_y = metadata_pos_y + 80
     overview_pos = (210, overview_pos_y)
     
     # 1. Intentar con la sinopsis oficial completa + recomendación
@@ -743,7 +940,6 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
         success_summarize = False
         if GEMINI_API_KEY:
             print(f"La sinopsis completa de '{title}' supera las 7 líneas ({lines_count} líneas). Solicitando resumen dinámico a Gemini...")
-            # Intentar resumir a partir de la sinopsis completa
             summarized = summarize_with_gemini(title, tmdb_desc, reason)
             if summarized:
                 combined_text = summarized
@@ -757,7 +953,6 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             
     # Si sigue superando las 7 líneas, truncamos estrictamente a 7 líneas como último recurso
     if lines_count > 7:
-        # Truncamiento plano para garantizar que quepa
         flat_lines = []
         for p_lines in wrapped_p:
             flat_lines.extend(p_lines)
@@ -768,141 +963,8 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     else:
         overview_text = "\n".join(["\n".join(p_lines) for p_lines in wrapped_p])
         
-    draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), line_spacing, 'black', 2)
+    draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), 16, 'black', 2)
     
-    # Texto info (Metadatos y calificaciones normalizadas inline)
-    info_extra = format_duration(duration) if is_movie else f"{seasons} Temporada{'s' if seasons > 1 else ''}"
-    genre_names = [genre_map.get(g, '') for g in genre_ids]
-    genre_names = [gn for gn in genre_names if gn]
-    
-    metadata_parts = [", ".join(genre_names), year, info_extra]
-    metadata_parts = [p for p in metadata_parts if p.strip()]
-    metadata_text = "  •  ".join(metadata_parts)
-    
-    x = 210
-    # Dibujar metadatos con sombra
-    draw.text((x + 2, info_pos_y + 2), metadata_text, fill='black', font=font_i)
-    draw.text((x, info_pos_y), metadata_text, fill=(150, 150, 150), font=font_i)
-    x += int(draw.textlength(metadata_text, font=font_i))
-    
-    # Dibujar calificaciones inline con sus favicons
-    platforms_order = ["imdb", "letterboxd", "rottentomatoes", "filmaffinity", "metacritic", "tmdb"]
-    active_platforms = []
-    if isinstance(ratings, dict):
-        active_platforms = [p for p in platforms_order if p in ratings and ratings[p].get('rating') is not None]
-        
-    if active_platforms:
-        # Separador inicial entre metadatos y calificaciones
-        sep = "  •  "
-        draw.text((x + 2, info_pos_y + 2), sep, fill='black', font=font_i)
-        draw.text((x, info_pos_y), sep, fill=(150, 150, 150), font=font_i)
-        x += int(draw.textlength(sep, font=font_i))
-        
-        cwd = os.path.dirname(os.path.abspath(__file__))
-        for idx, platform in enumerate(active_platforms):
-            data = ratings[platform]
-            rating_val = data.get("rating")
-            votes_val = data.get("votes")
-            
-            # Formatear el texto de la calificación
-            rating_text = f"{rating_val:.1f} ({votes_val})" if votes_val else f"{rating_val:.1f}"
-            
-            # Dibujar el favicon
-            favicon_path = os.path.join(cwd, f"{platform}_favicon.png")
-            if os.path.exists(favicon_path):
-                try:
-                    fav = Image.open(favicon_path).convert("RGBA")
-                    # Para fuente de tamaño 50 (altura de números de ~36px), usamos favicon de 44x44
-                    fav_size = 44
-                    fav = fav.resize((fav_size, fav_size), Image.Resampling.LANCZOS)
-                    # Alinear verticalmente el favicon con la altura visual de los números (offset 15px abajo de info_pos_y)
-                    bg.paste(fav, (x, info_pos_y + 15), fav)
-                    x += fav_size + 8
-                except Exception as e:
-                    print(f"Error pegando favicon de {platform}: {e}")
-            
-            # Dibujar texto de calificación con sombra
-            draw.text((x + 2, info_pos_y + 2), rating_text, fill='black', font=font_i)
-            draw.text((x, info_pos_y), rating_text, fill=(150, 150, 150), font=font_i)
-            x += int(draw.textlength(rating_text, font=font_i))
-            
-            # Separador entre calificaciones
-            if idx < len(active_platforms) - 1:
-                # En lugar del punto separador, dejamos un espacio horizontal elegante (35 píxeles)
-                x += 35
-    
-    # Dibujar el logo si está disponible
-    if logo_drawn and logo_img:
-        try:
-            w, h = logo_img.size
-            max_h = 720-40-150
-            max_w = 1600
-            ratio = min(max_h/h, max_w/w)
-            logo_img = logo_img.resize((int(w*ratio), int(h*ratio)), Image.Resampling.LANCZOS)
-            x = 210+10 + (max_w-logo_img.width)//2
-            y = 720-40-20-logo_img.height
-            bg.paste(logo_img, (x, y), logo_img)
-        except Exception as e:
-            print(f"Error pegando logo de {title}: {e}")
-            logo_drawn = False  # Si falla el pegado, intentamos dibujar el texto
-            
-    if not logo_drawn:
-        # Sanitizar título para prevenir tofu y pasar a mayúsculas
-        title_clean = sanitize_title_font(title).upper()
-        # Extraer color de acento dinámico de la foto
-        accent_color = extract_accent_color(img)
-        
-        try:
-            # Dividir en 2 líneas si tiene más de 16 caracteres y contiene espacios
-            if len(title_clean) > 16 and ' ' in title_clean:
-                # Dividir el título de forma equilibrada en exactamente 2 líneas
-                title_text = split_title_into_two_lines(title_clean)
-                lines = title_text.split('\n')
-                max_line = max(lines, key=len)
-                
-                font_size = 320
-                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
-                # Permitir decrecer hasta tamaño 80 para que quepan títulos extremadamente largos en 2 líneas
-                while draw.textlength(max_line, font=font_t_bold) > 2200 and font_size > 80:
-                    font_size -= 5
-                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
-                    
-                bbox = draw.multiline_textbbox((0, 0), title_text, font=font_t_bold, spacing=10)
-                # Calcular Y dinámicamente según el límite inferior real de la caja de texto (bbox[3]) para asegurar un espaciado de 50px
-                title_pos_y = info_pos_y - bbox[3] - 50
-                if title_pos_y < 80:
-                    title_pos_y = 80
-                    
-                title_pos = (210, title_pos_y)
-                line_spacing = 10
-            else:
-                # Una línea, tamaño gigante
-                title_text = title_clean
-                font_size = 380
-                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
-                while draw.textlength(title_text, font=font_t_bold) > 2200 and font_size > 110:
-                    font_size -= 5
-                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
-                    
-                # Calcular Y dinámicamente según el límite inferior real de la caja de texto (bbox[3]) para asegurar un espaciado de 50px
-                bbox = draw.textbbox((0, 0), title_text, font=font_t_bold)
-                title_pos_y = info_pos_y - bbox[3] - 50
-                if title_pos_y < 80:
-                    title_pos_y = 80
-                    
-                title_pos = (210, title_pos_y)
-                line_spacing = 0
-                
-            # Sombra negra
-            shadow_offset = 4
-            draw.multiline_text((title_pos[0]+shadow_offset, title_pos[1]+shadow_offset), title_text, fill='black', font=font_t_bold, spacing=line_spacing)
-            # Título principal con el color extraído
-            draw.multiline_text(title_pos, title_text, fill=accent_color, font=font_t_bold, spacing=line_spacing)
-        except Exception as e:
-            print(f"Error dibujando título estilizado: {e}")
-            fallback_y = 338
-            draw.text((202, fallback_y), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
-            
     bg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
     return True
@@ -945,7 +1007,8 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
         media_type=media_type,
         media_id=item_id,
         short_overview=short_overview,
-        reason=reason
+        reason=reason,
+        tv_type=details.get('type') if not is_movie else None
     )
 
 # Obtener lista amplia de candidatos
@@ -1337,7 +1400,8 @@ def main():
                 f"https://image.tmdb.org/t/p/original{tv.get('backdrop_path')}",
                 tv.get('name', ''), tv.get('overview', ''), False,
                 tv.get('genre_ids', []), year, ratings,
-                seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid
+                seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid,
+                tv_type=details.get('type')
             )
             filename = os.path.join(background_dir, clean_filename(tv.get('name', '')) + '.jpg')
             if os.path.exists(filename):
