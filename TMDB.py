@@ -9,6 +9,9 @@ import textwrap
 from datetime import datetime
 import praw
 from dotenv import load_dotenv
+import re
+import urllib.parse
+from bs4 import BeautifulSoup
 
 # Intentar importar traductor, si falla lo desactivamos
 try:
@@ -69,6 +72,296 @@ genre_name_to_id = {}
 
 # Crear directorio de fondos
 os.makedirs(background_dir, exist_ok=True)
+
+def download_favicons():
+    domains = {
+        "imdb": "imdb.com",
+        "letterboxd": "letterboxd.com",
+        "rottentomatoes": "rottentomatoes.com",
+        "filmaffinity": "filmaffinity.com",
+        "metacritic": "metacritic.com",
+        "tmdb": "themoviedb.org"
+    }
+    cwd = os.path.dirname(os.path.abspath(__file__))
+    for name, domain in domains.items():
+        path = os.path.join(cwd, f"{name}_favicon.png")
+        if not os.path.exists(path):
+            try:
+                print(f"Descargando favicon para {name}...")
+                url = f"https://www.google.com/s2/favicons?sz=64&domain={domain}"
+                r = requests.get(url, timeout=10)
+                if r.status_code == 200:
+                    with open(path, "wb") as f:
+                        f.write(r.content)
+                    print(f"Favicon de {name} guardado con éxito.")
+            except Exception as e:
+                print(f"Error descargando favicon de {name}: {e}")
+
+def slugify(text):
+    if not text:
+        return ""
+    normalized = unicodedata.normalize('NFKD', text)
+    ascii_text = normalized.encode('ascii', 'ignore').decode('ascii')
+    ascii_text = ascii_text.lower()
+    cleaned = re.sub(r'[^a-z0-9\s\-]', '', ascii_text)
+    slug = re.sub(r'[\s\-]+', '-', cleaned)
+    return slug.strip('-')
+
+def clean_title_url(text):
+    if not text:
+        return ""
+    normalized = unicodedata.normalize('NFKD', text)
+    ascii_text = normalized.encode('ascii', 'ignore').decode('ascii')
+    ascii_text = ascii_text.lower()
+    cleaned = re.sub(r'[^a-z0-9\s_\-]', '', ascii_text)
+    return cleaned
+
+def format_votes(count):
+    if not count:
+        return ""
+    try:
+        if isinstance(count, str):
+            count = count.replace(".", "").replace(",", "").strip()
+            count = re.sub(r'[^\d]', '', count)
+        val = int(count)
+        if val >= 1000000:
+            return f"{val / 1000000:.1f}M".replace(".0M", "M")
+        elif val >= 1000:
+            return f"{val / 1000:.0f}k"
+        else:
+            return str(val)
+    except Exception:
+        return str(count)
+
+def get_imdb_rating(imdb_id):
+    omdb_key = os.getenv("OMDB_API_KEY")
+    if not omdb_key or not imdb_id:
+        return None
+    url = f"http://www.omdbapi.com/?i={imdb_id}&apikey={omdb_key}"
+    try:
+        r = requests.get(url, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            rating = data.get("imdbRating")
+            votes = data.get("imdbVotes")
+            if rating and rating != "N/A":
+                try:
+                    return {"rating": float(rating), "votes": format_votes(votes)}
+                except ValueError:
+                    pass
+    except Exception as e:
+        print(f"Error al obtener calificación de IMDb vía OMDb: {e}")
+    return None
+
+def get_letterboxd_rating(original_title, english_title, spanish_title):
+    slugs = []
+    if english_title:
+        slugs.append(slugify(english_title))
+    if original_title:
+        slugs.append(slugify(original_title))
+    if spanish_title:
+        slugs.append(slugify(spanish_title))
+        
+    seen = set()
+    unique_slugs = []
+    for s in slugs:
+        if s and s not in seen:
+            seen.add(s)
+            unique_slugs.append(s)
+            
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    for slug in unique_slugs:
+        url = f"https://letterboxd.com/film/{slug}/"
+        try:
+            r = requests.get(url, headers=headers, timeout=10)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, "html.parser")
+                script = soup.find("script", {"type": "application/ld+json"})
+                if script:
+                    content = script.string.strip()
+                    if content.startswith("/* <![CDATA[ */"):
+                        content = content[len("/* <![CDATA[ */"):].strip()
+                    if content.endswith("/* ]]> */"):
+                        content = content[:-len("/* ]]> */")].strip()
+                    data = json.loads(content)
+                    agg = data.get("aggregateRating", {})
+                    rating = agg.get("ratingValue")
+                    votes = agg.get("ratingCount")
+                    if rating is not None:
+                        # Normalizar nota de Letterboxd (escala de 5 a escala de 10)
+                        return {"rating": round(float(rating) * 2, 1), "votes": format_votes(votes)}
+        except Exception:
+            pass
+    return None
+
+def get_rottentomatoes_rating(original_title, english_title, spanish_title, is_movie):
+    titles = [english_title, original_title, spanish_title]
+    unique_titles = []
+    for t in titles:
+        if t and t not in unique_titles:
+            unique_titles.append(t)
+            
+    prefix = "m" if is_movie else "tv"
+    urls = []
+    for t in unique_titles:
+        cleaned = clean_title_url(t)
+        slug_under = re.sub(r'[\s\-_\s]+', '_', cleaned).strip('_')
+        urls.append(f"https://www.rottentomatoes.com/{prefix}/{slug_under}")
+        slug_hyphen = re.sub(r'[\s\-_\s]+', '-', cleaned).strip('-')
+        urls.append(f"https://www.rottentomatoes.com/{prefix}/{slug_hyphen}")
+        
+    seen = set()
+    unique_urls = []
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            unique_urls.append(u)
+            
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    for url in unique_urls:
+        try:
+            r = requests.get(url, headers=headers, timeout=10)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, "html.parser")
+                script = soup.find("script", {"type": "application/ld+json"})
+                if script:
+                    data = json.loads(script.string)
+                    agg = data.get("aggregateRating", {})
+                    rating = agg.get("ratingValue")
+                    votes = agg.get("ratingCount")
+                    if rating is not None:
+                        # Normalizar de porcentaje a escala de 10
+                        return {"rating": round(float(rating) / 10, 1), "votes": format_votes(votes)}
+        except Exception:
+            pass
+    return None
+
+def get_filmaffinity_rating(title):
+    search_url = f"https://www.filmaffinity.com/es/search.php?stext={urllib.parse.quote(title)}"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "es-ES,es;q=0.9"
+    }
+    try:
+        r = requests.get(search_url, headers=headers, timeout=10)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.text, "html.parser")
+            
+            # Redirección directa al detalle
+            rat_avg = soup.find("div", id="movie-rat-avg")
+            if rat_avg:
+                count_rat = soup.find("div", id="movie-count-rat")
+                rating_str = rat_avg.text.strip().replace(",", ".")
+                votes_str = count_rat.text.strip() if count_rat else ""
+                try:
+                    return {"rating": float(rating_str), "votes": format_votes(votes_str)}
+                except ValueError:
+                    pass
+            
+            # Si no es directo, tomar el primer resultado
+            first_result = soup.find("div", class_="mc-title")
+            if first_result:
+                a = first_result.find("a")
+                if a and a.get("href"):
+                    movie_url = a.get("href")
+                    r_movie = requests.get(movie_url, headers=headers, timeout=10)
+                    if r_movie.status_code == 200:
+                        soup_movie = BeautifulSoup(r_movie.text, "html.parser")
+                        rat_avg = soup_movie.find("div", id="movie-rat-avg")
+                        count_rat = soup_movie.find("div", id="movie-count-rat")
+                        if rat_avg:
+                            rating_str = rat_avg.text.strip().replace(",", ".")
+                            votes_str = count_rat.text.strip() if count_rat else ""
+                            try:
+                                return {"rating": float(rating_str), "votes": format_votes(votes_str)}
+                            except ValueError:
+                                pass
+    except Exception as e:
+        print(f"Error al obtener calificación de FilmAffinity: {e}")
+    return None
+
+def get_metacritic_rating(title, is_movie):
+    slugs = [slugify(title)]
+    prefix = "movie" if is_movie else "tv"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    for slug in slugs:
+        url = f"https://www.metacritic.com/{prefix}/{slug}/"
+        try:
+            r = requests.get(url, headers=headers, timeout=10)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, "html.parser")
+                script = soup.find("script", {"type": "application/ld+json"})
+                if script:
+                    data = json.loads(script.string)
+                    agg = data.get("aggregateRating", {})
+                    rating = agg.get("ratingValue")
+                    votes = agg.get("reviewCount")
+                    if rating is not None:
+                        # Normalizar metascore de 100 a escala de 10
+                        return {"rating": round(float(rating) / 10, 1), "votes": format_votes(votes)}
+        except Exception:
+            pass
+    return None
+
+def get_all_ratings_for_media(tmdb_id, is_movie, tmdb_rating=None, tmdb_votes=None):
+    media_type = "movie" if is_movie else "tv"
+    details_es = tmdb_get(f"{media_type}/{tmdb_id}", {"language": "es-ES"})
+    details_en = tmdb_get(f"{media_type}/{tmdb_id}", {"language": "en-US"})
+    
+    if not details_es:
+        return {}
+        
+    imdb_id = details_es.get("imdb_id")
+    if not imdb_id and not is_movie:
+        ext_ids = tmdb_get(f"tv/{tmdb_id}/external_ids")
+        if ext_ids:
+            imdb_id = ext_ids.get("imdb_id")
+            
+    original_title = details_es.get("original_title") or details_es.get("original_name")
+    spanish_title = details_es.get("title") or details_es.get("name")
+    english_title = details_en.get("title") or details_en.get("name") if details_en else spanish_title
+    
+    ratings = {}
+    
+    # TMDB rating
+    t_rating = tmdb_rating or details_es.get("vote_average")
+    t_votes = tmdb_votes or details_es.get("vote_count")
+    if t_rating:
+        ratings["tmdb"] = {"rating": round(float(t_rating), 1), "votes": format_votes(t_votes)}
+        
+    # IMDb rating
+    imdb_res = get_imdb_rating(imdb_id)
+    if imdb_res:
+        ratings["imdb"] = imdb_res
+        
+    # Letterboxd rating (películas únicamente)
+    if is_movie:
+        lb_res = get_letterboxd_rating(original_title, english_title, spanish_title)
+        if lb_res:
+            ratings["letterboxd"] = lb_res
+            
+    # Rotten Tomatoes rating
+    rt_res = get_rottentomatoes_rating(original_title, english_title, spanish_title, is_movie)
+    if rt_res:
+        ratings["rottentomatoes"] = rt_res
+        
+    # FilmAffinity rating
+    fa_res = get_filmaffinity_rating(spanish_title)
+    if fa_res:
+        ratings["filmaffinity"] = fa_res
+        
+    # Metacritic rating
+    mc_res = get_metacritic_rating(english_title, is_movie)
+    if mc_res:
+        ratings["metacritic"] = mc_res
+        
+    return ratings
 
 # Normalizar título para filename y Reddit title
 def normalize_title(title):
@@ -343,7 +636,7 @@ def summarize_with_gemini(title, overview, reason=None):
 
 
 # Procesar y componer imagen
-def process_image(image_url, title, overview, is_movie, genre_ids, year, rating, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None):
+def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None):
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
     if os.path.exists(filename):
         print(f"Imagen ya existe: {filename}")
@@ -396,7 +689,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
     
     draw = ImageDraw.Draw(bg)
     font_t = ImageFont.truetype('Roboto-Light.ttf', 190)
-    font_i = ImageFont.truetype('Roboto-Light.ttf', 60)
+    font_i = ImageFont.truetype('Roboto-Light.ttf', 50)
     
     # Determinar si el logo se puede cargar antes de dibujar info/sinopsis
     logo_path = get_logo_path(media_type, media_id)
@@ -477,20 +770,66 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, rating,
         
     draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), line_spacing, 'black', 2)
     
-    # Texto info (Solo mostrar TMDB rating si es mayor a 0.0)
+    # Texto info (Metadatos y calificaciones normalizadas inline)
     info_extra = format_duration(duration) if is_movie else f"{seasons} Temporada{'s' if seasons > 1 else ''}"
     genre_names = [genre_map.get(g, '') for g in genre_ids]
     genre_names = [gn for gn in genre_names if gn]
     
-    info_parts = [", ".join(genre_names), year, info_extra]
-    if rating and rating > 0.0:
-        info_parts.append(f"TMDB: {rating}")
-    info_parts = [p for p in info_parts if p.strip()]
-    info = "  •  ".join(info_parts)
+    metadata_parts = [", ".join(genre_names), year, info_extra]
+    metadata_parts = [p for p in metadata_parts if p.strip()]
+    metadata_text = "  •  ".join(metadata_parts)
     
-    # Dibujar info con sombra
-    draw.text((210 + 2, info_pos_y + 2), info, fill='black', font=font_i)
-    draw.text((210, info_pos_y), info, fill=(150, 150, 150), font=font_i)
+    x = 210
+    # Dibujar metadatos con sombra
+    draw.text((x + 2, info_pos_y + 2), metadata_text, fill='black', font=font_i)
+    draw.text((x, info_pos_y), metadata_text, fill=(150, 150, 150), font=font_i)
+    x += int(draw.textlength(metadata_text, font=font_i))
+    
+    # Dibujar calificaciones inline con sus favicons
+    platforms_order = ["imdb", "letterboxd", "rottentomatoes", "filmaffinity", "metacritic", "tmdb"]
+    active_platforms = []
+    if isinstance(ratings, dict):
+        active_platforms = [p for p in platforms_order if p in ratings and ratings[p].get('rating') is not None]
+        
+    if active_platforms:
+        # Separador inicial entre metadatos y calificaciones
+        sep = "  •  "
+        draw.text((x + 2, info_pos_y + 2), sep, fill='black', font=font_i)
+        draw.text((x, info_pos_y), sep, fill=(150, 150, 150), font=font_i)
+        x += int(draw.textlength(sep, font=font_i))
+        
+        cwd = os.path.dirname(os.path.abspath(__file__))
+        for idx, platform in enumerate(active_platforms):
+            data = ratings[platform]
+            rating_val = data.get("rating")
+            votes_val = data.get("votes")
+            
+            # Formatear el texto de la calificación
+            rating_text = f"{rating_val:.1f} ({votes_val})" if votes_val else f"{rating_val:.1f}"
+            
+            # Dibujar el favicon
+            favicon_path = os.path.join(cwd, f"{platform}_favicon.png")
+            if os.path.exists(favicon_path):
+                try:
+                    fav = Image.open(favicon_path).convert("RGBA")
+                    # Para fuente de tamaño 50 (altura de números de ~36px), usamos favicon de 44x44
+                    fav_size = 44
+                    fav = fav.resize((fav_size, fav_size), Image.Resampling.LANCZOS)
+                    # Alinear verticalmente el favicon con la altura visual de los números (offset 15px abajo de info_pos_y)
+                    bg.paste(fav, (x, info_pos_y + 15), fav)
+                    x += fav_size + 8
+                except Exception as e:
+                    print(f"Error pegando favicon de {platform}: {e}")
+            
+            # Dibujar texto de calificación con sombra
+            draw.text((x + 2, info_pos_y + 2), rating_text, fill='black', font=font_i)
+            draw.text((x, info_pos_y), rating_text, fill=(150, 150, 150), font=font_i)
+            x += int(draw.textlength(rating_text, font=font_i))
+            
+            # Separador entre calificaciones
+            if idx < len(active_platforms) - 1:
+                # En lugar del punto separador, dejamos un espacio horizontal elegante (35 píxeles)
+                x += 35
     
     # Dibujar el logo si está disponible
     if logo_drawn and logo_img:
@@ -580,9 +919,11 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
     genre_ids = [g['id'] for g in details.get('genres', [])]
     date_key = 'release_date' if is_movie else 'first_air_date'
     year = details.get(date_key, '')[:4]
-    rating = round(details.get('vote_average', 0), 1)
-    backdrop_path = details.get('backdrop_path')
     
+    # Obtener todas las calificaciones
+    ratings = get_all_ratings_for_media(item_id, is_movie, details.get('vote_average', 0), details.get('vote_count', 0))
+    
+    backdrop_path = details.get('backdrop_path')
     if not backdrop_path:
         print(f"No hay backdrop de fondo disponible para: {title}")
         return False
@@ -598,7 +939,7 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
         is_movie=is_movie,
         genre_ids=genre_ids,
         year=year,
-        rating=rating,
+        ratings=ratings,
         duration=duration,
         seasons=seasons,
         media_type=media_type,
@@ -811,6 +1152,7 @@ def sync_existing_backgrounds_to_reddit(subreddit):
 
 # Main completo
 def main():
+    download_favicons()
     load_genres()
     
     reddit = praw.Reddit(
@@ -940,10 +1282,13 @@ def main():
             if not details:
                 continue
                 
+            # Obtener todas las calificaciones
+            ratings = get_all_ratings_for_media(mid, True, rating, details.get('vote_count', 0))
+            
             ok = process_image(
                 f"https://image.tmdb.org/t/p/original{m.get('backdrop_path')}",
                 m.get('title', ''), m.get('overview', ''), True,
-                m.get('genre_ids', []), year, round(rating, 1),
+                m.get('genre_ids', []), year, ratings,
                 duration=details.get('runtime'), media_type='movie', media_id=mid
             )
             filename = os.path.join(background_dir, clean_filename(m.get('title', '')) + '.jpg')
@@ -985,10 +1330,13 @@ def main():
             if not details:
                 continue
                 
+            # Obtener todas las calificaciones
+            ratings = get_all_ratings_for_media(tid, False, rating, details.get('vote_count', 0))
+            
             ok = process_image(
                 f"https://image.tmdb.org/t/p/original{tv.get('backdrop_path')}",
                 tv.get('name', ''), tv.get('overview', ''), False,
-                tv.get('genre_ids', []), year, round(rating, 1),
+                tv.get('genre_ids', []), year, ratings,
                 seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid
             )
             filename = os.path.join(background_dir, clean_filename(tv.get('name', '')) + '.jpg')
