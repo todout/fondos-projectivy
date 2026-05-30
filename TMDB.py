@@ -40,6 +40,8 @@ background_dir = "tmdbbackgrounds"
 # Configuración de Gemini
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+FORCE_REGENERATE = os.getenv("TMDB_FORCE_REGENERATE", "False").lower() == "true"
+
 
 # Descargar fuentes adicionales si faltan
 font_bold_path = 'Roboto-Black.ttf'
@@ -646,7 +648,7 @@ def summarize_with_gemini(title, overview, reason=None):
 # Procesar y componer imagen
 def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None, tv_type=None):
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
-    if os.path.exists(filename):
+    if os.path.exists(filename) and not FORCE_REGENERATE:
         print(f"Imagen ya existe: {filename}")
         return False
         
