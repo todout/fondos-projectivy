@@ -69,6 +69,26 @@ excluded_movies = {int(mid.strip()) for mid in exclude_movies_env.split(',') if 
 exclude_tv_env = os.getenv('TMDB_EXCLUDE_TV', '')
 excluded_tv = {int(tid.strip()) for tid in exclude_tv_env.split(',') if tid.strip().isdigit()}
 
+FALLBACK_GENRES_ES = {
+    28: "Acción", 12: "Aventura", 16: "Animación", 35: "Comedia", 80: "Crimen",
+    99: "Documental", 18: "Drama", 10751: "Familia", 14: "Fantasía", 36: "Historia",
+    27: "Terror", 10402: "Música", 9648: "Misterio", 10749: "Romance",
+    878: "Ciencia ficción", 10770: "Película de TV", 53: "Suspenso", 10752: "Bélica",
+    37: "Western", 10759: "Action & Adventure", 10762: "Kids", 10763: "News",
+    10764: "Reality", 10765: "Sci-Fi & Fantasy", 10766: "Soap", 10767: "Talk",
+    10768: "War & Politics"
+}
+
+FALLBACK_GENRES_EN = {
+    28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy", 80: "Crime",
+    99: "Documentary", 18: "Drama", 10751: "Family", 14: "Fantasy", 36: "History",
+    27: "Horror", 10402: "Music", 9648: "Mystery", 10749: "Romance",
+    878: "Science Fiction", 10770: "TV Movie", 53: "Thriller", 10752: "War",
+    37: "Western", 10759: "Action & Adventure", 10762: "Kids", 10763: "News",
+    10764: "Reality", 10765: "Sci-Fi & Fantasy", 10766: "Soap", 10767: "Talk",
+    10768: "War & Politics"
+}
+
 genre_map = {}
 genre_name_to_id = {}
 
@@ -396,21 +416,50 @@ def load_genres():
     genres_es = []
     genres_en = []
     
-    # Cargar en español
-    data_es = tmdb_get("genre/movie/list", {"language": "es-ES"})
-    if data_es:
-        genres_es.extend(data_es.get('genres', []))
-    data_es_tv = tmdb_get("genre/tv/list", {"language": "es-ES"})
-    if data_es_tv:
-        genres_es.extend(data_es_tv.get('genres', []))
+    # Intenta cargar desde la API de TMDB
+    api_success = False
+    try:
+        data_es = tmdb_get("genre/movie/list", {"language": "es-ES"})
+        data_es_tv = tmdb_get("genre/tv/list", {"language": "es-ES"})
+        data_en = tmdb_get("genre/movie/list", {"language": "en-US"})
+        data_en_tv = tmdb_get("genre/tv/list", {"language": "en-US"})
         
-    # Cargar en inglés
-    data_en = tmdb_get("genre/movie/list", {"language": "en-US"})
-    if data_en:
-        genres_en.extend(data_en.get('genres', []))
-    data_en_tv = tmdb_get("genre/tv/list", {"language": "en-US"})
-    if data_en_tv:
-        genres_en.extend(data_en_tv.get('genres', []))
+        if data_es and data_es_tv and data_en and data_en_tv:
+            genres_es.extend(data_es.get('genres', []))
+            genres_es.extend(data_es_tv.get('genres', []))
+            genres_en.extend(data_en.get('genres', []))
+            genres_en.extend(data_en_tv.get('genres', []))
+            api_success = True
+    except Exception as e:
+        print(f"Error cargando géneros desde API de TMDB: {e}")
+        
+    cache_path = "genres_cache.json"
+    if api_success:
+        # Guardar en caché
+        try:
+            with open(cache_path, "w", encoding="utf-8") as f:
+                json.dump({"genres_es": genres_es, "genres_en": genres_en}, f, indent=2, ensure_ascii=False)
+            print("Lista de géneros guardada en caché local.")
+        except Exception as e:
+            print(f"No se pudo guardar la caché de géneros: {e}")
+    else:
+        # Intentar cargar desde caché
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    cached_data = json.load(f)
+                    genres_es = cached_data.get("genres_es", [])
+                    genres_en = cached_data.get("genres_en", [])
+                    print("Lista de géneros cargada desde caché local.")
+                    api_success = True
+            except Exception as e:
+                print(f"Error cargando caché de géneros: {e}")
+                
+    # Fallback total con diccionarios hardcodeados si todo lo anterior falló
+    if not genres_es or not genres_en:
+        print("Usando géneros de fallback hardcodeados.")
+        genres_es = [{"id": gid, "name": name} for gid, name in FALLBACK_GENRES_ES.items()]
+        genres_en = [{"id": gid, "name": name} for gid, name in FALLBACK_GENRES_EN.items()]
         
     # Mapeo de ID -> Nombre en español
     genre_map = {g['id']: g['name'] for g in genres_es}
@@ -421,6 +470,7 @@ def load_genres():
             genre_map[gid] = 'Suspenso'
             
     # Mapeo Nombre -> ID (tanto inglés como español)
+    genre_name_to_id = {}
     for g in genres_es:
         name = g['name']
         if name == 'Suspense':
@@ -650,7 +700,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
     if os.path.exists(filename) and not FORCE_REGENERATE:
         print(f"Imagen ya existe: {filename}")
-        return False
+        return True
         
     # Obtener descripción en español si falta
     if not overview.strip():
@@ -1173,6 +1223,132 @@ Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown
         print(f"Excepción al llamar a Gemini API: {e}")
         return None
 
+# Buscar el ID de un título en TMDB
+def find_tmdb_id_by_title(title, media_type, year=None):
+    params = {
+        "query": title,
+        "language": "es-ES"
+    }
+    endpoint = f"search/{media_type}"
+    
+    if year:
+        try:
+            year_int = int(year)
+            if media_type == 'movie':
+                params['primary_release_year'] = year_int
+            else:
+                params['first_air_date_year'] = year_int
+        except ValueError:
+            pass
+            
+    data = tmdb_get(endpoint, params)
+    if data and data.get('results'):
+        return data['results'][0]['id']
+        
+    if year and (media_type == 'movie' and 'primary_release_year' in params or media_type == 'tv' and 'first_air_date_year' in params):
+        params.pop('primary_release_year', None)
+        params.pop('first_air_date_year', None)
+        data = tmdb_get(endpoint, params)
+        if data and data.get('results'):
+            return data['results'][0]['id']
+            
+    data_multi = tmdb_get("search/multi", {"query": title, "language": "es-ES"})
+    if data_multi and data_multi.get('results'):
+        results = [item for item in data_multi['results'] if item.get('media_type') == media_type]
+        if results:
+            return results[0]['id']
+            
+    return None
+
+# Pedir a Gemini recomendaciones libres basadas en el perfil de usuario (sin candidatos limitados)
+def ask_gemini_free_form_recommendations(likes, dislikes, neutral, needed_movies, needed_tv):
+    if not GEMINI_API_KEY:
+        return None
+        
+    def format_pref_list(arr):
+        return "\n".join([f"- {x['title']} (Géneros: {', '.join(x.get('genres', []))})" for x in arr]) if arr else "Ninguno"
+        
+    likes_str = format_pref_list(likes)
+    dislikes_str = format_pref_list(dislikes)
+    neutral_str = format_pref_list(neutral)
+    
+    excl_genres_str = ", ".join(list(excluded_genres))
+    excl_langs_str = ", ".join(list(excluded_languages))
+    
+    prompt = f"""Eres un recomendador experto de cine y televisión. Tu tarea es generar exactamente {needed_movies} películas y {needed_tv} series excelentes que encajen a la perfección con el perfil del usuario.
+    
+Historial del usuario:
+Películas y series que le gustaron (LIKES):
+{likes_str}
+
+Películas y series que NO le gustaron (DISLIKES):
+{dislikes_str}
+
+Películas y series neutrales ("ni fu ni fa"):
+{neutral_str}
+
+Instrucciones críticas de filtrado:
+- NO recomiendes NADA de los siguientes géneros bajo ninguna circunstancia: {excl_genres_str}
+- NO recomiendes NADA en los siguientes idiomas originales: {excl_langs_str}
+- Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES).
+- No recomiendes títulos que ya figuren en sus listas de calificados (LIKES, DISLIKES, NEUTRAL).
+
+Instrucciones de recomendación:
+1. El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos y ritmo implacable, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
+2. Selecciona obras aclamadas mundialmente y populares que el usuario pueda encontrar fácilmente en plataformas de streaming o TMDB.
+3. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
+{{
+  "movies": [
+    {{
+      "title": "<titulo_en_espanol>",
+      "year": "<año_lanzamiento>",
+      "short_overview": "<sinopsis_condensada_en_espanol>",
+      "reason": "<motivo_de_recomendacion>"
+    }}
+  ],
+  "tv": [
+    {{
+      "title": "<titulo_en_espanol>",
+      "year": "<año_lanzamiento>",
+      "short_overview": "<sinopsis_condensada_en_espanol>",
+      "reason": "<motivo_de_recomendacion>"
+    }}
+  ]
+}}
+Nota crítica sobre los campos:
+- "short_overview" debe ser una sinopsis condensada de la trama en español, muy concisa y directa (máximo 150 caracteres).
+- "reason" debe ser una explicación breve de por qué se recomienda o gustará (máximo 100 caracteres).
+  - No incluyas ningún prefijo del estilo "Por qué te gustará" ni "Te gustará" por defecto. Escribe el motivo directamente con naturalidad en español.
+  
+Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
+"""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+    
+    try:
+        r = requests.post(url, json=payload, timeout=60)
+        if r.status_code == 200:
+            resp_json = r.json()
+            text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            if text_res.startswith("```"):
+                lines = text_res.split("\n")
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines[-1].strip() == "```":
+                    lines = lines[:-1]
+                text_res = "\n".join(lines).strip()
+                
+            return json.loads(text_res)
+        else:
+            print(f"Error llamando a Gemini API para recomendaciones libres: HTTP {r.status_code} - {r.text}")
+            return None
+    except Exception as e:
+        print(f"Excepción al llamar a Gemini API para recomendaciones libres: {e}")
+        return None
+
 # Chequear duplicados en Reddit con resiliencia
 def was_already_posted(subreddit, title, limit=1000):
     try:
@@ -1215,6 +1391,37 @@ def sync_existing_backgrounds_to_reddit(subreddit):
             print(f"Ya publicado en Reddit: {title_norm}")
     print("--- Sincronización de Fondos Locales Finalizada ---\n")
 
+# Funciones auxiliares de filtrado
+    
+def filter_candidates_list(candidates, is_movie):
+    filtered = []
+    for c in candidates:
+        mid = c.get('id')
+        
+        # 1. Verificar exclusiones de IDs
+        if is_movie:
+            if mid in excluded_movies:
+                continue
+        else:
+            if mid in excluded_tv:
+                continue
+                
+        # 2. Idiomas excluidos
+        if c.get('original_language') in excluded_languages:
+            continue
+            
+        # 3. Sinopsis vacía o sin backdrop
+        if not c.get('overview', '').strip() or not c.get('backdrop_path'):
+            continue
+            
+        # 4. Géneros excluidos (usando genre_map robusto)
+        genre_ids = c.get('genre_ids', [])
+        if any(genre_map.get(gid, '') in excluded_genres for gid in genre_ids):
+            continue
+            
+        filtered.append(c)
+    return filtered
+
 # Main completo
 def main():
     download_favicons()
@@ -1243,12 +1450,15 @@ def main():
     movie_candidates = get_candidates('movie', max_results=20)
     tv_candidates = get_candidates('tv', max_results=20)
     
-    all_candidates = movie_candidates + tv_candidates
+    # Pre-filtrar candidatos antes de mandárselos a Gemini
+    movie_candidates_filtered = filter_candidates_list(movie_candidates, is_movie=True)
+    tv_candidates_filtered = filter_candidates_list(tv_candidates, is_movie=False)
+    all_candidates_filtered = movie_candidates_filtered + tv_candidates_filtered
     
     # Consultar Gemini
     print(f"Consultando recomendaciones a Gemini ({GEMINI_MODEL})...")
     recommendations = ask_gemini_recommendations(
-        likes, dislikes, neutral, all_candidates,
+        likes, dislikes, neutral, all_candidates_filtered,
         numberofmovies, numberoftvshows
     )
     
@@ -1261,17 +1471,15 @@ def main():
         rec_tv = recommendations.get('tv', [])
         
         # Películas recomendadas por IA
-        print(f"\n--- Procesando {len(rec_movies)} Películas Recomendadas ---")
+        print(f"\n--- Procesando {len(rec_movies)} Películas Recomendadas por Gemini ---")
         for rec in rec_movies:
             mid = rec.get('id')
             title = rec.get('title')
             short_overview = rec.get('short_overview', '')
             reason = rec.get('reason', '')
+            if not mid:
+                continue
             print(f"Película elegida: {title} (ID: {mid})")
-            if short_overview or reason:
-                print(f"  Sinopsis corta de IA: {short_overview}")
-                print(f"  Razón: {reason}")
-                
             if mid in excluded_movies:
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
@@ -1281,26 +1489,26 @@ def main():
             if os.path.exists(filename):
                 if ok:
                     success_movies += 1
-                title_norm = normalize_title(title).upper()
-                if not was_already_posted(subreddit, title_norm):
-                    try:
-                        subreddit.submit_image(title_norm, filename)
-                        print(f"Subido a Reddit: {title_norm}")
-                    except Exception as e:
-                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                    title_norm = normalize_title(title).upper()
+                    if not was_already_posted(subreddit, title_norm):
+                        try:
+                            subreddit.submit_image(title_norm, filename)
+                            print(f"Subido a Reddit: {title_norm}")
+                        except Exception as e:
+                            print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                else:
+                    print(f"No se procesó la película {title} por filtros locales o error.")
                         
         # Series recomendadas por IA
-        print(f"\n--- Procesando {len(rec_tv)} Series Recomendadas ---")
+        print(f"\n--- Procesando {len(rec_tv)} Series Recomendadas por Gemini ---")
         for rec in rec_tv:
             tid = rec.get('id')
             title = rec.get('title')
             short_overview = rec.get('short_overview', '')
             reason = rec.get('reason', '')
+            if not tid:
+                continue
             print(f"Serie elegida: {title} (ID: {tid})")
-            if short_overview or reason:
-                print(f"  Sinopsis corta de IA: {short_overview}")
-                print(f"  Razón: {reason}")
-                
             if tid in excluded_tv:
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
@@ -1310,113 +1518,196 @@ def main():
             if os.path.exists(filename):
                 if ok:
                     success_tv += 1
-                title_norm = normalize_title(title).upper()
-                if not was_already_posted(subreddit, title_norm):
-                    try:
-                        subreddit.submit_image(title_norm, filename)
-                        print(f"Subido a Reddit: {title_norm}")
-                    except Exception as e:
-                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                    title_norm = normalize_title(title).upper()
+                    if not was_already_posted(subreddit, title_norm):
+                        try:
+                            subreddit.submit_image(title_norm, filename)
+                            print(f"Subido a Reddit: {title_norm}")
+                        except Exception as e:
+                            print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                else:
+                    print(f"No se procesó la serie {title} por filtros locales o error.")
     else:
-        print("Fallo en Gemini o sin recomendaciones. Iniciando modo de fallback tradicional...")
+        print("Fallo en Gemini o sin recomendaciones iniciales de candidatos.")
+
+    # === BACKFILL CON RECOMENDACIONES LIBRES DE GEMINI ===
+    needed_movies = numberofmovies - success_movies
+    needed_tv = numberoftvshows - success_tv
+    
+    if (needed_movies > 0 or needed_tv > 0) and GEMINI_API_KEY:
+        print(f"\n--- Faltan {needed_movies} películas y {needed_tv} series para completar la cuota. Solicitando recomendaciones libres a Gemini... ---")
+        free_recs = ask_gemini_free_form_recommendations(likes, dislikes, neutral, max(0, needed_movies), max(0, needed_tv))
+        if free_recs:
+            # Procesar películas libres
+            if needed_movies > 0 and 'movies' in free_recs:
+                for rec in free_recs.get('movies', []):
+                    if success_movies >= numberofmovies:
+                        break
+                    title = rec.get('title')
+                    year = rec.get('year')
+                    short_overview = rec.get('short_overview', '')
+                    reason = rec.get('reason', '')
+                    print(f"Buscando ID de película recomendada libre: {title} ({year})")
+                    mid = find_tmdb_id_by_title(title, 'movie', year)
+                    if mid:
+                        print(f"Encontrado ID {mid} para película {title}")
+                        if mid in excluded_movies:
+                            continue
+                        ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
+                        filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                        if os.path.exists(filename):
+                            if ok:
+                                success_movies += 1
+                                title_norm = normalize_title(title).upper()
+                                if not was_already_posted(subreddit, title_norm):
+                                    try:
+                                        subreddit.submit_image(title_norm, filename)
+                                        print(f"Subido a Reddit (libre): {title_norm}")
+                                    except Exception as e:
+                                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                            else:
+                                print(f"No se pudo procesar la película libre {title} (filtros o error).")
+                    else:
+                        print(f"No se pudo encontrar el ID para la película: {title}")
+                        
+            # Procesar series libres
+            if needed_tv > 0 and 'tv' in free_recs:
+                for rec in free_recs.get('tv', []):
+                    if success_tv >= numberoftvshows:
+                        break
+                    title = rec.get('title')
+                    year = rec.get('year')
+                    short_overview = rec.get('short_overview', '')
+                    reason = rec.get('reason', '')
+                    print(f"Buscando ID de serie recomendada libre: {title} ({year})")
+                    tid = find_tmdb_id_by_title(title, 'tv', year)
+                    if tid:
+                        print(f"Encontrado ID {tid} para serie {title}")
+                        if tid in excluded_tv:
+                            continue
+                        ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
+                        filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                        if os.path.exists(filename):
+                            if ok:
+                                success_tv += 1
+                                title_norm = normalize_title(title).upper()
+                                if not was_already_posted(subreddit, title_norm):
+                                    try:
+                                        subreddit.submit_image(title_norm, filename)
+                                        print(f"Subido a Reddit (libre): {title_norm}")
+                                    except Exception as e:
+                                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                            else:
+                                print(f"No se pudo procesar la serie libre {title} (filtros o error).")
+                    else:
+                        print(f"No se pudo encontrar el ID para la serie: {title}")
+
+    # === ULTIMO RECURSO: FALLBACK TRADICIONAL ===
+    if success_movies < numberofmovies or success_tv < numberoftvshows:
+        print("\n--- Aún faltan recomendaciones. Ejecutando fallback tradicional sin IA... ---")
         min_rating = float(os.getenv('TMDB_MIN_RATING', '6.5'))
         
         # Fallback Películas
-        count_m = 0
-        for m in movie_candidates:
-            if count_m >= numberofmovies:
-                break
-            mid = m.get('id')
-            if mid in excluded_movies:
-                continue
-            if m.get('original_language') in excluded_languages:
-                continue
-            rating = m.get('vote_average', 0)
-            if rating < min_rating:
-                continue
-                
-            year = m.get('release_date', '')[:4]
-            try:
-                item_year = int(year)
-                if item_year < current_year - 3:
+        if success_movies < numberofmovies:
+            for m in movie_candidates:
+                if success_movies >= numberofmovies:
+                    break
+                mid = m.get('id')
+                title = m.get('title', '')
+                if mid in excluded_movies:
                     continue
-            except ValueError:
-                continue
-                
-            details = tmdb_get(f"movie/{mid}", {"language": "es-ES"})
-            if not details:
-                continue
-                
-            # Obtener todas las calificaciones
-            ratings = get_all_ratings_for_media(mid, True, rating, details.get('vote_count', 0))
-            
-            ok = process_image(
-                f"https://image.tmdb.org/t/p/original{m.get('backdrop_path')}",
-                m.get('title', ''), m.get('overview', ''), True,
-                m.get('genre_ids', []), year, ratings,
-                duration=details.get('runtime'), media_type='movie', media_id=mid
-            )
-            filename = os.path.join(background_dir, clean_filename(m.get('title', '')) + '.jpg')
-            if os.path.exists(filename):
-                if ok:
-                    success_movies += 1
-                    count_m += 1
-                title_norm = normalize_title(m.get('title', '')).upper()
-                if not was_already_posted(subreddit, title_norm):
-                    try:
-                        subreddit.submit_image(title_norm, filename)
-                        print(f"Subido a Reddit (fallback): {title_norm}")
-                    except Exception as e:
-                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
-                        
+                if m.get('original_language') in excluded_languages:
+                    continue
+                rating = m.get('vote_average', 0)
+                if rating < min_rating:
+                    continue
+                    
+                year = m.get('release_date', '')[:4]
+                try:
+                    item_year = int(year)
+                    if item_year < current_year - 3:
+                        continue
+                except ValueError:
+                    continue
+                    
+                # Exclusión de géneros
+                genre_ids = m.get('genre_ids', [])
+                if any(genre_map.get(gid, '') in excluded_genres for gid in genre_ids):
+                    continue
+                    
+                details = tmdb_get(f"movie/{mid}", {"language": "es-ES"})
+                if not details:
+                    continue
+                    
+                ratings = get_all_ratings_for_media(mid, True, rating, details.get('vote_count', 0))
+                ok = process_image(
+                    f"https://image.tmdb.org/t/p/original{m.get('backdrop_path')}",
+                    title, m.get('overview', ''), True,
+                    genre_ids, year, ratings,
+                    duration=details.get('runtime'), media_type='movie', media_id=mid
+                )
+                filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                if os.path.exists(filename):
+                    if ok:
+                        success_movies += 1
+                        title_norm = normalize_title(title).upper()
+                        if not was_already_posted(subreddit, title_norm):
+                            try:
+                                subreddit.submit_image(title_norm, filename)
+                                print(f"Subido a Reddit (fallback): {title_norm}")
+                            except Exception as e:
+                                print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                            
         # Fallback Series
-        count_t = 0
-        for tv in tv_candidates:
-            if count_t >= numberoftvshows:
-                break
-            tid = tv.get('id')
-            if tid in excluded_tv:
-                continue
-            if tv.get('original_language') in excluded_languages:
-                continue
-            rating = tv.get('vote_average', 0)
-            if rating < min_rating:
-                continue
-                
-            year = tv.get('first_air_date', '')[:4]
-            try:
-                item_year = int(year)
-                if item_year < current_year - 3:
+        if success_tv < numberoftvshows:
+            for tv in tv_candidates:
+                if success_tv >= numberoftvshows:
+                    break
+                tid = tv.get('id')
+                title = tv.get('name', '')
+                if tid in excluded_tv:
                     continue
-            except ValueError:
-                continue
-                
-            details = tmdb_get(f"tv/{tid}", {"language": "es-ES"})
-            if not details:
-                continue
-                
-            # Obtener todas las calificaciones
-            ratings = get_all_ratings_for_media(tid, False, rating, details.get('vote_count', 0))
-            
-            ok = process_image(
-                f"https://image.tmdb.org/t/p/original{tv.get('backdrop_path')}",
-                tv.get('name', ''), tv.get('overview', ''), False,
-                tv.get('genre_ids', []), year, ratings,
-                seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid,
-                tv_type=details.get('type')
-            )
-            filename = os.path.join(background_dir, clean_filename(tv.get('name', '')) + '.jpg')
-            if os.path.exists(filename):
-                if ok:
-                    success_tv += 1
-                    count_t += 1
-                title_norm = normalize_title(tv.get('name', '')).upper()
-                if not was_already_posted(subreddit, title_norm):
-                    try:
-                        subreddit.submit_image(title_norm, filename)
-                        print(f"Subido a Reddit (fallback): {title_norm}")
-                    except Exception as e:
-                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                if tv.get('original_language') in excluded_languages:
+                    continue
+                rating = tv.get('vote_average', 0)
+                if rating < min_rating:
+                    continue
+                    
+                year = tv.get('first_air_date', '')[:4]
+                try:
+                    item_year = int(year)
+                    if item_year < current_year - 3:
+                        continue
+                except ValueError:
+                    continue
+                    
+                genre_ids = tv.get('genre_ids', [])
+                if any(genre_map.get(gid, '') in excluded_genres for gid in genre_ids):
+                    continue
+                    
+                details = tmdb_get(f"tv/{tid}", {"language": "es-ES"})
+                if not details:
+                    continue
+                    
+                ratings = get_all_ratings_for_media(tid, False, rating, details.get('vote_count', 0))
+                ok = process_image(
+                    f"https://image.tmdb.org/t/p/original{tv.get('backdrop_path')}",
+                    title, tv.get('overview', ''), False,
+                    genre_ids, year, ratings,
+                    seasons=details.get('number_of_seasons'), media_type='tv', media_id=tid,
+                    tv_type=details.get('type')
+                )
+                filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                if os.path.exists(filename):
+                    if ok:
+                        success_tv += 1
+                        title_norm = normalize_title(title).upper()
+                        if not was_already_posted(subreddit, title_norm):
+                            try:
+                                subreddit.submit_image(title_norm, filename)
+                                print(f"Subido a Reddit (fallback): {title_norm}")
+                            except Exception as e:
+                                print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                         
     print(f"\nProceso finalizado. Películas generadas/subidas: {success_movies}, Series: {success_tv}")
 
