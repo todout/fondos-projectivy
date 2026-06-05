@@ -92,6 +92,63 @@ FALLBACK_GENRES_EN = {
 genre_map = {}
 genre_name_to_id = {}
 
+# Caché de películas/series ya publicadas para evitar duplicados y consultas innecesarias
+POSTED_CACHE_FILE = "posted_cache.json"
+already_posted_set = set()
+
+# Umbrales mínimos de votos para mostrar calificaciones y validar recomendaciones
+VOTE_THRESHOLDS = {
+    "metacritic": 10,
+    "filmaffinity": 20,
+    "imdb": 50,
+    "tmdb": 50,
+    "letterboxd": 50,
+    "rottentomatoes": 50
+}
+
+def load_posted_cache(subreddit=None):
+    global already_posted_set
+    already_posted_set = set()
+    if os.path.exists(POSTED_CACHE_FILE):
+        try:
+            with open(POSTED_CACHE_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    already_posted_set = set(data)
+            print(f"Cargados {len(already_posted_set)} títulos publicados desde el caché local.")
+        except Exception as e:
+            print(f"Error al cargar caché local de títulos publicados: {e}")
+            
+    if subreddit:
+        print("Sincronizando títulos publicados con Reddit...")
+        try:
+            reddit_titles = set()
+            for sub in subreddit.new(limit=1000):
+                title_norm = normalize_title(sub.title).upper()
+                reddit_titles.add(title_norm)
+            
+            before_len = len(already_posted_set)
+            already_posted_set.update(reddit_titles)
+            added = len(already_posted_set) - before_len
+            print(f"Sincronizados {len(reddit_titles)} títulos desde Reddit. Añadidos {added} nuevos al caché.")
+            save_posted_cache()
+        except Exception as e:
+            print(f"Error al sincronizar con Reddit: {e}")
+
+def save_posted_cache():
+    try:
+        with open(POSTED_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(list(already_posted_set), f, ensure_ascii=False, indent=4)
+        print("Caché de títulos publicados guardado localmente.")
+    except Exception as e:
+        print(f"Error al guardar caché de títulos publicados: {e}")
+
+def was_already_posted_cached(title):
+    if not title:
+        return False
+    title_norm = normalize_title(str(title)).upper()
+    return title_norm in already_posted_set
+
 # Crear directorio de fondos
 os.makedirs(background_dir, exist_ok=True)
 
@@ -155,6 +212,26 @@ def format_votes(count):
     except Exception:
         return str(count)
 
+def parse_votes_to_int(votes):
+    if not votes:
+        return 0
+    if isinstance(votes, (int, float)):
+        return int(votes)
+    try:
+        clean = str(votes).replace(",", "").replace(" ", "").strip()
+        if "." in clean:
+            parts = clean.split(".")
+            if len(parts) == 2 and len(parts[1]) == 3:
+                clean = clean.replace(".", "")
+        clean = clean.lower()
+        if clean.endswith('k'):
+            return int(float(clean[:-1]) * 1000)
+        elif clean.endswith('m'):
+            return int(float(clean[:-1]) * 1000000)
+        return int(clean)
+    except Exception:
+        return 0
+
 def get_imdb_rating(imdb_id):
     omdb_key = os.getenv("OMDB_API_KEY")
     if not omdb_key or not imdb_id:
@@ -168,7 +245,7 @@ def get_imdb_rating(imdb_id):
             votes = data.get("imdbVotes")
             if rating and rating != "N/A":
                 try:
-                    return {"rating": float(rating), "votes": format_votes(votes)}
+                    return {"rating": float(rating), "votes": format_votes(votes), "raw_votes": parse_votes_to_int(votes)}
                 except ValueError:
                     pass
     except Exception as e:
@@ -214,12 +291,34 @@ def get_letterboxd_rating(original_title, english_title, spanish_title, year=Non
                     if content.endswith("/* ]]> */"):
                         content = content[:-len("/* ]]> */")].strip()
                     data = json.loads(content)
+                    
+                    # Validar año para evitar colisiones de títulos
+                    if year:
+                        released_events = data.get("releasedEvent", [])
+                        if not isinstance(released_events, list):
+                            released_events = [released_events]
+                        
+                        movie_years = []
+                        for event in released_events:
+                            if isinstance(event, dict) and "startDate" in event:
+                                movie_years.append(str(event["startDate"])[:4])
+                        if "dateCreated" in data:
+                            movie_years.append(str(data["dateCreated"])[:4])
+                            
+                        try:
+                            year_int = int(year)
+                            target_years = {str(year_int), str(year_int - 1), str(year_int + 1)}
+                            if movie_years and not any(y in target_years for y in movie_years):
+                                continue
+                        except ValueError:
+                            pass
+
                     agg = data.get("aggregateRating", {})
                     rating = agg.get("ratingValue")
                     votes = agg.get("ratingCount")
                     if rating is not None:
                         # Normalizar nota de Letterboxd (escala de 5 a escala de 10)
-                        return {"rating": round(float(rating) * 2, 1), "votes": format_votes(votes)}
+                        return {"rating": round(float(rating) * 2, 1), "votes": format_votes(votes), "raw_votes": parse_votes_to_int(votes)}
         except Exception:
             pass
     return None
@@ -263,7 +362,7 @@ def get_rottentomatoes_rating(original_title, english_title, spanish_title, is_m
                     votes = agg.get("ratingCount")
                     if rating is not None:
                         # Normalizar de porcentaje a escala de 10
-                        return {"rating": round(float(rating) / 10, 1), "votes": format_votes(votes)}
+                        return {"rating": round(float(rating) / 10, 1), "votes": format_votes(votes), "raw_votes": parse_votes_to_int(votes)}
         except Exception:
             pass
     return None
@@ -286,7 +385,7 @@ def get_filmaffinity_rating(title):
                 rating_str = rat_avg.text.strip().replace(",", ".")
                 votes_str = count_rat.text.strip() if count_rat else ""
                 try:
-                    return {"rating": float(rating_str), "votes": format_votes(votes_str)}
+                    return {"rating": float(rating_str), "votes": format_votes(votes_str), "raw_votes": parse_votes_to_int(votes_str)}
                 except ValueError:
                     pass
             
@@ -305,7 +404,7 @@ def get_filmaffinity_rating(title):
                             rating_str = rat_avg.text.strip().replace(",", ".")
                             votes_str = count_rat.text.strip() if count_rat else ""
                             try:
-                                return {"rating": float(rating_str), "votes": format_votes(votes_str)}
+                                return {"rating": float(rating_str), "votes": format_votes(votes_str), "raw_votes": parse_votes_to_int(votes_str)}
                             except ValueError:
                                 pass
     except Exception as e:
@@ -332,7 +431,7 @@ def get_metacritic_rating(title, is_movie):
                     votes = agg.get("reviewCount")
                     if rating is not None:
                         # Normalizar metascore de 100 a escala de 10
-                        return {"rating": round(float(rating) / 10, 1), "votes": format_votes(votes)}
+                        return {"rating": round(float(rating) / 10, 1), "votes": format_votes(votes), "raw_votes": parse_votes_to_int(votes)}
         except Exception:
             pass
     return None
@@ -361,7 +460,7 @@ def get_all_ratings_for_media(tmdb_id, is_movie, tmdb_rating=None, tmdb_votes=No
     t_rating = tmdb_rating or details_es.get("vote_average")
     t_votes = tmdb_votes or details_es.get("vote_count")
     if t_rating:
-        ratings["tmdb"] = {"rating": round(float(t_rating), 1), "votes": format_votes(t_votes)}
+        ratings["tmdb"] = {"rating": round(float(t_rating), 1), "votes": format_votes(t_votes), "raw_votes": parse_votes_to_int(t_votes)}
         
     # IMDb rating
     imdb_res = get_imdb_rating(imdb_id)
@@ -662,7 +761,7 @@ def summarize_with_gemini(title, overview, reason=None):
     Instrucciones de formato y longitud:
     1. Debes generar exactamente DOS bloques separados por un único salto de línea simple (\\n), es decir, un punto y aparte inmediato sin ninguna línea en blanco o vacía entre ellos.
     2. El BLOQUE 1 debe ser la sinopsis condensada pero informativa de la trama (entre 260 y 310 caracteres).
-    3. El BLOQUE 2 debe ser el motivo de recomendación de por qué le gustará al usuario (entre 110 y 140 caracteres).
+    3. El BLOQUE 2 debe ser el motivo de recomendación de por qué le gustará al usuario (entre 110 y 140 caracteres). IMPORTANTE: No incluyas ningún prefijo del estilo "Por qué te gustará:" o "Te gustará:". Escribe el motivo directamente con naturalidad en español.
     4. La suma total de caracteres de ambos bloques combinados no debe superar los 450 caracteres bajo ninguna circunstancia.
     5. Devuelve ÚNICAMENTE el texto resultante en español, sin comillas externas, sin bloques de código, y sin texto introductorio.
     """
@@ -701,6 +800,21 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     if os.path.exists(filename) and not FORCE_REGENERATE:
         print(f"Imagen ya existe: {filename}")
         return True
+        
+    # Validar que tenga al menos una plataforma con calificación aceptable (>= 6.5) y suficientes votos
+    has_valid_rating = False
+    if isinstance(ratings, dict):
+        for platform, data in ratings.items():
+            p_rating = data.get('rating')
+            p_votes = data.get('raw_votes', 0)
+            threshold = VOTE_THRESHOLDS.get(platform, 50)
+            if p_rating is not None and p_rating >= 6.5 and p_votes >= threshold:
+                has_valid_rating = True
+                break
+                
+    if not has_valid_rating:
+        print(f"Saltando '{title}' (ID: {media_id}) por no tener calificaciones suficientes/buenas (rating >= 6.5 y votos suficientes).")
+        return False
         
     # Obtener descripción en español si falta
     if not overview.strip():
@@ -859,11 +973,16 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     
     metadata_width = draw.textlength(metadata_text, font=font_metadata)
     
-    # 3. Determinar calificaciones que entran por ancho de pantalla
+    # 3. Determinar calificaciones que entran por ancho de pantalla y cumplen los umbrales de votos
     platforms_priority = ["imdb", "tmdb", "letterboxd", "metacritic", "rottentomatoes", "filmaffinity"]
     available_platforms = []
     if isinstance(ratings, dict):
-        available_platforms = [p for p in platforms_priority if p in ratings and ratings[p].get('rating') is not None]
+        for p in platforms_priority:
+            if p in ratings and ratings[p].get('rating') is not None:
+                p_votes = ratings[p].get('raw_votes', 0)
+                threshold = VOTE_THRESHOLDS.get(p, 50)
+                if p_votes >= threshold:
+                    available_platforms.append(p)
         
     # Deduplicar imdb y tmdb para no mostrar dos iconos de imdb idénticos
     if "imdb" in available_platforms and "tmdb" in available_platforms:
@@ -967,6 +1086,11 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     
     # 1. Intentar con la sinopsis oficial completa + recomendación
     tmdb_desc = overview.strip()
+    
+    # Limpiar el prefijo redundante "Por qué te gustará:" de la recomendación
+    if reason:
+        reason = re.sub(r'^por qué te gustar[aá]:?\s*', '', reason.strip(), flags=re.IGNORECASE).strip()
+        
     def format_combined(desc, rec_reason):
         if rec_reason:
             return f"{desc}\n{rec_reason.strip()}"
@@ -1380,11 +1504,13 @@ def sync_existing_backgrounds_to_reddit(subreddit):
         title_reconstructed = name_no_ext.replace('_', ' ').strip()
         title_norm = " ".join(title_reconstructed.split()).upper()
         
-        # Consultar Reddit directamente utilizando la función existente sin almacenar en memoria
-        if not was_already_posted(subreddit, title_norm):
+        # Consultar usando el caché local
+        if not was_already_posted_cached(title_norm):
             try:
                 subreddit.submit_image(title_norm, filepath)
                 print(f"Sincronizado/Subido a Reddit: {title_norm}")
+                already_posted_set.add(title_norm)
+                save_posted_cache()
             except Exception as e:
                 print(f"Error subiendo '{title_norm}' durante sincronización: {e}")
         else:
@@ -1397,7 +1523,17 @@ def filter_candidates_list(candidates, is_movie):
     filtered = []
     for c in candidates:
         mid = c.get('id')
+        title = c.get('title') or c.get('name')
         
+        # 0. Verificar si ya fue publicado (usando el cache local)
+        if title and was_already_posted_cached(title):
+            continue
+            
+        # 0.5. Verificar mínimo de votos en TMDB (>= 10)
+        vote_count = c.get('vote_count', 0)
+        if vote_count < 10:
+            continue
+            
         # 1. Verificar exclusiones de IDs
         if is_movie:
             if mid in excluded_movies:
@@ -1422,7 +1558,6 @@ def filter_candidates_list(candidates, is_movie):
         filtered.append(c)
     return filtered
 
-# Main completo
 def main():
     download_favicons()
     load_genres()
@@ -1435,6 +1570,9 @@ def main():
         password=os.getenv('REDDIT_PASSWORD')
     )
     subreddit = reddit.subreddit(os.getenv('REDDIT_SUBREDDIT','IMDB_esp'))
+    
+    # Inicializar y cargar el cache de publicados, y sincronizar con Reddit
+    load_posted_cache(subreddit)
     
     # Sincronizar fondos ya existentes en disco con Reddit al arrancar
     sync_existing_backgrounds_to_reddit(subreddit)
@@ -1479,6 +1617,11 @@ def main():
             reason = rec.get('reason', '')
             if not mid:
                 continue
+                
+            if was_already_posted_cached(title):
+                print(f"Película '{title}' saltada porque ya fue publicada (según caché).")
+                continue
+                
             print(f"Película elegida: {title} (ID: {mid})")
             if mid in excluded_movies:
                 print(f"Ignorada (exclusión manual): {title}")
@@ -1490,10 +1633,12 @@ def main():
                 if ok:
                     success_movies += 1
                     title_norm = normalize_title(title).upper()
-                    if not was_already_posted(subreddit, title_norm):
+                    if not was_already_posted_cached(title_norm):
                         try:
                             subreddit.submit_image(title_norm, filename)
                             print(f"Subido a Reddit: {title_norm}")
+                            already_posted_set.add(title_norm)
+                            save_posted_cache()
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
@@ -1508,6 +1653,11 @@ def main():
             reason = rec.get('reason', '')
             if not tid:
                 continue
+                
+            if was_already_posted_cached(title):
+                print(f"Serie '{title}' saltada porque ya fue publicada (según caché).")
+                continue
+                
             print(f"Serie elegida: {title} (ID: {tid})")
             if tid in excluded_tv:
                 print(f"Ignorada (exclusión manual): {title}")
@@ -1519,17 +1669,19 @@ def main():
                 if ok:
                     success_tv += 1
                     title_norm = normalize_title(title).upper()
-                    if not was_already_posted(subreddit, title_norm):
+                    if not was_already_posted_cached(title_norm):
                         try:
                             subreddit.submit_image(title_norm, filename)
                             print(f"Subido a Reddit: {title_norm}")
+                            already_posted_set.add(title_norm)
+                            save_posted_cache()
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
                     print(f"No se procesó la serie {title} por filtros locales o error.")
     else:
         print("Fallo en Gemini o sin recomendaciones iniciales de candidatos.")
-
+ 
     # === BACKFILL CON RECOMENDACIONES LIBRES DE GEMINI ===
     needed_movies = numberofmovies - success_movies
     needed_tv = numberoftvshows - success_tv
@@ -1547,6 +1699,11 @@ def main():
                     year = rec.get('year')
                     short_overview = rec.get('short_overview', '')
                     reason = rec.get('reason', '')
+                    
+                    if was_already_posted_cached(title):
+                        print(f"Película recomendada libre '{title}' saltada porque ya fue publicada (según caché).")
+                        continue
+                        
                     print(f"Buscando ID de película recomendada libre: {title} ({year})")
                     mid = find_tmdb_id_by_title(title, 'movie', year)
                     if mid:
@@ -1559,10 +1716,12 @@ def main():
                             if ok:
                                 success_movies += 1
                                 title_norm = normalize_title(title).upper()
-                                if not was_already_posted(subreddit, title_norm):
+                                if not was_already_posted_cached(title_norm):
                                     try:
                                         subreddit.submit_image(title_norm, filename)
                                         print(f"Subido a Reddit (libre): {title_norm}")
+                                        already_posted_set.add(title_norm)
+                                        save_posted_cache()
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
@@ -1579,6 +1738,11 @@ def main():
                     year = rec.get('year')
                     short_overview = rec.get('short_overview', '')
                     reason = rec.get('reason', '')
+                    
+                    if was_already_posted_cached(title):
+                        print(f"Serie recomendada libre '{title}' saltada porque ya fue publicada (según caché).")
+                        continue
+                        
                     print(f"Buscando ID de serie recomendada libre: {title} ({year})")
                     tid = find_tmdb_id_by_title(title, 'tv', year)
                     if tid:
@@ -1591,17 +1755,19 @@ def main():
                             if ok:
                                 success_tv += 1
                                 title_norm = normalize_title(title).upper()
-                                if not was_already_posted(subreddit, title_norm):
+                                if not was_already_posted_cached(title_norm):
                                     try:
                                         subreddit.submit_image(title_norm, filename)
                                         print(f"Subido a Reddit (libre): {title_norm}")
+                                        already_posted_set.add(title_norm)
+                                        save_posted_cache()
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
                                 print(f"No se pudo procesar la serie libre {title} (filtros o error).")
                     else:
                         print(f"No se pudo encontrar el ID para la serie: {title}")
-
+ 
     # === ULTIMO RECURSO: FALLBACK TRADICIONAL ===
     if success_movies < numberofmovies or success_tv < numberoftvshows:
         print("\n--- Aún faltan recomendaciones. Ejecutando fallback tradicional sin IA... ---")
@@ -1614,6 +1780,11 @@ def main():
                     break
                 mid = m.get('id')
                 title = m.get('title', '')
+                
+                if was_already_posted_cached(title):
+                    print(f"Película fallback '{title}' saltada porque ya fue publicada (según caché).")
+                    continue
+                    
                 if mid in excluded_movies:
                     continue
                 if m.get('original_language') in excluded_languages:
@@ -1651,10 +1822,12 @@ def main():
                     if ok:
                         success_movies += 1
                         title_norm = normalize_title(title).upper()
-                        if not was_already_posted(subreddit, title_norm):
+                        if not was_already_posted_cached(title_norm):
                             try:
                                 subreddit.submit_image(title_norm, filename)
                                 print(f"Subido a Reddit (fallback): {title_norm}")
+                                already_posted_set.add(title_norm)
+                                save_posted_cache()
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             
@@ -1665,6 +1838,11 @@ def main():
                     break
                 tid = tv.get('id')
                 title = tv.get('name', '')
+                
+                if was_already_posted_cached(title):
+                    print(f"Serie fallback '{title}' saltada porque ya fue publicada (según caché).")
+                    continue
+                    
                 if tid in excluded_tv:
                     continue
                 if tv.get('original_language') in excluded_languages:
@@ -1702,10 +1880,12 @@ def main():
                     if ok:
                         success_tv += 1
                         title_norm = normalize_title(title).upper()
-                        if not was_already_posted(subreddit, title_norm):
+                        if not was_already_posted_cached(title_norm):
                             try:
                                 subreddit.submit_image(title_norm, filename)
                                 print(f"Subido a Reddit (fallback): {title_norm}")
+                                already_posted_set.add(title_norm)
+                                save_posted_cache()
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                         

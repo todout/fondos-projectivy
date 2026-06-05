@@ -4,6 +4,30 @@ import json
 import requests
 from dotenv import load_dotenv
 
+# Robust input decoder to handle character encoding differences (e.g. CP850/Latin1 from Windows CMD over SSH)
+def robust_input(prompt=""):
+    if prompt:
+        print(prompt, end="", flush=True)
+    try:
+        line_bytes = sys.stdin.buffer.readline()
+        if not line_bytes:
+            raise EOFError()
+        while line_bytes and line_bytes[-1] in (10, 13):
+            line_bytes = line_bytes[:-1]
+        for enc in ['utf-8', 'cp850', 'latin1', 'cp1252']:
+            try:
+                return line_bytes.decode(enc)
+            except UnicodeDecodeError:
+                pass
+        return line_bytes.decode('utf-8', errors='replace')
+    except Exception as e:
+        if isinstance(e, EOFError):
+            raise e
+        return input()
+
+# Override standard input
+input = robust_input
+
 # Cargar variables de entorno
 load_dotenv()
 
@@ -169,6 +193,39 @@ def main():
     if not item:
         return
         
+    # Verificar si ya existe en las preferencias
+    found_category = None
+    if os.path.exists(preferences_path):
+        try:
+            with open(preferences_path, "r", encoding="utf-8") as f:
+                preferences = json.load(f)
+                
+            item_id = item["id"]
+            item_type = item.get("media_type", "movie")
+            
+            for category in ["likes", "dislikes", "neutral"]:
+                for x in preferences.get(category, []):
+                    if x.get("id") == item_id and x.get("media_type", "movie") == item_type:
+                        found_category = category
+                        break
+                if found_category:
+                    break
+        except Exception:
+            pass
+
+    cat_names = {
+        "likes": "Gustados (LIKES)",
+        "dislikes": "No gustados (DISLIKES)",
+        "neutral": "Ni fu ni fa (NEUTRAL)"
+    }
+    
+    if found_category and not rating:
+        print(f"\nℹ️ '{item['title']}' ({item['year']}) ya está en tu lista de: {cat_names[found_category]}")
+        confirm = input("¿Quieres cambiar tu voto/categoría? [s/N]: ").strip().lower()
+        if confirm not in ["s", "si", "y", "yes"]:
+            print("Operación cancelada. No se realizaron cambios.")
+            return
+
     if not rating:
         print("\n¿Qué te pareció?")
         print("[1] Me gustó (LIKE)")
