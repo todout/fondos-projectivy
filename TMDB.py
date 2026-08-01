@@ -1137,8 +1137,8 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
                 try:
                     fav = Image.open(favicon_path).convert("RGBA")
                     fav = fav.resize((fav_size, fav_size), Image.Resampling.LANCZOS)
-                    # Centrado vertical de la imagen
-                    bg.paste(fav, (x, y_center - fav_size // 2), fav)
+                    # Centrado vertical de la imagen (-5px para alineación perfecta con texto)
+                    bg.paste(fav, (x, y_center - fav_size // 2 - 5), fav)
                     x += fav_size + 10
                 except Exception as e:
                     print(f"Error pegando favicon de {platform}: {e}")
@@ -1163,7 +1163,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             
             qr_size = fav_size  # 44px (Idéntico al tamaño del favicon de IMDb)
             qr_img = generate_clean_qr(trailer_url, size=qr_size)
-            bg.paste(qr_img, (x, int(y_center - qr_size // 2)), qr_img)
+            bg.paste(qr_img, (x, int(y_center - qr_size // 2 - 5)), qr_img)
             x += qr_size + 10
             
             t_label = "Tráiler"
