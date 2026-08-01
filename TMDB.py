@@ -802,18 +802,19 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
         return True
         
     # Validar que tenga al menos una plataforma con calificación aceptable y suficientes votos
-    min_accept_rating = 5.5 if (short_overview or reason) else 6.0
+    is_recommended = bool(short_overview or reason)
+    min_accept_rating = 5.0 if is_recommended else 6.0
     has_valid_rating = False
-    if isinstance(ratings, dict):
+    if isinstance(ratings, dict) and ratings:
         for platform, data in ratings.items():
             p_rating = data.get('rating')
             p_votes = data.get('raw_votes', 0)
-            threshold = VOTE_THRESHOLDS.get(platform, 10)
+            threshold = 5 if is_recommended else VOTE_THRESHOLDS.get(platform, 50)
             if p_rating is not None and p_rating >= min_accept_rating and p_votes >= threshold:
                 has_valid_rating = True
                 break
                 
-    if not has_valid_rating:
+    if not has_valid_rating and not is_recommended:
         print(f"Saltando '{title}' (ID: {media_id}) por no alcanzar el umbral mínimo de calificación (rating >= {min_accept_rating}).")
         return False
         
