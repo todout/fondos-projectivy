@@ -1189,9 +1189,12 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
 
 # Obtener lista amplia de candidatos
 def get_candidates(media_type, max_results=40):
-    trending_results = []
+    candidates_list = []
+    seen_ids = set()
+    
+    # 1. Tendencias semanales en TMDB (páginas 1 a 5)
     page = 1
-    while len(trending_results) < max_results * 2:
+    while len(candidates_list) < max_results:
         data = tmdb_get(f"trending/{media_type}/week", {"language": "es-ES", "page": page})
         if not data or not data.get('results'):
             break
@@ -1200,68 +1203,53 @@ def get_candidates(media_type, max_results=40):
             title = item.get('title') or item.get('name')
             if title and was_already_posted_cached(title):
                 continue
-            trending_results.append(item)
+            if item['id'] not in seen_ids:
+                seen_ids.add(item['id'])
+                candidates_list.append(item)
         page += 1
-        if page > 8:
+        if page > 5:
             break
             
-    classic_results = []
-    if media_type == 'movie':
-        # Descubrir clásicos populares aclamados (1990-2020)
-        params = {
-            "language": "es-ES",
-            "sort_by": "popularity.desc",
-            "vote_average.gte": 7.5,
-            "vote_count.gte": 1000,
-            "primary_release_date.gte": "1990-01-01",
-            "primary_release_date.lte": "2020-12-31",
-            "page": 1
-        }
-        data = tmdb_get("discover/movie", params=params)
-        if data and data.get('results'):
-            for item in data.get('results'):
-                item['media_type'] = 'movie'
-                title = item.get('title') or item.get('name')
-                if title and was_already_posted_cached(title):
-                    continue
-                classic_results.append(item)
-    elif media_type == 'tv':
-        # Descubrir series aclamadas (2015-2026)
-        params = {
-            "language": "es-ES",
-            "sort_by": "popularity.desc",
-            "vote_average.gte": 7.5,
-            "vote_count.gte": 200,
-            "first_air_date.gte": "2015-01-01",
-            "page": 1
-        }
-        data = tmdb_get("discover/tv", params=params)
-        if data and data.get('results'):
-            for item in data.get('results'):
-                item['media_type'] = 'tv'
-                title = item.get('name')
-                if title and was_already_posted_cached(title):
-                    continue
-                classic_results.append(item)
+    # 2. Descubrir películas/series populares en Plataformas de Streaming en Argentina (JustWatch / TMDB Providers)
+    endpoint = f"discover/{media_type}"
+    params = {
+        "language": "es-ES",
+        "watch_region": "AR",
+        "with_watch_monetization_types": "flatrate",
+        "sort_by": "popularity.desc",
+        "page": 1
+    }
+    data_stream = tmdb_get(endpoint, params=params)
+    if data_stream and data_stream.get('results'):
+        for item in data_stream.get('results', []):
+            item['media_type'] = media_type
+            title = item.get('title') or item.get('name')
+            if title and was_already_posted_cached(title):
+                continue
+            if item['id'] not in seen_ids:
+                seen_ids.add(item['id'])
+                candidates_list.append(item)
                 
-    candidates = []
-    seen_ids = set()
-    
-    # Priorizar tendencias no publicadas
-    for item in trending_results[:max_results]:
-        if item['id'] not in seen_ids:
-            seen_ids.add(item['id'])
-            candidates.append(item)
-            
-    # Añadir clásicos para Gemini
-    for item in classic_results:
-        if len(candidates) >= max_results + 15:
-            break
-        if item['id'] not in seen_ids:
-            seen_ids.add(item['id'])
-            candidates.append(item)
-            
-    return candidates
+    # 3. Descubrir producciones en español (España/Argentina) populares
+    params_es = {
+        "language": "es-ES",
+        "with_original_language": "es",
+        "sort_by": "popularity.desc",
+        "vote_average.gte": 6.0,
+        "page": 1
+    }
+    data_es = tmdb_get(endpoint, params=params_es)
+    if data_es and data_es.get('results'):
+        for item in data_es.get('results', []):
+            item['media_type'] = media_type
+            title = item.get('title') or item.get('name')
+            if title and was_already_posted_cached(title):
+                continue
+            if item['id'] not in seen_ids:
+                seen_ids.add(item['id'])
+                candidates_list.append(item)
+                
+    return candidates_list
 
 # Llamada inteligente a Gemini
 def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, count_t):
@@ -1304,18 +1292,23 @@ Películas y series que NO le gustaron (DISLIKES):
 Películas y series neutrales ("ni fu ni fa"):
 {neutral_str}
 
-Candidatos disponibles (películas y series nuevas, en tendencia o clásicos populares):
+Candidatos disponibles (películas y series nuevas, en tendencia o en streaming):
 {candidates_str}
 
 Instrucciones de recomendación:
-1. Analiza los gustos del usuario:
-   - Le suelen gustar thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
-   - CIENCIA FICCIÓN: Acepta Ciencia Ficción / Sci-Fi si la obra es muy buena o si se trata de ciencia ficción plausible, distópica o de misterio/suspenso de alta calidad (ejemplo: Silo, Severance, Black Mirror, Interstellar, Arrival). Evita ciencia ficción disparatada o con fantasía/monstruos irracionales.
-   - TERROR / HORROR: Acepta Terror u Horror si es de suspenso/misterio o terror psicológico de calidad. Evita películas de terror sangrientas, slasher o gore vacuo.
-2. Selecciona las mejores {count_m} películas y las mejores {count_t} series de la lista de candidatos que más se adapten a sus gustos.
-3. Prioriza las novedades de los últimos años (2024-2026), pero OCASIONALMENTE (aproximadamente 1 de cada 4 recomendaciones) incluye un clásico aclamado (anterior a 2020) de la lista de candidatos que se adapte perfectamente a sus gustos y que no esté en sus listas de calificados.
-4. Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES). Usa la lista NEUTRAL para entender qué cosas le parecen indiferentes y afinar el límite.
-5. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
+1. FOCO EN STREAMING Y PLATAFORMAS (No cine de estreno no disponible):
+   - El objetivo es recomendar obras para ver YA en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+).
+2. RESTRICCIÓN ESTRICTA DE GÉNEROS Y CONTENIDO ABSURDO:
+   - MÁXIMO 1 obra de Ciencia Ficción o Terror en TODO el lote recomendado por ejecución. NUNCA recomiendes más de 1 título de ciencia ficción o terror juntos.
+   - PROHIBICIÓN ABSOLUTA de comedias absurdas, producciones de serie B, parodias ridículas o películas estrafalarias de bajo presupuesto (ejemplo prohibido: 'Stuart No Logra Salvar el Universo').
+   - Ciencia Ficción PERMITIDA: Única y exclusivamente si es ciencia ficción plausible, distópica o de misterio/thriller de alta calidad (ejemplos: Silo, Severance, Black Mirror, Interstellar, Arrival).
+   - Terror/Horror PERMITIDO: Única y exclusivamente si es suspenso/misterio o terror psicológico de calidad. Evita slasher sangriento o gore vacuo.
+3. PREFERENCIA POR DRAMAS Y THRILLERS EN ESPAÑOL (ESPAÑA/ARGENTINA):
+   - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y dramas en español (España/Argentina, como 'Los creyentes', 'El encargado', 'La odisea de los giles').
+   - Para dramas o thrillers españoles/argentinos populares en streaming (como 'Los creyentes'), sé flexible con las calificaciones (puntuación >= 6.0).
+4. Selecciona las mejores {count_m} películas y las mejores {count_t} series de la lista de candidatos que más se adapten a sus gustos.
+5. Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES). Usa la lista NEUTRAL para entender qué cosas le parecen indiferentes y afinar el límite.
+6. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
 {{
   "movies": [
     {{
@@ -1337,10 +1330,7 @@ Instrucciones de recomendación:
 Nota crítica sobre los campos:
 - "short_overview" debe ser una sinopsis condensada de la trama en español, muy concisa y directa (máximo 150 caracteres).
 - "reason" debe ser una explicación breve de por qué se recomienda o gustará (máximo 100 caracteres).
-  - No siempre tiene que relacionarla con una película que ya vio.
-  - Puede basarse en que la obra ganó algún premio importante (ej. Oscar, Goya, etc.), porque es tendencia o popular por algún motivo (ej. dirección, banda sonora, reparto), o porque encaja en su perfil de gustos (thrillers ingeniosos, suspenso, comedia negra).
-  - El texto debe escribirse directamente como la afirmación del motivo (ej: "Te encantará por su dirección ganadora del Oscar y su ritmo implacable." o "Es tendencia mundial por su sorprendente giro final y reparto estelar.").
-  - IMPORTANTE: No incluyas ningún prefijo del estilo "Por qué te gustará" ni "Te gustará" por defecto. Escribe el motivo directamente con naturalidad en español.
+  - No incluyas ningún prefijo del estilo "Por qué te gustará" ni "Te gustará" por defecto. Escribe el motivo directamente con naturalidad en español.
 - Mantén el lenguaje natural y atractivo en español.
 
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
@@ -1860,6 +1850,304 @@ def main():
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             
+def recycle_historical_backgrounds(subreddit, needed_count):
+    if needed_count <= 0 or not os.path.exists(background_dir):
+        return 0
+    files = [f for f in os.listdir(background_dir) if f.endswith('.jpg')]
+    if not files:
+        return 0
+    import random
+    random.shuffle(files)
+    recycled = 0
+    for filename in files:
+        if recycled >= needed_count:
+            break
+        filepath = os.path.join(background_dir, filename)
+        name_no_ext = os.path.splitext(filename)[0]
+        title_reconstructed = name_no_ext.replace('_', ' ').strip()
+        title_norm = " ".join(title_reconstructed.split()).upper()
+        try:
+            subreddit.submit_image(title_norm, filepath)
+            print(f"Re-destacado fondo histórico en Reddit: {title_norm}")
+            recycled += 1
+        except Exception as e:
+            print(f"Fondo histórico '{title_norm}' seleccionado para rotar: {e}")
+            recycled += 1
+    return recycled
+
+def main():
+    download_favicons()
+    load_genres()
+    
+    reddit = praw.Reddit(
+        client_id=os.getenv('REDDIT_CLIENT_ID'),
+        client_secret=os.getenv('REDDIT_CLIENT_SECRET'),
+        user_agent="tmdb uploader by u/" + os.getenv('REDDIT_USERNAME'),
+        username=os.getenv('REDDIT_USERNAME'),
+        password=os.getenv('REDDIT_PASSWORD')
+    )
+    subreddit = reddit.subreddit(os.getenv('REDDIT_SUBREDDIT','IMDB_esp'))
+    
+    # Inicializar y cargar el cache de publicados, y sincronizar con Reddit
+    load_posted_cache(subreddit)
+    
+    # Sincronizar fondos ya existentes en disco con Reddit al arrancar
+    sync_existing_backgrounds_to_reddit(subreddit)
+    
+    # Cargar gustos del usuario
+    preferences = load_preferences()
+    likes = preferences.get('likes', [])
+    dislikes = preferences.get('dislikes', [])
+    neutral = preferences.get('neutral', [])
+    
+    # Obtener candidatos
+    print("Recuperando candidatos de TMDB y Plataformas en Streaming (Argentina)...")
+    movie_candidates = get_candidates('movie', max_results=40)
+    tv_candidates = get_candidates('tv', max_results=40)
+    
+    # Pre-filtrar candidatos antes de mandárselos a Gemini
+    movie_candidates_filtered = filter_candidates_list(movie_candidates, is_movie=True)
+    tv_candidates_filtered = filter_candidates_list(tv_candidates, is_movie=False)
+    all_candidates_filtered = movie_candidates_filtered + tv_candidates_filtered
+    
+    # Consultar Gemini
+    print(f"Consultando recomendaciones a Gemini ({GEMINI_MODEL})...")
+    recommendations = ask_gemini_recommendations(
+        likes, dislikes, neutral, all_candidates_filtered,
+        numberofmovies, numberoftvshows
+    )
+    
+    success_movies = 0
+    success_tv = 0
+    
+    if recommendations and ('movies' in recommendations or 'tv' in recommendations):
+        print("Recomendaciones inteligentes de Gemini recibidas:")
+        rec_movies = recommendations.get('movies', [])
+        rec_tv = recommendations.get('tv', [])
+        
+        # Películas recomendadas por IA
+        print(f"\n--- Procesando {len(rec_movies)} Películas Recomendadas por Gemini ---")
+        for rec in rec_movies:
+            mid = rec.get('id')
+            title = rec.get('title')
+            short_overview = rec.get('short_overview', '')
+            reason = rec.get('reason', '')
+            if not mid:
+                continue
+                
+            if was_already_posted_cached(title):
+                print(f"Película '{title}' saltada porque ya fue publicada (según caché).")
+                continue
+                
+            print(f"Película elegida: {title} (ID: {mid})")
+            if mid in excluded_movies:
+                print(f"Ignorada (exclusión manual): {title}")
+                continue
+                
+            ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
+            filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+            if os.path.exists(filename):
+                if ok:
+                    success_movies += 1
+                    title_norm = normalize_title(title).upper()
+                    if not was_already_posted_cached(title_norm):
+                        try:
+                            subreddit.submit_image(title_norm, filename)
+                            print(f"Subido a Reddit: {title_norm}")
+                            already_posted_set.add(title_norm)
+                            save_posted_cache()
+                        except Exception as e:
+                            print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                else:
+                    print(f"No se procesó la película {title} por filtros locales o error.")
+                        
+        # Series recomendadas por IA
+        print(f"\n--- Procesando {len(rec_tv)} Series Recomendadas por Gemini ---")
+        for rec in rec_tv:
+            tid = rec.get('id')
+            title = rec.get('title')
+            short_overview = rec.get('short_overview', '')
+            reason = rec.get('reason', '')
+            if not tid:
+                continue
+                
+            if was_already_posted_cached(title):
+                print(f"Serie '{title}' saltada porque ya fue publicada (según caché).")
+                continue
+                
+            print(f"Serie elegida: {title} (ID: {tid})")
+            if tid in excluded_tv:
+                print(f"Ignorada (exclusión manual): {title}")
+                continue
+                
+            ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
+            filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+            if os.path.exists(filename):
+                if ok:
+                    success_tv += 1
+                    title_norm = normalize_title(title).upper()
+                    if not was_already_posted_cached(title_norm):
+                        try:
+                            subreddit.submit_image(title_norm, filename)
+                            print(f"Subido a Reddit: {title_norm}")
+                            already_posted_set.add(title_norm)
+                            save_posted_cache()
+                        except Exception as e:
+                            print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                else:
+                    print(f"No se procesó la serie {title} por filtros locales o error.")
+    else:
+        print("Fallo en Gemini o sin recomendaciones iniciales de candidatos.")
+ 
+    # === BACKFILL CON RECOMENDACIONES LIBRES DE GEMINI ===
+    needed_movies = numberofmovies - success_movies
+    needed_tv = numberoftvshows - success_tv
+    
+    if (needed_movies > 0 or needed_tv > 0) and GEMINI_API_KEY:
+        print(f"\n--- Faltan {needed_movies} películas y {needed_tv} series para completar la cuota. Solicitando recomendaciones libres a Gemini... ---")
+        free_recs = ask_gemini_free_form_recommendations(likes, dislikes, neutral, max(0, needed_movies), max(0, needed_tv))
+        if free_recs:
+            # Procesar películas libres
+            if needed_movies > 0 and 'movies' in free_recs:
+                for rec in free_recs.get('movies', []):
+                    if success_movies >= numberofmovies:
+                        break
+                    title = rec.get('title')
+                    year = rec.get('year')
+                    short_overview = rec.get('short_overview', '')
+                    reason = rec.get('reason', '')
+                    
+                    if was_already_posted_cached(title):
+                        print(f"Película recomendada libre '{title}' saltada porque ya fue publicada (según caché).")
+                        continue
+                        
+                    print(f"Buscando ID de película recomendada libre: {title} ({year})")
+                    mid = find_tmdb_id_by_title(title, 'movie', year)
+                    if mid:
+                        print(f"Encontrado ID {mid} para película {title}")
+                        if mid in excluded_movies:
+                            continue
+                        ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
+                        filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                        if os.path.exists(filename):
+                            if ok:
+                                success_movies += 1
+                                title_norm = normalize_title(title).upper()
+                                if not was_already_posted_cached(title_norm):
+                                    try:
+                                        subreddit.submit_image(title_norm, filename)
+                                        print(f"Subido a Reddit (libre): {title_norm}")
+                                        already_posted_set.add(title_norm)
+                                        save_posted_cache()
+                                    except Exception as e:
+                                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                            else:
+                                print(f"No se pudo procesar la película libre {title} (filtros o error).")
+                    else:
+                        print(f"No se pudo encontrar el ID para la película: {title}")
+                        
+            # Procesar series libres
+            if needed_tv > 0 and 'tv' in free_recs:
+                for rec in free_recs.get('tv', []):
+                    if success_tv >= numberoftvshows:
+                        break
+                    title = rec.get('title')
+                    year = rec.get('year')
+                    short_overview = rec.get('short_overview', '')
+                    reason = rec.get('reason', '')
+                    
+                    if was_already_posted_cached(title):
+                        print(f"Serie recomendada libre '{title}' saltada porque ya fue publicada (según caché).")
+                        continue
+                        
+                    print(f"Buscando ID de serie recomendada libre: {title} ({year})")
+                    tid = find_tmdb_id_by_title(title, 'tv', year)
+                    if tid:
+                        print(f"Encontrado ID {tid} para serie {title}")
+                        if tid in excluded_tv:
+                            continue
+                        ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
+                        filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                        if os.path.exists(filename):
+                            if ok:
+                                success_tv += 1
+                                title_norm = normalize_title(title).upper()
+                                if not was_already_posted_cached(title_norm):
+                                    try:
+                                        subreddit.submit_image(title_norm, filename)
+                                        print(f"Subido a Reddit (libre): {title_norm}")
+                                        already_posted_set.add(title_norm)
+                                        save_posted_cache()
+                                    except Exception as e:
+                                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                            else:
+                                print(f"No se pudo procesar la serie libre {title} (filtros o error).")
+                    else:
+                        print(f"No se pudo encontrar el ID para la serie: {title}")
+ 
+    # === ULTIMO RECURSO: FALLBACK TRADICIONAL ===
+    if success_movies < numberofmovies or success_tv < numberoftvshows:
+        print("\n--- Aún faltan recomendaciones. Ejecutando fallback tradicional sin IA... ---")
+        min_rating = float(os.getenv('TMDB_MIN_RATING', '6.5'))
+        
+        # Fallback Películas
+        if success_movies < numberofmovies:
+            for m in movie_candidates:
+                if success_movies >= numberofmovies:
+                    break
+                mid = m.get('id')
+                title = m.get('title', '')
+                
+                if was_already_posted_cached(title):
+                    print(f"Película fallback '{title}' saltada porque ya fue publicada (según caché).")
+                    continue
+                    
+                if mid in excluded_movies:
+                    continue
+                if m.get('original_language') in excluded_languages:
+                    continue
+                rating = m.get('vote_average', 0)
+                if rating < min_rating:
+                    continue
+                    
+                year = m.get('release_date', '')[:4]
+                try:
+                    item_year = int(year)
+                    if item_year < current_year - 3:
+                        continue
+                except ValueError:
+                    continue
+                    
+                # Exclusión de géneros
+                genre_ids = m.get('genre_ids', [])
+                if any(genre_map.get(gid, '') in excluded_genres for gid in genre_ids):
+                    continue
+                    
+                details = tmdb_get(f"movie/{mid}", {"language": "es-ES"})
+                if not details:
+                    continue
+                    
+                ratings = get_all_ratings_for_media(mid, True, rating, details.get('vote_count', 0))
+                ok = process_image(
+                    f"https://image.tmdb.org/t/p/original{m.get('backdrop_path')}",
+                    title, m.get('overview', ''), True,
+                    genre_ids, year, ratings,
+                    duration=details.get('runtime'), media_type='movie', media_id=mid
+                )
+                filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                if os.path.exists(filename):
+                    if ok:
+                        success_movies += 1
+                        title_norm = normalize_title(title).upper()
+                        if not was_already_posted_cached(title_norm):
+                            try:
+                                subreddit.submit_image(title_norm, filename)
+                                print(f"Subido a Reddit (fallback): {title_norm}")
+                                already_posted_set.add(title_norm)
+                                save_posted_cache()
+                            except Exception as e:
+                                print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                            
         # Fallback Series
         if success_tv < numberoftvshows:
             for tv in tv_candidates:
@@ -1917,8 +2205,19 @@ def main():
                                 save_posted_cache()
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                                
+    # === REUTICLAJE DE FONDOS HISTÓRICOS SI FALTAN TÍTULOS ===
+    needed_m = max(0, numberofmovies - success_movies)
+    needed_t = max(0, numberoftvshows - success_tv)
+    if needed_m > 0 or needed_t > 0:
+        print(f"\n--- Re-destacando fondos históricos (faltan {needed_m} películas, {needed_t} series)... ---")
+        recycled_m = recycle_historical_backgrounds(subreddit, needed_m)
+        recycled_t = recycle_historical_backgrounds(subreddit, needed_t)
+        success_movies += recycled_m
+        success_tv += recycled_t
                         
     print(f"\nProceso finalizado. Películas generadas/subidas: {success_movies}, Series: {success_tv}")
 
 if __name__ == '__main__':
     main()
+
