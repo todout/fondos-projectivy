@@ -796,37 +796,51 @@ def summarize_with_gemini(title, overview, reason=None):
 
 import qrcode
 
+def slugify_title(title):
+    if not title:
+        return ""
+    title_clean = title.lower()
+    title_clean = re.sub(r'[áàäâ]', 'a', title_clean)
+    title_clean = re.sub(r'[éèëê]', 'e', title_clean)
+    title_clean = re.sub(r'[íìïî]', 'i', title_clean)
+    title_clean = re.sub(r'[óòöô]', 'o', title_clean)
+    title_clean = re.sub(r'[úùüû]', 'u', title_clean)
+    title_clean = re.sub(r'[ñ]', 'n', title_clean)
+    title_clean = re.sub(r'[^a-z0-9\s\-]', '', title_clean)
+    return re.sub(r'[\s\-]+', '-', title_clean).strip('-')
+
 def get_trailer_url(media_type, media_id, title, slug=None):
-    if not media_type or not media_id:
-        query = urllib.parse.quote(f"{title} trailer oficial español")
-        return f"https://www.youtube.com/results?search_query={query}"
+    if not title:
+        return "https://www.youtube.com"
         
     # 1. Intentar buscar en JustWatch Argentina para el tráiler oficial exacto en español
-    if slug:
-        jw_url = f"https://www.justwatch.com/ar/{'serie' if media_type=='tv' else 'pelicula'}/{slug}"
-        try:
-            r = requests.get(jw_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}, timeout=5)
-            if r.status_code == 200:
-                matches = re.findall(r'youtube\.com/watch\?v=([\w\-]+)|youtu\.be/([\w\-]+)', r.text)
-                for m in matches:
-                    key = m[0] or m[1]
-                    if key:
-                        return f"https://www.youtube.com/watch?v={key}"
-        except Exception:
-            pass
+    title_slug = slug or slugify_title(title)
+    media_path = 'serie' if media_type == 'tv' else 'pelicula'
+    jw_url = f"https://www.justwatch.com/ar/{media_path}/{title_slug}"
+    try:
+        r = requests.get(jw_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}, timeout=5)
+        if r.status_code == 200:
+            matches = re.findall(r'youtube\.com/watch\?v=([\w\-]+)|youtu\.be/([\w\-]+)', r.text)
+            for m in matches:
+                key = m[0] or m[1]
+                if key:
+                    return f"https://www.youtube.com/watch?v={key}"
+    except Exception as e:
+        print(f"Error scraping JustWatch trailer: {e}")
 
-    # 2. Consultar vídeos oficiales en TMDB
-    endpoint = f"{media_type}/{media_id}/videos"
-    data = tmdb_get(endpoint)
-    if data and data.get('results'):
-        results = data.get('results', [])
-        for v in results:
-            if v.get('site') == 'YouTube' and v.get('type') == 'Trailer':
-                return f"https://www.youtube.com/watch?v={v.get('key')}"
-        for v in results:
-            if v.get('site') == 'YouTube':
-                return f"https://www.youtube.com/watch?v={v.get('key')}"
-                
+    # 2. Consultar vídeos en español en TMDB
+    if media_type and media_id:
+        endpoint = f"{media_type}/{media_id}/videos"
+        data = tmdb_get(endpoint, {"language": "es-ES"})
+        if data and data.get('results'):
+            results = data.get('results', [])
+            for v in results:
+                if v.get('site') == 'YouTube' and v.get('type') == 'Trailer':
+                    return f"https://www.youtube.com/watch?v={v.get('key')}"
+            for v in results:
+                if v.get('site') == 'YouTube':
+                    return f"https://www.youtube.com/watch?v={v.get('key')}"
+                    
     # 3. Fallback directo
     query = urllib.parse.quote(f"{title} trailer oficial español")
     return f"https://www.youtube.com/results?search_query={query}"
@@ -1092,10 +1106,12 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     metadata_pos_y = title_actual_bottom_y + 40
     y_center = metadata_pos_y + fav_size // 2
     
+    # Métrica de referencia fija ("Ag") para mantener una línea de base perfectamente unificada en toda la fila
+    ref_bbox = draw.textbbox((0, 0), "Ag", font=font_metadata)
+    font_offset_y = (ref_bbox[1] + ref_bbox[3]) / 2
+    y_text = y_center - font_offset_y
+    
     # Dibujar metadatos con sombra y centrado vertical
-    m_bbox = draw.textbbox((0, 0), metadata_text, font=font_metadata)
-    m_offset_y = (m_bbox[1] + m_bbox[3]) / 2
-    y_text = y_center - m_offset_y
     draw.text((210 + 2, y_text + 2), metadata_text, fill='black', font=font_metadata)
     draw.text((210, y_text), metadata_text, fill=(150, 150, 150), font=font_metadata)
     
@@ -1103,11 +1119,8 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     
     if platforms_to_draw:
         # Separador inicial
-        sep_bbox = draw.textbbox((0, 0), sep, font=font_metadata)
-        sep_offset_y = (sep_bbox[1] + sep_bbox[3]) / 2
-        y_sep = y_center - sep_offset_y
-        draw.text((x + 2, y_sep + 2), sep, fill='black', font=font_metadata)
-        draw.text((x, y_sep), sep, fill=(150, 150, 150), font=font_metadata)
+        draw.text((x + 2, y_text + 2), sep, fill='black', font=font_metadata)
+        draw.text((x, y_text), sep, fill=(150, 150, 150), font=font_metadata)
         x += int(sep_w)
         
         cwd = os.path.dirname(os.path.abspath(__file__))
@@ -1131,12 +1144,8 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
                     print(f"Error pegando favicon de {platform}: {e}")
             
             # Dibujar texto de calificación con sombra y centrado vertical
-            r_bbox = draw.textbbox((0, 0), rating_text, font=font_metadata)
-            r_offset_y = (r_bbox[1] + r_bbox[3]) / 2
-            y_r_text = y_center - r_offset_y
-            
-            draw.text((x + 2, y_r_text + 2), rating_text, fill='black', font=font_metadata)
-            draw.text((x, y_r_text), rating_text, fill=(150, 150, 150), font=font_metadata)
+            draw.text((x + 2, y_text + 2), rating_text, fill='black', font=font_metadata)
+            draw.text((x, y_text), rating_text, fill=(150, 150, 150), font=font_metadata)
             x += int(draw.textlength(rating_text, font=font_metadata))
             
             # Separador entre calificaciones
@@ -1147,11 +1156,9 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     if media_type and media_id:
         trailer_url = get_trailer_url(media_type, media_id, title)
         if trailer_url:
-            sep_bbox = draw.textbbox((0, 0), sep, font=font_metadata)
-            sep_offset_y = (sep_bbox[1] + sep_bbox[3]) / 2
-            y_sep = y_center - sep_offset_y
-            draw.text((x + 2, y_sep + 2), sep, fill='black', font=font_metadata)
-            draw.text((x, y_sep), sep, fill=(150, 150, 150), font=font_metadata)
+            print(f"Tráiler URL generado para el QR de '{title}': {trailer_url}")
+            draw.text((x + 2, y_text + 2), sep, fill='black', font=font_metadata)
+            draw.text((x, y_text), sep, fill=(150, 150, 150), font=font_metadata)
             x += int(sep_w)
             
             qr_size = fav_size  # 44px (Idéntico al tamaño del favicon de IMDb)
@@ -1160,11 +1167,8 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             x += qr_size + 10
             
             t_label = "Tráiler"
-            t_bbox = draw.textbbox((0, 0), t_label, font=font_metadata)
-            t_offset_y = (t_bbox[1] + t_bbox[3]) / 2
-            y_t_text = y_center - t_offset_y
-            draw.text((x + 2, y_t_text + 2), t_label, fill='black', font=font_metadata)
-            draw.text((x, y_t_text), t_label, fill=(150, 150, 150), font=font_metadata)
+            draw.text((x + 2, y_text + 2), t_label, fill='black', font=font_metadata)
+            draw.text((x, y_text), t_label, fill=(150, 150, 150), font=font_metadata)
                 
     # 5. Dibujar Sinopsis
     overview_pos_y = metadata_pos_y + 80
