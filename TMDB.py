@@ -1596,8 +1596,8 @@ def main():
     # Inicializar y cargar el cache de publicados, y sincronizar con Reddit
     load_posted_cache(subreddit)
     
-    # Sincronizar fondos ya existentes en disco con Reddit al arrancar
-    sync_existing_backgrounds_to_reddit(subreddit)
+    # Sincronizar fondos ya existentes en disco con Reddit al arrancar (Desactivado para no subir archivos residuales de pruebas anteriores)
+    # sync_existing_backgrounds_to_reddit(subreddit)
     
     # Cargar gustos del usuario
     preferences = load_preferences()
