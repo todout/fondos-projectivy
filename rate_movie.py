@@ -72,7 +72,16 @@ def search_media(query):
         date_key = "release_date" if item["media_type"] == "movie" else "first_air_date"
         year = item.get(date_key, "")[:4]
         year_str = f" ({year})" if year else ""
+        overview = item.get("overview", "").strip()
+        
+        # Truncar sinopsis
+        if len(overview) > 130:
+            overview = overview[:130] + "..."
+        elif not overview:
+            overview = "Sin sinopsis disponible."
+            
         print(f"[{idx + 1}] {title}{year_str} - {media_type}")
+        print(f"    Sinopsis: {overview}\n")
         
     choice = 0
     if len(results) == 1:

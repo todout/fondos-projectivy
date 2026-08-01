@@ -57,7 +57,7 @@ if not os.path.exists(font_bold_path):
         print(f"Error descargando Roboto-Black: {e}")
 
 # Cargar Exclusiones Dinámicas
-exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Ciencia ficción, Terror, Sci-Fi & Fantasy')
+exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación')
 excluded_genres = {g.strip() for g in exclude_genres_env.split(',') if g.strip()}
 
 exclude_languages_env = os.getenv('TMDB_EXCLUDE_LANGUAGES', 'zh, ko')
@@ -1191,15 +1191,18 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
 def get_candidates(media_type, max_results=40):
     trending_results = []
     page = 1
-    while len(trending_results) < max_results:
+    while len(trending_results) < max_results * 2:
         data = tmdb_get(f"trending/{media_type}/week", {"language": "es-ES", "page": page})
         if not data or not data.get('results'):
             break
         for item in data.get('results', []):
             item['media_type'] = media_type
+            title = item.get('title') or item.get('name')
+            if title and was_already_posted_cached(title):
+                continue
             trending_results.append(item)
         page += 1
-        if page > 3:
+        if page > 8:
             break
             
     classic_results = []
@@ -1218,12 +1221,33 @@ def get_candidates(media_type, max_results=40):
         if data and data.get('results'):
             for item in data.get('results'):
                 item['media_type'] = 'movie'
+                title = item.get('title') or item.get('name')
+                if title and was_already_posted_cached(title):
+                    continue
+                classic_results.append(item)
+    elif media_type == 'tv':
+        # Descubrir series aclamadas (2015-2026)
+        params = {
+            "language": "es-ES",
+            "sort_by": "popularity.desc",
+            "vote_average.gte": 7.5,
+            "vote_count.gte": 200,
+            "first_air_date.gte": "2015-01-01",
+            "page": 1
+        }
+        data = tmdb_get("discover/tv", params=params)
+        if data and data.get('results'):
+            for item in data.get('results'):
+                item['media_type'] = 'tv'
+                title = item.get('name')
+                if title and was_already_posted_cached(title):
+                    continue
                 classic_results.append(item)
                 
     candidates = []
     seen_ids = set()
     
-    # Priorizar tendencias
+    # Priorizar tendencias no publicadas
     for item in trending_results[:max_results]:
         if item['id'] not in seen_ids:
             seen_ids.add(item['id'])
@@ -1284,7 +1308,10 @@ Candidatos disponibles (películas y series nuevas, en tendencia o clásicos pop
 {candidates_str}
 
 Instrucciones de recomendación:
-1. Analiza los gustos del usuario. Le suelen gustar thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
+1. Analiza los gustos del usuario:
+   - Le suelen gustar thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
+   - CIENCIA FICCIÓN: Acepta Ciencia Ficción / Sci-Fi si la obra es muy buena o si se trata de ciencia ficción plausible, distópica o de misterio/suspenso de alta calidad (ejemplo: Silo, Severance, Black Mirror, Interstellar, Arrival). Evita ciencia ficción disparatada o con fantasía/monstruos irracionales.
+   - TERROR / HORROR: Acepta Terror u Horror si es de suspenso/misterio o terror psicológico de calidad. Evita películas de terror sangrientas, slasher o gore vacuo.
 2. Selecciona las mejores {count_m} películas y las mejores {count_t} series de la lista de candidatos que más se adapten a sus gustos.
 3. Prioriza las novedades de los últimos años (2024-2026), pero OCASIONALMENTE (aproximadamente 1 de cada 4 recomendaciones) incluye un clásico aclamado (anterior a 2020) de la lista de candidatos que se adapte perfectamente a sus gustos y que no esté en sus listas de calificados.
 4. Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES). Usa la lista NEUTRAL para entender qué cosas le parecen indiferentes y afinar el límite.
@@ -1419,6 +1446,8 @@ Instrucciones críticas de filtrado:
 
 Instrucciones de recomendación:
 1. El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos y ritmo implacable, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
+   - CIENCIA FICCIÓN: Acepta Ciencia Ficción / Sci-Fi si la obra es muy buena o si se trata de ciencia ficción plausible, distópica o de misterio/suspenso de alta calidad (ejemplo: Silo, Severance, Black Mirror, Interstellar, Arrival). Evita ciencia ficción disparatada o con fantasía/monstruos irracionales.
+   - TERROR / HORROR: Acepta Terror u Horror si es de suspenso/misterio o terror psicológico de calidad. Evita películas de terror sangrientas, slasher o gore vacuo.
 2. Selecciona obras aclamadas mundialmente y populares que el usuario pueda encontrar fácilmente en plataformas de streaming o TMDB.
 3. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
 {{
