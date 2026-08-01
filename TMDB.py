@@ -801,19 +801,20 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
         print(f"Imagen ya existe: {filename}")
         return True
         
-    # Validar que tenga al menos una plataforma con calificación aceptable (>= 6.5) y suficientes votos
+    # Validar que tenga al menos una plataforma con calificación aceptable y suficientes votos
+    min_accept_rating = 5.5 if (short_overview or reason) else 6.0
     has_valid_rating = False
     if isinstance(ratings, dict):
         for platform, data in ratings.items():
             p_rating = data.get('rating')
             p_votes = data.get('raw_votes', 0)
-            threshold = VOTE_THRESHOLDS.get(platform, 50)
-            if p_rating is not None and p_rating >= 6.5 and p_votes >= threshold:
+            threshold = VOTE_THRESHOLDS.get(platform, 10)
+            if p_rating is not None and p_rating >= min_accept_rating and p_votes >= threshold:
                 has_valid_rating = True
                 break
                 
     if not has_valid_rating:
-        print(f"Saltando '{title}' (ID: {media_id}) por no tener calificaciones suficientes/buenas (rating >= 6.5 y votos suficientes).")
+        print(f"Saltando '{title}' (ID: {media_id}) por no alcanzar el umbral mínimo de calificación (rating >= {min_accept_rating}).")
         return False
         
     # Obtener descripción en español si falta
@@ -1210,12 +1211,13 @@ def get_candidates(media_type, max_results=40):
         if page > 5:
             break
             
-    # 2. Descubrir películas/series populares en Plataformas de Streaming en Argentina (JustWatch / TMDB Providers)
+    # 2. Descubrir películas/series populares en Plataformas de Streaming en Argentina (Netflix, Prime, Disney+, Max, Apple TV+, Paramount+)
     endpoint = f"discover/{media_type}"
     params = {
         "language": "es-ES",
         "watch_region": "AR",
         "with_watch_monetization_types": "flatrate",
+        "with_watch_providers": "8|119|337|384|1899|350|531",
         "sort_by": "popularity.desc",
         "page": 1
     }
