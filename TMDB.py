@@ -1306,6 +1306,7 @@ Instrucciones de recomendación:
    - PROHIBICIÓN ABSOLUTA de comedias absurdas, producciones de serie B, parodias ridículas o películas estrafalarias de bajo presupuesto (ejemplo prohibido: 'Stuart No Logra Salvar el Universo').
    - Ciencia Ficción PERMITIDA: Única y exclusivamente si es ciencia ficción plausible, distópica o de misterio/thriller de alta calidad (ejemplos: Silo, Severance, Black Mirror, Interstellar, Arrival).
    - Terror/Horror PERMITIDO: Única y exclusivamente si es suspenso/misterio o terror psicológico de calidad. Evita slasher sangriento o gore vacuo.
+   - PROHIBICIÓN ABSOLUTA DE SUPERHÉROES: NUNCA recomiendes películas o series de superhéroes (ejemplos a omitir por completo: Marvel, DC, Supergirl, Spider-Man, Batman, Avengers, X-Men, Superman, etc.). El usuario NO tiene interés en producciones de superhéroes.
 3. PREFERENCIA POR DRAMAS Y THRILLERS EN ESPAÑOL (ESPAÑA/ARGENTINA):
    - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y dramas en español (España/Argentina, como 'Los creyentes', 'El encargado', 'La odisea de los giles').
    - Para dramas o thrillers españoles/argentinos populares en streaming (como 'Los creyentes'), sé flexible con las calificaciones (puntuación >= 6.0).
@@ -1540,7 +1541,18 @@ def sync_existing_backgrounds_to_reddit(subreddit):
     print("--- Sincronización de Fondos Locales Finalizada ---\n")
 
 # Funciones auxiliares de filtrado
-    
+
+def is_superhero_content(title, overview=""):
+    text = (str(title) + " " + str(overview)).lower()
+    keywords = [
+        "superhéroe", "superhéroes", "superhero", "superheroes", "supergirl", "batman",
+        "superman", "spider-man", "spiderman", "avengers", "vengadores", "x-men",
+        "wolverine", "iron man", "captain america", "capitán américa", "thor",
+        "justice league", "liga de la justicia", "wonder woman", "aquaman",
+        "dc comics", "marvel studios", "mcu", "dceu"
+    ]
+    return any(k in text for k in keywords)
+
 def filter_candidates_list(candidates, is_movie):
     filtered = []
     for c in candidates:
@@ -1551,7 +1563,11 @@ def filter_candidates_list(candidates, is_movie):
         if title and was_already_posted_cached(title):
             continue
             
-        # 0.5. Verificar mínimo de votos en TMDB (>= 10)
+        # 0.5. Excluir producciones de superhéroes
+        if is_superhero_content(title, c.get('overview', '')):
+            continue
+            
+        # 0.7. Verificar mínimo de votos en TMDB (>= 10)
         vote_count = c.get('vote_count', 0)
         if vote_count < 10:
             continue
@@ -1869,6 +1885,8 @@ def recycle_historical_backgrounds(subreddit, needed_count):
         name_no_ext = os.path.splitext(filename)[0]
         title_reconstructed = name_no_ext.replace('_', ' ').strip()
         title_norm = " ".join(title_reconstructed.split()).upper()
+        if is_superhero_content(title_reconstructed):
+            continue
         try:
             subreddit.submit_image(title_norm, filepath)
             print(f"Re-destacado fondo histórico en Reddit: {title_norm}")
