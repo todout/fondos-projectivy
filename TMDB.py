@@ -794,6 +794,67 @@ def summarize_with_gemini(title, overview, reason=None):
 
 
 
+import qrcode
+
+def get_trailer_url(media_type, media_id, title, slug=None):
+    if not media_type or not media_id:
+        query = urllib.parse.quote(f"{title} trailer oficial español")
+        return f"https://www.youtube.com/results?search_query={query}"
+        
+    # 1. Intentar buscar en JustWatch Argentina para el tráiler oficial exacto en español
+    if slug:
+        jw_url = f"https://www.justwatch.com/ar/{'serie' if media_type=='tv' else 'pelicula'}/{slug}"
+        try:
+            r = requests.get(jw_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}, timeout=5)
+            if r.status_code == 200:
+                matches = re.findall(r'youtube\.com/watch\?v=([\w\-]+)|youtu\.be/([\w\-]+)', r.text)
+                for m in matches:
+                    key = m[0] or m[1]
+                    if key:
+                        return f"https://www.youtube.com/watch?v={key}"
+        except Exception:
+            pass
+
+    # 2. Consultar vídeos oficiales en TMDB
+    endpoint = f"{media_type}/{media_id}/videos"
+    data = tmdb_get(endpoint)
+    if data and data.get('results'):
+        results = data.get('results', [])
+        for v in results:
+            if v.get('site') == 'YouTube' and v.get('type') == 'Trailer':
+                return f"https://www.youtube.com/watch?v={v.get('key')}"
+        for v in results:
+            if v.get('site') == 'YouTube':
+                return f"https://www.youtube.com/watch?v={v.get('key')}"
+                
+    # 3. Fallback directo
+    query = urllib.parse.quote(f"{title} trailer oficial español")
+    return f"https://www.youtube.com/results?search_query={query}"
+
+def generate_clean_qr(url, size=44):
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_M,
+        box_size=2,
+        border=0
+    )
+    qr.add_data(url)
+    qr.make(fit=True)
+    
+    matrix = qr.get_matrix()
+    matrix_size = len(matrix)
+    
+    qr_img = Image.new("RGBA", (matrix_size, matrix_size), (0, 0, 0, 0))
+    pixels = qr_img.load()
+    
+    for row in range(matrix_size):
+        for col in range(matrix_size):
+            if matrix[row][col]:
+                pixels[col, row] = (245, 245, 245, 255)
+                
+    qr_img = qr_img.resize((size, size), Image.Resampling.NEAREST)
+    return qr_img
+
 # Procesar y componer imagen
 def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings, duration=None, seasons=None, media_type=None, media_id=None, short_overview=None, reason=None, tv_type=None):
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
@@ -1081,6 +1142,29 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             # Separador entre calificaciones
             if idx < len(platforms_to_draw) - 1:
                 x += 35
+                
+    # 4.5. Dibujar QR del Tráiler al final de la línea de metadatos y calificaciones
+    if media_type and media_id:
+        trailer_url = get_trailer_url(media_type, media_id, title)
+        if trailer_url:
+            sep_bbox = draw.textbbox((0, 0), sep, font=font_metadata)
+            sep_offset_y = (sep_bbox[1] + sep_bbox[3]) / 2
+            y_sep = y_center - sep_offset_y
+            draw.text((x + 2, y_sep + 2), sep, fill='black', font=font_metadata)
+            draw.text((x, y_sep), sep, fill=(150, 150, 150), font=font_metadata)
+            x += int(sep_w)
+            
+            qr_size = fav_size  # 44px (Idéntico al tamaño del favicon de IMDb)
+            qr_img = generate_clean_qr(trailer_url, size=qr_size)
+            bg.paste(qr_img, (x, int(y_center - qr_size // 2)), qr_img)
+            x += qr_size + 10
+            
+            t_label = "Tráiler"
+            t_bbox = draw.textbbox((0, 0), t_label, font=font_metadata)
+            t_offset_y = (t_bbox[1] + t_bbox[3]) / 2
+            y_t_text = y_center - t_offset_y
+            draw.text((x + 2, y_t_text + 2), t_label, fill='black', font=font_metadata)
+            draw.text((x, y_t_text), t_label, fill=(150, 150, 150), font=font_metadata)
                 
     # 5. Dibujar Sinopsis
     overview_pos_y = metadata_pos_y + 80
