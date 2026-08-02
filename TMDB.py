@@ -2331,6 +2331,18 @@ def main():
                         
     print(f"\nProceso finalizado. Películas generadas/subidas: {success_movies}, Series: {success_tv}")
 
+    # === ACTUALIZACIÓN AUTOMÁTICA DE TRAILERS CACHE Y SYNC CON GITHUB ===
+    print("\n--- Actualizando índice de tráileres para la APK de Android TV... ---")
+    try:
+        from build_trailers_cache import build_cache
+        build_cache()
+        os.system('git add trailers_cache.json')
+        os.system('git commit -m "auto: update trailers_cache.json for Android TV APK"')
+        os.system('git push origin master')
+        print("Índice de tráileres subido a GitHub exitosamente. Tu APK en la TV ya tiene los últimos fondos sin reinstalar.")
+    except Exception as e_cache:
+        print(f"Error actualizando trailers_cache.json en GitHub: {e_cache}")
+
 if __name__ == '__main__':
     main()
 
