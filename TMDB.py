@@ -828,22 +828,43 @@ def get_trailer_url(media_type, media_id, title, slug=None):
     except Exception as e:
         print(f"Error scraping JustWatch trailer: {e}")
 
-    # 2. Consultar vídeos en español en TMDB
+    # 2. Consultar vídeos en español latino y castellano en TMDB
     if media_type and media_id:
-        endpoint = f"{media_type}/{media_id}/videos"
-        data = tmdb_get(endpoint, {"language": "es-ES"})
-        if data and data.get('results'):
-            results = data.get('results', [])
-            for v in results:
-                if v.get('site') == 'YouTube' and v.get('type') == 'Trailer':
-                    return f"https://www.youtube.com/watch?v={v.get('key')}"
-            for v in results:
-                if v.get('site') == 'YouTube':
-                    return f"https://www.youtube.com/watch?v={v.get('key')}"
+        for lang in ["es-MX", "es-ES", "es"]:
+            endpoint = f"{media_type}/{media_id}/videos"
+            data = tmdb_get(endpoint, {"language": lang})
+            if data and data.get('results'):
+                results = data.get('results', [])
+                for v in results:
+                    if v.get('site') == 'YouTube' and v.get('type') == 'Trailer':
+                        return f"https://www.youtube.com/watch?v={v.get('key')}"
+                for v in results:
+                    if v.get('site') == 'YouTube':
+                        return f"https://www.youtube.com/watch?v={v.get('key')}"
                     
-    # 3. Fallback directo
-    query = urllib.parse.quote(f"{title} trailer oficial español")
+    # 3. Fallback directo a YouTube en español
+    query = urllib.parse.quote(f"{title} trailer oficial espanol")
     return f"https://www.youtube.com/results?search_query={query}"
+
+def submit_wallpaper_to_reddit(subreddit, title_norm, filepath, media_type=None, media_id=None, title_raw=None):
+    """Suba la imagen a Reddit y añade un comentario con el enlace al tráiler oficial en español."""
+    try:
+        post = subreddit.submit_image(title_norm, filepath)
+        print(f"Subido a Reddit: {title_norm}")
+        
+        # Buscar URL del tráiler en español
+        title_search = title_raw or title_norm
+        trailer_url = get_trailer_url(media_type, media_id, title_search)
+        if post and trailer_url:
+            try:
+                post.reply(f"🎬 Tráiler oficial (Español): {trailer_url}")
+                print(f"Comentario de tráiler en español adjuntado a '{title_norm}': {trailer_url}")
+            except Exception as e_reply:
+                print(f"No se pudo adjuntar comentario de tráiler en Reddit: {e_reply}")
+        return post
+    except Exception as e:
+        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+        return None
 
 def generate_clean_qr(url, size=44):
     qr = qrcode.QRCode(
@@ -1152,24 +1173,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             if idx < len(platforms_to_draw) - 1:
                 x += 35
                 
-    # 4.5. Dibujar QR del Tráiler al final de la línea de metadatos y calificaciones
-    if media_type and media_id:
-        trailer_url = get_trailer_url(media_type, media_id, title)
-        if trailer_url:
-            print(f"Tráiler URL generado para el QR de '{title}': {trailer_url}")
-            draw.text((x + 2, y_text + 2), sep, fill='black', font=font_metadata)
-            draw.text((x, y_text), sep, fill=(150, 150, 150), font=font_metadata)
-            x += int(sep_w)
-            
-            qr_size = fav_size  # 44px (Idéntico al tamaño del favicon de IMDb)
-            qr_img = generate_clean_qr(trailer_url, size=qr_size)
-            bg.paste(qr_img, (x, int(y_center - qr_size // 2 - 5)), qr_img)
-            x += qr_size + 10
-            
-            t_label = "Tráiler"
-            draw.text((x + 2, y_text + 2), t_label, fill='black', font=font_metadata)
-            draw.text((x, y_text), t_label, fill=(150, 150, 150), font=font_metadata)
-                
+
     # 5. Dibujar Sinopsis
     overview_pos_y = metadata_pos_y + 80
     overview_pos = (210, overview_pos_y)
