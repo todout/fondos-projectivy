@@ -65,11 +65,14 @@ def get_tmdb_metadata(title):
                 
                 backdrop = f"https://image.tmdb.org/t/p/w500{item.get('backdrop_path')}" if item.get('backdrop_path') else (f"https://image.tmdb.org/t/p/w500{item.get('poster_path')}" if item.get('poster_path') else '')
                 
+                overview = det.get('overview') or item.get('overview') or ''
+                
                 return {
                     'media_type_label': type_label,
                     'year': year,
                     'extra_info': extra_info,
-                    'backdrop_url': backdrop
+                    'backdrop_url': backdrop,
+                    'overview': overview
                 }
         except Exception:
             pass
@@ -78,7 +81,8 @@ def get_tmdb_metadata(title):
         'media_type_label': 'PELÍCULA',
         'year': '',
         'extra_info': '',
-        'backdrop_url': ''
+        'backdrop_url': '',
+        'overview': ''
     }
 
 def get_trailer_id(title):
@@ -150,6 +154,14 @@ def build_cache():
                 subtitle_parts.append(meta['extra_info'])
             meta_subtitle = ' • '.join(subtitle_parts)
 
+            overview_txt = meta.get('overview', '')
+            if not overview_txt:
+                # Limpiar texto del post de reddit si no hay sinopsis TMDB
+                raw_desc = re.sub(r'<[^>]+>', '', item.get('description', ''))
+                raw_desc = re.sub(r'https?://\S+', '', raw_desc).strip()
+                if raw_desc and len(raw_desc) > 15:
+                    overview_txt = raw_desc[:250] + '...'
+
             trailers.append({
                 'title': title,
                 'subtitle': meta_subtitle,
@@ -157,15 +169,16 @@ def build_cache():
                 'year': meta['year'],
                 'extra_info': meta['extra_info'],
                 'backdrop_url': media_img,
+                'overview': overview_txt,
                 'youtube_id': yt_id,
                 'trailer_url': f'https://www.youtube.com/watch?v={yt_id}'
             })
-            print(f"[OK 20] {title} | {meta_subtitle} | ID: {yt_id}")
+            print(f"[OK Overview] {title} | {meta_subtitle}")
 
     with open('trailers_cache.json', 'w', encoding='utf-8') as f:
         json.dump(trailers, f, ensure_ascii=False, indent=2)
 
-    print(f"\nGuardado trailers_cache.json con {len(trailers)} tráileres y metadatos.")
+    print(f"\nGuardado trailers_cache.json con {len(trailers)} tráileres y sinopsis.")
 
 if __name__ == '__main__':
     build_cache()
