@@ -37,17 +37,19 @@ def get_tmdb_details(title):
     clean = re.sub(r'\s*\(\d{4}\)', '', title).strip()
     q = urllib.parse.quote(clean)
     
-    url = f"https://api.themoviedb.org/3/search/multi?query={q}&language=es-ES"
+    url = f"https://api.themoviedb.org/3/search/multi?query={q}&language=es-MX"
     try:
         req = urllib.request.Request(url, headers=headers)
         res = json.loads(urllib.request.urlopen(req, timeout=4).read().decode())
         results = [r for r in res.get('results', []) if r.get('media_type') in ['movie', 'tv']]
         if results:
+            # Ordenar por popularidad para descartar versiones antiguas no relevantes
+            results.sort(key=lambda x: x.get('popularity', 0), reverse=True)
             best = results[0]
             media_type = best.get('media_type')
             item_id = best.get('id')
             
-            det_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}?language=es-ES"
+            det_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}?language=es-MX"
             det_req = urllib.request.Request(det_url, headers=headers)
             det = json.loads(urllib.request.urlopen(det_req, timeout=4).read().decode())
             
@@ -72,12 +74,12 @@ def get_tmdb_details(title):
             
             yt_id = None
             try:
-                v_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}/videos?language=es-ES"
+                v_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}/videos?language=es-MX"
                 v_req = urllib.request.Request(v_url, headers=headers)
                 v_res = json.loads(urllib.request.urlopen(v_req, timeout=3).read().decode())
                 v_results = v_res.get('results', [])
                 if not v_results:
-                    v_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}/videos?language=es-MX"
+                    v_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}/videos?language=es-ES"
                     v_req = urllib.request.Request(v_url, headers=headers)
                     v_res = json.loads(urllib.request.urlopen(v_req, timeout=3).read().decode())
                     v_results = v_res.get('results', [])
@@ -89,6 +91,7 @@ def get_tmdb_details(title):
                 pass
             
             return {
+                'title': det.get('name') or det.get('title') or title,
                 'media_type': media_type,
                 'media_type_label': type_label,
                 'year': year,
@@ -101,6 +104,7 @@ def get_tmdb_details(title):
         print(f"Error TMDB '{title}': {e}")
         
     return {
+        'title': title,
         'media_type': 'movie',
         'media_type_label': 'PELÍCULA',
         'year': '',
@@ -128,9 +132,9 @@ def get_trailer_id(title, media_type='movie'):
         except Exception:
             pass
 
-    # 2. Búsqueda en YouTube especificando si es serie o película
+    # 2. Búsqueda en YouTube especificando Español Latino
     try:
-        q = urllib.parse.quote(f'{title} {type_str} trailer oficial espanol')
+        q = urllib.parse.quote(f'{title} {type_str} trailer oficial espanol latino')
         yt_url = f'https://www.youtube.com/results?search_query={q}'
         req = urllib.request.Request(yt_url, headers={'User-Agent': 'Mozilla/5.0'})
         html = urllib.request.urlopen(req, timeout=4).read().decode('utf-8', errors='ignore')
@@ -184,45 +188,47 @@ def fetch_reddit_posts_praw():
         print(f"PRAW fetch error: {e}")
         return []
 
-def build_cache():
-    items = fetch_reddit_posts_praw()
+def fetch_provider_top10(provider_name, provider_id):
+    tmdb_token = os.getenv('TMDB_TOKEN')
+    headers = {"accept": "application/json", "Authorization": f"Bearer {tmdb_token}"}
+    items = []
     
-    # Fallback RSS si PRAW estuviera desconectado
-    if not items:
-        rss_url = 'https://api.rss2json.com/v1/api.json?rss_url=https://www.reddit.com/r/IMDB_esp/new.rss'
-        req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
-        try:
-            data = json.loads(urllib.request.urlopen(req).read().decode())
-            rss_items = data.get('items', [])
-            for r in rss_items:
-                items.append({
-                    'title': r['title'].strip(),
-                    'yt_id': extract_yt_id(r.get('content', '')) or extract_yt_id(r.get('description', '')),
-                    'content': r.get('content', ''),
-                    'description': r.get('description', '')
-                })
-        except Exception as e:
-            print(f"Error cargando RSS fallback: {e}")
+    url = f"https://api.themoviedb.org/3/discover/movie?language=es-MX&sort_by=popularity.desc&with_watch_providers={provider_id}&watch_region=MX"
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        res = json.loads(urllib.request.urlopen(req, timeout=4).read().decode())
+        results = res.get('results', [])[:10]
+        for r in results:
+            t = r.get('title')
+            if t:
+                items.append(t)
+    except Exception as e:
+        print(f"Error cargando top {provider_name}: {e}")
+    return items
 
+def process_item_list(raw_items, default_category=""):
     trailers = []
     seen = set()
-    for item in items:
-        if len(trailers) >= 25:
+    for item in raw_items:
+        if len(trailers) >= 25 if "Recomendaciones" in default_category else 10:
             break
-        title = item['title']
+            
+        title = item.get('title') if isinstance(item, dict) else str(item)
         clean_norm = re.sub(r'[^a-zA-Z0-9]', '', title.lower())
         if clean_norm in seen:
             continue
         seen.add(clean_norm)
 
         meta = get_tmdb_details(title)
-        yt_id = item.get('yt_id') or meta.get('tmdb_yt_id')
+        display_title = meta.get('title') or title
+        
+        yt_id = (item.get('yt_id') if isinstance(item, dict) else None) or meta.get('tmdb_yt_id')
         if not yt_id:
-            yt_id = get_trailer_id(title, meta['media_type'])
+            yt_id = get_trailer_id(display_title, meta['media_type'])
             
-        if title and yt_id:
+        if display_title and yt_id:
             media_img = meta.get('backdrop_url', '')
-            if not media_img:
+            if not media_img and isinstance(item, dict):
                 m_img = re.search(r'https://preview\.redd\.it/[^\s"]+\.(?:jpg|png)', item.get('content', ''))
                 if m_img:
                     media_img = m_img.group(0)
@@ -237,7 +243,7 @@ def build_cache():
             overview_txt = meta.get('overview', '')
 
             trailers.append({
-                'title': title,
+                'title': display_title,
                 'subtitle': meta_subtitle,
                 'media_type': meta['media_type_label'],
                 'year': meta['year'],
@@ -247,12 +253,49 @@ def build_cache():
                 'youtube_id': yt_id,
                 'trailer_url': f'https://www.youtube.com/watch?v={yt_id}'
             })
-            print(f"[OK 25] {title} | {meta_subtitle} | YT: {yt_id}")
+            print(f"[{default_category}] {display_title} | {meta_subtitle} | YT: {yt_id}")
+
+    return trailers
+
+def build_cache():
+    print("--- 1. Cargando Recomendaciones para vos (Reddit) ---")
+    reddit_raw = fetch_reddit_posts_praw()
+    rec_items = process_item_list(reddit_raw, "Recomendaciones para vos")
+    
+    providers = [
+        ("Top 10 Netflix", 8),
+        ("Top 10 Disney+", 337),
+        ("Top 10 Prime Video", 119),
+        ("Top 10 Apple TV+", 350)
+    ]
+    
+    rows = [
+        {
+            "category": "Recomendaciones para vos",
+            "items": rec_items
+        }
+    ]
+
+    for p_name, p_id in providers:
+        print(f"\n--- Cargando {p_name} ---")
+        p_raw = fetch_provider_top10(p_name, p_id)
+        p_items = process_item_list(p_raw, p_name)
+        rows.append({
+            "category": p_name,
+            "items": p_items
+        })
+
+    full_cache = {
+        "rows": rows,
+
+        # Compatibilidad con lista plana para el respaldo local
+        "flat_list": rec_items
+    }
 
     with open('trailers_cache.json', 'w', encoding='utf-8') as f:
-        json.dump(trailers, f, ensure_ascii=False, indent=2)
+        json.dump(full_cache, f, ensure_ascii=False, indent=2)
 
-    print(f"\nGuardado trailers_cache.json con {len(trailers)} tráileres exactos en español.")
+    print("\n[OK] Guardado trailers_cache.json con las 5 filas estilo Netflix en Español Latino.")
 
 if __name__ == '__main__':
     build_cache()
