@@ -8,6 +8,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Mapa de tráileres verificados para títulos específicos
+OVERRIDE_TRAILERS = {
+    'LOS CREYENTES': 'svGU1Mq5irI',
+    'THE BELIEVERS': 'svGU1Mq5irI',
+    'SILO': '0I7Q1WtTf_c',
+    'HOUSE': 'BLt3K0phvX0'
+}
+
 def slugify_title(title):
     if not title:
         return ''
@@ -43,7 +51,6 @@ def get_tmdb_details(title):
         res = json.loads(urllib.request.urlopen(req, timeout=4).read().decode())
         results = [r for r in res.get('results', []) if r.get('media_type') in ['movie', 'tv']]
         if results:
-            # Ordenar por popularidad para descartar versiones antiguas no relevantes
             results.sort(key=lambda x: x.get('popularity', 0), reverse=True)
             best = results[0]
             media_type = best.get('media_type')
@@ -53,6 +60,23 @@ def get_tmdb_details(title):
             det_req = urllib.request.Request(det_url, headers=headers)
             det = json.loads(urllib.request.urlopen(det_req, timeout=4).read().decode())
             
+            # Si no hay sinopsis en es-MX, probar con es-ES o en-US
+            overview = det.get('overview') or ''
+            if not overview:
+                try:
+                    det_es_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}?language=es-ES"
+                    det_es_res = json.loads(urllib.request.urlopen(urllib.request.Request(det_es_url, headers=headers), timeout=3).read().decode())
+                    overview = det_es_res.get('overview') or ''
+                except Exception:
+                    pass
+            if not overview:
+                try:
+                    det_en_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}?language=en-US"
+                    det_en_res = json.loads(urllib.request.urlopen(urllib.request.Request(det_en_url, headers=headers), timeout=3).read().decode())
+                    overview = det_en_res.get('overview') or ''
+                except Exception:
+                    pass
+
             type_label = "PELÍCULA" if media_type == "movie" else "SERIE"
             date_str = det.get('release_date') or det.get('first_air_date') or ''
             year = date_str[:4] if date_str else ''
@@ -69,9 +93,11 @@ def get_tmdb_details(title):
                 if seasons:
                     extra_info = f"{seasons} Temporada{'s' if seasons > 1 else ''}"
             
-            backdrop = f"https://image.tmdb.org/t/p/w500{det.get('backdrop_path')}" if det.get('backdrop_path') else (f"https://image.tmdb.org/t/p/w500{det.get('poster_path')}" if det.get('poster_path') else '')
-            overview = det.get('overview') or ''
-            
+            poster = f"https://image.tmdb.org/t/p/w500{det.get('poster_path')}" if det.get('poster_path') else ''
+            backdrop = f"https://image.tmdb.org/t/p/w500{det.get('backdrop_path')}" if det.get('backdrop_path') else poster
+            if not poster and backdrop:
+                poster = backdrop
+
             yt_id = None
             try:
                 v_url = f"https://api.themoviedb.org/3/{media_type}/{item_id}/videos?language=es-MX"
@@ -96,6 +122,7 @@ def get_tmdb_details(title):
                 'media_type_label': type_label,
                 'year': year,
                 'extra_info': extra_info,
+                'poster_url': poster,
                 'backdrop_url': backdrop,
                 'overview': overview,
                 'tmdb_yt_id': yt_id
@@ -109,12 +136,17 @@ def get_tmdb_details(title):
         'media_type_label': 'PELÍCULA',
         'year': '',
         'extra_info': '',
+        'poster_url': '',
         'backdrop_url': '',
         'overview': '',
         'tmdb_yt_id': None
     }
 
 def get_trailer_id(title, media_type='movie'):
+    clean_upper = title.upper().strip()
+    if clean_upper in OVERRIDE_TRAILERS:
+        return OVERRIDE_TRAILERS[clean_upper]
+
     type_str = "serie" if media_type == 'tv' else "pelicula"
     
     # 1. JustWatch AR
@@ -209,8 +241,10 @@ def fetch_provider_top10(provider_name, provider_id):
 def process_item_list(raw_items, default_category=""):
     trailers = []
     seen = set()
+    limit = 25 if "Recomendaciones" in default_category else 10
+    
     for item in raw_items:
-        if len(trailers) >= 25 if "Recomendaciones" in default_category else 10:
+        if len(trailers) >= limit:
             break
             
         title = item.get('title') if isinstance(item, dict) else str(item)
@@ -222,16 +256,19 @@ def process_item_list(raw_items, default_category=""):
         meta = get_tmdb_details(title)
         display_title = meta.get('title') or title
         
-        yt_id = (item.get('yt_id') if isinstance(item, dict) else None) or meta.get('tmdb_yt_id')
+        yt_id = OVERRIDE_TRAILERS.get(display_title.upper().strip()) or OVERRIDE_TRAILERS.get(title.upper().strip())
+        if not yt_id and isinstance(item, dict):
+            yt_id = item.get('yt_id')
         if not yt_id:
-            yt_id = get_trailer_id(display_title, meta['media_type'])
+            yt_id = meta.get('tmdb_yt_id') or get_trailer_id(display_title, meta['media_type'])
             
         if display_title and yt_id:
-            media_img = meta.get('backdrop_url', '')
-            if not media_img and isinstance(item, dict):
+            poster_img = meta.get('poster_url', '')
+            backdrop_img = meta.get('backdrop_url', '')
+            if not poster_img and isinstance(item, dict):
                 m_img = re.search(r'https://preview\.redd\.it/[^\s"]+\.(?:jpg|png)', item.get('content', ''))
                 if m_img:
-                    media_img = m_img.group(0)
+                    poster_img = m_img.group(0)
 
             subtitle_parts = [meta['media_type_label']]
             if meta['year']:
@@ -248,7 +285,8 @@ def process_item_list(raw_items, default_category=""):
                 'media_type': meta['media_type_label'],
                 'year': meta['year'],
                 'extra_info': meta['extra_info'],
-                'backdrop_url': media_img,
+                'poster_url': poster_img,
+                'backdrop_url': backdrop_img or poster_img,
                 'overview': overview_txt,
                 'youtube_id': yt_id,
                 'trailer_url': f'https://www.youtube.com/watch?v={yt_id}'
@@ -287,15 +325,13 @@ def build_cache():
 
     full_cache = {
         "rows": rows,
-
-        # Compatibilidad con lista plana para el respaldo local
         "flat_list": rec_items
     }
 
     with open('trailers_cache.json', 'w', encoding='utf-8') as f:
         json.dump(full_cache, f, ensure_ascii=False, indent=2)
 
-    print("\n[OK] Guardado trailers_cache.json con las 5 filas estilo Netflix en Español Latino.")
+    print("\n[OK] Guardado trailers_cache.json con posters verticales y trailers de Youtube corregidos.")
 
 if __name__ == '__main__':
     build_cache()
