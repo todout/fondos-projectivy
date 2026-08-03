@@ -60,7 +60,6 @@ def get_tmdb_details(title):
             det_req = urllib.request.Request(det_url, headers=headers)
             det = json.loads(urllib.request.urlopen(det_req, timeout=4).read().decode())
             
-            # Si no hay sinopsis en es-MX, probar con es-ES o en-US
             overview = det.get('overview') or ''
             if not overview:
                 try:
@@ -285,7 +284,7 @@ def process_item_list(raw_items, default_category=""):
                 'media_type': meta['media_type_label'],
                 'year': meta['year'],
                 'extra_info': meta['extra_info'],
-                'poster_url': poster_img,
+                'poster_url': poster_img or backdrop_img,
                 'backdrop_url': backdrop_img or poster_img,
                 'overview': overview_txt,
                 'youtube_id': yt_id,
@@ -331,7 +330,7 @@ def build_cache():
     with open('trailers_cache.json', 'w', encoding='utf-8') as f:
         json.dump(full_cache, f, ensure_ascii=False, indent=2)
 
-    print("\n[OK] Guardado trailers_cache.json con posters verticales y trailers de Youtube corregidos.")
+    print("\n[OK] Guardado trailers_cache.json con posters de TMDB.")
 
 if __name__ == '__main__':
     build_cache()
