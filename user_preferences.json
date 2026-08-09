@@ -103,6 +103,131 @@
       ],
       "year": "2019",
       "media_type": "movie"
+    },
+    {
+      "id": 125914,
+      "title": "El cuerpo",
+      "genres": [
+        "Misterio",
+        "Suspense",
+        "Drama"
+      ],
+      "year": "2012",
+      "media_type": "movie"
+    },
+    {
+      "id": 195155,
+      "title": "El encargado",
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "year": "2022",
+      "media_type": "tv"
+    },
+    {
+      "id": 252655,
+      "title": "Envidiosa",
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "year": "2024",
+      "media_type": "tv"
+    },
+    {
+      "id": 218779,
+      "title": "División Palermo",
+      "genres": [
+        "Comedia"
+      ],
+      "year": "2023",
+      "media_type": "tv"
+    },
+    {
+      "id": 255280,
+      "title": "All Her Fault",
+      "genres": [
+        "Drama",
+        "Suspense"
+      ],
+      "year": "2025",
+      "media_type": "tv"
+    },
+    {
+      "id": 714968,
+      "title": "Argentina, 1985",
+      "genres": [
+        "Drama",
+        "Historia"
+      ],
+      "year": "2022",
+      "media_type": "movie"
+    },
+    {
+      "id": 265195,
+      "title": "Relatos salvajes",
+      "genres": [
+        "Comedia",
+        "Drama",
+        "Crimen"
+      ],
+      "year": "2014",
+      "media_type": "movie"
+    },
+    {
+      "id": 87108,
+      "title": "Chernobyl",
+      "genres": [
+        "Drama"
+      ],
+      "year": "2019",
+      "media_type": "tv"
+    },
+    {
+      "id": 125988,
+      "title": "Silo",
+      "genres": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "year": "2023",
+      "media_type": "tv"
+    },
+    {
+      "id": 424694,
+      "title": "Bohemian Rhapsody",
+      "genres": [
+        "Drama",
+        "Música"
+      ],
+      "year": "2018",
+      "media_type": "movie"
+    },
+    {
+      "id": 78237,
+      "title": "Tiempo de valientes",
+      "genres": [
+        "Comedia",
+        "Crimen",
+        "Misterio",
+        "Acción",
+        "Suspense"
+      ],
+      "year": "2005",
+      "media_type": "movie"
+    },
+    {
+      "id": 18079,
+      "title": "Nueve reinas",
+      "genres": [
+        "Crimen",
+        "Suspense",
+        "Drama",
+        "Comedia"
+      ],
+      "year": "2000",
+      "media_type": "movie"
     }
   ],
   "dislikes": [
@@ -161,7 +286,36 @@
         "Comedia"
       ],
       "year": "2015"
+    },
+    {
+      "id": 270724,
+      "title": "Cromañón",
+      "genres": [
+        "Drama"
+      ],
+      "year": "2024",
+      "media_type": "tv"
+    },
+    {
+      "id": 157080,
+      "title": "Porno y helado",
+      "genres": [
+        "Comedia"
+      ],
+      "year": "2022",
+      "media_type": "tv"
     }
   ],
-  "neutral": []
+  "neutral": [
+    {
+      "id": 119566,
+      "title": "El eternauta",
+      "genres": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "year": "2025",
+      "media_type": "tv"
+    }
+  ]
 }
