@@ -34,7 +34,7 @@ order_by = 'DateCreated' # 'DateCreated', 'DateLastContentAdded', 'PremiereDate'
 download_movies = True
 download_series = True
 limit = 10
-excluded_genres = ['Horror', 'Thriller']
+excluded_genres = ['Horror', 'Terror']
 excluded_tags = ['Adult', 'Violence']
 excluded_libraries = ['Web Videos']
 

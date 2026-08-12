@@ -228,6 +228,17 @@
       ],
       "year": "2000",
       "media_type": "movie"
+    },
+    {
+      "id": 1487861,
+      "title": "Elize: Sombras de una mujer",
+      "genres": [
+        "Suspense",
+        "Crimen",
+        "Drama"
+      ],
+      "year": "2026",
+      "media_type": "movie"
     }
   ],
   "dislikes": [
@@ -304,6 +315,17 @@
       ],
       "year": "2022",
       "media_type": "tv"
+    },
+    {
+      "id": 619264,
+      "title": "El hoyo",
+      "genres": [
+        "Ciencia ficción",
+        "Drama",
+        "Suspenso"
+      ],
+      "year": "2019",
+      "media_type": "movie"
     }
   ],
   "neutral": [
