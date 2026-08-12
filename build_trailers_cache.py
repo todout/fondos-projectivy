@@ -3,8 +3,9 @@ import json
 import re
 import urllib.parse
 import os
-import praw
 import sys
+import praw
+from dotenv import load_dotenv
 
 load_dotenv()
 
