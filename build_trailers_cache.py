@@ -4,9 +4,15 @@ import re
 import urllib.parse
 import os
 import praw
-from dotenv import load_dotenv
+import sys
 
 load_dotenv()
+
+if sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 # Mapa de tráileres verificados para títulos específicos
 OVERRIDE_TRAILERS = {
