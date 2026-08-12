@@ -290,7 +290,7 @@ def process_item_list(raw_items, default_category=""):
                 'youtube_id': yt_id,
                 'trailer_url': f'https://www.youtube.com/watch?v={yt_id}'
             })
-            print(f"[{default_category}] {display_title} | {meta_subtitle} | YT: {yt_id}")
+            print(f"[{default_category}] {display_title} | YT: {yt_id}")
 
     return trailers
 

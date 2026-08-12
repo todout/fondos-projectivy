@@ -7,6 +7,7 @@ import os
 import json
 import textwrap
 from datetime import datetime
+import time
 import praw
 from dotenv import load_dotenv
 import re
@@ -57,7 +58,7 @@ if not os.path.exists(font_bold_path):
         print(f"Error descargando Roboto-Black: {e}")
 
 # Cargar Exclusiones Dinámicas
-exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación')
+exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Terror, Horror')
 excluded_genres = {g.strip() for g in exclude_genres_env.split(',') if g.strip()}
 
 exclude_languages_env = os.getenv('TMDB_EXCLUDE_LANGUAGES', 'zh, ko')
@@ -94,7 +95,10 @@ genre_name_to_id = {}
 
 # Caché de películas/series ya publicadas para evitar duplicados y consultas innecesarias
 POSTED_CACHE_FILE = "posted_cache.json"
-already_posted_set = set()
+already_posted_dict = {}  # Mapea titulo_normalizado -> timestamp POSIX
+
+REPOST_MIN_DAYS = 30       # Días mínimos transcurridos desde la publicación previa para reconsiderar un título
+REPOST_MIN_RATING = 7.0    # Nota mínima para permitir volver a recomendar/publicar un título antiguo
 
 # Umbrales mínimos de votos para mostrar calificaciones y validar recomendaciones
 VOTE_THRESHOLDS = {
@@ -107,30 +111,34 @@ VOTE_THRESHOLDS = {
 }
 
 def load_posted_cache(subreddit=None):
-    global already_posted_set
-    already_posted_set = set()
+    global already_posted_dict
+    already_posted_dict = {}
     if os.path.exists(POSTED_CACHE_FILE):
         try:
             with open(POSTED_CACHE_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, list):
-                    already_posted_set = set(data)
-            print(f"Cargados {len(already_posted_set)} títulos publicados desde el caché local.")
+                    # Formato legado: convertimos lista de strings a dict con timestamp 0 (antiguos)
+                    already_posted_dict = {normalize_title(t).upper(): 0 for t in data}
+                elif isinstance(data, dict):
+                    already_posted_dict = {normalize_title(k).upper(): v for k, v in data.items()}
+            print(f"Cargados {len(already_posted_dict)} títulos publicados desde el caché local.")
         except Exception as e:
             print(f"Error al cargar caché local de títulos publicados: {e}")
             
     if subreddit:
         print("Sincronizando títulos publicados con Reddit...")
         try:
-            reddit_titles = set()
+            reddit_dict = {}
             for sub in subreddit.new(limit=1000):
                 title_norm = normalize_title(sub.title).upper()
-                reddit_titles.add(title_norm)
+                created_utc = getattr(sub, 'created_utc', time.time())
+                reddit_dict[title_norm] = created_utc
             
-            before_len = len(already_posted_set)
-            already_posted_set.update(reddit_titles)
-            added = len(already_posted_set) - before_len
-            print(f"Sincronizados {len(reddit_titles)} títulos desde Reddit. Añadidos {added} nuevos al caché.")
+            before_len = len(already_posted_dict)
+            already_posted_dict.update(reddit_dict)
+            added = len(already_posted_dict) - before_len
+            print(f"Sincronizados {len(reddit_dict)} títulos desde Reddit. Añadidos {added} nuevos al caché.")
             save_posted_cache()
         except Exception as e:
             print(f"Error al sincronizar con Reddit: {e}")
@@ -138,16 +146,45 @@ def load_posted_cache(subreddit=None):
 def save_posted_cache():
     try:
         with open(POSTED_CACHE_FILE, "w", encoding="utf-8") as f:
-            json.dump(list(already_posted_set), f, ensure_ascii=False, indent=4)
+            json.dump(already_posted_dict, f, ensure_ascii=False, indent=4)
         print("Caché de títulos publicados guardado localmente.")
     except Exception as e:
         print(f"Error al guardar caché de títulos publicados: {e}")
 
-def was_already_posted_cached(title):
+def mark_as_posted(title):
+    if not title:
+        return
+    title_norm = normalize_title(str(title)).upper()
+    already_posted_dict[title_norm] = time.time()
+    save_posted_cache()
+
+def was_already_posted_cached(title, rating=None):
     if not title:
         return False
     title_norm = normalize_title(str(title)).upper()
-    return title_norm in already_posted_set
+    if title_norm not in already_posted_dict:
+        return False
+        
+    posted_timestamp = already_posted_dict[title_norm]
+    if posted_timestamp == 0:
+        days_ago = 0.0
+    else:
+        days_ago = (time.time() - posted_timestamp) / 86400.0
+        
+    if days_ago >= REPOST_MIN_DAYS:
+        if rating is not None:
+            try:
+                r_val = float(rating)
+                if r_val >= REPOST_MIN_RATING:
+                    print(f"[REPOST] '{title}' fue publicado hace {int(days_ago)} días y tiene una excelente calificación ({r_val:.1f} >= {REPOST_MIN_RATING}). Se permitirá volver a recomendarlo/publicarlo.")
+                    return False
+            except (ValueError, TypeError):
+                pass
+        else:
+            print(f"[REPOST] '{title}' fue publicado hace {int(days_ago)} días (>= {REPOST_MIN_DAYS} días). Se permitirá volver a recomendarlo/publicarlo.")
+            return False
+            
+    return True
 
 # Crear directorio de fondos
 os.makedirs(background_dir, exist_ok=True)
@@ -1391,14 +1428,15 @@ Candidatos disponibles (películas y series nuevas, en tendencia o en streaming)
 {candidates_str}
 
 Instrucciones de recomendación:
-1. FOCO EN STREAMING Y PLATAFORMAS (No cine de estreno no disponible):
-   - El objetivo es recomendar obras para ver YA en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+).
-2. RESTRICCIÓN ESTRICTA DE GÉNEROS Y CONTENIDO ABSURDO:
-   - MÁXIMO 1 obra de Ciencia Ficción o Terror en TODO el lote recomendado por ejecución. NUNCA recomiendes más de 1 título de ciencia ficción o terror juntos.
-   - PROHIBICIÓN ABSOLUTA de comedias absurdas, producciones de serie B, parodias ridículas o películas estrafalarias de bajo presupuesto (ejemplo prohibido: 'Stuart No Logra Salvar el Universo').
-   - Ciencia Ficción PERMITIDA: Única y exclusivamente si es ciencia ficción plausible, distópica o de misterio/thriller de alta calidad (ejemplos: Silo, Severance, Black Mirror, Interstellar, Arrival).
-   - Terror/Horror PERMITIDO: Única y exclusivamente si es suspenso/misterio o terror psicológico de calidad. Evita slasher sangriento o gore vacuo.
+1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (FÁCIL DISPONIBILIDAD DIGITAL):
+   - El objetivo principal es recomendar películas y series que hayan sido muy exitosas en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+) en los últimos años, garantizando que se puedan encontrar fácilmente en formato digital.
+2. CONTROL DE GÉNEROS Y SELECCIÓN DE CONTENIDO:
+   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR Y ANIMACIÓN: NUNCA recomiendes películas o series de terror, horror, ni animación bajo ninguna circunstancia.
+   - ROMANCE Y CIENCIA FICCIÓN (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
+     * Romance: Incluir películas y series de romance pero NO con tanta habitualidad. Prioriza obras bien valoradas, dramas románticos maduros o comedias románticas inteligentes.
+     * Ciencia Ficción: Incluir películas y series de ciencia ficción pero NO con tanta habitualidad. Prioriza ciencia ficción plausible, distópica o de misterio/suspenso de alta calidad (como Silo, Severance, Black Mirror, Interstellar, Arrival).
    - PROHIBICIÓN ABSOLUTA DE SUPERHÉROES: NUNCA recomiendes películas o series de superhéroes (ejemplos a omitir por completo: Marvel, DC, Supergirl, Spider-Man, Batman, Avengers, X-Men, Superman, etc.). El usuario NO tiene interés en producciones de superhéroes.
+   - PROHIBICIÓN ABSOLUTA de comedias absurdas, producciones de serie B, parodias ridículas o películas de bajo presupuesto.
 3. PREFERENCIA POR DRAMAS Y THRILLERS EN ESPAÑOL (ESPAÑA/ARGENTINA):
    - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y dramas en español (España/Argentina, como 'Los creyentes', 'El encargado', 'La odisea de los giles').
    - Para dramas o thrillers españoles/argentinos populares en streaming (como 'Los creyentes'), sé flexible con las calificaciones (puntuación >= 6.0).
@@ -1531,11 +1569,17 @@ Instrucciones críticas de filtrado:
 - No recomiendes títulos que ya figuren en sus listas de calificados (LIKES, DISLIKES, NEUTRAL).
 
 Instrucciones de recomendación:
-1. El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos y ritmo implacable, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
-   - CIENCIA FICCIÓN: Acepta Ciencia Ficción / Sci-Fi si la obra es muy buena o si se trata de ciencia ficción plausible, distópica o de misterio/suspenso de alta calidad (ejemplo: Silo, Severance, Black Mirror, Interstellar, Arrival). Evita ciencia ficción disparatada o con fantasía/monstruos irracionales.
-   - TERROR / HORROR: Acepta Terror u Horror si es de suspenso/misterio o terror psicológico de calidad. Evita películas de terror sangrientas, slasher o gore vacuo.
-2. Selecciona obras aclamadas mundialmente y populares que el usuario pueda encontrar fácilmente en plataformas de streaming o TMDB.
-3. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
+1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (DISPONIBILIDAD DIGITAL):
+   - Selecciona películas y series que hayan sido muy exitosas en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+) en los últimos años, garantizando que sean fáciles de encontrar en formato digital.
+2. CONTROL DE GÉNEROS:
+   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR Y ANIMACIÓN: NUNCA recomiendes películas o series de terror, horror, ni animación bajo ninguna circunstancia.
+   - ROMANCE Y CIENCIA FICCIÓN (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
+     * Romance: Incluir películas y series de romance pero NO con tanta habitualidad. Prioriza obras bien valoradas, dramas románticos maduros o comedias románticas inteligentes.
+     * Ciencia Ficción: Incluir películas y series de ciencia ficción pero NO con tanta habitualidad. Prioriza ciencia ficción plausible, distópica o suspense sci-fi de alta calidad (como Silo, Severance, Black Mirror, Interstellar, Arrival).
+3. PREFERENCIAS DEL USUARIO:
+   - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos y ritmo implacable, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
+4. Selecciona obras aclamadas mundialmente y populares que el usuario pueda encontrar fácilmente en plataformas de streaming o TMDB.
+5. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
 {{
   "movies": [
     {{
@@ -1624,8 +1668,7 @@ def sync_existing_backgrounds_to_reddit(subreddit):
             try:
                 subreddit.submit_image(title_norm, filepath)
                 print(f"Sincronizado/Subido a Reddit: {title_norm}")
-                already_posted_set.add(title_norm)
-                save_posted_cache()
+                mark_as_posted(title_norm)
             except Exception as e:
                 print(f"Error subiendo '{title_norm}' durante sincronización: {e}")
         else:
@@ -1767,8 +1810,7 @@ def main():
                         try:
                             subreddit.submit_image(title_norm, filename)
                             print(f"Subido a Reddit: {title_norm}")
-                            already_posted_set.add(title_norm)
-                            save_posted_cache()
+                            mark_as_posted(title_norm)
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
@@ -1803,8 +1845,7 @@ def main():
                         try:
                             subreddit.submit_image(title_norm, filename)
                             print(f"Subido a Reddit: {title_norm}")
-                            already_posted_set.add(title_norm)
-                            save_posted_cache()
+                            mark_as_posted(title_norm)
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
@@ -1850,8 +1891,7 @@ def main():
                                     try:
                                         subreddit.submit_image(title_norm, filename)
                                         print(f"Subido a Reddit (libre): {title_norm}")
-                                        already_posted_set.add(title_norm)
-                                        save_posted_cache()
+                                        mark_as_posted(title_norm)
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
@@ -1889,8 +1929,7 @@ def main():
                                     try:
                                         subreddit.submit_image(title_norm, filename)
                                         print(f"Subido a Reddit (libre): {title_norm}")
-                                        already_posted_set.add(title_norm)
-                                        save_posted_cache()
+                                        mark_as_posted(title_norm)
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
@@ -1956,8 +1995,7 @@ def main():
                             try:
                                 subreddit.submit_image(title_norm, filename)
                                 print(f"Subido a Reddit (fallback): {title_norm}")
-                                already_posted_set.add(title_norm)
-                                save_posted_cache()
+                                mark_as_posted(title_norm)
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             
@@ -2004,8 +2042,8 @@ def main():
     # Inicializar y cargar el cache de publicados, y sincronizar con Reddit
     load_posted_cache(subreddit)
     
-    # Sincronizar fondos ya existentes en disco con Reddit al arrancar
-    sync_existing_backgrounds_to_reddit(subreddit)
+    # Sincronizar fondos ya existentes en disco con Reddit al arrancar (Desactivado para evitar subidas masivas)
+    # sync_existing_backgrounds_to_reddit(subreddit)
     
     # Cargar gustos del usuario
     preferences = load_preferences()
@@ -2067,8 +2105,7 @@ def main():
                         try:
                             subreddit.submit_image(title_norm, filename)
                             print(f"Subido a Reddit: {title_norm}")
-                            already_posted_set.add(title_norm)
-                            save_posted_cache()
+                            mark_as_posted(title_norm)
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
@@ -2103,8 +2140,7 @@ def main():
                         try:
                             subreddit.submit_image(title_norm, filename)
                             print(f"Subido a Reddit: {title_norm}")
-                            already_posted_set.add(title_norm)
-                            save_posted_cache()
+                            mark_as_posted(title_norm)
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
@@ -2150,8 +2186,7 @@ def main():
                                     try:
                                         subreddit.submit_image(title_norm, filename)
                                         print(f"Subido a Reddit (libre): {title_norm}")
-                                        already_posted_set.add(title_norm)
-                                        save_posted_cache()
+                                        mark_as_posted(title_norm)
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
@@ -2189,8 +2224,7 @@ def main():
                                     try:
                                         subreddit.submit_image(title_norm, filename)
                                         print(f"Subido a Reddit (libre): {title_norm}")
-                                        already_posted_set.add(title_norm)
-                                        save_posted_cache()
+                                        mark_as_posted(title_norm)
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
@@ -2256,8 +2290,7 @@ def main():
                             try:
                                 subreddit.submit_image(title_norm, filename)
                                 print(f"Subido a Reddit (fallback): {title_norm}")
-                                already_posted_set.add(title_norm)
-                                save_posted_cache()
+                                mark_as_posted(title_norm)
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             
@@ -2314,8 +2347,7 @@ def main():
                             try:
                                 subreddit.submit_image(title_norm, filename)
                                 print(f"Subido a Reddit (fallback): {title_norm}")
-                                already_posted_set.add(title_norm)
-                                save_posted_cache()
+                                mark_as_posted(title_norm)
                             except Exception as e:
                                 print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                                 
