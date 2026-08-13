@@ -133,7 +133,7 @@ def update_preferences(item, rating):
         preferences = {"likes": [], "dislikes": [], "neutral": []}
         
     # Inicializar claves si faltan
-    for k in ["likes", "dislikes", "neutral"]:
+    for k in ["likes", "dislikes", "neutral", "not_interested"]:
         if k not in preferences:
             preferences[k] = []
             
@@ -141,7 +141,7 @@ def update_preferences(item, rating):
     item_id = item["id"]
     item_type = item.get("media_type", "movie")
     
-    for category in ["likes", "dislikes", "neutral"]:
+    for category in ["likes", "dislikes", "neutral", "not_interested"]:
         # Se elimina buscando por ID y tipo de medio (por si hay una peli y serie con el mismo ID)
         preferences[category] = [
             x for x in preferences[category]
@@ -157,6 +157,8 @@ def update_preferences(item, rating):
         target_category = "dislikes"
     elif rating_clean in ["neutral", "meh", "ni fu ni fa", "nifunifa", "regular", "2"]:
         target_category = "neutral"
+    elif rating_clean in ["not_interested", "sin_interes", "no_interesa", "descartada", "3", "4"]:
+        target_category = "not_interested"
         
     # Limpiar el item para guardar solo lo necesario
     saved_item = {
@@ -176,7 +178,8 @@ def update_preferences(item, rating):
     cat_names = {
         "likes": "Gustados (LIKES)",
         "dislikes": "No gustados (DISLIKES)",
-        "neutral": "Ni fu ni fa (NEUTRAL)"
+        "neutral": "Ni fu ni fa (NEUTRAL)",
+        "not_interested": "Sin interés / Descartadas (NOT INTERESTED)"
     }
     print(f"\n¡Guardado con éxito! '{item['title']}' ({item['year']}) agregado a: {cat_names[target_category]}")
 
@@ -212,7 +215,7 @@ def main():
             item_id = item["id"]
             item_type = item.get("media_type", "movie")
             
-            for category in ["likes", "dislikes", "neutral"]:
+            for category in ["likes", "dislikes", "neutral", "not_interested"]:
                 for x in preferences.get(category, []):
                     if x.get("id") == item_id and x.get("media_type", "movie") == item_type:
                         found_category = category
@@ -225,7 +228,8 @@ def main():
     cat_names = {
         "likes": "Gustados (LIKES)",
         "dislikes": "No gustados (DISLIKES)",
-        "neutral": "Ni fu ni fa (NEUTRAL)"
+        "neutral": "Ni fu ni fa (NEUTRAL)",
+        "not_interested": "Sin interés / Descartadas (NOT INTERESTED)"
     }
     
     if found_category and not rating:
@@ -240,8 +244,9 @@ def main():
         print("[1] Me gustó (LIKE)")
         print("[2] Ni fu ni fa (NEUTRAL)")
         print("[3] No me gustó (DISLIKE)")
+        print("[4] No la vi, pero no me interesa (NOT INTERESTED)")
         while True:
-            r_val = input("Elige una opción [1-3]: ").strip()
+            r_val = input("Elige una opción [1-4]: ").strip()
             if r_val == "1":
                 rating = "like"
                 break
@@ -251,7 +256,10 @@ def main():
             elif r_val == "3":
                 rating = "dislike"
                 break
-            elif r_val.lower() in ["like", "dislike", "neutral", "nifunifa", "meh"]:
+            elif r_val == "4":
+                rating = "not_interested"
+                break
+            elif r_val.lower() in ["like", "dislike", "neutral", "nifunifa", "meh", "not_interested", "sin_interes"]:
                 rating = r_val.lower()
                 break
             print("Opción no válida.")

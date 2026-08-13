@@ -339,5 +339,29 @@
       "year": "2025",
       "media_type": "tv"
     }
+  ],
+  "not_interested": [
+    {
+      "id": 76669,
+      "title": "Élite",
+      "genres": [
+        "Crimen",
+        "Misterio",
+        "Drama"
+      ],
+      "year": "2018",
+      "media_type": "tv"
+    },
+    {
+      "id": 1612018,
+      "title": "Jackass: Lo mejor para el final",
+      "genres": [
+        "Acción",
+        "Comedia",
+        "Documental"
+      ],
+      "year": "2026",
+      "media_type": "movie"
+    }
   ]
 }

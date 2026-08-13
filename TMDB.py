@@ -631,7 +631,8 @@ def load_preferences():
     return {
         "likes": [{"title": t} for t in ["Contratiempo", "El ciudadano ilustre", "Un cuento chino", "El hombre de al lado", "Mi obra maestra", "Sin retorno", "El patrón, radiografía de un crimen", "Crímenes de familia", "El cuento de las comadrejas"]],
         "dislikes": [{"title": t} for t in ["El aura", "Tesis sobre un homicidio", "Plata quemada", "Al final del túnel", "Nieve negra", "Sin hijos"]],
-        "neutral": []
+        "neutral": [],
+        "not_interested": []
     }
 
 def resize_image(img, height):
@@ -1382,10 +1383,13 @@ def get_candidates(media_type, max_results=40):
     return candidates_list
 
 # Llamada inteligente a Gemini
-def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, count_t):
+def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, count_t, not_interested=None):
     if not GEMINI_API_KEY:
         print("GEMINI_API_KEY no configurado. Usando modo de fallback tradicional.")
         return None
+        
+    if not_interested is None:
+        not_interested = []
         
     def format_pref_list(arr):
         return "\n".join([f"- {x['title']} (Géneros: {', '.join(x.get('genres', []))})" for x in arr]) if arr else "Ninguno"
@@ -1393,6 +1397,7 @@ def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, co
     likes_str = format_pref_list(likes)
     dislikes_str = format_pref_list(dislikes)
     neutral_str = format_pref_list(neutral)
+    not_interested_str = format_pref_list(not_interested)
     
     cand_lines = []
     for c in candidates:
@@ -1422,6 +1427,9 @@ Películas y series que NO le gustaron (DISLIKES):
 Películas y series neutrales ("ni fu ni fa"):
 {neutral_str}
 
+Películas y series NO vistas pero SIN INTERÉS (descartadas por sinopsis/temática):
+{not_interested_str}
+
 Candidatos disponibles (películas y series nuevas, en tendencia o en streaming):
 {candidates_str}
 
@@ -1439,7 +1447,7 @@ Instrucciones de recomendación:
    - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y dramas en español (España/Argentina, como 'Los creyentes', 'El encargado', 'La odisea de los giles').
    - Para dramas o thrillers españoles/argentinos populares en streaming (como 'Los creyentes'), sé flexible con las calificaciones (puntuación >= 6.0).
 4. Selecciona las mejores {count_m} películas y las mejores {count_t} series de la lista de candidatos que más se adapten a sus gustos.
-5. Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES). Usa la lista NEUTRAL para entender qué cosas le parecen indiferentes y afinar el límite.
+5. Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES). Usa la lista NEUTRAL para entender qué cosas le parecen indiferentes y afinar el límite. PROHIBICIÓN ABSOLUTA de volver a recomendar cualquier título que figure en la lista SIN INTERÉS.
 6. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
 {{
   "movies": [
@@ -1534,9 +1542,13 @@ def find_tmdb_id_by_title(title, media_type, year=None):
     return None
 
 # Pedir a Gemini recomendaciones libres basadas en el perfil de usuario (sin candidatos limitados)
-def ask_gemini_free_form_recommendations(likes, dislikes, neutral, needed_movies, needed_tv):
+def ask_gemini_free_form_recommendations(likes, dislikes, neutral, needed_movies, needed_tv, not_interested=None):
     if not GEMINI_API_KEY:
+        print("GEMINI_API_KEY no configurado. Usando modo de fallback tradicional.")
         return None
+        
+    if not_interested is None:
+        not_interested = []
         
     def format_pref_list(arr):
         return "\n".join([f"- {x['title']} (Géneros: {', '.join(x.get('genres', []))})" for x in arr]) if arr else "Ninguno"
@@ -1544,6 +1556,7 @@ def ask_gemini_free_form_recommendations(likes, dislikes, neutral, needed_movies
     likes_str = format_pref_list(likes)
     dislikes_str = format_pref_list(dislikes)
     neutral_str = format_pref_list(neutral)
+    not_interested_str = format_pref_list(not_interested)
     
     excl_genres_str = ", ".join(list(excluded_genres))
     excl_langs_str = ", ".join(list(excluded_languages))
@@ -1560,11 +1573,14 @@ Películas y series que NO le gustaron (DISLIKES):
 Películas y series neutrales ("ni fu ni fa"):
 {neutral_str}
 
+Películas y series NO vistas pero SIN INTERÉS (descartadas por sinopsis/temática):
+{not_interested_str}
+
 Instrucciones críticas de filtrado:
 - NO recomiendes NADA de los siguientes géneros bajo ninguna circunstancia: {excl_genres_str}
 - NO recomiendes NADA en los siguientes idiomas originales: {excl_langs_str}
-- Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES).
-- No recomiendes títulos que ya figuren en sus listas de calificados (LIKES, DISLIKES, NEUTRAL).
+- Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES) o que figuren en la lista SIN INTERÉS.
+- No recomiendes títulos que ya figuren en sus listas de calificados o descartados (LIKES, DISLIKES, NEUTRAL, SIN INTERÉS).
 
 Instrucciones de recomendación:
 1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (DISPONIBILIDAD DIGITAL):
@@ -1686,12 +1702,28 @@ def is_superhero_content(title, overview=""):
     ]
     return any(k in text for k in keywords)
 
-def filter_candidates_list(candidates, is_movie):
+def filter_candidates_list(candidates, is_movie, not_interested=None):
+    if not_interested is None:
+        try:
+            prefs = load_preferences()
+            not_interested = prefs.get('not_interested', [])
+        except Exception:
+            not_interested = []
+            
+    not_interested_ids = {x.get('id') for x in not_interested if x.get('id')}
+    not_interested_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')}
+    
     filtered = []
     for c in candidates:
         mid = c.get('id')
         title = c.get('title') or c.get('name')
         
+        # 0. Excluir si está en not_interested
+        if mid and mid in not_interested_ids:
+            continue
+        if title and normalize_title(title).upper() in not_interested_titles:
+            continue
+            
         # 0. Verificar si ya fue publicado (usando el cache local)
         if title and was_already_posted_cached(title):
             continue
@@ -1774,14 +1806,12 @@ def main():
     # Inicializar y cargar el cache de publicados, y sincronizar con Reddit
     load_posted_cache(subreddit)
     
-    # Sincronizar fondos ya existentes en disco con Reddit al arrancar (Desactivado para evitar subidas masivas)
-    # sync_existing_backgrounds_to_reddit(subreddit)
-    
     # Cargar gustos del usuario
     preferences = load_preferences()
     likes = preferences.get('likes', [])
     dislikes = preferences.get('dislikes', [])
     neutral = preferences.get('neutral', [])
+    not_interested = preferences.get('not_interested', [])
     
     # Obtener candidatos
     print("Recuperando candidatos de TMDB y Plataformas en Streaming (Argentina)...")
@@ -1789,15 +1819,15 @@ def main():
     tv_candidates = get_candidates('tv', max_results=40)
     
     # Pre-filtrar candidatos antes de mandárselos a Gemini
-    movie_candidates_filtered = filter_candidates_list(movie_candidates, is_movie=True)
-    tv_candidates_filtered = filter_candidates_list(tv_candidates, is_movie=False)
+    movie_candidates_filtered = filter_candidates_list(movie_candidates, is_movie=True, not_interested=not_interested)
+    tv_candidates_filtered = filter_candidates_list(tv_candidates, is_movie=False, not_interested=not_interested)
     all_candidates_filtered = movie_candidates_filtered + tv_candidates_filtered
     
     # Consultar Gemini
     print(f"Consultando recomendaciones a Gemini ({GEMINI_MODEL})...")
     recommendations = ask_gemini_recommendations(
         likes, dislikes, neutral, all_candidates_filtered,
-        numberofmovies, numberoftvshows
+        numberofmovies, numberoftvshows, not_interested=not_interested
     )
     
     success_movies = 0
@@ -1886,7 +1916,7 @@ def main():
     
     if (needed_movies > 0 or needed_tv > 0) and GEMINI_API_KEY:
         print(f"\n--- Faltan {needed_movies} películas y {needed_tv} series para completar la cuota. Solicitando recomendaciones libres a Gemini... ---")
-        free_recs = ask_gemini_free_form_recommendations(likes, dislikes, neutral, max(0, needed_movies), max(0, needed_tv))
+        free_recs = ask_gemini_free_form_recommendations(likes, dislikes, neutral, max(0, needed_movies), max(0, needed_tv), not_interested=not_interested)
         if free_recs:
             # Procesar películas libres
             if needed_movies > 0 and 'movies' in free_recs:
