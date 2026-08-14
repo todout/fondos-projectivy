@@ -57,7 +57,7 @@ if not os.path.exists(font_bold_path):
     except Exception as e:
         print(f"Error descargando Roboto-Black: {e}")
 
-# Cargar Exclusiones Dinámicas
+# Cargar Exclusiones y Parámetros Dinámicos
 exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Terror, Horror, Ciencia ficción, Science Fiction, Sci-Fi & Fantasy')
 excluded_genres = {g.strip() for g in exclude_genres_env.split(',') if g.strip()}
 
@@ -69,6 +69,10 @@ excluded_movies = {int(mid.strip()) for mid in exclude_movies_env.split(',') if 
 
 exclude_tv_env = os.getenv('TMDB_EXCLUDE_TV', '')
 excluded_tv = {int(tid.strip()) for tid in exclude_tv_env.split(',') if tid.strip().isdigit()}
+
+# Control de Años Recientes y Ventana de Re-subida de Tops
+MIN_RELEASE_YEAR = int(os.getenv('TMDB_MIN_RELEASE_YEAR', '2021'))
+TOP_REPOST_DAYS = int(os.getenv('TMDB_TOP_REPOST_DAYS', '14'))
 
 FALLBACK_GENRES_ES = {
     28: "Acción", 12: "Aventura", 16: "Animación", 35: "Comedia", 80: "Crimen",
@@ -1344,6 +1348,8 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
 def get_candidates(media_type, max_results=40):
     candidates_list = []
     seen_ids = set()
+    date_field_gte = "primary_release_date.gte" if media_type == 'movie' else "first_air_date.gte"
+    min_date_str = f"{MIN_RELEASE_YEAR}-01-01"
     
     # 1. Tendencias semanales en TMDB (páginas 1 a 5)
     page = 1
@@ -1354,6 +1360,9 @@ def get_candidates(media_type, max_results=40):
         for item in data.get('results', []):
             item['media_type'] = media_type
             title = item.get('title') or item.get('name')
+            year = (item.get('release_date') or item.get('first_air_date') or '')[:4]
+            if year and year.isdigit() and int(year) < MIN_RELEASE_YEAR:
+                continue
             if title and was_already_posted_cached(title):
                 continue
             if item['id'] not in seen_ids:
@@ -1371,6 +1380,7 @@ def get_candidates(media_type, max_results=40):
         "with_watch_monetization_types": "flatrate",
         "with_watch_providers": "8|119|337|384|1899|350|531",
         "sort_by": "popularity.desc",
+        date_field_gte: min_date_str,
         "page": 1
     }
     data_stream = tmdb_get(endpoint, params=params)
@@ -1378,6 +1388,9 @@ def get_candidates(media_type, max_results=40):
         for item in data_stream.get('results', []):
             item['media_type'] = media_type
             title = item.get('title') or item.get('name')
+            year = (item.get('release_date') or item.get('first_air_date') or '')[:4]
+            if year and year.isdigit() and int(year) < MIN_RELEASE_YEAR:
+                continue
             if title and was_already_posted_cached(title):
                 continue
             if item['id'] not in seen_ids:
@@ -1390,6 +1403,7 @@ def get_candidates(media_type, max_results=40):
         "with_original_language": "es",
         "sort_by": "popularity.desc",
         "vote_average.gte": 6.0,
+        date_field_gte: min_date_str,
         "page": 1
     }
     data_es = tmdb_get(endpoint, params=params_es)
@@ -1397,6 +1411,9 @@ def get_candidates(media_type, max_results=40):
         for item in data_es.get('results', []):
             item['media_type'] = media_type
             title = item.get('title') or item.get('name')
+            year = (item.get('release_date') or item.get('first_air_date') or '')[:4]
+            if year and year.isdigit() and int(year) < MIN_RELEASE_YEAR:
+                continue
             if title and was_already_posted_cached(title):
                 continue
             if item['id'] not in seen_ids:
@@ -1457,8 +1474,9 @@ Candidatos disponibles (películas y series nuevas, en tendencia o en streaming)
 {candidates_str}
 
 Instrucciones de recomendación:
-1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (FÁCIL DISPONIBILIDAD DIGITAL):
-   - El objetivo principal es recomendar películas y series que hayan sido muy exitosas en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+) en los últimos años, garantizando que se puedan encontrar fácilmente en formato digital.
+1. FOCO ESTRICTO EN CONTENIDO ACTUAL Y RECIENTE (ÚLTIMOS AÑOS, 2021 A 2026):
+   - PROHIBICIÓN ABSOLUTA DE SERIES O PELÍCULAS VIEJAS O CLÁSICAS: NUNCA recomiendes series de décadas anteriores o viejas (ej. NO recomiendes Ley y orden de 1990, NCIS de 2003, Friends, CSI, Dexter, etc.).
+   - Recomienda exclusivamente producciones recientes y actuales estrenadas entre 2021 y 2026 con fácil disponibilidad en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+).
 2. CONTROL DE GÉNEROS Y SELECCIÓN DE CONTENIDO:
    - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN Y CIENCIA FICCIÓN / FANTASÍA (Sci-Fi & Fantasy): NUNCA recomiendes películas o series de terror, horror, animación ni ciencia ficción o fantasía bajo ninguna circunstancia. El usuario NO tiene ningún interés en estos géneros.
    - ROMANCE (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
@@ -1605,8 +1623,8 @@ Instrucciones críticas de filtrado:
 - No recomiendes títulos que ya figuren en sus listas de calificados o descartados (LIKES, DISLIKES, NEUTRAL, SIN INTERÉS).
 
 Instrucciones de recomendación:
-1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (DISPONIBILIDAD DIGITAL):
-   - Selecciona películas y series que hayan sido muy exitosas en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+) en los últimos años, garantizando que sean fáciles de encontrar en formato digital.
+1. FOCO ESTRICTO EN CONTENIDO ACTUAL Y RECIENTE (ÚLTIMOS AÑOS, 2021 A 2026):
+   - PROHIBICIÓN ABSOLUTA DE SERIES O PELÍCULAS VIEJAS: NUNCA recomiendes producciones anteriores a 2021 (ej. nada de los 90s o 2000s). Recomienda exclusivamente producciones recientes y actuales estrenadas entre 2021 y 2026 disponibles en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+).
 2. CONTROL DE GÉNEROS:
    - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN Y CIENCIA FICCIÓN / FANTASÍA (Sci-Fi & Fantasy): NUNCA recomiendes películas o series de terror, horror, animación ni ciencia ficción o fantasía bajo ninguna circunstancia. El usuario NO tiene ningún interés en estos géneros.
    - ROMANCE (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
@@ -1662,9 +1680,208 @@ Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown
             return json.loads(text_res)
         else:
             print(f"Error llamando a Gemini API para recomendaciones libres: HTTP {r.status_code} - {r.text}")
-            return None
     except Exception as e:
         print(f"Excepción al llamar a Gemini API para recomendaciones libres: {e}")
+        return None
+
+# Cargar candidatos desde los Tops de plataformas de streaming (trailers.json / trailers_cache.json)
+def get_streaming_tops_candidates(not_interested=None, dislikes=None):
+    if not_interested is None:
+        not_interested = []
+    if dislikes is None:
+        dislikes = []
+        
+    not_interested_ids = {x.get('id') for x in not_interested if x.get('id')}
+    not_interested_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')}
+    dislike_ids = {x.get('id') for x in dislikes if x.get('id')}
+    dislike_titles = {normalize_title(x.get('title', '')).upper() for x in dislikes if x.get('title')}
+    
+    possible_paths = [
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "trailers.json"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "trailers_cache.json"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "trailers-projectivy", "app", "src", "main", "assets", "trailers.json"),
+        "d:\\Antrigravity - Projects\\trailers-projectivy\\app\\src\\main\\assets\\trailers.json",
+        "/home/pi/trailers-projectivy/app/src/main/assets/trailers.json",
+        "/home/pi/Descargas/androidtvbackground-main/trailers_cache.json"
+    ]
+    
+    all_rows = []
+    seen_paths = set()
+    for p in possible_paths:
+        if os.path.exists(p) and p not in seen_paths:
+            seen_paths.add(p)
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, dict) and 'rows' in data:
+                        all_rows.extend(data['rows'])
+                        print(f"Cargados Tops de streaming desde: {p}")
+            except Exception as e:
+                print(f"Error leyendo {p}: {e}")
+                
+    if not all_rows:
+        print("No se encontró archivo de trailers.json / trailers_cache.json válido.")
+        return {'movies': [], 'tv': []}
+        
+    seen_titles = set()
+    candidates = {'movies': [], 'tv': []}
+    now = time.time()
+    
+    # Categorías de Tops a considerar
+    allowed_categories = [
+        "Top 10 Netflix", "Top 10 Disney+", "Top 10 Prime Video", "Top 10 Max",
+        "Top 10 Apple TV+", "Cine y Series Argentinas Recientes",
+        "Top 10: Misterio, Intriga y Suspenso", "Top 10: Basadas en hechos reales"
+    ]
+    
+    for row in all_rows:
+        cat_name = row.get('category', '')
+        if not any(ac.lower() in cat_name.lower() for ac in allowed_categories):
+            continue
+        if "ciencia" in cat_name.lower():
+            continue
+            
+        for item in row.get('items', []):
+            title = item.get('title', '').strip()
+            if not title:
+                continue
+            title_norm = normalize_title(title).upper()
+            if title_norm in seen_titles:
+                continue
+                
+            overview = item.get('overview', '')
+            media_type_raw = (str(item.get('media_type', '')) + " " + str(item.get('subtitle', ''))).lower()
+            if 'serie' in media_type_raw or 'temporada' in media_type_raw or 'cap.' in media_type_raw or media_type_raw.strip() == 'tv':
+                media_type = 'tv'
+            else:
+                media_type = 'movie'
+                
+            year = str(item.get('year', ''))[:4]
+            
+            # Filtro 1: not_interested y dislikes
+            if title_norm in not_interested_titles or title_norm in dislike_titles:
+                continue
+                
+            # Filtro 2: Superhéroes
+            if is_superhero_content(title, overview):
+                continue
+                
+            # Filtro 3: Ventana de 14 días (2 semanas)
+            posted_ts = already_posted_dict.get(title_norm, 0)
+            if posted_ts > 0:
+                days_ago = (now - posted_ts) / 86400.0
+                if days_ago < TOP_REPOST_DAYS:
+                    continue
+                else:
+                    print(f"Candidato de Top '{title}' publicado hace {int(days_ago)} días (>= {TOP_REPOST_DAYS} días). Elegible para re-subir.")
+                    
+            # Filtro 4: Año mínimo reciente (>= MIN_RELEASE_YEAR)
+            if year.isdigit() and int(year) < MIN_RELEASE_YEAR:
+                continue
+                
+            seen_titles.add(title_norm)
+            candidate_entry = {
+                'title': title,
+                'media_type': media_type,
+                'year': year,
+                'overview': overview,
+                'category': cat_name
+            }
+            if media_type == 'movie':
+                candidates['movies'].append(candidate_entry)
+            else:
+                candidates['tv'].append(candidate_entry)
+                
+    print(f"Candidatos elegibles desde Tops: {len(candidates['movies'])} películas, {len(candidates['tv'])} series.")
+    return candidates
+
+# Pedir a Gemini que seleccione las mejores opciones de los Tops de Streaming
+def ask_gemini_top_recommendations(likes, dislikes, neutral, top_candidates, needed_movies, needed_tv, not_interested=None):
+    if not GEMINI_API_KEY:
+        return None
+    if not_interested is None:
+        not_interested = []
+        
+    def format_pref_list(arr):
+        return "\n".join([f"- {x['title']} (Géneros: {', '.join(x.get('genres', []))})" for x in arr]) if arr else "Ninguno"
+        
+    likes_str = format_pref_list(likes)
+    dislikes_str = format_pref_list(dislikes)
+    neutral_str = format_pref_list(neutral)
+    not_interested_str = format_pref_list(not_interested)
+    
+    cand_m_lines = [f"- [PELÍCULA] '{c['title']}' ({c['year']}) [{c['category']}]: {c['overview'][:180]}" for c in top_candidates.get('movies', [])[:30]]
+    cand_t_lines = [f"- [SERIE] '{c['title']}' ({c['year']}) [{c['category']}]: {c['overview'][:180]}" for c in top_candidates.get('tv', [])[:30]]
+    all_cand_str = "\n".join(cand_m_lines + cand_t_lines)
+    
+    if not all_cand_str.strip():
+        print("No hay candidatos de Tops disponibles para enviar a Gemini.")
+        return None
+        
+    prompt = f"""Eres un recomendador experto de cine y televisión. Tu tarea es analizar la siguiente lista de títulos provenientes de los TOPS 10 DE PLATAFORMAS DE STREAMING (Netflix, Max, Prime Video, Disney+, Apple TV+) y seleccionar exactamente {needed_movies} películas y {needed_tv} series que mejor encajen con el perfil del usuario para destacarlas o resubirlas.
+
+Historial del usuario:
+Películas y series que le gustaron (LIKES):
+{likes_str}
+
+Películas y series que NO le gustaron (DISLIKES):
+{dislikes_str}
+
+Películas y series neutrales ("ni fu ni fa"):
+{neutral_str}
+
+Películas y series NO vistas pero SIN INTERÉS (descartadas):
+{not_interested_str}
+
+Títulos candidatos de los Tops de Streaming:
+{all_cand_str}
+
+Instrucciones:
+1. Elige las {needed_movies} películas y {needed_tv} series de la lista de Tops que mejor conecten con el usuario (prioriza thrillers inteligentes, suspense policial con giros, comedias negras ingeniosas y producciones argentinas/españolas de calidad de los últimos años).
+2. PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN, SUPERHÉROES Y CIENCIA FICCIÓN / FANTASÍA.
+3. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
+{{
+  "movies": [
+    {{
+      "title": "<titulo_exacto>",
+      "year": "<año>",
+      "short_overview": "<sinopsis_condensada_en_espanol_max_150_caracteres>",
+      "reason": "<motivo_de_por_que_gustara_max_100_caracteres>"
+    }}
+  ],
+  "tv": [
+    {{
+      "title": "<titulo_exacto>",
+      "year": "<año>",
+      "short_overview": "<sinopsis_condensada_en_espanol_max_150_caracteres>",
+      "reason": "<motivo_de_por_que_gustara_max_100_caracteres>"
+    }}
+  ]
+}}
+Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de markdown adicionales.
+"""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+    try:
+        r = requests.post(url, json=payload, timeout=60)
+        if r.status_code == 200:
+            resp_json = r.json()
+            text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
+            if text_res.startswith("```"):
+                lines = text_res.split("\n")
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines[-1].strip() == "```":
+                    lines = lines[:-1]
+                text_res = "\n".join(lines).strip()
+            return json.loads(text_res)
+        else:
+            print(f"Error llamando a Gemini API para Tops: HTTP {r.status_code} - {r.text}")
+            return None
+    except Exception as e:
+        print(f"Excepción al llamar a Gemini API para Tops: {e}")
         return None
 
 # Chequear duplicados en Reddit con resiliencia
@@ -1751,6 +1968,11 @@ def filter_candidates_list(candidates, is_movie, not_interested=None):
             
         # 0.5. Excluir producciones de superhéroes
         if is_superhero_content(title, c.get('overview', '')):
+            continue
+            
+        # 0.6. Excluir producciones antiguas (centrarse en lo actual, >= MIN_RELEASE_YEAR)
+        item_year = (c.get('release_date') or c.get('first_air_date') or '')[:4]
+        if item_year and item_year.isdigit() and int(item_year) < MIN_RELEASE_YEAR:
             continue
             
         # 0.7. Verificar mínimo de votos en TMDB (>= 10)
@@ -1931,7 +2153,80 @@ def main():
     else:
         print("Fallo en Gemini o sin recomendaciones iniciales de candidatos.")
  
-    # === BACKFILL CON RECOMENDACIONES LIBRES DE GEMINI ===
+    # === FALLBACK 1: SELECCIÓN DE TOPS DE STREAMING CON GEMINI (RE-SUBIDAS >= 14 DÍAS) ===
+    needed_movies = numberofmovies - success_movies
+    needed_tv = numberoftvshows - success_tv
+    
+    if (needed_movies > 0 or needed_tv > 0) and GEMINI_API_KEY:
+        print(f"\n--- Faltan {needed_movies} películas y {needed_tv} series. Consultando Tops de Streaming para fallback inteligente (re-subidas >= {TOP_REPOST_DAYS} días)... ---")
+        top_candidates = get_streaming_tops_candidates(not_interested=not_interested, dislikes=dislikes)
+        if top_candidates.get('movies') or top_candidates.get('tv'):
+            top_recs = ask_gemini_top_recommendations(
+                likes, dislikes, neutral, top_candidates,
+                needed_movies, needed_tv, not_interested=not_interested
+            )
+            if top_recs:
+                # Procesar películas de Tops
+                if needed_movies > 0 and 'movies' in top_recs:
+                    for rec in top_recs.get('movies', []):
+                        if success_movies >= numberofmovies:
+                            break
+                        title = rec.get('title')
+                        year = rec.get('year')
+                        short_overview = rec.get('short_overview', '')
+                        reason = rec.get('reason', '')
+                        print(f"Buscando ID de película de Tops: {title} ({year})")
+                        mid = find_tmdb_id_by_title(title, 'movie', year)
+                        if mid:
+                            print(f"Encontrado ID {mid} para película de Tops {title}")
+                            if mid in excluded_movies:
+                                continue
+                            ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason, not_interested=not_interested)
+                            filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                            if os.path.exists(filename):
+                                if ok:
+                                    success_movies += 1
+                                    title_norm = normalize_title(title).upper()
+                                    try:
+                                        subreddit.submit_image(title_norm, filename)
+                                        print(f"Subido a Reddit (Top Streaming): {title_norm}")
+                                        mark_as_posted(title_norm)
+                                    except Exception as e:
+                                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                                else:
+                                    print(f"No se pudo procesar la película de Tops {title} (filtros o error).")
+                                    
+                # Procesar series de Tops
+                if needed_tv > 0 and 'tv' in top_recs:
+                    for rec in top_recs.get('tv', []):
+                        if success_tv >= numberoftvshows:
+                            break
+                        title = rec.get('title')
+                        year = rec.get('year')
+                        short_overview = rec.get('short_overview', '')
+                        reason = rec.get('reason', '')
+                        print(f"Buscando ID de serie de Tops: {title} ({year})")
+                        tid = find_tmdb_id_by_title(title, 'tv', year)
+                        if tid:
+                            print(f"Encontrado ID {tid} para serie de Tops {title}")
+                            if tid in excluded_tv:
+                                continue
+                            ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason, not_interested=not_interested)
+                            filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
+                            if os.path.exists(filename):
+                                if ok:
+                                    success_tv += 1
+                                    title_norm = normalize_title(title).upper()
+                                    try:
+                                        subreddit.submit_image(title_norm, filename)
+                                        print(f"Subido a Reddit (Top Streaming): {title_norm}")
+                                        mark_as_posted(title_norm)
+                                    except Exception as e:
+                                        print(f"Error subiendo '{title_norm}' a Reddit: {e}")
+                                else:
+                                    print(f"No se pudo procesar la serie de Tops {title} (filtros o error).")
+
+    # === FALLBACK 2: BACKFILL CON RECOMENDACIONES LIBRES DE GEMINI ===
     needed_movies = numberofmovies - success_movies
     needed_tv = numberoftvshows - success_tv
     
@@ -2043,7 +2338,7 @@ def main():
                 year = m.get('release_date', '')[:4]
                 try:
                     item_year = int(year)
-                    if item_year < current_year - 3:
+                    if item_year < MIN_RELEASE_YEAR:
                         continue
                 except ValueError:
                     continue
@@ -2100,7 +2395,7 @@ def main():
                 year = tv.get('first_air_date', '')[:4]
                 try:
                     item_year = int(year)
-                    if item_year < current_year - 3:
+                    if item_year < MIN_RELEASE_YEAR:
                         continue
                 except ValueError:
                     continue
