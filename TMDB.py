@@ -1422,6 +1422,44 @@ def get_candidates(media_type, max_results=40):
                 
     return candidates_list
 
+# Llamada robusta a Gemini API con reintentos automáticos
+def call_gemini_api(prompt, max_retries=3):
+    if not GEMINI_API_KEY:
+        return None
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+    for attempt in range(1, max_retries + 1):
+        try:
+            r = requests.post(url, json=payload, timeout=45)
+            if r.status_code == 200:
+                resp_json = r.json()
+                text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
+                if text_res.startswith("```"):
+                    lines = text_res.split("\n")
+                    if lines[0].startswith("```"):
+                        lines = lines[1:]
+                    if lines[-1].strip() == "```":
+                        lines = lines[:-1]
+                    text_res = "\n".join(lines).strip()
+                return json.loads(text_res)
+            elif r.status_code in [429, 500, 502, 503, 504]:
+                wait_time = attempt * 3
+                print(f"Gemini API retornó HTTP {r.status_code}. Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print(f"Error llamando a Gemini API: HTTP {r.status_code} - {r.text}")
+                return None
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            wait_time = attempt * 3
+            print(f"Timeout/Error de conexión con Gemini API: {e}. Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
+            time.sleep(wait_time)
+        except Exception as e:
+            print(f"Excepción al llamar a Gemini API: {e}")
+            return None
+    return None
+
 # Llamada inteligente a Gemini
 def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, count_t, not_interested=None):
     if not GEMINI_API_KEY:
@@ -1515,34 +1553,7 @@ Nota crítica sobre los campos:
 
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
 """
-    
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}]
-    }
-    
-    try:
-        r = requests.post(url, json=payload, timeout=60)
-        if r.status_code == 200:
-            resp_json = r.json()
-            text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            
-            # Limpiar markdown por seguridad
-            if text_res.startswith("```"):
-                lines = text_res.split("\n")
-                if lines[0].startswith("```"):
-                    lines = lines[1:]
-                if lines[-1].strip() == "```":
-                    lines = lines[:-1]
-                text_res = "\n".join(lines).strip()
-                
-            return json.loads(text_res)
-        else:
-            print(f"Error llamando a Gemini API: HTTP {r.status_code} - {r.text}")
-            return None
-    except Exception as e:
-        print(f"Excepción al llamar a Gemini API: {e}")
-        return None
+    return call_gemini_api(prompt)
 
 # Buscar el ID de un título en TMDB
 def find_tmdb_id_by_title(title, media_type, year=None):
@@ -1658,31 +1669,7 @@ Nota crítica sobre los campos:
   
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
 """
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}]
-    }
-    
-    try:
-        r = requests.post(url, json=payload, timeout=60)
-        if r.status_code == 200:
-            resp_json = r.json()
-            text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            
-            if text_res.startswith("```"):
-                lines = text_res.split("\n")
-                if lines[0].startswith("```"):
-                    lines = lines[1:]
-                if lines[-1].strip() == "```":
-                    lines = lines[:-1]
-                text_res = "\n".join(lines).strip()
-                
-            return json.loads(text_res)
-        else:
-            print(f"Error llamando a Gemini API para recomendaciones libres: HTTP {r.status_code} - {r.text}")
-    except Exception as e:
-        print(f"Excepción al llamar a Gemini API para recomendaciones libres: {e}")
-        return None
+    return call_gemini_api(prompt)
 
 # Cargar candidatos desde los Tops de plataformas de streaming (trailers.json / trailers_cache.json)
 def get_streaming_tops_candidates(not_interested=None, dislikes=None):
@@ -1860,29 +1847,7 @@ Instrucciones:
 }}
 Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de markdown adicionales.
 """
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}]
-    }
-    try:
-        r = requests.post(url, json=payload, timeout=60)
-        if r.status_code == 200:
-            resp_json = r.json()
-            text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            if text_res.startswith("```"):
-                lines = text_res.split("\n")
-                if lines[0].startswith("```"):
-                    lines = lines[1:]
-                if lines[-1].strip() == "```":
-                    lines = lines[:-1]
-                text_res = "\n".join(lines).strip()
-            return json.loads(text_res)
-        else:
-            print(f"Error llamando a Gemini API para Tops: HTTP {r.status_code} - {r.text}")
-            return None
-    except Exception as e:
-        print(f"Excepción al llamar a Gemini API para Tops: {e}")
-        return None
+    return call_gemini_api(prompt)
 
 # Chequear duplicados en Reddit con resiliencia
 def was_already_posted(subreddit, title, limit=1000):
@@ -2322,7 +2287,14 @@ def main():
                     break
                 mid = m.get('id')
                 title = m.get('title', '')
+                title_norm = normalize_title(title).upper()
                 
+                if mid and mid in not_interested_ids:
+                    continue
+                if title_norm in not_interested_titles:
+                    continue
+                if is_superhero_content(title, m.get('overview', '')):
+                    continue
                 if was_already_posted_cached(title):
                     print(f"Película fallback '{title}' saltada porque ya fue publicada (según caché).")
                     continue
@@ -2379,7 +2351,14 @@ def main():
                     break
                 tid = tv.get('id')
                 title = tv.get('name', '')
+                title_norm = normalize_title(title).upper()
                 
+                if tid and tid in not_interested_ids:
+                    continue
+                if title_norm in not_interested_titles:
+                    continue
+                if is_superhero_content(title, tv.get('overview', '')):
+                    continue
                 if was_already_posted_cached(title):
                     print(f"Serie fallback '{title}' saltada porque ya fue publicada (según caché).")
                     continue
