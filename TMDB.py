@@ -58,7 +58,7 @@ if not os.path.exists(font_bold_path):
         print(f"Error descargando Roboto-Black: {e}")
 
 # Cargar Exclusiones Dinámicas
-exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Terror, Horror')
+exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Terror, Horror, Ciencia ficción, Science Fiction, Sci-Fi & Fantasy')
 excluded_genres = {g.strip() for g in exclude_genres_env.split(',') if g.strip()}
 
 exclude_languages_env = os.getenv('TMDB_EXCLUDE_LANGUAGES', 'zh, ko')
@@ -1276,7 +1276,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     return True
 
 # Procesar película/serie recomendada a partir de ID
-def process_recommended_item(item_id, media_type, short_overview=None, reason=None):
+def process_recommended_item(item_id, media_type, short_overview=None, reason=None, not_interested=None):
     details = tmdb_get(f"{media_type}/{item_id}", {"language": "es-ES"})
     if not details:
         return False
@@ -1287,6 +1287,29 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
     genre_ids = [g['id'] for g in details.get('genres', [])]
     date_key = 'release_date' if is_movie else 'first_air_date'
     year = details.get(date_key, '')[:4]
+    
+    # 0. Excluir si está en not_interested
+    if not_interested:
+        not_interested_ids = {x.get('id') for x in not_interested if x.get('id')}
+        not_interested_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')}
+        if item_id in not_interested_ids or (title and normalize_title(title).upper() in not_interested_titles):
+            print(f"Ignorado {title} por estar en la lista de no interesados (not_interested)")
+            return False
+            
+    # 0.1. Excluir si está en idioma no deseado
+    if details.get('original_language') in excluded_languages:
+        print(f"Ignorado {title} por idioma original excluido: {details.get('original_language')}")
+        return False
+        
+    # 0.2. Excluir superhéroes
+    if is_superhero_content(title, overview):
+        print(f"Ignorado {title} por temática de superhéroes")
+        return False
+        
+    # 0.3. Excluir por géneros
+    if any(genre_map.get(g, '') in excluded_genres for g in genre_ids):
+        print(f"Ignorado {title} por género excluido")
+        return False
     
     # Obtener todas las calificaciones
     ratings = get_all_ratings_for_media(item_id, is_movie, details.get('vote_average', 0), details.get('vote_count', 0))
@@ -1437,10 +1460,9 @@ Instrucciones de recomendación:
 1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (FÁCIL DISPONIBILIDAD DIGITAL):
    - El objetivo principal es recomendar películas y series que hayan sido muy exitosas en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+) en los últimos años, garantizando que se puedan encontrar fácilmente en formato digital.
 2. CONTROL DE GÉNEROS Y SELECCIÓN DE CONTENIDO:
-   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR Y ANIMACIÓN: NUNCA recomiendes películas o series de terror, horror, ni animación bajo ninguna circunstancia.
-   - ROMANCE Y CIENCIA FICCIÓN (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
+   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN Y CIENCIA FICCIÓN / FANTASÍA (Sci-Fi & Fantasy): NUNCA recomiendes películas o series de terror, horror, animación ni ciencia ficción o fantasía bajo ninguna circunstancia. El usuario NO tiene ningún interés en estos géneros.
+   - ROMANCE (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
      * Romance: Incluir películas y series de romance pero NO con tanta habitualidad. Prioriza obras bien valoradas, dramas románticos maduros o comedias románticas inteligentes.
-     * Ciencia Ficción: Incluir películas y series de ciencia ficción pero NO con tanta habitualidad. Prioriza ciencia ficción plausible, distópica o de misterio/suspenso de alta calidad (como Silo, Severance, Black Mirror, Interstellar, Arrival).
    - PROHIBICIÓN ABSOLUTA DE SUPERHÉROES: NUNCA recomiendes películas o series de superhéroes (ejemplos a omitir por completo: Marvel, DC, Supergirl, Spider-Man, Batman, Avengers, X-Men, Superman, etc.). El usuario NO tiene interés en producciones de superhéroes.
    - PROHIBICIÓN ABSOLUTA de comedias absurdas, producciones de serie B, parodias ridículas o películas de bajo presupuesto.
 3. PREFERENCIA POR DRAMAS Y THRILLERS EN ESPAÑOL (ESPAÑA/ARGENTINA):
@@ -1586,10 +1608,9 @@ Instrucciones de recomendación:
 1. FOCO EN ÉXITOS RECIENTES EN PLATAFORMAS (DISPONIBILIDAD DIGITAL):
    - Selecciona películas y series que hayan sido muy exitosas en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+) en los últimos años, garantizando que sean fáciles de encontrar en formato digital.
 2. CONTROL DE GÉNEROS:
-   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR Y ANIMACIÓN: NUNCA recomiendes películas o series de terror, horror, ni animación bajo ninguna circunstancia.
-   - ROMANCE Y CIENCIA FICCIÓN (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
+   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN Y CIENCIA FICCIÓN / FANTASÍA (Sci-Fi & Fantasy): NUNCA recomiendes películas o series de terror, horror, animación ni ciencia ficción o fantasía bajo ninguna circunstancia. El usuario NO tiene ningún interés en estos géneros.
+   - ROMANCE (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
      * Romance: Incluir películas y series de romance pero NO con tanta habitualidad. Prioriza obras bien valoradas, dramas románticos maduros o comedias románticas inteligentes.
-     * Ciencia Ficción: Incluir películas y series de ciencia ficción pero NO con tanta habitualidad. Prioriza ciencia ficción plausible, distópica o suspense sci-fi de alta calidad (como Silo, Severance, Black Mirror, Interstellar, Arrival).
 3. PREFERENCIAS DEL USUARIO:
    - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos y ritmo implacable, comedias negras con personajes satíricos y diálogos agudos (cine argentino/español muy valorado). Le desagradan las películas lentas, dramas sombríos o thrillers mediocres/tediosos.
 4. Selecciona obras aclamadas mundialmente y populares que el usuario pueda encontrar fácilmente en plataformas de streaming o TMDB.
@@ -1857,7 +1878,7 @@ def main():
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
+            ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason, not_interested=not_interested)
             filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
             if os.path.exists(filename):
                 if ok:
@@ -1892,7 +1913,7 @@ def main():
                 print(f"Ignorada (exclusión manual): {title}")
                 continue
                 
-            ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
+            ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason, not_interested=not_interested)
             filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
             if os.path.exists(filename):
                 if ok:
@@ -1938,7 +1959,7 @@ def main():
                         print(f"Encontrado ID {mid} para película {title}")
                         if mid in excluded_movies:
                             continue
-                        ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason)
+                        ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason, not_interested=not_interested)
                         filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
                         if os.path.exists(filename):
                             if ok:
@@ -1976,7 +1997,7 @@ def main():
                         print(f"Encontrado ID {tid} para serie {title}")
                         if tid in excluded_tv:
                             continue
-                        ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason)
+                        ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason, not_interested=not_interested)
                         filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
                         if os.path.exists(filename):
                             if ok:
