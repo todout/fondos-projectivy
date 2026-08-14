@@ -4,6 +4,78 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "NCIS: Criminología Naval",
+          "subtitle": "SERIE • 2003 • 24 Temporadas",
+          "media_type": "SERIE",
+          "year": "2003",
+          "extra_info": "24 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/i5dZG5SJ7NuApNneDDeJdz3k0Dl.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nn3SuLTO4hum8yAxaY4ql8h6kRk.jpg",
+          "overview": "Un equipo de agentes especiales del Servicio de Investigación Criminal de la Marina de los Estados Unidos, liderados por el agente especial Leroy Jethro Gibbs (Mark Harmon), investiga los crímenes que se cometen dentro del Cuerpo Naval. Entre los casos está la muerte del ayudante del maletín nuclear del presidente, una situación explosiva a bordo de un buque de guerra de la Armada y la muerte de un famoso durante un show de televisión en una base del cuerpo de marines... La serie nació como un spin-off de algunos personajes presentados previamente en la serie \"JAG: Alerta roja\".",
+          "youtube_id": "Uj8YV_nGBk0",
+          "trailer_url": "https://www.youtube.com/watch?v=Uj8YV_nGBk0"
+        },
+        {
+          "title": "La Ley y el Orden: Unidad de Víctimas Especiales",
+          "subtitle": "SERIE • 1999 • 28 Temporadas",
+          "media_type": "SERIE",
+          "year": "1999",
+          "extra_info": "28 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2RW2SQQSaCMGwAk5sfvfOisQV4s.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
+          "overview": "Serie surgida a la sombra de \"Law & Order\". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles.",
+          "youtube_id": "sx4n_tSzGGk",
+          "trailer_url": "https://www.youtube.com/watch?v=sx4n_tSzGGk"
+        },
+        {
+          "title": "Solo por una noche",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
+          "overview": "Dos desconocidos, ávidos de amor, se topan por casualidad en la única noche del año en que las personas solteras tienen permitido tener relaciones sexuales.",
+          "youtube_id": "wzt2ufeBzgU",
+          "trailer_url": "https://www.youtube.com/watch?v=wzt2ufeBzgU"
+        },
+        {
+          "title": "Daredevil: Born Again",
+          "subtitle": "SERIE • 2025 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2025",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9b6XFApT34dkGrmOZnTk7noyNx8.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m291MEBjhuRqb0nh9ojnm9gzScq.jpg",
+          "overview": "Matt Murdock, un abogado ciego con habilidades especiales, lucha por la justicia a través de su ajetreado bufete, mientras que el ex jefe de la mafia Wilson Fisk persigue sus propios objetivos políticos en Nueva York. Cuando sus identidades pasadas empiezan a salir a la luz, ambos hombres se encuentran en una inevitable colisión.",
+          "youtube_id": "LNYwGUtXXQ0",
+          "trailer_url": "https://www.youtube.com/watch?v=LNYwGUtXXQ0"
+        },
+        {
+          "title": "Joyas Sobre Ruedas",
+          "subtitle": "SERIE • 2003 • 24 Temporadas",
+          "media_type": "SERIE",
+          "year": "2003",
+          "extra_info": "24 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/AoX3ig7Dl6l8hz3Xj0oREF2AD5g.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mSoxiYLinM6BNXNr3rPkwdqhA97.jpg",
+          "overview": "El experimentado vendedor de coches Mike Brewer se une a mecánicos de múltiples talentos en una monumental misión automovilística: encontrar y restaurar coches emblemáticos para venderlos después con beneficios en su taller de Los Ángeles. En la serie, Mike tiene la difícil tarea de encontrar vehículos con potencial para hacer dinero. Luego se los entrega a un mecánico, que se encarga de todo, desde volver a pulir el metal hasta cambiar la caja de cambios para devolverles su antiguo esplendor.",
+          "youtube_id": "hH3aSn3n-8A",
+          "trailer_url": "https://www.youtube.com/watch?v=hH3aSn3n-8A"
+        },
+        {
+          "title": "Young Washington",
+          "subtitle": "PELÍCULA • 2026 • 2h 1m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 1m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+          "overview": "Los primeros años de la vida de George Washington, primer presidente de los Estados Unidos.",
+          "youtube_id": "LJek-kc384w",
+          "trailer_url": "https://www.youtube.com/watch?v=LJek-kc384w"
+        },
+        {
           "title": "Cabo de miedo",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -21,11 +93,11 @@
           "media_type": "SERIE",
           "year": "2024",
           "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mGJKF820dQ1HW2tfA9QWRvy9Ui1.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mtKX99Lmtm6cl7E6dPpRwZ10XDw.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
           "overview": "En 1971, cuatro mujeres desafían las normas ultraconservadoras y se unen a la primera fuerza policial femenina de México, solo para descubrir que es un truco publicitario para distraer a los medios de un asesino en serie. Cuando los decesos se acumulan, hacen un pacto para llevar al asesino ante la justicia.",
-          "youtube_id": "lojkAQw_Bro",
-          "trailer_url": "https://www.youtube.com/watch?v=lojkAQw_Bro"
+          "youtube_id": "UCLs0jEx0XE",
+          "trailer_url": "https://www.youtube.com/watch?v=UCLs0jEx0XE"
         },
         {
           "title": "Michael",
@@ -153,7 +225,7 @@
           "media_type": "PELÍCULA",
           "year": "1994",
           "extra_info": "2h 23m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/2i8JFxyvDfUqD92OVStugc5Z4sC.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
           "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
           "youtube_id": "4u87tmlj4oE",
@@ -225,83 +297,11 @@
           "media_type": "SERIE",
           "year": "2024",
           "extra_info": "4 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/g6vptk7afH3OHOKSjdjJJtEoOMh.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/rNnTUZgVhzJc36FViudinVPBDSh.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6X9f1ypWBRDsXC61YgAwYDzTltn.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/w0WT4opEOeldCegD2eAYSspVieg.jpg",
           "overview": "Cuando muere el fundador de la Funeraria Torregrosa, el ambicioso Dámaso ―su mano derecha― está listo para hacerse cargo del negocio. Pero la viuda del dueño tiene otro planes.",
           "youtube_id": "bP_6jHqGs3Q",
           "trailer_url": "https://www.youtube.com/watch?v=bP_6jHqGs3Q"
-        },
-        {
-          "title": "Severance",
-          "subtitle": "SERIE • 2022 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2022",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/1sylo2yeVyJ8KMZgcZLSopR66DA.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ixgFmf1X59PUZam2qbAfskx2gQr.jpg",
-          "overview": "Mark dirige un equipo de oficinistas, cuyas memorias fueron divididas quirúrgicamente entre sus vidas personales y laborales. Cuando un colega misterioso aparece fuera del trabajo, inicia un viaje por descubrir la verdad sobre sus empleos.",
-          "youtube_id": "j1UZQKfG9gg",
-          "trailer_url": "https://www.youtube.com/watch?v=j1UZQKfG9gg"
-        },
-        {
-          "title": "Mi vida con los chicos Walter",
-          "subtitle": "SERIE • 2023 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7MFgiQHkcd3zj3w7RmxmyU8FVfB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5WUsnqUm7xbY3oSwumSLfjyyax.jpg",
-          "overview": "Cuando una tragedia conmociona su vida, una adolescente se muda a un pueblito con una familia numerosa y aprende nuevas lecciones sobre el amor, la esperanza y la amistad.",
-          "youtube_id": "iIxHfvZzxH8",
-          "trailer_url": "https://www.youtube.com/watch?v=iIxHfvZzxH8"
-        },
-        {
-          "title": "Sterling Point",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ebLym6w04CzYJBLZScB1rrzm6uY.jpg",
-          "overview": "Tras descubrir que heredó una isla remota en Canadá de un abuelo distanciado al que nunca le permitieron conocer, Annie Jacobson, de 17 años, decide investigar. Esto la sumerge en un mundo de secretos enterrados, una hermandad inesperada y la complicada historia familiar que nunca debió descubrir.",
-          "youtube_id": "KKnqm1lbKCI",
-          "trailer_url": "https://www.youtube.com/watch?v=KKnqm1lbKCI"
-        },
-        {
-          "title": "One Mile: Chapter One",
-          "subtitle": "PELÍCULA • 2026 • 1h 30m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 30m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7GEKaYPz2lrpp3mS9EcmCBVsShn.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
-          "overview": "Un ex agente de las fuerzas especiales intenta reencontrarse con su hija adolescente durante un viaje universitario por carretera. Cuando un desvío inesperado les pone en el punto de mira de una comunidad secreta y aislada, su hija es secuestrada y el viaje se convierte en una lucha de alto octanaje por la supervivencia. Solo y en inferioridad numérica, se ve obligado a utilizar todas sus habilidades para seguirles la pista, desmantelarlos y traer a su hija a casa.",
-          "youtube_id": "868HlmpAhtQ",
-          "trailer_url": "https://www.youtube.com/watch?v=868HlmpAhtQ"
-        },
-        {
-          "title": "Operativo: Lioness",
-          "subtitle": "SERIE • 2023 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/sb2bd5YoaB9v9sFQBVuA20CKNef.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
-          "overview": "Joe intenta equilibrar su vida personal y profesional como punta de lanza de la CIA en la guerra contra el terrorismo. El Programa Lioness recluta a Cruz para que opere de incógnito junto a Joe entre los poderosos del terrorismo de Estado.",
-          "youtube_id": "7YunYBwleJM",
-          "trailer_url": "https://www.youtube.com/watch?v=7YunYBwleJM"
-        },
-        {
-          "title": "1670",
-          "subtitle": "SERIE • 2023 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/sMPLjSZYJEeeXfxeKQ7Ct7SEYuV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4UVd9nuO79sbTdil6ZmAqlC9Rjr.jpg",
-          "overview": "En esta comedia satírica, un noble estrafalario busca resolver disputas familiares y conflictos con campesinos en su misión de convertirse en la persona más famosa de Polonia.",
-          "youtube_id": "wTm89Pb1v_s",
-          "trailer_url": "https://www.youtube.com/watch?v=wTm89Pb1v_s"
         }
       ]
     },
@@ -314,7 +314,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 50m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pJnkPtQE8A5H67biPTaTedtHs1L.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ivmUB2djVH6HQrQfV0qEekdJWWf.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/2mPmccLg8QCD4ZF6v8kSsUijPPW.jpg",
           "overview": "Tras quedar atrapados en su propia casa, los miembros de una familia deben sobrevivir con recursos cada vez más escasos y enfrentar la fuerza oscura que los mantiene encerrados.",
           "youtube_id": "4I2bcxL8Wxw",
@@ -393,18 +393,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=lfoQfD0AjTs"
         },
         {
-          "title": "72 horas",
-          "subtitle": "PELÍCULA • 2026 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uxUrEaqf7WnDj7UcEWcIE3Xo8hY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
-          "overview": "Para salvar su carrera, un ejecutivo publicitario cuarentón se une a unos veinteañeros en una alocada despedida de soltero en Miami cuando lo agregan por error al chat grupal.",
-          "youtube_id": "KQnm6geDT2E",
-          "trailer_url": "https://www.youtube.com/watch?v=KQnm6geDT2E"
-        },
-        {
           "title": "Intercambiados",
           "subtitle": "PELÍCULA • 2026 • 1h 42m",
           "media_type": "PELÍCULA",
@@ -417,16 +405,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
         },
         {
-          "title": "Elize: Sombras de una Mujer",
-          "subtitle": "PELÍCULA • 2026 • 1h 33m",
+          "title": "Nando entre dos mundos: Una película de Sintonía",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 33m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/a3y0aWIJdJEw7pme6Y9W0aReIN9.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/z8mTDyKdAWjKsD0vwa7e9LTSY1j.jpg",
-          "overview": "En esta versión de un caso real, una exescort descubre la infidelidad de su esposo rico y lucha por sobrellevarlo mientras la traición envenena su matrimonio.",
-          "youtube_id": "oJXaeB7fapw",
-          "trailer_url": "https://www.youtube.com/watch?v=oJXaeB7fapw"
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jgIHdtYjvqNRMRcJFVnGUcLmNIb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
+          "overview": "Nando, atrapado entre la vida familiar y sus obligaciones con el inframundo criminal, enfrenta una encrucijada imposible: decidir dónde depositar su lealtad.",
+          "youtube_id": "LHBhtNRTR6I",
+          "trailer_url": "https://www.youtube.com/watch?v=LHBhtNRTR6I"
+        },
+        {
+          "title": "72 horas",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uxUrEaqf7WnDj7UcEWcIE3Xo8hY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
+          "overview": "Para salvar su carrera, un ejecutivo publicitario cuarentón se une a unos veinteañeros en una alocada despedida de soltero en Miami cuando lo agregan por error al chat grupal.",
+          "youtube_id": "KQnm6geDT2E",
+          "trailer_url": "https://www.youtube.com/watch?v=KQnm6geDT2E"
         }
       ]
     },
@@ -482,18 +482,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
-          "title": "The Punisher: La última muerte",
-          "subtitle": "PELÍCULA • 2026 • 48m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ehzOlaPVTyHnGNhcvfzgXPFNY31.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
-          "overview": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha.",
-          "youtube_id": "Tz5TdC2Pez8",
-          "trailer_url": "https://www.youtube.com/watch?v=Tz5TdC2Pez8"
-        },
-        {
           "title": "Avengers: Los Vengadores",
           "subtitle": "PELÍCULA • 2012 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -506,13 +494,25 @@
           "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
         },
         {
+          "title": "The Punisher: La última muerte",
+          "subtitle": "PELÍCULA • 2026 • 48m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ehzOlaPVTyHnGNhcvfzgXPFNY31.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
+          "overview": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha.",
+          "youtube_id": "Tz5TdC2Pez8",
+          "trailer_url": "https://www.youtube.com/watch?v=Tz5TdC2Pez8"
+        },
+        {
           "title": "Capitán América: Un nuevo mundo",
           "subtitle": "PELÍCULA • 2025 • 1h 59m",
           "media_type": "PELÍCULA",
           "year": "2025",
           "extra_info": "1h 59m",
           "poster_url": "https://image.tmdb.org/t/p/w500/vUNj55xlF0pSU5FU3yDHC6L5wVX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ywe9S1cOyIhR5yWzK7511NuQ2YX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8eifdha9GQeZAkexgtD45546XKx.jpg",
           "overview": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
           "youtube_id": "rX3UywPK-8w",
           "trailer_url": "https://www.youtube.com/watch?v=rX3UywPK-8w"
@@ -565,7 +565,7 @@
           "year": "2026",
           "extra_info": "1h 46m",
           "poster_url": "https://image.tmdb.org/t/p/w500/f4UDphdrM9qwvI6VPKoqTeJd9Yz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/se8LfmZYFiNerF6U7zMUKePV0vE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4wmvU2Px3C8v3qqyNpBmgJrWQEx.jpg",
           "overview": "Cinco amigos exploran el sistema de cuevas tailandés de la Boca del diablo para tener una última aventura antes de comenzar su vida en el mundo adulto. Sin embargo, pronto descubren que algo los acecha bajo el agua... rápido, silencioso y mortal. En la sofocante oscuridad, la confianza se erosiona, el pánico se extiende y cada giro se transforma en una lucha por la supervivencia.",
           "youtube_id": "iEYfTLsIqJ0",
           "trailer_url": "https://www.youtube.com/watch?v=iEYfTLsIqJ0"
@@ -576,11 +576,23 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 25m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/iiyKGDTSkfh4dM9Hl4GqVNnyFnd.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fBFjaDWfNslvrs6bJjknmG27wOS.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
           "overview": "A medida qué Spider-Man está en la cima de su carrera protegiendo la ciudad de Nueva York, una serie de crímenes inusuales lo arrastran a una red de misterios más grande de lo que jamás haya enfrentado.",
           "youtube_id": "QXibcL7-XbU",
           "trailer_url": "https://www.youtube.com/watch?v=QXibcL7-XbU"
+        },
+        {
+          "title": "Proyecto Fin del Mundo",
+          "subtitle": "PELÍCULA • 2026 • 2h 36m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5OrMnHwTlvndWr5vIWvyZhi4LfU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
+          "youtube_id": "S7w4cDtHyFQ",
+          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
         },
         {
           "title": "Amos del Universo",
@@ -593,18 +605,6 @@
           "overview": "En las regiones más lejanas del espacio, el Reino de Eternia está amenazado por el villano Skeletor y sus traviesos ejércitos de oscuridad. Para salvar el reino de su padre y proteger las vidas de sus seres queridos, el joven príncipe Adam tiene que recuperar una espada mítica y convertirse en el legendario guerrero conocido como \"He-Man\".",
           "youtube_id": "u7tyy_zX134",
           "trailer_url": "https://www.youtube.com/watch?v=u7tyy_zX134"
-        },
-        {
-          "title": "Proyecto Fin del Mundo",
-          "subtitle": "PELÍCULA • 2026 • 2h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/GogyYPQXJ5TZvMOvdhCmec6Nru.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
-          "youtube_id": "S7w4cDtHyFQ",
-          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
         },
         {
           "title": "Spider-Man 2: Lejos de Casa",
@@ -663,8 +663,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6Qwd9xKb1TnO7juMlZqHNiiJLWm.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/1WWukZCoavYEofNVRHJqE4t1urW.jpg",
           "overview": "En un Río de Janeiro futuro, un joven líder de la resistencia debe entrar en una competencia mortal inspirada en el parkour para salvar la vida de su hermana.",
-          "youtube_id": "CLJbWnRqKyw",
-          "trailer_url": "https://www.youtube.com/watch?v=CLJbWnRqKyw"
+          "youtube_id": "RgisN78uV_Y",
+          "trailer_url": "https://www.youtube.com/watch?v=RgisN78uV_Y"
         },
         {
           "title": "La guerra de los mundos",
@@ -808,6 +808,78 @@
   ],
   "flat_list": [
     {
+      "title": "NCIS: Criminología Naval",
+      "subtitle": "SERIE • 2003 • 24 Temporadas",
+      "media_type": "SERIE",
+      "year": "2003",
+      "extra_info": "24 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/i5dZG5SJ7NuApNneDDeJdz3k0Dl.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/nn3SuLTO4hum8yAxaY4ql8h6kRk.jpg",
+      "overview": "Un equipo de agentes especiales del Servicio de Investigación Criminal de la Marina de los Estados Unidos, liderados por el agente especial Leroy Jethro Gibbs (Mark Harmon), investiga los crímenes que se cometen dentro del Cuerpo Naval. Entre los casos está la muerte del ayudante del maletín nuclear del presidente, una situación explosiva a bordo de un buque de guerra de la Armada y la muerte de un famoso durante un show de televisión en una base del cuerpo de marines... La serie nació como un spin-off de algunos personajes presentados previamente en la serie \"JAG: Alerta roja\".",
+      "youtube_id": "Uj8YV_nGBk0",
+      "trailer_url": "https://www.youtube.com/watch?v=Uj8YV_nGBk0"
+    },
+    {
+      "title": "La Ley y el Orden: Unidad de Víctimas Especiales",
+      "subtitle": "SERIE • 1999 • 28 Temporadas",
+      "media_type": "SERIE",
+      "year": "1999",
+      "extra_info": "28 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/2RW2SQQSaCMGwAk5sfvfOisQV4s.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
+      "overview": "Serie surgida a la sombra de \"Law & Order\". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles.",
+      "youtube_id": "sx4n_tSzGGk",
+      "trailer_url": "https://www.youtube.com/watch?v=sx4n_tSzGGk"
+    },
+    {
+      "title": "Solo por una noche",
+      "subtitle": "PELÍCULA • 2026 • 1h 42m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 42m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
+      "overview": "Dos desconocidos, ávidos de amor, se topan por casualidad en la única noche del año en que las personas solteras tienen permitido tener relaciones sexuales.",
+      "youtube_id": "wzt2ufeBzgU",
+      "trailer_url": "https://www.youtube.com/watch?v=wzt2ufeBzgU"
+    },
+    {
+      "title": "Daredevil: Born Again",
+      "subtitle": "SERIE • 2025 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2025",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/9b6XFApT34dkGrmOZnTk7noyNx8.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/m291MEBjhuRqb0nh9ojnm9gzScq.jpg",
+      "overview": "Matt Murdock, un abogado ciego con habilidades especiales, lucha por la justicia a través de su ajetreado bufete, mientras que el ex jefe de la mafia Wilson Fisk persigue sus propios objetivos políticos en Nueva York. Cuando sus identidades pasadas empiezan a salir a la luz, ambos hombres se encuentran en una inevitable colisión.",
+      "youtube_id": "LNYwGUtXXQ0",
+      "trailer_url": "https://www.youtube.com/watch?v=LNYwGUtXXQ0"
+    },
+    {
+      "title": "Joyas Sobre Ruedas",
+      "subtitle": "SERIE • 2003 • 24 Temporadas",
+      "media_type": "SERIE",
+      "year": "2003",
+      "extra_info": "24 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/AoX3ig7Dl6l8hz3Xj0oREF2AD5g.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/mSoxiYLinM6BNXNr3rPkwdqhA97.jpg",
+      "overview": "El experimentado vendedor de coches Mike Brewer se une a mecánicos de múltiples talentos en una monumental misión automovilística: encontrar y restaurar coches emblemáticos para venderlos después con beneficios en su taller de Los Ángeles. En la serie, Mike tiene la difícil tarea de encontrar vehículos con potencial para hacer dinero. Luego se los entrega a un mecánico, que se encarga de todo, desde volver a pulir el metal hasta cambiar la caja de cambios para devolverles su antiguo esplendor.",
+      "youtube_id": "hH3aSn3n-8A",
+      "trailer_url": "https://www.youtube.com/watch?v=hH3aSn3n-8A"
+    },
+    {
+      "title": "Young Washington",
+      "subtitle": "PELÍCULA • 2026 • 2h 1m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 1m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+      "overview": "Los primeros años de la vida de George Washington, primer presidente de los Estados Unidos.",
+      "youtube_id": "LJek-kc384w",
+      "trailer_url": "https://www.youtube.com/watch?v=LJek-kc384w"
+    },
+    {
       "title": "Cabo de miedo",
       "subtitle": "SERIE • 2026 • 1 Temporada",
       "media_type": "SERIE",
@@ -825,11 +897,11 @@
       "media_type": "SERIE",
       "year": "2024",
       "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mGJKF820dQ1HW2tfA9QWRvy9Ui1.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/mtKX99Lmtm6cl7E6dPpRwZ10XDw.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
       "overview": "En 1971, cuatro mujeres desafían las normas ultraconservadoras y se unen a la primera fuerza policial femenina de México, solo para descubrir que es un truco publicitario para distraer a los medios de un asesino en serie. Cuando los decesos se acumulan, hacen un pacto para llevar al asesino ante la justicia.",
-      "youtube_id": "lojkAQw_Bro",
-      "trailer_url": "https://www.youtube.com/watch?v=lojkAQw_Bro"
+      "youtube_id": "UCLs0jEx0XE",
+      "trailer_url": "https://www.youtube.com/watch?v=UCLs0jEx0XE"
     },
     {
       "title": "Michael",
@@ -957,7 +1029,7 @@
       "media_type": "PELÍCULA",
       "year": "1994",
       "extra_info": "2h 23m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/2i8JFxyvDfUqD92OVStugc5Z4sC.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
       "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
       "youtube_id": "4u87tmlj4oE",
@@ -1029,83 +1101,11 @@
       "media_type": "SERIE",
       "year": "2024",
       "extra_info": "4 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/g6vptk7afH3OHOKSjdjJJtEoOMh.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/rNnTUZgVhzJc36FViudinVPBDSh.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/6X9f1ypWBRDsXC61YgAwYDzTltn.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/w0WT4opEOeldCegD2eAYSspVieg.jpg",
       "overview": "Cuando muere el fundador de la Funeraria Torregrosa, el ambicioso Dámaso ―su mano derecha― está listo para hacerse cargo del negocio. Pero la viuda del dueño tiene otro planes.",
       "youtube_id": "bP_6jHqGs3Q",
       "trailer_url": "https://www.youtube.com/watch?v=bP_6jHqGs3Q"
-    },
-    {
-      "title": "Severance",
-      "subtitle": "SERIE • 2022 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2022",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/1sylo2yeVyJ8KMZgcZLSopR66DA.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ixgFmf1X59PUZam2qbAfskx2gQr.jpg",
-      "overview": "Mark dirige un equipo de oficinistas, cuyas memorias fueron divididas quirúrgicamente entre sus vidas personales y laborales. Cuando un colega misterioso aparece fuera del trabajo, inicia un viaje por descubrir la verdad sobre sus empleos.",
-      "youtube_id": "j1UZQKfG9gg",
-      "trailer_url": "https://www.youtube.com/watch?v=j1UZQKfG9gg"
-    },
-    {
-      "title": "Mi vida con los chicos Walter",
-      "subtitle": "SERIE • 2023 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7MFgiQHkcd3zj3w7RmxmyU8FVfB.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/5WUsnqUm7xbY3oSwumSLfjyyax.jpg",
-      "overview": "Cuando una tragedia conmociona su vida, una adolescente se muda a un pueblito con una familia numerosa y aprende nuevas lecciones sobre el amor, la esperanza y la amistad.",
-      "youtube_id": "iIxHfvZzxH8",
-      "trailer_url": "https://www.youtube.com/watch?v=iIxHfvZzxH8"
-    },
-    {
-      "title": "Sterling Point",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ebLym6w04CzYJBLZScB1rrzm6uY.jpg",
-      "overview": "Tras descubrir que heredó una isla remota en Canadá de un abuelo distanciado al que nunca le permitieron conocer, Annie Jacobson, de 17 años, decide investigar. Esto la sumerge en un mundo de secretos enterrados, una hermandad inesperada y la complicada historia familiar que nunca debió descubrir.",
-      "youtube_id": "KKnqm1lbKCI",
-      "trailer_url": "https://www.youtube.com/watch?v=KKnqm1lbKCI"
-    },
-    {
-      "title": "One Mile: Chapter One",
-      "subtitle": "PELÍCULA • 2026 • 1h 30m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 30m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7GEKaYPz2lrpp3mS9EcmCBVsShn.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
-      "overview": "Un ex agente de las fuerzas especiales intenta reencontrarse con su hija adolescente durante un viaje universitario por carretera. Cuando un desvío inesperado les pone en el punto de mira de una comunidad secreta y aislada, su hija es secuestrada y el viaje se convierte en una lucha de alto octanaje por la supervivencia. Solo y en inferioridad numérica, se ve obligado a utilizar todas sus habilidades para seguirles la pista, desmantelarlos y traer a su hija a casa.",
-      "youtube_id": "868HlmpAhtQ",
-      "trailer_url": "https://www.youtube.com/watch?v=868HlmpAhtQ"
-    },
-    {
-      "title": "Operativo: Lioness",
-      "subtitle": "SERIE • 2023 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/sb2bd5YoaB9v9sFQBVuA20CKNef.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
-      "overview": "Joe intenta equilibrar su vida personal y profesional como punta de lanza de la CIA en la guerra contra el terrorismo. El Programa Lioness recluta a Cruz para que opere de incógnito junto a Joe entre los poderosos del terrorismo de Estado.",
-      "youtube_id": "7YunYBwleJM",
-      "trailer_url": "https://www.youtube.com/watch?v=7YunYBwleJM"
-    },
-    {
-      "title": "1670",
-      "subtitle": "SERIE • 2023 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/sMPLjSZYJEeeXfxeKQ7Ct7SEYuV.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4UVd9nuO79sbTdil6ZmAqlC9Rjr.jpg",
-      "overview": "En esta comedia satírica, un noble estrafalario busca resolver disputas familiares y conflictos con campesinos en su misión de convertirse en la persona más famosa de Polonia.",
-      "youtube_id": "wTm89Pb1v_s",
-      "trailer_url": "https://www.youtube.com/watch?v=wTm89Pb1v_s"
     }
   ]
 }
