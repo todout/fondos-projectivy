@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "High Potential: Detective Inesperada",
+          "subtitle": "SERIE • 2024 • 3 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "3 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/49FrRidGiaL2Ui7bJmeDPdGshd4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yVP12H81dwaay5B7GVqgO893q2c.jpg",
+          "overview": "Morgan es una madre soltera con una mente excepcional, cuyo talento poco convencional para resolver crímenes la lleva a entablar una relación inusual e imparable con un detective experimentado que sigue las reglas al pie de la letra.",
+          "youtube_id": "WwxWpaAIic0",
+          "trailer_url": "https://www.youtube.com/watch?v=WwxWpaAIic0"
+        },
+        {
+          "title": "Berlín y la dama del armiño",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3uhJ3AHKxSsEWe1BUG9pV0bpqna.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ntPgSYKwPg9xKO4VvLJYfInSyZa.jpg",
+          "overview": "Berlín, ansioso por dar un nuevo golpe, reúne a su banda en Sevilla y convierte a un ambicioso duque en víctima de su propio plan: robar una obra de arte de Leonardo da Vinci.",
+          "youtube_id": "Osp1fE5vFTQ",
+          "trailer_url": "https://www.youtube.com/watch?v=Osp1fE5vFTQ"
+        },
+        {
+          "title": "Nando entre dos mundos: Una película de Sintonía",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jgIHdtYjvqNRMRcJFVnGUcLmNIb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
+          "overview": "Nando, atrapado entre la vida familiar y sus obligaciones con el inframundo criminal, enfrenta una encrucijada imposible: decidir dónde depositar su lealtad.",
+          "youtube_id": "LHBhtNRTR6I",
+          "trailer_url": "https://www.youtube.com/watch?v=LHBhtNRTR6I"
+        },
+        {
+          "title": "仙武传",
+          "subtitle": "SERIE • 2023 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2023",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bZ71Gq0gKhTNJ1FYyjvZebhyFFE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4HAVwVQHRCoHisjnx2CkeHWlUuG.jpg",
+          "overview": "Como discípulo leal, Ye Chen se dedicó a vigilar el campo de medicina espiritual de su secta. Pero, durante una lucha con los enemigos, su mar espiritual fue destruido. Su lealtad y dedicación a la secta no pudo salvarle. La lealtad que creía haber obtenido de sus compañeros y amante, no pudo salvarle de la traición. Así, fue desterrado descaradamente de la secta. Con la ayuda de una llama que caía del cielo, Ye Chen comenzó a convertirse en un cultivador más fuerte. Luchó contra sus oponentes, desplegó su legendaria vida y reescribió su propia historia...",
+          "youtube_id": "1-fubC9JN50",
+          "trailer_url": "https://www.youtube.com/watch?v=1-fubC9JN50"
+        },
+        {
           "title": "Un hombre infiltrado",
           "subtitle": "SERIE • 2024 • 2 Temporadas",
           "media_type": "SERIE",
@@ -76,16 +124,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=jPCzXhdIO9M"
         },
         {
-          "title": "Fera Radical",
-          "subtitle": "SERIE • 1988 • 1 Temporada",
+          "title": "SWAT Kats",
+          "subtitle": "SERIE • 1993 • 2 Temporadas",
           "media_type": "SERIE",
-          "year": "1988",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/z2vkMn8SgKzQIRGtimWk1MRgJHC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bxXX3n6Shy6Edcq8LKvKm5Kn49n.jpg",
-          "overview": "Cláudia returns to her rural hometown in order to take revenge for the murder of her family a long time ago. She believes that the Flores family committed the crime and tries to destroy them....",
-          "youtube_id": "HiVZwWtAMec",
-          "trailer_url": "https://www.youtube.com/watch?v=HiVZwWtAMec"
+          "year": "1993",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5Tcu6lFuRtXkbdrhmqqta1x9Np.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4kMbAmqrl8RMLXtnSUCFh15ZF8p.jpg",
+          "overview": "En un mundo con felinos antropomorfos, dos pilotos de combate degradados luchan contra el mal como vigilantes enmascarados.",
+          "youtube_id": "VVnmaMnMs3Y",
+          "trailer_url": "https://www.youtube.com/watch?v=VVnmaMnMs3Y"
         },
         {
           "title": "La sociedad de la nieve",
@@ -124,14 +172,14 @@
           "trailer_url": "https://www.youtube.com/watch?v=r3QPUyyG2ms"
         },
         {
-          "title": "Young Washington",
+          "title": "El Joven Washington",
           "subtitle": "PELÍCULA • 2026 • 2h 1m",
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 1m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cpY0vz53hWon3N7zJ4XTSkxAEUd.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
-          "overview": "Los primeros años de la vida de George Washington, primer presidente de los Estados Unidos.",
+          "overview": "Se basa en la juventud de George Washington —Padre Fundador y primer presidente de los Estados Unidos— y se centra en sus experiencias y su mando militar durante la guerra Franco-India, entre 1753 y 1755.",
           "youtube_id": "LJek-kc384w",
           "trailer_url": "https://www.youtube.com/watch?v=LJek-kc384w"
         },
@@ -204,8 +252,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/uzNOxyNt1WIXt9KBRKytiqQZ02y.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/cckSh7WjbbecR3R0sjEyefmCzWo.jpg",
           "overview": "Una joven que formó parte de la guerrilla busca ahora una vida mejor en la ciudad. Quiere estudiar medicina, para curar en lugar de hacer daño, pero tendrá un reto, porque formar parte de grupos de forajidos siempre deja consecuencias.",
-          "youtube_id": "3ytB2W9X5Ps",
-          "trailer_url": "https://www.youtube.com/watch?v=3ytB2W9X5Ps"
+          "youtube_id": "2OuhtUy-BGs",
+          "trailer_url": "https://www.youtube.com/watch?v=2OuhtUy-BGs"
         },
         {
           "title": "Apocalipsis Z: el principio del fin",
@@ -249,59 +297,11 @@
           "media_type": "SERIE",
           "year": "2024",
           "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/py0s87C9214KRbZ4kWLQfgsE9ET.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nBOfmrGBQucUT0kzWJowLT3CpeR.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/jmV6NIzZxGzRoljFPwao6sh4Nny.jpg",
           "overview": "Son los 90 y cinco losers manejan un negocio ilegal en su prepa: venden tareas y trabajos a sus compañeros. ¿La ventaja? Nadie sospecha nunca de los nerds. Su negocio les trae dinero y popularidad, pero las hormonas y los conflictos de la edad amenazan con arruinarlo todo. Si el negocio colapsa, el futuro de todos y su amistad estarían en riesgo.",
           "youtube_id": "PUqZcKXFARk",
           "trailer_url": "https://www.youtube.com/watch?v=PUqZcKXFARk"
-        },
-        {
-          "title": "BOULEVARD",
-          "subtitle": "PELÍCULA",
-          "media_type": "PELÍCULA",
-          "year": "",
-          "extra_info": "",
-          "poster_url": "",
-          "backdrop_url": "",
-          "overview": "",
-          "youtube_id": "rZ6xn57p4J0",
-          "trailer_url": "https://www.youtube.com/watch?v=rZ6xn57p4J0"
-        },
-        {
-          "title": "La piel que habito",
-          "subtitle": "PELÍCULA • 2011 • 2h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2011",
-          "extra_info": "2h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/sW6pB4C674TDMhFcBXDbz7L0ppO.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/qn8NzshtQmJD7Nm06sAp5yOtexH.jpg",
-          "overview": "Un brillante cirujano plástico crea una piel sintética que resiste cualquier tipo de daño. Su conejillo de indias: una misteriosa y volátil mujer que tiene la clave de su obsesión.",
-          "youtube_id": "Gm8XTqv_K80",
-          "trailer_url": "https://www.youtube.com/watch?v=Gm8XTqv_K80"
-        },
-        {
-          "title": "Sueño de fuga",
-          "subtitle": "PELÍCULA • 1994 • 2h 23m",
-          "media_type": "PELÍCULA",
-          "year": "1994",
-          "extra_info": "2h 23m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
-          "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
-          "youtube_id": "4u87tmlj4oE",
-          "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
-        },
-        {
-          "title": "Enemigo íntimo",
-          "subtitle": "SERIE • 2018 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2018",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/81URAPXi0GP9Ul4MxcVSiDEnpPq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/aTSkfXJ9rY1rGtYStcJUrX2wq73.jpg",
-          "overview": "Alejandro y su hermana, separados de pequeños, ya no se reconocen. Ahora, se enfrentan en una guerra de narcotraficantes, crímenes y traiciones.",
-          "youtube_id": "3SWUgP-uDyY",
-          "trailer_url": "https://www.youtube.com/watch?v=3SWUgP-uDyY"
         }
       ]
     },
@@ -381,18 +381,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=E4noegsHPvM"
         },
         {
-          "title": "இதயம் முரளி",
-          "subtitle": "PELÍCULA • 2026 • 2h 44m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 44m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/8gfs5OsGINENFAl0h1XZPNup9lI.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jLncLuPE5kOascGrvN39jgQHVJT.jpg",
-          "overview": "A young man navigates the complexities of unrequited love, finding that even as years pass and life takes unexpected turns, certain emotions remain deeply embedded in his heart.",
-          "youtube_id": "lfoQfD0AjTs",
-          "trailer_url": "https://www.youtube.com/watch?v=lfoQfD0AjTs"
-        },
-        {
           "title": "Intercambiados",
           "subtitle": "PELÍCULA • 2026 • 1h 42m",
           "media_type": "PELÍCULA",
@@ -415,6 +403,18 @@
           "overview": "Nando, atrapado entre la vida familiar y sus obligaciones con el inframundo criminal, enfrenta una encrucijada imposible: decidir dónde depositar su lealtad.",
           "youtube_id": "LHBhtNRTR6I",
           "trailer_url": "https://www.youtube.com/watch?v=LHBhtNRTR6I"
+        },
+        {
+          "title": "இதயம் முரளி",
+          "subtitle": "PELÍCULA • 2026 • 2h 44m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 44m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/8gfs5OsGINENFAl0h1XZPNup9lI.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jLncLuPE5kOascGrvN39jgQHVJT.jpg",
+          "overview": "A young man navigates the complexities of unrequited love, finding that even as years pass and life takes unexpected turns, certain emotions remain deeply embedded in his heart.",
+          "youtube_id": "lfoQfD0AjTs",
+          "trailer_url": "https://www.youtube.com/watch?v=lfoQfD0AjTs"
         },
         {
           "title": "72 horas",
@@ -576,7 +576,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 25m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fBFjaDWfNslvrs6bJjknmG27wOS.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/GUVYjqDLWy61q9hDYiV9M5UEJe.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
           "overview": "A medida qué Spider-Man está en la cima de su carrera protegiendo la ciudad de Nueva York, una serie de crímenes inusuales lo arrastran a una red de misterios más grande de lo que jamás haya enfrentado.",
           "youtube_id": "QXibcL7-XbU",
@@ -631,18 +631,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=eou9olJruK4"
         },
         {
-          "title": "El Sorprendente Hombre-Araña 2: La Amenaza de Electro",
-          "subtitle": "PELÍCULA • 2014 • 2h 22m",
-          "media_type": "PELÍCULA",
-          "year": "2014",
-          "extra_info": "2h 22m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/z07KnqwHWDY3q5utu0xBLKo3UWo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
-          "overview": "Ser el Hombre Araña es genial. Para Peter Parker, no hay mejor sensación que columpiarse entre rascacielos, ser el héroe y pasar el tiempo con Gwen. Pero ser el Hombre Araña no es gratuito: solo él puede proteger a sus conciudadanos de Nueva York de los temibles villanos que amenazan a la ciudad. Con el surgimiento de Electro, Peter debe enfrentar a un enemigo mucho más poderoso que él. Y como su antiguo amigo, Harry Osborn, regresa, Peter se da cuenta de que todos sus enemigos tienen algo en común: Oscorp.",
-          "youtube_id": "cCXW3KE8Bto",
-          "trailer_url": "https://www.youtube.com/watch?v=cCXW3KE8Bto"
-        },
-        {
           "title": "Spider-Man: Sin camino a casa",
           "subtitle": "PELÍCULA • 2021 • 2h 28m",
           "media_type": "PELÍCULA",
@@ -655,16 +643,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=JAj8EheWN3o"
         },
         {
-          "title": "Carrera de bestias",
-          "subtitle": "PELÍCULA • 2026 • 2h 4m",
+          "title": "El Sorprendente Hombre-Araña 2: La Amenaza de Electro",
+          "subtitle": "PELÍCULA • 2014 • 2h 22m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 4m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6Qwd9xKb1TnO7juMlZqHNiiJLWm.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1WWukZCoavYEofNVRHJqE4t1urW.jpg",
-          "overview": "En un Río de Janeiro futuro, un joven líder de la resistencia debe entrar en una competencia mortal inspirada en el parkour para salvar la vida de su hermana.",
-          "youtube_id": "CLJbWnRqKyw",
-          "trailer_url": "https://www.youtube.com/watch?v=CLJbWnRqKyw"
+          "year": "2014",
+          "extra_info": "2h 22m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/z07KnqwHWDY3q5utu0xBLKo3UWo.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
+          "overview": "Ser el Hombre Araña es genial. Para Peter Parker, no hay mejor sensación que columpiarse entre rascacielos, ser el héroe y pasar el tiempo con Gwen. Pero ser el Hombre Araña no es gratuito: solo él puede proteger a sus conciudadanos de Nueva York de los temibles villanos que amenazan a la ciudad. Con el surgimiento de Electro, Peter debe enfrentar a un enemigo mucho más poderoso que él. Y como su antiguo amigo, Harry Osborn, regresa, Peter se da cuenta de que todos sus enemigos tienen algo en común: Oscorp.",
+          "youtube_id": "cCXW3KE8Bto",
+          "trailer_url": "https://www.youtube.com/watch?v=cCXW3KE8Bto"
         },
         {
           "title": "La guerra de los mundos",
@@ -677,6 +665,18 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
+          "title": "Spider-Man: Un nuevo universo",
+          "subtitle": "PELÍCULA • 2018 • 1h 57m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 57m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/e47p9fHR6jMrrLeoa7l5hU05vhR.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
+          "youtube_id": "11X12iudxPM",
+          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
         }
       ]
     },
@@ -732,40 +732,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
-          "title": "The Dink: Pasión por el pickleball",
-          "subtitle": "PELÍCULA • 2026 • 1h 43m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 43m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/baNFmDgcogr9IOw6TuB7NXNsyOK.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tJQhL95q63ITeBy5OTGPx51sFks.jpg",
-          "overview": "A Dusty “El Martillo” Boyd, un tenista profesional venido a menos, le vendría bien un triunfo. Por intentar salvar un club de campo en aprietos y conseguir el respeto de su padre, Dusty rompe un pacto sagrado y hace algo inconcebible: jugar pickleball.",
-          "youtube_id": "rjCxlQG5kcw",
-          "trailer_url": "https://www.youtube.com/watch?v=rjCxlQG5kcw"
-        },
-        {
-          "title": "La fuente de la juventud",
-          "subtitle": "PELÍCULA • 2025 • 2h 6m",
+          "title": "Eternidad",
+          "subtitle": "PELÍCULA • 2025 • 1h 52m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "2h 6m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5S6sbpfgBZLJVxEaT9iL2hHnmUc.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/arGs8D4RfUfsk7vMiMjDi6Mtabv.jpg",
-          "overview": "Un cazador de tesoros reúne a un equipo para una misión que les cambiará la vida. Para superar todo tipo de amenazas, necesitará a alguien más inteligente que él: su distante hermana.",
-          "youtube_id": "TmGOL0GYqiM",
-          "trailer_url": "https://www.youtube.com/watch?v=TmGOL0GYqiM"
-        },
-        {
-          "title": "Napoleón",
-          "subtitle": "PELÍCULA • 2023 • 2h 38m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/b6WCtZMerTNDxaMABi32EXeQ5ZX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/33pMXav77ICRnceEBLhL8lXTywv.jpg",
-          "overview": "Una mirada personal a los orígenes del líder militar francés y su rápido y despiadado ascenso a emperador. La historia se ve a través de la lente de la relación adictiva y volátil de Napoleón Bonaparte con su esposa y único amor verdadero, Josefina.",
-          "youtube_id": "QeLDyyihG2M",
-          "trailer_url": "https://www.youtube.com/watch?v=QeLDyyihG2M"
+          "extra_info": "1h 52m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/pgJaqTQfJdseH2O7iXT57zOfW74.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
+          "overview": "En un más allá donde las almas tienen una semana para decidir dónde pasarán la eternidad, Joan (Elizabeth Olsen) se enfrenta a la diabólica disyuntiva de elegir entre el hombre con el que ha compartido su vida (Miles Teller) y su primer amor (Callum Turner), que murió joven y ha estado décadas esperando a que ella llegara.",
+          "youtube_id": "4kERcyiUyPw",
+          "trailer_url": "https://www.youtube.com/watch?v=4kERcyiUyPw"
         },
         {
           "title": "Plan familiar",
@@ -780,16 +756,40 @@
           "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
         },
         {
-          "title": "Eternidad",
-          "subtitle": "PELÍCULA • 2025 • 1h 52m",
+          "title": "La fuente de la juventud",
+          "subtitle": "PELÍCULA • 2025 • 2h 6m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pgJaqTQfJdseH2O7iXT57zOfW74.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
-          "overview": "En un más allá donde las almas tienen una semana para decidir dónde pasarán la eternidad, Joan (Elizabeth Olsen) se enfrenta a la diabólica disyuntiva de elegir entre el hombre con el que ha compartido su vida (Miles Teller) y su primer amor (Callum Turner), que murió joven y ha estado décadas esperando a que ella llegara.",
-          "youtube_id": "4kERcyiUyPw",
-          "trailer_url": "https://www.youtube.com/watch?v=4kERcyiUyPw"
+          "extra_info": "2h 6m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5S6sbpfgBZLJVxEaT9iL2hHnmUc.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/arGs8D4RfUfsk7vMiMjDi6Mtabv.jpg",
+          "overview": "Un cazador de tesoros reúne a un equipo para una misión que les cambiará la vida. Para superar todo tipo de amenazas, necesitará a alguien más inteligente que él: su distante hermana.",
+          "youtube_id": "TmGOL0GYqiM",
+          "trailer_url": "https://www.youtube.com/watch?v=TmGOL0GYqiM"
+        },
+        {
+          "title": "The Dink: Pasión por el pickleball",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/baNFmDgcogr9IOw6TuB7NXNsyOK.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/tJQhL95q63ITeBy5OTGPx51sFks.jpg",
+          "overview": "A Dusty “El Martillo” Boyd, un tenista profesional venido a menos, le vendría bien un triunfo. Por intentar salvar un club de campo en aprietos y conseguir el respeto de su padre, Dusty rompe un pacto sagrado y hace algo inconcebible: jugar pickleball.",
+          "youtube_id": "rjCxlQG5kcw",
+          "trailer_url": "https://www.youtube.com/watch?v=rjCxlQG5kcw"
+        },
+        {
+          "title": "Napoleón",
+          "subtitle": "PELÍCULA • 2023 • 2h 38m",
+          "media_type": "PELÍCULA",
+          "year": "2023",
+          "extra_info": "2h 38m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/b6WCtZMerTNDxaMABi32EXeQ5ZX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/33pMXav77ICRnceEBLhL8lXTywv.jpg",
+          "overview": "Una mirada personal a los orígenes del líder militar francés y su rápido y despiadado ascenso a emperador. La historia se ve a través de la lente de la relación adictiva y volátil de Napoleón Bonaparte con su esposa y único amor verdadero, Josefina.",
+          "youtube_id": "QeLDyyihG2M",
+          "trailer_url": "https://www.youtube.com/watch?v=QeLDyyihG2M"
         },
         {
           "title": "Plan familiar 2",
@@ -807,6 +807,54 @@
     }
   ],
   "flat_list": [
+    {
+      "title": "High Potential: Detective Inesperada",
+      "subtitle": "SERIE • 2024 • 3 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "3 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/49FrRidGiaL2Ui7bJmeDPdGshd4.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yVP12H81dwaay5B7GVqgO893q2c.jpg",
+      "overview": "Morgan es una madre soltera con una mente excepcional, cuyo talento poco convencional para resolver crímenes la lleva a entablar una relación inusual e imparable con un detective experimentado que sigue las reglas al pie de la letra.",
+      "youtube_id": "WwxWpaAIic0",
+      "trailer_url": "https://www.youtube.com/watch?v=WwxWpaAIic0"
+    },
+    {
+      "title": "Berlín y la dama del armiño",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/3uhJ3AHKxSsEWe1BUG9pV0bpqna.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/ntPgSYKwPg9xKO4VvLJYfInSyZa.jpg",
+      "overview": "Berlín, ansioso por dar un nuevo golpe, reúne a su banda en Sevilla y convierte a un ambicioso duque en víctima de su propio plan: robar una obra de arte de Leonardo da Vinci.",
+      "youtube_id": "Osp1fE5vFTQ",
+      "trailer_url": "https://www.youtube.com/watch?v=Osp1fE5vFTQ"
+    },
+    {
+      "title": "Nando entre dos mundos: Una película de Sintonía",
+      "subtitle": "PELÍCULA • 2026 • 1h 49m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 49m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/jgIHdtYjvqNRMRcJFVnGUcLmNIb.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
+      "overview": "Nando, atrapado entre la vida familiar y sus obligaciones con el inframundo criminal, enfrenta una encrucijada imposible: decidir dónde depositar su lealtad.",
+      "youtube_id": "LHBhtNRTR6I",
+      "trailer_url": "https://www.youtube.com/watch?v=LHBhtNRTR6I"
+    },
+    {
+      "title": "仙武传",
+      "subtitle": "SERIE • 2023 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2023",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/bZ71Gq0gKhTNJ1FYyjvZebhyFFE.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/4HAVwVQHRCoHisjnx2CkeHWlUuG.jpg",
+      "overview": "Como discípulo leal, Ye Chen se dedicó a vigilar el campo de medicina espiritual de su secta. Pero, durante una lucha con los enemigos, su mar espiritual fue destruido. Su lealtad y dedicación a la secta no pudo salvarle. La lealtad que creía haber obtenido de sus compañeros y amante, no pudo salvarle de la traición. Así, fue desterrado descaradamente de la secta. Con la ayuda de una llama que caía del cielo, Ye Chen comenzó a convertirse en un cultivador más fuerte. Luchó contra sus oponentes, desplegó su legendaria vida y reescribió su propia historia...",
+      "youtube_id": "1-fubC9JN50",
+      "trailer_url": "https://www.youtube.com/watch?v=1-fubC9JN50"
+    },
     {
       "title": "Un hombre infiltrado",
       "subtitle": "SERIE • 2024 • 2 Temporadas",
@@ -880,16 +928,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=jPCzXhdIO9M"
     },
     {
-      "title": "Fera Radical",
-      "subtitle": "SERIE • 1988 • 1 Temporada",
+      "title": "SWAT Kats",
+      "subtitle": "SERIE • 1993 • 2 Temporadas",
       "media_type": "SERIE",
-      "year": "1988",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/z2vkMn8SgKzQIRGtimWk1MRgJHC.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/bxXX3n6Shy6Edcq8LKvKm5Kn49n.jpg",
-      "overview": "Cláudia returns to her rural hometown in order to take revenge for the murder of her family a long time ago. She believes that the Flores family committed the crime and tries to destroy them....",
-      "youtube_id": "HiVZwWtAMec",
-      "trailer_url": "https://www.youtube.com/watch?v=HiVZwWtAMec"
+      "year": "1993",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5Tcu6lFuRtXkbdrhmqqta1x9Np.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/4kMbAmqrl8RMLXtnSUCFh15ZF8p.jpg",
+      "overview": "En un mundo con felinos antropomorfos, dos pilotos de combate degradados luchan contra el mal como vigilantes enmascarados.",
+      "youtube_id": "VVnmaMnMs3Y",
+      "trailer_url": "https://www.youtube.com/watch?v=VVnmaMnMs3Y"
     },
     {
       "title": "La sociedad de la nieve",
@@ -928,14 +976,14 @@
       "trailer_url": "https://www.youtube.com/watch?v=r3QPUyyG2ms"
     },
     {
-      "title": "Young Washington",
+      "title": "El Joven Washington",
       "subtitle": "PELÍCULA • 2026 • 2h 1m",
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "2h 1m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/cpY0vz53hWon3N7zJ4XTSkxAEUd.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
-      "overview": "Los primeros años de la vida de George Washington, primer presidente de los Estados Unidos.",
+      "overview": "Se basa en la juventud de George Washington —Padre Fundador y primer presidente de los Estados Unidos— y se centra en sus experiencias y su mando militar durante la guerra Franco-India, entre 1753 y 1755.",
       "youtube_id": "LJek-kc384w",
       "trailer_url": "https://www.youtube.com/watch?v=LJek-kc384w"
     },
@@ -1008,8 +1056,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/uzNOxyNt1WIXt9KBRKytiqQZ02y.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/cckSh7WjbbecR3R0sjEyefmCzWo.jpg",
       "overview": "Una joven que formó parte de la guerrilla busca ahora una vida mejor en la ciudad. Quiere estudiar medicina, para curar en lugar de hacer daño, pero tendrá un reto, porque formar parte de grupos de forajidos siempre deja consecuencias.",
-      "youtube_id": "3ytB2W9X5Ps",
-      "trailer_url": "https://www.youtube.com/watch?v=3ytB2W9X5Ps"
+      "youtube_id": "2OuhtUy-BGs",
+      "trailer_url": "https://www.youtube.com/watch?v=2OuhtUy-BGs"
     },
     {
       "title": "Apocalipsis Z: el principio del fin",
@@ -1053,59 +1101,11 @@
       "media_type": "SERIE",
       "year": "2024",
       "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/py0s87C9214KRbZ4kWLQfgsE9ET.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/nBOfmrGBQucUT0kzWJowLT3CpeR.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/jmV6NIzZxGzRoljFPwao6sh4Nny.jpg",
       "overview": "Son los 90 y cinco losers manejan un negocio ilegal en su prepa: venden tareas y trabajos a sus compañeros. ¿La ventaja? Nadie sospecha nunca de los nerds. Su negocio les trae dinero y popularidad, pero las hormonas y los conflictos de la edad amenazan con arruinarlo todo. Si el negocio colapsa, el futuro de todos y su amistad estarían en riesgo.",
       "youtube_id": "PUqZcKXFARk",
       "trailer_url": "https://www.youtube.com/watch?v=PUqZcKXFARk"
-    },
-    {
-      "title": "BOULEVARD",
-      "subtitle": "PELÍCULA",
-      "media_type": "PELÍCULA",
-      "year": "",
-      "extra_info": "",
-      "poster_url": "",
-      "backdrop_url": "",
-      "overview": "",
-      "youtube_id": "rZ6xn57p4J0",
-      "trailer_url": "https://www.youtube.com/watch?v=rZ6xn57p4J0"
-    },
-    {
-      "title": "La piel que habito",
-      "subtitle": "PELÍCULA • 2011 • 2h 0m",
-      "media_type": "PELÍCULA",
-      "year": "2011",
-      "extra_info": "2h 0m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/sW6pB4C674TDMhFcBXDbz7L0ppO.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/qn8NzshtQmJD7Nm06sAp5yOtexH.jpg",
-      "overview": "Un brillante cirujano plástico crea una piel sintética que resiste cualquier tipo de daño. Su conejillo de indias: una misteriosa y volátil mujer que tiene la clave de su obsesión.",
-      "youtube_id": "Gm8XTqv_K80",
-      "trailer_url": "https://www.youtube.com/watch?v=Gm8XTqv_K80"
-    },
-    {
-      "title": "Sueño de fuga",
-      "subtitle": "PELÍCULA • 1994 • 2h 23m",
-      "media_type": "PELÍCULA",
-      "year": "1994",
-      "extra_info": "2h 23m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
-      "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
-      "youtube_id": "4u87tmlj4oE",
-      "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
-    },
-    {
-      "title": "Enemigo íntimo",
-      "subtitle": "SERIE • 2018 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2018",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/81URAPXi0GP9Ul4MxcVSiDEnpPq.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/aTSkfXJ9rY1rGtYStcJUrX2wq73.jpg",
-      "overview": "Alejandro y su hermana, separados de pequeños, ya no se reconocen. Ahora, se enfrentan en una guerra de narcotraficantes, crímenes y traiciones.",
-      "youtube_id": "3SWUgP-uDyY",
-      "trailer_url": "https://www.youtube.com/watch?v=3SWUgP-uDyY"
     }
   ]
 }
