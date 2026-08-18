@@ -4,6 +4,66 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Moria",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/sbgnRVTa1ovATE2rH1TZXrb4dLH.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/wCqQrj4536IkhFlxDSytf4p3H09.jpg",
+          "overview": "En esta dramatización que desborda de estilo, Moria Casán transforma la historia de su vida en un espectáculo simbólico de fama, controversia y reinvención constante.",
+          "youtube_id": "u_nfOOsUQeY",
+          "trailer_url": "https://www.youtube.com/watch?v=u_nfOOsUQeY"
+        },
+        {
+          "title": "Los caballeros",
+          "subtitle": "SERIE • 2024 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/tbDjST2OOauVEOm8jdokj3zTVp2.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iJMSvEENvkgIEImhBSKmGCev15w.jpg",
+          "overview": "Cuando el aristócrata Eddie hereda la finca familiar, descubre que alberga un enorme imperio de cannabis... y que sus propietarios no se van a ir a ninguna parte.",
+          "youtube_id": "jfP4OGskLis",
+          "trailer_url": "https://www.youtube.com/watch?v=jfP4OGskLis"
+        },
+        {
+          "title": "No se desea buena suerte",
+          "subtitle": "PELÍCULA • 2026 • 1h 36m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+          "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
+          "youtube_id": "ZEpoHoGFkW8",
+          "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
+        },
+        {
+          "title": "Amarga Navidad",
+          "subtitle": "PELÍCULA • 2026 • 1h 51m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 51m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+          "overview": "Tras el fallecimiento de su madre en diciembre, Elsa, directora de publicidad, se sumerge en el trabajo para afrontar la situación. Cuando un ataque de pánico la obliga a tomarse un descanso, decide viajar a Lanzarote con su amiga Patricia mientras su pareja, Bonifacio, se queda en Madrid.",
+          "youtube_id": "SNbVMk-nLu4",
+          "trailer_url": "https://www.youtube.com/watch?v=SNbVMk-nLu4"
+        },
+        {
+          "title": "Perfil falso",
+          "subtitle": "SERIE • 2023 • 3 Temporadas",
+          "media_type": "SERIE",
+          "year": "2023",
+          "extra_info": "3 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jscEj5F2tEwWHZm7NVNfbdTJg22.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7e7GKWe49a8g96KP037PcrGtG6I.jpg",
+          "overview": "Camila conoce a su príncipe azul a través de una aplicación de citas. Tras un idílico romance, planea darle una sorpresa..., pero termina atrapada en un falso paraíso.",
+          "youtube_id": "IvQ166TY9nU",
+          "trailer_url": "https://www.youtube.com/watch?v=IvQ166TY9nU"
+        },
+        {
           "title": "Cenizas del pasado",
           "subtitle": "SERIE • 2023 • 1 Temporada",
           "media_type": "SERIE",
@@ -28,16 +88,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=2IO_f2Auo3U"
         },
         {
-          "title": "La viuda negra",
-          "subtitle": "PELÍCULA • 2025 • 2h 2m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 2m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tgmNdAQvLxLcSni35oP0nd8W3bq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/pOR4Aye28KLZ5Jogu8zc3yiqBpT.jpg",
-          "overview": "En este thriller basado en hechos reales, la investigación a partir del hallazgo de un hombre muerto hace añicos la fachada perfecta de su viuda y expone una doble vida secreta.",
-          "youtube_id": "hym82qWow9c",
-          "trailer_url": "https://www.youtube.com/watch?v=hym82qWow9c"
+          "title": "Griselda Blanco: La viuda negra",
+          "subtitle": "SERIE • 2014 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2014",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xkdGdQDXzL6uKDgSJRz3oJqOcrC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yec9CEAVgwVLiXHfqMKeMN3pff5.jpg",
+          "overview": "Una mirada al oscuro mundo criminal de Griselda Blanco y su telaraña de mentiras y engaños. Griselda Blanco, una mujer que cuando era adolescente fue violada por su padrastro, ella decide irse de casa porque su madre no creía que su padrastro la maltratara, por lo que Griselda se une a una banda de criminales para sobrevivir sola en el mundo.",
+          "youtube_id": "eO5gPtO64bc",
+          "trailer_url": "https://www.youtube.com/watch?v=eO5gPtO64bc"
         },
         {
           "title": "High Potential: Detective Inesperada",
@@ -52,16 +112,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=WwxWpaAIic0"
         },
         {
-          "title": "Berlín y la dama del armiño",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "title": "Verliebt in Berlin",
+          "subtitle": "SERIE • 2005 • 1 Temporada",
           "media_type": "SERIE",
-          "year": "2026",
+          "year": "2005",
           "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3uhJ3AHKxSsEWe1BUG9pV0bpqna.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ntPgSYKwPg9xKO4VvLJYfInSyZa.jpg",
-          "overview": "Berlín, ansioso por dar un nuevo golpe, reúne a su banda en Sevilla y convierte a un ambicioso duque en víctima de su propio plan: robar una obra de arte de Leonardo da Vinci.",
-          "youtube_id": "Osp1fE5vFTQ",
-          "trailer_url": "https://www.youtube.com/watch?v=Osp1fE5vFTQ"
+          "poster_url": "https://image.tmdb.org/t/p/w500/gw00a3X2xZ8avePAMyD4olZtN9u.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ug8VmeqBEpXzvSgLiCwbAZ3AkLI.jpg",
+          "overview": "The original season follows the life of the unsophisticated but good-natured Lisa Plenske, and her incongruous job at the ultra-chic Berlin fashion house Kerima Moda; while the second season revolved around Lisa's ham-fisted but sly half-brother Bruno and junior designer Hannah Refrath.",
+          "youtube_id": "zw8eFypaCOo",
+          "trailer_url": "https://www.youtube.com/watch?v=zw8eFypaCOo"
         },
         {
           "title": "Nando entre dos mundos: Una película de Sintonía",
@@ -160,16 +220,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=jPCzXhdIO9M"
         },
         {
-          "title": "Radical",
-          "subtitle": "PELÍCULA • 2023 • 2h 7m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 7m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eSatbygYZp8ooprBHZdb6GFZxGB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gutU32BiBxJvJdzLv5RWC9hQhNh.jpg",
-          "overview": "En una ciudad fronteriza mexicana plagada de negligencia, corrupción y violencia, un maestro frustrado intenta un nuevo método radical para romper con la apatía de sus alumnos y desbloquear su curiosidad, su potencial... y tal vez incluso su genio.",
-          "youtube_id": "w3riDEpCVx0",
-          "trailer_url": "https://www.youtube.com/watch?v=w3riDEpCVx0"
+          "title": "Fera Radical",
+          "subtitle": "SERIE • 1988 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "1988",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/z2vkMn8SgKzQIRGtimWk1MRgJHC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bxXX3n6Shy6Edcq8LKvKm5Kn49n.jpg",
+          "overview": "Cláudia returns to her rural hometown in order to take revenge for the murder of her family a long time ago. She believes that the Flores family committed the crime and tries to destroy them....",
+          "youtube_id": "HiVZwWtAMec",
+          "trailer_url": "https://www.youtube.com/watch?v=HiVZwWtAMec"
         },
         {
           "title": "La sociedad de la nieve",
@@ -242,66 +302,6 @@
           "overview": "En 1971, cuatro mujeres desafían las normas ultraconservadoras y se unen a la primera fuerza policial femenina de México, solo para descubrir que es un truco publicitario para distraer a los medios de un asesino en serie. Cuando los decesos se acumulan, hacen un pacto para llevar al asesino ante la justicia.",
           "youtube_id": "UCLs0jEx0XE",
           "trailer_url": "https://www.youtube.com/watch?v=UCLs0jEx0XE"
-        },
-        {
-          "title": "Michael",
-          "subtitle": "PELÍCULA • 2026 • 2h 8m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mB3zisIw3bsQcoDSnvMPAQhjrTM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
-          "overview": "Narra la vida de Michael Jackson más allá de la música, recorriendo su trayectoria desde el descubrimiento de su extraordinario talento como líder de los Jackson Five hasta convertirse en un artista visionario cuya ambición creativa le impulsó a convertirse en el artista más grande del mundo.",
-          "youtube_id": "7wWEvqjsvxE",
-          "trailer_url": "https://www.youtube.com/watch?v=7wWEvqjsvxE"
-        },
-        {
-          "title": "Zeta",
-          "subtitle": "PELÍCULA • 2026 • 2h 12m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 12m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tEFMZGcmxBDCodbLAqmrjdjCTwm.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ptcyGmBonW6mDQmrPhXbt6Rjrlp.jpg",
-          "overview": "Cuatro exoficiales de inteligencia españoles son asesinados a la vez en todo el mundo. El CNI descubre que todos participaron en la encubierta \"Operación Ciénaga\" hace décadas en Colombia. Zeta, el mejor operativo del CNI, debe encontrar y proteger al único superviviente, enfrentándose a su misión más letal. El operativo colombiano Alfa se une a Zeta, conociendo más secretos de \"Ciénaga\" que él.",
-          "youtube_id": "nGKOcQntrfU",
-          "trailer_url": "https://www.youtube.com/watch?v=nGKOcQntrfU"
-        },
-        {
-          "title": "Proyecto final",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/11rCh2E4SmdT06Qr9HsBrIftoHQ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/rc3Jy6sWFt7PDVGFqLjvo7tle13.jpg",
-          "overview": "Nueva escuela, nuevo comienzo..., hasta que ciertos ataques en línea y un peligroso acercamiento con un compañero incitan una transformación en Tamara.",
-          "youtube_id": "jmOop0Cm828",
-          "trailer_url": "https://www.youtube.com/watch?v=jmOop0Cm828"
-        },
-        {
-          "title": "La Niña",
-          "subtitle": "SERIE • 2016 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2016",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uzNOxyNt1WIXt9KBRKytiqQZ02y.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cckSh7WjbbecR3R0sjEyefmCzWo.jpg",
-          "overview": "Una joven que formó parte de la guerrilla busca ahora una vida mejor en la ciudad. Quiere estudiar medicina, para curar en lugar de hacer daño, pero tendrá un reto, porque formar parte de grupos de forajidos siempre deja consecuencias.",
-          "youtube_id": "3ytB2W9X5Ps",
-          "trailer_url": "https://www.youtube.com/watch?v=3ytB2W9X5Ps"
-        },
-        {
-          "title": "Apocalipsis Z: el principio del fin",
-          "subtitle": "PELÍCULA • 2024 • 1h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jaBToJ1DZcwn5wOsQeLOXFVlBLn.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lTYGtgDRygku7iiFLWyiEc4wLzz.jpg",
-          "overview": "Cuando una especie de rabia que transforma a la gente en criaturas agresivas se extiende por el planeta, Manel se aísla en casa con su gato, recurriendo a su ingenio para sobrevivir; pero pronto deberán salir a buscar comida, por tierra y por mar, sorteando muchos peligros.",
-          "youtube_id": "nH76THmb-Kw",
-          "trailer_url": "https://www.youtube.com/watch?v=nH76THmb-Kw"
         }
       ]
     },
@@ -345,18 +345,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
-          "title": "Deseo",
-          "subtitle": "PELÍCULA • 2026 • 1h 37m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5lJPvf7cJ2r2EiNrnvBVYpusKFM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oBter8Y5p2ZFUwWgQ1T9pulGFTJ.jpg",
-          "overview": "Sigue a Lucero, una exitosa abogada con una vida aparentemente perfecta que oculta un profundo vacío. Su mundo se desmorona cuando se involucra en una relación obsesiva con el joven entrenador de natación de su hija, desatando un peligroso triángulo amoroso.",
-          "youtube_id": "bA7D6wx_Vy4",
-          "trailer_url": "https://www.youtube.com/watch?v=bA7D6wx_Vy4"
-        },
-        {
           "title": "Shake, Rattle & Roll: Evil Origins",
           "subtitle": "PELÍCULA • 2026 • 2h 28m",
           "media_type": "PELÍCULA",
@@ -369,16 +357,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=A5QQvRaHxDw"
         },
         {
-          "title": "No se desea buena suerte",
-          "subtitle": "PELÍCULA • 2026 • 1h 36m",
+          "title": "Deseo",
+          "subtitle": "PELÍCULA • 2026 • 1h 37m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
-          "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
-          "youtube_id": "ZEpoHoGFkW8",
-          "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5lJPvf7cJ2r2EiNrnvBVYpusKFM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oBter8Y5p2ZFUwWgQ1T9pulGFTJ.jpg",
+          "overview": "Sigue a Lucero, una exitosa abogada con una vida aparentemente perfecta que oculta un profundo vacío. Su mundo se desmorona cuando se involucra en una relación obsesiva con el joven entrenador de natación de su hija, desatando un peligroso triángulo amoroso.",
+          "youtube_id": "bA7D6wx_Vy4",
+          "trailer_url": "https://www.youtube.com/watch?v=bA7D6wx_Vy4"
         },
         {
           "title": "Spider-Man: A través del Spider-Verso",
@@ -393,16 +381,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=E4noegsHPvM"
         },
         {
-          "title": "Intercambiados",
-          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "title": "No se desea buena suerte",
+          "subtitle": "PELÍCULA • 2026 • 1h 36m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
-          "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
-          "youtube_id": "oZlnTUemKPU",
-          "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
+          "extra_info": "1h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+          "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
+          "youtube_id": "ZEpoHoGFkW8",
+          "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
         },
         {
           "title": "Nando entre dos mundos: Una película de Sintonía",
@@ -427,24 +415,24 @@
           "overview": "Cuando no están llenando estadios, las superestrellas del k‑pop Rumi, Mira y Zoey usan sus superpoderes secretos para proteger a sus fans de amenazas sobrenaturales.",
           "youtube_id": "61EyTn4ZxYk",
           "trailer_url": "https://www.youtube.com/watch?v=61EyTn4ZxYk"
+        },
+        {
+          "title": "Intercambiados",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+          "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
+          "youtube_id": "oZlnTUemKPU",
+          "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
         }
       ]
     },
     {
       "category": "Top 10 Disney+",
       "items": [
-        {
-          "title": "Avengers: Infinity War",
-          "subtitle": "PELÍCULA • 2018 • 2h 29m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 29m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
-          "youtube_id": "aAoKqx9wb1I",
-          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
-        },
         {
           "title": "El diablo viste a la moda 2",
           "subtitle": "PELÍCULA • 2026 • 1h 59m",
@@ -456,42 +444,6 @@
           "overview": "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
           "youtube_id": "O52u0imiqNY",
           "trailer_url": "https://www.youtube.com/watch?v=O52u0imiqNY"
-        },
-        {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
-        },
-        {
-          "title": "Avatar: Fuego y ceniza",
-          "subtitle": "PELÍCULA • 2025 • 3h 18m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "3h 18m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
-          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
-          "youtube_id": "z05pKcZwz-U",
-          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
-        },
-        {
-          "title": "Avengers: Los Vengadores",
-          "subtitle": "PELÍCULA • 2012 • 2h 23m",
-          "media_type": "PELÍCULA",
-          "year": "2012",
-          "extra_info": "2h 23m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cWNIua1iPA4kGyQxJGvnx7UIzoT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-          "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel \"Los Vengadores\", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
-          "youtube_id": "yNXfOOL8824",
-          "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
         },
         {
           "title": "Camp Rock 3",
@@ -506,6 +458,42 @@
           "trailer_url": "https://www.youtube.com/watch?v=_H7eJwYdaMA"
         },
         {
+          "title": "Avengers: Los Vengadores",
+          "subtitle": "PELÍCULA • 2012 • 2h 23m",
+          "media_type": "PELÍCULA",
+          "year": "2012",
+          "extra_info": "2h 23m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cWNIua1iPA4kGyQxJGvnx7UIzoT.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+          "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel \"Los Vengadores\", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
+          "youtube_id": "yNXfOOL8824",
+          "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
+        },
+        {
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
+        },
+        {
+          "title": "Avengers: Infinity War",
+          "subtitle": "PELÍCULA • 2018 • 2h 29m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "2h 29m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
+          "youtube_id": "aAoKqx9wb1I",
+          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
+        },
+        {
           "title": "The Punisher: La última muerte",
           "subtitle": "PELÍCULA • 2026 • 48m",
           "media_type": "PELÍCULA",
@@ -516,6 +504,18 @@
           "overview": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha.",
           "youtube_id": "Tz5TdC2Pez8",
           "trailer_url": "https://www.youtube.com/watch?v=Tz5TdC2Pez8"
+        },
+        {
+          "title": "Avatar: Fuego y ceniza",
+          "subtitle": "PELÍCULA • 2025 • 3h 18m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "3h 18m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
+          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
+          "youtube_id": "z05pKcZwz-U",
+          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
           "title": "Capitán América: Un nuevo mundo",
@@ -576,7 +576,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5OrMnHwTlvndWr5vIWvyZhi4LfU.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
           "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
           "youtube_id": "S7w4cDtHyFQ",
@@ -588,7 +588,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 25m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/GUVYjqDLWy61q9hDYiV9M5UEJe.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fBFjaDWfNslvrs6bJjknmG27wOS.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
           "overview": "A medida qué Spider-Man está en la cima de su carrera protegiendo la ciudad de Nueva York, una serie de crímenes inusuales lo arrastran a una red de misterios más grande de lo que jamás haya enfrentado.",
           "youtube_id": "QXibcL7-XbU",
@@ -607,18 +607,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=u7tyy_zX134"
         },
         {
-          "title": "Spider-Man 2: Lejos de Casa",
-          "subtitle": "PELÍCULA • 2019 • 2h 10m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 10m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
-          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-          "youtube_id": "8MI5d5WXRvM",
-          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
-        },
-        {
           "title": "El Sorprendente Hombre-Araña",
           "subtitle": "PELÍCULA • 2012 • 2h 16m",
           "media_type": "PELÍCULA",
@@ -629,6 +617,18 @@
           "overview": "Peter Parker es un estudiante que fue abandonado por sus padres cuando era niño, quedando a cargo de su tío Ben y su tía May. Cuando Peter descubre un misterioso maletín perteneciente a su padre, comienza la búsqueda para entender la desaparición de sus padres, que lo lleva directamente al laboratorio en Oscorp del Dr. Curt Connors , ex compañero de trabajo de su padre.",
           "youtube_id": "eou9olJruK4",
           "trailer_url": "https://www.youtube.com/watch?v=eou9olJruK4"
+        },
+        {
+          "title": "Spider-Man 2: Lejos de Casa",
+          "subtitle": "PELÍCULA • 2019 • 2h 10m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "2h 10m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
+          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+          "youtube_id": "8MI5d5WXRvM",
+          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
           "title": "La guerra de los mundos",
@@ -649,7 +649,7 @@
           "year": "2021",
           "extra_info": "2h 28m",
           "poster_url": "https://image.tmdb.org/t/p/w500/9OGkKMnYgSc0TzSIErcOOiKllrK.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uyrOU4BDm2kbVxFsMiDFIHDhc4d.jpg",
           "overview": "Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man.",
           "youtube_id": "JAj8EheWN3o",
           "trailer_url": "https://www.youtube.com/watch?v=JAj8EheWN3o"
@@ -667,16 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=cCXW3KE8Bto"
         },
         {
-          "title": "El Guardián: Último Refugio",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "title": "El Origen",
+          "subtitle": "PELÍCULA • 2010 • 2h 28m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4oAt5z4IODM7yPFGevNJ1Qg7ij8.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
-          "overview": "Un recluso en una remota isla escocesa rescata a una niña del mar, desencadenando una peligrosa secuencia de acontecimientos.",
-          "youtube_id": "bCBSN8qSfIQ",
-          "trailer_url": "https://www.youtube.com/watch?v=bCBSN8qSfIQ"
+          "year": "2010",
+          "extra_info": "2h 28m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xgPGDEKkBrXhPaNmwIlf8e2RCMk.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+          "overview": "Dom Cobb es un ladrón de secretos que se sumerge en los sueños de otros para extraer información. Para redimirse, debe implantar una idea en lugar de extraerla. En un viaje de sueños dentro de sueños, lucha por la redención mientras se enfrenta a sus propios demonios.",
+          "youtube_id": "RV9L7ui9Cn8",
+          "trailer_url": "https://www.youtube.com/watch?v=RV9L7ui9Cn8"
         }
       ]
     },
@@ -720,6 +720,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
         },
         {
+          "title": "Plan familiar",
+          "subtitle": "PELÍCULA • 2023 • 1h 58m",
+          "media_type": "PELÍCULA",
+          "year": "2023",
+          "extra_info": "1h 58m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mBiylEUJgWikljJJNB61u7dDPON.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/arNhhBd88bP3Bjoe4HT8MFE1JQA.jpg",
+          "overview": "Dan Morgan es un hombre con muchas identidades: es un esposo devoto, un padre amoroso y un reconocido vendedor de autos. También es un asesino retirado. Cuando su pasado pone en riesgo a su presente, se ve forzado a llevar a su ingenua familia en un viaje como ningún otro.",
+          "youtube_id": "KpV1w6ciVnY",
+          "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
+        },
+        {
           "title": "Los asesinos de la luna",
           "subtitle": "PELÍCULA • 2023 • 3h 26m",
           "media_type": "PELÍCULA",
@@ -744,18 +756,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4kERcyiUyPw"
         },
         {
-          "title": "Plan familiar",
-          "subtitle": "PELÍCULA • 2023 • 1h 58m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mBiylEUJgWikljJJNB61u7dDPON.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/arNhhBd88bP3Bjoe4HT8MFE1JQA.jpg",
-          "overview": "Dan Morgan es un hombre con muchas identidades: es un esposo devoto, un padre amoroso y un reconocido vendedor de autos. También es un asesino retirado. Cuando su pasado pone en riesgo a su presente, se ve forzado a llevar a su ingenua familia en un viaje como ningún otro.",
-          "youtube_id": "KpV1w6ciVnY",
-          "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
-        },
-        {
           "title": "La fuente de la juventud",
           "subtitle": "PELÍCULA • 2025 • 2h 6m",
           "media_type": "PELÍCULA",
@@ -768,16 +768,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=TmGOL0GYqiM"
         },
         {
-          "title": "Napoleón",
-          "subtitle": "PELÍCULA • 2023 • 2h 38m",
+          "title": "Plan familiar 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 46m",
           "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/b6WCtZMerTNDxaMABi32EXeQ5ZX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/33pMXav77ICRnceEBLhL8lXTywv.jpg",
-          "overview": "Una mirada personal a los orígenes del líder militar francés y su rápido y despiadado ascenso a emperador. La historia se ve a través de la lente de la relación adictiva y volátil de Napoleón Bonaparte con su esposa y único amor verdadero, Josefina.",
-          "youtube_id": "QeLDyyihG2M",
-          "trailer_url": "https://www.youtube.com/watch?v=QeLDyyihG2M"
+          "year": "2025",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
+          "youtube_id": "3WoEPRpdTIU",
+          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         },
         {
           "title": "The Dink: Pasión por el pickleball",
@@ -792,21 +792,81 @@
           "trailer_url": "https://www.youtube.com/watch?v=rjCxlQG5kcw"
         },
         {
-          "title": "Plan familiar 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 46m",
+          "title": "Napoleón",
+          "subtitle": "PELÍCULA • 2023 • 2h 38m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
-          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
-          "youtube_id": "3WoEPRpdTIU",
-          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
+          "year": "2023",
+          "extra_info": "2h 38m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/b6WCtZMerTNDxaMABi32EXeQ5ZX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/33pMXav77ICRnceEBLhL8lXTywv.jpg",
+          "overview": "Una mirada personal a los orígenes del líder militar francés y su rápido y despiadado ascenso a emperador. La historia se ve a través de la lente de la relación adictiva y volátil de Napoleón Bonaparte con su esposa y único amor verdadero, Josefina.",
+          "youtube_id": "QeLDyyihG2M",
+          "trailer_url": "https://www.youtube.com/watch?v=QeLDyyihG2M"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Moria",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/sbgnRVTa1ovATE2rH1TZXrb4dLH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/wCqQrj4536IkhFlxDSytf4p3H09.jpg",
+      "overview": "En esta dramatización que desborda de estilo, Moria Casán transforma la historia de su vida en un espectáculo simbólico de fama, controversia y reinvención constante.",
+      "youtube_id": "u_nfOOsUQeY",
+      "trailer_url": "https://www.youtube.com/watch?v=u_nfOOsUQeY"
+    },
+    {
+      "title": "Los caballeros",
+      "subtitle": "SERIE • 2024 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/tbDjST2OOauVEOm8jdokj3zTVp2.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/iJMSvEENvkgIEImhBSKmGCev15w.jpg",
+      "overview": "Cuando el aristócrata Eddie hereda la finca familiar, descubre que alberga un enorme imperio de cannabis... y que sus propietarios no se van a ir a ninguna parte.",
+      "youtube_id": "jfP4OGskLis",
+      "trailer_url": "https://www.youtube.com/watch?v=jfP4OGskLis"
+    },
+    {
+      "title": "No se desea buena suerte",
+      "subtitle": "PELÍCULA • 2026 • 1h 36m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 36m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+      "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
+      "youtube_id": "ZEpoHoGFkW8",
+      "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
+    },
+    {
+      "title": "Amarga Navidad",
+      "subtitle": "PELÍCULA • 2026 • 1h 51m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 51m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+      "overview": "Tras el fallecimiento de su madre en diciembre, Elsa, directora de publicidad, se sumerge en el trabajo para afrontar la situación. Cuando un ataque de pánico la obliga a tomarse un descanso, decide viajar a Lanzarote con su amiga Patricia mientras su pareja, Bonifacio, se queda en Madrid.",
+      "youtube_id": "SNbVMk-nLu4",
+      "trailer_url": "https://www.youtube.com/watch?v=SNbVMk-nLu4"
+    },
+    {
+      "title": "Perfil falso",
+      "subtitle": "SERIE • 2023 • 3 Temporadas",
+      "media_type": "SERIE",
+      "year": "2023",
+      "extra_info": "3 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/jscEj5F2tEwWHZm7NVNfbdTJg22.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/7e7GKWe49a8g96KP037PcrGtG6I.jpg",
+      "overview": "Camila conoce a su príncipe azul a través de una aplicación de citas. Tras un idílico romance, planea darle una sorpresa..., pero termina atrapada en un falso paraíso.",
+      "youtube_id": "IvQ166TY9nU",
+      "trailer_url": "https://www.youtube.com/watch?v=IvQ166TY9nU"
+    },
     {
       "title": "Cenizas del pasado",
       "subtitle": "SERIE • 2023 • 1 Temporada",
@@ -832,16 +892,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=2IO_f2Auo3U"
     },
     {
-      "title": "La viuda negra",
-      "subtitle": "PELÍCULA • 2025 • 2h 2m",
-      "media_type": "PELÍCULA",
-      "year": "2025",
-      "extra_info": "2h 2m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tgmNdAQvLxLcSni35oP0nd8W3bq.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/pOR4Aye28KLZ5Jogu8zc3yiqBpT.jpg",
-      "overview": "En este thriller basado en hechos reales, la investigación a partir del hallazgo de un hombre muerto hace añicos la fachada perfecta de su viuda y expone una doble vida secreta.",
-      "youtube_id": "hym82qWow9c",
-      "trailer_url": "https://www.youtube.com/watch?v=hym82qWow9c"
+      "title": "Griselda Blanco: La viuda negra",
+      "subtitle": "SERIE • 2014 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2014",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xkdGdQDXzL6uKDgSJRz3oJqOcrC.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yec9CEAVgwVLiXHfqMKeMN3pff5.jpg",
+      "overview": "Una mirada al oscuro mundo criminal de Griselda Blanco y su telaraña de mentiras y engaños. Griselda Blanco, una mujer que cuando era adolescente fue violada por su padrastro, ella decide irse de casa porque su madre no creía que su padrastro la maltratara, por lo que Griselda se une a una banda de criminales para sobrevivir sola en el mundo.",
+      "youtube_id": "eO5gPtO64bc",
+      "trailer_url": "https://www.youtube.com/watch?v=eO5gPtO64bc"
     },
     {
       "title": "High Potential: Detective Inesperada",
@@ -856,16 +916,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=WwxWpaAIic0"
     },
     {
-      "title": "Berlín y la dama del armiño",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "title": "Verliebt in Berlin",
+      "subtitle": "SERIE • 2005 • 1 Temporada",
       "media_type": "SERIE",
-      "year": "2026",
+      "year": "2005",
       "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/3uhJ3AHKxSsEWe1BUG9pV0bpqna.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ntPgSYKwPg9xKO4VvLJYfInSyZa.jpg",
-      "overview": "Berlín, ansioso por dar un nuevo golpe, reúne a su banda en Sevilla y convierte a un ambicioso duque en víctima de su propio plan: robar una obra de arte de Leonardo da Vinci.",
-      "youtube_id": "Osp1fE5vFTQ",
-      "trailer_url": "https://www.youtube.com/watch?v=Osp1fE5vFTQ"
+      "poster_url": "https://image.tmdb.org/t/p/w500/gw00a3X2xZ8avePAMyD4olZtN9u.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/ug8VmeqBEpXzvSgLiCwbAZ3AkLI.jpg",
+      "overview": "The original season follows the life of the unsophisticated but good-natured Lisa Plenske, and her incongruous job at the ultra-chic Berlin fashion house Kerima Moda; while the second season revolved around Lisa's ham-fisted but sly half-brother Bruno and junior designer Hannah Refrath.",
+      "youtube_id": "zw8eFypaCOo",
+      "trailer_url": "https://www.youtube.com/watch?v=zw8eFypaCOo"
     },
     {
       "title": "Nando entre dos mundos: Una película de Sintonía",
@@ -964,16 +1024,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=jPCzXhdIO9M"
     },
     {
-      "title": "Radical",
-      "subtitle": "PELÍCULA • 2023 • 2h 7m",
-      "media_type": "PELÍCULA",
-      "year": "2023",
-      "extra_info": "2h 7m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/eSatbygYZp8ooprBHZdb6GFZxGB.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/gutU32BiBxJvJdzLv5RWC9hQhNh.jpg",
-      "overview": "En una ciudad fronteriza mexicana plagada de negligencia, corrupción y violencia, un maestro frustrado intenta un nuevo método radical para romper con la apatía de sus alumnos y desbloquear su curiosidad, su potencial... y tal vez incluso su genio.",
-      "youtube_id": "w3riDEpCVx0",
-      "trailer_url": "https://www.youtube.com/watch?v=w3riDEpCVx0"
+      "title": "Fera Radical",
+      "subtitle": "SERIE • 1988 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "1988",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/z2vkMn8SgKzQIRGtimWk1MRgJHC.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/bxXX3n6Shy6Edcq8LKvKm5Kn49n.jpg",
+      "overview": "Cláudia returns to her rural hometown in order to take revenge for the murder of her family a long time ago. She believes that the Flores family committed the crime and tries to destroy them....",
+      "youtube_id": "HiVZwWtAMec",
+      "trailer_url": "https://www.youtube.com/watch?v=HiVZwWtAMec"
     },
     {
       "title": "La sociedad de la nieve",
@@ -1046,66 +1106,6 @@
       "overview": "En 1971, cuatro mujeres desafían las normas ultraconservadoras y se unen a la primera fuerza policial femenina de México, solo para descubrir que es un truco publicitario para distraer a los medios de un asesino en serie. Cuando los decesos se acumulan, hacen un pacto para llevar al asesino ante la justicia.",
       "youtube_id": "UCLs0jEx0XE",
       "trailer_url": "https://www.youtube.com/watch?v=UCLs0jEx0XE"
-    },
-    {
-      "title": "Michael",
-      "subtitle": "PELÍCULA • 2026 • 2h 8m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 8m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mB3zisIw3bsQcoDSnvMPAQhjrTM.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
-      "overview": "Narra la vida de Michael Jackson más allá de la música, recorriendo su trayectoria desde el descubrimiento de su extraordinario talento como líder de los Jackson Five hasta convertirse en un artista visionario cuya ambición creativa le impulsó a convertirse en el artista más grande del mundo.",
-      "youtube_id": "7wWEvqjsvxE",
-      "trailer_url": "https://www.youtube.com/watch?v=7wWEvqjsvxE"
-    },
-    {
-      "title": "Zeta",
-      "subtitle": "PELÍCULA • 2026 • 2h 12m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 12m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tEFMZGcmxBDCodbLAqmrjdjCTwm.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ptcyGmBonW6mDQmrPhXbt6Rjrlp.jpg",
-      "overview": "Cuatro exoficiales de inteligencia españoles son asesinados a la vez en todo el mundo. El CNI descubre que todos participaron en la encubierta \"Operación Ciénaga\" hace décadas en Colombia. Zeta, el mejor operativo del CNI, debe encontrar y proteger al único superviviente, enfrentándose a su misión más letal. El operativo colombiano Alfa se une a Zeta, conociendo más secretos de \"Ciénaga\" que él.",
-      "youtube_id": "nGKOcQntrfU",
-      "trailer_url": "https://www.youtube.com/watch?v=nGKOcQntrfU"
-    },
-    {
-      "title": "Proyecto final",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/11rCh2E4SmdT06Qr9HsBrIftoHQ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/rc3Jy6sWFt7PDVGFqLjvo7tle13.jpg",
-      "overview": "Nueva escuela, nuevo comienzo..., hasta que ciertos ataques en línea y un peligroso acercamiento con un compañero incitan una transformación en Tamara.",
-      "youtube_id": "jmOop0Cm828",
-      "trailer_url": "https://www.youtube.com/watch?v=jmOop0Cm828"
-    },
-    {
-      "title": "La Niña",
-      "subtitle": "SERIE • 2016 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2016",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/uzNOxyNt1WIXt9KBRKytiqQZ02y.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/cckSh7WjbbecR3R0sjEyefmCzWo.jpg",
-      "overview": "Una joven que formó parte de la guerrilla busca ahora una vida mejor en la ciudad. Quiere estudiar medicina, para curar en lugar de hacer daño, pero tendrá un reto, porque formar parte de grupos de forajidos siempre deja consecuencias.",
-      "youtube_id": "3ytB2W9X5Ps",
-      "trailer_url": "https://www.youtube.com/watch?v=3ytB2W9X5Ps"
-    },
-    {
-      "title": "Apocalipsis Z: el principio del fin",
-      "subtitle": "PELÍCULA • 2024 • 1h 59m",
-      "media_type": "PELÍCULA",
-      "year": "2024",
-      "extra_info": "1h 59m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/jaBToJ1DZcwn5wOsQeLOXFVlBLn.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/lTYGtgDRygku7iiFLWyiEc4wLzz.jpg",
-      "overview": "Cuando una especie de rabia que transforma a la gente en criaturas agresivas se extiende por el planeta, Manel se aísla en casa con su gato, recurriendo a su ingenio para sobrevivir; pero pronto deberán salir a buscar comida, por tierra y por mar, sorteando muchos peligros.",
-      "youtube_id": "nH76THmb-Kw",
-      "trailer_url": "https://www.youtube.com/watch?v=nH76THmb-Kw"
     }
   ]
 }
