@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Ludwig",
+          "subtitle": "SERIE • 2024 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qDqGfqAQXANNCWPSRsQvnWNdZmJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9HQnJdzu92M81huqyT9jQQyaU6P.jpg",
+          "overview": "John Taylor vive en una tranquila soledad, diseñando rompecabezas para ganarse la vida, bajo el seudónimo de «Ludwig». Cuando su gemelo idéntico, James, desaparece de la faz de la tierra, John asume la identidad de su hermano en una búsqueda para descubrir su paradero.",
+          "youtube_id": "GydS_60QoIQ",
+          "trailer_url": "https://www.youtube.com/watch?v=GydS_60QoIQ"
+        },
+        {
+          "title": "La fiera",
+          "subtitle": "PELÍCULA • 2026 • 1h 53m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 53m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wYCJdVniQwV7x61g37ffb6bX99Q.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vIYxi7G0nK64cgiiVwSV0sFeQ7F.jpg",
+          "overview": "Un grupo de amigos unidos por su amor a los deportes extremos descubre el salto base en traje de alas…, pero sentir que vuelas es uno de los mayores riesgos.",
+          "youtube_id": "vB0eS8X1wdQ",
+          "trailer_url": "https://www.youtube.com/watch?v=vB0eS8X1wdQ"
+        },
+        {
+          "title": "Quinze Dias",
+          "subtitle": "PELÍCULA • 2026 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/f52tZybwHnomYCkRhe9rHMSEz5j.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/wiIFKSEZkKgmoI1ylsrbqvRxu1S.jpg",
+          "overview": "Felipe solo quería disfrutar de un verano tranquilo viendo musicales con la artista de su madre... hasta que llega su 'crush' de la adolescencia para unirse a la fiesta.",
+          "youtube_id": "ioNugUobv5Y",
+          "trailer_url": "https://www.youtube.com/watch?v=ioNugUobv5Y"
+        },
+        {
           "title": "Oasis",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -34,7 +70,7 @@
           "year": "2026",
           "extra_info": "1h 35m",
           "poster_url": "https://image.tmdb.org/t/p/w500/6PwLfI2qpRZIIwN63XnNMYAqj87.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jUdV706J4d3nUEbfimqVnGZqTbW.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/xYro90dW4z7es4JG1vo1bmZ0lUN.jpg",
           "overview": "Después de que su jefe multimillonario sea asesinado frente a él, el agente de seguridad Cole Reed es incriminado por el homicidio y queda al borde de la bancarrota e injusticia. Perseguido por fuerzas internacionales, Reed debe limpiar su nombre y descubrir la conspiración detrás del asesinato, en una carrera contra el tiempo con acción intensa en alta mar y entornos corporativos letales.",
           "youtube_id": "7zX9tH5y6wY",
           "trailer_url": "https://www.youtube.com/watch?v=7zX9tH5y6wY"
@@ -172,16 +208,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=2IO_f2Auo3U"
         },
         {
-          "title": "La viuda negra",
-          "subtitle": "PELÍCULA • 2025 • 2h 2m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 2m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tgmNdAQvLxLcSni35oP0nd8W3bq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/pOR4Aye28KLZ5Jogu8zc3yiqBpT.jpg",
-          "overview": "En este thriller basado en hechos reales, la investigación a partir del hallazgo de un hombre muerto hace añicos la fachada perfecta de su viuda y expone una doble vida secreta.",
-          "youtube_id": "hym82qWow9c",
-          "trailer_url": "https://www.youtube.com/watch?v=hym82qWow9c"
+          "title": "Griselda Blanco: La viuda negra",
+          "subtitle": "SERIE • 2014 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2014",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xkdGdQDXzL6uKDgSJRz3oJqOcrC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yec9CEAVgwVLiXHfqMKeMN3pff5.jpg",
+          "overview": "Una mirada al oscuro mundo criminal de Griselda Blanco y su telaraña de mentiras y engaños. Griselda Blanco, una mujer que cuando era adolescente fue violada por su padrastro, ella decide irse de casa porque su madre no creía que su padrastro la maltratara, por lo que Griselda se une a una banda de criminales para sobrevivir sola en el mundo.",
+          "youtube_id": "eO5gPtO64bc",
+          "trailer_url": "https://www.youtube.com/watch?v=eO5gPtO64bc"
         },
         {
           "title": "High Potential: Detective Inesperada",
@@ -196,16 +232,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=WwxWpaAIic0"
         },
         {
-          "title": "Berlín y la dama del armiño",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "title": "Verliebt in Berlin",
+          "subtitle": "SERIE • 2005 • 1 Temporada",
           "media_type": "SERIE",
-          "year": "2026",
+          "year": "2005",
           "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3uhJ3AHKxSsEWe1BUG9pV0bpqna.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ntPgSYKwPg9xKO4VvLJYfInSyZa.jpg",
-          "overview": "Berlín, ansioso por dar un nuevo golpe, reúne a su banda en Sevilla y convierte a un ambicioso duque en víctima de su propio plan: robar una obra de arte de Leonardo da Vinci.",
-          "youtube_id": "Osp1fE5vFTQ",
-          "trailer_url": "https://www.youtube.com/watch?v=Osp1fE5vFTQ"
+          "poster_url": "https://image.tmdb.org/t/p/w500/gw00a3X2xZ8avePAMyD4olZtN9u.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ug8VmeqBEpXzvSgLiCwbAZ3AkLI.jpg",
+          "overview": "The original season follows the life of the unsophisticated but good-natured Lisa Plenske, and her incongruous job at the ultra-chic Berlin fashion house Kerima Moda; while the second season revolved around Lisa's ham-fisted but sly half-brother Bruno and junior designer Hannah Refrath.",
+          "youtube_id": "zw8eFypaCOo",
+          "trailer_url": "https://www.youtube.com/watch?v=zw8eFypaCOo"
         },
         {
           "title": "Nando entre dos mundos: Una película de Sintonía",
@@ -266,42 +302,6 @@
           "overview": "El dueño de un club nocturno está a punto de dejar atrás su peligroso pasado para volver a vivir con su novia. Cuando unos pistoleros enmascarados le roban y se ve acorralado por despiadados cárteles, llega un misterioso hombre interesado en comprar el negocio. Con el peligro acechándole por todos lados, deberá atravesar una mortífera red de engaños, poder y supervivencia, de la que escapar puede que ya no sea una opción.",
           "youtube_id": "FA80kZmV4g8",
           "trailer_url": "https://www.youtube.com/watch?v=FA80kZmV4g8"
-        },
-        {
-          "title": "Sirat: Trance en el desierto",
-          "subtitle": "PELÍCULA • 2025 • 1h 54m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/edEDZwU3kZerqdylZsyCn7feH23.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
-          "overview": "Un hombre y su hijo que llegan a una rave perdidos en medio de lo que se describen como las áridas y fantasmagóricas montañas del sur de Marruecos.",
-          "youtube_id": "uzSiKTWcML8",
-          "trailer_url": "https://www.youtube.com/watch?v=uzSiKTWcML8"
-        },
-        {
-          "title": "Machos alfa",
-          "subtitle": "SERIE • 2022 • 6 Temporadas",
-          "media_type": "SERIE",
-          "year": "2022",
-          "extra_info": "6 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fH1ezEIDo2YznbqwIu5z1HETde1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/judTMRynbo4oiBCHeS7bXrsTitJ.jpg",
-          "overview": "Pedro, Luis, Raúl y Santi son cuatro amigos que se sienten perdidos en la nueva era de empoderamiento femenino y que luchan por adaptarse, cada uno a su propia —y caótica— manera.",
-          "youtube_id": "seSA6OzeNpA",
-          "trailer_url": "https://www.youtube.com/watch?v=seSA6OzeNpA"
-        },
-        {
-          "title": "Entre hombres",
-          "subtitle": "SERIE • 2021 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2021",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/q0wEfPnqOg0eCp4Sc9eLl0HrwT9.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/48xptQ21l5U46xAym5a5ehezTVT.jpg",
-          "overview": "La historia se sitúa en 1996, en los bajos fondos de Buenos Aires, donde no existen diferencias entre santos y pecadores. Una fiesta prohibida, un asesinato que debe ser silenciado y un cassette de VHS serán los elementos que unirán una historia llena de sangre y violencia en un mundo brutal, sin esperanza.",
-          "youtube_id": "jPCzXhdIO9M",
-          "trailer_url": "https://www.youtube.com/watch?v=jPCzXhdIO9M"
         }
       ]
     },
@@ -333,18 +333,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=NRLPZ5Bj5VQ"
         },
         {
-          "title": "Spider-Man 2: Lejos de Casa",
-          "subtitle": "PELÍCULA • 2019 • 2h 10m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 10m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
-          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-          "youtube_id": "8MI5d5WXRvM",
-          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
-        },
-        {
           "title": "No se desea buena suerte",
           "subtitle": "PELÍCULA • 2026 • 1h 36m",
           "media_type": "PELÍCULA",
@@ -367,6 +355,18 @@
           "overview": "Sigue a Lucero, una exitosa abogada con una vida aparentemente perfecta que oculta un profundo vacío. Su mundo se desmorona cuando se involucra en una relación obsesiva con el joven entrenador de natación de su hija, desatando un peligroso triángulo amoroso.",
           "youtube_id": "bA7D6wx_Vy4",
           "trailer_url": "https://www.youtube.com/watch?v=bA7D6wx_Vy4"
+        },
+        {
+          "title": "Spider-Man 2: Lejos de Casa",
+          "subtitle": "PELÍCULA • 2019 • 2h 10m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "2h 10m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
+          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+          "youtube_id": "8MI5d5WXRvM",
+          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
           "title": "Spider-Man: A través del Spider-Verso",
@@ -417,16 +417,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=61EyTn4ZxYk"
         },
         {
-          "title": "Nando entre dos mundos: Una película de Sintonía",
-          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "title": "Mi mejor amigo, su novia y yo",
+          "subtitle": "PELÍCULA • 2026 • 1h 38m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jgIHdtYjvqNRMRcJFVnGUcLmNIb.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
-          "overview": "Nando, atrapado entre la vida familiar y sus obligaciones con el inframundo criminal, enfrenta una encrucijada imposible: decidir dónde depositar su lealtad.",
-          "youtube_id": "LHBhtNRTR6I",
-          "trailer_url": "https://www.youtube.com/watch?v=LHBhtNRTR6I"
+          "extra_info": "1h 38m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/slZ1c32UqVgl94XV3CMDFjiZdTZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oAFBdUTyyJZ7EMImZAdMGuPvt6V.jpg",
+          "overview": "Olli y Matze son dos mejores amigos que viven, trabajan y planean viajar por el mundo juntos…, hasta que el romance de Matze y Rebecca pone todo patas arriba.",
+          "youtube_id": "ZwZ8wtr3FYA",
+          "trailer_url": "https://www.youtube.com/watch?v=ZwZ8wtr3FYA"
         }
       ]
     },
@@ -470,18 +470,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=_H7eJwYdaMA"
         },
         {
-          "title": "El diablo viste a la moda 2",
-          "subtitle": "PELÍCULA • 2026 • 1h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ly9m3Uc947BUPe3dKu8UgWBhIXz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
-          "overview": "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
-          "youtube_id": "O52u0imiqNY",
-          "trailer_url": "https://www.youtube.com/watch?v=O52u0imiqNY"
-        },
-        {
           "title": "Avengers: Los Vengadores",
           "subtitle": "PELÍCULA • 2012 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -494,16 +482,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
         },
         {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "title": "El diablo viste a la moda 2",
+          "subtitle": "PELÍCULA • 2026 • 1h 59m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
+          "year": "2026",
+          "extra_info": "1h 59m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ly9m3Uc947BUPe3dKu8UgWBhIXz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
+          "overview": "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
+          "youtube_id": "O52u0imiqNY",
+          "trailer_url": "https://www.youtube.com/watch?v=O52u0imiqNY"
         },
         {
           "title": "The Punisher: La última muerte",
@@ -516,6 +504,18 @@
           "overview": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha.",
           "youtube_id": "Tz5TdC2Pez8",
           "trailer_url": "https://www.youtube.com/watch?v=Tz5TdC2Pez8"
+        },
+        {
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
           "title": "Avengers: Endgame",
@@ -542,16 +542,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=rX3UywPK-8w"
         },
         {
-          "title": "Hoppers: Operación castor",
-          "subtitle": "PELÍCULA • 2026 • 1h 44m",
+          "title": "Deadpool & Wolverine",
+          "subtitle": "PELÍCULA • 2024 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 44m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yONVGkDGZ07WGAR5Fq0GErzHUZ9.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/3Jj0A10NVu2dWnoEL5t5oT79L1Y.jpg",
-          "overview": "Mabel, una amante de los animales, utiliza una nueva e inteligente tecnología diseñada para \"transmitir\" la conciencia humana a animales robóticos realistas en un intento de comunicarse con los castores, descubriendo misterios dentro del mundo animal más allá de lo que pudiera haber imaginado.",
-          "youtube_id": "gTOJObGzJRk",
-          "trailer_url": "https://www.youtube.com/watch?v=gTOJObGzJRk"
+          "year": "2024",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+          "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
+          "youtube_id": "V4ZDKt9KICo",
+          "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
         }
       ]
     },
@@ -571,18 +571,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
         },
         {
-          "title": "Nunca debimos entrar",
-          "subtitle": "PELÍCULA • 2026 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/f4UDphdrM9qwvI6VPKoqTeJd9Yz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4wmvU2Px3C8v3qqyNpBmgJrWQEx.jpg",
-          "overview": "Cinco amigos exploran el sistema de cuevas tailandés de la Boca del diablo para tener una última aventura antes de comenzar su vida en el mundo adulto. Sin embargo, pronto descubren que algo los acecha bajo el agua... rápido, silencioso y mortal. En la sofocante oscuridad, la confianza se erosiona, el pánico se extiende y cada giro se transforma en una lucha por la supervivencia.",
-          "youtube_id": "iEYfTLsIqJ0",
-          "trailer_url": "https://www.youtube.com/watch?v=iEYfTLsIqJ0"
-        },
-        {
           "title": "Amos del Universo",
           "subtitle": "PELÍCULA • 2026 • 2h 21m",
           "media_type": "PELÍCULA",
@@ -593,6 +581,18 @@
           "overview": "En las regiones más lejanas del espacio, el Reino de Eternia está amenazado por el villano Skeletor y sus traviesos ejércitos de oscuridad. Para salvar el reino de su padre y proteger las vidas de sus seres queridos, el joven príncipe Adam tiene que recuperar una espada mítica y convertirse en el legendario guerrero conocido como \"He-Man\".",
           "youtube_id": "u7tyy_zX134",
           "trailer_url": "https://www.youtube.com/watch?v=u7tyy_zX134"
+        },
+        {
+          "title": "Nunca debimos entrar",
+          "subtitle": "PELÍCULA • 2026 • 1h 46m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/f4UDphdrM9qwvI6VPKoqTeJd9Yz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4wmvU2Px3C8v3qqyNpBmgJrWQEx.jpg",
+          "overview": "Cinco amigos exploran el sistema de cuevas tailandés de la Boca del diablo para tener una última aventura antes de comenzar su vida en el mundo adulto. Sin embargo, pronto descubren que algo los acecha bajo el agua... rápido, silencioso y mortal. En la sofocante oscuridad, la confianza se erosiona, el pánico se extiende y cada giro se transforma en una lucha por la supervivencia.",
+          "youtube_id": "iEYfTLsIqJ0",
+          "trailer_url": "https://www.youtube.com/watch?v=iEYfTLsIqJ0"
         },
         {
           "title": "Spider-Man: Un nuevo día",
@@ -667,16 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=JAj8EheWN3o"
         },
         {
-          "title": "El Sorprendente Hombre-Araña 2: La Amenaza de Electro",
-          "subtitle": "PELÍCULA • 2014 • 2h 22m",
+          "title": "Spider-Man: Un nuevo universo",
+          "subtitle": "PELÍCULA • 2018 • 1h 57m",
           "media_type": "PELÍCULA",
-          "year": "2014",
-          "extra_info": "2h 22m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/z07KnqwHWDY3q5utu0xBLKo3UWo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
-          "overview": "Ser el Hombre Araña es genial. Para Peter Parker, no hay mejor sensación que columpiarse entre rascacielos, ser el héroe y pasar el tiempo con Gwen. Pero ser el Hombre Araña no es gratuito: solo él puede proteger a sus conciudadanos de Nueva York de los temibles villanos que amenazan a la ciudad. Con el surgimiento de Electro, Peter debe enfrentar a un enemigo mucho más poderoso que él. Y como su antiguo amigo, Harry Osborn, regresa, Peter se da cuenta de que todos sus enemigos tienen algo en común: Oscorp.",
-          "youtube_id": "cCXW3KE8Bto",
-          "trailer_url": "https://www.youtube.com/watch?v=cCXW3KE8Bto"
+          "year": "2018",
+          "extra_info": "1h 57m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9l9exwzYsEtSbtuLHJQoNQVQGp7.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
+          "youtube_id": "11X12iudxPM",
+          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
         }
       ]
     },
@@ -720,16 +720,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         },
         {
-          "title": "Snoopy presenta: Hogar, dulce hogar",
-          "subtitle": "PELÍCULA • 2026 • 32m",
+          "title": "Identidad desconocida",
+          "subtitle": "PELÍCULA • 2002 • 1h 58m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/d4yUl1kF9CvC5izhDAPEeBqrd9C.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kpq5o3WbnTos5fQwtyfyOHwSMdm.jpg",
-          "overview": "Cuando su amada casita desaparece, Snoopy intenta buscarla y descubre qué es lo que hace que una casa se sienta como un hogar.",
-          "youtube_id": "wyv9vAtEXpQ",
-          "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
+          "year": "2002",
+          "extra_info": "1h 58m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zxYp7GhqzcNqNSkjHoOdx0BEtOM.jpg",
+          "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
+          "youtube_id": "AXMLkYf2Ilo",
+          "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
         },
         {
           "title": "Plan familiar 2",
@@ -756,6 +756,42 @@
           "trailer_url": "https://www.youtube.com/watch?v=TmGOL0GYqiM"
         },
         {
+          "title": "Snoopy presenta: Hogar, dulce hogar",
+          "subtitle": "PELÍCULA • 2026 • 32m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/d4yUl1kF9CvC5izhDAPEeBqrd9C.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/kpq5o3WbnTos5fQwtyfyOHwSMdm.jpg",
+          "overview": "Cuando su amada casita desaparece, Snoopy intenta buscarla y descubre qué es lo que hace que una casa se sienta como un hogar.",
+          "youtube_id": "wyv9vAtEXpQ",
+          "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
+        },
+        {
+          "title": "Una noche en el museo",
+          "subtitle": "PELÍCULA • 2006 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2006",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2KnxqvCQnpUUQTXlruNeXq8iPeF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ZVlzOBYCggLzvVYHK7Im6LohjC.jpg",
+          "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
+          "youtube_id": "MlQvqErjI1Q",
+          "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
+        },
+        {
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
           "title": "Eternidad",
           "subtitle": "PELÍCULA • 2025 • 1h 52m",
           "media_type": "PELÍCULA",
@@ -766,47 +802,47 @@
           "overview": "En un más allá donde las almas tienen una semana para decidir dónde pasarán la eternidad, Joan (Elizabeth Olsen) se enfrenta a la diabólica disyuntiva de elegir entre el hombre con el que ha compartido su vida (Miles Teller) y su primer amor (Callum Turner), que murió joven y ha estado décadas esperando a que ella llegara.",
           "youtube_id": "4kERcyiUyPw",
           "trailer_url": "https://www.youtube.com/watch?v=4kERcyiUyPw"
-        },
-        {
-          "title": "Los asesinos de la luna",
-          "subtitle": "PELÍCULA • 2023 • 3h 26m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "3h 26m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yCWQJFm2CJ5PddNxz2Ce9CNeqLT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/acvE3RWjDLgvbL2RtcyzkrsAyNV.jpg",
-          "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
-          "youtube_id": "qXVsJU0I8u0",
-          "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
-        },
-        {
-          "title": "Napoleón",
-          "subtitle": "PELÍCULA • 2023 • 2h 38m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/b6WCtZMerTNDxaMABi32EXeQ5ZX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/33pMXav77ICRnceEBLhL8lXTywv.jpg",
-          "overview": "Una mirada personal a los orígenes del líder militar francés y su rápido y despiadado ascenso a emperador. La historia se ve a través de la lente de la relación adictiva y volátil de Napoleón Bonaparte con su esposa y único amor verdadero, Josefina.",
-          "youtube_id": "QeLDyyihG2M",
-          "trailer_url": "https://www.youtube.com/watch?v=QeLDyyihG2M"
-        },
-        {
-          "title": "The Dink: Pasión por el pickleball",
-          "subtitle": "PELÍCULA • 2026 • 1h 43m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 43m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/baNFmDgcogr9IOw6TuB7NXNsyOK.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tJQhL95q63ITeBy5OTGPx51sFks.jpg",
-          "overview": "A Dusty “El Martillo” Boyd, un tenista profesional venido a menos, le vendría bien un triunfo. Por intentar salvar un club de campo en aprietos y conseguir el respeto de su padre, Dusty rompe un pacto sagrado y hace algo inconcebible: jugar pickleball.",
-          "youtube_id": "rjCxlQG5kcw",
-          "trailer_url": "https://www.youtube.com/watch?v=rjCxlQG5kcw"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Ludwig",
+      "subtitle": "SERIE • 2024 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/qDqGfqAQXANNCWPSRsQvnWNdZmJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/9HQnJdzu92M81huqyT9jQQyaU6P.jpg",
+      "overview": "John Taylor vive en una tranquila soledad, diseñando rompecabezas para ganarse la vida, bajo el seudónimo de «Ludwig». Cuando su gemelo idéntico, James, desaparece de la faz de la tierra, John asume la identidad de su hermano en una búsqueda para descubrir su paradero.",
+      "youtube_id": "GydS_60QoIQ",
+      "trailer_url": "https://www.youtube.com/watch?v=GydS_60QoIQ"
+    },
+    {
+      "title": "La fiera",
+      "subtitle": "PELÍCULA • 2026 • 1h 53m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 53m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/wYCJdVniQwV7x61g37ffb6bX99Q.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/vIYxi7G0nK64cgiiVwSV0sFeQ7F.jpg",
+      "overview": "Un grupo de amigos unidos por su amor a los deportes extremos descubre el salto base en traje de alas…, pero sentir que vuelas es uno de los mayores riesgos.",
+      "youtube_id": "vB0eS8X1wdQ",
+      "trailer_url": "https://www.youtube.com/watch?v=vB0eS8X1wdQ"
+    },
+    {
+      "title": "Quinze Dias",
+      "subtitle": "PELÍCULA • 2026 • 1h 41m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 41m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/f52tZybwHnomYCkRhe9rHMSEz5j.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/wiIFKSEZkKgmoI1ylsrbqvRxu1S.jpg",
+      "overview": "Felipe solo quería disfrutar de un verano tranquilo viendo musicales con la artista de su madre... hasta que llega su 'crush' de la adolescencia para unirse a la fiesta.",
+      "youtube_id": "ioNugUobv5Y",
+      "trailer_url": "https://www.youtube.com/watch?v=ioNugUobv5Y"
+    },
     {
       "title": "Oasis",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -838,7 +874,7 @@
       "year": "2026",
       "extra_info": "1h 35m",
       "poster_url": "https://image.tmdb.org/t/p/w500/6PwLfI2qpRZIIwN63XnNMYAqj87.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/jUdV706J4d3nUEbfimqVnGZqTbW.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/xYro90dW4z7es4JG1vo1bmZ0lUN.jpg",
       "overview": "Después de que su jefe multimillonario sea asesinado frente a él, el agente de seguridad Cole Reed es incriminado por el homicidio y queda al borde de la bancarrota e injusticia. Perseguido por fuerzas internacionales, Reed debe limpiar su nombre y descubrir la conspiración detrás del asesinato, en una carrera contra el tiempo con acción intensa en alta mar y entornos corporativos letales.",
       "youtube_id": "7zX9tH5y6wY",
       "trailer_url": "https://www.youtube.com/watch?v=7zX9tH5y6wY"
@@ -976,16 +1012,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=2IO_f2Auo3U"
     },
     {
-      "title": "La viuda negra",
-      "subtitle": "PELÍCULA • 2025 • 2h 2m",
-      "media_type": "PELÍCULA",
-      "year": "2025",
-      "extra_info": "2h 2m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tgmNdAQvLxLcSni35oP0nd8W3bq.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/pOR4Aye28KLZ5Jogu8zc3yiqBpT.jpg",
-      "overview": "En este thriller basado en hechos reales, la investigación a partir del hallazgo de un hombre muerto hace añicos la fachada perfecta de su viuda y expone una doble vida secreta.",
-      "youtube_id": "hym82qWow9c",
-      "trailer_url": "https://www.youtube.com/watch?v=hym82qWow9c"
+      "title": "Griselda Blanco: La viuda negra",
+      "subtitle": "SERIE • 2014 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2014",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xkdGdQDXzL6uKDgSJRz3oJqOcrC.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yec9CEAVgwVLiXHfqMKeMN3pff5.jpg",
+      "overview": "Una mirada al oscuro mundo criminal de Griselda Blanco y su telaraña de mentiras y engaños. Griselda Blanco, una mujer que cuando era adolescente fue violada por su padrastro, ella decide irse de casa porque su madre no creía que su padrastro la maltratara, por lo que Griselda se une a una banda de criminales para sobrevivir sola en el mundo.",
+      "youtube_id": "eO5gPtO64bc",
+      "trailer_url": "https://www.youtube.com/watch?v=eO5gPtO64bc"
     },
     {
       "title": "High Potential: Detective Inesperada",
@@ -1000,16 +1036,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=WwxWpaAIic0"
     },
     {
-      "title": "Berlín y la dama del armiño",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "title": "Verliebt in Berlin",
+      "subtitle": "SERIE • 2005 • 1 Temporada",
       "media_type": "SERIE",
-      "year": "2026",
+      "year": "2005",
       "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/3uhJ3AHKxSsEWe1BUG9pV0bpqna.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ntPgSYKwPg9xKO4VvLJYfInSyZa.jpg",
-      "overview": "Berlín, ansioso por dar un nuevo golpe, reúne a su banda en Sevilla y convierte a un ambicioso duque en víctima de su propio plan: robar una obra de arte de Leonardo da Vinci.",
-      "youtube_id": "Osp1fE5vFTQ",
-      "trailer_url": "https://www.youtube.com/watch?v=Osp1fE5vFTQ"
+      "poster_url": "https://image.tmdb.org/t/p/w500/gw00a3X2xZ8avePAMyD4olZtN9u.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/ug8VmeqBEpXzvSgLiCwbAZ3AkLI.jpg",
+      "overview": "The original season follows the life of the unsophisticated but good-natured Lisa Plenske, and her incongruous job at the ultra-chic Berlin fashion house Kerima Moda; while the second season revolved around Lisa's ham-fisted but sly half-brother Bruno and junior designer Hannah Refrath.",
+      "youtube_id": "zw8eFypaCOo",
+      "trailer_url": "https://www.youtube.com/watch?v=zw8eFypaCOo"
     },
     {
       "title": "Nando entre dos mundos: Una película de Sintonía",
@@ -1070,42 +1106,6 @@
       "overview": "El dueño de un club nocturno está a punto de dejar atrás su peligroso pasado para volver a vivir con su novia. Cuando unos pistoleros enmascarados le roban y se ve acorralado por despiadados cárteles, llega un misterioso hombre interesado en comprar el negocio. Con el peligro acechándole por todos lados, deberá atravesar una mortífera red de engaños, poder y supervivencia, de la que escapar puede que ya no sea una opción.",
       "youtube_id": "FA80kZmV4g8",
       "trailer_url": "https://www.youtube.com/watch?v=FA80kZmV4g8"
-    },
-    {
-      "title": "Sirat: Trance en el desierto",
-      "subtitle": "PELÍCULA • 2025 • 1h 54m",
-      "media_type": "PELÍCULA",
-      "year": "2025",
-      "extra_info": "1h 54m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/edEDZwU3kZerqdylZsyCn7feH23.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
-      "overview": "Un hombre y su hijo que llegan a una rave perdidos en medio de lo que se describen como las áridas y fantasmagóricas montañas del sur de Marruecos.",
-      "youtube_id": "uzSiKTWcML8",
-      "trailer_url": "https://www.youtube.com/watch?v=uzSiKTWcML8"
-    },
-    {
-      "title": "Machos alfa",
-      "subtitle": "SERIE • 2022 • 6 Temporadas",
-      "media_type": "SERIE",
-      "year": "2022",
-      "extra_info": "6 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/fH1ezEIDo2YznbqwIu5z1HETde1.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/judTMRynbo4oiBCHeS7bXrsTitJ.jpg",
-      "overview": "Pedro, Luis, Raúl y Santi son cuatro amigos que se sienten perdidos en la nueva era de empoderamiento femenino y que luchan por adaptarse, cada uno a su propia —y caótica— manera.",
-      "youtube_id": "seSA6OzeNpA",
-      "trailer_url": "https://www.youtube.com/watch?v=seSA6OzeNpA"
-    },
-    {
-      "title": "Entre hombres",
-      "subtitle": "SERIE • 2021 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2021",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/q0wEfPnqOg0eCp4Sc9eLl0HrwT9.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/48xptQ21l5U46xAym5a5ehezTVT.jpg",
-      "overview": "La historia se sitúa en 1996, en los bajos fondos de Buenos Aires, donde no existen diferencias entre santos y pecadores. Una fiesta prohibida, un asesinato que debe ser silenciado y un cassette de VHS serán los elementos que unirán una historia llena de sangre y violencia en un mundo brutal, sin esperanza.",
-      "youtube_id": "jPCzXhdIO9M",
-      "trailer_url": "https://www.youtube.com/watch?v=jPCzXhdIO9M"
     }
   ]
 }
