@@ -4,6 +4,66 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Doménica Montero",
+          "subtitle": "SERIE • 2025 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2025",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/A02M5F5DcQ3glHrvBUSGnzTlvW1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m9vxP7F52vTyFTlMqppxKFOcCPN.jpg",
+          "overview": "Doménica Montero es una reconocida empresaria, y es considerada una de las novias más codiciadas del país, pero, el día de su boda, es plantada en el altar. Humillada huye para refugiarse en la antigua hacienda de sus padres.",
+          "youtube_id": "NdoQJD69jhQ",
+          "trailer_url": "https://www.youtube.com/watch?v=NdoQJD69jhQ"
+        },
+        {
+          "title": "Margarita: Que tu cuento valga la pena",
+          "subtitle": "SERIE • 2024 • 3 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "3 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/lp5Bcx7C3jtyWElcGOgjHb25AyW.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7meT1UymlMJXcPEbrlSVJfBrBqA.jpg",
+          "overview": "Margarita cuenta la historia de una adolescente huérfana con una vida de película, con muchas dudas y casi ninguna certeza sobre su historia, que yendo detrás de su deseo, llegará a un lugar muy mágico en el que podrá vivir y cumplir sus sueños, sin saber que esa casa fue el lugar donde ella nació y que la pérfida Delfina usurpó para construir su imperio. ​",
+          "youtube_id": "Q_O0U38gSQY",
+          "trailer_url": "https://www.youtube.com/watch?v=Q_O0U38gSQY"
+        },
+        {
+          "title": "Coyote vs. Acme",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/l9mFW9HQnAZ4r1ChZJHoOT3jaal.jpg",
+          "overview": "Luego de que los productos Acme le fallan demasiadas veces en su tenaz búsqueda del Correcaminos, Wile E. Coyote decide contratar a un abogado especializado en vallas publicitarias para demandar a Acme Corporation.",
+          "youtube_id": "gFAw7jxJOsY",
+          "trailer_url": "https://www.youtube.com/watch?v=gFAw7jxJOsY"
+        },
+        {
+          "title": "Lucky Strike",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7AEBdyGYXumXWmMFeynE8227KeZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg",
+          "overview": "Un soldado estadounidense herido queda atrapado tras las líneas alemanas durante la Batalla de las Ardenas, en la II Guerra Mundial.",
+          "youtube_id": "B6jKU2DoA-Q",
+          "trailer_url": "https://www.youtube.com/watch?v=B6jKU2DoA-Q"
+        },
+        {
+          "title": "Tan cerca de ti, nace el amor",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kEOWlaH0pf606pg14j93rYVreSP.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/pb8i9hmPh4riqhosqlQhV74PoxU.jpg",
+          "overview": "Verónica, marcada por haber entregado a su hija en adopción, cruza su destino con Joaquín. Pero, la muerte de los padres adoptivos, desata una red de secretos, traiciones y amores prohibidos que hacen que el pasado vuelva.",
+          "youtube_id": "JvYN7NLXgLA",
+          "trailer_url": "https://www.youtube.com/watch?v=JvYN7NLXgLA"
+        },
+        {
           "title": "Sacrificio de sangre",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -22,7 +82,7 @@
           "year": "2026",
           "extra_info": "1h 37m",
           "poster_url": "https://image.tmdb.org/t/p/w500/mTOnHDWybok8JIyxcNxiSCQsgG6.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yRsIAwFLDd7QN3Nde0biOwdtDtr.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ftFf9sfJq69xJ0AuiaIuDKBtfzg.jpg",
           "overview": "Tres amigas se van de fin de semana a un balneario que se convierte en un caos cuando se une su amiga la chatarra, lo que lleva a consecuencias hilarantes.",
           "youtube_id": "bvRtuWs2F7E",
           "trailer_url": "https://www.youtube.com/watch?v=bvRtuWs2F7E"
@@ -33,7 +93,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pNxOjmWb5hyVwXrw54RRPj2p7yW.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
           "overview": "Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo.",
           "youtube_id": "uIaPDKA0-Y4",
@@ -69,8 +129,8 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6PwLfI2qpRZIIwN63XnNMYAqj87.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/frG3IO5kCrnyXDt1q9x4JtToSw3.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iHPYm59D7kF8yQr03hewusoyNET.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
           "overview": "Después de que su jefe multimillonario sea asesinado frente a él, el agente de seguridad Cole Reed es incriminado por el homicidio y queda al borde de la bancarrota e injusticia. Perseguido por fuerzas internacionales, Reed debe limpiar su nombre y descubrir la conspiración detrás del asesinato, en una carrera contra el tiempo con acción intensa en alta mar y entornos corporativos letales.",
           "youtube_id": "7zX9tH5y6wY",
           "trailer_url": "https://www.youtube.com/watch?v=7zX9tH5y6wY"
@@ -88,16 +148,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MSmiAXRWzA"
         },
         {
-          "title": "La lista terminal",
-          "subtitle": "SERIE • 2022 • 2 Temporadas",
+          "title": "La lista terminal: Lobo negro",
+          "subtitle": "SERIE • 2025 • 1 Temporada",
           "media_type": "SERIE",
-          "year": "2022",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/90mQFRWXolU8wS2kCqYvO3LIbHX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/eqLwFXX0R7U0crdgQcj0Rxjb9uc.jpg",
-          "overview": "El Teniente Comandante James Reece recurre a la venganza mientras investiga las misteriosas fuerzas detrás del asesinato de todo su pelotón. Libre de la estructura de mando militar, Reece aplica las lecciones aprendidas durante casi dos décadas de guerra para dar caza a los responsables.",
-          "youtube_id": "Cyekep0rZIU",
-          "trailer_url": "https://www.youtube.com/watch?v=Cyekep0rZIU"
+          "year": "2025",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mJmf834hTE8jSS5ywEDMyPgKq59.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
+          "overview": "Antes de La lista terminsl, el SEAL Ben Edwards se ve involucrado en una operación secreta de la CIA. Cuanto Ben más se adentre en situaciones donde no todo es blanco o negro, más difícil le resultará domar sus impulsos más oscuros. Todos tenemos dos lobos en nuestro interior, uno blanco y otro negro, que luchan por el control. ¿A cuál de los dos lobos alimentará Ben Edwards?",
+          "youtube_id": "OZ49MgIZuEE",
+          "trailer_url": "https://www.youtube.com/watch?v=OZ49MgIZuEE"
         },
         {
           "title": "Tulsa King",
@@ -113,10 +173,10 @@
         },
         {
           "title": "Caída libre: Toda la verdad sobre Boeing",
-          "subtitle": "PELÍCULA • 2026 • 1h 33m",
+          "subtitle": "PELÍCULA • 2026 • 1h 35m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 33m",
+          "extra_info": "1h 35m",
           "poster_url": "https://image.tmdb.org/t/p/w500/wDxu2TejJAfvWdu8jOFZMPqisI5.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dYOH6BTxKmf1LTnQPZR3XxRvLrc.jpg",
           "overview": "En este documental, denunciantes revelan que las políticas de reducción de costos y los encubrimientos de Boeing condujeron a fallos mortales en las aeronaves.",
@@ -201,7 +261,7 @@
           "media_type": "SERIE",
           "year": "2023",
           "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jsLYlsWA3CsE7V1owlSqfU9QzVG.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/gZOvsaKla8PrZ9MXOzJFPLXNl6z.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/l2E1zRep7sM73aCJ4YTuLPxid5H.jpg",
           "overview": "El fontanero Joe Washington descubre que su padre, recientemente fallecido, vivió una segunda vida secreta y robó millones de dólares a personas peligrosas justo antes de morir. Ahora esa gente cree que Joe sabe dónde está. Una confrontación sangrienta y violenta desencadena una cadena de acontecimientos que obligan a Joe y su círculo muy unido de familiares y amigos a salir de sus vidas normales y mundanas y emprender una carrera de vida o muerte contra el tiempo para encontrar la verdad y los millones.",
           "youtube_id": "YWitM3oDDBI",
@@ -213,8 +273,8 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6PwLfI2qpRZIIwN63XnNMYAqj87.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/frG3IO5kCrnyXDt1q9x4JtToSw3.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iHPYm59D7kF8yQr03hewusoyNET.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
           "overview": "Después de que su jefe multimillonario sea asesinado frente a él, el agente de seguridad Cole Reed es incriminado por el homicidio y queda al borde de la bancarrota e injusticia. Perseguido por fuerzas internacionales, Reed debe limpiar su nombre y descubrir la conspiración detrás del asesinato, en una carrera contra el tiempo con acción intensa en alta mar y entornos corporativos letales.",
           "youtube_id": "7zX9tH5y6wY",
           "trailer_url": "https://www.youtube.com/watch?v=7zX9tH5y6wY"
@@ -242,72 +302,24 @@
           "overview": "Esta ingeniosa serie de espionaje sigue a un equipo disfuncional de agentes del MI5, y a su insoportable jefe, el famoso Jackson Lamb, mientras exploran el engañoso mundo del espionaje para defender a Inglaterra de perversos enemigos.",
           "youtube_id": "lBE9aXCZY50",
           "trailer_url": "https://www.youtube.com/watch?v=lBE9aXCZY50"
-        },
-        {
-          "title": "Camp Rock 3",
-          "subtitle": "PELÍCULA • 2026 • 1h 33m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 33m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/lUGn8nzz0wU0zoApaex8WmwaCpT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
-          "overview": "En Camp Rock, los Connect 3 están buscando un nuevo grupo para abrir sus conciertos en la gira. Entre los campistas, como Sage, Desi, Rosie y otros, la competencia por ganar ese codiciado lugar desata rivalidades y romances, mientras todos luchan por destacar.",
-          "youtube_id": "_H7eJwYdaMA",
-          "trailer_url": "https://www.youtube.com/watch?v=_H7eJwYdaMA"
-        },
-        {
-          "title": "Solo por una noche",
-          "subtitle": "PELÍCULA • 2026 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
-          "overview": "Dos desconocidos, ávidos de amor, se topan por casualidad en la única noche del año en que las personas solteras tienen permitido tener relaciones sexuales.",
-          "youtube_id": "wzt2ufeBzgU",
-          "trailer_url": "https://www.youtube.com/watch?v=wzt2ufeBzgU"
-        },
-        {
-          "title": "Moria",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5T0cYK9C5UDVlqYGIYB8hcxq65T.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wCqQrj4536IkhFlxDSytf4p3H09.jpg",
-          "overview": "En esta dramatización que desborda de estilo, Moria Casán transforma la historia de su vida en un espectáculo simbólico de fama, controversia y reinvención constante.",
-          "youtube_id": "u_nfOOsUQeY",
-          "trailer_url": "https://www.youtube.com/watch?v=u_nfOOsUQeY"
-        },
-        {
-          "title": "Los caballeros",
-          "subtitle": "SERIE • 2024 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tbDjST2OOauVEOm8jdokj3zTVp2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/PqIW7PA74YBURz5slZkxc0K5Pl.jpg",
-          "overview": "Cuando el aristócrata Eddie hereda la finca familiar, descubre que alberga un enorme imperio de cannabis... y que sus propietarios no se van a ir a ninguna parte.",
-          "youtube_id": "jfP4OGskLis",
-          "trailer_url": "https://www.youtube.com/watch?v=jfP4OGskLis"
-        },
-        {
-          "title": "No se desea buena suerte",
-          "subtitle": "PELÍCULA • 2026 • 1h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
-          "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
-          "youtube_id": "ZEpoHoGFkW8",
-          "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
         }
       ]
     },
     {
       "category": "Top 10 Netflix",
       "items": [
+        {
+          "title": "La captura",
+          "subtitle": "PELÍCULA • 2026 • 1h 31m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
+          "overview": "Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo.",
+          "youtube_id": "uIaPDKA0-Y4",
+          "trailer_url": "https://www.youtube.com/watch?v=uIaPDKA0-Y4"
+        },
         {
           "title": "La última casa",
           "subtitle": "PELÍCULA • 2026 • 1h 50m",
@@ -393,18 +405,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
-          "title": "Intercambiados",
-          "subtitle": "PELÍCULA • 2026 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
-          "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
-          "youtube_id": "oZlnTUemKPU",
-          "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
-        },
-        {
           "title": "Shake, Rattle & Roll: Evil Origins",
           "subtitle": "PELÍCULA • 2026 • 2h 28m",
           "media_type": "PELÍCULA",
@@ -417,34 +417,22 @@
           "trailer_url": "https://www.youtube.com/watch?v=A5QQvRaHxDw"
         },
         {
-          "title": "No se desea buena suerte",
-          "subtitle": "PELÍCULA • 2026 • 1h 36m",
+          "title": "Quinze Dias",
+          "subtitle": "PELÍCULA • 2026 • 1h 41m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
-          "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
-          "youtube_id": "ZEpoHoGFkW8",
-          "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/f52tZybwHnomYCkRhe9rHMSEz5j.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bwsGEeiEnKqsZ9vm3G82as8xUu7.jpg",
+          "overview": "Sigue a Felipe, un joven tímido con sobrepeso que sufre acoso escolar. Sus planes de pasar unas vacaciones tranquilas se alteran cuando su madre hospeda durante dos semanas a Caio, su vecino y amor de la infancia, transformando la tensión inicial en un tierno viaje de autodescubrimiento y romance.",
+          "youtube_id": "ioNugUobv5Y",
+          "trailer_url": "https://www.youtube.com/watch?v=ioNugUobv5Y"
         }
       ]
     },
     {
       "category": "Top 10 Disney+",
       "items": [
-        {
-          "title": "Avengers: Infinity War",
-          "subtitle": "PELÍCULA • 2018 • 2h 29m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 29m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
-          "youtube_id": "aAoKqx9wb1I",
-          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
-        },
         {
           "title": "Avatar: Fuego y ceniza",
           "subtitle": "PELÍCULA • 2025 • 3h 18m",
@@ -458,16 +446,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
-          "title": "El diablo viste a la moda 2",
-          "subtitle": "PELÍCULA • 2026 • 1h 59m",
+          "title": "Avengers: Infinity War",
+          "subtitle": "PELÍCULA • 2018 • 2h 29m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ly9m3Uc947BUPe3dKu8UgWBhIXz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
-          "overview": "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
-          "youtube_id": "O52u0imiqNY",
-          "trailer_url": "https://www.youtube.com/watch?v=O52u0imiqNY"
+          "year": "2018",
+          "extra_info": "2h 29m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
+          "youtube_id": "aAoKqx9wb1I",
+          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
         },
         {
           "title": "Avengers: Los Vengadores",
@@ -482,6 +470,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
         },
         {
+          "title": "El diablo viste a la moda 2",
+          "subtitle": "PELÍCULA • 2026 • 1h 59m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 59m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ly9m3Uc947BUPe3dKu8UgWBhIXz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
+          "overview": "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
+          "youtube_id": "O52u0imiqNY",
+          "trailer_url": "https://www.youtube.com/watch?v=O52u0imiqNY"
+        },
+        {
           "title": "The Punisher: La última muerte",
           "subtitle": "PELÍCULA • 2026 • 48m",
           "media_type": "PELÍCULA",
@@ -492,18 +492,6 @@
           "overview": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha.",
           "youtube_id": "Tz5TdC2Pez8",
           "trailer_url": "https://www.youtube.com/watch?v=Tz5TdC2Pez8"
-        },
-        {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
           "title": "Avengers: Endgame",
@@ -518,6 +506,42 @@
           "trailer_url": "https://www.youtube.com/watch?v=4KUQVkNBUS4"
         },
         {
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
+        },
+        {
+          "title": "Animales",
+          "subtitle": "PELÍCULA • 2026",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
+          "overview": "Un grupo de amigos que se conocen de toda la vida descubre que hay puertas que nunca se deben de abrir. Lo que empieza como un juego de deseo se convierte en una espiral de celos, mentiras y traiciones que arrasa con sus relaciones. Muy pronto entenderán que todos tenemos un lado animal.",
+          "youtube_id": "jYn23nmsZhY",
+          "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
+        },
+        {
+          "title": "Hoppers: Operación castor",
+          "subtitle": "PELÍCULA • 2026 • 1h 44m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 44m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yONVGkDGZ07WGAR5Fq0GErzHUZ9.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3Jj0A10NVu2dWnoEL5t5oT79L1Y.jpg",
+          "overview": "Mabel, una amante de los animales, utiliza una nueva e inteligente tecnología diseñada para \"transmitir\" la conciencia humana a animales robóticos realistas en un intento de comunicarse con los castores, descubriendo misterios dentro del mundo animal más allá de lo que pudiera haber imaginado.",
+          "youtube_id": "gTOJObGzJRk",
+          "trailer_url": "https://www.youtube.com/watch?v=gTOJObGzJRk"
+        },
+        {
           "title": "Deadpool & Wolverine",
           "subtitle": "PELÍCULA • 2024 • 2h 8m",
           "media_type": "PELÍCULA",
@@ -528,30 +552,6 @@
           "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
           "youtube_id": "V4ZDKt9KICo",
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
-        },
-        {
-          "title": "Camp Rock 3",
-          "subtitle": "PELÍCULA • 2026 • 1h 33m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 33m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/lUGn8nzz0wU0zoApaex8WmwaCpT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
-          "overview": "En Camp Rock, los Connect 3 están buscando un nuevo grupo para abrir sus conciertos en la gira. Entre los campistas, como Sage, Desi, Rosie y otros, la competencia por ganar ese codiciado lugar desata rivalidades y romances, mientras todos luchan por destacar.",
-          "youtube_id": "_H7eJwYdaMA",
-          "trailer_url": "https://www.youtube.com/watch?v=_H7eJwYdaMA"
-        },
-        {
-          "title": "Capitán América: Un nuevo mundo",
-          "subtitle": "PELÍCULA • 2025 • 1h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vUNj55xlF0pSU5FU3yDHC6L5wVX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ce3prrjh9ZehEl5JinNqr4jIeaB.jpg",
-          "overview": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
-          "youtube_id": "rX3UywPK-8w",
-          "trailer_url": "https://www.youtube.com/watch?v=rX3UywPK-8w"
         }
       ]
     },
@@ -569,6 +569,18 @@
           "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
           "youtube_id": "S7w4cDtHyFQ",
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
+        },
+        {
+          "title": "El día del fin del mundo: Migración",
+          "subtitle": "PELÍCULA • 2026 • 1h 38m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 38m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uoFJ6nGGvf8moZGpharm8Qyrpzm.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
+          "overview": "La familia Garrity debe abandonar la seguridad del búnker de Groenlandia y embarcarse en un peligroso viaje a través del diezmado páramo helado de Europa para encontrar un nuevo hogar.",
+          "youtube_id": "jZ_W-Ln24dk",
+          "trailer_url": "https://www.youtube.com/watch?v=jZ_W-Ln24dk"
         },
         {
           "title": "Amos del Universo",
@@ -619,18 +631,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=iEYfTLsIqJ0"
         },
         {
-          "title": "El Sorprendente Hombre-Araña",
-          "subtitle": "PELÍCULA • 2012 • 2h 16m",
-          "media_type": "PELÍCULA",
-          "year": "2012",
-          "extra_info": "2h 16m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9MsCANWyLJmz2MAEqiy9vKMpyc8.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/HVcza6tJtWFrLriuh3Ano4Vt46.jpg",
-          "overview": "Peter Parker es un estudiante que fue abandonado por sus padres cuando era niño, quedando a cargo de su tío Ben y su tía May. Cuando Peter descubre un misterioso maletín perteneciente a su padre, comienza la búsqueda para entender la desaparición de sus padres, que lo lleva directamente al laboratorio en Oscorp del Dr. Curt Connors , ex compañero de trabajo de su padre.",
-          "youtube_id": "eou9olJruK4",
-          "trailer_url": "https://www.youtube.com/watch?v=eou9olJruK4"
-        },
-        {
           "title": "El Guardián: Último Refugio",
           "subtitle": "PELÍCULA • 2026 • 1h 47m",
           "media_type": "PELÍCULA",
@@ -655,6 +655,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=RV9L7ui9Cn8"
         },
         {
+          "title": "El Sorprendente Hombre-Araña",
+          "subtitle": "PELÍCULA • 2012 • 2h 16m",
+          "media_type": "PELÍCULA",
+          "year": "2012",
+          "extra_info": "2h 16m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9MsCANWyLJmz2MAEqiy9vKMpyc8.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/HVcza6tJtWFrLriuh3Ano4Vt46.jpg",
+          "overview": "Peter Parker es un estudiante que fue abandonado por sus padres cuando era niño, quedando a cargo de su tío Ben y su tía May. Cuando Peter descubre un misterioso maletín perteneciente a su padre, comienza la búsqueda para entender la desaparición de sus padres, que lo lleva directamente al laboratorio en Oscorp del Dr. Curt Connors , ex compañero de trabajo de su padre.",
+          "youtube_id": "eou9olJruK4",
+          "trailer_url": "https://www.youtube.com/watch?v=eou9olJruK4"
+        },
+        {
           "title": "Spider-Man: Un nuevo universo",
           "subtitle": "PELÍCULA • 2018 • 1h 57m",
           "media_type": "PELÍCULA",
@@ -665,18 +677,6 @@
           "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
           "youtube_id": "11X12iudxPM",
           "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
-        },
-        {
-          "title": "Spider-Man 2: Lejos de Casa",
-          "subtitle": "PELÍCULA • 2019 • 2h 10m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 10m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
-          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-          "youtube_id": "8MI5d5WXRvM",
-          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         }
       ]
     },
@@ -696,6 +696,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
+          "title": "Plan familiar 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 46m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
+          "youtube_id": "3WoEPRpdTIU",
+          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
+        },
+        {
           "title": "El abismo secreto",
           "subtitle": "PELÍCULA • 2025 • 2h 8m",
           "media_type": "PELÍCULA",
@@ -708,18 +720,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
-          "title": "Plan familiar 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
-          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
-          "youtube_id": "3WoEPRpdTIU",
-          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
-        },
-        {
           "title": "Identidad desconocida",
           "subtitle": "PELÍCULA • 2002 • 1h 58m",
           "media_type": "PELÍCULA",
@@ -730,18 +730,6 @@
           "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
           "youtube_id": "AXMLkYf2Ilo",
           "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
-        },
-        {
-          "title": "Plan familiar 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
-          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
-          "youtube_id": "3WoEPRpdTIU",
-          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         },
         {
           "title": "Los asesinos de la luna",
@@ -768,28 +756,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
         },
         {
-          "title": "Una noche en el museo",
-          "subtitle": "PELÍCULA • 2006 • 1h 49m",
-          "media_type": "PELÍCULA",
-          "year": "2006",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/2KnxqvCQnpUUQTXlruNeXq8iPeF.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ZVlzOBYCggLzvVYHK7Im6LohjC.jpg",
-          "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
-          "youtube_id": "MlQvqErjI1Q",
-          "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
-        },
-        {
-          "title": "La fuente de la juventud",
-          "subtitle": "PELÍCULA • 2025 • 2h 6m",
+          "title": "Plan familiar 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 46m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "2h 6m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5S6sbpfgBZLJVxEaT9iL2hHnmUc.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/arGs8D4RfUfsk7vMiMjDi6Mtabv.jpg",
-          "overview": "Un cazador de tesoros reúne a un equipo para una misión que les cambiará la vida. Para superar todo tipo de amenazas, necesitará a alguien más inteligente que él: su distante hermana.",
-          "youtube_id": "TmGOL0GYqiM",
-          "trailer_url": "https://www.youtube.com/watch?v=TmGOL0GYqiM"
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
+          "youtube_id": "3WoEPRpdTIU",
+          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
+        },
+        {
+          "title": "El niño, el topo, el zorro y el caballo",
+          "subtitle": "PELÍCULA • 2022 • 35m",
+          "media_type": "PELÍCULA",
+          "year": "2022",
+          "extra_info": "35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/r3HDy6DZVQoyAoJJounELXfNBHq.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/wO0MIGcA7w7tBI9Ey80Q4Z7qnPm.jpg",
+          "overview": "Narra la improbable amistad de un niño, un topo, un zorro y un caballo que viajan juntos buscando el hogar del niño. Basada en el libro de Charlie Mackesy.",
+          "youtube_id": "oaUfoOBClkA",
+          "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
         },
         {
           "title": "La guerra de los mundos",
@@ -802,11 +790,83 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
+          "title": "Una noche en el museo",
+          "subtitle": "PELÍCULA • 2006 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2006",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2KnxqvCQnpUUQTXlruNeXq8iPeF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ZVlzOBYCggLzvVYHK7Im6LohjC.jpg",
+          "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
+          "youtube_id": "MlQvqErjI1Q",
+          "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Doménica Montero",
+      "subtitle": "SERIE • 2025 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2025",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/A02M5F5DcQ3glHrvBUSGnzTlvW1.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/m9vxP7F52vTyFTlMqppxKFOcCPN.jpg",
+      "overview": "Doménica Montero es una reconocida empresaria, y es considerada una de las novias más codiciadas del país, pero, el día de su boda, es plantada en el altar. Humillada huye para refugiarse en la antigua hacienda de sus padres.",
+      "youtube_id": "NdoQJD69jhQ",
+      "trailer_url": "https://www.youtube.com/watch?v=NdoQJD69jhQ"
+    },
+    {
+      "title": "Margarita: Que tu cuento valga la pena",
+      "subtitle": "SERIE • 2024 • 3 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "3 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/lp5Bcx7C3jtyWElcGOgjHb25AyW.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/7meT1UymlMJXcPEbrlSVJfBrBqA.jpg",
+      "overview": "Margarita cuenta la historia de una adolescente huérfana con una vida de película, con muchas dudas y casi ninguna certeza sobre su historia, que yendo detrás de su deseo, llegará a un lugar muy mágico en el que podrá vivir y cumplir sus sueños, sin saber que esa casa fue el lugar donde ella nació y que la pérfida Delfina usurpó para construir su imperio. ​",
+      "youtube_id": "Q_O0U38gSQY",
+      "trailer_url": "https://www.youtube.com/watch?v=Q_O0U38gSQY"
+    },
+    {
+      "title": "Coyote vs. Acme",
+      "subtitle": "PELÍCULA • 2026 • 1h 43m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 43m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/l9mFW9HQnAZ4r1ChZJHoOT3jaal.jpg",
+      "overview": "Luego de que los productos Acme le fallan demasiadas veces en su tenaz búsqueda del Correcaminos, Wile E. Coyote decide contratar a un abogado especializado en vallas publicitarias para demandar a Acme Corporation.",
+      "youtube_id": "gFAw7jxJOsY",
+      "trailer_url": "https://www.youtube.com/watch?v=gFAw7jxJOsY"
+    },
+    {
+      "title": "Lucky Strike",
+      "subtitle": "PELÍCULA • 2026 • 1h 42m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 42m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7AEBdyGYXumXWmMFeynE8227KeZ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg",
+      "overview": "Un soldado estadounidense herido queda atrapado tras las líneas alemanas durante la Batalla de las Ardenas, en la II Guerra Mundial.",
+      "youtube_id": "B6jKU2DoA-Q",
+      "trailer_url": "https://www.youtube.com/watch?v=B6jKU2DoA-Q"
+    },
+    {
+      "title": "Tan cerca de ti, nace el amor",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/kEOWlaH0pf606pg14j93rYVreSP.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/pb8i9hmPh4riqhosqlQhV74PoxU.jpg",
+      "overview": "Verónica, marcada por haber entregado a su hija en adopción, cruza su destino con Joaquín. Pero, la muerte de los padres adoptivos, desata una red de secretos, traiciones y amores prohibidos que hacen que el pasado vuelva.",
+      "youtube_id": "JvYN7NLXgLA",
+      "trailer_url": "https://www.youtube.com/watch?v=JvYN7NLXgLA"
+    },
     {
       "title": "Sacrificio de sangre",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -826,7 +886,7 @@
       "year": "2026",
       "extra_info": "1h 37m",
       "poster_url": "https://image.tmdb.org/t/p/w500/mTOnHDWybok8JIyxcNxiSCQsgG6.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/yRsIAwFLDd7QN3Nde0biOwdtDtr.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/ftFf9sfJq69xJ0AuiaIuDKBtfzg.jpg",
       "overview": "Tres amigas se van de fin de semana a un balneario que se convierte en un caos cuando se une su amiga la chatarra, lo que lleva a consecuencias hilarantes.",
       "youtube_id": "bvRtuWs2F7E",
       "trailer_url": "https://www.youtube.com/watch?v=bvRtuWs2F7E"
@@ -837,7 +897,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 31m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/pNxOjmWb5hyVwXrw54RRPj2p7yW.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
       "overview": "Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo.",
       "youtube_id": "uIaPDKA0-Y4",
@@ -873,8 +933,8 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 35m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6PwLfI2qpRZIIwN63XnNMYAqj87.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/frG3IO5kCrnyXDt1q9x4JtToSw3.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/iHPYm59D7kF8yQr03hewusoyNET.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
       "overview": "Después de que su jefe multimillonario sea asesinado frente a él, el agente de seguridad Cole Reed es incriminado por el homicidio y queda al borde de la bancarrota e injusticia. Perseguido por fuerzas internacionales, Reed debe limpiar su nombre y descubrir la conspiración detrás del asesinato, en una carrera contra el tiempo con acción intensa en alta mar y entornos corporativos letales.",
       "youtube_id": "7zX9tH5y6wY",
       "trailer_url": "https://www.youtube.com/watch?v=7zX9tH5y6wY"
@@ -892,16 +952,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=8MSmiAXRWzA"
     },
     {
-      "title": "La lista terminal",
-      "subtitle": "SERIE • 2022 • 2 Temporadas",
+      "title": "La lista terminal: Lobo negro",
+      "subtitle": "SERIE • 2025 • 1 Temporada",
       "media_type": "SERIE",
-      "year": "2022",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/90mQFRWXolU8wS2kCqYvO3LIbHX.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/eqLwFXX0R7U0crdgQcj0Rxjb9uc.jpg",
-      "overview": "El Teniente Comandante James Reece recurre a la venganza mientras investiga las misteriosas fuerzas detrás del asesinato de todo su pelotón. Libre de la estructura de mando militar, Reece aplica las lecciones aprendidas durante casi dos décadas de guerra para dar caza a los responsables.",
-      "youtube_id": "Cyekep0rZIU",
-      "trailer_url": "https://www.youtube.com/watch?v=Cyekep0rZIU"
+      "year": "2025",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/mJmf834hTE8jSS5ywEDMyPgKq59.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
+      "overview": "Antes de La lista terminsl, el SEAL Ben Edwards se ve involucrado en una operación secreta de la CIA. Cuanto Ben más se adentre en situaciones donde no todo es blanco o negro, más difícil le resultará domar sus impulsos más oscuros. Todos tenemos dos lobos en nuestro interior, uno blanco y otro negro, que luchan por el control. ¿A cuál de los dos lobos alimentará Ben Edwards?",
+      "youtube_id": "OZ49MgIZuEE",
+      "trailer_url": "https://www.youtube.com/watch?v=OZ49MgIZuEE"
     },
     {
       "title": "Tulsa King",
@@ -917,10 +977,10 @@
     },
     {
       "title": "Caída libre: Toda la verdad sobre Boeing",
-      "subtitle": "PELÍCULA • 2026 • 1h 33m",
+      "subtitle": "PELÍCULA • 2026 • 1h 35m",
       "media_type": "PELÍCULA",
       "year": "2026",
-      "extra_info": "1h 33m",
+      "extra_info": "1h 35m",
       "poster_url": "https://image.tmdb.org/t/p/w500/wDxu2TejJAfvWdu8jOFZMPqisI5.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/dYOH6BTxKmf1LTnQPZR3XxRvLrc.jpg",
       "overview": "En este documental, denunciantes revelan que las políticas de reducción de costos y los encubrimientos de Boeing condujeron a fallos mortales en las aeronaves.",
@@ -1005,7 +1065,7 @@
       "media_type": "SERIE",
       "year": "2023",
       "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/jsLYlsWA3CsE7V1owlSqfU9QzVG.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/gZOvsaKla8PrZ9MXOzJFPLXNl6z.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/l2E1zRep7sM73aCJ4YTuLPxid5H.jpg",
       "overview": "El fontanero Joe Washington descubre que su padre, recientemente fallecido, vivió una segunda vida secreta y robó millones de dólares a personas peligrosas justo antes de morir. Ahora esa gente cree que Joe sabe dónde está. Una confrontación sangrienta y violenta desencadena una cadena de acontecimientos que obligan a Joe y su círculo muy unido de familiares y amigos a salir de sus vidas normales y mundanas y emprender una carrera de vida o muerte contra el tiempo para encontrar la verdad y los millones.",
       "youtube_id": "YWitM3oDDBI",
@@ -1017,8 +1077,8 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 35m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6PwLfI2qpRZIIwN63XnNMYAqj87.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/frG3IO5kCrnyXDt1q9x4JtToSw3.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/iHPYm59D7kF8yQr03hewusoyNET.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
       "overview": "Después de que su jefe multimillonario sea asesinado frente a él, el agente de seguridad Cole Reed es incriminado por el homicidio y queda al borde de la bancarrota e injusticia. Perseguido por fuerzas internacionales, Reed debe limpiar su nombre y descubrir la conspiración detrás del asesinato, en una carrera contra el tiempo con acción intensa en alta mar y entornos corporativos letales.",
       "youtube_id": "7zX9tH5y6wY",
       "trailer_url": "https://www.youtube.com/watch?v=7zX9tH5y6wY"
@@ -1046,66 +1106,6 @@
       "overview": "Esta ingeniosa serie de espionaje sigue a un equipo disfuncional de agentes del MI5, y a su insoportable jefe, el famoso Jackson Lamb, mientras exploran el engañoso mundo del espionaje para defender a Inglaterra de perversos enemigos.",
       "youtube_id": "lBE9aXCZY50",
       "trailer_url": "https://www.youtube.com/watch?v=lBE9aXCZY50"
-    },
-    {
-      "title": "Camp Rock 3",
-      "subtitle": "PELÍCULA • 2026 • 1h 33m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 33m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/lUGn8nzz0wU0zoApaex8WmwaCpT.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
-      "overview": "En Camp Rock, los Connect 3 están buscando un nuevo grupo para abrir sus conciertos en la gira. Entre los campistas, como Sage, Desi, Rosie y otros, la competencia por ganar ese codiciado lugar desata rivalidades y romances, mientras todos luchan por destacar.",
-      "youtube_id": "_H7eJwYdaMA",
-      "trailer_url": "https://www.youtube.com/watch?v=_H7eJwYdaMA"
-    },
-    {
-      "title": "Solo por una noche",
-      "subtitle": "PELÍCULA • 2026 • 1h 42m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 42m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
-      "overview": "Dos desconocidos, ávidos de amor, se topan por casualidad en la única noche del año en que las personas solteras tienen permitido tener relaciones sexuales.",
-      "youtube_id": "wzt2ufeBzgU",
-      "trailer_url": "https://www.youtube.com/watch?v=wzt2ufeBzgU"
-    },
-    {
-      "title": "Moria",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5T0cYK9C5UDVlqYGIYB8hcxq65T.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/wCqQrj4536IkhFlxDSytf4p3H09.jpg",
-      "overview": "En esta dramatización que desborda de estilo, Moria Casán transforma la historia de su vida en un espectáculo simbólico de fama, controversia y reinvención constante.",
-      "youtube_id": "u_nfOOsUQeY",
-      "trailer_url": "https://www.youtube.com/watch?v=u_nfOOsUQeY"
-    },
-    {
-      "title": "Los caballeros",
-      "subtitle": "SERIE • 2024 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tbDjST2OOauVEOm8jdokj3zTVp2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/PqIW7PA74YBURz5slZkxc0K5Pl.jpg",
-      "overview": "Cuando el aristócrata Eddie hereda la finca familiar, descubre que alberga un enorme imperio de cannabis... y que sus propietarios no se van a ir a ninguna parte.",
-      "youtube_id": "jfP4OGskLis",
-      "trailer_url": "https://www.youtube.com/watch?v=jfP4OGskLis"
-    },
-    {
-      "title": "No se desea buena suerte",
-      "subtitle": "PELÍCULA • 2026 • 1h 36m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 36m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/eSHrRxvVxXH0JYdj2NdBD78FC6B.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
-      "overview": "Sophie Birenbaum está lista para ser el centro de atención como la protagonista del musical escolar, hasta que debe enfrentar más drama en casa que en el escenario.",
-      "youtube_id": "ZEpoHoGFkW8",
-      "trailer_url": "https://www.youtube.com/watch?v=ZEpoHoGFkW8"
     }
   ]
 }
