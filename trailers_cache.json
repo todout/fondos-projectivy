@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Doctora Juguetes",
+          "subtitle": "SERIE • 2012 • 5 Temporadas",
+          "media_type": "SERIE",
+          "year": "2012",
+          "extra_info": "5 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mRtuu43sbffvXJYl6hXi37RCDoa.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5hXkZ1CQlH24OB5Nr32boR4RgmT.jpg",
+          "overview": "¡Una mágica serie animada sobre una niña de seis años, Doc McStuffins, que tiene la capacidad de hablar y curar a sus juguetes y animales de felpa! Con la ayuda de sus animales de felpa, Doc maneja una clínica para juguetes en su casa de juegos. La serie se enfoca en la importancia de dar una mano, o una pata, cuando las personas y los juguetes más lo necesitan.",
+          "youtube_id": "W3aTBtAZaNs",
+          "trailer_url": "https://www.youtube.com/watch?v=W3aTBtAZaNs"
+        },
+        {
+          "title": "Accidente",
+          "subtitle": "SERIE • 2024 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9ubWe8mVHu2gi9BLDxU2p9nCs7f.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/HmLButiM2Ja8ePsoXAbNYLKVqT.jpg",
+          "overview": "Las consecuencias de una fiesta de cumpleaños que acaba en tragedia crean profundas grietas en una unida comunidad, y destrozan familias, amistades y corazones.",
+          "youtube_id": "3y1t25LUJ-g",
+          "trailer_url": "https://www.youtube.com/watch?v=3y1t25LUJ-g"
+        },
+        {
+          "title": "Sunrise: El último amanecer",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xf85WDNB5ICqlOqRAHxIdMi3jdZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5lB7yPaRhJHQ9dx7AnvPUi0GZDU.jpg",
+          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+          "youtube_id": "EeyXSwUjM3Q",
+          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
+        },
+        {
+          "title": "Motor City",
+          "subtitle": "PELÍCULA • 2026 • 1h 44m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 44m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9CatrE52P66ODUQmrMlBO7L0D5c.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
+          "overview": "En el Detroit de los años 70, el romántico de clase trabajadora John Miller es incriminado por un despiadado gángster tras enamorarse de su novia. Tras pasar años en prisión, regresa con una única misión: vengarse.",
+          "youtube_id": "Grtc-UXlu7Y",
+          "trailer_url": "https://www.youtube.com/watch?v=Grtc-UXlu7Y"
+        },
+        {
           "title": "Adultos",
           "subtitle": "SERIE • 2025 • 2 Temporadas",
           "media_type": "SERIE",
@@ -21,7 +69,7 @@
           "media_type": "SERIE",
           "year": "2024",
           "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/i98Jl46WBpK7ymttNOakowtNuFF.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg",
           "overview": "La vida de una estríper da un giro cuando se cruza con una familia adinerada pero disfuncional que maneja una marca de cosméticos... y una nefasta operación ilegal.",
           "youtube_id": "IZ07X9BHqLE",
@@ -82,7 +130,7 @@
           "year": "2026",
           "extra_info": "1h 43m",
           "poster_url": "https://image.tmdb.org/t/p/w500/uD8uCTTdrsfFmRI468vB8FMoe9T.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/l9mFW9HQnAZ4r1ChZJHoOT3jaal.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
           "overview": "Luego de que los productos Acme le fallan demasiadas veces en su tenaz búsqueda del Correcaminos, Wile E. Coyote decide contratar a un abogado especializado en vallas publicitarias para demandar a Acme Corporation.",
           "youtube_id": "gFAw7jxJOsY",
           "trailer_url": "https://www.youtube.com/watch?v=gFAw7jxJOsY"
@@ -156,8 +204,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/qB356qujmLpMZrY4TobXE9Wtalm.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/oncTvFY9goRyWAQRdDh2FKQ5Zhs.jpg",
           "overview": "1763. La vida de Adriana, una mujer valiente y leal a su familia, sufre un inesperado revés cuando recibe un duro golpe: su padre ha fallecido y, consecuencia de un pacto firmado en secreto, deberá viajar desde la Villa de Madrid hasta Valle Salvaje, en el norte de España, para desposar con un desconocido. Un oscuro secreto del pasado la persigue hasta el remoto valle, hogar de la familia de su prometido y de su complicada tía, doña Victoria. Allí su vida cambiará para siempre. Conocerá el verdadero amor, la traición, y el peligro cuando trate de descubrir la verdad sobre la muerte de su padre.",
-          "youtube_id": "ZwbO451DJ5I",
-          "trailer_url": "https://www.youtube.com/watch?v=ZwbO451DJ5I"
+          "youtube_id": "MKSGBtpIF6s",
+          "trailer_url": "https://www.youtube.com/watch?v=MKSGBtpIF6s"
         },
         {
           "title": "The White Lotus",
@@ -254,54 +302,6 @@
           "overview": "La historia de la icónica Beatriz Pinzón Solano, Betty la fea, 20 años después de la conclusión de la serie original. Mientras la empoderada Betty sigue casada con su esposo y líder de la compañía, Armando Mendoza, ella reconstruye su relación con su hija adolescente Mila, y trata de sobrellevar la crisis de su compañía familiar, preguntándose si hace 20 años escogió el camino que la hizo verdaderamente feliz.",
           "youtube_id": "R6r6uxZRc_w",
           "trailer_url": "https://www.youtube.com/watch?v=R6r6uxZRc_w"
-        },
-        {
-          "title": "Ludwig",
-          "subtitle": "SERIE • 2024 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qDqGfqAQXANNCWPSRsQvnWNdZmJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9HQnJdzu92M81huqyT9jQQyaU6P.jpg",
-          "overview": "John Taylor vive en una tranquila soledad, diseñando rompecabezas para ganarse la vida, bajo el seudónimo de «Ludwig». Cuando su gemelo idéntico, James, desaparece de la faz de la tierra, John asume la identidad de su hermano en una búsqueda para descubrir su paradero.",
-          "youtube_id": "GydS_60QoIQ",
-          "trailer_url": "https://www.youtube.com/watch?v=GydS_60QoIQ"
-        },
-        {
-          "title": "La fiera",
-          "subtitle": "SERIE • 1983 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "1983",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/gFjsPJVqgdZkvKjBm53vC10cNFC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/eN7ZZM9WE5ZzLpHhSvOAHnwDUUb.jpg",
-          "overview": "Natalie, una joven hermosa pero pobre de un barrio humilde, se enamora de Victor Afonso —su amigo de la infancia e hijo de la familia más adinerada de la ciudad— y logra conquistar su corazón. Natalie vive con una anciana cruel que la obliga a mendigar para mantenerla, aunque también predice, mediante la lectura de cartas, que La Fiera —apodo con el que se conoce a Natalie— algún día encontrará la felicidad y la riqueza.",
-          "youtube_id": "eRzLKpA-c5I",
-          "trailer_url": "https://www.youtube.com/watch?v=eRzLKpA-c5I"
-        },
-        {
-          "title": "Quinze Dias",
-          "subtitle": "PELÍCULA • 2026 • 1h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/f52tZybwHnomYCkRhe9rHMSEz5j.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bwsGEeiEnKqsZ9vm3G82as8xUu7.jpg",
-          "overview": "Sigue a Felipe, un joven tímido con sobrepeso que sufre acoso escolar. Sus planes de pasar unas vacaciones tranquilas se alteran cuando su madre hospeda durante dos semanas a Caio, su vecino y amor de la infancia, transformando la tensión inicial en un tierno viaje de autodescubrimiento y romance.",
-          "youtube_id": "ioNugUobv5Y",
-          "trailer_url": "https://www.youtube.com/watch?v=ioNugUobv5Y"
-        },
-        {
-          "title": "Oasis",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/53vdUV5z2BiHcOBz0i3txSl7ibM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/n4B2dVVScH4L4Scvy7mTboYcfGQ.jpg",
-          "overview": "Cuando una chica desaparece en un lujoso resort, tanto los empleados como los huéspedes quedan atrapados en el lugar como sospechosos... y no saldrán hasta que se descubra la verdad.",
-          "youtube_id": "CFf15ubE_6I",
-          "trailer_url": "https://www.youtube.com/watch?v=CFf15ubE_6I"
         }
       ]
     },
@@ -351,7 +351,7 @@
           "year": "1994",
           "extra_info": "2h 23m",
           "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
           "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
           "youtube_id": "4u87tmlj4oE",
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
@@ -482,16 +482,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=O52u0imiqNY"
         },
         {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "title": "Avengers: Endgame",
+          "subtitle": "PELÍCULA • 2019 • 3h 0m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
+          "year": "2019",
+          "extra_info": "3h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/i4YcoMGEZECeoF3uaZ7tlxrvoxo.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/2xfV5Zdq4kCsFVReRXJKnJaUFCD.jpg",
+          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+          "youtube_id": "4KUQVkNBUS4",
+          "trailer_url": "https://www.youtube.com/watch?v=4KUQVkNBUS4"
         },
         {
           "title": "The Punisher: La última muerte",
@@ -506,28 +506,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=Tz5TdC2Pez8"
         },
         {
-          "title": "Avengers: Endgame",
-          "subtitle": "PELÍCULA • 2019 • 3h 0m",
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
           "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "3h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/i4YcoMGEZECeoF3uaZ7tlxrvoxo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
-          "youtube_id": "4KUQVkNBUS4",
-          "trailer_url": "https://www.youtube.com/watch?v=4KUQVkNBUS4"
-        },
-        {
-          "title": "Animales",
-          "subtitle": "PELÍCULA • 2026",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
-          "overview": "Un grupo de amigos que se conocen de toda la vida descubre que hay puertas que nunca se deben de abrir. Lo que empieza como un juego de deseo se convierte en una espiral de celos, mentiras y traiciones que arrasa con sus relaciones. Muy pronto entenderán que todos tenemos un lado animal.",
-          "youtube_id": "jYn23nmsZhY",
-          "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
           "title": "Deadpool & Wolverine",
@@ -540,6 +528,18 @@
           "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
           "youtube_id": "V4ZDKt9KICo",
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
+        },
+        {
+          "title": "Animales",
+          "subtitle": "PELÍCULA • 2026",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
+          "overview": "Un grupo de amigos que se conocen de toda la vida descubre que hay puertas que nunca se deben de abrir. Lo que empieza como un juego de deseo se convierte en una espiral de celos, mentiras y traiciones que arrasa con sus relaciones. Muy pronto entenderán que todos tenemos un lado animal.",
+          "youtube_id": "jYn23nmsZhY",
+          "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
         },
         {
           "title": "Hoppers: Operación castor",
@@ -559,16 +559,16 @@
       "category": "Top 10 Prime Video",
       "items": [
         {
-          "title": "El día del fin del mundo: Migración",
-          "subtitle": "PELÍCULA • 2026 • 1h 38m",
+          "title": "Sunrise: El último amanecer",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uoFJ6nGGvf8moZGpharm8Qyrpzm.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
-          "overview": "La familia Garrity debe abandonar la seguridad del búnker de Groenlandia y embarcarse en un peligroso viaje a través del diezmado páramo helado de Europa para encontrar un nuevo hogar.",
-          "youtube_id": "jZ_W-Ln24dk",
-          "trailer_url": "https://www.youtube.com/watch?v=jZ_W-Ln24dk"
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xf85WDNB5ICqlOqRAHxIdMi3jdZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5lB7yPaRhJHQ9dx7AnvPUi0GZDU.jpg",
+          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+          "youtube_id": "EeyXSwUjM3Q",
+          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
         },
         {
           "title": "Proyecto Fin del Mundo",
@@ -607,6 +607,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=u7tyy_zX134"
         },
         {
+          "title": "El día del fin del mundo: Migración",
+          "subtitle": "PELÍCULA • 2026 • 1h 38m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 38m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uoFJ6nGGvf8moZGpharm8Qyrpzm.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
+          "overview": "La familia Garrity debe abandonar la seguridad del búnker de Groenlandia y embarcarse en un peligroso viaje a través del diezmado páramo helado de Europa para encontrar un nuevo hogar.",
+          "youtube_id": "jZ_W-Ln24dk",
+          "trailer_url": "https://www.youtube.com/watch?v=jZ_W-Ln24dk"
+        },
+        {
           "title": "Spider-Man: Un nuevo día",
           "subtitle": "PELÍCULA • 2026 • 2h 25m",
           "media_type": "PELÍCULA",
@@ -643,6 +655,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=bCBSN8qSfIQ"
         },
         {
+          "title": "Las ovejas detectives",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iryjE7zrVxML5UM5vCPJGtKYvWC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+          "overview": "Cada noche, un pastor lee en voz alta un asesinato misterioso, fingiendo que sus ovejas pueden entenderlo. Cuando lo encuentran muerto, las ovejas se dan cuenta enseguida de que ha sido un asesinato y creen saber cómo resolverlo.",
+          "youtube_id": "rsCS0SxRaE4",
+          "trailer_url": "https://www.youtube.com/watch?v=rsCS0SxRaE4"
+        },
+        {
           "title": "El Sorprendente Hombre-Araña",
           "subtitle": "PELÍCULA • 2012 • 2h 16m",
           "media_type": "PELÍCULA",
@@ -653,30 +677,6 @@
           "overview": "Peter Parker es un estudiante que fue abandonado por sus padres cuando era niño, quedando a cargo de su tío Ben y su tía May. Cuando Peter descubre un misterioso maletín perteneciente a su padre, comienza la búsqueda para entender la desaparición de sus padres, que lo lleva directamente al laboratorio en Oscorp del Dr. Curt Connors , ex compañero de trabajo de su padre.",
           "youtube_id": "eou9olJruK4",
           "trailer_url": "https://www.youtube.com/watch?v=eou9olJruK4"
-        },
-        {
-          "title": "El Origen",
-          "subtitle": "PELÍCULA • 2010 • 2h 28m",
-          "media_type": "PELÍCULA",
-          "year": "2010",
-          "extra_info": "2h 28m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/xgPGDEKkBrXhPaNmwIlf8e2RCMk.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
-          "overview": "Dom Cobb es un ladrón de secretos que se sumerge en los sueños de otros para extraer información. Para redimirse, debe implantar una idea en lugar de extraerla. En un viaje de sueños dentro de sueños, lucha por la redención mientras se enfrenta a sus propios demonios.",
-          "youtube_id": "RV9L7ui9Cn8",
-          "trailer_url": "https://www.youtube.com/watch?v=RV9L7ui9Cn8"
-        },
-        {
-          "title": "Spider-Man 2: Lejos de Casa",
-          "subtitle": "PELÍCULA • 2019 • 2h 10m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 10m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
-          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-          "youtube_id": "8MI5d5WXRvM",
-          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         }
       ]
     },
@@ -694,18 +694,6 @@
           "overview": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.",
           "youtube_id": "NzbdHV0fPNg",
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
-        },
-        {
-          "title": "Plan familiar 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
-          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
-          "youtube_id": "3WoEPRpdTIU",
-          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         },
         {
           "title": "El abismo secreto",
@@ -730,6 +718,30 @@
           "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
           "youtube_id": "qXVsJU0I8u0",
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
+        },
+        {
+          "title": "Plan familiar 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 46m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
+          "youtube_id": "3WoEPRpdTIU",
+          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
+        },
+        {
+          "title": "El niño, el topo, el zorro y el caballo",
+          "subtitle": "PELÍCULA • 2022 • 35m",
+          "media_type": "PELÍCULA",
+          "year": "2022",
+          "extra_info": "35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/r3HDy6DZVQoyAoJJounELXfNBHq.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/wO0MIGcA7w7tBI9Ey80Q4Z7qnPm.jpg",
+          "overview": "Narra la improbable amistad de un niño, un topo, un zorro y un caballo que viajan juntos buscando el hogar del niño. Basada en el libro de Charlie Mackesy.",
+          "youtube_id": "oaUfoOBClkA",
+          "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
         },
         {
           "title": "Identidad desconocida",
@@ -768,18 +780,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         },
         {
-          "title": "Una noche en el museo",
-          "subtitle": "PELÍCULA • 2006 • 1h 49m",
-          "media_type": "PELÍCULA",
-          "year": "2006",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/2KnxqvCQnpUUQTXlruNeXq8iPeF.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ZVlzOBYCggLzvVYHK7Im6LohjC.jpg",
-          "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
-          "youtube_id": "MlQvqErjI1Q",
-          "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
-        },
-        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -792,21 +792,69 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "El niño, el topo, el zorro y el caballo",
-          "subtitle": "PELÍCULA • 2022 • 35m",
+          "title": "Una noche en el museo",
+          "subtitle": "PELÍCULA • 2006 • 1h 49m",
           "media_type": "PELÍCULA",
-          "year": "2022",
-          "extra_info": "35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/r3HDy6DZVQoyAoJJounELXfNBHq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wO0MIGcA7w7tBI9Ey80Q4Z7qnPm.jpg",
-          "overview": "Narra la improbable amistad de un niño, un topo, un zorro y un caballo que viajan juntos buscando el hogar del niño. Basada en el libro de Charlie Mackesy.",
-          "youtube_id": "oaUfoOBClkA",
-          "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
+          "year": "2006",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2KnxqvCQnpUUQTXlruNeXq8iPeF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ZVlzOBYCggLzvVYHK7Im6LohjC.jpg",
+          "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
+          "youtube_id": "MlQvqErjI1Q",
+          "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Doctora Juguetes",
+      "subtitle": "SERIE • 2012 • 5 Temporadas",
+      "media_type": "SERIE",
+      "year": "2012",
+      "extra_info": "5 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/mRtuu43sbffvXJYl6hXi37RCDoa.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/5hXkZ1CQlH24OB5Nr32boR4RgmT.jpg",
+      "overview": "¡Una mágica serie animada sobre una niña de seis años, Doc McStuffins, que tiene la capacidad de hablar y curar a sus juguetes y animales de felpa! Con la ayuda de sus animales de felpa, Doc maneja una clínica para juguetes en su casa de juegos. La serie se enfoca en la importancia de dar una mano, o una pata, cuando las personas y los juguetes más lo necesitan.",
+      "youtube_id": "W3aTBtAZaNs",
+      "trailer_url": "https://www.youtube.com/watch?v=W3aTBtAZaNs"
+    },
+    {
+      "title": "Accidente",
+      "subtitle": "SERIE • 2024 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/9ubWe8mVHu2gi9BLDxU2p9nCs7f.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/HmLButiM2Ja8ePsoXAbNYLKVqT.jpg",
+      "overview": "Las consecuencias de una fiesta de cumpleaños que acaba en tragedia crean profundas grietas en una unida comunidad, y destrozan familias, amistades y corazones.",
+      "youtube_id": "3y1t25LUJ-g",
+      "trailer_url": "https://www.youtube.com/watch?v=3y1t25LUJ-g"
+    },
+    {
+      "title": "Sunrise: El último amanecer",
+      "subtitle": "PELÍCULA • 2026 • 1h 47m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 47m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xf85WDNB5ICqlOqRAHxIdMi3jdZ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/5lB7yPaRhJHQ9dx7AnvPUi0GZDU.jpg",
+      "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+      "youtube_id": "EeyXSwUjM3Q",
+      "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
+    },
+    {
+      "title": "Motor City",
+      "subtitle": "PELÍCULA • 2026 • 1h 44m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 44m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/9CatrE52P66ODUQmrMlBO7L0D5c.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
+      "overview": "En el Detroit de los años 70, el romántico de clase trabajadora John Miller es incriminado por un despiadado gángster tras enamorarse de su novia. Tras pasar años en prisión, regresa con una única misión: vengarse.",
+      "youtube_id": "Grtc-UXlu7Y",
+      "trailer_url": "https://www.youtube.com/watch?v=Grtc-UXlu7Y"
+    },
     {
       "title": "Adultos",
       "subtitle": "SERIE • 2025 • 2 Temporadas",
@@ -825,7 +873,7 @@
       "media_type": "SERIE",
       "year": "2024",
       "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/i98Jl46WBpK7ymttNOakowtNuFF.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg",
       "overview": "La vida de una estríper da un giro cuando se cruza con una familia adinerada pero disfuncional que maneja una marca de cosméticos... y una nefasta operación ilegal.",
       "youtube_id": "IZ07X9BHqLE",
@@ -886,7 +934,7 @@
       "year": "2026",
       "extra_info": "1h 43m",
       "poster_url": "https://image.tmdb.org/t/p/w500/uD8uCTTdrsfFmRI468vB8FMoe9T.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/l9mFW9HQnAZ4r1ChZJHoOT3jaal.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
       "overview": "Luego de que los productos Acme le fallan demasiadas veces en su tenaz búsqueda del Correcaminos, Wile E. Coyote decide contratar a un abogado especializado en vallas publicitarias para demandar a Acme Corporation.",
       "youtube_id": "gFAw7jxJOsY",
       "trailer_url": "https://www.youtube.com/watch?v=gFAw7jxJOsY"
@@ -960,8 +1008,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/qB356qujmLpMZrY4TobXE9Wtalm.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/oncTvFY9goRyWAQRdDh2FKQ5Zhs.jpg",
       "overview": "1763. La vida de Adriana, una mujer valiente y leal a su familia, sufre un inesperado revés cuando recibe un duro golpe: su padre ha fallecido y, consecuencia de un pacto firmado en secreto, deberá viajar desde la Villa de Madrid hasta Valle Salvaje, en el norte de España, para desposar con un desconocido. Un oscuro secreto del pasado la persigue hasta el remoto valle, hogar de la familia de su prometido y de su complicada tía, doña Victoria. Allí su vida cambiará para siempre. Conocerá el verdadero amor, la traición, y el peligro cuando trate de descubrir la verdad sobre la muerte de su padre.",
-      "youtube_id": "ZwbO451DJ5I",
-      "trailer_url": "https://www.youtube.com/watch?v=ZwbO451DJ5I"
+      "youtube_id": "MKSGBtpIF6s",
+      "trailer_url": "https://www.youtube.com/watch?v=MKSGBtpIF6s"
     },
     {
       "title": "The White Lotus",
@@ -1058,54 +1106,6 @@
       "overview": "La historia de la icónica Beatriz Pinzón Solano, Betty la fea, 20 años después de la conclusión de la serie original. Mientras la empoderada Betty sigue casada con su esposo y líder de la compañía, Armando Mendoza, ella reconstruye su relación con su hija adolescente Mila, y trata de sobrellevar la crisis de su compañía familiar, preguntándose si hace 20 años escogió el camino que la hizo verdaderamente feliz.",
       "youtube_id": "R6r6uxZRc_w",
       "trailer_url": "https://www.youtube.com/watch?v=R6r6uxZRc_w"
-    },
-    {
-      "title": "Ludwig",
-      "subtitle": "SERIE • 2024 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/qDqGfqAQXANNCWPSRsQvnWNdZmJ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/9HQnJdzu92M81huqyT9jQQyaU6P.jpg",
-      "overview": "John Taylor vive en una tranquila soledad, diseñando rompecabezas para ganarse la vida, bajo el seudónimo de «Ludwig». Cuando su gemelo idéntico, James, desaparece de la faz de la tierra, John asume la identidad de su hermano en una búsqueda para descubrir su paradero.",
-      "youtube_id": "GydS_60QoIQ",
-      "trailer_url": "https://www.youtube.com/watch?v=GydS_60QoIQ"
-    },
-    {
-      "title": "La fiera",
-      "subtitle": "SERIE • 1983 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "1983",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gFjsPJVqgdZkvKjBm53vC10cNFC.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/eN7ZZM9WE5ZzLpHhSvOAHnwDUUb.jpg",
-      "overview": "Natalie, una joven hermosa pero pobre de un barrio humilde, se enamora de Victor Afonso —su amigo de la infancia e hijo de la familia más adinerada de la ciudad— y logra conquistar su corazón. Natalie vive con una anciana cruel que la obliga a mendigar para mantenerla, aunque también predice, mediante la lectura de cartas, que La Fiera —apodo con el que se conoce a Natalie— algún día encontrará la felicidad y la riqueza.",
-      "youtube_id": "eRzLKpA-c5I",
-      "trailer_url": "https://www.youtube.com/watch?v=eRzLKpA-c5I"
-    },
-    {
-      "title": "Quinze Dias",
-      "subtitle": "PELÍCULA • 2026 • 1h 41m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 41m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/f52tZybwHnomYCkRhe9rHMSEz5j.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/bwsGEeiEnKqsZ9vm3G82as8xUu7.jpg",
-      "overview": "Sigue a Felipe, un joven tímido con sobrepeso que sufre acoso escolar. Sus planes de pasar unas vacaciones tranquilas se alteran cuando su madre hospeda durante dos semanas a Caio, su vecino y amor de la infancia, transformando la tensión inicial en un tierno viaje de autodescubrimiento y romance.",
-      "youtube_id": "ioNugUobv5Y",
-      "trailer_url": "https://www.youtube.com/watch?v=ioNugUobv5Y"
-    },
-    {
-      "title": "Oasis",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/53vdUV5z2BiHcOBz0i3txSl7ibM.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/n4B2dVVScH4L4Scvy7mTboYcfGQ.jpg",
-      "overview": "Cuando una chica desaparece en un lujoso resort, tanto los empleados como los huéspedes quedan atrapados en el lugar como sospechosos... y no saldrán hasta que se descubra la verdad.",
-      "youtube_id": "CFf15ubE_6I",
-      "trailer_url": "https://www.youtube.com/watch?v=CFf15ubE_6I"
     }
   ]
 }
