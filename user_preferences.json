@@ -239,6 +239,18 @@
       ],
       "year": "2026",
       "media_type": "movie"
+    },
+    {
+      "id": 15647,
+      "title": "Los Simuladores",
+      "genres": [
+        "Comedia",
+        "Crimen",
+        "Drama",
+        "Misterio"
+      ],
+      "year": "2002",
+      "media_type": "tv"
     }
   ],
   "dislikes": [
@@ -326,6 +338,15 @@
       ],
       "year": "2019",
       "media_type": "movie"
+    },
+    {
+      "id": 240909,
+      "title": "La Casa de los Famosos Colombia",
+      "genres": [
+        "Reality"
+      ],
+      "year": "2024",
+      "media_type": "tv"
     }
   ],
   "neutral": [

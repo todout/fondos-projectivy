@@ -1906,25 +1906,28 @@ def is_superhero_content(title, overview=""):
     return any(k in text for k in keywords)
 
 def filter_candidates_list(candidates, is_movie, not_interested=None):
-    if not_interested is None:
-        try:
-            prefs = load_preferences()
+    try:
+        prefs = load_preferences()
+        if not_interested is None:
             not_interested = prefs.get('not_interested', [])
-        except Exception:
+        dislikes = prefs.get('dislikes', [])
+    except Exception:
+        if not_interested is None:
             not_interested = []
+        dislikes = []
             
-    not_interested_ids = {x.get('id') for x in not_interested if x.get('id')}
-    not_interested_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')}
+    excluded_ids = {x.get('id') for x in not_interested if x.get('id')} | {x.get('id') for x in dislikes if x.get('id')}
+    excluded_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')} | {normalize_title(x.get('title', '')).upper() for x in dislikes if x.get('title')}
     
     filtered = []
     for c in candidates:
         mid = c.get('id')
         title = c.get('title') or c.get('name')
         
-        # 0. Excluir si está en not_interested
-        if mid and mid in not_interested_ids:
+        # 0. Excluir si está en not_interested o dislikes
+        if mid and mid in excluded_ids:
             continue
-        if title and normalize_title(title).upper() in not_interested_titles:
+        if title and normalize_title(title).upper() in excluded_titles:
             continue
             
         # 0. Verificar si ya fue publicado (usando el cache local)

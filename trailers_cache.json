@@ -4,6 +4,18 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "The Last of Us",
+          "subtitle": "SERIE • 2023 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2023",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+          "overview": "Veinte años después de la destrucción de la civilización moderna, Joel, un aguerrido superviviente, es contratado para sacar a Ellie, una joven de 14 años, de una opresiva zona de cuarentena. Lo que empieza como un trabajo sencillo pronto se convierte en un viaje brutal y desgarrador, ya que ambos deben atravesar Estados Unidos y depender el uno del otro para sobrevivir.",
+          "youtube_id": "yyGetSp7CIc",
+          "trailer_url": "https://www.youtube.com/watch?v=yyGetSp7CIc"
+        },
+        {
           "title": "Mal de Amores",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -34,7 +46,7 @@
           "year": "2026",
           "extra_info": "1h 44m",
           "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oZkk6B15Ak4uTa2aVrJaDmSk3Xl.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
           "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
           "youtube_id": "5aCQgikjz8g",
           "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
@@ -70,7 +82,7 @@
           "year": "2026",
           "extra_info": "1h 38m",
           "poster_url": "https://image.tmdb.org/t/p/w500/xQlESgkDM7rczAWySdB0WBomh39.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yQXU4rgJ5LVCzn16SeIg34T35lV.jpg",
           "overview": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
           "youtube_id": "IRJGXHvc-Hs",
           "trailer_url": "https://www.youtube.com/watch?v=IRJGXHvc-Hs"
@@ -136,18 +148,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
         },
         {
-          "title": "La Casa de los Famosos Colombia",
-          "subtitle": "SERIE • 2024 • 4 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "4 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/gpjREcm3xsm5kgrBKqSyfGbUAjV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/55Z8gBdyHn4MzXqv0wjX2vZpn2B.jpg",
-          "overview": "Mujeres y hombres que cuentan con trayectoria en el ámbito de la música, la actuación, las redes sociales, entre otros, tendrán que convivir y aguantarse entre sí.",
-          "youtube_id": "3QQbCjffBkI",
-          "trailer_url": "https://www.youtube.com/watch?v=3QQbCjffBkI"
-        },
-        {
           "title": "Drag Race España",
           "subtitle": "SERIE • 2021 • 6 Temporadas",
           "media_type": "SERIE",
@@ -168,8 +168,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6Juf2mClD4JpfLVU2YDjLKzFd9E.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/gPc3usdr5DvwQZyOnYueaUHCE1q.jpg",
           "overview": "Un joven sin rumbo llamado Toshiaki Gozu es asesinado y resucitado como un personaje no jugable en un videojuego al que ha estado jugando. Gozu se encuentra con el Rey Demonio Evelogia, el último jefe del juego al que Gozu adora desde que era pequeño. Gozu empieza a cortejar a Evelogia admitiendo: «Me enamoré de ti». Juntos, se proponen conquistar el mundo.",
-          "youtube_id": "nSG_9sf3xxg",
-          "trailer_url": "https://www.youtube.com/watch?v=nSG_9sf3xxg"
+          "youtube_id": "Y-ittlhRUZ4",
+          "trailer_url": "https://www.youtube.com/watch?v=Y-ittlhRUZ4"
         },
         {
           "title": "Mayday",
@@ -178,7 +178,7 @@
           "year": "2026",
           "extra_info": "1h 51m",
           "poster_url": "https://image.tmdb.org/t/p/w500/naKQcM3HRuaISCtsSx5ibVMTbDu.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4gyx49ibwQslyrwuUS1c58PJEEd.jpg",
           "overview": "Cuando un piloto naval estadounidense queda atrapado tras líneas enemigas en una misión secreta durante la Guerra Fría, su única oportunidad de sobrevivir es formar una alianza con un excéntrico exagente de la KGB.",
           "youtube_id": "EcR9hwmghLc",
           "trailer_url": "https://www.youtube.com/watch?v=EcR9hwmghLc"
@@ -264,8 +264,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/yGeQsRm4hBErW1q0UlflCFQzI0o.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/vG3U8t5OKHO2xHap9QqclincYl5.jpg",
           "overview": "Lana Washington y Joel Nutkins son dos experimentados oficiales del equipo de artificieros de la policía de Londres. Una serie de atentados en pleno verano levanta sospechas sobre un ataque premeditado contra el equipo.",
-          "youtube_id": "vjTPZzVAiX4",
-          "trailer_url": "https://www.youtube.com/watch?v=vjTPZzVAiX4"
+          "youtube_id": "ftzUUAhiGYE",
+          "trailer_url": "https://www.youtube.com/watch?v=ftzUUAhiGYE"
         },
         {
           "title": "Hadestown: The Musical",
@@ -405,6 +405,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=oJXaeB7fapw"
         },
         {
+          "title": "Intercambiados",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+          "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
+          "youtube_id": "oZlnTUemKPU",
+          "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
+        },
+        {
           "title": "El señor de los anillos: La comunidad del anillo",
           "subtitle": "PELÍCULA • 2001 • 2h 59m",
           "media_type": "PELÍCULA",
@@ -415,18 +427,6 @@
           "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
           "youtube_id": "3GJp6p_mgPo",
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
-        },
-        {
-          "title": "El Club de la Pelea",
-          "subtitle": "PELÍCULA • 1999 • 2h 19m",
-          "media_type": "PELÍCULA",
-          "year": "1999",
-          "extra_info": "2h 19m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bI0BhpswEApC0B17RhLZtRVPZiQ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
-          "overview": "Un hombre consumido por el insomnio y una vida sin sentido conoce a Tyler Durden, un carismático anarquista que lo arrastra a un club secreto donde el dolor despierta algo dormido. Lo que comienza como liberación pronto se convierte en una guerra contra el sistema…",
-          "youtube_id": "R7aiJtcJ0AQ",
-          "trailer_url": "https://www.youtube.com/watch?v=R7aiJtcJ0AQ"
         }
       ]
     },
@@ -583,6 +583,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
         },
         {
+          "title": "Enfrentados: Marfil",
+          "subtitle": "PELÍCULA • 2026 • 1h 44m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 44m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+          "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
+          "youtube_id": "5aCQgikjz8g",
+          "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
+        },
+        {
           "title": "Proyecto Fin del Mundo",
           "subtitle": "PELÍCULA • 2026 • 2h 36m",
           "media_type": "PELÍCULA",
@@ -619,6 +631,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=u7tyy_zX134"
         },
         {
+          "title": "Spider-Man: Un nuevo universo",
+          "subtitle": "PELÍCULA • 2018 • 1h 57m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 57m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9l9exwzYsEtSbtuLHJQoNQVQGp7.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
+          "youtube_id": "11X12iudxPM",
+          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
+        },
+        {
           "title": "El Origen",
           "subtitle": "PELÍCULA • 2010 • 2h 28m",
           "media_type": "PELÍCULA",
@@ -629,18 +653,6 @@
           "overview": "Dom Cobb es un ladrón de secretos que se sumerge en los sueños de otros para extraer información. Para redimirse, debe implantar una idea en lugar de extraerla. En un viaje de sueños dentro de sueños, lucha por la redención mientras se enfrenta a sus propios demonios.",
           "youtube_id": "RV9L7ui9Cn8",
           "trailer_url": "https://www.youtube.com/watch?v=RV9L7ui9Cn8"
-        },
-        {
-          "title": "El hombre araña",
-          "subtitle": "PELÍCULA • 2002 • 2h 1m",
-          "media_type": "PELÍCULA",
-          "year": "2002",
-          "extra_info": "2h 1m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/8eTbNzpjK9VJGu1g60j268MmXzm.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
-          "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia.",
-          "youtube_id": "8vKR8559EMo",
-          "trailer_url": "https://www.youtube.com/watch?v=8vKR8559EMo"
         },
         {
           "title": "El Guardián: Último Refugio",
@@ -655,28 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=bCBSN8qSfIQ"
         },
         {
-          "title": "Spider-Man: Un nuevo universo",
-          "subtitle": "PELÍCULA • 2018 • 1h 57m",
+          "title": "El hombre araña",
+          "subtitle": "PELÍCULA • 2002 • 2h 1m",
           "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "1h 57m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9l9exwzYsEtSbtuLHJQoNQVQGp7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
-          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
-          "youtube_id": "11X12iudxPM",
-          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
-        },
-        {
-          "title": "Barreda",
-          "subtitle": "PELÍCULA • 2026 • 1h 45m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 45m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/a25CyXmPJx6SrVFA9yirJTL9iAH.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
-          "overview": "En 1992, Ricardo Barreda era un dentista modesto que asesinó brutalmente a su esposa, suegra y dos hijas adultas en su casa familiar. Tachándose a sí mismo como una víctima, encendió una tormenta mediática y alimentó un escándalo nacional.",
-          "youtube_id": "PUovHX3F9DE",
-          "trailer_url": "https://www.youtube.com/watch?v=PUovHX3F9DE"
+          "year": "2002",
+          "extra_info": "2h 1m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/8eTbNzpjK9VJGu1g60j268MmXzm.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+          "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia.",
+          "youtube_id": "8vKR8559EMo",
+          "trailer_url": "https://www.youtube.com/watch?v=8vKR8559EMo"
         }
       ]
     },
@@ -690,22 +690,10 @@
           "year": "2026",
           "extra_info": "1h 51m",
           "poster_url": "https://image.tmdb.org/t/p/w500/naKQcM3HRuaISCtsSx5ibVMTbDu.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4gyx49ibwQslyrwuUS1c58PJEEd.jpg",
           "overview": "Cuando un piloto naval estadounidense queda atrapado tras líneas enemigas en una misión secreta durante la Guerra Fría, su única oportunidad de sobrevivir es formar una alianza con un excéntrico exagente de la KGB.",
           "youtube_id": "EcR9hwmghLc",
           "trailer_url": "https://www.youtube.com/watch?v=EcR9hwmghLc"
-        },
-        {
-          "title": "F1 la película",
-          "subtitle": "PELÍCULA • 2025 • 2h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
-          "overview": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.",
-          "youtube_id": "NzbdHV0fPNg",
-          "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
           "title": "El abismo secreto",
@@ -720,16 +708,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "title": "F1 la película",
+          "subtitle": "PELÍCULA • 2025 • 2h 36m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+          "extra_info": "2h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
+          "overview": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.",
+          "youtube_id": "NzbdHV0fPNg",
+          "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
           "title": "Los asesinos de la luna",
@@ -756,16 +744,40 @@
           "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
           "title": "Identidad desconocida",
           "subtitle": "PELÍCULA • 2002 • 1h 58m",
           "media_type": "PELÍCULA",
           "year": "2002",
           "extra_info": "1h 58m",
           "poster_url": "https://image.tmdb.org/t/p/w500/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zxYp7GhqzcNqNSkjHoOdx0BEtOM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/kJaRWmy1BGq3pHyE94LOTteiHer.jpg",
           "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
           "youtube_id": "AXMLkYf2Ilo",
           "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
+        },
+        {
+          "title": "El canto del cisne",
+          "subtitle": "PELÍCULA • 2021 • 1h 52m",
+          "media_type": "PELÍCULA",
+          "year": "2021",
+          "extra_info": "1h 52m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/k8grTFIqokqAbQgvZSCIYdzub3p.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4iMURVQCxjyMH8Vr1Wd3GCsxE06.jpg",
+          "overview": "En un futuro cercano, Cameron Turner es diagnosticado con una enfermedad terminal. Con tal de proteger a su familia del dolor, considera una solución experimental capaz de alterar su destino. Una reflexiva historia de amor, pérdida y sacrificio.",
+          "youtube_id": "SXJJdApqOCE",
+          "trailer_url": "https://www.youtube.com/watch?v=SXJJdApqOCE"
         },
         {
           "title": "El niño, el topo, el zorro y el caballo",
@@ -778,18 +790,6 @@
           "overview": "Narra la improbable amistad de un niño, un topo, un zorro y un caballo que viajan juntos buscando el hogar del niño. Basada en el libro de Charlie Mackesy.",
           "youtube_id": "oaUfoOBClkA",
           "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
-        },
-        {
-          "title": "Parque Jurásico",
-          "subtitle": "PELÍCULA • 1993 • 2h 7m",
-          "media_type": "PELÍCULA",
-          "year": "1993",
-          "extra_info": "2h 7m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/h831eszSFmEyr94WKcgscqPIRbh.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4SyDTF02R5BepqSdQmOaNCHObzF.jpg",
-          "overview": "El multimillonario John Hammond tiene una idea para un espectacular parque temático: una isla retirada donde los visitantes puedan observar dinosaurios reales. Con la última tecnología en el desarrollo de DNA, los científicos pueden clonar braquiosaurios, triceratops, velociraptors y un tiranosaurio rex, utilizando para ello la sangre fosilizada en ámbar contenida en insectos que los mordieron hace millones de años. Los paleontólogos Alan Grant, Ellie Sattler y Ian Malcolm visitan el parque y quedan muy sorprendidos con los resultados obtenidos. Pero cuando un problemático empleado manipula el sofisticado sistema de seguridad los dinosaurios escapan, obligando a los visitantes a luchar por su supervivencia.",
-          "youtube_id": "RtBuQmT6bb4",
-          "trailer_url": "https://www.youtube.com/watch?v=RtBuQmT6bb4"
         },
         {
           "title": "Snoopy presenta: Hogar, dulce hogar",
@@ -807,6 +807,18 @@
     }
   ],
   "flat_list": [
+    {
+      "title": "The Last of Us",
+      "subtitle": "SERIE • 2023 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2023",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+      "overview": "Veinte años después de la destrucción de la civilización moderna, Joel, un aguerrido superviviente, es contratado para sacar a Ellie, una joven de 14 años, de una opresiva zona de cuarentena. Lo que empieza como un trabajo sencillo pronto se convierte en un viaje brutal y desgarrador, ya que ambos deben atravesar Estados Unidos y depender el uno del otro para sobrevivir.",
+      "youtube_id": "yyGetSp7CIc",
+      "trailer_url": "https://www.youtube.com/watch?v=yyGetSp7CIc"
+    },
     {
       "title": "Mal de Amores",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -838,7 +850,7 @@
       "year": "2026",
       "extra_info": "1h 44m",
       "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/oZkk6B15Ak4uTa2aVrJaDmSk3Xl.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
       "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
       "youtube_id": "5aCQgikjz8g",
       "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
@@ -874,7 +886,7 @@
       "year": "2026",
       "extra_info": "1h 38m",
       "poster_url": "https://image.tmdb.org/t/p/w500/xQlESgkDM7rczAWySdB0WBomh39.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yQXU4rgJ5LVCzn16SeIg34T35lV.jpg",
       "overview": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
       "youtube_id": "IRJGXHvc-Hs",
       "trailer_url": "https://www.youtube.com/watch?v=IRJGXHvc-Hs"
@@ -940,18 +952,6 @@
       "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
     },
     {
-      "title": "La Casa de los Famosos Colombia",
-      "subtitle": "SERIE • 2024 • 4 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "4 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gpjREcm3xsm5kgrBKqSyfGbUAjV.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/55Z8gBdyHn4MzXqv0wjX2vZpn2B.jpg",
-      "overview": "Mujeres y hombres que cuentan con trayectoria en el ámbito de la música, la actuación, las redes sociales, entre otros, tendrán que convivir y aguantarse entre sí.",
-      "youtube_id": "3QQbCjffBkI",
-      "trailer_url": "https://www.youtube.com/watch?v=3QQbCjffBkI"
-    },
-    {
       "title": "Drag Race España",
       "subtitle": "SERIE • 2021 • 6 Temporadas",
       "media_type": "SERIE",
@@ -972,8 +972,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/6Juf2mClD4JpfLVU2YDjLKzFd9E.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/gPc3usdr5DvwQZyOnYueaUHCE1q.jpg",
       "overview": "Un joven sin rumbo llamado Toshiaki Gozu es asesinado y resucitado como un personaje no jugable en un videojuego al que ha estado jugando. Gozu se encuentra con el Rey Demonio Evelogia, el último jefe del juego al que Gozu adora desde que era pequeño. Gozu empieza a cortejar a Evelogia admitiendo: «Me enamoré de ti». Juntos, se proponen conquistar el mundo.",
-      "youtube_id": "nSG_9sf3xxg",
-      "trailer_url": "https://www.youtube.com/watch?v=nSG_9sf3xxg"
+      "youtube_id": "Y-ittlhRUZ4",
+      "trailer_url": "https://www.youtube.com/watch?v=Y-ittlhRUZ4"
     },
     {
       "title": "Mayday",
@@ -982,7 +982,7 @@
       "year": "2026",
       "extra_info": "1h 51m",
       "poster_url": "https://image.tmdb.org/t/p/w500/naKQcM3HRuaISCtsSx5ibVMTbDu.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/4gyx49ibwQslyrwuUS1c58PJEEd.jpg",
       "overview": "Cuando un piloto naval estadounidense queda atrapado tras líneas enemigas en una misión secreta durante la Guerra Fría, su única oportunidad de sobrevivir es formar una alianza con un excéntrico exagente de la KGB.",
       "youtube_id": "EcR9hwmghLc",
       "trailer_url": "https://www.youtube.com/watch?v=EcR9hwmghLc"
@@ -1068,8 +1068,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/yGeQsRm4hBErW1q0UlflCFQzI0o.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/vG3U8t5OKHO2xHap9QqclincYl5.jpg",
       "overview": "Lana Washington y Joel Nutkins son dos experimentados oficiales del equipo de artificieros de la policía de Londres. Una serie de atentados en pleno verano levanta sospechas sobre un ataque premeditado contra el equipo.",
-      "youtube_id": "vjTPZzVAiX4",
-      "trailer_url": "https://www.youtube.com/watch?v=vjTPZzVAiX4"
+      "youtube_id": "ftzUUAhiGYE",
+      "trailer_url": "https://www.youtube.com/watch?v=ftzUUAhiGYE"
     },
     {
       "title": "Hadestown: The Musical",
