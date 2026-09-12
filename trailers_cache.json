@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Solo Asesinatos en el Edificio",
+          "subtitle": "SERIE • 2021 • 6 Temporadas",
+          "media_type": "SERIE",
+          "year": "2021",
+          "extra_info": "6 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7yD7k8IX20WTpHlLqB97Q9d2clq.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg",
+          "overview": "Tres desconocidos con un interés común por los podcasts de crímenes reales se unen para investigar una muerte en el edificio de apartamentos en el que todos viven en Nueva York.",
+          "youtube_id": "kmgT20OXV1o",
+          "trailer_url": "https://www.youtube.com/watch?v=kmgT20OXV1o"
+        },
+        {
+          "title": "Enfrentados: Marfil",
+          "subtitle": "PELÍCULA • 2026 • 1h 44m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 44m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+          "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
+          "youtube_id": "5aCQgikjz8g",
+          "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
+        },
+        {
+          "title": "Entrega al límite",
+          "subtitle": "PELÍCULA • 2026 • 1h 37m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
+          "overview": "Frank es un mensajero encargado de transportar un órgano que puede salvarle la vida a un joven receptor. Pero la misión se vuelve una carrera contra el tiempo cuando un despiadado jefe del crimen hará lo que sea necesario para quedarse con él.",
+          "youtube_id": "YJTR-wQ9MvM",
+          "trailer_url": "https://www.youtube.com/watch?v=YJTR-wQ9MvM"
+        },
+        {
           "title": "The Last of Us",
           "subtitle": "SERIE • 2023 • 2 Temporadas",
           "media_type": "SERIE",
@@ -40,18 +76,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=1epklvnxATo"
         },
         {
-          "title": "Enfrentados: Marfil",
-          "subtitle": "PELÍCULA • 2026 • 1h 44m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 44m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
-          "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
-          "youtube_id": "5aCQgikjz8g",
-          "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
-        },
-        {
           "title": "Regalo de amor",
           "subtitle": "SERIE • 2025 • 1 Temporada",
           "media_type": "SERIE",
@@ -82,7 +106,7 @@
           "year": "2026",
           "extra_info": "1h 38m",
           "poster_url": "https://image.tmdb.org/t/p/w500/xQlESgkDM7rczAWySdB0WBomh39.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yQXU4rgJ5LVCzn16SeIg34T35lV.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
           "overview": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
           "youtube_id": "IRJGXHvc-Hs",
           "trailer_url": "https://www.youtube.com/watch?v=IRJGXHvc-Hs"
@@ -168,8 +192,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6Juf2mClD4JpfLVU2YDjLKzFd9E.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/gPc3usdr5DvwQZyOnYueaUHCE1q.jpg",
           "overview": "Un joven sin rumbo llamado Toshiaki Gozu es asesinado y resucitado como un personaje no jugable en un videojuego al que ha estado jugando. Gozu se encuentra con el Rey Demonio Evelogia, el último jefe del juego al que Gozu adora desde que era pequeño. Gozu empieza a cortejar a Evelogia admitiendo: «Me enamoré de ti». Juntos, se proponen conquistar el mundo.",
-          "youtube_id": "Y-ittlhRUZ4",
-          "trailer_url": "https://www.youtube.com/watch?v=Y-ittlhRUZ4"
+          "youtube_id": "nSG_9sf3xxg",
+          "trailer_url": "https://www.youtube.com/watch?v=nSG_9sf3xxg"
         },
         {
           "title": "Mayday",
@@ -264,8 +288,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/yGeQsRm4hBErW1q0UlflCFQzI0o.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/vG3U8t5OKHO2xHap9QqclincYl5.jpg",
           "overview": "Lana Washington y Joel Nutkins son dos experimentados oficiales del equipo de artificieros de la policía de Londres. Una serie de atentados en pleno verano levanta sospechas sobre un ataque premeditado contra el equipo.",
-          "youtube_id": "ftzUUAhiGYE",
-          "trailer_url": "https://www.youtube.com/watch?v=ftzUUAhiGYE"
+          "youtube_id": "3lqHgSHmkFo",
+          "trailer_url": "https://www.youtube.com/watch?v=3lqHgSHmkFo"
         },
         {
           "title": "Hadestown: The Musical",
@@ -278,30 +302,6 @@
           "overview": "Una yuxtaposición musical de los mitos de Orfeo y Eurídice y de Hades y Perséfone que analiza cómo la vida real puede influir en nuestra búsqueda de un mundo perfecto.",
           "youtube_id": "Xvuvun5sVbY",
           "trailer_url": "https://www.youtube.com/watch?v=Xvuvun5sVbY"
-        },
-        {
-          "title": "El agente nocturno",
-          "subtitle": "SERIE • 2023 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uYNgC4Zd9NMcpMVug9NTgeIqfTy.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gklrevVndG98GHGDwfm8y8kxESo.jpg",
-          "overview": "Después de que una llamada telefónica los junta, un agente del FBI y una experta en ciberseguridad deben desmantelar una intrincada red de conspiraciones políticas.",
-          "youtube_id": "0AtEBtN4zOc",
-          "trailer_url": "https://www.youtube.com/watch?v=0AtEBtN4zOc"
-        },
-        {
-          "title": "Vigil: conspiración nuclear",
-          "subtitle": "SERIE • 2021 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2021",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7v2D9l9QmU02pXP7R2udu1uYN2y.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bfL7ZRhYJn5rYq9DYZL4Wf5qboL.jpg",
-          "overview": "Luego de que un miembro de la tripulación aparece muerto a bordo del submarino nuclear \"Trident HMS VIGIL\", la detective Amy Silva acude a investigar el caso. Sin embargo, el dispositivo nuclear disuasivo del Reino Unido debe permanecer activo.",
-          "youtube_id": "oFhgNy5jqsU",
-          "trailer_url": "https://www.youtube.com/watch?v=oFhgNy5jqsU"
         }
       ]
     },
@@ -369,6 +369,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=E4noegsHPvM"
         },
         {
+          "title": "¿Por qué me casé, entonces?",
+          "subtitle": "PELÍCULA • 2026 • 1h 52m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 52m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/exWdEF4PJsGpX9HeLQsedBgTkj8.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
+          "overview": "Las parejas se reencuentran para la boda de la hija de Marcus y Angela. Cuando surgen dramas antiguos y nuevos, todos se preguntan: «¿Por qué fue que nos casamos?».",
+          "youtube_id": "JjSDhPhZGNU",
+          "trailer_url": "https://www.youtube.com/watch?v=JjSDhPhZGNU"
+        },
+        {
           "title": "La última casa",
           "subtitle": "PELÍCULA • 2026 • 1h 50m",
           "media_type": "PELÍCULA",
@@ -415,18 +427,6 @@
           "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
           "youtube_id": "oZlnTUemKPU",
           "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
-        },
-        {
-          "title": "El señor de los anillos: La comunidad del anillo",
-          "subtitle": "PELÍCULA • 2001 • 2h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
-          "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
-          "youtube_id": "3GJp6p_mgPo",
-          "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         }
       ]
     },
@@ -458,18 +458,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
         },
         {
-          "title": "Avengers: Infinity War",
-          "subtitle": "PELÍCULA • 2018 • 2h 29m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 29m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
-          "youtube_id": "aAoKqx9wb1I",
-          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
-        },
-        {
           "title": "Zootopia 2",
           "subtitle": "PELÍCULA • 2025 • 1h 47m",
           "media_type": "PELÍCULA",
@@ -492,6 +480,18 @@
           "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
           "youtube_id": "z05pKcZwz-U",
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
+        },
+        {
+          "title": "Avengers: Infinity War",
+          "subtitle": "PELÍCULA • 2018 • 2h 29m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "2h 29m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
+          "youtube_id": "aAoKqx9wb1I",
+          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
         },
         {
           "title": "Los vengadores",
@@ -571,18 +571,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=A4ESt5_aHGQ"
         },
         {
-          "title": "Sunrise: El último amanecer",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
-          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
-          "youtube_id": "EeyXSwUjM3Q",
-          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
-        },
-        {
           "title": "Enfrentados: Marfil",
           "subtitle": "PELÍCULA • 2026 • 1h 44m",
           "media_type": "PELÍCULA",
@@ -595,13 +583,25 @@
           "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
         },
         {
+          "title": "Sunrise: El último amanecer",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+          "youtube_id": "EeyXSwUjM3Q",
+          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
+        },
+        {
           "title": "Proyecto Fin del Mundo",
           "subtitle": "PELÍCULA • 2026 • 2h 36m",
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 36m",
           "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
           "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
           "youtube_id": "S7w4cDtHyFQ",
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
@@ -631,40 +631,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=u7tyy_zX134"
         },
         {
-          "title": "Spider-Man: Un nuevo universo",
-          "subtitle": "PELÍCULA • 2018 • 1h 57m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "1h 57m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9l9exwzYsEtSbtuLHJQoNQVQGp7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
-          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
-          "youtube_id": "11X12iudxPM",
-          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
-        },
-        {
           "title": "El Origen",
           "subtitle": "PELÍCULA • 2010 • 2h 28m",
           "media_type": "PELÍCULA",
           "year": "2010",
           "extra_info": "2h 28m",
           "poster_url": "https://image.tmdb.org/t/p/w500/xgPGDEKkBrXhPaNmwIlf8e2RCMk.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ii8QGacT3MXESqBckQlyrATY0lT.jpg",
           "overview": "Dom Cobb es un ladrón de secretos que se sumerge en los sueños de otros para extraer información. Para redimirse, debe implantar una idea en lugar de extraerla. En un viaje de sueños dentro de sueños, lucha por la redención mientras se enfrenta a sus propios demonios.",
           "youtube_id": "RV9L7ui9Cn8",
           "trailer_url": "https://www.youtube.com/watch?v=RV9L7ui9Cn8"
-        },
-        {
-          "title": "El Guardián: Último Refugio",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
-          "overview": "Un recluso en una remota isla escocesa rescata a una niña del mar, desencadenando una peligrosa secuencia de acontecimientos.",
-          "youtube_id": "bCBSN8qSfIQ",
-          "trailer_url": "https://www.youtube.com/watch?v=bCBSN8qSfIQ"
         },
         {
           "title": "El hombre araña",
@@ -677,6 +653,30 @@
           "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia.",
           "youtube_id": "8vKR8559EMo",
           "trailer_url": "https://www.youtube.com/watch?v=8vKR8559EMo"
+        },
+        {
+          "title": "Spider-Man: Un nuevo universo",
+          "subtitle": "PELÍCULA • 2018 • 1h 57m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 57m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9l9exwzYsEtSbtuLHJQoNQVQGp7.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
+          "youtube_id": "11X12iudxPM",
+          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
+        },
+        {
+          "title": "El Guardián: Último Refugio",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
+          "overview": "Un recluso en una remota isla escocesa rescata a una niña del mar, desencadenando una peligrosa secuencia de acontecimientos.",
+          "youtube_id": "bCBSN8qSfIQ",
+          "trailer_url": "https://www.youtube.com/watch?v=bCBSN8qSfIQ"
         }
       ]
     },
@@ -696,18 +696,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=EcR9hwmghLc"
         },
         {
-          "title": "El abismo secreto",
-          "subtitle": "PELÍCULA • 2025 • 2h 8m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
-          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
-          "youtube_id": "3QbfHIKyd4I",
-          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
-        },
-        {
           "title": "F1 la película",
           "subtitle": "PELÍCULA • 2025 • 2h 36m",
           "media_type": "PELÍCULA",
@@ -720,16 +708,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
-          "title": "Los asesinos de la luna",
-          "subtitle": "PELÍCULA • 2023 • 3h 26m",
+          "title": "El abismo secreto",
+          "subtitle": "PELÍCULA • 2025 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "3h 26m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yCWQJFm2CJ5PddNxz2Ce9CNeqLT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/acvE3RWjDLgvbL2RtcyzkrsAyNV.jpg",
-          "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
-          "youtube_id": "qXVsJU0I8u0",
-          "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
+          "year": "2025",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
+          "youtube_id": "3QbfHIKyd4I",
+          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
           "title": "La Propuesta",
@@ -742,6 +730,18 @@
           "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
           "youtube_id": "rCs8skCWF98",
           "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
+        },
+        {
+          "title": "Los asesinos de la luna",
+          "subtitle": "PELÍCULA • 2023 • 3h 26m",
+          "media_type": "PELÍCULA",
+          "year": "2023",
+          "extra_info": "3h 26m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yCWQJFm2CJ5PddNxz2Ce9CNeqLT.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/acvE3RWjDLgvbL2RtcyzkrsAyNV.jpg",
+          "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
+          "youtube_id": "qXVsJU0I8u0",
+          "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
           "title": "La guerra de los mundos",
@@ -780,18 +780,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=SXJJdApqOCE"
         },
         {
-          "title": "El niño, el topo, el zorro y el caballo",
-          "subtitle": "PELÍCULA • 2022 • 35m",
-          "media_type": "PELÍCULA",
-          "year": "2022",
-          "extra_info": "35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/r3HDy6DZVQoyAoJJounELXfNBHq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wO0MIGcA7w7tBI9Ey80Q4Z7qnPm.jpg",
-          "overview": "Narra la improbable amistad de un niño, un topo, un zorro y un caballo que viajan juntos buscando el hogar del niño. Basada en el libro de Charlie Mackesy.",
-          "youtube_id": "oaUfoOBClkA",
-          "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
-        },
-        {
           "title": "Snoopy presenta: Hogar, dulce hogar",
           "subtitle": "PELÍCULA • 2026 • 32m",
           "media_type": "PELÍCULA",
@@ -802,11 +790,59 @@
           "overview": "Cuando su amada casita desaparece, Snoopy intenta buscarla y descubre qué es lo que hace que una casa se sienta como un hogar.",
           "youtube_id": "wyv9vAtEXpQ",
           "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
+        },
+        {
+          "title": "A la caza de espíritus malignos",
+          "subtitle": "SERIE • 2020 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2020",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
+          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
+          "youtube_id": "WnS2x0_hYgs",
+          "trailer_url": "https://www.youtube.com/watch?v=WnS2x0_hYgs"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Solo Asesinatos en el Edificio",
+      "subtitle": "SERIE • 2021 • 6 Temporadas",
+      "media_type": "SERIE",
+      "year": "2021",
+      "extra_info": "6 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7yD7k8IX20WTpHlLqB97Q9d2clq.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg",
+      "overview": "Tres desconocidos con un interés común por los podcasts de crímenes reales se unen para investigar una muerte en el edificio de apartamentos en el que todos viven en Nueva York.",
+      "youtube_id": "kmgT20OXV1o",
+      "trailer_url": "https://www.youtube.com/watch?v=kmgT20OXV1o"
+    },
+    {
+      "title": "Enfrentados: Marfil",
+      "subtitle": "PELÍCULA • 2026 • 1h 44m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 44m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+      "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
+      "youtube_id": "5aCQgikjz8g",
+      "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
+    },
+    {
+      "title": "Entrega al límite",
+      "subtitle": "PELÍCULA • 2026 • 1h 37m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 37m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
+      "overview": "Frank es un mensajero encargado de transportar un órgano que puede salvarle la vida a un joven receptor. Pero la misión se vuelve una carrera contra el tiempo cuando un despiadado jefe del crimen hará lo que sea necesario para quedarse con él.",
+      "youtube_id": "YJTR-wQ9MvM",
+      "trailer_url": "https://www.youtube.com/watch?v=YJTR-wQ9MvM"
+    },
     {
       "title": "The Last of Us",
       "subtitle": "SERIE • 2023 • 2 Temporadas",
@@ -844,18 +880,6 @@
       "trailer_url": "https://www.youtube.com/watch?v=1epklvnxATo"
     },
     {
-      "title": "Enfrentados: Marfil",
-      "subtitle": "PELÍCULA • 2026 • 1h 44m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 44m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
-      "overview": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas. Forzados a pasar cada minuto juntos y aunque inicialmente choquen por el espíritu indomable de ella y el carácter reservado de él, surgirá una irremediable atracción entre ambos. Al volver a España, con las amenazas intensificándose, deberán moverse en un mundo donde nadie es quien dice ser y nada es lo que parece.",
-      "youtube_id": "5aCQgikjz8g",
-      "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
-    },
-    {
       "title": "Regalo de amor",
       "subtitle": "SERIE • 2025 • 1 Temporada",
       "media_type": "SERIE",
@@ -886,7 +910,7 @@
       "year": "2026",
       "extra_info": "1h 38m",
       "poster_url": "https://image.tmdb.org/t/p/w500/xQlESgkDM7rczAWySdB0WBomh39.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/yQXU4rgJ5LVCzn16SeIg34T35lV.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
       "overview": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
       "youtube_id": "IRJGXHvc-Hs",
       "trailer_url": "https://www.youtube.com/watch?v=IRJGXHvc-Hs"
@@ -972,8 +996,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/6Juf2mClD4JpfLVU2YDjLKzFd9E.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/gPc3usdr5DvwQZyOnYueaUHCE1q.jpg",
       "overview": "Un joven sin rumbo llamado Toshiaki Gozu es asesinado y resucitado como un personaje no jugable en un videojuego al que ha estado jugando. Gozu se encuentra con el Rey Demonio Evelogia, el último jefe del juego al que Gozu adora desde que era pequeño. Gozu empieza a cortejar a Evelogia admitiendo: «Me enamoré de ti». Juntos, se proponen conquistar el mundo.",
-      "youtube_id": "Y-ittlhRUZ4",
-      "trailer_url": "https://www.youtube.com/watch?v=Y-ittlhRUZ4"
+      "youtube_id": "nSG_9sf3xxg",
+      "trailer_url": "https://www.youtube.com/watch?v=nSG_9sf3xxg"
     },
     {
       "title": "Mayday",
@@ -1068,8 +1092,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/yGeQsRm4hBErW1q0UlflCFQzI0o.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/vG3U8t5OKHO2xHap9QqclincYl5.jpg",
       "overview": "Lana Washington y Joel Nutkins son dos experimentados oficiales del equipo de artificieros de la policía de Londres. Una serie de atentados en pleno verano levanta sospechas sobre un ataque premeditado contra el equipo.",
-      "youtube_id": "ftzUUAhiGYE",
-      "trailer_url": "https://www.youtube.com/watch?v=ftzUUAhiGYE"
+      "youtube_id": "3lqHgSHmkFo",
+      "trailer_url": "https://www.youtube.com/watch?v=3lqHgSHmkFo"
     },
     {
       "title": "Hadestown: The Musical",
@@ -1082,30 +1106,6 @@
       "overview": "Una yuxtaposición musical de los mitos de Orfeo y Eurídice y de Hades y Perséfone que analiza cómo la vida real puede influir en nuestra búsqueda de un mundo perfecto.",
       "youtube_id": "Xvuvun5sVbY",
       "trailer_url": "https://www.youtube.com/watch?v=Xvuvun5sVbY"
-    },
-    {
-      "title": "El agente nocturno",
-      "subtitle": "SERIE • 2023 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/uYNgC4Zd9NMcpMVug9NTgeIqfTy.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/gklrevVndG98GHGDwfm8y8kxESo.jpg",
-      "overview": "Después de que una llamada telefónica los junta, un agente del FBI y una experta en ciberseguridad deben desmantelar una intrincada red de conspiraciones políticas.",
-      "youtube_id": "0AtEBtN4zOc",
-      "trailer_url": "https://www.youtube.com/watch?v=0AtEBtN4zOc"
-    },
-    {
-      "title": "Vigil: conspiración nuclear",
-      "subtitle": "SERIE • 2021 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2021",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7v2D9l9QmU02pXP7R2udu1uYN2y.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/bfL7ZRhYJn5rYq9DYZL4Wf5qboL.jpg",
-      "overview": "Luego de que un miembro de la tripulación aparece muerto a bordo del submarino nuclear \"Trident HMS VIGIL\", la detective Amy Silva acude a investigar el caso. Sin embargo, el dispositivo nuclear disuasivo del Reino Unido debe permanecer activo.",
-      "youtube_id": "oFhgNy5jqsU",
-      "trailer_url": "https://www.youtube.com/watch?v=oFhgNy5jqsU"
     }
   ]
 }
