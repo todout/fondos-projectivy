@@ -4,6 +4,66 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "El club gastronómico",
+          "subtitle": "SERIE • 2026 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wmKOX8g6iE4jmf4B2mr3yo6Qg2P.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vYO9OkYHSNfYuqz6VMS4aCCfRb8.jpg",
+          "overview": "Luego de que uno de ellos muere en un incendio, cuatro parejas que parecían perfectas se ven forzadas a cuestionar todo lo que creían saber los unos de los otros.",
+          "youtube_id": "hf1KIwRxSE8",
+          "trailer_url": "https://www.youtube.com/watch?v=hf1KIwRxSE8"
+        },
+        {
+          "title": "Historia de dos ciudades",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cHWIztU7qYEDFE2eAQsWFdGS19d.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1erQOjm3PZP6PNVRIuxdNmesCBu.jpg",
+          "overview": "Londres, 1782. La tensión es máxima en la guerra entre Francia e Inglaterra. La vida de una joven, Lucie Manette, da un vuelco cuando recibe un mensaje de París: su padre, al que se creía muerto desde hace casi 20 años, podría estar vivo. El mensajero, el idealista emigrado francés Charles Darnay, es arrestado y acusado de traición. Lucie buscará la ayuda de un brillante pero inestable joven abogado, Sydney Carton, para liberar a Darnay con la esperanza de que la lleve a París para encontrar a su padre. El encuentro de Lucie con Darnay y Carton desata un poderoso y complejo triángulo amoroso, y los dos hombres lucharán por ser dignos del amor de la mujer mientras ella se debate entre uno u otro.",
+          "youtube_id": "tdu7qLyPIBI",
+          "trailer_url": "https://www.youtube.com/watch?v=tdu7qLyPIBI"
+        },
+        {
+          "title": "El peso del talento",
+          "subtitle": "PELÍCULA • 2022 • 1h 46m",
+          "media_type": "PELÍCULA",
+          "year": "2022",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/oCMOx7E1Rsb7Dlp46UmsJ0wwnw4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m0YjB4VfghKey8Ppsmz8qCd0v1m.jpg",
+          "overview": "Insatisfecho creativamente y en deudas de dinero, Nicolas Cage se ve forzado a aceptar 1 millón de dólares a cambio de asistir a la fiesta de cumpleaños de un obsesivo fanático: Javi. Las cosas cambian inesperadamente cuando Nicolas Cage es reclutado por la CIA para ayudar a atrapar a Javi, quien no es lo que parece, obligándolo a reencarnar sus personajes más icónicos y amados, con tal de salvarse a sí mismo y a los suyos de este complicado enredo.",
+          "youtube_id": "h9mECxgHKe8",
+          "trailer_url": "https://www.youtube.com/watch?v=h9mECxgHKe8"
+        },
+        {
+          "title": "Tony Awards",
+          "subtitle": "SERIE • 1956 • 72 Temporadas",
+          "media_type": "SERIE",
+          "year": "1956",
+          "extra_info": "72 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
+          "overview": "The Antoinette Perry Award for Excellence in Theatre, more commonly known as a Tony Award, recognizes achievement in live Broadway theatre. The awards are presented by the American Theatre Wing and The Broadway League at an annual ceremony in New York City. The awards are given for Broadway productions and performances, and an award is given for regional theatre.",
+          "youtube_id": "-hbR9RVaCus",
+          "trailer_url": "https://www.youtube.com/watch?v=-hbR9RVaCus"
+        },
+        {
+          "title": "Neagley",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/gqprC6jdAEQWf9mTVeAKBNes6VM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
+          "overview": "Del universo de REACHER, comienza un nuevo capítulo. Frances Neagley es una investigadora privada en Chicago y excompañera militar de Jack Reacher en la Unidad 110 de Investigaciones Especiales del Ejército. Al enterarse de que un querido amigo de su pasado murió en un accidente sospechoso, no se detendrá hasta hacer justicia.",
+          "youtube_id": "1ZUUjfsfvpw",
+          "trailer_url": "https://www.youtube.com/watch?v=1ZUUjfsfvpw"
+        },
+        {
           "title": "Monstruo: La historia de Lizzie Borden",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -11,7 +71,7 @@
           "extra_info": "1 Temporada",
           "poster_url": "https://image.tmdb.org/t/p/w500/8XFqpmHwbBcqMHJUHglukTeTU7Z.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-          "overview": "Monster: La Historia de Lizzie Borden cuenta la historia de cómo una joven cambió lo que el mundo creía que podía ser una asesina... todo lo que se necesitó fue un hacha.\n\nCuando la hija reprimida de una familia adinerada de Nueva Inglaterra y su rebelde criada se encuentran atrapadas en una casa construida sobre la humillación y la crueldad, escapan hacia una fantasía de sexo, poder y venganza. Los espantosos asesinatos sin resolver que siguen no solo conmocionan al mundo, sino que dan nacimiento a un ícono que se niega a vivir prisionera en una jaula, eligiendo en cambio forjar su propia leyenda: impactante, monstruosa y gloriosamente libre.",
+          "overview": "Atrapada en un hogar cruel de la era victoriana, Lizzie Borden mata a sus padres de forma grotesca con un hacha, en un homicidio que conmocionó a la nación.",
           "youtube_id": "POk0028h4_I",
           "trailer_url": "https://www.youtube.com/watch?v=POk0028h4_I"
         },
@@ -21,7 +81,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/1aCGJVkBZch6UN62yk44TGYU5Or.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
           "overview": "La vida de Manuel da un vuelco cuando Esmeralda, su amor perdido de hace quince años, lo llama inesperadamente. A pesar de estar a punto de casarse con otra persona, él se reencontrará con Esmeralda y ambos se darán cuenta de que su amor trasciende el tiempo.",
           "youtube_id": "jP2g8G16mJA",
@@ -34,7 +94,7 @@
           "year": "2026",
           "extra_info": "2h 10m",
           "poster_url": "https://image.tmdb.org/t/p/w500/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3qR1ZxuEzDksDGT13mHH2IiEq7G.jpg",
           "overview": "En lo más profundo de las zonas rurales de Oklahoma, el carismático y talentoso músico Amziah King lidera una banda de inadaptados que toca *bluegrass*, al tiempo que dirige la principal empresa de producción de miel de la localidad. Cuando su hija de crianza —con quien había perdido el contacto— regresa inesperadamente, Amziah aprovecha la oportunidad para retomar el vínculo y crear un negocio familiar. Sin embargo, el mundo de la miel es implacable, y sus rivales amenazan con destruir todo lo que él ha construido.",
           "youtube_id": "1RprmXBZOxk",
           "trailer_url": "https://www.youtube.com/watch?v=1RprmXBZOxk"
@@ -64,16 +124,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=23V2CLZJr3E"
         },
         {
-          "title": "Paradise Hotel",
-          "subtitle": "SERIE • 2005 • 22 Temporadas",
+          "title": "Crimen en el paraíso",
+          "subtitle": "SERIE • 2011 • 15 Temporadas",
           "media_type": "SERIE",
-          "year": "2005",
-          "extra_info": "22 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ycSBcACecVR0zSnP2ZF83k5f7he.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nun8Ssmni886Ib4v7chgQbswDfl.jpg",
-          "overview": "Danish version of the reality series \"Paradise Hotel\".",
-          "youtube_id": "oTl_Ulj82Hg",
-          "trailer_url": "https://www.youtube.com/watch?v=oTl_Ulj82Hg"
+          "year": "2011",
+          "extra_info": "15 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kczDRg492d3Iy6v4KraPVQ5ebhz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nCwAmyCcA6w1ZFjKrmwCRPiy4gt.jpg",
+          "overview": "La historia se centra en el personaje de Richard Poole, un policía inglés con muy poco sentido del humor y de carácter huraño que llega la ficticia isla caribeña de Saint-Marie para resolver el asesinato de un compañero. Tras resolver el crimen, recibirá una recompensa inesperada y no deseada: un puesto de trabajo como Inspector Jefe de la policía local. Al principio de la temporada, esta premisa se repite con el detective Humphrey Goodman sustituyendo a su antecesor en el cargo.",
+          "youtube_id": "n5gO5HyjDgs",
+          "trailer_url": "https://www.youtube.com/watch?v=n5gO5HyjDgs"
         },
         {
           "title": "Vista por última vez",
@@ -129,7 +189,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/exWdEF4PJsGpX9HeLQsedBgTkj8.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/c76FMlhmdo0pODhbqFtHki6yJQz.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
           "overview": "Las parejas se reencuentran para la boda de la hija de Marcus y Angela. Cuando surgen dramas antiguos y nuevos, todos se preguntan: «¿Por qué fue que nos casamos?».",
           "youtube_id": "JjSDhPhZGNU",
@@ -141,7 +201,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fiFdny17lnjrwH6TmuxrhNy1Ol2.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/4YyuSadBoc5k6krj0REcYH15DXG.jpg",
           "overview": "En la Inglaterra del siglo XIV, asolada por la peste, un campesino desencadena una rebelión contra el rey Ricardo II y se convierte involuntariamente en una leyenda de la resistencia.",
           "youtube_id": "leC6XnfakyM",
@@ -242,66 +302,6 @@
           "overview": "La vida de Marfil, la hija de un poderoso empresario español, da un giro cuando la secuestran y liberan sin explicaciones, por lo que su padre contrata a Sebastian Moore como su guardaespaldas. Obligados a pasar cada minuto del día juntos, surge entre ellos una inevitable atracción en un mundo donde nada es lo que parece. Basada en la novela de Mercedes Ron, autora de la saga Culpables.",
           "youtube_id": "5aCQgikjz8g",
           "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
-        },
-        {
-          "title": "Entrega al límite",
-          "subtitle": "PELÍCULA • 2026 • 1h 37m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/gxrGVQdFmc3xxVn6UyY31ZjqM0s.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
-          "overview": "Frank es un mensajero encargado de transportar un órgano que puede salvarle la vida a un joven receptor. Pero la misión se vuelve una carrera contra el tiempo cuando un despiadado jefe del crimen hará lo que sea necesario para quedarse con él.",
-          "youtube_id": "YJTR-wQ9MvM",
-          "trailer_url": "https://www.youtube.com/watch?v=YJTR-wQ9MvM"
-        },
-        {
-          "title": "The Last of Us",
-          "subtitle": "SERIE • 2023 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
-          "overview": "Veinte años después de la destrucción de la civilización moderna, Joel, un aguerrido superviviente, es contratado para sacar a Ellie, una joven de 14 años, de una opresiva zona de cuarentena. Lo que empieza como un trabajo sencillo pronto se convierte en un viaje brutal y desgarrador, ya que ambos deben atravesar Estados Unidos y depender el uno del otro para sobrevivir.",
-          "youtube_id": "yyGetSp7CIc",
-          "trailer_url": "https://www.youtube.com/watch?v=yyGetSp7CIc"
-        },
-        {
-          "title": "Mal de Amores",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/rGeWjJxZpFCftDDroRIa1BvYfqX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/avfnPYtyKXjgnhqtKAt1PZO2h5I.jpg",
-          "overview": "En plena Revolución mexicana, Emilia Sauri desafía las convenciones sociales para cumplir su sueño de ejercer la medicina y encontrar el amor, su lugar y la libertad.",
-          "youtube_id": "EHfxvOBB3kM",
-          "trailer_url": "https://www.youtube.com/watch?v=EHfxvOBB3kM"
-        },
-        {
-          "title": "Turning Point: Generation 9/11",
-          "subtitle": "PELÍCULA • 2026 • 1h 39m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 39m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg",
-          "overview": "Veinticinco años después del 11-S, este documental analiza cómo aquel fatídico día marcó a toda una nueva generación. Desde los niños que perdieron a sus padres en los atentados a los periodistas que dieron sus primeros pasos profesionales cubriendo la guerra contra el terrorismo, pasando por los jóvenes afganos y marines que sufrieron las consecuencias de la caótica retirada de EE. UU. de Afganistán: sus estremecedores testimonios muestran que el legado del 11-S no se mide solo por su trascendencia histórica, sino por las vidas que aún sigue marcando.",
-          "youtube_id": "1epklvnxATo",
-          "trailer_url": "https://www.youtube.com/watch?v=1epklvnxATo"
-        },
-        {
-          "title": "Regalo de amor",
-          "subtitle": "SERIE • 2025 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2025",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/96vEDoHQlmmQezbdrwjfdTCd1ZU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/xS0VjGieySrYrUWCY05QgaFlrB5.jpg",
-          "overview": "Isabella es una mujer dulce cuyo mayor sueño es ser madre. Tras la repentina muerte de su esposo, conoce a Eugenio, un hombre generoso. La vida de ambos da un vuelco cuando aparece un ser angelical que les dará la oportunidad de ser padres.",
-          "youtube_id": "om_I9CRkIjI",
-          "trailer_url": "https://www.youtube.com/watch?v=om_I9CRkIjI"
         }
       ]
     },
@@ -317,8 +317,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/f5yXF2vBOxZcPxvw1P7kXXqOVFV.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
           "overview": "Un famoso campeón de tiro olímpico viaja a los Estados Unidos en busca de un donante para su hijo, pero un romance inesperado complica su misión.",
-          "youtube_id": "95xXBEsmWLU",
-          "trailer_url": "https://www.youtube.com/watch?v=95xXBEsmWLU"
+          "youtube_id": "H82uvLvszQ0",
+          "trailer_url": "https://www.youtube.com/watch?v=H82uvLvszQ0"
         },
         {
           "title": "La captura",
@@ -333,18 +333,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=uIaPDKA0-Y4"
         },
         {
-          "title": "Susurran tu nombre",
-          "subtitle": "PELÍCULA • 2026 • 1h 54m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pBooYCjOyHUY1UFBrrXfEa6VvwZ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
-          "overview": "Tras la desaparición de su hijo, un viudo recurre a la ayuda de su padre ausente: un detective retirado que, años atrás, encarceló al asesino serial vinculado con este caso.",
-          "youtube_id": "zTOmwZRmVBs",
-          "trailer_url": "https://www.youtube.com/watch?v=zTOmwZRmVBs"
-        },
-        {
           "title": "Sueño de fuga",
           "subtitle": "PELÍCULA • 1994 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -355,6 +343,18 @@
           "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
           "youtube_id": "4u87tmlj4oE",
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
+        },
+        {
+          "title": "Susurran tu nombre",
+          "subtitle": "PELÍCULA • 2026 • 1h 54m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 54m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/pBooYCjOyHUY1UFBrrXfEa6VvwZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
+          "overview": "Tras la desaparición de su hijo, un viudo recurre a la ayuda de su padre ausente: un detective retirado que, años atrás, encarceló al asesino serial vinculado con este caso.",
+          "youtube_id": "zTOmwZRmVBs",
+          "trailer_url": "https://www.youtube.com/watch?v=zTOmwZRmVBs"
         },
         {
           "title": "Spider-Man: A través del Spider-Verso",
@@ -381,18 +381,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=R7aiJtcJ0AQ"
         },
         {
-          "title": "Parásitos",
-          "subtitle": "PELÍCULA • 2019 • 2h 12m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 12m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/j4AOjNlhvudYDijiT0lxeHAsPkk.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
-          "overview": "Tanto Gi Taek como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo, empieza a recibir clases particulares en casa de Park, las dos familias, que tienen mucho en común pese a pertenecer a dos mundos totalmente distintos, comienzan una interrelación de resultados impresivibles.",
-          "youtube_id": "broPd_xWuTw",
-          "trailer_url": "https://www.youtube.com/watch?v=broPd_xWuTw"
-        },
-        {
           "title": "El señor de los anillos: La comunidad del anillo",
           "subtitle": "PELÍCULA • 2001 • 2h 59m",
           "media_type": "PELÍCULA",
@@ -415,6 +403,18 @@
           "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
           "youtube_id": "5Fgq4Osh6XQ",
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
+        },
+        {
+          "title": "Intercambiados",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+          "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
+          "youtube_id": "oZlnTUemKPU",
+          "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
         },
         {
           "title": "Máquina de guerra",
@@ -458,18 +458,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
         },
         {
-          "title": "Avatar: Aang, El último Maestro Aire",
-          "subtitle": "PELÍCULA • 2026 • 1h 39m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 39m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/iMsORWhD8MawINagL6kvpDVAtS.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
-          "overview": "Avatar Aang, el último Maestro Aire del mundo, se entera de un antiguo poder que podría salvar a su cultura de la extinción. Con la ayuda de sus amigos, se embarca en una búsqueda global para encontrarlo antes de que caiga en las manos equivocadas y amenace con deshacer la paz por la que lo sacrificaron todo.",
-          "youtube_id": "8_fi8uJZP3c",
-          "trailer_url": "https://www.youtube.com/watch?v=8_fi8uJZP3c"
-        },
-        {
           "title": "Avengers: Endgame",
           "subtitle": "PELÍCULA • 2019 • 3h 0m",
           "media_type": "PELÍCULA",
@@ -494,18 +482,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=z8rhB_nc0wM"
         },
         {
-          "title": "Avatar: Fuego y ceniza",
-          "subtitle": "PELÍCULA • 2025 • 3h 18m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "3h 18m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
-          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
-          "youtube_id": "z05pKcZwz-U",
-          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
-        },
-        {
           "title": "Zootopia 2",
           "subtitle": "PELÍCULA • 2025 • 1h 47m",
           "media_type": "PELÍCULA",
@@ -518,28 +494,40 @@
           "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
-          "title": "Avengers: Los Vengadores",
-          "subtitle": "PELÍCULA • 2012 • 2h 23m",
-          "media_type": "PELÍCULA",
+          "title": "Avatar: La Leyenda de Korra",
+          "subtitle": "SERIE • 2012 • 4 Temporadas",
+          "media_type": "SERIE",
           "year": "2012",
-          "extra_info": "2h 23m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cWNIua1iPA4kGyQxJGvnx7UIzoT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-          "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel \"Los Vengadores\", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
-          "youtube_id": "yNXfOOL8824",
-          "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
+          "extra_info": "4 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eMo4uWsN3qceNhBPcuw5T2lFsc5.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bauKfP3CX5JPAXpmveOlPG1pngC.jpg",
+          "overview": "La serie se desarrolla en el mismo mundo ficticio de Avatar: la leyenda de Aang. El mundo está separado en cuatro grandes naciones: las Tribus Agua, el Reino Tierra, la Nación del Fuego y los Nómadas del Aire. El enfoque de la serie es el \"control\" o \"dominio\", la capacidad de algunos humanos de dominar un elemento asociado con su nación (agua, tierra, fuego y aire), a estos humanos se les llama «maestros». Cabe mencionar que la mayor parte de la población de \"Ciudad República\" está constituida por no-maestros, personas normales que no pueden dominar ningún elemento.",
+          "youtube_id": "48Uj3wnxwm0",
+          "trailer_url": "https://www.youtube.com/watch?v=48Uj3wnxwm0"
         },
         {
-          "title": "Capitán América: Un nuevo mundo",
-          "subtitle": "PELÍCULA • 2025 • 1h 59m",
+          "title": "Avatar: Fuego y ceniza",
+          "subtitle": "PELÍCULA • 2025 • 3h 18m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "1h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vUNj55xlF0pSU5FU3yDHC6L5wVX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ce3prrjh9ZehEl5JinNqr4jIeaB.jpg",
-          "overview": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
-          "youtube_id": "rX3UywPK-8w",
-          "trailer_url": "https://www.youtube.com/watch?v=rX3UywPK-8w"
+          "extra_info": "3h 18m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
+          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
+          "youtube_id": "z05pKcZwz-U",
+          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
+        },
+        {
+          "title": "Los Vengadores: Los héroes más poderosos del planeta",
+          "subtitle": "SERIE • 2010 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2010",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/m4xJb9O6Hc3C1Kt0vE6hZRaE9BE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vgPDKfOerEyF260CvozVEWj9T8n.jpg",
+          "overview": "Cuando los supervillanos más peligrosos del mundo escaparon de la Bóveda, el Cubo, la Casa Grande, y la Balsa, cinco de los héroes más poderosos de la Tierra crean una alianza de lucha contra el crimen llamado Los Vengadores. El equipo está compuesto -inicialmente- por Hank Pym (que asume tanto sus alteregos Ant-Man como Giant-Man ), Hulk, Iron Man, Thor y la Avispa. Capitán América, Pantera Negra y Ojo de Halcón se unen a la lista convirtiéndose en miembros del equipo, que enfrentará las amenazas de invasiones alienígenas, mutantes, científicos, monstruos, robots y muchas más a lo largo de la serie.",
+          "youtube_id": "yYAK1xW4l1Y",
+          "trailer_url": "https://www.youtube.com/watch?v=yYAK1xW4l1Y"
         },
         {
           "title": "Deadpool & Wolverine",
@@ -552,24 +540,24 @@
           "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
           "youtube_id": "V4ZDKt9KICo",
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
+        },
+        {
+          "title": "Capitán América: Un nuevo mundo",
+          "subtitle": "PELÍCULA • 2025 • 1h 59m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 59m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/pVMSRyAiye7gZ8NtuCt1qgbspY9.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ce3prrjh9ZehEl5JinNqr4jIeaB.jpg",
+          "overview": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "youtube_id": "rX3UywPK-8w",
+          "trailer_url": "https://www.youtube.com/watch?v=rX3UywPK-8w"
         }
       ]
     },
     {
       "category": "Top 10 Prime Video",
       "items": [
-        {
-          "title": "Enfrentados: Marfil",
-          "subtitle": "PELÍCULA • 2026 • 1h 44m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 44m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
-          "overview": "La vida de Marfil, la hija de un poderoso empresario español, da un giro cuando la secuestran y liberan sin explicaciones, por lo que su padre contrata a Sebastian Moore como su guardaespaldas. Obligados a pasar cada minuto del día juntos, surge entre ellos una inevitable atracción en un mundo donde nada es lo que parece. Basada en la novela de Mercedes Ron, autora de la saga Culpables.",
-          "youtube_id": "5aCQgikjz8g",
-          "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
-        },
         {
           "title": "Carrera contra el tiempo",
           "subtitle": "PELÍCULA • 2026 • 1h 26m",
@@ -583,6 +571,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=A4ESt5_aHGQ"
         },
         {
+          "title": "Enfrentados: Marfil",
+          "subtitle": "PELÍCULA • 2026 • 1h 44m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 44m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+          "overview": "La vida de Marfil, la hija de un poderoso empresario español, da un giro cuando la secuestran y liberan sin explicaciones, por lo que su padre contrata a Sebastian Moore como su guardaespaldas. Obligados a pasar cada minuto del día juntos, surge entre ellos una inevitable atracción en un mundo donde nada es lo que parece. Basada en la novela de Mercedes Ron, autora de la saga Culpables.",
+          "youtube_id": "5aCQgikjz8g",
+          "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
+        },
+        {
           "title": "Sunrise: El último amanecer",
           "subtitle": "PELÍCULA • 2026 • 1h 47m",
           "media_type": "PELÍCULA",
@@ -591,8 +591,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
           "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
-          "youtube_id": "EeyXSwUjM3Q",
-          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
+          "youtube_id": "iHGSsaSEPdw",
+          "trailer_url": "https://www.youtube.com/watch?v=iHGSsaSEPdw"
         },
         {
           "title": "Proyecto Fin del Mundo",
@@ -631,6 +631,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=rsCS0SxRaE4"
         },
         {
+          "title": "Sultana",
+          "subtitle": "PELÍCULA • 2026 • 2h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wDebpR4NplIM8EteAGfd51Zdisu.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/29XMlo2zt5LTA0YMjA3hubbM942.jpg",
+          "overview": "Narra una intensa lucha de poder entre Meral, la veterana reina de un club nocturno en Estambul, y Anna, una joven y talentosa bailarina bielorrusa a quien ella misma protege.",
+          "youtube_id": "YVMY0arsFjg",
+          "trailer_url": "https://www.youtube.com/watch?v=YVMY0arsFjg"
+        },
+        {
           "title": "Robot salvaje",
           "subtitle": "PELÍCULA • 2024 • 1h 41m",
           "media_type": "PELÍCULA",
@@ -653,18 +665,6 @@
           "overview": "Dom Cobb es un ladrón de secretos que se sumerge en los sueños de otros para extraer información. Para redimirse, debe implantar una idea en lugar de extraerla. En un viaje de sueños dentro de sueños, lucha por la redención mientras se enfrenta a sus propios demonios.",
           "youtube_id": "RV9L7ui9Cn8",
           "trailer_url": "https://www.youtube.com/watch?v=RV9L7ui9Cn8"
-        },
-        {
-          "title": "Spider-Man: Un nuevo universo",
-          "subtitle": "PELÍCULA • 2018 • 1h 57m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "1h 57m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9l9exwzYsEtSbtuLHJQoNQVQGp7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
-          "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
-          "youtube_id": "11X12iudxPM",
-          "trailer_url": "https://www.youtube.com/watch?v=11X12iudxPM"
         },
         {
           "title": "Amos del Universo",
@@ -756,40 +756,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "Snoopy presenta: Hogar, dulce hogar",
-          "subtitle": "PELÍCULA • 2026 • 32m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/d4yUl1kF9CvC5izhDAPEeBqrd9C.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kpq5o3WbnTos5fQwtyfyOHwSMdm.jpg",
-          "overview": "Cuando su amada casita desaparece, Snoopy intenta buscarla y descubre qué es lo que hace que una casa se sienta como un hogar.",
-          "youtube_id": "wyv9vAtEXpQ",
-          "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
-        },
-        {
-          "title": "El contador 2",
+          "title": "Del cielo al infierno",
           "subtitle": "PELÍCULA • 2025 • 2h 13m",
           "media_type": "PELÍCULA",
           "year": "2025",
           "extra_info": "2h 13m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jcV9YfjBRo6occxqeWtEiyWwMoG.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
-          "overview": "Cuando un viejo conocido es asesinado, Wolff se siente obligado a resolver el caso. Al darse cuenta de que se requieren medidas más extremas, Wolff recluta a su hermano distanciado y altamente letal, Brax, para ayudar. En colaboración con Marybeth Medina, descubren una conspiración mortal, convirtiéndose en objetivos de una despiadada red de asesinos que no se detendrán ante nada para mantener sus secretos enterrados.",
-          "youtube_id": "WVK5hzPK8NA",
-          "trailer_url": "https://www.youtube.com/watch?v=WVK5hzPK8NA"
+          "poster_url": "https://image.tmdb.org/t/p/w500/b0AQYSM09AYVRKLZr6jIAP2xNq9.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/saErQCTkKbqiggCJbSltBMDD4oy.jpg",
+          "overview": "Cuando un poderoso productor musical es víctima de una extorsión, debe luchar por su familia y su legado mientras enfrenta un dilema moral de vida o muerte.",
+          "youtube_id": "_Op2pChXA5o",
+          "trailer_url": "https://www.youtube.com/watch?v=_Op2pChXA5o"
         },
         {
-          "title": "Identidad desconocida",
-          "subtitle": "PELÍCULA • 2002 • 1h 58m",
-          "media_type": "PELÍCULA",
-          "year": "2002",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kJaRWmy1BGq3pHyE94LOTteiHer.jpg",
-          "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
-          "youtube_id": "AXMLkYf2Ilo",
-          "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
+          "title": "A la caza de espíritus malignos",
+          "subtitle": "SERIE • 2020 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2020",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
+          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
+          "youtube_id": "WnS2x0_hYgs",
+          "trailer_url": "https://www.youtube.com/watch?v=WnS2x0_hYgs"
         },
         {
           "title": "Plan familiar",
@@ -802,11 +790,83 @@
           "overview": "Dan Morgan es un hombre con muchas identidades: es un esposo devoto, un padre amoroso y un reconocido vendedor de autos. También es un asesino retirado. Cuando su pasado pone en riesgo a su presente, se ve forzado a llevar a su ingenua familia en un viaje como ningún otro.",
           "youtube_id": "KpV1w6ciVnY",
           "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
+        },
+        {
+          "title": "Una noche en el museo",
+          "subtitle": "PELÍCULA • 2006 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2006",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2KnxqvCQnpUUQTXlruNeXq8iPeF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1ZVlzOBYCggLzvVYHK7Im6LohjC.jpg",
+          "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
+          "youtube_id": "MlQvqErjI1Q",
+          "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "El club gastronómico",
+      "subtitle": "SERIE • 2026 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/wmKOX8g6iE4jmf4B2mr3yo6Qg2P.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/vYO9OkYHSNfYuqz6VMS4aCCfRb8.jpg",
+      "overview": "Luego de que uno de ellos muere en un incendio, cuatro parejas que parecían perfectas se ven forzadas a cuestionar todo lo que creían saber los unos de los otros.",
+      "youtube_id": "hf1KIwRxSE8",
+      "trailer_url": "https://www.youtube.com/watch?v=hf1KIwRxSE8"
+    },
+    {
+      "title": "Historia de dos ciudades",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/cHWIztU7qYEDFE2eAQsWFdGS19d.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/1erQOjm3PZP6PNVRIuxdNmesCBu.jpg",
+      "overview": "Londres, 1782. La tensión es máxima en la guerra entre Francia e Inglaterra. La vida de una joven, Lucie Manette, da un vuelco cuando recibe un mensaje de París: su padre, al que se creía muerto desde hace casi 20 años, podría estar vivo. El mensajero, el idealista emigrado francés Charles Darnay, es arrestado y acusado de traición. Lucie buscará la ayuda de un brillante pero inestable joven abogado, Sydney Carton, para liberar a Darnay con la esperanza de que la lleve a París para encontrar a su padre. El encuentro de Lucie con Darnay y Carton desata un poderoso y complejo triángulo amoroso, y los dos hombres lucharán por ser dignos del amor de la mujer mientras ella se debate entre uno u otro.",
+      "youtube_id": "tdu7qLyPIBI",
+      "trailer_url": "https://www.youtube.com/watch?v=tdu7qLyPIBI"
+    },
+    {
+      "title": "El peso del talento",
+      "subtitle": "PELÍCULA • 2022 • 1h 46m",
+      "media_type": "PELÍCULA",
+      "year": "2022",
+      "extra_info": "1h 46m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/oCMOx7E1Rsb7Dlp46UmsJ0wwnw4.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/m0YjB4VfghKey8Ppsmz8qCd0v1m.jpg",
+      "overview": "Insatisfecho creativamente y en deudas de dinero, Nicolas Cage se ve forzado a aceptar 1 millón de dólares a cambio de asistir a la fiesta de cumpleaños de un obsesivo fanático: Javi. Las cosas cambian inesperadamente cuando Nicolas Cage es reclutado por la CIA para ayudar a atrapar a Javi, quien no es lo que parece, obligándolo a reencarnar sus personajes más icónicos y amados, con tal de salvarse a sí mismo y a los suyos de este complicado enredo.",
+      "youtube_id": "h9mECxgHKe8",
+      "trailer_url": "https://www.youtube.com/watch?v=h9mECxgHKe8"
+    },
+    {
+      "title": "Tony Awards",
+      "subtitle": "SERIE • 1956 • 72 Temporadas",
+      "media_type": "SERIE",
+      "year": "1956",
+      "extra_info": "72 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
+      "overview": "The Antoinette Perry Award for Excellence in Theatre, more commonly known as a Tony Award, recognizes achievement in live Broadway theatre. The awards are presented by the American Theatre Wing and The Broadway League at an annual ceremony in New York City. The awards are given for Broadway productions and performances, and an award is given for regional theatre.",
+      "youtube_id": "-hbR9RVaCus",
+      "trailer_url": "https://www.youtube.com/watch?v=-hbR9RVaCus"
+    },
+    {
+      "title": "Neagley",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/gqprC6jdAEQWf9mTVeAKBNes6VM.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
+      "overview": "Del universo de REACHER, comienza un nuevo capítulo. Frances Neagley es una investigadora privada en Chicago y excompañera militar de Jack Reacher en la Unidad 110 de Investigaciones Especiales del Ejército. Al enterarse de que un querido amigo de su pasado murió en un accidente sospechoso, no se detendrá hasta hacer justicia.",
+      "youtube_id": "1ZUUjfsfvpw",
+      "trailer_url": "https://www.youtube.com/watch?v=1ZUUjfsfvpw"
+    },
     {
       "title": "Monstruo: La historia de Lizzie Borden",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -815,7 +875,7 @@
       "extra_info": "1 Temporada",
       "poster_url": "https://image.tmdb.org/t/p/w500/8XFqpmHwbBcqMHJUHglukTeTU7Z.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-      "overview": "Monster: La Historia de Lizzie Borden cuenta la historia de cómo una joven cambió lo que el mundo creía que podía ser una asesina... todo lo que se necesitó fue un hacha.\n\nCuando la hija reprimida de una familia adinerada de Nueva Inglaterra y su rebelde criada se encuentran atrapadas en una casa construida sobre la humillación y la crueldad, escapan hacia una fantasía de sexo, poder y venganza. Los espantosos asesinatos sin resolver que siguen no solo conmocionan al mundo, sino que dan nacimiento a un ícono que se niega a vivir prisionera en una jaula, eligiendo en cambio forjar su propia leyenda: impactante, monstruosa y gloriosamente libre.",
+      "overview": "Atrapada en un hogar cruel de la era victoriana, Lizzie Borden mata a sus padres de forma grotesca con un hacha, en un homicidio que conmocionó a la nación.",
       "youtube_id": "POk0028h4_I",
       "trailer_url": "https://www.youtube.com/watch?v=POk0028h4_I"
     },
@@ -825,7 +885,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 38m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/1aCGJVkBZch6UN62yk44TGYU5Or.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
       "overview": "La vida de Manuel da un vuelco cuando Esmeralda, su amor perdido de hace quince años, lo llama inesperadamente. A pesar de estar a punto de casarse con otra persona, él se reencontrará con Esmeralda y ambos se darán cuenta de que su amor trasciende el tiempo.",
       "youtube_id": "jP2g8G16mJA",
@@ -838,7 +898,7 @@
       "year": "2026",
       "extra_info": "2h 10m",
       "poster_url": "https://image.tmdb.org/t/p/w500/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/3qR1ZxuEzDksDGT13mHH2IiEq7G.jpg",
       "overview": "En lo más profundo de las zonas rurales de Oklahoma, el carismático y talentoso músico Amziah King lidera una banda de inadaptados que toca *bluegrass*, al tiempo que dirige la principal empresa de producción de miel de la localidad. Cuando su hija de crianza —con quien había perdido el contacto— regresa inesperadamente, Amziah aprovecha la oportunidad para retomar el vínculo y crear un negocio familiar. Sin embargo, el mundo de la miel es implacable, y sus rivales amenazan con destruir todo lo que él ha construido.",
       "youtube_id": "1RprmXBZOxk",
       "trailer_url": "https://www.youtube.com/watch?v=1RprmXBZOxk"
@@ -868,16 +928,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=23V2CLZJr3E"
     },
     {
-      "title": "Paradise Hotel",
-      "subtitle": "SERIE • 2005 • 22 Temporadas",
+      "title": "Crimen en el paraíso",
+      "subtitle": "SERIE • 2011 • 15 Temporadas",
       "media_type": "SERIE",
-      "year": "2005",
-      "extra_info": "22 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ycSBcACecVR0zSnP2ZF83k5f7he.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/nun8Ssmni886Ib4v7chgQbswDfl.jpg",
-      "overview": "Danish version of the reality series \"Paradise Hotel\".",
-      "youtube_id": "oTl_Ulj82Hg",
-      "trailer_url": "https://www.youtube.com/watch?v=oTl_Ulj82Hg"
+      "year": "2011",
+      "extra_info": "15 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/kczDRg492d3Iy6v4KraPVQ5ebhz.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/nCwAmyCcA6w1ZFjKrmwCRPiy4gt.jpg",
+      "overview": "La historia se centra en el personaje de Richard Poole, un policía inglés con muy poco sentido del humor y de carácter huraño que llega la ficticia isla caribeña de Saint-Marie para resolver el asesinato de un compañero. Tras resolver el crimen, recibirá una recompensa inesperada y no deseada: un puesto de trabajo como Inspector Jefe de la policía local. Al principio de la temporada, esta premisa se repite con el detective Humphrey Goodman sustituyendo a su antecesor en el cargo.",
+      "youtube_id": "n5gO5HyjDgs",
+      "trailer_url": "https://www.youtube.com/watch?v=n5gO5HyjDgs"
     },
     {
       "title": "Vista por última vez",
@@ -933,7 +993,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 52m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/exWdEF4PJsGpX9HeLQsedBgTkj8.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/c76FMlhmdo0pODhbqFtHki6yJQz.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
       "overview": "Las parejas se reencuentran para la boda de la hija de Marcus y Angela. Cuando surgen dramas antiguos y nuevos, todos se preguntan: «¿Por qué fue que nos casamos?».",
       "youtube_id": "JjSDhPhZGNU",
@@ -945,7 +1005,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "2h 8m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/fiFdny17lnjrwH6TmuxrhNy1Ol2.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/4YyuSadBoc5k6krj0REcYH15DXG.jpg",
       "overview": "En la Inglaterra del siglo XIV, asolada por la peste, un campesino desencadena una rebelión contra el rey Ricardo II y se convierte involuntariamente en una leyenda de la resistencia.",
       "youtube_id": "leC6XnfakyM",
@@ -1046,66 +1106,6 @@
       "overview": "La vida de Marfil, la hija de un poderoso empresario español, da un giro cuando la secuestran y liberan sin explicaciones, por lo que su padre contrata a Sebastian Moore como su guardaespaldas. Obligados a pasar cada minuto del día juntos, surge entre ellos una inevitable atracción en un mundo donde nada es lo que parece. Basada en la novela de Mercedes Ron, autora de la saga Culpables.",
       "youtube_id": "5aCQgikjz8g",
       "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
-    },
-    {
-      "title": "Entrega al límite",
-      "subtitle": "PELÍCULA • 2026 • 1h 37m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 37m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gxrGVQdFmc3xxVn6UyY31ZjqM0s.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
-      "overview": "Frank es un mensajero encargado de transportar un órgano que puede salvarle la vida a un joven receptor. Pero la misión se vuelve una carrera contra el tiempo cuando un despiadado jefe del crimen hará lo que sea necesario para quedarse con él.",
-      "youtube_id": "YJTR-wQ9MvM",
-      "trailer_url": "https://www.youtube.com/watch?v=YJTR-wQ9MvM"
-    },
-    {
-      "title": "The Last of Us",
-      "subtitle": "SERIE • 2023 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
-      "overview": "Veinte años después de la destrucción de la civilización moderna, Joel, un aguerrido superviviente, es contratado para sacar a Ellie, una joven de 14 años, de una opresiva zona de cuarentena. Lo que empieza como un trabajo sencillo pronto se convierte en un viaje brutal y desgarrador, ya que ambos deben atravesar Estados Unidos y depender el uno del otro para sobrevivir.",
-      "youtube_id": "yyGetSp7CIc",
-      "trailer_url": "https://www.youtube.com/watch?v=yyGetSp7CIc"
-    },
-    {
-      "title": "Mal de Amores",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/rGeWjJxZpFCftDDroRIa1BvYfqX.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/avfnPYtyKXjgnhqtKAt1PZO2h5I.jpg",
-      "overview": "En plena Revolución mexicana, Emilia Sauri desafía las convenciones sociales para cumplir su sueño de ejercer la medicina y encontrar el amor, su lugar y la libertad.",
-      "youtube_id": "EHfxvOBB3kM",
-      "trailer_url": "https://www.youtube.com/watch?v=EHfxvOBB3kM"
-    },
-    {
-      "title": "Turning Point: Generation 9/11",
-      "subtitle": "PELÍCULA • 2026 • 1h 39m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 39m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg",
-      "overview": "Veinticinco años después del 11-S, este documental analiza cómo aquel fatídico día marcó a toda una nueva generación. Desde los niños que perdieron a sus padres en los atentados a los periodistas que dieron sus primeros pasos profesionales cubriendo la guerra contra el terrorismo, pasando por los jóvenes afganos y marines que sufrieron las consecuencias de la caótica retirada de EE. UU. de Afganistán: sus estremecedores testimonios muestran que el legado del 11-S no se mide solo por su trascendencia histórica, sino por las vidas que aún sigue marcando.",
-      "youtube_id": "1epklvnxATo",
-      "trailer_url": "https://www.youtube.com/watch?v=1epklvnxATo"
-    },
-    {
-      "title": "Regalo de amor",
-      "subtitle": "SERIE • 2025 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2025",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/96vEDoHQlmmQezbdrwjfdTCd1ZU.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/xS0VjGieySrYrUWCY05QgaFlrB5.jpg",
-      "overview": "Isabella es una mujer dulce cuyo mayor sueño es ser madre. Tras la repentina muerte de su esposo, conoce a Eugenio, un hombre generoso. La vida de ambos da un vuelco cuando aparece un ser angelical que les dará la oportunidad de ser padres.",
-      "youtube_id": "om_I9CRkIjI",
-      "trailer_url": "https://www.youtube.com/watch?v=om_I9CRkIjI"
     }
   ]
 }
