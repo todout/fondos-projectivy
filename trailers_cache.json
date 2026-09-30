@@ -4,6 +4,90 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Lupin III",
+          "subtitle": "SERIE • 1971 • 6 Temporadas",
+          "media_type": "SERIE",
+          "year": "1971",
+          "extra_info": "6 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/c5t6dlSKxLrkVFRZC7UrbMOSMno.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/961SQWKlq6EQKN5lvXLR04YxSkw.jpg",
+          "overview": "Las aventuras del ladrón Arsène Lupin III y de sus amigos, Daisuke Jigen (su mejor amigo), Fujiko Mine (la mujer fatal y el ocasional amor del protagonista) y Goemon Ishikawa XIII (un maestro de la espada, descendiente de Ishikawa Goemon, el legendario bandido japonés), que lo acompañan en diversos golpes, mientras son buscados internacionalmente y perseguidos por el tenaz inspector Kōichi Zenigata, de la Interpol, que es descendiente de Zenigata Heiji. Anime basado en la serie manga creada e ilustrada por Monkey Punch y publicada por la revista japonesa Weekly Manga Action por primera vez el 10 de agosto de 1967.",
+          "youtube_id": "Jmo5aMN6iO8",
+          "trailer_url": "https://www.youtube.com/watch?v=Jmo5aMN6iO8"
+        },
+        {
+          "title": "El problema final",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jVHx7Yxh41Xf1txD5AsX5MZ4E1e.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m9QKL9smb61v1XSYJoHdl7p5yUd.jpg",
+          "overview": "Un actor en decadencia debe usar las habilidades como detective de su famoso personaje para resolver una muerte sospechosa en un hotel aislado donde todos son sospechosos.",
+          "youtube_id": "sdH4ZSkr8Mk",
+          "trailer_url": "https://www.youtube.com/watch?v=sdH4ZSkr8Mk"
+        },
+        {
+          "title": "La bola negra",
+          "subtitle": "PELÍCULA • 2026 • 2h 35m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4omaYktw4VYkk5Tkq7rmUsWnQa5.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+          "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
+          "youtube_id": "mWuNv_I1h6U",
+          "trailer_url": "https://www.youtube.com/watch?v=mWuNv_I1h6U"
+        },
+        {
+          "title": "Digger",
+          "subtitle": "PELÍCULA • 2026 • 2h 8m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/txe65aR0g5JiYnHKPjX3E49M5td.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
+          "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desatado lo destruya todo.",
+          "youtube_id": "UYvoJ-hCGxc",
+          "trailer_url": "https://www.youtube.com/watch?v=UYvoJ-hCGxc"
+        },
+        {
+          "title": "Gutiérrez Is mai neim",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/piKGYQc6slW2OHtzr6hWdKpfqMT.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/a5BYpkrmhSdHiGrW5IU30PgKAmR.jpg",
+          "overview": "El subcomisario Roberto Gutiérrez (Barassi) es un policía poco preparado en cuyas manos cae el delicado caso de asesinato del embajador ruso en Argentina. Cuando la CIA toma el control del homicidio, Gutiérrez decide jugar su propio juego junto a su compañero, el teniente Rubén Torcoletti (Yayo). Con una brigada tan leal como incompetente y métodos de dudosa legalidad, desatará el caos para demostrar quién manda en su jurisdicción y resolver el caso antes que el servicio de inteligencia estadounidense.",
+          "youtube_id": "8UVbuA4C3qg",
+          "trailer_url": "https://www.youtube.com/watch?v=8UVbuA4C3qg"
+        },
+        {
+          "title": "Los asesinos de la luna",
+          "subtitle": "PELÍCULA • 2023 • 3h 26m",
+          "media_type": "PELÍCULA",
+          "year": "2023",
+          "extra_info": "3h 26m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yCWQJFm2CJ5PddNxz2Ce9CNeqLT.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/acvE3RWjDLgvbL2RtcyzkrsAyNV.jpg",
+          "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
+          "youtube_id": "qXVsJU0I8u0",
+          "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
+        },
+        {
+          "title": "The Traitors",
+          "subtitle": "SERIE • 2023 • 6 Temporadas",
+          "media_type": "SERIE",
+          "year": "2023",
+          "extra_info": "6 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ulYR2NMKwnWoRWiw3KnFpaT2qjj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+          "overview": "Veinte de los concursantes más astutos de Estados Unidos, participan en el aclamado juego de misterio y asesinato. Deberán trabajar juntos en misiones estimulantes para construir un fondo de premios valorado hasta en 250 000 dólares.",
+          "youtube_id": "MsNXb1Z7BT0",
+          "trailer_url": "https://www.youtube.com/watch?v=MsNXb1Z7BT0"
+        },
+        {
           "title": "Academia Minerva",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -12,8 +96,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/8YuGi5NFR6rEUtzeQW4jHOT5DB8.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/zynoUI9kwDQKkGW5KqvxQp8Kj1Q.jpg",
           "overview": "En la academia militar Minerva, los jóvenes lidian con la disciplina, la rivalidad y la presión familiar mientras un cadete busca respuestas sobre su amigo desaparecido.",
-          "youtube_id": "Mcs5XIgxp4o",
-          "trailer_url": "https://www.youtube.com/watch?v=Mcs5XIgxp4o"
+          "youtube_id": "j_dZANEz_yk",
+          "trailer_url": "https://www.youtube.com/watch?v=j_dZANEz_yk"
         },
         {
           "title": "Vértigo 2: Punto muerto",
@@ -33,7 +117,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/crV6ba2FVfHW64PzjJehMxUj9e7.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
           "overview": "En este drama inspirado en hechos reales, el FBI le da caza a Ted Kaczynski, prodigio de Harvard y víctima de un experimento, que se ha convertido en el Unabomber.",
           "youtube_id": "1nm1KgTsuOc",
@@ -83,21 +167,9 @@
           "extra_info": "1h 50m",
           "poster_url": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-          "overview": "En 2006, Chris Hansen, presentador de *To Catch a Predator*, se propone hacer historia en la televisión.",
+          "overview": "En 2006, el presentador Chris Hansen de NBC se propuso hacer historia en la televisión con el programa To Catch a Predator, convirtiendo una investigación encubierta en uno de los fenómenos culturales más controvertidos de la década en horario estelar.",
           "youtube_id": "__hFqLRZuJc",
           "trailer_url": "https://www.youtube.com/watch?v=__hFqLRZuJc"
-        },
-        {
-          "title": "Gutiérrez Is mai neim",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/piKGYQc6slW2OHtzr6hWdKpfqMT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/a5BYpkrmhSdHiGrW5IU30PgKAmR.jpg",
-          "overview": "El subcomisario Roberto Gutiérrez (Barassi) es un policía poco preparado en cuyas manos cae el delicado caso de asesinato del embajador ruso en Argentina. Cuando la CIA toma el control del homicidio, Gutiérrez decide jugar su propio juego junto a su compañero, el teniente Rubén Torcoletti (Yayo). Con una brigada tan leal como incompetente y métodos de dudosa legalidad, desatará el caos para demostrar quién manda en su jurisdicción y resolver el caso antes que el servicio de inteligencia estadounidense.",
-          "youtube_id": "8UVbuA4C3qg",
-          "trailer_url": "https://www.youtube.com/watch?v=8UVbuA4C3qg"
         },
         {
           "title": "La sociedad de la nieve",
@@ -131,7 +203,7 @@
           "extra_info": "1 Temporada",
           "poster_url": "https://image.tmdb.org/t/p/w500/7QMTxQf6GXYlMI64yNd7lKXiIux.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/lmtTtOjsIBxwKD7LsAD5eeyhq1g.jpg",
-          "overview": "Tras un escándalo familiar, la adolescente Teagan Tao se muda a una pequeña localidad y se une a un equipo masculino de élite, donde despierta rivalidades… y pasiones.",
+          "overview": "Tras un escándalo familiar, Teagan Tao se muda a un pequeño pueblo y se une al equipo masculino de remo de un prestigioso instituto, donde surgen rivalidades… y algo más.",
           "youtube_id": "Zzp12UedOjY",
           "trailer_url": "https://www.youtube.com/watch?v=Zzp12UedOjY"
         },
@@ -144,8 +216,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/f5yXF2vBOxZcPxvw1P7kXXqOVFV.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
           "overview": "Un famoso campeón de tiro olímpico viaja a los Estados Unidos en busca de un donante para su hijo, pero un romance inesperado complica su misión.",
-          "youtube_id": "H82uvLvszQ0",
-          "trailer_url": "https://www.youtube.com/watch?v=H82uvLvszQ0"
+          "youtube_id": "wjycKdvm8bE",
+          "trailer_url": "https://www.youtube.com/watch?v=wjycKdvm8bE"
         },
         {
           "title": "El corazón de la bestia",
@@ -230,78 +302,6 @@
           "overview": "Londres, 1782. La tensión es máxima en la guerra entre Francia e Inglaterra. La vida de una joven, Lucie Manette, da un vuelco cuando recibe un mensaje de París: su padre, al que se creía muerto desde hace casi 20 años, podría estar vivo. El mensajero, el idealista emigrado francés Charles Darnay, es arrestado y acusado de traición. Lucie buscará la ayuda de un brillante pero inestable joven abogado, Sydney Carton, para liberar a Darnay con la esperanza de que la lleve a París para encontrar a su padre. El encuentro de Lucie con Darnay y Carton desata un poderoso y complejo triángulo amoroso, y los dos hombres lucharán por ser dignos del amor de la mujer mientras ella se debate entre uno u otro.",
           "youtube_id": "tdu7qLyPIBI",
           "trailer_url": "https://www.youtube.com/watch?v=tdu7qLyPIBI"
-        },
-        {
-          "title": "El peso del talento",
-          "subtitle": "PELÍCULA • 2022 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2022",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oCMOx7E1Rsb7Dlp46UmsJ0wwnw4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m0YjB4VfghKey8Ppsmz8qCd0v1m.jpg",
-          "overview": "Insatisfecho creativamente y en deudas de dinero, Nicolas Cage se ve forzado a aceptar 1 millón de dólares a cambio de asistir a la fiesta de cumpleaños de un obsesivo fanático: Javi. Las cosas cambian inesperadamente cuando Nicolas Cage es reclutado por la CIA para ayudar a atrapar a Javi, quien no es lo que parece, obligándolo a reencarnar sus personajes más icónicos y amados, con tal de salvarse a sí mismo y a los suyos de este complicado enredo.",
-          "youtube_id": "h9mECxgHKe8",
-          "trailer_url": "https://www.youtube.com/watch?v=h9mECxgHKe8"
-        },
-        {
-          "title": "Tony Awards",
-          "subtitle": "SERIE • 1956 • 72 Temporadas",
-          "media_type": "SERIE",
-          "year": "1956",
-          "extra_info": "72 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
-          "overview": "The Antoinette Perry Award for Excellence in Theatre, more commonly known as a Tony Award, recognizes achievement in live Broadway theatre. The awards are presented by the American Theatre Wing and The Broadway League at an annual ceremony in New York City. The awards are given for Broadway productions and performances, and an award is given for regional theatre.",
-          "youtube_id": "-hbR9RVaCus",
-          "trailer_url": "https://www.youtube.com/watch?v=-hbR9RVaCus"
-        },
-        {
-          "title": "Neagley",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/gqprC6jdAEQWf9mTVeAKBNes6VM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
-          "overview": "Del universo de REACHER, comienza un nuevo capítulo. Frances Neagley es una investigadora privada en Chicago y excompañera militar de Jack Reacher en la Unidad 110 de Investigaciones Especiales del Ejército. Al enterarse de que un querido amigo de su pasado murió en un accidente sospechoso, no se detendrá hasta hacer justicia.",
-          "youtube_id": "1ZUUjfsfvpw",
-          "trailer_url": "https://www.youtube.com/watch?v=1ZUUjfsfvpw"
-        },
-        {
-          "title": "Monstruo: La historia de Lizzie Borden",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/8XFqpmHwbBcqMHJUHglukTeTU7Z.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-          "overview": "Atrapada en un hogar cruel de la era victoriana, Lizzie Borden mata a sus padres de forma grotesca con un hacha, en un homicidio que conmocionó a la nación.",
-          "youtube_id": "POk0028h4_I",
-          "trailer_url": "https://www.youtube.com/watch?v=POk0028h4_I"
-        },
-        {
-          "title": "Hasta el Fin del Mundo",
-          "subtitle": "PELÍCULA • 2026 • 1h 38m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
-          "overview": "La vida de Manuel da un vuelco cuando Esmeralda, su amor perdido de hace quince años, lo llama inesperadamente. A pesar de estar a punto de casarse con otra persona, él se reencontrará con Esmeralda y ambos se darán cuenta de que su amor trasciende el tiempo.",
-          "youtube_id": "jP2g8G16mJA",
-          "trailer_url": "https://www.youtube.com/watch?v=jP2g8G16mJA"
-        },
-        {
-          "title": "Los rivales de Amziah King",
-          "subtitle": "PELÍCULA • 2026 • 2h 10m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 10m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
-          "overview": "En lo más profundo de las zonas rurales de Oklahoma, el carismático y talentoso músico Amziah King lidera una banda de inadaptados que toca *bluegrass*, al tiempo que dirige la principal empresa de producción de miel de la localidad. Cuando su hija de crianza —con quien había perdido el contacto— regresa inesperadamente, Amziah aprovecha la oportunidad para retomar el vínculo y crear un negocio familiar. Sin embargo, el mundo de la miel es implacable, y sus rivales amenazan con destruir todo lo que él ha construido.",
-          "youtube_id": "1RprmXBZOxk",
-          "trailer_url": "https://www.youtube.com/watch?v=1RprmXBZOxk"
         }
       ]
     },
@@ -314,7 +314,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/crV6ba2FVfHW64PzjJehMxUj9e7.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
           "overview": "En este drama inspirado en hechos reales, el FBI le da caza a Ted Kaczynski, prodigio de Harvard y víctima de un experimento, que se ha convertido en el Unabomber.",
           "youtube_id": "1nm1KgTsuOc",
@@ -333,16 +333,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=uIaPDKA0-Y4"
         },
         {
-          "title": "மொத ராத்திரி",
-          "subtitle": "PELÍCULA • 2026 • 2h 21m",
+          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+          "subtitle": "PELÍCULA • 2025 • 2h 35m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 21m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/lZiTSLDLIkW9YS6CWo8uaXZMcO6.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Lq3f68f4WZpQrihDooNink8xJ7.jpg",
-          "overview": "Two strangers are brought together at an unusual wedding where, in one night, too many surprises unfold and several lies are told, spiraling into chaos that changes everything.",
-          "youtube_id": "FKXvgRJ-pRs",
-          "trailer_url": "https://www.youtube.com/watch?v=FKXvgRJ-pRs"
+          "year": "2025",
+          "extra_info": "2h 35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
+          "youtube_id": "sqgSm8fWe1s",
+          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         },
         {
           "title": "Sueño de fuga",
@@ -355,18 +355,6 @@
           "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
           "youtube_id": "4u87tmlj4oE",
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
-        },
-        {
-          "title": "Vishwanath e hijos",
-          "subtitle": "PELÍCULA • 2026 • 2h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/f5yXF2vBOxZcPxvw1P7kXXqOVFV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
-          "overview": "Un famoso campeón de tiro olímpico viaja a los Estados Unidos en busca de un donante para su hijo, pero un romance inesperado complica su misión.",
-          "youtube_id": "wjycKdvm8bE",
-          "trailer_url": "https://www.youtube.com/watch?v=wjycKdvm8bE"
         },
         {
           "title": "Spider-Man: A través del Spider-Verso",
@@ -393,16 +381,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "Susurran tu nombre",
-          "subtitle": "PELÍCULA • 2026 • 1h 54m",
+          "title": "El increíble castillo vagabundo",
+          "subtitle": "PELÍCULA • 2004 • 2h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2004",
+          "extra_info": "2h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jtUejuD3XPNjPDYCfI3zhB86fRk.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
+          "overview": "Sophie es una joven de 18 años que trabaja sin descanso en la tienda de sombreros de la familia. En uno de sus frecuentes paseos conoce al enigmático mago Howl, lo que despierta la ira de la Bruja Calamidad, que odia a Howl con todas sus fuerzas. Cuando Sophie vuelve a la tienda, la Bruja se hace pasar por una clienta para acercarse a ella y lanzarle un hechizo… ¡que convierte a Sophie en una anciana de 90 años! Sophie, que no puede revelar su auténtica identidad, recurre a Howl para buscar una solución a su problema. Para ello se embarca en un viaje fantástico en el castillo ambulante del mago, habitado por personajes de lo más curiosos. Sophie necesita ayuda pero quizás sea Howl el que realmente está en apuros.",
+          "youtube_id": "BCDEOoNYW18",
+          "trailer_url": "https://www.youtube.com/watch?v=BCDEOoNYW18"
+        },
+        {
+          "title": "Vishwanath e hijos",
+          "subtitle": "PELÍCULA • 2026 • 2h 41m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pBooYCjOyHUY1UFBrrXfEa6VvwZ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
-          "overview": "Tras la desaparición de su hijo, un viudo recurre a la ayuda de su padre ausente: un detective retirado que, años atrás, encarceló al asesino serial vinculado con este caso.",
-          "youtube_id": "zTOmwZRmVBs",
-          "trailer_url": "https://www.youtube.com/watch?v=zTOmwZRmVBs"
+          "extra_info": "2h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/f5yXF2vBOxZcPxvw1P7kXXqOVFV.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
+          "overview": "Un famoso campeón de tiro olímpico viaja a los Estados Unidos en busca de un donante para su hijo, pero un romance inesperado complica su misión.",
+          "youtube_id": "wjycKdvm8bE",
+          "trailer_url": "https://www.youtube.com/watch?v=wjycKdvm8bE"
         },
         {
           "title": "El Club de la Pelea",
@@ -417,16 +417,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=R7aiJtcJ0AQ"
         },
         {
-          "title": "Las Mejores",
-          "subtitle": "PELÍCULA • 2026 • 1h 52m",
+          "title": "Susurran tu nombre",
+          "subtitle": "PELÍCULA • 2026 • 1h 54m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jBEkfgru8B8m2vzHgS1l3VgepT2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5m1j7Wibh3HnZq5QHm97v8dI3GH.jpg",
-          "overview": "Comedia estadounidense sobre el despiadado circuito universitario de baile fusión de Bollywood.",
-          "youtube_id": "-F_-Cna724k",
-          "trailer_url": "https://www.youtube.com/watch?v=-F_-Cna724k"
+          "extra_info": "1h 54m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/pBooYCjOyHUY1UFBrrXfEa6VvwZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
+          "overview": "Tras la desaparición de su hijo, un viudo recurre a la ayuda de su padre ausente: un detective retirado que, años atrás, encarceló al asesino serial vinculado con este caso.",
+          "youtube_id": "zTOmwZRmVBs",
+          "trailer_url": "https://www.youtube.com/watch?v=zTOmwZRmVBs"
         }
       ]
     },
@@ -440,7 +440,7 @@
           "year": "2026",
           "extra_info": "1h 42m",
           "poster_url": "https://image.tmdb.org/t/p/w500/zkQmhKTszD48vEcjIfwAlqLnGSr.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
           "overview": "Cuando Woody logra regresar con Buzz, Jessie y el resto de la pandilla, descubren una nueva amenaza: la tecnología. Un nuevo tiempo de juego para los niños.",
           "youtube_id": "DW8GC9SQ9Xw",
           "trailer_url": "https://www.youtube.com/watch?v=DW8GC9SQ9Xw"
@@ -470,16 +470,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "Animales",
-          "subtitle": "PELÍCULA • 2026",
+          "title": "Avatar: Fuego y ceniza",
+          "subtitle": "PELÍCULA • 2025 • 3h 18m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
-          "overview": "Un grupo de amigos que se conocen de toda la vida descubre que hay puertas que nunca se deben de abrir. Lo que empieza como un juego de deseo se convierte en una espiral de celos, mentiras y traiciones que arrasa con sus relaciones. Muy pronto entenderán que todos tenemos un lado animal.",
-          "youtube_id": "jYn23nmsZhY",
-          "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
+          "year": "2025",
+          "extra_info": "3h 18m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
+          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
+          "youtube_id": "z05pKcZwz-U",
+          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
           "title": "Zootopia 2",
@@ -494,18 +494,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
-          "title": "Avatar: Fuego y ceniza",
-          "subtitle": "PELÍCULA • 2025 • 3h 18m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "3h 18m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
-          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
-          "youtube_id": "z05pKcZwz-U",
-          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
-        },
-        {
           "title": "Star Wars: The Mandalorian and Grogu",
           "subtitle": "PELÍCULA • 2026 • 2h 12m",
           "media_type": "PELÍCULA",
@@ -516,18 +504,6 @@
           "overview": "Continuación de la serie \"The Mandalorian\" en forma de película. El malvado Imperio ha caído y los señores de la guerra imperiales siguen dispersos por toda la galaxia. Mientras la incipiente Nueva República trabaja para proteger todo por lo que luchó la Rebelión, ha reclutado la ayuda del legendario cazarrecompensas mandaloriano Din Djarin (Pedro Pascal) y su joven aprendiz Grogu.",
           "youtube_id": "z8rhB_nc0wM",
           "trailer_url": "https://www.youtube.com/watch?v=z8rhB_nc0wM"
-        },
-        {
-          "title": "Avatar: La leyenda de Aang",
-          "subtitle": "SERIE • 2024 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bdWexsml1vsB1X2tJMZOz8YC93a.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/aVvRQJ2Ckhlym4uh0YGc166CUoP.jpg",
-          "overview": "Un chico dice ser el próximo Avatar, por lo cual debe aprender a dominar los cuatro elementos y salvar al mundo de una guerra contra un enemigo tan ambicioso como despiadado.",
-          "youtube_id": "SJNyyR9Fv0c",
-          "trailer_url": "https://www.youtube.com/watch?v=SJNyyR9Fv0c"
         },
         {
           "title": "Los vengadores",
@@ -542,6 +518,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=qMLNwBX_f70"
         },
         {
+          "title": "Animales",
+          "subtitle": "PELÍCULA • 2026",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
+          "overview": "Un grupo de amigos que se conocen de toda la vida descubre que hay puertas que nunca se deben de abrir. Lo que empieza como un juego de deseo se convierte en una espiral de celos, mentiras y traiciones que arrasa con sus relaciones. Muy pronto entenderán que todos tenemos un lado animal.",
+          "youtube_id": "jYn23nmsZhY",
+          "trailer_url": "https://www.youtube.com/watch?v=jYn23nmsZhY"
+        },
+        {
           "title": "Deadpool & Wolverine",
           "subtitle": "PELÍCULA • 2024 • 2h 8m",
           "media_type": "PELÍCULA",
@@ -552,6 +540,18 @@
           "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
           "youtube_id": "V4ZDKt9KICo",
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
+        },
+        {
+          "title": "Intensa-Mente",
+          "subtitle": "PELÍCULA • 2015 • 1h 34m",
+          "media_type": "PELÍCULA",
+          "year": "2015",
+          "extra_info": "1h 34m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ewEX6VcVohyrQ52usZb1XovN1Bj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
+          "overview": "Riley es una chica que disfruta o padece toda clase de sentimientos. Aunque su vida ha estado marcada por la Alegría, también se ve afectada por otro tipo de emociones. Lo que Riley no entiende muy bien es por qué motivo tiene que existir la Tristeza en su vida. Una serie de acontecimientos hacen que Alegría y Tristeza se mezclen en una peligrosa aventura que dará un vuelco al mundo de Riley.",
+          "youtube_id": "_DTnvFdFW14",
+          "trailer_url": "https://www.youtube.com/watch?v=_DTnvFdFW14"
         }
       ]
     },
@@ -583,6 +583,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
         },
         {
+          "title": "Proyecto Fin del Mundo",
+          "subtitle": "PELÍCULA • 2026 • 2h 36m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
+          "youtube_id": "S7w4cDtHyFQ",
+          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
+        },
+        {
           "title": "Monjas Oscuras",
           "subtitle": "PELÍCULA • 2025 • 1h 54m",
           "media_type": "PELÍCULA",
@@ -595,16 +607,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=tcJRQsbL30g"
         },
         {
-          "title": "Proyecto Fin del Mundo",
-          "subtitle": "PELÍCULA • 2026 • 2h 36m",
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
-          "youtube_id": "S7w4cDtHyFQ",
-          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
           "title": "Tú+Yo - Los dos contra todos",
@@ -631,42 +643,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=A4ESt5_aHGQ"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
-        },
-        {
-          "title": "Sunrise: El último amanecer",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
-          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
-          "youtube_id": "EeyXSwUjM3Q",
-          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
-        },
-        {
-          "title": "Robot salvaje",
-          "subtitle": "PELÍCULA • 2024 • 1h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cYMihyFZreVBn8x6KnyPY4ea0HX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
-          "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
-          "youtube_id": "1qq06A0Q4C8",
-          "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
-        },
-        {
           "title": "Aprisionados",
           "subtitle": "PELÍCULA • 2014 • 1h 32m",
           "media_type": "PELÍCULA",
@@ -677,6 +653,30 @@
           "overview": "Rachel, una policía novata, está a punto de empezar su primer turno de noche en la comisaria de policía de un tranquilo pueblo. Un enigmático extraño es detenido en una de las celdas. Desde su confinamiento, el carismático solitario empezará a moldear las mentes de sus compañeros reclusos e incluso la de los funcionarios de policía. Influye en ellos para que puedan abandonarse al mal que hay latente en sus demonios interiores explotando en una noche llena de sangre y caos. Tan solo Rachel es capaz de resistirse a él… ¿Podrá sobrevivir?",
           "youtube_id": "AiN1ahjVb3Y",
           "trailer_url": "https://www.youtube.com/watch?v=AiN1ahjVb3Y"
+        },
+        {
+          "title": "Sunrise: El último amanecer",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+          "youtube_id": "iHGSsaSEPdw",
+          "trailer_url": "https://www.youtube.com/watch?v=iHGSsaSEPdw"
+        },
+        {
+          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
+          "youtube_id": "sqgSm8fWe1s",
+          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         }
       ]
     },
@@ -756,30 +756,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "A la caza de espíritus malignos",
-          "subtitle": "SERIE • 2020 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2020",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
-          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
-          "youtube_id": "WnS2x0_hYgs",
-          "trailer_url": "https://www.youtube.com/watch?v=WnS2x0_hYgs"
-        },
-        {
-          "title": "Snoopy presenta: Hogar, dulce hogar",
-          "subtitle": "PELÍCULA • 2026 • 32m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/d4yUl1kF9CvC5izhDAPEeBqrd9C.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kpq5o3WbnTos5fQwtyfyOHwSMdm.jpg",
-          "overview": "Cuando su amada casita desaparece, Snoopy intenta buscarla y descubre qué es lo que hace que una casa se sienta como un hogar.",
-          "youtube_id": "wyv9vAtEXpQ",
-          "trailer_url": "https://www.youtube.com/watch?v=wyv9vAtEXpQ"
-        },
-        {
           "title": "Identidad desconocida",
           "subtitle": "PELÍCULA • 2002 • 1h 58m",
           "media_type": "PELÍCULA",
@@ -792,6 +768,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
         },
         {
+          "title": "A la caza de espíritus malignos",
+          "subtitle": "SERIE • 2020 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2020",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
+          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
+          "youtube_id": "jEYdvvyfljM",
+          "trailer_url": "https://www.youtube.com/watch?v=jEYdvvyfljM"
+        },
+        {
           "title": "Una noche en el museo",
           "subtitle": "PELÍCULA • 2006 • 1h 49m",
           "media_type": "PELÍCULA",
@@ -802,11 +790,107 @@
           "overview": "Un guardia de seguridad nocturno recién reclutado en el Museo de Historia Natural descubre que una antigua maldición hace que los animales y las exhibiciones cobren vida y causen estragos.",
           "youtube_id": "MlQvqErjI1Q",
           "trailer_url": "https://www.youtube.com/watch?v=MlQvqErjI1Q"
+        },
+        {
+          "title": "Plan familiar 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 46m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hXc9jZuIfJ3lCrKJsZVwJM4anRf.jpg",
+          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
+          "youtube_id": "3WoEPRpdTIU",
+          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Lupin III",
+      "subtitle": "SERIE • 1971 • 6 Temporadas",
+      "media_type": "SERIE",
+      "year": "1971",
+      "extra_info": "6 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/c5t6dlSKxLrkVFRZC7UrbMOSMno.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/961SQWKlq6EQKN5lvXLR04YxSkw.jpg",
+      "overview": "Las aventuras del ladrón Arsène Lupin III y de sus amigos, Daisuke Jigen (su mejor amigo), Fujiko Mine (la mujer fatal y el ocasional amor del protagonista) y Goemon Ishikawa XIII (un maestro de la espada, descendiente de Ishikawa Goemon, el legendario bandido japonés), que lo acompañan en diversos golpes, mientras son buscados internacionalmente y perseguidos por el tenaz inspector Kōichi Zenigata, de la Interpol, que es descendiente de Zenigata Heiji. Anime basado en la serie manga creada e ilustrada por Monkey Punch y publicada por la revista japonesa Weekly Manga Action por primera vez el 10 de agosto de 1967.",
+      "youtube_id": "Jmo5aMN6iO8",
+      "trailer_url": "https://www.youtube.com/watch?v=Jmo5aMN6iO8"
+    },
+    {
+      "title": "El problema final",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/jVHx7Yxh41Xf1txD5AsX5MZ4E1e.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/m9QKL9smb61v1XSYJoHdl7p5yUd.jpg",
+      "overview": "Un actor en decadencia debe usar las habilidades como detective de su famoso personaje para resolver una muerte sospechosa en un hotel aislado donde todos son sospechosos.",
+      "youtube_id": "sdH4ZSkr8Mk",
+      "trailer_url": "https://www.youtube.com/watch?v=sdH4ZSkr8Mk"
+    },
+    {
+      "title": "La bola negra",
+      "subtitle": "PELÍCULA • 2026 • 2h 35m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 35m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/4omaYktw4VYkk5Tkq7rmUsWnQa5.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+      "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
+      "youtube_id": "mWuNv_I1h6U",
+      "trailer_url": "https://www.youtube.com/watch?v=mWuNv_I1h6U"
+    },
+    {
+      "title": "Digger",
+      "subtitle": "PELÍCULA • 2026 • 2h 8m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 8m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/txe65aR0g5JiYnHKPjX3E49M5td.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
+      "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desatado lo destruya todo.",
+      "youtube_id": "UYvoJ-hCGxc",
+      "trailer_url": "https://www.youtube.com/watch?v=UYvoJ-hCGxc"
+    },
+    {
+      "title": "Gutiérrez Is mai neim",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/piKGYQc6slW2OHtzr6hWdKpfqMT.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/a5BYpkrmhSdHiGrW5IU30PgKAmR.jpg",
+      "overview": "El subcomisario Roberto Gutiérrez (Barassi) es un policía poco preparado en cuyas manos cae el delicado caso de asesinato del embajador ruso en Argentina. Cuando la CIA toma el control del homicidio, Gutiérrez decide jugar su propio juego junto a su compañero, el teniente Rubén Torcoletti (Yayo). Con una brigada tan leal como incompetente y métodos de dudosa legalidad, desatará el caos para demostrar quién manda en su jurisdicción y resolver el caso antes que el servicio de inteligencia estadounidense.",
+      "youtube_id": "8UVbuA4C3qg",
+      "trailer_url": "https://www.youtube.com/watch?v=8UVbuA4C3qg"
+    },
+    {
+      "title": "Los asesinos de la luna",
+      "subtitle": "PELÍCULA • 2023 • 3h 26m",
+      "media_type": "PELÍCULA",
+      "year": "2023",
+      "extra_info": "3h 26m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/yCWQJFm2CJ5PddNxz2Ce9CNeqLT.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/acvE3RWjDLgvbL2RtcyzkrsAyNV.jpg",
+      "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
+      "youtube_id": "qXVsJU0I8u0",
+      "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
+    },
+    {
+      "title": "The Traitors",
+      "subtitle": "SERIE • 2023 • 6 Temporadas",
+      "media_type": "SERIE",
+      "year": "2023",
+      "extra_info": "6 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ulYR2NMKwnWoRWiw3KnFpaT2qjj.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+      "overview": "Veinte de los concursantes más astutos de Estados Unidos, participan en el aclamado juego de misterio y asesinato. Deberán trabajar juntos en misiones estimulantes para construir un fondo de premios valorado hasta en 250 000 dólares.",
+      "youtube_id": "MsNXb1Z7BT0",
+      "trailer_url": "https://www.youtube.com/watch?v=MsNXb1Z7BT0"
+    },
     {
       "title": "Academia Minerva",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -816,8 +900,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/8YuGi5NFR6rEUtzeQW4jHOT5DB8.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/zynoUI9kwDQKkGW5KqvxQp8Kj1Q.jpg",
       "overview": "En la academia militar Minerva, los jóvenes lidian con la disciplina, la rivalidad y la presión familiar mientras un cadete busca respuestas sobre su amigo desaparecido.",
-      "youtube_id": "Mcs5XIgxp4o",
-      "trailer_url": "https://www.youtube.com/watch?v=Mcs5XIgxp4o"
+      "youtube_id": "j_dZANEz_yk",
+      "trailer_url": "https://www.youtube.com/watch?v=j_dZANEz_yk"
     },
     {
       "title": "Vértigo 2: Punto muerto",
@@ -837,7 +921,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 41m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/crV6ba2FVfHW64PzjJehMxUj9e7.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
       "overview": "En este drama inspirado en hechos reales, el FBI le da caza a Ted Kaczynski, prodigio de Harvard y víctima de un experimento, que se ha convertido en el Unabomber.",
       "youtube_id": "1nm1KgTsuOc",
@@ -887,21 +971,9 @@
       "extra_info": "1h 50m",
       "poster_url": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-      "overview": "En 2006, Chris Hansen, presentador de *To Catch a Predator*, se propone hacer historia en la televisión.",
+      "overview": "En 2006, el presentador Chris Hansen de NBC se propuso hacer historia en la televisión con el programa To Catch a Predator, convirtiendo una investigación encubierta en uno de los fenómenos culturales más controvertidos de la década en horario estelar.",
       "youtube_id": "__hFqLRZuJc",
       "trailer_url": "https://www.youtube.com/watch?v=__hFqLRZuJc"
-    },
-    {
-      "title": "Gutiérrez Is mai neim",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/piKGYQc6slW2OHtzr6hWdKpfqMT.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/a5BYpkrmhSdHiGrW5IU30PgKAmR.jpg",
-      "overview": "El subcomisario Roberto Gutiérrez (Barassi) es un policía poco preparado en cuyas manos cae el delicado caso de asesinato del embajador ruso en Argentina. Cuando la CIA toma el control del homicidio, Gutiérrez decide jugar su propio juego junto a su compañero, el teniente Rubén Torcoletti (Yayo). Con una brigada tan leal como incompetente y métodos de dudosa legalidad, desatará el caos para demostrar quién manda en su jurisdicción y resolver el caso antes que el servicio de inteligencia estadounidense.",
-      "youtube_id": "8UVbuA4C3qg",
-      "trailer_url": "https://www.youtube.com/watch?v=8UVbuA4C3qg"
     },
     {
       "title": "La sociedad de la nieve",
@@ -935,7 +1007,7 @@
       "extra_info": "1 Temporada",
       "poster_url": "https://image.tmdb.org/t/p/w500/7QMTxQf6GXYlMI64yNd7lKXiIux.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/lmtTtOjsIBxwKD7LsAD5eeyhq1g.jpg",
-      "overview": "Tras un escándalo familiar, la adolescente Teagan Tao se muda a una pequeña localidad y se une a un equipo masculino de élite, donde despierta rivalidades… y pasiones.",
+      "overview": "Tras un escándalo familiar, Teagan Tao se muda a un pequeño pueblo y se une al equipo masculino de remo de un prestigioso instituto, donde surgen rivalidades… y algo más.",
       "youtube_id": "Zzp12UedOjY",
       "trailer_url": "https://www.youtube.com/watch?v=Zzp12UedOjY"
     },
@@ -948,8 +1020,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/f5yXF2vBOxZcPxvw1P7kXXqOVFV.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
       "overview": "Un famoso campeón de tiro olímpico viaja a los Estados Unidos en busca de un donante para su hijo, pero un romance inesperado complica su misión.",
-      "youtube_id": "H82uvLvszQ0",
-      "trailer_url": "https://www.youtube.com/watch?v=H82uvLvszQ0"
+      "youtube_id": "wjycKdvm8bE",
+      "trailer_url": "https://www.youtube.com/watch?v=wjycKdvm8bE"
     },
     {
       "title": "El corazón de la bestia",
@@ -1034,78 +1106,6 @@
       "overview": "Londres, 1782. La tensión es máxima en la guerra entre Francia e Inglaterra. La vida de una joven, Lucie Manette, da un vuelco cuando recibe un mensaje de París: su padre, al que se creía muerto desde hace casi 20 años, podría estar vivo. El mensajero, el idealista emigrado francés Charles Darnay, es arrestado y acusado de traición. Lucie buscará la ayuda de un brillante pero inestable joven abogado, Sydney Carton, para liberar a Darnay con la esperanza de que la lleve a París para encontrar a su padre. El encuentro de Lucie con Darnay y Carton desata un poderoso y complejo triángulo amoroso, y los dos hombres lucharán por ser dignos del amor de la mujer mientras ella se debate entre uno u otro.",
       "youtube_id": "tdu7qLyPIBI",
       "trailer_url": "https://www.youtube.com/watch?v=tdu7qLyPIBI"
-    },
-    {
-      "title": "El peso del talento",
-      "subtitle": "PELÍCULA • 2022 • 1h 46m",
-      "media_type": "PELÍCULA",
-      "year": "2022",
-      "extra_info": "1h 46m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/oCMOx7E1Rsb7Dlp46UmsJ0wwnw4.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/m0YjB4VfghKey8Ppsmz8qCd0v1m.jpg",
-      "overview": "Insatisfecho creativamente y en deudas de dinero, Nicolas Cage se ve forzado a aceptar 1 millón de dólares a cambio de asistir a la fiesta de cumpleaños de un obsesivo fanático: Javi. Las cosas cambian inesperadamente cuando Nicolas Cage es reclutado por la CIA para ayudar a atrapar a Javi, quien no es lo que parece, obligándolo a reencarnar sus personajes más icónicos y amados, con tal de salvarse a sí mismo y a los suyos de este complicado enredo.",
-      "youtube_id": "h9mECxgHKe8",
-      "trailer_url": "https://www.youtube.com/watch?v=h9mECxgHKe8"
-    },
-    {
-      "title": "Tony Awards",
-      "subtitle": "SERIE • 1956 • 72 Temporadas",
-      "media_type": "SERIE",
-      "year": "1956",
-      "extra_info": "72 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/zFBRMVDgKRZ6dqTZwkefBbfDC1G.jpg",
-      "overview": "The Antoinette Perry Award for Excellence in Theatre, more commonly known as a Tony Award, recognizes achievement in live Broadway theatre. The awards are presented by the American Theatre Wing and The Broadway League at an annual ceremony in New York City. The awards are given for Broadway productions and performances, and an award is given for regional theatre.",
-      "youtube_id": "-hbR9RVaCus",
-      "trailer_url": "https://www.youtube.com/watch?v=-hbR9RVaCus"
-    },
-    {
-      "title": "Neagley",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gqprC6jdAEQWf9mTVeAKBNes6VM.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
-      "overview": "Del universo de REACHER, comienza un nuevo capítulo. Frances Neagley es una investigadora privada en Chicago y excompañera militar de Jack Reacher en la Unidad 110 de Investigaciones Especiales del Ejército. Al enterarse de que un querido amigo de su pasado murió en un accidente sospechoso, no se detendrá hasta hacer justicia.",
-      "youtube_id": "1ZUUjfsfvpw",
-      "trailer_url": "https://www.youtube.com/watch?v=1ZUUjfsfvpw"
-    },
-    {
-      "title": "Monstruo: La historia de Lizzie Borden",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/8XFqpmHwbBcqMHJUHglukTeTU7Z.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-      "overview": "Atrapada en un hogar cruel de la era victoriana, Lizzie Borden mata a sus padres de forma grotesca con un hacha, en un homicidio que conmocionó a la nación.",
-      "youtube_id": "POk0028h4_I",
-      "trailer_url": "https://www.youtube.com/watch?v=POk0028h4_I"
-    },
-    {
-      "title": "Hasta el Fin del Mundo",
-      "subtitle": "PELÍCULA • 2026 • 1h 38m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 38m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
-      "overview": "La vida de Manuel da un vuelco cuando Esmeralda, su amor perdido de hace quince años, lo llama inesperadamente. A pesar de estar a punto de casarse con otra persona, él se reencontrará con Esmeralda y ambos se darán cuenta de que su amor trasciende el tiempo.",
-      "youtube_id": "jP2g8G16mJA",
-      "trailer_url": "https://www.youtube.com/watch?v=jP2g8G16mJA"
-    },
-    {
-      "title": "Los rivales de Amziah King",
-      "subtitle": "PELÍCULA • 2026 • 2h 10m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 10m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
-      "overview": "En lo más profundo de las zonas rurales de Oklahoma, el carismático y talentoso músico Amziah King lidera una banda de inadaptados que toca *bluegrass*, al tiempo que dirige la principal empresa de producción de miel de la localidad. Cuando su hija de crianza —con quien había perdido el contacto— regresa inesperadamente, Amziah aprovecha la oportunidad para retomar el vínculo y crear un negocio familiar. Sin embargo, el mundo de la miel es implacable, y sus rivales amenazan con destruir todo lo que él ha construido.",
-      "youtube_id": "1RprmXBZOxk",
-      "trailer_url": "https://www.youtube.com/watch?v=1RprmXBZOxk"
     }
   ]
 }
