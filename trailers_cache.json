@@ -4,6 +4,66 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Brothers and Sisters",
+          "subtitle": "SERIE • 2006 • 5 Temporadas",
+          "media_type": "SERIE",
+          "year": "2006",
+          "extra_info": "5 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1bNSsvReDj3Uj1vNvfwxDzEESKb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/tMZZ8W30TtGRcydsxrtXcL3j7YT.jpg",
+          "overview": "Narra la historia de los Walker, cinco hermanos que están a punto de descubrir que su familia no es tan idílica y modélica como creían, sino que oculta secretos que o los separarán dramáticamente o, por el contrario, los harán todavía más inseparables. La narradora es Kitty (Calista Flockhart), la hija predilecta del padre y una popular locutora de radio. Tras la muerte de su progenitor, la seguridad de los Walker se tambalea, lo que les obligará a replantearse sus vidas.",
+          "youtube_id": "MEktvMn-QvU",
+          "trailer_url": "https://www.youtube.com/watch?v=MEktvMn-QvU"
+        },
+        {
+          "title": "Tracker: Buscador de recompensas",
+          "subtitle": "SERIE • 2024 • 4 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "4 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5PXqBrCQ0FdDDtFCVhUyLDSwZYF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
+          "overview": "Colter Shaw es un lobo solitario dedicado a la supervivencia que recorre el país en busca de recompensas, usando sus expertas habilidades de rastreo para ayudar a ciudadanos particulares y a las fuerzas del orden a resolver todo tipo de misterios, al tiempo que lidia con su propia familia dividida.",
+          "youtube_id": "93ISmMYPa0o",
+          "trailer_url": "https://www.youtube.com/watch?v=93ISmMYPa0o"
+        },
+        {
+          "title": "Siete francotiradores",
+          "subtitle": "PELÍCULA • 2026 • 1h 27m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 27m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1VypkhG0LlvIzt26K4nYDEJr1qq.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/g2aOpyCO1vEyUZURh3V5uaHu187.jpg",
+          "overview": "Kris Hendricks, una francotiradora de élite retirada, intenta dejar atrás su violento pasado y llevar una vida tranquila junto a su hija adolescente en un aislado rancho del interior de Australia. Sin embargo, la paz se destruye cuando un despiadado señor de la guerra de su pasado regresa buscando venganza. Obligada a luchar una última vez, Kris se ve forzada a reunir a los miembros supervivientes de su antiguo escuadrón de la muerte en una batalla brutal y desesperada por proteger a su familia.",
+          "youtube_id": "0YYtbjlFaDs",
+          "trailer_url": "https://www.youtube.com/watch?v=0YYtbjlFaDs"
+        },
+        {
+          "title": "Sunrise: El último amanecer",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+          "youtube_id": "EeyXSwUjM3Q",
+          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
+        },
+        {
+          "title": "Kill Jackie",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/93ACVKVcMMD3DBJwFOlHWWKekhS.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/twc2YYBXTjdv52TShVumB1voT3Q.jpg",
+          "overview": "Jackie Price ha vivido una vida de lujos y riqueza durante los últimos 20 años tras escapar de un peligroso pasado como traficante internacional de cocaína. Pero justo cuando la vida empieza a resultarle un poco aburrida, descubre que Los Siete Demonios, un grupo de los sicarios más temibles del mundo, han sido contratados para matarla.",
+          "youtube_id": "J2m-XmXXl6E",
+          "trailer_url": "https://www.youtube.com/watch?v=J2m-XmXXl6E"
+        },
+        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -36,8 +96,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/eLMHUOQ4mCMxePMbv0TIVB48zfe.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
           "overview": "Cuando le roban su revolucionario descubrimiento farmacéutico y asesinan a su compañero, la investigadora Amy debe enfrentarse a su miedo a las alturas para escapar de unos atacantes sin escrúpulos, siendo la única vía de salvación una traicionera pasarela aérea. Para burlar a sus misteriosos perseguidores, tendrá que reunir hasta la última pizca de valor para proteger el descubrimiento científico que cambiará el mundo, y a sí misma, antes de que sea demasiado tarde.",
-          "youtube_id": "_3aJ887J3iY",
-          "trailer_url": "https://www.youtube.com/watch?v=_3aJ887J3iY"
+          "youtube_id": "aXiwe6Q6Ftc",
+          "trailer_url": "https://www.youtube.com/watch?v=aXiwe6Q6Ftc"
         },
         {
           "title": "Cautiva",
@@ -84,8 +144,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/ck2VRrRpGG3W5wkpFovYlGVLYke.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
           "overview": "A principios del siglo XX, una mujer fuerte e independiente abre una brecha entre dos hermanos... y marca el comienzo de una saga que se extenderá a la siguiente generación.",
-          "youtube_id": "4umpKyTAIio",
-          "trailer_url": "https://www.youtube.com/watch?v=4umpKyTAIio"
+          "youtube_id": "iIsty9bVCxA",
+          "trailer_url": "https://www.youtube.com/watch?v=iIsty9bVCxA"
         },
         {
           "title": "Caballos lentos",
@@ -118,7 +178,7 @@
           "year": "2026",
           "extra_info": "1h 54m",
           "poster_url": "https://image.tmdb.org/t/p/w500/97y0RdzRIeZ2j6se98hRQpxz3eR.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
           "overview": "La escritora en apuros Lowen Ashleigh está al borde de la ruina financiera cuando acepta la oferta de su vida: ha sido contratada para completar los libros restantes de una exitosa serie que la autora de thrillers superventas, Verity Crawford, no puede terminar tras un misterioso accidente. Al llegar a la lujosa mansión de los Crawford, Ashleigh descubre poco a poco que las cosas no son exactamente lo que parecen.",
           "youtube_id": "XRlERbC3Kks",
           "trailer_url": "https://www.youtube.com/watch?v=XRlERbC3Kks"
@@ -156,8 +216,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/c5t6dlSKxLrkVFRZC7UrbMOSMno.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/961SQWKlq6EQKN5lvXLR04YxSkw.jpg",
           "overview": "Las aventuras del ladrón Arsène Lupin III y de sus amigos, Daisuke Jigen (su mejor amigo), Fujiko Mine (la mujer fatal y el ocasional amor del protagonista) y Goemon Ishikawa XIII (un maestro de la espada, descendiente de Ishikawa Goemon, el legendario bandido japonés), que lo acompañan en diversos golpes, mientras son buscados internacionalmente y perseguidos por el tenaz inspector Kōichi Zenigata, de la Interpol, que es descendiente de Zenigata Heiji. Anime basado en la serie manga creada e ilustrada por Monkey Punch y publicada por la revista japonesa Weekly Manga Action por primera vez el 10 de agosto de 1967.",
-          "youtube_id": "1AvR0-14JO4",
-          "trailer_url": "https://www.youtube.com/watch?v=1AvR0-14JO4"
+          "youtube_id": "Jmo5aMN6iO8",
+          "trailer_url": "https://www.youtube.com/watch?v=Jmo5aMN6iO8"
         },
         {
           "title": "El problema final",
@@ -214,7 +274,7 @@
           "year": "2025",
           "extra_info": "2 Temporadas",
           "poster_url": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iKZ79HADhDQeeOsrfjccv9E18FY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
           "overview": "An all-star cast play the ultimate game of deceit and betrayal.",
           "youtube_id": "qEvRY6nwl6g",
           "trailer_url": "https://www.youtube.com/watch?v=qEvRY6nwl6g"
@@ -242,66 +302,6 @@
           "overview": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
           "youtube_id": "IRJGXHvc-Hs",
           "trailer_url": "https://www.youtube.com/watch?v=IRJGXHvc-Hs"
-        },
-        {
-          "title": "UNABOMBER",
-          "subtitle": "PELÍCULA • 2026 • 1h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/crV6ba2FVfHW64PzjJehMxUj9e7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-          "overview": "En este drama inspirado en hechos reales, el FBI le da caza a Ted Kaczynski, prodigio de Harvard y víctima de un experimento, que se ha convertido en el Unabomber.",
-          "youtube_id": "IXvat2Qeb2Y",
-          "trailer_url": "https://www.youtube.com/watch?v=IXvat2Qeb2Y"
-        },
-        {
-          "title": "Lalka",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/72pRBOj8S52NbT1F8OkMxD9OnjY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lRDqXZ4LCFl7Rd8fVQ43AhKhtI5.jpg",
-          "overview": "Cuando Stanislaw se enamora de la aristocrática Izabela, dedica su vida entera a conquistarla.",
-          "youtube_id": "5mcO5WiBmxM",
-          "trailer_url": "https://www.youtube.com/watch?v=5mcO5WiBmxM"
-        },
-        {
-          "title": "Ciudad de sangre",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/dfCSK88iG2Z2V9u6sXZkruiygq7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/icPBB9V5IX1hggtNs1fvskP2lsi.jpg",
-          "overview": "Berlín, una ciudad-estado al límite. La criminalidad conforma la vida cotidiana en un mundo destrozado por el cambio climático. Mientras unos pocos privilegiados viven bajo una cúpula totalmente climatizada, el resto de la ciudad se hunde en la corrupción y la violencia. Las hermanas Bea y Phoebe se separaron de niñas por un giro del destino. Bea, enferma crónica, creció protegida con su madre adoptiva, mientras Phoebe luchaba por sobrevivir en las calles de Berlín. Cuando sus mundos colisionan de nuevo la víspera de unas elecciones decisivas, descubren una verdad aterradora: los vampiros controlan el crimen organizado y están decididos a hacerse con el poder político. La sangre se ha convertido en la verdadera moneda de la ciudad. Atrapadas entre fuerzas rivales, Bea y Phoebe deben enfrentarse a la pregunta clave: ¿quién presenta la mayor amenaza: los humanos o los vampiros?",
-          "youtube_id": "u0Vmm4mWReQ",
-          "trailer_url": "https://www.youtube.com/watch?v=u0Vmm4mWReQ"
-        },
-        {
-          "title": "La hipótesis del amor",
-          "subtitle": "PELÍCULA • 2026 • 1h 52m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ylrSdW6fZYwaInYH6WAqvIEnSiV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
-          "overview": "Basada en el éxito del New York Times, La hipótesis del amor sigue a Olive, una estudiante de doctorado que besa por impulso al profesor más intimidante del departamento, Adam Carlsen. Ambos necesitan fingir que están en una relación y comienzan un experimento de química que podría resultar en amor.",
-          "youtube_id": "0Spma4tN8Go",
-          "trailer_url": "https://www.youtube.com/watch?v=0Spma4tN8Go"
-        },
-        {
-          "title": "Primetime",
-          "subtitle": "PELÍCULA • 2026 • 1h 50m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 50m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-          "overview": "En 2006, el presentador Chris Hansen de NBC se propuso hacer historia en la televisión con el programa To Catch a Predator, convirtiendo una investigación encubierta de horario estelar en uno de los fenómenos culturales más controvertidos de la década.",
-          "youtube_id": "__hFqLRZuJc",
-          "trailer_url": "https://www.youtube.com/watch?v=__hFqLRZuJc"
         }
       ]
     },
@@ -333,18 +333,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=elnr1I3D7nU"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
-        },
-        {
           "title": "Sueño de fuga",
           "subtitle": "PELÍCULA • 1994 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -355,6 +343,18 @@
           "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
           "youtube_id": "4u87tmlj4oE",
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
+        },
+        {
+          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
+          "youtube_id": "sqgSm8fWe1s",
+          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         },
         {
           "title": "La captura",
@@ -381,18 +381,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "Spider-Man: A través del Spider-Verso",
-          "subtitle": "PELÍCULA • 2023 • 2h 20m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 20m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/rXhgHQmtjTIQOEDU8E2TbUFMjWM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
-          "overview": "Después de reunirse con Gwen Stacy, Miles Morales, el amigable Spider-Man del vecindario de tiempo completo de Brooklyn, es catapultado a través del Multiverso, donde se encuentra con un equipo de Spider-People encargado de proteger su existencia. Pero cuando los héroes chocan sobre cómo manejar una nueva amenaza, Miles se enfrenta a las otras arañas y debe redefinir lo que significa ser un héroe para poder salvar a las personas que más ama.",
-          "youtube_id": "E4noegsHPvM",
-          "trailer_url": "https://www.youtube.com/watch?v=E4noegsHPvM"
-        },
-        {
           "title": "El increíble castillo vagabundo",
           "subtitle": "PELÍCULA • 2004 • 2h 0m",
           "media_type": "PELÍCULA",
@@ -405,6 +393,30 @@
           "trailer_url": "https://www.youtube.com/watch?v=BCDEOoNYW18"
         },
         {
+          "title": "Spider-Man: A través del Spider-Verso",
+          "subtitle": "PELÍCULA • 2023 • 2h 20m",
+          "media_type": "PELÍCULA",
+          "year": "2023",
+          "extra_info": "2h 20m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/rXhgHQmtjTIQOEDU8E2TbUFMjWM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+          "overview": "Después de reunirse con Gwen Stacy, Miles Morales, el amigable Spider-Man del vecindario de tiempo completo de Brooklyn, es catapultado a través del Multiverso, donde se encuentra con un equipo de Spider-People encargado de proteger su existencia. Pero cuando los héroes chocan sobre cómo manejar una nueva amenaza, Miles se enfrenta a las otras arañas y debe redefinir lo que significa ser un héroe para poder salvar a las personas que más ama.",
+          "youtube_id": "E4noegsHPvM",
+          "trailer_url": "https://www.youtube.com/watch?v=E4noegsHPvM"
+        },
+        {
+          "title": "Intercambiados",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+          "overview": "Una pequeña criatura del bosque y un ave majestuosa intercambian cuerpos. Ahora, deben aliarse para sobrevivir a la aventura más salvaje de sus vidas.",
+          "youtube_id": "oZlnTUemKPU",
+          "trailer_url": "https://www.youtube.com/watch?v=oZlnTUemKPU"
+        },
+        {
           "title": "El Club de la Pelea",
           "subtitle": "PELÍCULA • 1999 • 2h 19m",
           "media_type": "PELÍCULA",
@@ -415,18 +427,6 @@
           "overview": "Un hombre consumido por el insomnio y una vida sin sentido conoce a Tyler Durden, un carismático anarquista que lo arrastra a un club secreto donde el dolor despierta algo dormido. Lo que comienza como liberación pronto se convierte en una guerra contra el sistema…",
           "youtube_id": "R7aiJtcJ0AQ",
           "trailer_url": "https://www.youtube.com/watch?v=R7aiJtcJ0AQ"
-        },
-        {
-          "title": "La sustancia",
-          "subtitle": "PELÍCULA • 2024 • 2h 20m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "2h 20m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/w1PiIqM89r4AM7CiMEP4VLCEFUn.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bVSOgrxasVJF6V71T7v2KfBRSzu.jpg",
-          "overview": "Elisabeth Sparkle, una celebridad en decadencia, decide usar una droga del mercado negro que replica células y crea temporalmente una versión más joven y mejor de ella misma.",
-          "youtube_id": "LL7-o30o9ec",
-          "trailer_url": "https://www.youtube.com/watch?v=LL7-o30o9ec"
         }
       ]
     },
@@ -470,18 +470,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
-        },
-        {
           "title": "Avatar: Fuego y ceniza",
           "subtitle": "PELÍCULA • 2025 • 3h 18m",
           "media_type": "PELÍCULA",
@@ -492,6 +480,18 @@
           "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
           "youtube_id": "z05pKcZwz-U",
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
+        },
+        {
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
           "title": "Deadpool & Wolverine",
@@ -571,6 +571,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=0Spma4tN8Go"
         },
         {
+          "title": "Antes de despertar",
+          "subtitle": "PELÍCULA • 2014 • 1h 32m",
+          "media_type": "PELÍCULA",
+          "year": "2014",
+          "extra_info": "1h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4HHvXl6tCpsettKKGPGDRzkIs1d.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4Vyrc1SGaBZZ0ZGDq4o6LcEgq1i.jpg",
+          "overview": "Christine Lucas es una escritora de 47 años que, a raíz de un accidente sufrido cuando tenía 25, es incapaz de recordar el pasado y de retener los recuerdos más recientes. Cada día, al despertarse, cree que está soltera y que aún tiene que tomar grandes decisiones, pero, como todos los días, descubre que vive con su marido y que las decisiones vitales más importantes ya están tomadas.",
+          "youtube_id": "H4mW7dMCK50",
+          "trailer_url": "https://www.youtube.com/watch?v=H4mW7dMCK50"
+        },
+        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -607,18 +619,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
         },
         {
-          "title": "Tú+Yo - Los dos contra todos",
-          "subtitle": "PELÍCULA • 2026 • 1h 34m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 34m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eV17eCN1CM9fmGJHkfDzMsqqR0a.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nkEhDomjmPHJSA4Tx8pxv0NlKEy.jpg",
-          "overview": "Alma Lancaster, de 18 años, parece llevar una vida perfecta en el seno de una familia adinerada que cree que está estudiando Derecho. Sin embargo, en secreto persigue su verdadero sueño: el cine. En la universidad conoce a Vadim Arcadi, de 20 años, un rebelde carismático y solitario con un pasado turbulento. Obligados a colaborar en una película para la universidad, ambos chocan, se acercan y terminan enamorándose, pese a sus esfuerzos por evitarlo. Pero alguien que los observa está decidido a separarlos y desvelar secretos que podrían destruir tanto a Alma como a Vadim.",
-          "youtube_id": "kd2e3XJWSX8",
-          "trailer_url": "https://www.youtube.com/watch?v=kd2e3XJWSX8"
-        },
-        {
           "title": "The Orville : Nave Interestelar",
           "subtitle": "SERIE • 2017 • 3 Temporadas",
           "media_type": "SERIE",
@@ -631,16 +631,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=QvioWDENAyA"
         },
         {
-          "title": "Monjas Oscuras",
-          "subtitle": "PELÍCULA • 2025 • 1h 54m",
+          "title": "Tú+Yo - Los dos contra todos",
+          "subtitle": "PELÍCULA • 2026 • 1h 34m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/86DsYtZj9G1sNuoOOuErayvTpCA.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bQdYYutvomoxfLQK8gTV8Z3qsmv.jpg",
-          "overview": "Dos monjas, la Hermana Junia y la Hermana Michaela, se enfrentan a un joven llamado Hee-joon, que ha sido poseído por un espíritu maligno muy poderoso. Impulsada por su fe y compasión, la Hermana Junia decide hacerse cargo de salvar al niño, mientras que la Hermana Michaela, inicialmente escéptica, se ve arrastrada a la investigación. A medida que profundizan en el misterio, se encuentran con una serie de eventos escalofriantes y descubren un oscuro secreto escondido dentro de los muros del convento. Las monjas deben enfrentarse a sus propios miedos y creencias mientras luchan contra el poderoso mal que amenaza la vida de Hee-joon y la santidad de su orden.",
-          "youtube_id": "tcJRQsbL30g",
-          "trailer_url": "https://www.youtube.com/watch?v=tcJRQsbL30g"
+          "year": "2026",
+          "extra_info": "1h 34m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eV17eCN1CM9fmGJHkfDzMsqqR0a.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nkEhDomjmPHJSA4Tx8pxv0NlKEy.jpg",
+          "overview": "Alma Lancaster, de 18 años, parece llevar una vida perfecta en el seno de una familia adinerada que cree que está estudiando Derecho. Sin embargo, en secreto persigue su verdadero sueño: el cine. En la universidad conoce a Vadim Arcadi, de 20 años, un rebelde carismático y solitario con un pasado turbulento. Obligados a colaborar en una película para la universidad, ambos chocan, se acercan y terminan enamorándose, pese a sus esfuerzos por evitarlo. Pero alguien que los observa está decidido a separarlos y desvelar secretos que podrían destruir tanto a Alma como a Vadim.",
+          "youtube_id": "kd2e3XJWSX8",
+          "trailer_url": "https://www.youtube.com/watch?v=kd2e3XJWSX8"
         },
         {
           "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
@@ -655,16 +655,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         },
         {
-          "title": "El código enigma",
-          "subtitle": "PELÍCULA • 2014 • 1h 54m",
+          "title": "Monjas Oscuras",
+          "subtitle": "PELÍCULA • 2025 • 1h 54m",
           "media_type": "PELÍCULA",
-          "year": "2014",
+          "year": "2025",
           "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ctgJSUcKEiWgOT9anDIetClLOKN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8FCHJ21JBQOgATY2WI8vwYAiXg8.jpg",
-          "overview": "Durante el invierno de 1952, las autoridades británicas entraron en el hogar del matemático, analista y héroe de guerra Alan Turing, con la intención de investigar la denuncia de un robo. Al final acabaron arrestando a Turing acusándole de “indecencia grave”, un cargo que le supondría una devastadora condena por una ofensa criminal, ser homosexual. Los oficiales no tenían ni idea de que en realidad estaban incriminando al pionero de la informática actual.  Liderando a un heterogéneo grupo de académicos, lingüistas, campeones de ajedrez y oficiales de inteligencia, se le conoce por haber descifrado el código de la inquebrantable máquina Enigma de los alemanes durante la Segunda Guerra Mundial.",
-          "youtube_id": "694Gt_c4X7w",
-          "trailer_url": "https://www.youtube.com/watch?v=694Gt_c4X7w"
+          "poster_url": "https://image.tmdb.org/t/p/w500/86DsYtZj9G1sNuoOOuErayvTpCA.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bQdYYutvomoxfLQK8gTV8Z3qsmv.jpg",
+          "overview": "Dos monjas, la Hermana Junia y la Hermana Michaela, se enfrentan a un joven llamado Hee-joon, que ha sido poseído por un espíritu maligno muy poderoso. Impulsada por su fe y compasión, la Hermana Junia decide hacerse cargo de salvar al niño, mientras que la Hermana Michaela, inicialmente escéptica, se ve arrastrada a la investigación. A medida que profundizan en el misterio, se encuentran con una serie de eventos escalofriantes y descubren un oscuro secreto escondido dentro de los muros del convento. Las monjas deben enfrentarse a sus propios miedos y creencias mientras luchan contra el poderoso mal que amenaza la vida de Hee-joon y la santidad de su orden.",
+          "youtube_id": "tcJRQsbL30g",
+          "trailer_url": "https://www.youtube.com/watch?v=tcJRQsbL30g"
         },
         {
           "title": "Carrera contra el tiempo",
@@ -756,30 +756,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
-          "title": "Identidad desconocida",
-          "subtitle": "PELÍCULA • 2002 • 1h 58m",
-          "media_type": "PELÍCULA",
-          "year": "2002",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kJaRWmy1BGq3pHyE94LOTteiHer.jpg",
-          "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
-          "youtube_id": "AXMLkYf2Ilo",
-          "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
-        },
-        {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
-        },
-        {
           "title": "La propuesta",
           "subtitle": "PELÍCULA • 2009 • 1h 48m",
           "media_type": "PELÍCULA",
@@ -792,6 +768,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
+          "title": "Identidad desconocida",
+          "subtitle": "PELÍCULA • 2002 • 1h 58m",
+          "media_type": "PELÍCULA",
+          "year": "2002",
+          "extra_info": "1h 58m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/kJaRWmy1BGq3pHyE94LOTteiHer.jpg",
+          "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
+          "youtube_id": "AXMLkYf2Ilo",
+          "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
+        },
+        {
           "title": "Plan familiar 2",
           "subtitle": "PELÍCULA • 2025 • 1h 46m",
           "media_type": "PELÍCULA",
@@ -802,11 +790,83 @@
           "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
           "youtube_id": "3WoEPRpdTIU",
           "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
+        },
+        {
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Brothers and Sisters",
+      "subtitle": "SERIE • 2006 • 5 Temporadas",
+      "media_type": "SERIE",
+      "year": "2006",
+      "extra_info": "5 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1bNSsvReDj3Uj1vNvfwxDzEESKb.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/tMZZ8W30TtGRcydsxrtXcL3j7YT.jpg",
+      "overview": "Narra la historia de los Walker, cinco hermanos que están a punto de descubrir que su familia no es tan idílica y modélica como creían, sino que oculta secretos que o los separarán dramáticamente o, por el contrario, los harán todavía más inseparables. La narradora es Kitty (Calista Flockhart), la hija predilecta del padre y una popular locutora de radio. Tras la muerte de su progenitor, la seguridad de los Walker se tambalea, lo que les obligará a replantearse sus vidas.",
+      "youtube_id": "MEktvMn-QvU",
+      "trailer_url": "https://www.youtube.com/watch?v=MEktvMn-QvU"
+    },
+    {
+      "title": "Tracker: Buscador de recompensas",
+      "subtitle": "SERIE • 2024 • 4 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "4 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5PXqBrCQ0FdDDtFCVhUyLDSwZYF.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
+      "overview": "Colter Shaw es un lobo solitario dedicado a la supervivencia que recorre el país en busca de recompensas, usando sus expertas habilidades de rastreo para ayudar a ciudadanos particulares y a las fuerzas del orden a resolver todo tipo de misterios, al tiempo que lidia con su propia familia dividida.",
+      "youtube_id": "93ISmMYPa0o",
+      "trailer_url": "https://www.youtube.com/watch?v=93ISmMYPa0o"
+    },
+    {
+      "title": "Siete francotiradores",
+      "subtitle": "PELÍCULA • 2026 • 1h 27m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 27m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1VypkhG0LlvIzt26K4nYDEJr1qq.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/g2aOpyCO1vEyUZURh3V5uaHu187.jpg",
+      "overview": "Kris Hendricks, una francotiradora de élite retirada, intenta dejar atrás su violento pasado y llevar una vida tranquila junto a su hija adolescente en un aislado rancho del interior de Australia. Sin embargo, la paz se destruye cuando un despiadado señor de la guerra de su pasado regresa buscando venganza. Obligada a luchar una última vez, Kris se ve forzada a reunir a los miembros supervivientes de su antiguo escuadrón de la muerte en una batalla brutal y desesperada por proteger a su familia.",
+      "youtube_id": "0YYtbjlFaDs",
+      "trailer_url": "https://www.youtube.com/watch?v=0YYtbjlFaDs"
+    },
+    {
+      "title": "Sunrise: El último amanecer",
+      "subtitle": "PELÍCULA • 2026 • 1h 47m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 47m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+      "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+      "youtube_id": "EeyXSwUjM3Q",
+      "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
+    },
+    {
+      "title": "Kill Jackie",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/93ACVKVcMMD3DBJwFOlHWWKekhS.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/twc2YYBXTjdv52TShVumB1voT3Q.jpg",
+      "overview": "Jackie Price ha vivido una vida de lujos y riqueza durante los últimos 20 años tras escapar de un peligroso pasado como traficante internacional de cocaína. Pero justo cuando la vida empieza a resultarle un poco aburrida, descubre que Los Siete Demonios, un grupo de los sicarios más temibles del mundo, han sido contratados para matarla.",
+      "youtube_id": "J2m-XmXXl6E",
+      "trailer_url": "https://www.youtube.com/watch?v=J2m-XmXXl6E"
+    },
     {
       "title": "La guerra de los mundos",
       "subtitle": "PELÍCULA • 2025 • 1h 31m",
@@ -840,8 +900,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/eLMHUOQ4mCMxePMbv0TIVB48zfe.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
       "overview": "Cuando le roban su revolucionario descubrimiento farmacéutico y asesinan a su compañero, la investigadora Amy debe enfrentarse a su miedo a las alturas para escapar de unos atacantes sin escrúpulos, siendo la única vía de salvación una traicionera pasarela aérea. Para burlar a sus misteriosos perseguidores, tendrá que reunir hasta la última pizca de valor para proteger el descubrimiento científico que cambiará el mundo, y a sí misma, antes de que sea demasiado tarde.",
-      "youtube_id": "_3aJ887J3iY",
-      "trailer_url": "https://www.youtube.com/watch?v=_3aJ887J3iY"
+      "youtube_id": "aXiwe6Q6Ftc",
+      "trailer_url": "https://www.youtube.com/watch?v=aXiwe6Q6Ftc"
     },
     {
       "title": "Cautiva",
@@ -888,8 +948,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/ck2VRrRpGG3W5wkpFovYlGVLYke.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
       "overview": "A principios del siglo XX, una mujer fuerte e independiente abre una brecha entre dos hermanos... y marca el comienzo de una saga que se extenderá a la siguiente generación.",
-      "youtube_id": "4umpKyTAIio",
-      "trailer_url": "https://www.youtube.com/watch?v=4umpKyTAIio"
+      "youtube_id": "iIsty9bVCxA",
+      "trailer_url": "https://www.youtube.com/watch?v=iIsty9bVCxA"
     },
     {
       "title": "Caballos lentos",
@@ -922,7 +982,7 @@
       "year": "2026",
       "extra_info": "1h 54m",
       "poster_url": "https://image.tmdb.org/t/p/w500/97y0RdzRIeZ2j6se98hRQpxz3eR.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
       "overview": "La escritora en apuros Lowen Ashleigh está al borde de la ruina financiera cuando acepta la oferta de su vida: ha sido contratada para completar los libros restantes de una exitosa serie que la autora de thrillers superventas, Verity Crawford, no puede terminar tras un misterioso accidente. Al llegar a la lujosa mansión de los Crawford, Ashleigh descubre poco a poco que las cosas no son exactamente lo que parecen.",
       "youtube_id": "XRlERbC3Kks",
       "trailer_url": "https://www.youtube.com/watch?v=XRlERbC3Kks"
@@ -960,8 +1020,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/c5t6dlSKxLrkVFRZC7UrbMOSMno.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/961SQWKlq6EQKN5lvXLR04YxSkw.jpg",
       "overview": "Las aventuras del ladrón Arsène Lupin III y de sus amigos, Daisuke Jigen (su mejor amigo), Fujiko Mine (la mujer fatal y el ocasional amor del protagonista) y Goemon Ishikawa XIII (un maestro de la espada, descendiente de Ishikawa Goemon, el legendario bandido japonés), que lo acompañan en diversos golpes, mientras son buscados internacionalmente y perseguidos por el tenaz inspector Kōichi Zenigata, de la Interpol, que es descendiente de Zenigata Heiji. Anime basado en la serie manga creada e ilustrada por Monkey Punch y publicada por la revista japonesa Weekly Manga Action por primera vez el 10 de agosto de 1967.",
-      "youtube_id": "1AvR0-14JO4",
-      "trailer_url": "https://www.youtube.com/watch?v=1AvR0-14JO4"
+      "youtube_id": "Jmo5aMN6iO8",
+      "trailer_url": "https://www.youtube.com/watch?v=Jmo5aMN6iO8"
     },
     {
       "title": "El problema final",
@@ -1018,7 +1078,7 @@
       "year": "2025",
       "extra_info": "2 Temporadas",
       "poster_url": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/iKZ79HADhDQeeOsrfjccv9E18FY.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
       "overview": "An all-star cast play the ultimate game of deceit and betrayal.",
       "youtube_id": "qEvRY6nwl6g",
       "trailer_url": "https://www.youtube.com/watch?v=qEvRY6nwl6g"
@@ -1046,66 +1106,6 @@
       "overview": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
       "youtube_id": "IRJGXHvc-Hs",
       "trailer_url": "https://www.youtube.com/watch?v=IRJGXHvc-Hs"
-    },
-    {
-      "title": "UNABOMBER",
-      "subtitle": "PELÍCULA • 2026 • 1h 41m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 41m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/crV6ba2FVfHW64PzjJehMxUj9e7.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-      "overview": "En este drama inspirado en hechos reales, el FBI le da caza a Ted Kaczynski, prodigio de Harvard y víctima de un experimento, que se ha convertido en el Unabomber.",
-      "youtube_id": "IXvat2Qeb2Y",
-      "trailer_url": "https://www.youtube.com/watch?v=IXvat2Qeb2Y"
-    },
-    {
-      "title": "Lalka",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/72pRBOj8S52NbT1F8OkMxD9OnjY.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/lRDqXZ4LCFl7Rd8fVQ43AhKhtI5.jpg",
-      "overview": "Cuando Stanislaw se enamora de la aristocrática Izabela, dedica su vida entera a conquistarla.",
-      "youtube_id": "5mcO5WiBmxM",
-      "trailer_url": "https://www.youtube.com/watch?v=5mcO5WiBmxM"
-    },
-    {
-      "title": "Ciudad de sangre",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/dfCSK88iG2Z2V9u6sXZkruiygq7.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/icPBB9V5IX1hggtNs1fvskP2lsi.jpg",
-      "overview": "Berlín, una ciudad-estado al límite. La criminalidad conforma la vida cotidiana en un mundo destrozado por el cambio climático. Mientras unos pocos privilegiados viven bajo una cúpula totalmente climatizada, el resto de la ciudad se hunde en la corrupción y la violencia. Las hermanas Bea y Phoebe se separaron de niñas por un giro del destino. Bea, enferma crónica, creció protegida con su madre adoptiva, mientras Phoebe luchaba por sobrevivir en las calles de Berlín. Cuando sus mundos colisionan de nuevo la víspera de unas elecciones decisivas, descubren una verdad aterradora: los vampiros controlan el crimen organizado y están decididos a hacerse con el poder político. La sangre se ha convertido en la verdadera moneda de la ciudad. Atrapadas entre fuerzas rivales, Bea y Phoebe deben enfrentarse a la pregunta clave: ¿quién presenta la mayor amenaza: los humanos o los vampiros?",
-      "youtube_id": "u0Vmm4mWReQ",
-      "trailer_url": "https://www.youtube.com/watch?v=u0Vmm4mWReQ"
-    },
-    {
-      "title": "La hipótesis del amor",
-      "subtitle": "PELÍCULA • 2026 • 1h 52m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 52m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ylrSdW6fZYwaInYH6WAqvIEnSiV.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
-      "overview": "Basada en el éxito del New York Times, La hipótesis del amor sigue a Olive, una estudiante de doctorado que besa por impulso al profesor más intimidante del departamento, Adam Carlsen. Ambos necesitan fingir que están en una relación y comienzan un experimento de química que podría resultar en amor.",
-      "youtube_id": "0Spma4tN8Go",
-      "trailer_url": "https://www.youtube.com/watch?v=0Spma4tN8Go"
-    },
-    {
-      "title": "Primetime",
-      "subtitle": "PELÍCULA • 2026 • 1h 50m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 50m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-      "overview": "En 2006, el presentador Chris Hansen de NBC se propuso hacer historia en la televisión con el programa To Catch a Predator, convirtiendo una investigación encubierta de horario estelar en uno de los fenómenos culturales más controvertidos de la década.",
-      "youtube_id": "__hFqLRZuJc",
-      "trailer_url": "https://www.youtube.com/watch?v=__hFqLRZuJc"
     }
   ]
 }
