@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Bajo la superficie",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mieCT53TaHGVVRdeq8Bx3VwtgIW.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+          "overview": "Cuando una misteriosa criatura marina aterroriza a un pueblo costero canadiense, un recio pescador y su familia luchan por proteger a su comunidad.",
+          "youtube_id": "fOpmBZOZGus",
+          "trailer_url": "https://www.youtube.com/watch?v=fOpmBZOZGus"
+        },
+        {
+          "title": "Sensatez y sentimientos",
+          "subtitle": "PELÍCULA • 1995 • 2h 16m",
+          "media_type": "PELÍCULA",
+          "year": "1995",
+          "extra_info": "2h 16m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/m9uBQtgUcFdY5hBWdTlgEypkcDq.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cFnyfWHL6HjOOVal6lp8e5gqibK.jpg",
+          "overview": "La señora Dashwood, Elinor, Marianne y Margaret, son tres hermanas del segundo matrimonio del señor Dashwood. Cuando este muere, deja toda la herencia al hijo de su primer matrimonio. Las Dashwood, se quedan un corto tiempo en la que era su casa, donde conocen a Edward Ferrars, cuñado de su hermanastro del cual Elinor se enamora. Cuando se trasladan a una casa en el campo, Marianne se enamora de John Willoughby, que vive cerca de su nueva casa. Durante su estancia allí ella aprenderá a madurar acerca de los conceptos del amor.",
+          "youtube_id": "E8Xc0CHPy2E",
+          "trailer_url": "https://www.youtube.com/watch?v=E8Xc0CHPy2E"
+        },
+        {
+          "title": "Matchbox: La película",
+          "subtitle": "PELÍCULA • 2026 • 2h 7m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 7m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ev2GnYar3LUyui8sOu4gqeMXvLi.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+          "overview": "Cuando un grupo de antiguos amigos de la infancia reconecta, su reunión da un giro inesperado al descubrir un complot internacional y darse cuenta de que deben salvar al mundo.",
+          "youtube_id": "0FHKfPfj6-Q",
+          "trailer_url": "https://www.youtube.com/watch?v=0FHKfPfj6-Q"
+        },
+        {
+          "title": "American Hostage",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+          "overview": "Ambientada en la década de 1970, narra la desgarradora historia real de Fred Heckman, un querido reportero de radio de Indianápolis que se ve envuelto en una crisis de vida o muerte cuando el secuestrador Tony Kiritsis exige ser entrevistado en su popular programa de noticias de radio.",
+          "youtube_id": "Ff1fUwSD7Gc",
+          "trailer_url": "https://www.youtube.com/watch?v=Ff1fUwSD7Gc"
+        },
+        {
           "title": "The Drop: Una saga de Snowfall",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -48,8 +96,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/qvX8vqc2NjxM3T5utEzezRVehlU.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
           "overview": "Desde que su novia desapareció hace siete años, la vida de Michael quedó en pausa; pero una receta mística en un viejo diario, promete revelar las respuestas que ha estado buscando.",
-          "youtube_id": "W7vdQWnaZts",
-          "trailer_url": "https://www.youtube.com/watch?v=W7vdQWnaZts"
+          "youtube_id": "wLKL8vK5PgA",
+          "trailer_url": "https://www.youtube.com/watch?v=wLKL8vK5PgA"
         },
         {
           "title": "Top Gun: Maverick",
@@ -204,8 +252,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/eLMHUOQ4mCMxePMbv0TIVB48zfe.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
           "overview": "Cuando le roban su revolucionario descubrimiento farmacéutico y asesinan a su compañero, la investigadora Amy debe enfrentarse a su miedo a las alturas para escapar de unos atacantes sin escrúpulos, siendo la única vía de salvación una traicionera pasarela aérea. Para burlar a sus misteriosos perseguidores, tendrá que reunir hasta la última pizca de valor para proteger el descubrimiento científico que cambiará el mundo, y a sí misma, antes de que sea demasiado tarde.",
-          "youtube_id": "RXw13WdC2nI",
-          "trailer_url": "https://www.youtube.com/watch?v=RXw13WdC2nI"
+          "youtube_id": "_3aJ887J3iY",
+          "trailer_url": "https://www.youtube.com/watch?v=_3aJ887J3iY"
         },
         {
           "title": "Cautiva",
@@ -254,19 +302,12 @@
           "overview": "A principios del siglo XX, una mujer fuerte e independiente abre una brecha entre dos hermanos... y marca el comienzo de una saga que se extenderá a la siguiente generación.",
           "youtube_id": "iIsty9bVCxA",
           "trailer_url": "https://www.youtube.com/watch?v=iIsty9bVCxA"
-        },
-        {
-          "title": "Caballos lentos",
-          "subtitle": "SERIE • 2022 • 6 Temporadas",
-          "media_type": "SERIE",
-          "year": "2022",
-          "extra_info": "6 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jnbQWjyWxcCf6DaGQXC5AACHCYv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
-          "overview": "Esta ingeniosa serie de espionaje sigue a un equipo disfuncional de agentes del MI5, y a su insoportable jefe, el famoso Jackson Lamb, mientras exploran el engañoso mundo del espionaje para defender a Inglaterra de perversos enemigos.",
-          "youtube_id": "lBE9aXCZY50",
-          "trailer_url": "https://www.youtube.com/watch?v=lBE9aXCZY50"
-        },
+        }
+      ]
+    },
+    {
+      "category": "Top 10 Netflix",
+      "items": [
         {
           "title": "Las cartas de la vida",
           "subtitle": "PELÍCULA • 2026 • 1h 52m",
@@ -279,35 +320,6 @@
           "youtube_id": "Qer7mUsBAC0",
           "trailer_url": "https://www.youtube.com/watch?v=Qer7mUsBAC0"
         },
-        {
-          "title": "Verity: La sombra de un engaño",
-          "subtitle": "PELÍCULA • 2026 • 1h 54m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
-          "overview": "La escritora en apuros Lowen Ashleigh está al borde de la ruina financiera cuando acepta la oferta de su vida: ha sido contratada para completar los libros restantes de una exitosa serie que la autora de thrillers superventas, Verity Crawford, no puede terminar tras un misterioso accidente. Al llegar a la lujosa mansión de los Crawford, Ashleigh descubre poco a poco que las cosas no son exactamente lo que parecen.",
-          "youtube_id": "XRlERbC3Kks",
-          "trailer_url": "https://www.youtube.com/watch?v=XRlERbC3Kks"
-        },
-        {
-          "title": "Catedrales",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7LQKFR1iOlIZkbDLbhcLOBWfmXk.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lXfOj4JcnyW0KdfMLrLTLegju5I.jpg",
-          "overview": "Una joven de 17 años es hallada quemada y descuartizada en un baldío de un barrio de clase media de Santiago de Chile. Por impericia policial el crimen queda impune hasta que treinta años más tarde la familia consigue organizar el rompecabezas del asesinato que les revela una relación prohibida y una cruel verdad.",
-          "youtube_id": "P6_kJLVZuJk",
-          "trailer_url": "https://www.youtube.com/watch?v=P6_kJLVZuJk"
-        }
-      ]
-    },
-    {
-      "category": "Top 10 Netflix",
-      "items": [
         {
           "title": "UNABOMBER",
           "subtitle": "PELÍCULA • 2026 • 1h 41m",
@@ -319,18 +331,6 @@
           "overview": "En este drama inspirado en hechos reales, el FBI le da caza a Ted Kaczynski, prodigio de Harvard y víctima de un experimento, que se ha convertido en el Unabomber.",
           "youtube_id": "IXvat2Qeb2Y",
           "trailer_url": "https://www.youtube.com/watch?v=IXvat2Qeb2Y"
-        },
-        {
-          "title": "Las cartas de la vida",
-          "subtitle": "PELÍCULA • 2026 • 1h 52m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oGZkPxg5NqALN7OJbm9DuPOIVEJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
-          "overview": "Cuando Anika, una joven madre soltera que lucha por mantener unida a su familia, comienza a intercambiar cartas con Carousel, un recluso que cumple condena, su extraño vínculo a distancia se transforma en algo totalmente inesperado.",
-          "youtube_id": "Qer7mUsBAC0",
-          "trailer_url": "https://www.youtube.com/watch?v=Qer7mUsBAC0"
         },
         {
           "title": "Sueño de fuga",
@@ -393,18 +393,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=LL7-o30o9ec"
         },
         {
-          "title": "La captura",
-          "subtitle": "PELÍCULA • 2026 • 1h 31m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-          "overview": "Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo.",
-          "youtube_id": "uIaPDKA0-Y4",
-          "trailer_url": "https://www.youtube.com/watch?v=uIaPDKA0-Y4"
-        },
-        {
           "title": "Intercambiados",
           "subtitle": "PELÍCULA • 2026 • 1h 42m",
           "media_type": "PELÍCULA",
@@ -427,6 +415,18 @@
           "overview": "Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida.",
           "youtube_id": "iXrfVpHKCnE",
           "trailer_url": "https://www.youtube.com/watch?v=iXrfVpHKCnE"
+        },
+        {
+          "title": "El increíble castillo vagabundo",
+          "subtitle": "PELÍCULA • 2004 • 2h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2004",
+          "extra_info": "2h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jtUejuD3XPNjPDYCfI3zhB86fRk.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
+          "overview": "Sophie es una joven de 18 años que trabaja sin descanso en la tienda de sombreros de la familia. En uno de sus frecuentes paseos conoce al enigmático mago Howl, lo que despierta la ira de la Bruja Calamidad, que odia a Howl con todas sus fuerzas. Cuando Sophie vuelve a la tienda, la Bruja se hace pasar por una clienta para acercarse a ella y lanzarle un hechizo… ¡que convierte a Sophie en una anciana de 90 años! Sophie, que no puede revelar su auténtica identidad, recurre a Howl para buscar una solución a su problema. Para ello se embarca en un viaje fantástico en el castillo ambulante del mago, habitado por personajes de lo más curiosos. Sophie necesita ayuda pero quizás sea Howl el que realmente está en apuros.",
+          "youtube_id": "BCDEOoNYW18",
+          "trailer_url": "https://www.youtube.com/watch?v=BCDEOoNYW18"
         }
       ]
     },
@@ -502,8 +502,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6idNHT0nOD7a1ldv7vhNJFW6jl9.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
           "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
-          "youtube_id": "sVeknvCI5rA",
-          "trailer_url": "https://www.youtube.com/watch?v=sVeknvCI5rA"
+          "youtube_id": "ldyfHSG7C68",
+          "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
         },
         {
           "title": "Avengers: Los Vengadores",
@@ -619,6 +619,30 @@
           "trailer_url": "https://www.youtube.com/watch?v=QvioWDENAyA"
         },
         {
+          "title": "Batman: El caballero de la noche",
+          "subtitle": "PELÍCULA • 2008 • 2h 32m",
+          "media_type": "PELÍCULA",
+          "year": "2008",
+          "extra_info": "2h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+          "youtube_id": "kj7urtvmwrY",
+          "trailer_url": "https://www.youtube.com/watch?v=kj7urtvmwrY"
+        },
+        {
+          "title": "Robot salvaje",
+          "subtitle": "PELÍCULA • 2024 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cYMihyFZreVBn8x6KnyPY4ea0HX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
+          "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
+          "youtube_id": "1qq06A0Q4C8",
+          "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
+        },
+        {
           "title": "Enfrentados: Marfil",
           "subtitle": "PELÍCULA • 2026 • 1h 44m",
           "media_type": "PELÍCULA",
@@ -629,18 +653,6 @@
           "overview": "La vida de Marfil, la hija de un poderoso empresario español, da un giro cuando la secuestran y liberan sin explicaciones, por lo que su padre contrata a Sebastian Moore como su guardaespaldas. Obligados a pasar cada minuto del día juntos, surge entre ellos una inevitable atracción en un mundo donde nada es lo que parece. Basada en la novela de Mercedes Ron, autora de la saga Culpables.",
           "youtube_id": "5aCQgikjz8g",
           "trailer_url": "https://www.youtube.com/watch?v=5aCQgikjz8g"
-        },
-        {
-          "title": "Mad Max: Furia en el camino",
-          "subtitle": "PELÍCULA • 2015 • 2h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2015",
-          "extra_info": "2h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ixSuKuBnSfHmyzZbcWCywOKZ6Ho.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
-          "overview": "Perseguido por su turbulento pasado, Mad Max cree que la mejor forma de sobrevivir es ir solo por el mundo. Sin embargo, se ve arrastrado a formar parte de un grupo que huye a través del desierto en un War Rig conducido por una Emperatriz de élite: Furiosa. Escapan de una Ciudadela tiranizada por Immortan Joe, a quien han arrebatado algo irreemplazable. Enfurecido, el Señor de la Guerra moviliza a todas sus bandas y persigue implacablemente a los rebeldes en una \"guerra de la carretera\" de altas revoluciones... Cuarta entrega de la saga post-apocalíptica que resucita la trilogía que a principios de los ochenta protagonizó Mel Gibson.",
-          "youtube_id": "UyqFAle_4aE",
-          "trailer_url": "https://www.youtube.com/watch?v=UyqFAle_4aE"
         },
         {
           "title": "Tú+Yo - Los dos contra todos",
@@ -655,28 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=kd2e3XJWSX8"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "title": "Sunrise: El último amanecer",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
-        },
-        {
-          "title": "Robot salvaje",
-          "subtitle": "PELÍCULA • 2024 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cYMihyFZreVBn8x6KnyPY4ea0HX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
-          "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
-          "youtube_id": "1qq06A0Q4C8",
-          "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/18HnXofpKuoD8oMdRj6GPvmdEJN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+          "overview": "Basada en la exitosa novela, Sunrise: El último amanecer narra la historia de Ry, una universitaria con una enfermedad crónica que viaja a Mallorca junto a su madre. Cuando se enamora de Julián, descubre una nueva forma de vivir, pero, antes de que termine el verano, el deterioro de su salud y los secretos familiares ponen todo en riesgo.",
+          "youtube_id": "EeyXSwUjM3Q",
+          "trailer_url": "https://www.youtube.com/watch?v=EeyXSwUjM3Q"
         }
       ]
     },
@@ -708,18 +708,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
-          "title": "Mayday: Catástrofes Aéreas",
-          "subtitle": "SERIE • 2003 • 26 Temporadas",
-          "media_type": "SERIE",
-          "year": "2003",
-          "extra_info": "26 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/2uuVIAb4MtPmMNTpOyID5V8DzrU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vqm22ecqtzy5Olr74mkUV5lWa9g.jpg",
-          "overview": "Conoce las historias de personas que han sufrido accidentes aéreos, sus familiares y los investigadores de seguridad que estudian las causas. Entre ellas están error del piloto, un incendio o falta de mantenimiento.",
-          "youtube_id": "lMG_C9kQUJw",
-          "trailer_url": "https://www.youtube.com/watch?v=lMG_C9kQUJw"
-        },
-        {
           "title": "El abismo secreto",
           "subtitle": "PELÍCULA • 2025 • 2h 8m",
           "media_type": "PELÍCULA",
@@ -744,6 +732,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
+          "title": "Mayday: Catástrofes Aéreas",
+          "subtitle": "SERIE • 2003 • 26 Temporadas",
+          "media_type": "SERIE",
+          "year": "2003",
+          "extra_info": "26 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2uuVIAb4MtPmMNTpOyID5V8DzrU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vqm22ecqtzy5Olr74mkUV5lWa9g.jpg",
+          "overview": "Conoce las historias de personas que han sufrido accidentes aéreos, sus familiares y los investigadores de seguridad que estudian las causas. Entre ellas están error del piloto, un incendio o falta de mantenimiento.",
+          "youtube_id": "lMG_C9kQUJw",
+          "trailer_url": "https://www.youtube.com/watch?v=lMG_C9kQUJw"
+        },
+        {
           "title": "Ready Player One: Comienza el juego",
           "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
@@ -754,18 +754,6 @@
           "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
           "youtube_id": "R2DDDEQ8ceI",
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
-        },
-        {
-          "title": "La propuesta",
-          "subtitle": "PELÍCULA • 2009 • 1h 48m",
-          "media_type": "PELÍCULA",
-          "year": "2009",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
-          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
-          "youtube_id": "rCs8skCWF98",
-          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
           "title": "Identidad desconocida",
@@ -780,16 +768,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
         },
         {
-          "title": "A la caza de espíritus malignos",
-          "subtitle": "SERIE • 2020 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2020",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
-          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
-          "youtube_id": "WnS2x0_hYgs",
-          "trailer_url": "https://www.youtube.com/watch?v=WnS2x0_hYgs"
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
           "title": "La guerra de los mundos",
@@ -802,11 +790,71 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
+          "title": "Los ángeles de Charlie",
+          "subtitle": "SERIE • 1976 • 5 Temporadas",
+          "media_type": "SERIE",
+          "year": "1976",
+          "extra_info": "5 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jxyI5V4LZ5rHDrXv7NpPh4EBCAo.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jJVfPCkCbXrGOWtzfm1bhQg3HBq.jpg",
+          "overview": "“Los Ángeles de Charlie” fue una serie de televisión estadounidense producida por Aaron Spelling, la cual se emitió por la cadena ABC desde septiembre de 1976 hasta junio de 1981, abarcando un total de cinco temporadas y 110 episodios.  La serie fue creada por Ivan Goff y Ben Roberts, y narraba las aventuras de tres mujeres que trabajaban en una agencia de investigaciones de Los Ángeles, California. Sus protagonistas iniciales fueron Kate Jackson, Farrah Fawcett-Majors y Jaclyn Smith, siendo secundadas por David Doyle, como un compañero de las tres detectives, y John Forsythe, que interpretaba la voz de su jefe, Charlie. Las adiciones posteriores al elenco incluyeron a Cheryl Ladd, quien ingresó en la segunda temporada, Shelley Hack, en la cuarta, y Tanya Roberts, en la quinta.",
+          "youtube_id": "YM6z08qrETo",
+          "trailer_url": "https://www.youtube.com/watch?v=YM6z08qrETo"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Bajo la superficie",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/mieCT53TaHGVVRdeq8Bx3VwtgIW.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "overview": "Cuando una misteriosa criatura marina aterroriza a un pueblo costero canadiense, un recio pescador y su familia luchan por proteger a su comunidad.",
+      "youtube_id": "fOpmBZOZGus",
+      "trailer_url": "https://www.youtube.com/watch?v=fOpmBZOZGus"
+    },
+    {
+      "title": "Sensatez y sentimientos",
+      "subtitle": "PELÍCULA • 1995 • 2h 16m",
+      "media_type": "PELÍCULA",
+      "year": "1995",
+      "extra_info": "2h 16m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/m9uBQtgUcFdY5hBWdTlgEypkcDq.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/cFnyfWHL6HjOOVal6lp8e5gqibK.jpg",
+      "overview": "La señora Dashwood, Elinor, Marianne y Margaret, son tres hermanas del segundo matrimonio del señor Dashwood. Cuando este muere, deja toda la herencia al hijo de su primer matrimonio. Las Dashwood, se quedan un corto tiempo en la que era su casa, donde conocen a Edward Ferrars, cuñado de su hermanastro del cual Elinor se enamora. Cuando se trasladan a una casa en el campo, Marianne se enamora de John Willoughby, que vive cerca de su nueva casa. Durante su estancia allí ella aprenderá a madurar acerca de los conceptos del amor.",
+      "youtube_id": "E8Xc0CHPy2E",
+      "trailer_url": "https://www.youtube.com/watch?v=E8Xc0CHPy2E"
+    },
+    {
+      "title": "Matchbox: La película",
+      "subtitle": "PELÍCULA • 2026 • 2h 7m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 7m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ev2GnYar3LUyui8sOu4gqeMXvLi.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+      "overview": "Cuando un grupo de antiguos amigos de la infancia reconecta, su reunión da un giro inesperado al descubrir un complot internacional y darse cuenta de que deben salvar al mundo.",
+      "youtube_id": "0FHKfPfj6-Q",
+      "trailer_url": "https://www.youtube.com/watch?v=0FHKfPfj6-Q"
+    },
+    {
+      "title": "American Hostage",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+      "overview": "Ambientada en la década de 1970, narra la desgarradora historia real de Fred Heckman, un querido reportero de radio de Indianápolis que se ve envuelto en una crisis de vida o muerte cuando el secuestrador Tony Kiritsis exige ser entrevistado en su popular programa de noticias de radio.",
+      "youtube_id": "Ff1fUwSD7Gc",
+      "trailer_url": "https://www.youtube.com/watch?v=Ff1fUwSD7Gc"
+    },
     {
       "title": "The Drop: Una saga de Snowfall",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -852,8 +900,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/qvX8vqc2NjxM3T5utEzezRVehlU.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
       "overview": "Desde que su novia desapareció hace siete años, la vida de Michael quedó en pausa; pero una receta mística en un viejo diario, promete revelar las respuestas que ha estado buscando.",
-      "youtube_id": "W7vdQWnaZts",
-      "trailer_url": "https://www.youtube.com/watch?v=W7vdQWnaZts"
+      "youtube_id": "wLKL8vK5PgA",
+      "trailer_url": "https://www.youtube.com/watch?v=wLKL8vK5PgA"
     },
     {
       "title": "Top Gun: Maverick",
@@ -1008,8 +1056,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/eLMHUOQ4mCMxePMbv0TIVB48zfe.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
       "overview": "Cuando le roban su revolucionario descubrimiento farmacéutico y asesinan a su compañero, la investigadora Amy debe enfrentarse a su miedo a las alturas para escapar de unos atacantes sin escrúpulos, siendo la única vía de salvación una traicionera pasarela aérea. Para burlar a sus misteriosos perseguidores, tendrá que reunir hasta la última pizca de valor para proteger el descubrimiento científico que cambiará el mundo, y a sí misma, antes de que sea demasiado tarde.",
-      "youtube_id": "RXw13WdC2nI",
-      "trailer_url": "https://www.youtube.com/watch?v=RXw13WdC2nI"
+      "youtube_id": "_3aJ887J3iY",
+      "trailer_url": "https://www.youtube.com/watch?v=_3aJ887J3iY"
     },
     {
       "title": "Cautiva",
@@ -1058,54 +1106,6 @@
       "overview": "A principios del siglo XX, una mujer fuerte e independiente abre una brecha entre dos hermanos... y marca el comienzo de una saga que se extenderá a la siguiente generación.",
       "youtube_id": "iIsty9bVCxA",
       "trailer_url": "https://www.youtube.com/watch?v=iIsty9bVCxA"
-    },
-    {
-      "title": "Caballos lentos",
-      "subtitle": "SERIE • 2022 • 6 Temporadas",
-      "media_type": "SERIE",
-      "year": "2022",
-      "extra_info": "6 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/jnbQWjyWxcCf6DaGQXC5AACHCYv.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
-      "overview": "Esta ingeniosa serie de espionaje sigue a un equipo disfuncional de agentes del MI5, y a su insoportable jefe, el famoso Jackson Lamb, mientras exploran el engañoso mundo del espionaje para defender a Inglaterra de perversos enemigos.",
-      "youtube_id": "lBE9aXCZY50",
-      "trailer_url": "https://www.youtube.com/watch?v=lBE9aXCZY50"
-    },
-    {
-      "title": "Las cartas de la vida",
-      "subtitle": "PELÍCULA • 2026 • 1h 52m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 52m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/oGZkPxg5NqALN7OJbm9DuPOIVEJ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
-      "overview": "Cuando Anika, una joven madre soltera que lucha por mantener unida a su familia, comienza a intercambiar cartas con Carousel, un recluso que cumple condena, su extraño vínculo a distancia se transforma en algo totalmente inesperado.",
-      "youtube_id": "Qer7mUsBAC0",
-      "trailer_url": "https://www.youtube.com/watch?v=Qer7mUsBAC0"
-    },
-    {
-      "title": "Verity: La sombra de un engaño",
-      "subtitle": "PELÍCULA • 2026 • 1h 54m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 54m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
-      "overview": "La escritora en apuros Lowen Ashleigh está al borde de la ruina financiera cuando acepta la oferta de su vida: ha sido contratada para completar los libros restantes de una exitosa serie que la autora de thrillers superventas, Verity Crawford, no puede terminar tras un misterioso accidente. Al llegar a la lujosa mansión de los Crawford, Ashleigh descubre poco a poco que las cosas no son exactamente lo que parecen.",
-      "youtube_id": "XRlERbC3Kks",
-      "trailer_url": "https://www.youtube.com/watch?v=XRlERbC3Kks"
-    },
-    {
-      "title": "Catedrales",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7LQKFR1iOlIZkbDLbhcLOBWfmXk.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/lXfOj4JcnyW0KdfMLrLTLegju5I.jpg",
-      "overview": "Una joven de 17 años es hallada quemada y descuartizada en un baldío de un barrio de clase media de Santiago de Chile. Por impericia policial el crimen queda impune hasta que treinta años más tarde la familia consigue organizar el rompecabezas del asesinato que les revela una relación prohibida y una cruel verdad.",
-      "youtube_id": "P6_kJLVZuJk",
-      "trailer_url": "https://www.youtube.com/watch?v=P6_kJLVZuJk"
     }
   ]
 }
