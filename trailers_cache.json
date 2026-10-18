@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Crystal Lake",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+          "overview": "Pam Voorhees, madre soltera, no ha podido superar el dolor tras la trágica muerte por ahogamiento de su hijo pequeño y enfermizo, Jason, en el lago del pueblo hace casi un año. Cuando dos desconocidos llegan a su casa indagando en su pasado, se desencadena una inquietante cadena de acontecimientos que deja a los habitantes de Crystal Lake preguntándose: ¿quién es realmente Pam Voorhees?",
+          "youtube_id": "EpF04oGqf9k",
+          "trailer_url": "https://www.youtube.com/watch?v=EpF04oGqf9k"
+        },
+        {
+          "title": "La casa de papel: De Tokio a Berlín",
+          "subtitle": "SERIE • 2021 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2021",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/lIa5eVVFdVNQmfAlKRexoJCVVd1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/gk1enrMtCVABqJd4ujVwIIeswTT.jpg",
+          "overview": "Los cineastas de La casa de papel y los intérpretes de personajes como Tokio y el Profesor hablan del proceso artístico y emocional que supone filmar esta serie.",
+          "youtube_id": "doEPatuzkQ8",
+          "trailer_url": "https://www.youtube.com/watch?v=doEPatuzkQ8"
+        },
+        {
+          "title": "Infierno en la tormenta",
+          "subtitle": "PELÍCULA • 2019 • 1h 28m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "1h 28m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/c7ks9Jd4wV9r52Hsv9l86Dqggzo.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lm4xH0YwFbVvTgdtau1thNK5S6J.jpg",
+          "overview": "Cuando un enorme huracán llega a su pueblo en Florida, Haley ignora las órdenes de evacuación para buscar a su padre. Tras encontrarle gravemente herido, ambos quedan atrapados por la inundación. Prácticamente sin tiempo para escapar de la tormenta que arrecia, Haley y su padre descubren que la subida del nivel del agua es el menor de sus problemas.",
+          "youtube_id": "5_MeTpr-e9A",
+          "trailer_url": "https://www.youtube.com/watch?v=5_MeTpr-e9A"
+        },
+        {
+          "title": "Lo dejamos acá",
+          "subtitle": "PELÍCULA • 2026 • 1h 37m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/fv9BAXOrPJXEhycgWF3Qb8aczqe.jpg",
+          "overview": "Un psicoanalista pragmático pierde la fe en los métodos habituales de la psicología y comienza a sobrepasar los límites con sus pacientes. Todo parece funcionar hasta que un escritor con un bloqueo creativo llega a su consulta.",
+          "youtube_id": "KAZ41DQpEfk",
+          "trailer_url": "https://www.youtube.com/watch?v=KAZ41DQpEfk"
+        },
+        {
           "title": "La Isla Del Tesoro",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -29,10 +77,10 @@
         },
         {
           "title": "Masterplan",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "subtitle": "PELÍCULA • 2026 • 1h 50m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 47m",
+          "extra_info": "1h 50m",
           "poster_url": "https://image.tmdb.org/t/p/w500/pLLvKhqTngUispTyDofvoEDKrxa.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
           "overview": "Cuando un ladrón legendario decide robarse la Mona Lisa, recluta a dos jóvenes desconocidos para que lo ayuden: Chiara, una experta cibercriminal italiana y Jay, un especialista en explosivos francés. Y luego les revela que es padre de ambos. Envueltos en una caótica reunión familiar, deben aprender a trabajar juntos sin matarse entre sí para lograr el robo del siglo.",
@@ -46,7 +94,7 @@
           "year": "2026",
           "extra_info": "2h 6m",
           "poster_url": "https://image.tmdb.org/t/p/w500/wqLaFFN8Qd88Y5QpfvKu82Kw5iD.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wUe0QbbPDU2BD3L2QnsZlAr55Je.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
           "overview": "Un hombre determinado realiza una hazaña desafiando probabilidades casi imposibles para cumplir su sueño de ser el primero en llegar a la cima del Monte Everest.",
           "youtube_id": "1y9P8Eax1LI",
           "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
@@ -254,54 +302,6 @@
           "overview": "Narra la desgarradora historia real de Fred Heckman, un querido reportero de radio de Indianápolis que se ve envuelto en una crisis de vida o muerte cuando el secuestrador Tony Kiritsis exige ser entrevistado en su popular programa de noticias de radio.",
           "youtube_id": "Ff1fUwSD7Gc",
           "trailer_url": "https://www.youtube.com/watch?v=Ff1fUwSD7Gc"
-        },
-        {
-          "title": "The Drop: Una saga de Snowfall",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/naCJhAWRtxBWBfMYdFpM5sPwczI.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
-          "overview": "En el Los Ángeles de los años 90, Wanda y Leon luchan por llevar el rap de la Costa Oeste al público general, mientras estallan guerras de pandillas y las discográficas se mueven para explotar la cultura del hip hop en su propio beneficio",
-          "youtube_id": "q3ZM2YRl-hw",
-          "trailer_url": "https://www.youtube.com/watch?v=q3ZM2YRl-hw"
-        },
-        {
-          "title": "El último desafío: K2 en invierno",
-          "subtitle": "PELÍCULA • 2026 • 1h 38m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/27W8kMU6xKasoZnocYaNxjfdgzs.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
-          "overview": "Una carrera histórica para llegar primero a la cumbre del K2 en invierno se vuelve tragedia, revelando que la ambición, el ego y la caza de gloria son peligrosos, como la montaña.",
-          "youtube_id": "6346LM7WxI0",
-          "trailer_url": "https://www.youtube.com/watch?v=6346LM7WxI0"
-        },
-        {
-          "title": "La chica de la limpieza",
-          "subtitle": "SERIE • 2022 • 4 Temporadas",
-          "media_type": "SERIE",
-          "year": "2022",
-          "extra_info": "4 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/Ai5AcuRhocHGaNZPAl0bBTpN7XN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/eVGaiNUPhwKyiuWH6LfNa60JFyQ.jpg",
-          "overview": "Thony De La Rosa, una doctora muy inteligente, llega a Estados Unidos para recibir tratamiento médico y salvar a su hijo enfermo. Pero cuando el sistema falla y la obliga a esconderse, se niega a que la derroten y la marginen. En cambio, se convierte en una mujer de la limpieza para la mafia y comienza a jugar con sus propias reglas.",
-          "youtube_id": "yusIxxVscUs",
-          "trailer_url": "https://www.youtube.com/watch?v=yusIxxVscUs"
-        },
-        {
-          "title": "Pequeños profetas",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qvX8vqc2NjxM3T5utEzezRVehlU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
-          "overview": "Desde que su novia desapareció hace siete años, la vida de Michael quedó en pausa; pero una receta mística en un viejo diario, promete revelar las respuestas que ha estado buscando.",
-          "youtube_id": "W7vdQWnaZts",
-          "trailer_url": "https://www.youtube.com/watch?v=W7vdQWnaZts"
         }
       ]
     },
@@ -329,8 +329,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
           "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
-          "youtube_id": "amKV7GKxlhk",
-          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
+          "youtube_id": "yg31IASaPZA",
+          "trailer_url": "https://www.youtube.com/watch?v=yg31IASaPZA"
         },
         {
           "title": "El cadáver de la novia",
@@ -357,28 +357,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         },
         {
-          "title": "La era de hielo 3",
-          "subtitle": "PELÍCULA • 2009 • 1h 34m",
+          "title": "Shrek 4: Para Siempre",
+          "subtitle": "PELÍCULA • 2010 • 1h 34m",
           "media_type": "PELÍCULA",
-          "year": "2009",
+          "year": "2010",
           "extra_info": "1h 34m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pKQAvnsf6eIL9EGEI2lAgvI94zQ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/6Ybbh8TrO8bkEfQXDedekLwVDfA.jpg",
-          "overview": "Cuando Sid intenta adoptar tres huevos de dinosaurio y la verdadera madre de estos lo secuestra y lo lleva a un mundo perdido bajo tierra, sus amigos intentan rescatarlo.",
-          "youtube_id": "wHhCZCdKZk8",
-          "trailer_url": "https://www.youtube.com/watch?v=wHhCZCdKZk8"
-        },
-        {
-          "title": "El increíble castillo vagabundo",
-          "subtitle": "PELÍCULA • 2004 • 2h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2004",
-          "extra_info": "2h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jtUejuD3XPNjPDYCfI3zhB86fRk.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
-          "overview": "Sophie es una joven de 18 años que trabaja sin descanso en la tienda de sombreros de la familia. En uno de sus frecuentes paseos conoce al enigmático mago Howl, lo que despierta la ira de la Bruja Calamidad, que odia a Howl con todas sus fuerzas. Cuando Sophie vuelve a la tienda, la Bruja se hace pasar por una clienta para acercarse a ella y lanzarle un hechizo… ¡que convierte a Sophie en una anciana de 90 años! Sophie, que no puede revelar su auténtica identidad, recurre a Howl para buscar una solución a su problema. Para ello se embarca en un viaje fantástico en el castillo ambulante del mago, habitado por personajes de lo más curiosos. Sophie necesita ayuda pero quizás sea Howl el que realmente está en apuros.",
-          "youtube_id": "BCDEOoNYW18",
-          "trailer_url": "https://www.youtube.com/watch?v=BCDEOoNYW18"
+          "poster_url": "https://image.tmdb.org/t/p/w500/3MyKXb1ozCfq61tPNKpIggwvP6J.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
+          "overview": "Rumpelstiltskin engaña a un Shrek agobiado por la crisis de la mediana edad para que se deje borrar de la existencia y sea trasladado a una oscura línea temporal alternativa en la que Rumpelstiltskin gobierna de forma suprema.",
+          "youtube_id": "xTAWc9JqgKA",
+          "trailer_url": "https://www.youtube.com/watch?v=xTAWc9JqgKA"
         },
         {
           "title": "La sustancia",
@@ -393,16 +381,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=LL7-o30o9ec"
         },
         {
-          "title": "Pecadores",
-          "subtitle": "PELÍCULA • 2025 • 2h 18m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 18m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jIVa5m9s7bKYdI0KH8wFw1qLxHl.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
-          "overview": "Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida.",
-          "youtube_id": "iXrfVpHKCnE",
-          "trailer_url": "https://www.youtube.com/watch?v=iXrfVpHKCnE"
+          "title": "The Loud House",
+          "subtitle": "SERIE • 2016 • 10 Temporadas",
+          "media_type": "SERIE",
+          "year": "2016",
+          "extra_info": "10 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/aT1gWS2ZLxi0eFlcywA4hNt8TN3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+          "overview": "Lincoln Loud, un niño de 11 años que vive en una casa con sus diez hermanas (cinco mayores y cinco menores) tiene que tratar de sobrevivir entre ellas ideando soluciones ingeniosas a los problemas y el gran caos que se vive en la casa de los Loud.",
+          "youtube_id": "R1zw_ysN2Wo",
+          "trailer_url": "https://www.youtube.com/watch?v=R1zw_ysN2Wo"
         },
         {
           "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
@@ -427,6 +415,18 @@
           "overview": "Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo.",
           "youtube_id": "uIaPDKA0-Y4",
           "trailer_url": "https://www.youtube.com/watch?v=uIaPDKA0-Y4"
+        },
+        {
+          "title": "El increíble castillo vagabundo",
+          "subtitle": "PELÍCULA • 2004 • 2h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2004",
+          "extra_info": "2h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jtUejuD3XPNjPDYCfI3zhB86fRk.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
+          "overview": "Sophie es una joven de 18 años que trabaja sin descanso en la tienda de sombreros de la familia. En uno de sus frecuentes paseos conoce al enigmático mago Howl, lo que despierta la ira de la Bruja Calamidad, que odia a Howl con todas sus fuerzas. Cuando Sophie vuelve a la tienda, la Bruja se hace pasar por una clienta para acercarse a ella y lanzarle un hechizo… ¡que convierte a Sophie en una anciana de 90 años! Sophie, que no puede revelar su auténtica identidad, recurre a Howl para buscar una solución a su problema. Para ello se embarca en un viaje fantástico en el castillo ambulante del mago, habitado por personajes de lo más curiosos. Sophie necesita ayuda pero quizás sea Howl el que realmente está en apuros.",
+          "youtube_id": "BCDEOoNYW18",
+          "trailer_url": "https://www.youtube.com/watch?v=BCDEOoNYW18"
         }
       ]
     },
@@ -494,18 +494,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=-kx9mj58vBU"
         },
         {
-          "title": "Avengers: Endgame",
-          "subtitle": "PELÍCULA • 2019 • 3h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "3h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
-          "youtube_id": "4WMuAEQ-LIA",
-          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
-        },
-        {
           "title": "El extraño mundo de Jack",
           "subtitle": "PELÍCULA • 1993 • 1h 19m",
           "media_type": "PELÍCULA",
@@ -518,16 +506,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
         },
         {
-          "title": "Star Wars: The Mandalorian and Grogu",
-          "subtitle": "PELÍCULA • 2026 • 2h 12m",
+          "title": "Avengers: Endgame",
+          "subtitle": "PELÍCULA • 2019 • 3h 0m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 12m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qWEGudNnHfEKp18IG1Wq1Qmp00l.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg",
-          "overview": "Continuación de la serie \"The Mandalorian\" en forma de película. El malvado Imperio ha caído y los señores de la guerra imperiales siguen dispersos por toda la galaxia. Mientras la incipiente Nueva República trabaja para proteger todo por lo que luchó la Rebelión, ha reclutado la ayuda del legendario cazarrecompensas mandaloriano Din Djarin (Pedro Pascal) y su joven aprendiz Grogu.",
-          "youtube_id": "z8rhB_nc0wM",
-          "trailer_url": "https://www.youtube.com/watch?v=z8rhB_nc0wM"
+          "year": "2019",
+          "extra_info": "3h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+          "youtube_id": "4WMuAEQ-LIA",
+          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
           "title": "El señor de los anillos: El retorno del rey",
@@ -540,6 +528,18 @@
           "overview": "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino.",
           "youtube_id": "h-9RYiqyqjk",
           "trailer_url": "https://www.youtube.com/watch?v=h-9RYiqyqjk"
+        },
+        {
+          "title": "IntensaMente 2",
+          "subtitle": "PELÍCULA • 2024 • 1h 37m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4HEJdpcmTGm3BWWic31G4aCnuC6.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+          "overview": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui.",
+          "youtube_id": "-kx9mj58vBU",
+          "trailer_url": "https://www.youtube.com/watch?v=-kx9mj58vBU"
         },
         {
           "title": "Star Wars: La Guerra de los Clones",
@@ -560,10 +560,10 @@
       "items": [
         {
           "title": "Masterplan",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "subtitle": "PELÍCULA • 2026 • 1h 50m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 47m",
+          "extra_info": "1h 50m",
           "poster_url": "https://image.tmdb.org/t/p/w500/pLLvKhqTngUispTyDofvoEDKrxa.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
           "overview": "Cuando un ladrón legendario decide robarse la Mona Lisa, recluta a dos jóvenes desconocidos para que lo ayuden: Chiara, una experta cibercriminal italiana y Jay, un especialista en explosivos francés. Y luego les revela que es padre de ambos. Envueltos en una caótica reunión familiar, deben aprender a trabajar juntos sin matarse entre sí para lograr el robo del siglo.",
@@ -595,16 +595,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
         },
         {
-          "title": "El amor de tu vida",
-          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nqeDR6qGU8mqguQHRkAUg2ySBZv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
-          "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
-          "youtube_id": "WJXzfFo_7FQ",
-          "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
           "title": "El Hobbit 3: La Batalla de Los Cinco Ejércitos",
@@ -619,16 +619,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=clRX9RXOb64"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "title": "El amor de tu vida",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+          "year": "2026",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nqeDR6qGU8mqguQHRkAUg2ySBZv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+          "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
+          "youtube_id": "WJXzfFo_7FQ",
+          "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
         },
         {
           "title": "Interestelar",
@@ -643,16 +643,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
-          "title": "Historias de miedo para contar en la oscuridad",
-          "subtitle": "PELÍCULA • 2019 • 1h 48m",
+          "title": "Culpa mía",
+          "subtitle": "PELÍCULA • 2023 • 1h 56m",
           "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/2o2thWyv4q1s5CLkc1ffxyVFkti.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/snll1zUi2oxIah9qifXOvbfjcrG.jpg",
-          "overview": "Mill Valley, Pennsylvania, noche de Halloween, 1968. Después de gastar una broma a un matón de la escuela, Sarah y sus amigos deciden colarse en una casa supuestamente embrujada que una vez perteneció a la poderosa familia Bellows, desatando fuerzas oscuras que no podrán controlar.",
-          "youtube_id": "99xoFv-F2jI",
-          "trailer_url": "https://www.youtube.com/watch?v=99xoFv-F2jI"
+          "year": "2023",
+          "extra_info": "1h 56m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/gp31EwMH5D2bftOjscwkgTmoLAB.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg",
+          "overview": "Noah debe dejar su ciudad, novio y amigos para mudarse a la mansión del nuevo marido de su madre. Allí conoce a su nuevo hermanastro Nick y sus personalidades chocan desde el primer momento. Pero la atracción que sienten les llevará a vivir una relación prohibida, donde el carácter rebelde y atormentado de cada uno de ellos pondrá del revés sus mundos haciendo que acaben perdidamente enamorados. Adaptación del primer libro de la trilogía \"Culpables\" de Mercedes Ron.",
+          "youtube_id": "1SqMjrE0J6E",
+          "trailer_url": "https://www.youtube.com/watch?v=1SqMjrE0J6E"
         },
         {
           "title": "La hipótesis del amor",
@@ -667,16 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=0Spma4tN8Go"
         },
         {
-          "title": "El código enigma",
-          "subtitle": "PELÍCULA • 2014 • 1h 54m",
+          "title": "Volver al Futuro",
+          "subtitle": "PELÍCULA • 1985 • 1h 57m",
           "media_type": "PELÍCULA",
-          "year": "2014",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ctgJSUcKEiWgOT9anDIetClLOKN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8FCHJ21JBQOgATY2WI8vwYAiXg8.jpg",
-          "overview": "Durante el invierno de 1952, las autoridades británicas entraron en el hogar del matemático, analista y héroe de guerra Alan Turing, con la intención de investigar la denuncia de un robo. Al final acabaron arrestando a Turing acusándole de “indecencia grave”, un cargo que le supondría una devastadora condena por una ofensa criminal, ser homosexual. Los oficiales no tenían ni idea de que en realidad estaban incriminando al pionero de la informática actual.  Liderando a un heterogéneo grupo de académicos, lingüistas, campeones de ajedrez y oficiales de inteligencia, se le conoce por haber descifrado el código de la inquebrantable máquina Enigma de los alemanes durante la Segunda Guerra Mundial.",
-          "youtube_id": "694Gt_c4X7w",
-          "trailer_url": "https://www.youtube.com/watch?v=694Gt_c4X7w"
+          "year": "1985",
+          "extra_info": "1h 57m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/acNRGwBz22E2m5OEWOhS8RiqiXM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
+          "overview": "El adolescente de los ochenta Marty McFly es enviado accidentalmente al pasado, a 1955, interrumpiendo sin darse cuenta el primer encuentro de sus padres y atrayendo el interés romántico de su madre. Marty debe reparar el daño a la historia reavivando el romance de sus padres y, con la ayuda de su excéntrico amigo inventor Doc Brown, regresar a 1985.",
+          "youtube_id": "GM6_MHRc4Xo",
+          "trailer_url": "https://www.youtube.com/watch?v=GM6_MHRc4Xo"
         }
       ]
     },
@@ -708,6 +708,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
+          "title": "Tenzing: Conquistando el Everest",
+          "subtitle": "PELÍCULA • 2026 • 2h 6m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 6m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wqLaFFN8Qd88Y5QpfvKu82Kw5iD.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+          "overview": "Un hombre determinado realiza una hazaña desafiando probabilidades casi imposibles para cumplir su sueño de ser el primero en llegar a la cima del Monte Everest.",
+          "youtube_id": "1y9P8Eax1LI",
+          "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
+        },
+        {
           "title": "Los asesinos de la luna",
           "subtitle": "PELÍCULA • 2023 • 3h 26m",
           "media_type": "PELÍCULA",
@@ -732,18 +744,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
-          "title": "Ready Player One: Comienza el juego",
-          "subtitle": "PELÍCULA • 2018 • 2h 20m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 20m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
-          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
-          "youtube_id": "R2DDDEQ8ceI",
-          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
-        },
-        {
           "title": "Spider-Man: Lejos de casa",
           "subtitle": "PELÍCULA • 2019 • 2h 9m",
           "media_type": "PELÍCULA",
@@ -754,6 +754,18 @@
           "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
           "youtube_id": "8MI5d5WXRvM",
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
+        },
+        {
+          "title": "Ready Player One: Comienza el juego",
+          "subtitle": "PELÍCULA • 2018 • 2h 20m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "2h 20m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
+          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
+          "youtube_id": "R2DDDEQ8ceI",
+          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
           "title": "La otra cara de la Luna",
@@ -768,18 +780,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=Oe5A0tdaORg"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
-        },
-        {
           "title": "El niño, el topo, el zorro y el caballo",
           "subtitle": "PELÍCULA • 2022 • 35m",
           "media_type": "PELÍCULA",
@@ -792,21 +792,69 @@
           "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
         },
         {
-          "title": "El conejo de peluche",
-          "subtitle": "PELÍCULA • 2023 • 44m",
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "44m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ma2EFJnZCkaBR6JHRmlk7CYntuC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/pTIny6C5BQYuvHJXmmxuociYcMw.jpg",
-          "overview": "Cuando al pequeño William le regalan un juguete nuevo en Navidad, conocerá a un amigo para toda la vida y abrirá paso a un mundo lleno de magia.",
-          "youtube_id": "w5yx4wcWMSI",
-          "trailer_url": "https://www.youtube.com/watch?v=w5yx4wcWMSI"
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Crystal Lake",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "overview": "Pam Voorhees, madre soltera, no ha podido superar el dolor tras la trágica muerte por ahogamiento de su hijo pequeño y enfermizo, Jason, en el lago del pueblo hace casi un año. Cuando dos desconocidos llegan a su casa indagando en su pasado, se desencadena una inquietante cadena de acontecimientos que deja a los habitantes de Crystal Lake preguntándose: ¿quién es realmente Pam Voorhees?",
+      "youtube_id": "EpF04oGqf9k",
+      "trailer_url": "https://www.youtube.com/watch?v=EpF04oGqf9k"
+    },
+    {
+      "title": "La casa de papel: De Tokio a Berlín",
+      "subtitle": "SERIE • 2021 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2021",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/lIa5eVVFdVNQmfAlKRexoJCVVd1.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/gk1enrMtCVABqJd4ujVwIIeswTT.jpg",
+      "overview": "Los cineastas de La casa de papel y los intérpretes de personajes como Tokio y el Profesor hablan del proceso artístico y emocional que supone filmar esta serie.",
+      "youtube_id": "doEPatuzkQ8",
+      "trailer_url": "https://www.youtube.com/watch?v=doEPatuzkQ8"
+    },
+    {
+      "title": "Infierno en la tormenta",
+      "subtitle": "PELÍCULA • 2019 • 1h 28m",
+      "media_type": "PELÍCULA",
+      "year": "2019",
+      "extra_info": "1h 28m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/c7ks9Jd4wV9r52Hsv9l86Dqggzo.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/lm4xH0YwFbVvTgdtau1thNK5S6J.jpg",
+      "overview": "Cuando un enorme huracán llega a su pueblo en Florida, Haley ignora las órdenes de evacuación para buscar a su padre. Tras encontrarle gravemente herido, ambos quedan atrapados por la inundación. Prácticamente sin tiempo para escapar de la tormenta que arrecia, Haley y su padre descubren que la subida del nivel del agua es el menor de sus problemas.",
+      "youtube_id": "5_MeTpr-e9A",
+      "trailer_url": "https://www.youtube.com/watch?v=5_MeTpr-e9A"
+    },
+    {
+      "title": "Lo dejamos acá",
+      "subtitle": "PELÍCULA • 2026 • 1h 37m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 37m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/fv9BAXOrPJXEhycgWF3Qb8aczqe.jpg",
+      "overview": "Un psicoanalista pragmático pierde la fe en los métodos habituales de la psicología y comienza a sobrepasar los límites con sus pacientes. Todo parece funcionar hasta que un escritor con un bloqueo creativo llega a su consulta.",
+      "youtube_id": "KAZ41DQpEfk",
+      "trailer_url": "https://www.youtube.com/watch?v=KAZ41DQpEfk"
+    },
     {
       "title": "La Isla Del Tesoro",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -833,10 +881,10 @@
     },
     {
       "title": "Masterplan",
-      "subtitle": "PELÍCULA • 2026 • 1h 47m",
+      "subtitle": "PELÍCULA • 2026 • 1h 50m",
       "media_type": "PELÍCULA",
       "year": "2026",
-      "extra_info": "1h 47m",
+      "extra_info": "1h 50m",
       "poster_url": "https://image.tmdb.org/t/p/w500/pLLvKhqTngUispTyDofvoEDKrxa.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
       "overview": "Cuando un ladrón legendario decide robarse la Mona Lisa, recluta a dos jóvenes desconocidos para que lo ayuden: Chiara, una experta cibercriminal italiana y Jay, un especialista en explosivos francés. Y luego les revela que es padre de ambos. Envueltos en una caótica reunión familiar, deben aprender a trabajar juntos sin matarse entre sí para lograr el robo del siglo.",
@@ -850,7 +898,7 @@
       "year": "2026",
       "extra_info": "2h 6m",
       "poster_url": "https://image.tmdb.org/t/p/w500/wqLaFFN8Qd88Y5QpfvKu82Kw5iD.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/wUe0QbbPDU2BD3L2QnsZlAr55Je.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
       "overview": "Un hombre determinado realiza una hazaña desafiando probabilidades casi imposibles para cumplir su sueño de ser el primero en llegar a la cima del Monte Everest.",
       "youtube_id": "1y9P8Eax1LI",
       "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
@@ -1058,54 +1106,6 @@
       "overview": "Narra la desgarradora historia real de Fred Heckman, un querido reportero de radio de Indianápolis que se ve envuelto en una crisis de vida o muerte cuando el secuestrador Tony Kiritsis exige ser entrevistado en su popular programa de noticias de radio.",
       "youtube_id": "Ff1fUwSD7Gc",
       "trailer_url": "https://www.youtube.com/watch?v=Ff1fUwSD7Gc"
-    },
-    {
-      "title": "The Drop: Una saga de Snowfall",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/naCJhAWRtxBWBfMYdFpM5sPwczI.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
-      "overview": "En el Los Ángeles de los años 90, Wanda y Leon luchan por llevar el rap de la Costa Oeste al público general, mientras estallan guerras de pandillas y las discográficas se mueven para explotar la cultura del hip hop en su propio beneficio",
-      "youtube_id": "q3ZM2YRl-hw",
-      "trailer_url": "https://www.youtube.com/watch?v=q3ZM2YRl-hw"
-    },
-    {
-      "title": "El último desafío: K2 en invierno",
-      "subtitle": "PELÍCULA • 2026 • 1h 38m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 38m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/27W8kMU6xKasoZnocYaNxjfdgzs.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
-      "overview": "Una carrera histórica para llegar primero a la cumbre del K2 en invierno se vuelve tragedia, revelando que la ambición, el ego y la caza de gloria son peligrosos, como la montaña.",
-      "youtube_id": "6346LM7WxI0",
-      "trailer_url": "https://www.youtube.com/watch?v=6346LM7WxI0"
-    },
-    {
-      "title": "La chica de la limpieza",
-      "subtitle": "SERIE • 2022 • 4 Temporadas",
-      "media_type": "SERIE",
-      "year": "2022",
-      "extra_info": "4 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/Ai5AcuRhocHGaNZPAl0bBTpN7XN.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/eVGaiNUPhwKyiuWH6LfNa60JFyQ.jpg",
-      "overview": "Thony De La Rosa, una doctora muy inteligente, llega a Estados Unidos para recibir tratamiento médico y salvar a su hijo enfermo. Pero cuando el sistema falla y la obliga a esconderse, se niega a que la derroten y la marginen. En cambio, se convierte en una mujer de la limpieza para la mafia y comienza a jugar con sus propias reglas.",
-      "youtube_id": "yusIxxVscUs",
-      "trailer_url": "https://www.youtube.com/watch?v=yusIxxVscUs"
-    },
-    {
-      "title": "Pequeños profetas",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/qvX8vqc2NjxM3T5utEzezRVehlU.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
-      "overview": "Desde que su novia desapareció hace siete años, la vida de Michael quedó en pausa; pero una receta mística en un viejo diario, promete revelar las respuestas que ha estado buscando.",
-      "youtube_id": "W7vdQWnaZts",
-      "trailer_url": "https://www.youtube.com/watch?v=W7vdQWnaZts"
     }
   ]
 }
