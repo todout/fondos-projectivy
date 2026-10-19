@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "La vida secreta de las esposas mormonas",
+          "subtitle": "SERIE • 2024 • 5 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "5 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nphj5Tz7gg92HEC624136eySMZd.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zkwyfIwqWnZbQiHL9oGU8iSNkLG.jpg",
+          "overview": "El escandaloso mundo de un grupo de mamás mormonas influencers implosiona cuando se ven atrapadas en medio de un escándalo sexual que acaba en los titulares internacionales. Ahora, su hermandad se ve sacudida hasta la médula. La fe, la amistad y la reputación están en juego.",
+          "youtube_id": "ZO6xpxZVbDI",
+          "trailer_url": "https://www.youtube.com/watch?v=ZO6xpxZVbDI"
+        },
+        {
+          "title": "The Rainmaker",
+          "subtitle": "SERIE • 2025 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2025",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/pvQt3LEajjXmpVZwrlypPcYY0yz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+          "overview": "La trama sigue a Rudy Baylor, un joven y recién graduado abogado que se enfrenta a un poderoso bufete para destapar una conspiración de negligencia médica tras la misteriosa muerte del hijo de su clienta.",
+          "youtube_id": "ryo-WDmW4MI",
+          "trailer_url": "https://www.youtube.com/watch?v=ryo-WDmW4MI"
+        },
+        {
+          "title": "Beekeeper: Sentencia de muerte",
+          "subtitle": "PELÍCULA • 2024 • 1h 46m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9X8EhbSpYrf6pGFGttWtVDAs9Hr.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/f0ACHVpV707zqu4etZrXnWNdSgL.jpg",
+          "overview": "La brutal campaña de venganza de un hombre adquiere dimensiones nacionales cuando se descubre que es un antiguo agente de una poderosa organización clandestina conocida como \"Los apicultores\".",
+          "youtube_id": "y01FaRAlmsE",
+          "trailer_url": "https://www.youtube.com/watch?v=y01FaRAlmsE"
+        },
+        {
+          "title": "Haciendo amigos",
+          "subtitle": "PELÍCULA • 2026 • 1h 50m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 50m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/aOEKqiRldd6pvNNopdDUsMfnlmJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/rR0PEHlQU7pZEKxV1E9JYk7copr.jpg",
+          "overview": "Antonio y Félix son una pareja de atracadores de poca monta que, huyendo de la policía tras atracar una joyería, se cruzan con Eva, monitora de un grupo de teatro formado por personas con discapacidad, que confunde a Félix con Ángel, un nuevo miembro del grupo al cual no conoce y al que están esperando. Aprovechando la confusión, Félix y Antonio consiguen escabullirse. Sin saber que les espera un retiro creativo de una semana con el entrañable grupo.",
+          "youtube_id": "oFwkHXO1MmQ",
+          "trailer_url": "https://www.youtube.com/watch?v=oFwkHXO1MmQ"
+        },
+        {
           "title": "Crystal Lake",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -28,16 +76,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=doEPatuzkQ8"
         },
         {
-          "title": "Infierno en la tormenta",
-          "subtitle": "PELÍCULA • 2019 • 1h 28m",
+          "title": "La Tormenta",
+          "subtitle": "PELÍCULA • 2026 • 1h 41m",
           "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "1h 28m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/c7ks9Jd4wV9r52Hsv9l86Dqggzo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lm4xH0YwFbVvTgdtau1thNK5S6J.jpg",
-          "overview": "Cuando un enorme huracán llega a su pueblo en Florida, Haley ignora las órdenes de evacuación para buscar a su padre. Tras encontrarle gravemente herido, ambos quedan atrapados por la inundación. Prácticamente sin tiempo para escapar de la tormenta que arrecia, Haley y su padre descubren que la subida del nivel del agua es el menor de sus problemas.",
-          "youtube_id": "5_MeTpr-e9A",
-          "trailer_url": "https://www.youtube.com/watch?v=5_MeTpr-e9A"
+          "year": "2026",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7hzCmg7a8nb2K3VQtm36E1YehnH.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
+          "overview": "Cuando una tormenta atrapa a viejos amigos universitarios en un hotel de lujo, su fiesta de cumpleaños civilizada se convierte en un ciclón de traiciones, rencores y caos sin filtros.",
+          "youtube_id": "jzT5yOOQTA8",
+          "trailer_url": "https://www.youtube.com/watch?v=jzT5yOOQTA8"
         },
         {
           "title": "Lo dejamos acá",
@@ -108,8 +156,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/rN6pM9msiS8IZr782o9aWr6WBJO.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/69XNjGvcopgPz9Hte0ny1Swk2vW.jpg",
           "overview": "La exitosa escritora Lisa Konrad no ha salido de casa desde que presenció el asesinato de su hermana Anna, hace casi diez años. Pero al creer ver al asesino en televisión, se propone tenderle una trampa utilizándose a sí misma como cebo.",
-          "youtube_id": "8yuKiUEhbm8",
-          "trailer_url": "https://www.youtube.com/watch?v=8yuKiUEhbm8"
+          "youtube_id": "Txj031hNJIA",
+          "trailer_url": "https://www.youtube.com/watch?v=Txj031hNJIA"
         },
         {
           "title": "Las largas sombras",
@@ -254,54 +302,6 @@
           "overview": "Archie, el perdedor oficial de su escuela, es mordido por un zombi, desencadenando una divertida y caótica misión para salvar la ciudad de Mendoza del apocalipsis.",
           "youtube_id": "YjvD-hcVgNk",
           "trailer_url": "https://www.youtube.com/watch?v=YjvD-hcVgNk"
-        },
-        {
-          "title": "Bajo la superficie",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mieCT53TaHGVVRdeq8Bx3VwtgIW.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-          "overview": "Cuando una misteriosa criatura marina aterroriza a un pueblo costero canadiense, un recio pescador y su familia luchan por proteger a su comunidad.",
-          "youtube_id": "QWKZUHewy1k",
-          "trailer_url": "https://www.youtube.com/watch?v=QWKZUHewy1k"
-        },
-        {
-          "title": "Sensatez y sentimiento",
-          "subtitle": "PELÍCULA • 2026 • 2h 12m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 12m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
-          "overview": "Una nueva visión de la icónica novela de Jane Austen con una historia encantadora, ingeniosa y profundamente conmovedora sobre el amor y la hermandad.",
-          "youtube_id": "5i4_ceVDUqg",
-          "trailer_url": "https://www.youtube.com/watch?v=5i4_ceVDUqg"
-        },
-        {
-          "title": "Matchbox: La película",
-          "subtitle": "PELÍCULA • 2026 • 2h 7m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 7m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ev2GnYar3LUyui8sOu4gqeMXvLi.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-          "overview": "Cuando un grupo de antiguos amigos de la infancia reconecta, su reunión da un giro inesperado al descubrir un complot internacional y darse cuenta de que deben salvar al mundo.",
-          "youtube_id": "0FHKfPfj6-Q",
-          "trailer_url": "https://www.youtube.com/watch?v=0FHKfPfj6-Q"
-        },
-        {
-          "title": "American Hostage",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
-          "overview": "Narra la desgarradora historia real de Fred Heckman, un querido reportero de radio de Indianápolis que se ve envuelto en una crisis de vida o muerte cuando el secuestrador Tony Kiritsis exige ser entrevistado en su popular programa de noticias de radio.",
-          "youtube_id": "Ff1fUwSD7Gc",
-          "trailer_url": "https://www.youtube.com/watch?v=Ff1fUwSD7Gc"
         }
       ]
     },
@@ -357,18 +357,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         },
         {
-          "title": "Shrek 4: Para Siempre",
-          "subtitle": "PELÍCULA • 2010 • 1h 34m",
-          "media_type": "PELÍCULA",
-          "year": "2010",
-          "extra_info": "1h 34m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3MyKXb1ozCfq61tPNKpIggwvP6J.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
-          "overview": "Rumpelstiltskin engaña a un Shrek agobiado por la crisis de la mediana edad para que se deje borrar de la existencia y sea trasladado a una oscura línea temporal alternativa en la que Rumpelstiltskin gobierna de forma suprema.",
-          "youtube_id": "xTAWc9JqgKA",
-          "trailer_url": "https://www.youtube.com/watch?v=xTAWc9JqgKA"
-        },
-        {
           "title": "La sustancia",
           "subtitle": "PELÍCULA • 2024 • 2h 21m",
           "media_type": "PELÍCULA",
@@ -381,40 +369,52 @@
           "trailer_url": "https://www.youtube.com/watch?v=LL7-o30o9ec"
         },
         {
-          "title": "The Loud House",
-          "subtitle": "SERIE • 2016 • 10 Temporadas",
-          "media_type": "SERIE",
-          "year": "2016",
-          "extra_info": "10 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/aT1gWS2ZLxi0eFlcywA4hNt8TN3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
-          "overview": "Lincoln Loud, un niño de 11 años que vive en una casa con sus diez hermanas (cinco mayores y cinco menores) tiene que tratar de sobrevivir entre ellas ideando soluciones ingeniosas a los problemas y el gran caos que se vive en la casa de los Loud.",
-          "youtube_id": "R1zw_ysN2Wo",
-          "trailer_url": "https://www.youtube.com/watch?v=R1zw_ysN2Wo"
+          "title": "Sueño de fuga",
+          "subtitle": "PELÍCULA • 1994 • 2h 23m",
+          "media_type": "PELÍCULA",
+          "year": "1994",
+          "extra_info": "2h 23m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+          "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
+          "youtube_id": "4u87tmlj4oE",
+          "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "title": "Shrek 4: Para Siempre",
+          "subtitle": "PELÍCULA • 2010 • 1h 34m",
+          "media_type": "PELÍCULA",
+          "year": "2010",
+          "extra_info": "1h 34m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3MyKXb1ozCfq61tPNKpIggwvP6J.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
+          "overview": "Rumpelstiltskin engaña a un Shrek agobiado por la crisis de la mediana edad para que se deje borrar de la existencia y sea trasladado a una oscura línea temporal alternativa en la que Rumpelstiltskin gobierna de forma suprema.",
+          "youtube_id": "xTAWc9JqgKA",
+          "trailer_url": "https://www.youtube.com/watch?v=xTAWc9JqgKA"
+        },
+        {
+          "title": "Una película de Minecraft",
+          "subtitle": "PELÍCULA • 2025 • 1h 41m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/rZYYmjgyF5UP1AVsvhzzDOFLCwG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+          "overview": "Henry, Natalie, Dawn y Garrett, cuatro inadaptados, son arrastrados a un misterioso portal hacia el extraño y cúbico mundo principal. Para volver a casa, tendrán que dominar este mundo con la ayuda de un artesano inesperado y experto llamado, Steve, mientras se embarcan en una búsqueda mágica.",
+          "youtube_id": "9-wyLkpNEzY",
+          "trailer_url": "https://www.youtube.com/watch?v=9-wyLkpNEzY"
         },
         {
-          "title": "La captura",
-          "subtitle": "PELÍCULA • 2026 • 1h 31m",
+          "title": "La Tormenta",
+          "subtitle": "PELÍCULA • 2026 • 1h 41m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-          "overview": "Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo.",
-          "youtube_id": "uIaPDKA0-Y4",
-          "trailer_url": "https://www.youtube.com/watch?v=uIaPDKA0-Y4"
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7hzCmg7a8nb2K3VQtm36E1YehnH.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
+          "overview": "Cuando una tormenta atrapa a viejos amigos universitarios en un hotel de lujo, su fiesta de cumpleaños civilizada se convierte en un ciclón de traiciones, rencores y caos sin filtros.",
+          "youtube_id": "jzT5yOOQTA8",
+          "trailer_url": "https://www.youtube.com/watch?v=jzT5yOOQTA8"
         },
         {
           "title": "El increíble castillo vagabundo",
@@ -482,18 +482,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
-          "title": "IntensaMente 2",
-          "subtitle": "PELÍCULA • 2024 • 1h 37m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4HEJdpcmTGm3BWWic31G4aCnuC6.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-          "overview": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui.",
-          "youtube_id": "-kx9mj58vBU",
-          "trailer_url": "https://www.youtube.com/watch?v=-kx9mj58vBU"
-        },
-        {
           "title": "El extraño mundo de Jack",
           "subtitle": "PELÍCULA • 1993 • 1h 19m",
           "media_type": "PELÍCULA",
@@ -504,6 +492,18 @@
           "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
           "youtube_id": "ldyfHSG7C68",
           "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
+        },
+        {
+          "title": "IntensaMente 2",
+          "subtitle": "PELÍCULA • 2024 • 1h 37m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4HEJdpcmTGm3BWWic31G4aCnuC6.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+          "overview": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui.",
+          "youtube_id": "-kx9mj58vBU",
+          "trailer_url": "https://www.youtube.com/watch?v=-kx9mj58vBU"
         },
         {
           "title": "Avengers: Endgame",
@@ -518,40 +518,40 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "El señor de los anillos: El retorno del rey",
-          "subtitle": "PELÍCULA • 2003 • 3h 22m",
+          "title": "Star Wars: The Mandalorian and Grogu",
+          "subtitle": "PELÍCULA • 2026 • 2h 12m",
           "media_type": "PELÍCULA",
-          "year": "2003",
-          "extra_info": "3h 22m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vvxufoFLVxdA8JoCqjUGjHlTs5V.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
-          "overview": "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino.",
-          "youtube_id": "h-9RYiqyqjk",
-          "trailer_url": "https://www.youtube.com/watch?v=h-9RYiqyqjk"
+          "year": "2026",
+          "extra_info": "2h 12m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qWEGudNnHfEKp18IG1Wq1Qmp00l.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg",
+          "overview": "Continuación de la serie \"The Mandalorian\" en forma de película. El malvado Imperio ha caído y los señores de la guerra imperiales siguen dispersos por toda la galaxia. Mientras la incipiente Nueva República trabaja para proteger todo por lo que luchó la Rebelión, ha reclutado la ayuda del legendario cazarrecompensas mandaloriano Din Djarin (Pedro Pascal) y su joven aprendiz Grogu.",
+          "youtube_id": "z8rhB_nc0wM",
+          "trailer_url": "https://www.youtube.com/watch?v=z8rhB_nc0wM"
         },
         {
-          "title": "IntensaMente 2",
-          "subtitle": "PELÍCULA • 2024 • 1h 37m",
+          "title": "Intensa-Mente",
+          "subtitle": "PELÍCULA • 2015 • 1h 35m",
           "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4HEJdpcmTGm3BWWic31G4aCnuC6.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-          "overview": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui.",
-          "youtube_id": "-kx9mj58vBU",
-          "trailer_url": "https://www.youtube.com/watch?v=-kx9mj58vBU"
+          "year": "2015",
+          "extra_info": "1h 35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ewEX6VcVohyrQ52usZb1XovN1Bj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
+          "overview": "Riley es una chica que disfruta o padece toda clase de sentimientos. Aunque su vida ha estado marcada por la Alegría, también se ve afectada por otro tipo de emociones. Lo que Riley no entiende muy bien es por qué motivo tiene que existir la Tristeza en su vida. Una serie de acontecimientos hacen que Alegría y Tristeza se mezclen en una peligrosa aventura que dará un vuelco al mundo de Riley.",
+          "youtube_id": "_DTnvFdFW14",
+          "trailer_url": "https://www.youtube.com/watch?v=_DTnvFdFW14"
         },
         {
-          "title": "Star Wars: La Guerra de los Clones",
-          "subtitle": "SERIE • 2008 • 7 Temporadas",
-          "media_type": "SERIE",
-          "year": "2008",
-          "extra_info": "7 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/jAbECCJ8n7Rr25p2Y7MXPGMdoSR.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
-          "overview": "La escasa tropa Jedi lucha por mantener la libertad y devolver la paz a la Galaxia frente al aparentemente interminable ejército droide, clones diseñados genéticamente. A través de cientos de planetas, los Caballeros Jedi y los Separatistas combaten por el futuro de la Galaxia, pero el número de planetas que van cayendo en manos del Lado Oscuro cada vez es mayor a causa de los movimientos de los Separatistas. El terrible conflicto se agrava porque nuestros héroes se ven absorbidos por la confusión de guerra, mientras el Conde Dooku, el asesino Asajj Ventress, su maestro Darth Sidious, el General Grievous y una amplia galería de enemigos nunca antes visto también conspiran y se unen para derrotarlos.",
-          "youtube_id": "3CJUjxfQagA",
-          "trailer_url": "https://www.youtube.com/watch?v=3CJUjxfQagA"
+          "title": "Coco",
+          "subtitle": "PELÍCULA • 2017 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2017",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
+          "youtube_id": "_xwBcT8iBEg",
+          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
         }
       ]
     },
@@ -583,18 +583,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
         },
         {
-          "title": "Robot salvaje",
-          "subtitle": "PELÍCULA • 2024 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cYMihyFZreVBn8x6KnyPY4ea0HX.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
-          "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
-          "youtube_id": "1qq06A0Q4C8",
-          "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
-        },
-        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -605,18 +593,6 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
-        },
-        {
-          "title": "El Hobbit 3: La Batalla de Los Cinco Ejércitos",
-          "subtitle": "PELÍCULA",
-          "media_type": "PELÍCULA",
-          "year": "",
-          "extra_info": "",
-          "poster_url": "",
-          "backdrop_url": "",
-          "overview": "",
-          "youtube_id": "clRX9RXOb64",
-          "trailer_url": "https://www.youtube.com/watch?v=clRX9RXOb64"
         },
         {
           "title": "El amor de tu vida",
@@ -631,6 +607,30 @@
           "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
         },
         {
+          "title": "Robot salvaje",
+          "subtitle": "PELÍCULA • 2024 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/o1EdwGuxnVuj4kwm47Zmom64h3G.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
+          "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
+          "youtube_id": "1qq06A0Q4C8",
+          "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
+        },
+        {
+          "title": "El Hobbit 3: La batalla de los Cinco Ejércitos",
+          "subtitle": "PELÍCULA",
+          "media_type": "PELÍCULA",
+          "year": "",
+          "extra_info": "",
+          "poster_url": "",
+          "backdrop_url": "",
+          "overview": "",
+          "youtube_id": "ZlOwYNS7-ec",
+          "trailer_url": "https://www.youtube.com/watch?v=ZlOwYNS7-ec"
+        },
+        {
           "title": "Interestelar",
           "subtitle": "PELÍCULA • 2014 • 2h 49m",
           "media_type": "PELÍCULA",
@@ -643,16 +643,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
-          "title": "Culpa mía",
-          "subtitle": "PELÍCULA • 2023 • 1h 56m",
+          "title": "Beekeeper: Sentencia de muerte",
+          "subtitle": "PELÍCULA • 2024 • 1h 46m",
           "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "1h 56m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/gp31EwMH5D2bftOjscwkgTmoLAB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg",
-          "overview": "Noah debe dejar su ciudad, novio y amigos para mudarse a la mansión del nuevo marido de su madre. Allí conoce a su nuevo hermanastro Nick y sus personalidades chocan desde el primer momento. Pero la atracción que sienten les llevará a vivir una relación prohibida, donde el carácter rebelde y atormentado de cada uno de ellos pondrá del revés sus mundos haciendo que acaben perdidamente enamorados. Adaptación del primer libro de la trilogía \"Culpables\" de Mercedes Ron.",
-          "youtube_id": "1SqMjrE0J6E",
-          "trailer_url": "https://www.youtube.com/watch?v=1SqMjrE0J6E"
+          "year": "2024",
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9X8EhbSpYrf6pGFGttWtVDAs9Hr.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/f0ACHVpV707zqu4etZrXnWNdSgL.jpg",
+          "overview": "La brutal campaña de venganza de un hombre adquiere dimensiones nacionales cuando se descubre que es un antiguo agente de una poderosa organización clandestina conocida como \"Los apicultores\".",
+          "youtube_id": "y01FaRAlmsE",
+          "trailer_url": "https://www.youtube.com/watch?v=y01FaRAlmsE"
+        },
+        {
+          "title": "Un oscuro secreto",
+          "subtitle": "PELÍCULA • 2025 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fDYJh4EYnTevFe9eHOTlSBTeqpj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yGH7ke2rbeSI4IZx90UzIrMlWLq.jpg",
+          "overview": "Samantha es invitada al mundo glamuroso de Zoe Shannon, CEO de la empresa de bienestar SHELL. Cuando los pacientes de SHELL comienzan a desaparecer, Samantha se da cuenta de que Zoe podría estar ocultando un oscuro secreto.",
+          "youtube_id": "gkdLfTx2BRo",
+          "trailer_url": "https://www.youtube.com/watch?v=gkdLfTx2BRo"
         },
         {
           "title": "La hipótesis del amor",
@@ -665,18 +677,6 @@
           "overview": "Basada en el éxito del New York Times, La hipótesis del amor sigue a Olive, una estudiante de doctorado que besa por impulso al profesor más intimidante del departamento, Adam Carlsen. Ambos necesitan fingir que están en una relación y comienzan un experimento de química que podría resultar en amor.",
           "youtube_id": "0Spma4tN8Go",
           "trailer_url": "https://www.youtube.com/watch?v=0Spma4tN8Go"
-        },
-        {
-          "title": "Volver al Futuro",
-          "subtitle": "PELÍCULA • 1985 • 1h 57m",
-          "media_type": "PELÍCULA",
-          "year": "1985",
-          "extra_info": "1h 57m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/acNRGwBz22E2m5OEWOhS8RiqiXM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
-          "overview": "El adolescente de los ochenta Marty McFly es enviado accidentalmente al pasado, a 1955, interrumpiendo sin darse cuenta el primer encuentro de sus padres y atrayendo el interés romántico de su madre. Marty debe reparar el daño a la historia reavivando el romance de sus padres y, con la ayuda de su excéntrico amigo inventor Doc Brown, regresar a 1985.",
-          "youtube_id": "GM6_MHRc4Xo",
-          "trailer_url": "https://www.youtube.com/watch?v=GM6_MHRc4Xo"
         }
       ]
     },
@@ -696,18 +696,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=0FHKfPfj6-Q"
         },
         {
-          "title": "F1 la película",
-          "subtitle": "PELÍCULA • 2025 • 2h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
-          "overview": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.",
-          "youtube_id": "NzbdHV0fPNg",
-          "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
-        },
-        {
           "title": "Tenzing: Conquistando el Everest",
           "subtitle": "PELÍCULA • 2026 • 2h 6m",
           "media_type": "PELÍCULA",
@@ -718,6 +706,18 @@
           "overview": "Un hombre determinado realiza una hazaña desafiando probabilidades casi imposibles para cumplir su sueño de ser el primero en llegar a la cima del Monte Everest.",
           "youtube_id": "1y9P8Eax1LI",
           "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
+        },
+        {
+          "title": "F1 la película",
+          "subtitle": "PELÍCULA • 2025 • 2h 36m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
+          "overview": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.",
+          "youtube_id": "NzbdHV0fPNg",
+          "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
           "title": "Los asesinos de la luna",
@@ -732,30 +732,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
-          "title": "El abismo secreto",
-          "subtitle": "PELÍCULA • 2025 • 2h 8m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
-          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
-          "youtube_id": "3QbfHIKyd4I",
-          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
-        },
-        {
-          "title": "Spider-Man: Lejos de casa",
-          "subtitle": "PELÍCULA • 2019 • 2h 9m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 9m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/x4Ldcddhk8jzn3nqeODA8lHNw9M.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-          "youtube_id": "8MI5d5WXRvM",
-          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
-        },
-        {
           "title": "Ready Player One: Comienza el juego",
           "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
@@ -768,16 +744,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
-          "title": "La otra cara de la Luna",
-          "subtitle": "PELÍCULA • 2024 • 2h 12m",
+          "title": "El abismo secreto",
+          "subtitle": "PELÍCULA • 2025 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "2h 12m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/a4ExqpqbUypBg4dHlF77wda3dxh.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4ItXEyVPj6wb9AdhsltcqYE6f5f.jpg",
-          "overview": "Kelly Jones causa estragos en la tarea del director de lanzamientos Cole Davis. Cuando la Casa Blanca considera que la misión es demasiado importante para fracasar, Jones recibe la orden de organizar un falso alunizaje como refuerzo.",
-          "youtube_id": "Oe5A0tdaORg",
-          "trailer_url": "https://www.youtube.com/watch?v=Oe5A0tdaORg"
+          "year": "2025",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
+          "youtube_id": "3QbfHIKyd4I",
+          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
           "title": "El niño, el topo, el zorro y el caballo",
@@ -792,21 +768,93 @@
           "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "title": "Spider-Man: Lejos de casa",
+          "subtitle": "PELÍCULA • 2019 • 2h 9m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "2h 9m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/x4Ldcddhk8jzn3nqeODA8lHNw9M.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
+          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+          "youtube_id": "8MI5d5WXRvM",
+          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
+        },
+        {
+          "title": "La otra cara de la Luna",
+          "subtitle": "PELÍCULA • 2024 • 2h 12m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "2h 12m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/a4ExqpqbUypBg4dHlF77wda3dxh.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4ItXEyVPj6wb9AdhsltcqYE6f5f.jpg",
+          "overview": "Kelly Jones causa estragos en la tarea del director de lanzamientos Cole Davis. Cuando la Casa Blanca considera que la misión es demasiado importante para fracasar, Jones recibe la orden de organizar un falso alunizaje como refuerzo.",
+          "youtube_id": "Oe5A0tdaORg",
+          "trailer_url": "https://www.youtube.com/watch?v=Oe5A0tdaORg"
+        },
+        {
+          "title": "Plan familiar 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 46m",
           "media_type": "PELÍCULA",
           "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+          "extra_info": "1h 46m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/guYWtcg2FXkRHvlUg7VKz4srO3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hXc9jZuIfJ3lCrKJsZVwJM4anRf.jpg",
+          "overview": "Los días de asesino de Dan quedaron atrás, ahora solo quiere tener tiempo de calidad con sus hijos para Navidad. Pero se entera de que su hija tiene sus propios planes, un viaje familiar a Londres, eso los pone en la mira de un enemigo inesperado.",
+          "youtube_id": "3WoEPRpdTIU",
+          "trailer_url": "https://www.youtube.com/watch?v=3WoEPRpdTIU"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "La vida secreta de las esposas mormonas",
+      "subtitle": "SERIE • 2024 • 5 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "5 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/nphj5Tz7gg92HEC624136eySMZd.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/zkwyfIwqWnZbQiHL9oGU8iSNkLG.jpg",
+      "overview": "El escandaloso mundo de un grupo de mamás mormonas influencers implosiona cuando se ven atrapadas en medio de un escándalo sexual que acaba en los titulares internacionales. Ahora, su hermandad se ve sacudida hasta la médula. La fe, la amistad y la reputación están en juego.",
+      "youtube_id": "ZO6xpxZVbDI",
+      "trailer_url": "https://www.youtube.com/watch?v=ZO6xpxZVbDI"
+    },
+    {
+      "title": "The Rainmaker",
+      "subtitle": "SERIE • 2025 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2025",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/pvQt3LEajjXmpVZwrlypPcYY0yz.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+      "overview": "La trama sigue a Rudy Baylor, un joven y recién graduado abogado que se enfrenta a un poderoso bufete para destapar una conspiración de negligencia médica tras la misteriosa muerte del hijo de su clienta.",
+      "youtube_id": "ryo-WDmW4MI",
+      "trailer_url": "https://www.youtube.com/watch?v=ryo-WDmW4MI"
+    },
+    {
+      "title": "Beekeeper: Sentencia de muerte",
+      "subtitle": "PELÍCULA • 2024 • 1h 46m",
+      "media_type": "PELÍCULA",
+      "year": "2024",
+      "extra_info": "1h 46m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/9X8EhbSpYrf6pGFGttWtVDAs9Hr.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/f0ACHVpV707zqu4etZrXnWNdSgL.jpg",
+      "overview": "La brutal campaña de venganza de un hombre adquiere dimensiones nacionales cuando se descubre que es un antiguo agente de una poderosa organización clandestina conocida como \"Los apicultores\".",
+      "youtube_id": "y01FaRAlmsE",
+      "trailer_url": "https://www.youtube.com/watch?v=y01FaRAlmsE"
+    },
+    {
+      "title": "Haciendo amigos",
+      "subtitle": "PELÍCULA • 2026 • 1h 50m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 50m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/aOEKqiRldd6pvNNopdDUsMfnlmJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/rR0PEHlQU7pZEKxV1E9JYk7copr.jpg",
+      "overview": "Antonio y Félix son una pareja de atracadores de poca monta que, huyendo de la policía tras atracar una joyería, se cruzan con Eva, monitora de un grupo de teatro formado por personas con discapacidad, que confunde a Félix con Ángel, un nuevo miembro del grupo al cual no conoce y al que están esperando. Aprovechando la confusión, Félix y Antonio consiguen escabullirse. Sin saber que les espera un retiro creativo de una semana con el entrañable grupo.",
+      "youtube_id": "oFwkHXO1MmQ",
+      "trailer_url": "https://www.youtube.com/watch?v=oFwkHXO1MmQ"
+    },
     {
       "title": "Crystal Lake",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -832,16 +880,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=doEPatuzkQ8"
     },
     {
-      "title": "Infierno en la tormenta",
-      "subtitle": "PELÍCULA • 2019 • 1h 28m",
+      "title": "La Tormenta",
+      "subtitle": "PELÍCULA • 2026 • 1h 41m",
       "media_type": "PELÍCULA",
-      "year": "2019",
-      "extra_info": "1h 28m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/c7ks9Jd4wV9r52Hsv9l86Dqggzo.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/lm4xH0YwFbVvTgdtau1thNK5S6J.jpg",
-      "overview": "Cuando un enorme huracán llega a su pueblo en Florida, Haley ignora las órdenes de evacuación para buscar a su padre. Tras encontrarle gravemente herido, ambos quedan atrapados por la inundación. Prácticamente sin tiempo para escapar de la tormenta que arrecia, Haley y su padre descubren que la subida del nivel del agua es el menor de sus problemas.",
-      "youtube_id": "5_MeTpr-e9A",
-      "trailer_url": "https://www.youtube.com/watch?v=5_MeTpr-e9A"
+      "year": "2026",
+      "extra_info": "1h 41m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7hzCmg7a8nb2K3VQtm36E1YehnH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
+      "overview": "Cuando una tormenta atrapa a viejos amigos universitarios en un hotel de lujo, su fiesta de cumpleaños civilizada se convierte en un ciclón de traiciones, rencores y caos sin filtros.",
+      "youtube_id": "jzT5yOOQTA8",
+      "trailer_url": "https://www.youtube.com/watch?v=jzT5yOOQTA8"
     },
     {
       "title": "Lo dejamos acá",
@@ -912,8 +960,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/rN6pM9msiS8IZr782o9aWr6WBJO.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/69XNjGvcopgPz9Hte0ny1Swk2vW.jpg",
       "overview": "La exitosa escritora Lisa Konrad no ha salido de casa desde que presenció el asesinato de su hermana Anna, hace casi diez años. Pero al creer ver al asesino en televisión, se propone tenderle una trampa utilizándose a sí misma como cebo.",
-      "youtube_id": "8yuKiUEhbm8",
-      "trailer_url": "https://www.youtube.com/watch?v=8yuKiUEhbm8"
+      "youtube_id": "Txj031hNJIA",
+      "trailer_url": "https://www.youtube.com/watch?v=Txj031hNJIA"
     },
     {
       "title": "Las largas sombras",
@@ -1058,54 +1106,6 @@
       "overview": "Archie, el perdedor oficial de su escuela, es mordido por un zombi, desencadenando una divertida y caótica misión para salvar la ciudad de Mendoza del apocalipsis.",
       "youtube_id": "YjvD-hcVgNk",
       "trailer_url": "https://www.youtube.com/watch?v=YjvD-hcVgNk"
-    },
-    {
-      "title": "Bajo la superficie",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mieCT53TaHGVVRdeq8Bx3VwtgIW.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-      "overview": "Cuando una misteriosa criatura marina aterroriza a un pueblo costero canadiense, un recio pescador y su familia luchan por proteger a su comunidad.",
-      "youtube_id": "QWKZUHewy1k",
-      "trailer_url": "https://www.youtube.com/watch?v=QWKZUHewy1k"
-    },
-    {
-      "title": "Sensatez y sentimiento",
-      "subtitle": "PELÍCULA • 2026 • 2h 12m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 12m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
-      "overview": "Una nueva visión de la icónica novela de Jane Austen con una historia encantadora, ingeniosa y profundamente conmovedora sobre el amor y la hermandad.",
-      "youtube_id": "5i4_ceVDUqg",
-      "trailer_url": "https://www.youtube.com/watch?v=5i4_ceVDUqg"
-    },
-    {
-      "title": "Matchbox: La película",
-      "subtitle": "PELÍCULA • 2026 • 2h 7m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 7m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ev2GnYar3LUyui8sOu4gqeMXvLi.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-      "overview": "Cuando un grupo de antiguos amigos de la infancia reconecta, su reunión da un giro inesperado al descubrir un complot internacional y darse cuenta de que deben salvar al mundo.",
-      "youtube_id": "0FHKfPfj6-Q",
-      "trailer_url": "https://www.youtube.com/watch?v=0FHKfPfj6-Q"
-    },
-    {
-      "title": "American Hostage",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
-      "overview": "Narra la desgarradora historia real de Fred Heckman, un querido reportero de radio de Indianápolis que se ve envuelto en una crisis de vida o muerte cuando el secuestrador Tony Kiritsis exige ser entrevistado en su popular programa de noticias de radio.",
-      "youtube_id": "Ff1fUwSD7Gc",
-      "trailer_url": "https://www.youtube.com/watch?v=Ff1fUwSD7Gc"
     }
   ]
 }
