@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "This City Is Ours",
+          "subtitle": "SERIE • 2025 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2025",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cHGO2tREDo0tc1f0yslbgEreuZ3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vUb6wCVjonaYksWHrJkZ3zt62MC.jpg",
+          "overview": "El mafioso Michael se enamora de Diana, haciéndole replantearse dejar el crimen. Su amor es esperanza pero también pone en peligro su vida delictiva.",
+          "youtube_id": "9irsgS7DEUI",
+          "trailer_url": "https://www.youtube.com/watch?v=9irsgS7DEUI"
+        },
+        {
+          "title": "Wicker",
+          "subtitle": "PELÍCULA • 2026 • 1h 45m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 45m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+          "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+          "youtube_id": "jA5zfiikcu8",
+          "trailer_url": "https://www.youtube.com/watch?v=jA5zfiikcu8"
+        },
+        {
+          "title": "Contra el huracán",
+          "subtitle": "PELÍCULA • 2026 • 1h 37m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/lFaMt4I8LiQAGW9Rb5gfGFXbvOY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
+          "overview": "Dos hermanos distanciados luchan por sobrevivir al huracán Otis en Acapulco, donde su unión y valentía transforman la adversidad en esperanza. Inspirada en una historia real.",
+          "youtube_id": "zKApuso5SCo",
+          "trailer_url": "https://www.youtube.com/watch?v=zKApuso5SCo"
+        },
+        {
           "title": "Sugar",
           "subtitle": "SERIE • 2024 • 2 Temporadas",
           "media_type": "SERIE",
@@ -72,8 +108,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/e2hpVdY2WVJDz3y0nEHszhtR24q.jpg",
           "overview": "De niño, Serhat perdió a su padre y su fortuna, pero logró construir un imperio basado en la familia y la integridad. Su mundo se desmorona cuando su esposa, Berrak, cae en coma ocultando un devastador secreto.\n\nMientras busca respuestas, su corazón se endurece... hasta que conoce a Zeynep, una apasionada florista que persigue la misma verdad. Juntos encenderán un viaje de confianza, pasión y redención.\n\n¿Podrá el amor sanar las heridas del pasado o los secretos terminarán por destruirlos?",
-          "youtube_id": "RrSl2wo4cVo",
-          "trailer_url": "https://www.youtube.com/watch?v=RrSl2wo4cVo"
+          "youtube_id": "rrheJEO0Z90",
+          "trailer_url": "https://www.youtube.com/watch?v=rrheJEO0Z90"
         },
         {
           "title": "De repente, en el verano",
@@ -118,7 +154,7 @@
           "year": "2024",
           "extra_info": "3 Temporadas",
           "poster_url": "https://image.tmdb.org/t/p/w500/kiMhxXmkmqtpeY9jB8il3KajrDu.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/q8BwtVM3t0SOtB1nZsXpOKZp8IM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/77sozyYenyY1JraK6YzLfDlTMpp.jpg",
           "overview": "Una presentadora de pódcast y un rabino que acaba de quedar soltero se enamoran. ¿Podrá su relación sobrevivir a sus distintos estilos de vida y sus entrometidas familias?",
           "youtube_id": "ZilLVkoxQbo",
           "trailer_url": "https://www.youtube.com/watch?v=ZilLVkoxQbo"
@@ -148,16 +184,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=nk0p7MV_l3Y"
         },
         {
-          "title": "Phony: La otra madre",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "title": "El gran farsante",
+          "subtitle": "SERIE • 2020 • 2 Temporadas",
           "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/xuZFtTtGfDcphMDur84Cr3EKcc6.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
-          "overview": "Tras despertarse de un extraño accidente automovilístico, Sonny descubre que su madre ha sido sustituida por un impostor.",
-          "youtube_id": "MFKYzSVqGQ4",
-          "trailer_url": "https://www.youtube.com/watch?v=MFKYzSVqGQ4"
+          "year": "2020",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/am5RPNJ2msb91Uza8wIIxWbjTKp.jpg",
+          "overview": "El presunto estafador más grande de Japón, Makoto Edamura, se encuentra con una sorpresa cuando intenta timar a Laurent Thierry, un delincuente de primera.",
+          "youtube_id": "DMbPvLRXlVI",
+          "trailer_url": "https://www.youtube.com/watch?v=DMbPvLRXlVI"
         },
         {
           "title": "Kingsman: El círculo dorado",
@@ -202,7 +238,7 @@
           "year": "2026",
           "extra_info": "1 Temporada",
           "poster_url": "https://image.tmdb.org/t/p/w500/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
           "overview": "Una divorciada de 50 años hace malabares con la vida amorosa mientras cuida a sus padres y a su hijo adulto.",
           "youtube_id": "88TlrdUz0eI",
           "trailer_url": "https://www.youtube.com/watch?v=88TlrdUz0eI"
@@ -240,8 +276,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
           "overview": "Treinta y cuatro días antes de ser enviada a prisión, la infame Elizabeth Holmes, fundadora de Silicon Valley, invita a un escéptico equipo de filmación a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo de una enigmática delincuente se convierte en un viaje alucinante de tres años hacia el abismo.",
-          "youtube_id": "kF08Np_RD14",
-          "trailer_url": "https://www.youtube.com/watch?v=kF08Np_RD14"
+          "youtube_id": "NLYmEXzoMrQ",
+          "trailer_url": "https://www.youtube.com/watch?v=NLYmEXzoMrQ"
         },
         {
           "title": "Los gringo hunters",
@@ -266,42 +302,6 @@
           "overview": "Tirso Abantos es un ex militar que regenta una ferretería de barrio. Solitario y poco dado a mostrar afecto, tras un incidente familiar se ve obligado a encargarse durante un tiempo de su nieta Irene, una joven de origen vietnamita, contestataria y rebelde a la que la hija de Tirso es incapaz de controlar.",
           "youtube_id": "ZaEPgyZGBeQ",
           "trailer_url": "https://www.youtube.com/watch?v=ZaEPgyZGBeQ"
-        },
-        {
-          "title": "La caída de la ballena",
-          "subtitle": "PELÍCULA • 2026 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5d8BZCZQaO3gCdP9JaA5B5qGFsH.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-          "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, hasta que es tragado por una enorme ballena.",
-          "youtube_id": "pS4qvMZh9fA",
-          "trailer_url": "https://www.youtube.com/watch?v=pS4qvMZh9fA"
-        },
-        {
-          "title": "Tres de más",
-          "subtitle": "PELÍCULA • 2026 • 1h 38m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9Y6zDmHgXadnyZ7ZRJWa3WI2nhx.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bERXJB7QSf3T8hlwN8RCzWToTAM.jpg",
-          "overview": "Julia y Ernesto lo tienen todo: una relación envidiable, carreras de éxito y, sobre todo, una vida ideal sin hijos. Sin embargo, un día despiertan y se encuentran con tres niños que insisten en llamarlos mamá y papá. Su vida perfecta se ha esfumado. De la noche a la mañana tendrán que aprender a ser padres mientras tratan de descubrir de dónde han salido esos niños y cómo pueden librarse de ellos.",
-          "youtube_id": "LM8PFICxpME",
-          "trailer_url": "https://www.youtube.com/watch?v=LM8PFICxpME"
-        },
-        {
-          "title": "La vida secreta de las esposas mormonas",
-          "subtitle": "SERIE • 2024 • 6 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "6 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nphj5Tz7gg92HEC624136eySMZd.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zkwyfIwqWnZbQiHL9oGU8iSNkLG.jpg",
-          "overview": "El escandaloso mundo de un grupo de mamás mormonas influencers implosiona cuando se ven atrapadas en medio de un escándalo sexual que acaba en los titulares internacionales. Ahora, su hermandad se ve sacudida hasta la médula. La fe, la amistad y la reputación están en juego.",
-          "youtube_id": "ZO6xpxZVbDI",
-          "trailer_url": "https://www.youtube.com/watch?v=ZO6xpxZVbDI"
         }
       ]
     },
@@ -321,16 +321,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=tr663Bu3Whk"
         },
         {
-          "title": "En Directo",
-          "subtitle": "PELÍCULA • 2026 • 1h 56m",
+          "title": "Contra el huracán",
+          "subtitle": "PELÍCULA • 2026 • 1h 37m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 56m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
-          "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
-          "youtube_id": "amKV7GKxlhk",
-          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/lFaMt4I8LiQAGW9Rb5gfGFXbvOY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
+          "overview": "Dos hermanos distanciados luchan por sobrevivir al huracán Otis en Acapulco, donde su unión y valentía transforman la adversidad en esperanza. Inspirada en una historia real.",
+          "youtube_id": "zKApuso5SCo",
+          "trailer_url": "https://www.youtube.com/watch?v=zKApuso5SCo"
         },
         {
           "title": "Pecadores",
@@ -357,6 +357,30 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
+          "title": "En Directo",
+          "subtitle": "PELÍCULA • 2026 • 1h 56m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 56m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
+          "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
+          "youtube_id": "amKV7GKxlhk",
+          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
+        },
+        {
+          "title": "Noche fatídica",
+          "subtitle": "PELÍCULA • 2026 • 2h 4m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 4m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+          "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
+          "youtube_id": "9Nm2QBIZhcI",
+          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+        },
+        {
           "title": "Sueño de fuga",
           "subtitle": "PELÍCULA • 1994 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -381,18 +405,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=lRp36GW1pr8"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
-        },
-        {
           "title": "El viaje de Chihiro",
           "subtitle": "PELÍCULA • 2001 • 2h 5m",
           "media_type": "PELÍCULA",
@@ -415,36 +427,12 @@
           "overview": "Después de reunirse con Gwen Stacy, Miles Morales, el amigable Spider-Man del vecindario de tiempo completo de Brooklyn, es catapultado a través del Multiverso, donde se encuentra con un equipo de Spider-People encargado de proteger su existencia. Pero cuando los héroes chocan sobre cómo manejar una nueva amenaza, Miles se enfrenta a las otras arañas y debe redefinir lo que significa ser un héroe para poder salvar a las personas que más ama.",
           "youtube_id": "E4noegsHPvM",
           "trailer_url": "https://www.youtube.com/watch?v=E4noegsHPvM"
-        },
-        {
-          "title": "El increíble castillo vagabundo",
-          "subtitle": "PELÍCULA",
-          "media_type": "PELÍCULA",
-          "year": "",
-          "extra_info": "",
-          "poster_url": "",
-          "backdrop_url": "",
-          "overview": "",
-          "youtube_id": "BCDEOoNYW18",
-          "trailer_url": "https://www.youtube.com/watch?v=BCDEOoNYW18"
         }
       ]
     },
     {
       "category": "Top 10 Disney+",
       "items": [
-        {
-          "title": "El extraño mundo de Jack",
-          "subtitle": "PELÍCULA • 1993 • 1h 19m",
-          "media_type": "PELÍCULA",
-          "year": "1993",
-          "extra_info": "1h 19m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6idNHT0nOD7a1ldv7vhNJFW6jl9.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-          "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
-          "youtube_id": "ldyfHSG7C68",
-          "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
-        },
         {
           "title": "Toy Story 5",
           "subtitle": "PELÍCULA • 2026 • 1h 42m",
@@ -456,6 +444,18 @@
           "overview": "Cuando Woody logra regresar con Buzz, Jessie y el resto de la pandilla, descubren una nueva amenaza: la tecnología. Un nuevo tiempo de juego para los niños.",
           "youtube_id": "DW8GC9SQ9Xw",
           "trailer_url": "https://www.youtube.com/watch?v=DW8GC9SQ9Xw"
+        },
+        {
+          "title": "El extraño mundo de Jack",
+          "subtitle": "PELÍCULA • 1993 • 1h 19m",
+          "media_type": "PELÍCULA",
+          "year": "1993",
+          "extra_info": "1h 19m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6idNHT0nOD7a1ldv7vhNJFW6jl9.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
+          "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
+          "youtube_id": "ldyfHSG7C68",
+          "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
         },
         {
           "title": "Moana",
@@ -470,30 +470,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
         },
         {
-          "title": "Avengers: Endgame",
-          "subtitle": "PELÍCULA • 2019 • 3h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "3h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
-          "youtube_id": "4WMuAEQ-LIA",
-          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
-        },
-        {
-          "title": "Avengers: Endgame",
-          "subtitle": "PELÍCULA • 2019 • 3h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "3h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
-          "youtube_id": "4WMuAEQ-LIA",
-          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
-        },
-        {
           "title": "Coco",
           "subtitle": "PELÍCULA • 2017 • 1h 49m",
           "media_type": "PELÍCULA",
@@ -504,6 +480,30 @@
           "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
           "youtube_id": "_xwBcT8iBEg",
           "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
+        },
+        {
+          "title": "Avengers: Endgame",
+          "subtitle": "PELÍCULA • 2019 • 3h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "3h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+          "youtube_id": "4WMuAEQ-LIA",
+          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
+        },
+        {
+          "title": "Avengers: Endgame",
+          "subtitle": "PELÍCULA • 2019 • 3h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "3h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+          "youtube_id": "4WMuAEQ-LIA",
+          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -518,18 +518,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
-        },
-        {
           "title": "El señor de los anillos: La comunidad del anillo",
           "subtitle": "PELÍCULA • 2001 • 2h 59m",
           "media_type": "PELÍCULA",
@@ -542,16 +530,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "Los vengadores",
-          "subtitle": "SERIE • 1961 • 6 Temporadas",
-          "media_type": "SERIE",
-          "year": "1961",
-          "extra_info": "6 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7D2DosFWqmNc0vfZJPqwY5uIvsR.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/AqZ48TMJRPCpbuy09S0RXFAhvFa.jpg",
-          "overview": "Esta serie nos muestra a unos vengadores cuya misión será la de afrontar cualquier peligro.",
-          "youtube_id": "eJUdJoySLII",
-          "trailer_url": "https://www.youtube.com/watch?v=eJUdJoySLII"
+          "title": "Deadpool & Wolverine",
+          "subtitle": "PELÍCULA • 2024 • 2h 8m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+          "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
+          "youtube_id": "V4ZDKt9KICo",
+          "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
+        },
+        {
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         }
       ]
     },
@@ -577,10 +577,22 @@
           "year": "2026",
           "extra_info": "1h 50m",
           "poster_url": "https://image.tmdb.org/t/p/w500/pLLvKhqTngUispTyDofvoEDKrxa.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
           "overview": "Cuando un ladrón legendario decide robarse la Mona Lisa, recluta a dos jóvenes desconocidos para que lo ayuden: Chiara, una experta cibercriminal italiana y Jay, un especialista en explosivos francés. Y luego les revela que es padre de ambos. Envueltos en una caótica reunión familiar, deben aprender a trabajar juntos sin matarse entre sí para lograr el robo del siglo.",
           "youtube_id": "jx_lmUFGGog",
           "trailer_url": "https://www.youtube.com/watch?v=jx_lmUFGGog"
+        },
+        {
+          "title": "Trolls 2: Gira Mundial",
+          "subtitle": "PELÍCULA • 2020 • 1h 31m",
+          "media_type": "PELÍCULA",
+          "year": "2020",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9GdgycCYq3vnxLHw5Ldah8JEjH4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
+          "overview": "Queen Poppy y Branch hacen un descubrimiento sorprendente: hay otros mundos Troll más allá del suyo, y sus diferencias distintivas crean grandes enfrentamientos entre estas diversas tribus. Cuando una misteriosa amenaza pone en peligro a todos los Trolls de la tierra, Poppy, Branch y su banda de amigos deben embarcarse en una búsqueda épica para crear armonía entre los Trolls en disputa para unirlos en contra de cierto destino amargo",
+          "youtube_id": "6zaZFUqURFA",
+          "trailer_url": "https://www.youtube.com/watch?v=6zaZFUqURFA"
         },
         {
           "title": "La guerra de los mundos",
@@ -605,18 +617,6 @@
           "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
           "youtube_id": "WJXzfFo_7FQ",
           "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
-        },
-        {
-          "title": "Trolls 2: Gira Mundial",
-          "subtitle": "PELÍCULA • 2020 • 1h 31m",
-          "media_type": "PELÍCULA",
-          "year": "2020",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9GdgycCYq3vnxLHw5Ldah8JEjH4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
-          "overview": "Queen Poppy y Branch hacen un descubrimiento sorprendente: hay otros mundos Troll más allá del suyo, y sus diferencias distintivas crean grandes enfrentamientos entre estas diversas tribus. Cuando una misteriosa amenaza pone en peligro a todos los Trolls de la tierra, Poppy, Branch y su banda de amigos deben embarcarse en una búsqueda épica para crear armonía entre los Trolls en disputa para unirlos en contra de cierto destino amargo",
-          "youtube_id": "6zaZFUqURFA",
-          "trailer_url": "https://www.youtube.com/watch?v=6zaZFUqURFA"
         },
         {
           "title": "Interestelar",
@@ -655,6 +655,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=clRX9RXOb64"
         },
         {
+          "title": "El hombre araña",
+          "subtitle": "PELÍCULA • 2002 • 2h 1m",
+          "media_type": "PELÍCULA",
+          "year": "2002",
+          "extra_info": "2h 1m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/8eTbNzpjK9VJGu1g60j268MmXzm.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+          "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia.",
+          "youtube_id": "8vKR8559EMo",
+          "trailer_url": "https://www.youtube.com/watch?v=8vKR8559EMo"
+        },
+        {
           "title": "Robot salvaje",
           "subtitle": "PELÍCULA • 2024 • 1h 42m",
           "media_type": "PELÍCULA",
@@ -665,18 +677,6 @@
           "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
           "youtube_id": "1qq06A0Q4C8",
           "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
-        },
-        {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         }
       ]
     },
@@ -732,16 +732,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "title": "Ready Player One: Comienza el juego",
+          "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+          "year": "2018",
+          "extra_info": "2h 20m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
+          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
+          "youtube_id": "R2DDDEQ8ceI",
+          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
           "title": "Spider-Man: Lejos de casa",
@@ -756,6 +756,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
           "title": "El abismo secreto",
           "subtitle": "PELÍCULA • 2025 • 2h 8m",
           "media_type": "PELÍCULA",
@@ -768,28 +780,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
-          "title": "Ready Player One: Comienza el juego",
-          "subtitle": "PELÍCULA • 2018 • 2h 20m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 20m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
-          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
-          "youtube_id": "R2DDDEQ8ceI",
-          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
-        },
-        {
-          "title": "El niño, el topo, el zorro y el caballo",
-          "subtitle": "PELÍCULA • 2022 • 35m",
-          "media_type": "PELÍCULA",
-          "year": "2022",
-          "extra_info": "35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/r3HDy6DZVQoyAoJJounELXfNBHq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wO0MIGcA7w7tBI9Ey80Q4Z7qnPm.jpg",
-          "overview": "Narra la improbable amistad de un niño, un topo, un zorro y un caballo que viajan juntos buscando el hogar del niño. Basada en el libro de Charlie Mackesy.",
-          "youtube_id": "oaUfoOBClkA",
-          "trailer_url": "https://www.youtube.com/watch?v=oaUfoOBClkA"
+          "title": "Mayday: Catástrofes Aéreas",
+          "subtitle": "SERIE • 2003 • 26 Temporadas",
+          "media_type": "SERIE",
+          "year": "2003",
+          "extra_info": "26 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2uuVIAb4MtPmMNTpOyID5V8DzrU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vqm22ecqtzy5Olr74mkUV5lWa9g.jpg",
+          "overview": "Conoce las historias de personas que han sufrido accidentes aéreos, sus familiares y los investigadores de seguridad que estudian las causas. Entre ellas están error del piloto, un incendio o falta de mantenimiento.",
+          "youtube_id": "lMG_C9kQUJw",
+          "trailer_url": "https://www.youtube.com/watch?v=lMG_C9kQUJw"
         },
         {
           "title": "Identidad desconocida",
@@ -807,6 +807,42 @@
     }
   ],
   "flat_list": [
+    {
+      "title": "This City Is Ours",
+      "subtitle": "SERIE • 2025 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2025",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/cHGO2tREDo0tc1f0yslbgEreuZ3.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/vUb6wCVjonaYksWHrJkZ3zt62MC.jpg",
+      "overview": "El mafioso Michael se enamora de Diana, haciéndole replantearse dejar el crimen. Su amor es esperanza pero también pone en peligro su vida delictiva.",
+      "youtube_id": "9irsgS7DEUI",
+      "trailer_url": "https://www.youtube.com/watch?v=9irsgS7DEUI"
+    },
+    {
+      "title": "Wicker",
+      "subtitle": "PELÍCULA • 2026 • 1h 45m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 45m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+      "youtube_id": "jA5zfiikcu8",
+      "trailer_url": "https://www.youtube.com/watch?v=jA5zfiikcu8"
+    },
+    {
+      "title": "Contra el huracán",
+      "subtitle": "PELÍCULA • 2026 • 1h 37m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 37m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/lFaMt4I8LiQAGW9Rb5gfGFXbvOY.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
+      "overview": "Dos hermanos distanciados luchan por sobrevivir al huracán Otis en Acapulco, donde su unión y valentía transforman la adversidad en esperanza. Inspirada en una historia real.",
+      "youtube_id": "zKApuso5SCo",
+      "trailer_url": "https://www.youtube.com/watch?v=zKApuso5SCo"
+    },
     {
       "title": "Sugar",
       "subtitle": "SERIE • 2024 • 2 Temporadas",
@@ -876,8 +912,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/e2hpVdY2WVJDz3y0nEHszhtR24q.jpg",
       "overview": "De niño, Serhat perdió a su padre y su fortuna, pero logró construir un imperio basado en la familia y la integridad. Su mundo se desmorona cuando su esposa, Berrak, cae en coma ocultando un devastador secreto.\n\nMientras busca respuestas, su corazón se endurece... hasta que conoce a Zeynep, una apasionada florista que persigue la misma verdad. Juntos encenderán un viaje de confianza, pasión y redención.\n\n¿Podrá el amor sanar las heridas del pasado o los secretos terminarán por destruirlos?",
-      "youtube_id": "RrSl2wo4cVo",
-      "trailer_url": "https://www.youtube.com/watch?v=RrSl2wo4cVo"
+      "youtube_id": "rrheJEO0Z90",
+      "trailer_url": "https://www.youtube.com/watch?v=rrheJEO0Z90"
     },
     {
       "title": "De repente, en el verano",
@@ -922,7 +958,7 @@
       "year": "2024",
       "extra_info": "3 Temporadas",
       "poster_url": "https://image.tmdb.org/t/p/w500/kiMhxXmkmqtpeY9jB8il3KajrDu.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/q8BwtVM3t0SOtB1nZsXpOKZp8IM.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/77sozyYenyY1JraK6YzLfDlTMpp.jpg",
       "overview": "Una presentadora de pódcast y un rabino que acaba de quedar soltero se enamoran. ¿Podrá su relación sobrevivir a sus distintos estilos de vida y sus entrometidas familias?",
       "youtube_id": "ZilLVkoxQbo",
       "trailer_url": "https://www.youtube.com/watch?v=ZilLVkoxQbo"
@@ -952,16 +988,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=nk0p7MV_l3Y"
     },
     {
-      "title": "Phony: La otra madre",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "title": "El gran farsante",
+      "subtitle": "SERIE • 2020 • 2 Temporadas",
       "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/xuZFtTtGfDcphMDur84Cr3EKcc6.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
-      "overview": "Tras despertarse de un extraño accidente automovilístico, Sonny descubre que su madre ha sido sustituida por un impostor.",
-      "youtube_id": "MFKYzSVqGQ4",
-      "trailer_url": "https://www.youtube.com/watch?v=MFKYzSVqGQ4"
+      "year": "2020",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/am5RPNJ2msb91Uza8wIIxWbjTKp.jpg",
+      "overview": "El presunto estafador más grande de Japón, Makoto Edamura, se encuentra con una sorpresa cuando intenta timar a Laurent Thierry, un delincuente de primera.",
+      "youtube_id": "DMbPvLRXlVI",
+      "trailer_url": "https://www.youtube.com/watch?v=DMbPvLRXlVI"
     },
     {
       "title": "Kingsman: El círculo dorado",
@@ -1006,7 +1042,7 @@
       "year": "2026",
       "extra_info": "1 Temporada",
       "poster_url": "https://image.tmdb.org/t/p/w500/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
       "overview": "Una divorciada de 50 años hace malabares con la vida amorosa mientras cuida a sus padres y a su hijo adulto.",
       "youtube_id": "88TlrdUz0eI",
       "trailer_url": "https://www.youtube.com/watch?v=88TlrdUz0eI"
@@ -1044,8 +1080,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
       "overview": "Treinta y cuatro días antes de ser enviada a prisión, la infame Elizabeth Holmes, fundadora de Silicon Valley, invita a un escéptico equipo de filmación a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo de una enigmática delincuente se convierte en un viaje alucinante de tres años hacia el abismo.",
-      "youtube_id": "kF08Np_RD14",
-      "trailer_url": "https://www.youtube.com/watch?v=kF08Np_RD14"
+      "youtube_id": "NLYmEXzoMrQ",
+      "trailer_url": "https://www.youtube.com/watch?v=NLYmEXzoMrQ"
     },
     {
       "title": "Los gringo hunters",
@@ -1070,42 +1106,6 @@
       "overview": "Tirso Abantos es un ex militar que regenta una ferretería de barrio. Solitario y poco dado a mostrar afecto, tras un incidente familiar se ve obligado a encargarse durante un tiempo de su nieta Irene, una joven de origen vietnamita, contestataria y rebelde a la que la hija de Tirso es incapaz de controlar.",
       "youtube_id": "ZaEPgyZGBeQ",
       "trailer_url": "https://www.youtube.com/watch?v=ZaEPgyZGBeQ"
-    },
-    {
-      "title": "La caída de la ballena",
-      "subtitle": "PELÍCULA • 2026 • 1h 46m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 46m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5d8BZCZQaO3gCdP9JaA5B5qGFsH.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-      "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, hasta que es tragado por una enorme ballena.",
-      "youtube_id": "pS4qvMZh9fA",
-      "trailer_url": "https://www.youtube.com/watch?v=pS4qvMZh9fA"
-    },
-    {
-      "title": "Tres de más",
-      "subtitle": "PELÍCULA • 2026 • 1h 38m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 38m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9Y6zDmHgXadnyZ7ZRJWa3WI2nhx.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/bERXJB7QSf3T8hlwN8RCzWToTAM.jpg",
-      "overview": "Julia y Ernesto lo tienen todo: una relación envidiable, carreras de éxito y, sobre todo, una vida ideal sin hijos. Sin embargo, un día despiertan y se encuentran con tres niños que insisten en llamarlos mamá y papá. Su vida perfecta se ha esfumado. De la noche a la mañana tendrán que aprender a ser padres mientras tratan de descubrir de dónde han salido esos niños y cómo pueden librarse de ellos.",
-      "youtube_id": "LM8PFICxpME",
-      "trailer_url": "https://www.youtube.com/watch?v=LM8PFICxpME"
-    },
-    {
-      "title": "La vida secreta de las esposas mormonas",
-      "subtitle": "SERIE • 2024 • 6 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "6 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/nphj5Tz7gg92HEC624136eySMZd.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/zkwyfIwqWnZbQiHL9oGU8iSNkLG.jpg",
-      "overview": "El escandaloso mundo de un grupo de mamás mormonas influencers implosiona cuando se ven atrapadas en medio de un escándalo sexual que acaba en los titulares internacionales. Ahora, su hermandad se ve sacudida hasta la médula. La fe, la amistad y la reputación están en juego.",
-      "youtube_id": "ZO6xpxZVbDI",
-      "trailer_url": "https://www.youtube.com/watch?v=ZO6xpxZVbDI"
     }
   ]
 }
