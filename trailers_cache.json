@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "El verano en que me enamoré",
+          "subtitle": "SERIE • 2022 • 3 Temporadas",
+          "media_type": "SERIE",
+          "year": "2022",
+          "extra_info": "3 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wDeFJIE5chr2P8iKW6HjyHKNm8x.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
+          "overview": "Drama multigeneracional que gira en torno a un triángulo amoroso entre una chica y dos hermanos, las relaciones cambiantes entre madres e hijos, y el poder duradero de una fuerte amistad femenina. Es una historia de madurez sobre el primer amor, el primer desamor y la magia de un verano perfecto.",
+          "youtube_id": "XFecTqDQ1vU",
+          "trailer_url": "https://www.youtube.com/watch?v=XFecTqDQ1vU"
+        },
+        {
+          "title": "4 estrellas",
+          "subtitle": "SERIE • 2023 • 3 Temporadas",
+          "media_type": "SERIE",
+          "year": "2023",
+          "extra_info": "3 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7Autsi9TxGFLsTOn0om2IhY3yWJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ahcoSyqliUE5MaQDERYpYtny1xd.jpg",
+          "overview": "Cuenta la historia de un hotel de provincias que acaba de recibir su cuarta estrella y cuyo dueño, interpretado por Antonio Resines, fallece tras revelar que tenía una hija fuera del matrimonio. Ahora las tres hermanastras y la viuda deberán gestionar juntas el hotel, mientras intentan descubrir que ha pasado con el cuerpo del finado, desaparecido tras un accidente en el funeral.",
+          "youtube_id": "OwyeR5NoYA0",
+          "trailer_url": "https://www.youtube.com/watch?v=OwyeR5NoYA0"
+        },
+        {
+          "title": "Hechizo de amor: La magia continúa",
+          "subtitle": "PELÍCULA • 2026 • 2h 10m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 10m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eNdtnb2Ga4H9fl4hEGhOLrgdKqq.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+          "overview": "En un mundo envuelto en travesuras a la luz de la luna y una poderosa magia ancestral, las hermanas Owens deberán enfrentar la oscura maldición que amenaza con destruir a su familia de una vez por todas.",
+          "youtube_id": "8RsXAlZJg5c",
+          "trailer_url": "https://www.youtube.com/watch?v=8RsXAlZJg5c"
+        },
+        {
+          "title": "Emily, ¿dónde estás?",
+          "subtitle": "PELÍCULA • 2026 • 1h 51m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 51m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/twBhBmAeWXwy9Og5M4tPFVRVZHH.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7Ja28gO6OwncmCA94q2qPyeRrsA.jpg",
+          "overview": "Cuando a un músico enamorado le dan el número equivocado de la chica de sus sueños, acaba haciendo equipo con una estudiante de psicología para encontrarla. Juntos desencadenan un hilarante frenesí por todo el campus, que pone a prueba sus propios corazones y ambiciones.",
+          "youtube_id": "nW1Es1609Hw",
+          "trailer_url": "https://www.youtube.com/watch?v=nW1Es1609Hw"
+        },
+        {
           "title": "La sociedad de la nieve",
           "subtitle": "PELÍCULA • 2023 • 2h 25m",
           "media_type": "PELÍCULA",
@@ -72,8 +120,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/cHGO2tREDo0tc1f0yslbgEreuZ3.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/yBSVBcQfJDBWpRJtcKob9XsvMIe.jpg",
           "overview": "El mafioso Michael se enamora de Diana, haciéndole replantearse dejar el crimen. Su amor es esperanza pero también pone en peligro su vida delictiva.",
-          "youtube_id": "9irsgS7DEUI",
-          "trailer_url": "https://www.youtube.com/watch?v=9irsgS7DEUI"
+          "youtube_id": "oGc-GhtZbKU",
+          "trailer_url": "https://www.youtube.com/watch?v=oGc-GhtZbKU"
         },
         {
           "title": "Wicker",
@@ -120,8 +168,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
           "overview": "¡Comienzan las clases en Hollywood Arts! La autoproclamada estrella Trina Vega vuelve para llevar a los alumnos al estrellato, al reconocimiento... y al caos.",
-          "youtube_id": "jZFMXynvHVU",
-          "trailer_url": "https://www.youtube.com/watch?v=jZFMXynvHVU"
+          "youtube_id": "lcVU3VTLIR8",
+          "trailer_url": "https://www.youtube.com/watch?v=lcVU3VTLIR8"
         },
         {
           "title": "Sacrificio: Los elegidos",
@@ -180,8 +228,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/gniQjGg0LaLaiWQOqxdVJkMH0Jx.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
           "overview": "Marie-Lou Fontaine, directora de una residencia de ancianos en las afueras de París, desafía las convenciones al adoptar el método «Humanitude», a pesar de la resistencia de su equipo. Su encuentro con Mari Morisaki, una dramaturga japonesa con una enfermedad terminal, transforma su vida. Juntas, convierten el centro en un símbolo de resistencia y humanidad frente a las limitaciones del sistema.",
-          "youtube_id": "bWbIj1KfCg0",
-          "trailer_url": "https://www.youtube.com/watch?v=bWbIj1KfCg0"
+          "youtube_id": "NmfURdt5Sa4",
+          "trailer_url": "https://www.youtube.com/watch?v=NmfURdt5Sa4"
         },
         {
           "title": "Idiotas",
@@ -252,56 +300,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/am5RPNJ2msb91Uza8wIIxWbjTKp.jpg",
           "overview": "El presunto estafador más grande de Japón, Makoto Edamura, se encuentra con una sorpresa cuando intenta timar a Laurent Thierry, un delincuente de primera.",
-          "youtube_id": "DMbPvLRXlVI",
-          "trailer_url": "https://www.youtube.com/watch?v=DMbPvLRXlVI"
-        },
-        {
-          "title": "Kingsman: El círculo dorado",
-          "subtitle": "PELÍCULA • 2017 • 2h 21m",
-          "media_type": "PELÍCULA",
-          "year": "2017",
-          "extra_info": "2h 21m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/51XRScF8mRUPFRZs4NIrm32iles.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/eVHVwP71el20fofkCHo78ebQv7Q.jpg",
-          "overview": "Tras la destrucción del cuartel general de los Kingsman y la toma de rehenes en el mundo, se descubre una organización de espionaje aliada en Estados Unidos. Estas dos organizaciones secretas de élite deben unirse para derrotar a un enemigo común.",
-          "youtube_id": "x050XvclsNE",
-          "trailer_url": "https://www.youtube.com/watch?v=x050XvclsNE"
-        },
-        {
-          "title": "El amor de tu vida",
-          "subtitle": "PELÍCULA • 2026 • 1h 49m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nqeDR6qGU8mqguQHRkAUg2ySBZv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
-          "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
-          "youtube_id": "WJXzfFo_7FQ",
-          "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
-        },
-        {
-          "title": "La manzana podrida",
-          "subtitle": "PELÍCULA • 2026 • 1h 40m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 40m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kFQaT7NuZvLx7hFmPhigaTedOOB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
-          "overview": "Maria, una maestra de primaria que se esfuerza por motivar a una clase de niños de diez años, se ve obstaculizada por un alumno rebelde y caótico. Con su carrera en juego y el comportamiento del niño volviéndose incontrolable, toma una serie de malas decisiones que la llevan a llevarse accidentalmente a esta \"manzana podrida\" a su casa y encerrarlo allí. Maria intenta desesperadamente rectificar, pero cuando la clase empieza a prosperar y tanto el personal docente como los padres se muestran encantados con la mejoría, se encuentra en una situación sumamente complicada.",
-          "youtube_id": "J6Y075CoJbE",
-          "trailer_url": "https://www.youtube.com/watch?v=J6Y075CoJbE"
-        },
-        {
-          "title": "Youth",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
-          "overview": "Una divorciada de 50 años hace malabares con la vida amorosa mientras cuida a sus padres y a su hijo adulto.",
-          "youtube_id": "88TlrdUz0eI",
-          "trailer_url": "https://www.youtube.com/watch?v=88TlrdUz0eI"
+          "youtube_id": "qg71zKCAU2o",
+          "trailer_url": "https://www.youtube.com/watch?v=qg71zKCAU2o"
         }
       ]
     },
@@ -345,18 +345,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
         },
         {
-          "title": "En Directo",
-          "subtitle": "PELÍCULA • 2026 • 1h 56m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 56m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
-          "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
-          "youtube_id": "skH9L6kAdD4",
-          "trailer_url": "https://www.youtube.com/watch?v=skH9L6kAdD4"
-        },
-        {
           "title": "Pecadores",
           "subtitle": "PELÍCULA • 2025 • 2h 18m",
           "media_type": "PELÍCULA",
@@ -367,6 +355,18 @@
           "overview": "Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida.",
           "youtube_id": "iXrfVpHKCnE",
           "trailer_url": "https://www.youtube.com/watch?v=iXrfVpHKCnE"
+        },
+        {
+          "title": "En Directo",
+          "subtitle": "PELÍCULA • 2026 • 1h 56m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 56m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
+          "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
+          "youtube_id": "amKV7GKxlhk",
+          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
         },
         {
           "title": "El señor de los anillos: La comunidad del anillo",
@@ -381,18 +381,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "El cadáver de la novia",
-          "subtitle": "PELÍCULA • 2005 • 1h 17m",
-          "media_type": "PELÍCULA",
-          "year": "2005",
-          "extra_info": "1h 17m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nf58Ni0DPP9KY5tEMo2lAyUIYU3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/v23fWgJUEt8EMmvn19btIacxP8E.jpg",
-          "overview": "Cuando un tímido novio practica sus votos matrimoniales en presencia inadvertida de una joven fallecida, ella se levanta de la tumba asumiendo que se ha casado con ella.",
-          "youtube_id": "lRp36GW1pr8",
-          "trailer_url": "https://www.youtube.com/watch?v=lRp36GW1pr8"
-        },
-        {
           "title": "Sueño de fuga",
           "subtitle": "PELÍCULA • 1994 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -403,6 +391,18 @@
           "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
           "youtube_id": "4u87tmlj4oE",
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
+        },
+        {
+          "title": "El cadáver de la novia",
+          "subtitle": "PELÍCULA • 2005 • 1h 17m",
+          "media_type": "PELÍCULA",
+          "year": "2005",
+          "extra_info": "1h 17m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nf58Ni0DPP9KY5tEMo2lAyUIYU3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/v23fWgJUEt8EMmvn19btIacxP8E.jpg",
+          "overview": "Cuando un tímido novio practica sus votos matrimoniales en presencia inadvertida de una joven fallecida, ella se levanta de la tumba asumiendo que se ha casado con ella.",
+          "youtube_id": "lRp36GW1pr8",
+          "trailer_url": "https://www.youtube.com/watch?v=lRp36GW1pr8"
         },
         {
           "title": "El viaje de Chihiro",
@@ -442,8 +442,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6idNHT0nOD7a1ldv7vhNJFW6jl9.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
           "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
-          "youtube_id": "ldyfHSG7C68",
-          "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
+          "youtube_id": "HCRjJE1DqMA",
+          "trailer_url": "https://www.youtube.com/watch?v=HCRjJE1DqMA"
         },
         {
           "title": "Toy Story 5",
@@ -595,18 +595,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "El amor de tu vida",
-          "subtitle": "PELÍCULA • 2026 • 1h 49m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nqeDR6qGU8mqguQHRkAUg2ySBZv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
-          "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
-          "youtube_id": "WJXzfFo_7FQ",
-          "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
-        },
-        {
           "title": "Interestelar",
           "subtitle": "PELÍCULA • 2014 • 2h 49m",
           "media_type": "PELÍCULA",
@@ -617,6 +605,18 @@
           "overview": "Cooper y un grupo de exploradores utilizan un agujero de gusano recién descubierto para superar las limitaciones de los viajes espaciales humanos y conquistar las vastas distancias que implica un viaje interestelar.",
           "youtube_id": "n8xK0DK7H_E",
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
+        },
+        {
+          "title": "El amor de tu vida",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nqeDR6qGU8mqguQHRkAUg2ySBZv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
+          "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
+          "youtube_id": "WJXzfFo_7FQ",
+          "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
         },
         {
           "title": "Trolls 2: Gira Mundial",
@@ -631,6 +631,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=6zaZFUqURFA"
         },
         {
+          "title": "El señor de los anillos: La comunidad del anillo",
+          "subtitle": "PELÍCULA • 2001 • 2h 59m",
+          "media_type": "PELÍCULA",
+          "year": "2001",
+          "extra_info": "2h 59m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+          "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
+          "youtube_id": "3GJp6p_mgPo",
+          "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
+        },
+        {
           "title": "Batman: El caballero de la noche",
           "subtitle": "PELÍCULA • 2008 • 2h 32m",
           "media_type": "PELÍCULA",
@@ -643,40 +655,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=kj7urtvmwrY"
         },
         {
-          "title": "Beekeeper: Sentencia de muerte",
-          "subtitle": "PELÍCULA • 2024 • 1h 46m",
+          "title": "El señor de los anillos: El retorno del rey",
+          "subtitle": "PELÍCULA • 2003 • 3h 22m",
           "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9X8EhbSpYrf6pGFGttWtVDAs9Hr.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/f0ACHVpV707zqu4etZrXnWNdSgL.jpg",
-          "overview": "La brutal campaña de venganza de un hombre adquiere dimensiones nacionales cuando se descubre que es un antiguo agente de una poderosa organización clandestina conocida como \"Los apicultores\".",
-          "youtube_id": "y01FaRAlmsE",
-          "trailer_url": "https://www.youtube.com/watch?v=y01FaRAlmsE"
+          "year": "2003",
+          "extra_info": "3h 22m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vvxufoFLVxdA8JoCqjUGjHlTs5V.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
+          "overview": "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino.",
+          "youtube_id": "h-9RYiqyqjk",
+          "trailer_url": "https://www.youtube.com/watch?v=h-9RYiqyqjk"
         },
         {
-          "title": "Robot salvaje",
-          "subtitle": "PELÍCULA • 2024 • 1h 42m",
+          "title": "El hombre araña",
+          "subtitle": "PELÍCULA • 2002 • 2h 1m",
           "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/o1EdwGuxnVuj4kwm47Zmom64h3G.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
-          "overview": "Un robot - ROZZUM unidad 7134, \"Roz\" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.",
-          "youtube_id": "1qq06A0Q4C8",
-          "trailer_url": "https://www.youtube.com/watch?v=1qq06A0Q4C8"
-        },
-        {
-          "title": "El Hombre Araña",
-          "subtitle": "SERIE • 1994 • 5 Temporadas",
-          "media_type": "SERIE",
-          "year": "1994",
-          "extra_info": "5 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cwgW8j4yh5hNMnvokozpVkjuSu2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tszlsbfyTOPSZe2z6K4mwHtcnmI.jpg",
-          "overview": "Después de ser picado por una araña radioactiva, el joven Peter Parker descubre que ahora tiene superpoderes similares a las arañas. Con la esperanza de utilizar sus nuevas habilidades para la riqueza y la fama, deja que su ego lo ciegue a las necesidades de los demás, e indirectamente causa la muerte de su tío Ben cuando se niega a ayudar a un policía a atrapar a un criminal. Humillado por su fracaso, decide utilizar su talento para luchar contra el crimen, y se convierte en Spider-Man. Al luchar contra varios supervillanos, Peter también debe equilibrar su vida personal, con su novia Mary Jane, su trabajo como fotógrafo en Daily Bugle y un editor convencido de que Spider-man es un criminal que debe ser encarcelado.",
-          "youtube_id": "dZJ9_sgGXKg",
-          "trailer_url": "https://www.youtube.com/watch?v=dZJ9_sgGXKg"
+          "year": "2002",
+          "extra_info": "2h 1m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/8eTbNzpjK9VJGu1g60j268MmXzm.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+          "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia.",
+          "youtube_id": "8vKR8559EMo",
+          "trailer_url": "https://www.youtube.com/watch?v=8vKR8559EMo"
         }
       ]
     },
@@ -744,18 +744,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
-          "title": "El abismo secreto",
-          "subtitle": "PELÍCULA • 2025 • 2h 8m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
-          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
-          "youtube_id": "3QbfHIKyd4I",
-          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
-        },
-        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -766,6 +754,18 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
+          "title": "El abismo secreto",
+          "subtitle": "PELÍCULA • 2025 • 2h 8m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
+          "youtube_id": "3QbfHIKyd4I",
+          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
           "title": "Ready Player One: Comienza el juego",
@@ -807,6 +807,54 @@
     }
   ],
   "flat_list": [
+    {
+      "title": "El verano en que me enamoré",
+      "subtitle": "SERIE • 2022 • 3 Temporadas",
+      "media_type": "SERIE",
+      "year": "2022",
+      "extra_info": "3 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/wDeFJIE5chr2P8iKW6HjyHKNm8x.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
+      "overview": "Drama multigeneracional que gira en torno a un triángulo amoroso entre una chica y dos hermanos, las relaciones cambiantes entre madres e hijos, y el poder duradero de una fuerte amistad femenina. Es una historia de madurez sobre el primer amor, el primer desamor y la magia de un verano perfecto.",
+      "youtube_id": "XFecTqDQ1vU",
+      "trailer_url": "https://www.youtube.com/watch?v=XFecTqDQ1vU"
+    },
+    {
+      "title": "4 estrellas",
+      "subtitle": "SERIE • 2023 • 3 Temporadas",
+      "media_type": "SERIE",
+      "year": "2023",
+      "extra_info": "3 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7Autsi9TxGFLsTOn0om2IhY3yWJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/ahcoSyqliUE5MaQDERYpYtny1xd.jpg",
+      "overview": "Cuenta la historia de un hotel de provincias que acaba de recibir su cuarta estrella y cuyo dueño, interpretado por Antonio Resines, fallece tras revelar que tenía una hija fuera del matrimonio. Ahora las tres hermanastras y la viuda deberán gestionar juntas el hotel, mientras intentan descubrir que ha pasado con el cuerpo del finado, desaparecido tras un accidente en el funeral.",
+      "youtube_id": "OwyeR5NoYA0",
+      "trailer_url": "https://www.youtube.com/watch?v=OwyeR5NoYA0"
+    },
+    {
+      "title": "Hechizo de amor: La magia continúa",
+      "subtitle": "PELÍCULA • 2026 • 2h 10m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 10m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/eNdtnb2Ga4H9fl4hEGhOLrgdKqq.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+      "overview": "En un mundo envuelto en travesuras a la luz de la luna y una poderosa magia ancestral, las hermanas Owens deberán enfrentar la oscura maldición que amenaza con destruir a su familia de una vez por todas.",
+      "youtube_id": "8RsXAlZJg5c",
+      "trailer_url": "https://www.youtube.com/watch?v=8RsXAlZJg5c"
+    },
+    {
+      "title": "Emily, ¿dónde estás?",
+      "subtitle": "PELÍCULA • 2026 • 1h 51m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 51m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/twBhBmAeWXwy9Og5M4tPFVRVZHH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/7Ja28gO6OwncmCA94q2qPyeRrsA.jpg",
+      "overview": "Cuando a un músico enamorado le dan el número equivocado de la chica de sus sueños, acaba haciendo equipo con una estudiante de psicología para encontrarla. Juntos desencadenan un hilarante frenesí por todo el campus, que pone a prueba sus propios corazones y ambiciones.",
+      "youtube_id": "nW1Es1609Hw",
+      "trailer_url": "https://www.youtube.com/watch?v=nW1Es1609Hw"
+    },
     {
       "title": "La sociedad de la nieve",
       "subtitle": "PELÍCULA • 2023 • 2h 25m",
@@ -876,8 +924,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/cHGO2tREDo0tc1f0yslbgEreuZ3.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/yBSVBcQfJDBWpRJtcKob9XsvMIe.jpg",
       "overview": "El mafioso Michael se enamora de Diana, haciéndole replantearse dejar el crimen. Su amor es esperanza pero también pone en peligro su vida delictiva.",
-      "youtube_id": "9irsgS7DEUI",
-      "trailer_url": "https://www.youtube.com/watch?v=9irsgS7DEUI"
+      "youtube_id": "oGc-GhtZbKU",
+      "trailer_url": "https://www.youtube.com/watch?v=oGc-GhtZbKU"
     },
     {
       "title": "Wicker",
@@ -924,8 +972,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
       "overview": "¡Comienzan las clases en Hollywood Arts! La autoproclamada estrella Trina Vega vuelve para llevar a los alumnos al estrellato, al reconocimiento... y al caos.",
-      "youtube_id": "jZFMXynvHVU",
-      "trailer_url": "https://www.youtube.com/watch?v=jZFMXynvHVU"
+      "youtube_id": "lcVU3VTLIR8",
+      "trailer_url": "https://www.youtube.com/watch?v=lcVU3VTLIR8"
     },
     {
       "title": "Sacrificio: Los elegidos",
@@ -984,8 +1032,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/gniQjGg0LaLaiWQOqxdVJkMH0Jx.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
       "overview": "Marie-Lou Fontaine, directora de una residencia de ancianos en las afueras de París, desafía las convenciones al adoptar el método «Humanitude», a pesar de la resistencia de su equipo. Su encuentro con Mari Morisaki, una dramaturga japonesa con una enfermedad terminal, transforma su vida. Juntas, convierten el centro en un símbolo de resistencia y humanidad frente a las limitaciones del sistema.",
-      "youtube_id": "bWbIj1KfCg0",
-      "trailer_url": "https://www.youtube.com/watch?v=bWbIj1KfCg0"
+      "youtube_id": "NmfURdt5Sa4",
+      "trailer_url": "https://www.youtube.com/watch?v=NmfURdt5Sa4"
     },
     {
       "title": "Idiotas",
@@ -1056,56 +1104,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/am5RPNJ2msb91Uza8wIIxWbjTKp.jpg",
       "overview": "El presunto estafador más grande de Japón, Makoto Edamura, se encuentra con una sorpresa cuando intenta timar a Laurent Thierry, un delincuente de primera.",
-      "youtube_id": "DMbPvLRXlVI",
-      "trailer_url": "https://www.youtube.com/watch?v=DMbPvLRXlVI"
-    },
-    {
-      "title": "Kingsman: El círculo dorado",
-      "subtitle": "PELÍCULA • 2017 • 2h 21m",
-      "media_type": "PELÍCULA",
-      "year": "2017",
-      "extra_info": "2h 21m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/51XRScF8mRUPFRZs4NIrm32iles.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/eVHVwP71el20fofkCHo78ebQv7Q.jpg",
-      "overview": "Tras la destrucción del cuartel general de los Kingsman y la toma de rehenes en el mundo, se descubre una organización de espionaje aliada en Estados Unidos. Estas dos organizaciones secretas de élite deben unirse para derrotar a un enemigo común.",
-      "youtube_id": "x050XvclsNE",
-      "trailer_url": "https://www.youtube.com/watch?v=x050XvclsNE"
-    },
-    {
-      "title": "El amor de tu vida",
-      "subtitle": "PELÍCULA • 2026 • 1h 49m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 49m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/nqeDR6qGU8mqguQHRkAUg2ySBZv.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
-      "overview": "De la directora Rachel Morrison, El amor de tu vida es la historia de Maya, quien conoce a Charlie por accidente, vive un romance avasallador y vislumbra un futuro que supera todo lo que llegó a imaginar. Cuando ese futuro colapsa, Maya debe enfrentar una nueva vida y decidir quién es, qué quiere y cómo amar de nuevo.",
-      "youtube_id": "WJXzfFo_7FQ",
-      "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
-    },
-    {
-      "title": "La manzana podrida",
-      "subtitle": "PELÍCULA • 2026 • 1h 40m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 40m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kFQaT7NuZvLx7hFmPhigaTedOOB.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
-      "overview": "Maria, una maestra de primaria que se esfuerza por motivar a una clase de niños de diez años, se ve obstaculizada por un alumno rebelde y caótico. Con su carrera en juego y el comportamiento del niño volviéndose incontrolable, toma una serie de malas decisiones que la llevan a llevarse accidentalmente a esta \"manzana podrida\" a su casa y encerrarlo allí. Maria intenta desesperadamente rectificar, pero cuando la clase empieza a prosperar y tanto el personal docente como los padres se muestran encantados con la mejoría, se encuentra en una situación sumamente complicada.",
-      "youtube_id": "J6Y075CoJbE",
-      "trailer_url": "https://www.youtube.com/watch?v=J6Y075CoJbE"
-    },
-    {
-      "title": "Youth",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
-      "overview": "Una divorciada de 50 años hace malabares con la vida amorosa mientras cuida a sus padres y a su hijo adulto.",
-      "youtube_id": "88TlrdUz0eI",
-      "trailer_url": "https://www.youtube.com/watch?v=88TlrdUz0eI"
+      "youtube_id": "qg71zKCAU2o",
+      "trailer_url": "https://www.youtube.com/watch?v=qg71zKCAU2o"
     }
   ]
 }
