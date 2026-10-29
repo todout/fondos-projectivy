@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Timbiriche",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/tye6G2ACvlVF4jEmVqWaAhucLic.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/4YP7E7UMfkZ3eKtBHpuJXs5XEyw.jpg",
+          "overview": "Timbiriche, un gran fenómeno musical de los 80s que muestra la compleja vida de sus jóvenes: fama, conflictos, adicciones y cambios de integrantes.",
+          "youtube_id": "fnd_D1mFXxs",
+          "trailer_url": "https://www.youtube.com/watch?v=fnd_D1mFXxs"
+        },
+        {
+          "title": "El Caso Asunta",
+          "subtitle": "SERIE • 2024 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mqVwu7nwNyYv6ehdVbRGCkLraUQ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/sU43u8iWvCT6aQ0Mvi4hB6VkuDg.jpg",
+          "overview": "Cuando los padres de Asunta, que tiene solo doce años, denuncian su desaparición, la investigación pronto se vuelve en su contra.",
+          "youtube_id": "ve9EAJ41zhU",
+          "trailer_url": "https://www.youtube.com/watch?v=ve9EAJ41zhU"
+        },
+        {
+          "title": "Velocidad y Deseo",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+          "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
+          "youtube_id": "tKZwT35XZ4M",
+          "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
+        },
+        {
+          "title": "Tierra de Mi Padre",
+          "subtitle": "PELÍCULA • 2026 • 1h 22m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 22m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
+          "overview": "En 1949, el escritor alemán Thomas Mann y su hija Erika emprenden un viaje por carretera a través de una Alemania en ruinas, desde Fráncfort —bajo dominio estadounidense— hasta Weimar —bajo control soviético—.",
+          "youtube_id": "xanbPAYT4vc",
+          "trailer_url": "https://www.youtube.com/watch?v=xanbPAYT4vc"
+        },
+        {
           "title": "El verano en que me enamoré",
           "subtitle": "SERIE • 2022 • 3 Temporadas",
           "media_type": "SERIE",
@@ -24,8 +72,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/7Autsi9TxGFLsTOn0om2IhY3yWJ.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/ahcoSyqliUE5MaQDERYpYtny1xd.jpg",
           "overview": "Cuenta la historia de un hotel de provincias que acaba de recibir su cuarta estrella y cuyo dueño, interpretado por Antonio Resines, fallece tras revelar que tenía una hija fuera del matrimonio. Ahora las tres hermanastras y la viuda deberán gestionar juntas el hotel, mientras intentan descubrir que ha pasado con el cuerpo del finado, desaparecido tras un accidente en el funeral.",
-          "youtube_id": "OwyeR5NoYA0",
-          "trailer_url": "https://www.youtube.com/watch?v=OwyeR5NoYA0"
+          "youtube_id": "AprKgsdsuu0",
+          "trailer_url": "https://www.youtube.com/watch?v=AprKgsdsuu0"
         },
         {
           "title": "Hechizo de amor: La magia continúa",
@@ -220,13 +268,13 @@
           "trailer_url": "https://www.youtube.com/watch?v=Mx_nFa_Qk1w"
         },
         {
-          "title": "De Repente",
+          "title": "De repente",
           "subtitle": "PELÍCULA • 2026 • 3h 16m",
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "3h 16m",
           "poster_url": "https://image.tmdb.org/t/p/w500/gniQjGg0LaLaiWQOqxdVJkMH0Jx.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yF4vFj0BSle87KSuRLhtT1PPfvs.jpg",
           "overview": "Marie-Lou Fontaine, directora de una residencia de ancianos en las afueras de París, desafía las convenciones al adoptar el método «Humanitude», a pesar de la resistencia de su equipo. Su encuentro con Mari Morisaki, una dramaturga japonesa con una enfermedad terminal, transforma su vida. Juntas, convierten el centro en un símbolo de resistencia y humanidad frente a las limitaciones del sistema.",
           "youtube_id": "NmfURdt5Sa4",
           "trailer_url": "https://www.youtube.com/watch?v=NmfURdt5Sa4"
@@ -240,8 +288,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/iPBQ9btO6VBX6z8qJUdKBwiEGo8.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
           "overview": "Dos delincuentes de poca monta son contratados para trasladar a un adolescente adinerado y problemático a rehabilitación, pero su trabajo, aparentemente sencillo, se complica y se convierte en caos, malas decisiones y planes cada vez más desesperados.",
-          "youtube_id": "E3f9WFHCKw8",
-          "trailer_url": "https://www.youtube.com/watch?v=E3f9WFHCKw8"
+          "youtube_id": "lnOXs9fCxZg",
+          "trailer_url": "https://www.youtube.com/watch?v=lnOXs9fCxZg"
         },
         {
           "title": "Buscando a Wanda",
@@ -254,54 +302,6 @@
           "overview": "Cuando la hija de los Klatt desaparece, deciden tomar cartas en el asunto y traman un plan descabellado: espiar al vecindario. Al adentrarse en el mundo del espionaje aficionado, saldrán a la luz uno a uno secretos impactantes.",
           "youtube_id": "ZBi67kQWaEI",
           "trailer_url": "https://www.youtube.com/watch?v=ZBi67kQWaEI"
-        },
-        {
-          "title": "Nadie quiere esto",
-          "subtitle": "SERIE • 2024 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kiMhxXmkmqtpeY9jB8il3KajrDu.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/77sozyYenyY1JraK6YzLfDlTMpp.jpg",
-          "overview": "Una presentadora de pódcast y un rabino que acaba de quedar soltero se enamoran. ¿Podrá su relación sobrevivir a sus distintos estilos de vida y sus entrometidas familias?",
-          "youtube_id": "ZilLVkoxQbo",
-          "trailer_url": "https://www.youtube.com/watch?v=ZilLVkoxQbo"
-        },
-        {
-          "title": "A cualquier precio",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
-          "overview": "Una tensa sociedad entre un endurecido sicario de la mafia y un joven agente negro del FBI se ve forzada a una difícil alianza para rastrear a los responsables del asesinato de varios líderes de los derechos civiles; en el proceso, descubrirán una conspiración que pondrá a prueba los límites de la justicia, la lealtad y la supervivencia.",
-          "youtube_id": "inD3gM8LWKc",
-          "trailer_url": "https://www.youtube.com/watch?v=inD3gM8LWKc"
-        },
-        {
-          "title": "Oro sin ley",
-          "subtitle": "PELÍCULA • 2026 • 1h 52m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
-          "overview": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?",
-          "youtube_id": "nk0p7MV_l3Y",
-          "trailer_url": "https://www.youtube.com/watch?v=nk0p7MV_l3Y"
-        },
-        {
-          "title": "El gran farsante",
-          "subtitle": "SERIE • 2020 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2020",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/am5RPNJ2msb91Uza8wIIxWbjTKp.jpg",
-          "overview": "El presunto estafador más grande de Japón, Makoto Edamura, se encuentra con una sorpresa cuando intenta timar a Laurent Thierry, un delincuente de primera.",
-          "youtube_id": "qg71zKCAU2o",
-          "trailer_url": "https://www.youtube.com/watch?v=qg71zKCAU2o"
         }
       ]
     },
@@ -341,8 +341,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
           "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
-          "youtube_id": "9Nm2QBIZhcI",
-          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+          "youtube_id": "08c_c2Z-d78",
+          "trailer_url": "https://www.youtube.com/watch?v=08c_c2Z-d78"
         },
         {
           "title": "Pecadores",
@@ -357,16 +357,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=iXrfVpHKCnE"
         },
         {
-          "title": "En Directo",
-          "subtitle": "PELÍCULA • 2026 • 1h 56m",
+          "title": "Sueño de fuga",
+          "subtitle": "PELÍCULA • 1994 • 2h 23m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 56m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
-          "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
-          "youtube_id": "amKV7GKxlhk",
-          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
+          "year": "1994",
+          "extra_info": "2h 23m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+          "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
+          "youtube_id": "4u87tmlj4oE",
+          "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
           "title": "El señor de los anillos: La comunidad del anillo",
@@ -381,16 +381,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "Sueño de fuga",
-          "subtitle": "PELÍCULA • 1994 • 2h 23m",
+          "title": "En Directo",
+          "subtitle": "PELÍCULA • 2026 • 1h 56m",
           "media_type": "PELÍCULA",
-          "year": "1994",
-          "extra_info": "2h 23m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
-          "overview": "Andy Dufresne es un banquero injustamente encarcelado en la prisión de Shawshank por el asesinato de su esposa y su amante. Dentro de prisión, Andy entabla una amistad con Red, un prisionero con habilidades para conseguir cosas. Estos dos hombres encarcelados se unirán durante años, encontrando consuelo y eventual redención a través de actos de decencia común.",
-          "youtube_id": "4u87tmlj4oE",
-          "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
+          "year": "2026",
+          "extra_info": "1h 56m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
+          "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
+          "youtube_id": "amKV7GKxlhk",
+          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
         },
         {
           "title": "El cadáver de la novia",
@@ -442,8 +442,20 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6idNHT0nOD7a1ldv7vhNJFW6jl9.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
           "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
-          "youtube_id": "HCRjJE1DqMA",
-          "trailer_url": "https://www.youtube.com/watch?v=HCRjJE1DqMA"
+          "youtube_id": "ldyfHSG7C68",
+          "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
+        },
+        {
+          "title": "Coco",
+          "subtitle": "PELÍCULA • 2017 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2017",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
+          "youtube_id": "_xwBcT8iBEg",
+          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
         },
         {
           "title": "Toy Story 5",
@@ -468,18 +480,6 @@
           "overview": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
           "youtube_id": "qeEYT6tFTWE",
           "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
-        },
-        {
-          "title": "Coco",
-          "subtitle": "PELÍCULA • 2017 • 1h 49m",
-          "media_type": "PELÍCULA",
-          "year": "2017",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
-          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
-          "youtube_id": "_xwBcT8iBEg",
-          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
         },
         {
           "title": "Avengers: Endgame",
@@ -559,16 +559,16 @@
       "category": "Top 10 Prime Video",
       "items": [
         {
-          "title": "Proyecto Fin del Mundo",
-          "subtitle": "PELÍCULA • 2026 • 2h 36m",
+          "title": "Velocidad y Deseo",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
-          "youtube_id": "S7w4cDtHyFQ",
-          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+          "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
+          "youtube_id": "tKZwT35XZ4M",
+          "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
         },
         {
           "title": "Masterplan",
@@ -581,6 +581,18 @@
           "overview": "Cuando un ladrón legendario decide robarse la Mona Lisa, recluta a dos jóvenes desconocidos para que lo ayuden: Chiara, una experta cibercriminal italiana y Jay, un especialista en explosivos francés. Y luego les revela que es padre de ambos. Envueltos en una caótica reunión familiar, deben aprender a trabajar juntos sin matarse entre sí para lograr el robo del siglo.",
           "youtube_id": "jx_lmUFGGog",
           "trailer_url": "https://www.youtube.com/watch?v=jx_lmUFGGog"
+        },
+        {
+          "title": "Proyecto Fin del Mundo",
+          "subtitle": "PELÍCULA • 2026 • 2h 36m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
+          "youtube_id": "S7w4cDtHyFQ",
+          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
         },
         {
           "title": "La guerra de los mundos",
@@ -619,16 +631,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=WJXzfFo_7FQ"
         },
         {
-          "title": "Trolls 2: Gira Mundial",
-          "subtitle": "PELÍCULA • 2020 • 1h 31m",
+          "title": "Batman: El caballero de la noche",
+          "subtitle": "PELÍCULA • 2008 • 2h 32m",
           "media_type": "PELÍCULA",
-          "year": "2020",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9GdgycCYq3vnxLHw5Ldah8JEjH4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
-          "overview": "Queen Poppy y Branch hacen un descubrimiento sorprendente: hay otros mundos Troll más allá del suyo, y sus diferencias distintivas crean grandes enfrentamientos entre estas diversas tribus. Cuando una misteriosa amenaza pone en peligro a todos los Trolls de la tierra, Poppy, Branch y su banda de amigos deben embarcarse en una búsqueda épica para crear armonía entre los Trolls en disputa para unirlos en contra de cierto destino amargo",
-          "youtube_id": "6zaZFUqURFA",
-          "trailer_url": "https://www.youtube.com/watch?v=6zaZFUqURFA"
+          "year": "2008",
+          "extra_info": "2h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+          "youtube_id": "kj7urtvmwrY",
+          "trailer_url": "https://www.youtube.com/watch?v=kj7urtvmwrY"
         },
         {
           "title": "El señor de los anillos: La comunidad del anillo",
@@ -643,16 +655,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "Batman: El caballero de la noche",
-          "subtitle": "PELÍCULA • 2008 • 2h 32m",
+          "title": "Trolls 2: Gira Mundial",
+          "subtitle": "PELÍCULA • 2020 • 1h 31m",
           "media_type": "PELÍCULA",
-          "year": "2008",
-          "extra_info": "2h 32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
-          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
-          "youtube_id": "kj7urtvmwrY",
-          "trailer_url": "https://www.youtube.com/watch?v=kj7urtvmwrY"
+          "year": "2020",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9GdgycCYq3vnxLHw5Ldah8JEjH4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
+          "overview": "Queen Poppy y Branch hacen un descubrimiento sorprendente: hay otros mundos Troll más allá del suyo, y sus diferencias distintivas crean grandes enfrentamientos entre estas diversas tribus. Cuando una misteriosa amenaza pone en peligro a todos los Trolls de la tierra, Poppy, Branch y su banda de amigos deben embarcarse en una búsqueda épica para crear armonía entre los Trolls en disputa para unirlos en contra de cierto destino amargo",
+          "youtube_id": "6zaZFUqURFA",
+          "trailer_url": "https://www.youtube.com/watch?v=6zaZFUqURFA"
         },
         {
           "title": "El señor de los anillos: El retorno del rey",
@@ -665,18 +677,6 @@
           "overview": "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino.",
           "youtube_id": "h-9RYiqyqjk",
           "trailer_url": "https://www.youtube.com/watch?v=h-9RYiqyqjk"
-        },
-        {
-          "title": "El hombre araña",
-          "subtitle": "PELÍCULA • 2002 • 2h 1m",
-          "media_type": "PELÍCULA",
-          "year": "2002",
-          "extra_info": "2h 1m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/8eTbNzpjK9VJGu1g60j268MmXzm.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
-          "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia.",
-          "youtube_id": "8vKR8559EMo",
-          "trailer_url": "https://www.youtube.com/watch?v=8vKR8559EMo"
         }
       ]
     },
@@ -744,16 +744,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
+          "title": "Ready Player One: Comienza el juego",
+          "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+          "year": "2018",
+          "extra_info": "2h 20m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
+          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
+          "youtube_id": "R2DDDEQ8ceI",
+          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
           "title": "El abismo secreto",
@@ -768,45 +768,93 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
-          "title": "Ready Player One: Comienza el juego",
-          "subtitle": "PELÍCULA • 2018 • 2h 20m",
+          "title": "La guerra de los mundos",
+          "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 20m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
-          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
-          "youtube_id": "R2DDDEQ8ceI",
-          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
+          "year": "2025",
+          "extra_info": "1h 31m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+          "youtube_id": "VeXEOwwFFG8",
+          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "Mayday: Catástrofes Aéreas",
-          "subtitle": "SERIE • 2003 • 26 Temporadas",
+          "title": "A la caza de espíritus malignos",
+          "subtitle": "SERIE • 2020 • 2 Temporadas",
           "media_type": "SERIE",
-          "year": "2003",
-          "extra_info": "26 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/2uuVIAb4MtPmMNTpOyID5V8DzrU.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/vqm22ecqtzy5Olr74mkUV5lWa9g.jpg",
-          "overview": "Conoce las historias de personas que han sufrido accidentes aéreos, sus familiares y los investigadores de seguridad que estudian las causas. Entre ellas están error del piloto, un incendio o falta de mantenimiento.",
-          "youtube_id": "lMG_C9kQUJw",
-          "trailer_url": "https://www.youtube.com/watch?v=lMG_C9kQUJw"
+          "year": "2020",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
+          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
+          "youtube_id": "WnS2x0_hYgs",
+          "trailer_url": "https://www.youtube.com/watch?v=WnS2x0_hYgs"
         },
         {
-          "title": "Identidad desconocida",
-          "subtitle": "PELÍCULA • 2002 • 1h 58m",
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
           "media_type": "PELÍCULA",
-          "year": "2002",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/kJaRWmy1BGq3pHyE94LOTteiHer.jpg",
-          "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria.",
-          "youtube_id": "AXMLkYf2Ilo",
-          "trailer_url": "https://www.youtube.com/watch?v=AXMLkYf2Ilo"
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Timbiriche",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/tye6G2ACvlVF4jEmVqWaAhucLic.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/4YP7E7UMfkZ3eKtBHpuJXs5XEyw.jpg",
+      "overview": "Timbiriche, un gran fenómeno musical de los 80s que muestra la compleja vida de sus jóvenes: fama, conflictos, adicciones y cambios de integrantes.",
+      "youtube_id": "fnd_D1mFXxs",
+      "trailer_url": "https://www.youtube.com/watch?v=fnd_D1mFXxs"
+    },
+    {
+      "title": "El Caso Asunta",
+      "subtitle": "SERIE • 2024 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/mqVwu7nwNyYv6ehdVbRGCkLraUQ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/sU43u8iWvCT6aQ0Mvi4hB6VkuDg.jpg",
+      "overview": "Cuando los padres de Asunta, que tiene solo doce años, denuncian su desaparición, la investigación pronto se vuelve en su contra.",
+      "youtube_id": "ve9EAJ41zhU",
+      "trailer_url": "https://www.youtube.com/watch?v=ve9EAJ41zhU"
+    },
+    {
+      "title": "Velocidad y Deseo",
+      "subtitle": "PELÍCULA • 2026 • 1h 43m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 43m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+      "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
+      "youtube_id": "tKZwT35XZ4M",
+      "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
+    },
+    {
+      "title": "Tierra de Mi Padre",
+      "subtitle": "PELÍCULA • 2026 • 1h 22m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 22m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
+      "overview": "En 1949, el escritor alemán Thomas Mann y su hija Erika emprenden un viaje por carretera a través de una Alemania en ruinas, desde Fráncfort —bajo dominio estadounidense— hasta Weimar —bajo control soviético—.",
+      "youtube_id": "xanbPAYT4vc",
+      "trailer_url": "https://www.youtube.com/watch?v=xanbPAYT4vc"
+    },
     {
       "title": "El verano en que me enamoré",
       "subtitle": "SERIE • 2022 • 3 Temporadas",
@@ -828,8 +876,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/7Autsi9TxGFLsTOn0om2IhY3yWJ.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/ahcoSyqliUE5MaQDERYpYtny1xd.jpg",
       "overview": "Cuenta la historia de un hotel de provincias que acaba de recibir su cuarta estrella y cuyo dueño, interpretado por Antonio Resines, fallece tras revelar que tenía una hija fuera del matrimonio. Ahora las tres hermanastras y la viuda deberán gestionar juntas el hotel, mientras intentan descubrir que ha pasado con el cuerpo del finado, desaparecido tras un accidente en el funeral.",
-      "youtube_id": "OwyeR5NoYA0",
-      "trailer_url": "https://www.youtube.com/watch?v=OwyeR5NoYA0"
+      "youtube_id": "AprKgsdsuu0",
+      "trailer_url": "https://www.youtube.com/watch?v=AprKgsdsuu0"
     },
     {
       "title": "Hechizo de amor: La magia continúa",
@@ -1024,13 +1072,13 @@
       "trailer_url": "https://www.youtube.com/watch?v=Mx_nFa_Qk1w"
     },
     {
-      "title": "De Repente",
+      "title": "De repente",
       "subtitle": "PELÍCULA • 2026 • 3h 16m",
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "3h 16m",
       "poster_url": "https://image.tmdb.org/t/p/w500/gniQjGg0LaLaiWQOqxdVJkMH0Jx.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yF4vFj0BSle87KSuRLhtT1PPfvs.jpg",
       "overview": "Marie-Lou Fontaine, directora de una residencia de ancianos en las afueras de París, desafía las convenciones al adoptar el método «Humanitude», a pesar de la resistencia de su equipo. Su encuentro con Mari Morisaki, una dramaturga japonesa con una enfermedad terminal, transforma su vida. Juntas, convierten el centro en un símbolo de resistencia y humanidad frente a las limitaciones del sistema.",
       "youtube_id": "NmfURdt5Sa4",
       "trailer_url": "https://www.youtube.com/watch?v=NmfURdt5Sa4"
@@ -1044,8 +1092,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/iPBQ9btO6VBX6z8qJUdKBwiEGo8.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
       "overview": "Dos delincuentes de poca monta son contratados para trasladar a un adolescente adinerado y problemático a rehabilitación, pero su trabajo, aparentemente sencillo, se complica y se convierte en caos, malas decisiones y planes cada vez más desesperados.",
-      "youtube_id": "E3f9WFHCKw8",
-      "trailer_url": "https://www.youtube.com/watch?v=E3f9WFHCKw8"
+      "youtube_id": "lnOXs9fCxZg",
+      "trailer_url": "https://www.youtube.com/watch?v=lnOXs9fCxZg"
     },
     {
       "title": "Buscando a Wanda",
@@ -1058,54 +1106,6 @@
       "overview": "Cuando la hija de los Klatt desaparece, deciden tomar cartas en el asunto y traman un plan descabellado: espiar al vecindario. Al adentrarse en el mundo del espionaje aficionado, saldrán a la luz uno a uno secretos impactantes.",
       "youtube_id": "ZBi67kQWaEI",
       "trailer_url": "https://www.youtube.com/watch?v=ZBi67kQWaEI"
-    },
-    {
-      "title": "Nadie quiere esto",
-      "subtitle": "SERIE • 2024 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kiMhxXmkmqtpeY9jB8il3KajrDu.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/77sozyYenyY1JraK6YzLfDlTMpp.jpg",
-      "overview": "Una presentadora de pódcast y un rabino que acaba de quedar soltero se enamoran. ¿Podrá su relación sobrevivir a sus distintos estilos de vida y sus entrometidas familias?",
-      "youtube_id": "ZilLVkoxQbo",
-      "trailer_url": "https://www.youtube.com/watch?v=ZilLVkoxQbo"
-    },
-    {
-      "title": "A cualquier precio",
-      "subtitle": "PELÍCULA • 2026 • 1h 47m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 47m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
-      "overview": "Una tensa sociedad entre un endurecido sicario de la mafia y un joven agente negro del FBI se ve forzada a una difícil alianza para rastrear a los responsables del asesinato de varios líderes de los derechos civiles; en el proceso, descubrirán una conspiración que pondrá a prueba los límites de la justicia, la lealtad y la supervivencia.",
-      "youtube_id": "inD3gM8LWKc",
-      "trailer_url": "https://www.youtube.com/watch?v=inD3gM8LWKc"
-    },
-    {
-      "title": "Oro sin ley",
-      "subtitle": "PELÍCULA • 2026 • 1h 52m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 52m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
-      "overview": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?",
-      "youtube_id": "nk0p7MV_l3Y",
-      "trailer_url": "https://www.youtube.com/watch?v=nk0p7MV_l3Y"
-    },
-    {
-      "title": "El gran farsante",
-      "subtitle": "SERIE • 2020 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2020",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/am5RPNJ2msb91Uza8wIIxWbjTKp.jpg",
-      "overview": "El presunto estafador más grande de Japón, Makoto Edamura, se encuentra con una sorpresa cuando intenta timar a Laurent Thierry, un delincuente de primera.",
-      "youtube_id": "qg71zKCAU2o",
-      "trailer_url": "https://www.youtube.com/watch?v=qg71zKCAU2o"
     }
   ]
 }
