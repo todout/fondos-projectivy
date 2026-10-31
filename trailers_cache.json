@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Tú también lo harías",
+          "subtitle": "SERIE • 2023 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2023",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jEwrXny7XniVu36fDqKsAr8ti6z.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3xdtxrlDSGixLc3CMAJLiOZfItm.jpg",
+          "overview": "Un autobús es secuestrado por tres ladrones que mueren antes de que lograran escapar. La historia de todos los pasajeros es la misma: un hombre encapuchado los salvó. Mientras el caso se desarrolla, la diferencia entre héroe y criminal comienza a difuminarse.",
+          "youtube_id": "WRj091Evhc4",
+          "trailer_url": "https://www.youtube.com/watch?v=WRj091Evhc4"
+        },
+        {
+          "title": "Sacrificio: Los elegidos",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yTBEtVlCGxZc61JLv82tWNTgewi.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
+          "overview": "Durante una gala benéfica repleta de estrellas —entre ellas celebridades, multimillonarios y discursos vacíos—, una estrella de cine inmersa en una crisis existencial es tomada como rehén por una guerrera radical y sus fieles seguidores. A medida que la noche se precipita hacia el caos, se desarrollan simultáneamente un viaje interior y una aventura externa, donde la línea que separa la representación de la creencia, y la salvación del sacrificio, comienza a desdibujarse.",
+          "youtube_id": "-Oi37LXE4GU",
+          "trailer_url": "https://www.youtube.com/watch?v=-Oi37LXE4GU"
+        },
+        {
+          "title": "Noche fatídica",
+          "subtitle": "PELÍCULA • 2026 • 2h 4m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 4m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+          "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
+          "youtube_id": "9Nm2QBIZhcI",
+          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+        },
+        {
           "title": "S.W.A.T. Exiles: Nueva generación",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -24,8 +60,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/31iHlDe30pudzLfPaAg20H5gJmE.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
           "overview": "Para recuperar un monto millonario, el empleado de una corporación se embarca en una misión que lo sumerge en un mundo de misterio y terrorismo.",
-          "youtube_id": "UCyZYRRXsHc",
-          "trailer_url": "https://www.youtube.com/watch?v=UCyZYRRXsHc"
+          "youtube_id": "dnHdIZ6VMTw",
+          "trailer_url": "https://www.youtube.com/watch?v=dnHdIZ6VMTw"
         },
         {
           "title": "El último gran golpe",
@@ -46,7 +82,7 @@
           "year": "2026",
           "extra_info": "1h 47m",
           "poster_url": "https://image.tmdb.org/t/p/w500/bxIjfl7NFM9ON8m38bsFhwYaTKC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/u2Fiz8KC804t9Go2jG2KRxiGzRZ.jpg",
           "overview": "Una mujer llega a Roma en 1965, huyendo de un marido maltratador y de acusaciones como el adulterio y el abandono del domicilio conyugal, dejando atrás a su hija recién nacida.",
           "youtube_id": "PSZGf_y4CCU",
           "trailer_url": "https://www.youtube.com/watch?v=PSZGf_y4CCU"
@@ -108,8 +144,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wDeFJIE5chr2P8iKW6HjyHKNm8x.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
           "overview": "Drama multigeneracional que gira en torno a un triángulo amoroso entre una chica y dos hermanos, las relaciones cambiantes entre madres e hijos, y el poder duradero de una fuerte amistad femenina. Es una historia de madurez sobre el primer amor, el primer desamor y la magia de un verano perfecto.",
-          "youtube_id": "XFecTqDQ1vU",
-          "trailer_url": "https://www.youtube.com/watch?v=XFecTqDQ1vU"
+          "youtube_id": "P770zHu4tI0",
+          "trailer_url": "https://www.youtube.com/watch?v=P770zHu4tI0"
         },
         {
           "title": "4 estrellas",
@@ -120,8 +156,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/7Autsi9TxGFLsTOn0om2IhY3yWJ.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/ahcoSyqliUE5MaQDERYpYtny1xd.jpg",
           "overview": "Cuenta la historia de un hotel de provincias que acaba de recibir su cuarta estrella y cuyo dueño, interpretado por Antonio Resines, fallece tras revelar que tenía una hija fuera del matrimonio. Ahora las tres hermanastras y la viuda deberán gestionar juntas el hotel, mientras intentan descubrir que ha pasado con el cuerpo del finado, desaparecido tras un accidente en el funeral.",
-          "youtube_id": "AprKgsdsuu0",
-          "trailer_url": "https://www.youtube.com/watch?v=AprKgsdsuu0"
+          "youtube_id": "tyFqufEhpk0",
+          "trailer_url": "https://www.youtube.com/watch?v=tyFqufEhpk0"
         },
         {
           "title": "Hechizo de amor: La magia continúa",
@@ -266,42 +302,6 @@
           "overview": "¡Comienzan las clases en Hollywood Arts! La autoproclamada estrella Trina Vega vuelve para llevar a los alumnos al estrellato, al reconocimiento... y al caos.",
           "youtube_id": "lcVU3VTLIR8",
           "trailer_url": "https://www.youtube.com/watch?v=lcVU3VTLIR8"
-        },
-        {
-          "title": "Sacrificio: Los elegidos",
-          "subtitle": "PELÍCULA • 2026 • 1h 43m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 43m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yTBEtVlCGxZc61JLv82tWNTgewi.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
-          "overview": "Durante una gala benéfica repleta de estrellas —entre ellas celebridades, multimillonarios y discursos vacíos—, una estrella de cine inmersa en una crisis existencial es tomada como rehén por una guerrera radical y sus fieles seguidores. A medida que la noche se precipita hacia el caos, se desarrollan simultáneamente un viaje interior y una aventura externa, donde la línea que separa la representación de la creencia, y la salvación del sacrificio, comienza a desdibujarse.",
-          "youtube_id": "-Oi37LXE4GU",
-          "trailer_url": "https://www.youtube.com/watch?v=-Oi37LXE4GU"
-        },
-        {
-          "title": "LOOK BACK: Continúa Dibujando",
-          "subtitle": "PELÍCULA • 2024 • 1h 2m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 2m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yGPEQdlYbAINCK7DbhhEY0UUycS.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/2okfik8YwzSfdETpT5cUClSiGFO.jpg",
-          "overview": "Fujino, una estudiante de cuarto grado, publica un manga en el periódico escolar, recibiendo buenas críticas de sus compañeros. Un día, su maestro le cuenta que Kyomoto, una compañera que falta a clases, también quiere publicar su propio manga. Su amor por el manga las une, pero un suceso lo cambia todo. Así comienza una desgarradora historia...",
-          "youtube_id": "15G9NrHznZI",
-          "trailer_url": "https://www.youtube.com/watch?v=15G9NrHznZI"
-        },
-        {
-          "title": "Colisión",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
-          "overview": "Para cumplir la última voluntad de su padre, una joven enfrenta a su madre por el negocio familiar, en una lucha marcada por traición y secretos.",
-          "youtube_id": "X0ojvkup9q8",
-          "trailer_url": "https://www.youtube.com/watch?v=X0ojvkup9q8"
         }
       ]
     },
@@ -309,16 +309,16 @@
       "category": "Top 10 Netflix",
       "items": [
         {
-          "title": "Animales",
-          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "title": "Noche fatídica",
+          "subtitle": "PELÍCULA • 2026 • 2h 4m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/hhycOr6ji35RMGHnstHN4UKAvR4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-          "overview": "Cuando secuestran a su hijo, un candidato a alcalde y su esposa buscan desesperadamente reunir dinero para el rescate, pero sus decisiones podrían destruirles la vida.",
-          "youtube_id": "tr663Bu3Whk",
-          "trailer_url": "https://www.youtube.com/watch?v=tr663Bu3Whk"
+          "extra_info": "2h 4m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+          "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
+          "youtube_id": "9Nm2QBIZhcI",
+          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
         },
         {
           "title": "Contra el huracán",
@@ -333,16 +333,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=zKApuso5SCo"
         },
         {
-          "title": "Noche fatídica",
-          "subtitle": "PELÍCULA • 2026 • 2h 4m",
+          "title": "Animales",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "2h 4m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
-          "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
-          "youtube_id": "9Nm2QBIZhcI",
-          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/hhycOr6ji35RMGHnstHN4UKAvR4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+          "overview": "Cuando secuestran a su hijo, un candidato a alcalde y su esposa buscan desesperadamente reunir dinero para el rescate, pero sus decisiones podrían destruirles la vida.",
+          "youtube_id": "tr663Bu3Whk",
+          "trailer_url": "https://www.youtube.com/watch?v=tr663Bu3Whk"
         },
         {
           "title": "Pecadores",
@@ -381,18 +381,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "El cadáver de la novia",
-          "subtitle": "PELÍCULA • 2005 • 1h 17m",
-          "media_type": "PELÍCULA",
-          "year": "2005",
-          "extra_info": "1h 17m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/nf58Ni0DPP9KY5tEMo2lAyUIYU3.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/v23fWgJUEt8EMmvn19btIacxP8E.jpg",
-          "overview": "Cuando un tímido novio practica sus votos matrimoniales en presencia inadvertida de una joven fallecida, ella se levanta de la tumba asumiendo que se ha casado con ella.",
-          "youtube_id": "lRp36GW1pr8",
-          "trailer_url": "https://www.youtube.com/watch?v=lRp36GW1pr8"
-        },
-        {
           "title": "El viaje de Chihiro",
           "subtitle": "PELÍCULA • 2001 • 2h 5m",
           "media_type": "PELÍCULA",
@@ -405,6 +393,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         },
         {
+          "title": "El cadáver de la novia",
+          "subtitle": "PELÍCULA • 2005 • 1h 17m",
+          "media_type": "PELÍCULA",
+          "year": "2005",
+          "extra_info": "1h 17m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/nf58Ni0DPP9KY5tEMo2lAyUIYU3.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/v23fWgJUEt8EMmvn19btIacxP8E.jpg",
+          "overview": "Cuando un tímido novio practica sus votos matrimoniales en presencia inadvertida de una joven fallecida, ella se levanta de la tumba asumiendo que se ha casado con ella.",
+          "youtube_id": "lRp36GW1pr8",
+          "trailer_url": "https://www.youtube.com/watch?v=lRp36GW1pr8"
+        },
+        {
           "title": "En Directo",
           "subtitle": "PELÍCULA • 2026 • 1h 56m",
           "media_type": "PELÍCULA",
@@ -413,20 +413,20 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/4MQDsOft2xkNxTpOHvULBwKFbbn.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
           "overview": "Una reportera joven y su reticente cámara buscan una historia... y acaban formando parte de una red de extracción ilegal de arena dirigida por una despiadada organización mafiosa.",
-          "youtube_id": "3otG2x-eK58",
-          "trailer_url": "https://www.youtube.com/watch?v=3otG2x-eK58"
+          "youtube_id": "amKV7GKxlhk",
+          "trailer_url": "https://www.youtube.com/watch?v=amKV7GKxlhk"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "title": "La Leyenda Del Charro Negro",
+          "subtitle": "PELÍCULA • 2018 • 1h 25m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
+          "year": "2018",
+          "extra_info": "1h 25m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fDLJ5vIeRL68cIHlob11w2pBzH0.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3AXR3AFTHdU38OR14jfcK8FjJ5H.jpg",
+          "overview": "Después de haber liberado al Chupacabras, Leo San Juan decide que es tiempo de regresar junto con su hermano Nando a casa de su abuela. A mitad del camino, el Charro Negro logra confundir a Leo, y gracias a eso, una niña inocente es transportada al inframundo. Leo se ve forzado a reparar el daño. Sus amigos irán a ayudarlo y saldrán de ahí lo antes posible. Pero no es una coincidencia que el Charro haya decidido involucrar a Leo, ya que sus intenciones van más allá de conseguir un alma nueva...",
+          "youtube_id": "YclerlveAm4",
+          "trailer_url": "https://www.youtube.com/watch?v=YclerlveAm4"
         }
       ]
     },
@@ -454,8 +454,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6idNHT0nOD7a1ldv7vhNJFW6jl9.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
           "overview": "Cansado de asustar a los humanos cada 31 de octubre con la misma vieja bolsa de trucos, Jack Skellington, el rey de Halloween Town, secuestra a Santa Claus y planea entregar cabezas encogidas y otros regalos macabros a los niños en la mañana de Navidad. Pero a medida que la Navidad se acerca, la novia de Jack, Sally, intenta frustrar sus planes equivocados.",
-          "youtube_id": "ldyfHSG7C68",
-          "trailer_url": "https://www.youtube.com/watch?v=ldyfHSG7C68"
+          "youtube_id": "h5jlIQuHXFY",
+          "trailer_url": "https://www.youtube.com/watch?v=h5jlIQuHXFY"
         },
         {
           "title": "Toy Story 5",
@@ -506,18 +506,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "Avatar: Fuego y ceniza",
-          "subtitle": "PELÍCULA • 2025 • 3h 18m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "3h 18m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
-          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
-          "youtube_id": "z05pKcZwz-U",
-          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
-        },
-        {
           "title": "Deadpool & Wolverine",
           "subtitle": "PELÍCULA • 2024 • 2h 8m",
           "media_type": "PELÍCULA",
@@ -528,6 +516,18 @@
           "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
           "youtube_id": "V4ZDKt9KICo",
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
+        },
+        {
+          "title": "Avatar: Fuego y ceniza",
+          "subtitle": "PELÍCULA • 2025 • 3h 18m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "3h 18m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
+          "youtube_id": "z05pKcZwz-U",
+          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
           "title": "El señor de los anillos: La comunidad del anillo",
@@ -595,7 +595,7 @@
           "trailer_url": "https://www.youtube.com/watch?v=jx_lmUFGGog"
         },
         {
-          "title": "Ali G: Who Iz I?",
+          "title": "Ali G: ¿Kién Ez Yo?",
           "subtitle": "PELÍCULA • 2026 • 1h 29m",
           "media_type": "PELÍCULA",
           "year": "2026",
@@ -667,16 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "title": "Harry Potter y la piedra filosofal",
+          "subtitle": "PELÍCULA • 2001 • 2h 32m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
+          "year": "2001",
+          "extra_info": "2h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kNNtiEp5qktfRjiwjkRq8WLmF40.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg",
+          "overview": "Al cumplir los once años, Harry Potter descubre que es un mago y que es hijo de dos destacados hechiceros. Mientras estudia en la escuela Hogwarts de Magia y Hechicería, poco a poco descubre más la verdad sobre la muerte de sus padres hechiceros.",
+          "youtube_id": "ZgrCZVjPg9g",
+          "trailer_url": "https://www.youtube.com/watch?v=ZgrCZVjPg9g"
         }
       ]
     },
@@ -744,6 +744,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
+          "title": "El abismo secreto",
+          "subtitle": "PELÍCULA • 2025 • 2h 8m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
+          "youtube_id": "3QbfHIKyd4I",
+          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
+        },
+        {
           "title": "Ready Player One: Comienza el juego",
           "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
@@ -756,16 +768,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
-          "title": "El abismo secreto",
-          "subtitle": "PELÍCULA • 2025 • 2h 8m",
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
-          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
-          "youtube_id": "3QbfHIKyd4I",
-          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
           "title": "A la caza de espíritus malignos",
@@ -790,23 +802,47 @@
           "overview": "Conoce las historias de personas que han sufrido accidentes aéreos, sus familiares y los investigadores de seguridad que estudian las causas. Entre ellas están error del piloto, un incendio o falta de mantenimiento.",
           "youtube_id": "lMG_C9kQUJw",
           "trailer_url": "https://www.youtube.com/watch?v=lMG_C9kQUJw"
-        },
-        {
-          "title": "La guerra de los mundos",
-          "subtitle": "PELÍCULA • 2025 • 1h 31m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 31m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-          "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
-          "youtube_id": "VeXEOwwFFG8",
-          "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Tú también lo harías",
+      "subtitle": "SERIE • 2023 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2023",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/jEwrXny7XniVu36fDqKsAr8ti6z.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/3xdtxrlDSGixLc3CMAJLiOZfItm.jpg",
+      "overview": "Un autobús es secuestrado por tres ladrones que mueren antes de que lograran escapar. La historia de todos los pasajeros es la misma: un hombre encapuchado los salvó. Mientras el caso se desarrolla, la diferencia entre héroe y criminal comienza a difuminarse.",
+      "youtube_id": "WRj091Evhc4",
+      "trailer_url": "https://www.youtube.com/watch?v=WRj091Evhc4"
+    },
+    {
+      "title": "Sacrificio: Los elegidos",
+      "subtitle": "PELÍCULA • 2026 • 1h 43m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 43m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/yTBEtVlCGxZc61JLv82tWNTgewi.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
+      "overview": "Durante una gala benéfica repleta de estrellas —entre ellas celebridades, multimillonarios y discursos vacíos—, una estrella de cine inmersa en una crisis existencial es tomada como rehén por una guerrera radical y sus fieles seguidores. A medida que la noche se precipita hacia el caos, se desarrollan simultáneamente un viaje interior y una aventura externa, donde la línea que separa la representación de la creencia, y la salvación del sacrificio, comienza a desdibujarse.",
+      "youtube_id": "-Oi37LXE4GU",
+      "trailer_url": "https://www.youtube.com/watch?v=-Oi37LXE4GU"
+    },
+    {
+      "title": "Noche fatídica",
+      "subtitle": "PELÍCULA • 2026 • 2h 4m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 4m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+      "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
+      "youtube_id": "9Nm2QBIZhcI",
+      "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+    },
     {
       "title": "S.W.A.T. Exiles: Nueva generación",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -828,8 +864,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/31iHlDe30pudzLfPaAg20H5gJmE.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
       "overview": "Para recuperar un monto millonario, el empleado de una corporación se embarca en una misión que lo sumerge en un mundo de misterio y terrorismo.",
-      "youtube_id": "UCyZYRRXsHc",
-      "trailer_url": "https://www.youtube.com/watch?v=UCyZYRRXsHc"
+      "youtube_id": "dnHdIZ6VMTw",
+      "trailer_url": "https://www.youtube.com/watch?v=dnHdIZ6VMTw"
     },
     {
       "title": "El último gran golpe",
@@ -850,7 +886,7 @@
       "year": "2026",
       "extra_info": "1h 47m",
       "poster_url": "https://image.tmdb.org/t/p/w500/bxIjfl7NFM9ON8m38bsFhwYaTKC.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/u2Fiz8KC804t9Go2jG2KRxiGzRZ.jpg",
       "overview": "Una mujer llega a Roma en 1965, huyendo de un marido maltratador y de acusaciones como el adulterio y el abandono del domicilio conyugal, dejando atrás a su hija recién nacida.",
       "youtube_id": "PSZGf_y4CCU",
       "trailer_url": "https://www.youtube.com/watch?v=PSZGf_y4CCU"
@@ -912,8 +948,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/wDeFJIE5chr2P8iKW6HjyHKNm8x.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
       "overview": "Drama multigeneracional que gira en torno a un triángulo amoroso entre una chica y dos hermanos, las relaciones cambiantes entre madres e hijos, y el poder duradero de una fuerte amistad femenina. Es una historia de madurez sobre el primer amor, el primer desamor y la magia de un verano perfecto.",
-      "youtube_id": "XFecTqDQ1vU",
-      "trailer_url": "https://www.youtube.com/watch?v=XFecTqDQ1vU"
+      "youtube_id": "P770zHu4tI0",
+      "trailer_url": "https://www.youtube.com/watch?v=P770zHu4tI0"
     },
     {
       "title": "4 estrellas",
@@ -924,8 +960,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/7Autsi9TxGFLsTOn0om2IhY3yWJ.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/ahcoSyqliUE5MaQDERYpYtny1xd.jpg",
       "overview": "Cuenta la historia de un hotel de provincias que acaba de recibir su cuarta estrella y cuyo dueño, interpretado por Antonio Resines, fallece tras revelar que tenía una hija fuera del matrimonio. Ahora las tres hermanastras y la viuda deberán gestionar juntas el hotel, mientras intentan descubrir que ha pasado con el cuerpo del finado, desaparecido tras un accidente en el funeral.",
-      "youtube_id": "AprKgsdsuu0",
-      "trailer_url": "https://www.youtube.com/watch?v=AprKgsdsuu0"
+      "youtube_id": "tyFqufEhpk0",
+      "trailer_url": "https://www.youtube.com/watch?v=tyFqufEhpk0"
     },
     {
       "title": "Hechizo de amor: La magia continúa",
@@ -1070,42 +1106,6 @@
       "overview": "¡Comienzan las clases en Hollywood Arts! La autoproclamada estrella Trina Vega vuelve para llevar a los alumnos al estrellato, al reconocimiento... y al caos.",
       "youtube_id": "lcVU3VTLIR8",
       "trailer_url": "https://www.youtube.com/watch?v=lcVU3VTLIR8"
-    },
-    {
-      "title": "Sacrificio: Los elegidos",
-      "subtitle": "PELÍCULA • 2026 • 1h 43m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 43m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/yTBEtVlCGxZc61JLv82tWNTgewi.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
-      "overview": "Durante una gala benéfica repleta de estrellas —entre ellas celebridades, multimillonarios y discursos vacíos—, una estrella de cine inmersa en una crisis existencial es tomada como rehén por una guerrera radical y sus fieles seguidores. A medida que la noche se precipita hacia el caos, se desarrollan simultáneamente un viaje interior y una aventura externa, donde la línea que separa la representación de la creencia, y la salvación del sacrificio, comienza a desdibujarse.",
-      "youtube_id": "-Oi37LXE4GU",
-      "trailer_url": "https://www.youtube.com/watch?v=-Oi37LXE4GU"
-    },
-    {
-      "title": "LOOK BACK: Continúa Dibujando",
-      "subtitle": "PELÍCULA • 2024 • 1h 2m",
-      "media_type": "PELÍCULA",
-      "year": "2024",
-      "extra_info": "1h 2m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/yGPEQdlYbAINCK7DbhhEY0UUycS.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/2okfik8YwzSfdETpT5cUClSiGFO.jpg",
-      "overview": "Fujino, una estudiante de cuarto grado, publica un manga en el periódico escolar, recibiendo buenas críticas de sus compañeros. Un día, su maestro le cuenta que Kyomoto, una compañera que falta a clases, también quiere publicar su propio manga. Su amor por el manga las une, pero un suceso lo cambia todo. Así comienza una desgarradora historia...",
-      "youtube_id": "15G9NrHznZI",
-      "trailer_url": "https://www.youtube.com/watch?v=15G9NrHznZI"
-    },
-    {
-      "title": "Colisión",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
-      "overview": "Para cumplir la última voluntad de su padre, una joven enfrenta a su madre por el negocio familiar, en una lucha marcada por traición y secretos.",
-      "youtube_id": "X0ojvkup9q8",
-      "trailer_url": "https://www.youtube.com/watch?v=X0ojvkup9q8"
     }
   ]
 }
