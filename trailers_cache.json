@@ -4,6 +4,66 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Balaraw: La isla sangrienta",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/s1A6UOu8IOmw0kJXohlitMRiwQb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/dLFyQRJqL2zyP5wmRztUKVQV6Hw.jpg",
+          "overview": "Años después de la desaparición de su madre, una pista misteriosa lleva a Sabina a una isla desierta, donde se enfrenta a los oscuros secretos de su propia familia.",
+          "youtube_id": "mNAIyJbg1lw",
+          "trailer_url": "https://www.youtube.com/watch?v=mNAIyJbg1lw"
+        },
+        {
+          "title": "Stick: El swing perfecto",
+          "subtitle": "SERIE • 2025 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2025",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5LwgtrR3CxNXAmCvDjYHvVlLKHJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/2Bt2uXrIOQASBAsni2AGGqCCF14.jpg",
+          "overview": "Pryce Cahill estaba destinado al éxito cuando un colapso desvió su carrera. Ahora esforzándose por sobrevivir, apuesta todo para entrenar a Santi, un joven talentoso con un inmenso potencial, y así poder enderezar su vida.",
+          "youtube_id": "kQovUmKXmKE",
+          "trailer_url": "https://www.youtube.com/watch?v=kQovUmKXmKE"
+        },
+        {
+          "title": "El Regalo De Cumpleaños",
+          "subtitle": "PELÍCULA • 2026 • 1h 26m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 26m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xUMZvvkriIEMmfFvEr7uXhz19oV.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
+          "overview": "Marlene Frischmann (Jeanne Goursaud) quiere celebrar por todo lo alto el cumpleaños de su hijo Theo (Levin Wopp) y lo tiene todo preparado en la elegante casa de campo de su hermano: globos, una tarta sin gluten, una piñata e incluso animales salvajes prometen convertir el día en algo inolvidable. Pero la celebración, preparada con todo el cariño, no tarda en convertirse en una pesadilla desternillante, con acaloradas discusiones sobre la crianza, los modelos de masculinidad y los principios educativos. Tampoco ayudan precisamente a poner orden su alborotador hermano banquero Timo (Edin Hasanović), su excéntrico y desorientado padre Hans (Heiner Lauterbach), su compañera Jenny (Amal Keller), una idealista empeñada en salvar el mundo, y un regalo muy especial. Entre una familia de lo más disfuncional, madres helicóptero obsesionadas con controlarlo todo y la anarquía infantil, la fiesta acaba sumida en el caos.",
+          "youtube_id": "4lSDLpPDd6E",
+          "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
+        },
+        {
+          "title": "The Mongoose",
+          "subtitle": "PELÍCULA • 2026 • 1h 39m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 39m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2UkYw2GCXif38KoX3vDFNZnVlbi.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/fEpP7Kib3LeUz0ckTsNJ52cl1k0.jpg",
+          "overview": "Acusado de un delito que no cometió y sin nada que perder, un héroe de guerra llamado Ryan «Fang» Flanagan se enfrenta a las agresivas fuerzas del orden en una persecución en coche por todo el país, con la ayuda de sus compañeros de armas y de un público comprensivo que anima su huida.",
+          "youtube_id": "ZloLYKUFuw0",
+          "trailer_url": "https://www.youtube.com/watch?v=ZloLYKUFuw0"
+        },
+        {
+          "title": "Top Chef VIP",
+          "subtitle": "SERIE • 2022 • 5 Temporadas",
+          "media_type": "SERIE",
+          "year": "2022",
+          "extra_info": "5 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bv5TPT00UnZCy9lfXGPo9VGuviH.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/tN9wBWcG0DkjBy06X4niCasUhu4.jpg",
+          "overview": "Dieciséis celebridades ponen a prueba sus habilidades culinarias y son juzgadas por un panel de chefs profesionales con un concursante eliminado cada semana. El ganador recibirá 100.000 dólares estadounidenses.",
+          "youtube_id": "6WhXhEb4YiM",
+          "trailer_url": "https://www.youtube.com/watch?v=6WhXhEb4YiM"
+        },
+        {
           "title": "Temporada de Amor",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -69,11 +129,11 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 39m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2UkYw2GCXif38KoX3vDFNZnVlbi.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/fEpP7Kib3LeUz0ckTsNJ52cl1k0.jpg",
           "overview": "Acusado de un delito que no cometió y sin nada que perder, un héroe de guerra llamado Ryan «Fang» Flanagan se enfrenta a las agresivas fuerzas del orden en una persecución en coche por todo el país, con la ayuda de sus compañeros de armas y de un público comprensivo que anima su huida.",
-          "youtube_id": "G4z1jp6gC9A",
-          "trailer_url": "https://www.youtube.com/watch?v=G4z1jp6gC9A"
+          "youtube_id": "ZloLYKUFuw0",
+          "trailer_url": "https://www.youtube.com/watch?v=ZloLYKUFuw0"
         },
         {
           "title": "Puedes verlo todo",
@@ -168,8 +228,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/mgsw0NVOn5VX9rA6An8ijwUFX7q.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
           "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
-          "youtube_id": "aVaYB4QAyTI",
-          "trailer_url": "https://www.youtube.com/watch?v=aVaYB4QAyTI"
+          "youtube_id": "0bw9HnZvhF0",
+          "trailer_url": "https://www.youtube.com/watch?v=0bw9HnZvhF0"
         },
         {
           "title": "Nocturno",
@@ -202,7 +262,7 @@
           "year": "2026",
           "extra_info": "1h 43m",
           "poster_url": "https://image.tmdb.org/t/p/w500/yTBEtVlCGxZc61JLv82tWNTgewi.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/dslA1EcpHDHKXcQmUopjEfO4jPf.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uBRVzvMlNlKsegUCDXIwP7W6Ygb.jpg",
           "overview": "Durante una gala benéfica repleta de estrellas —entre ellas celebridades, multimillonarios y discursos vacíos—, una estrella de cine inmersa en una crisis existencial es tomada como rehén por una guerrera radical y sus fieles seguidores. A medida que la noche se precipita hacia el caos, se desarrollan simultáneamente un viaje interior y una aventura externa, donde la línea que separa la representación de la creencia, y la salvación del sacrificio, comienza a desdibujarse.",
           "youtube_id": "-Oi37LXE4GU",
           "trailer_url": "https://www.youtube.com/watch?v=-Oi37LXE4GU"
@@ -240,68 +300,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/5YtrWYAuw8wQwDKHSlVLmohpFw2.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
           "overview": "Para recuperar un monto millonario, el empleado de una corporación se embarca en una misión que lo sumerge en un mundo de misterio y terrorismo.",
-          "youtube_id": "J_-HdZkDWqQ",
-          "trailer_url": "https://www.youtube.com/watch?v=J_-HdZkDWqQ"
-        },
-        {
-          "title": "El último gran golpe",
-          "subtitle": "PELÍCULA • 2026 • 1h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/r0ZuhQn3v1INDUavdAPY7tPWR96.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
-          "overview": "El dueño de un club nocturno está a punto de dejar atrás su peligroso pasado para volver a vivir con su novia. Cuando unos pistoleros enmascarados le roban y se ve acorralado por despiadados cárteles, llega un misterioso hombre interesado en comprar el negocio. Con el peligro acechándole por todos lados, deberá atravesar una mortífera red de engaños, poder y supervivencia, de la que escapar puede que ya no sea una opción.",
-          "youtube_id": "FA80kZmV4g8",
-          "trailer_url": "https://www.youtube.com/watch?v=FA80kZmV4g8"
-        },
-        {
-          "title": "Nosotros, Pero Un Poco Mejor",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bxIjfl7NFM9ON8m38bsFhwYaTKC.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
-          "overview": "Una mujer llega a Roma en 1965, huyendo de un marido maltratador y de acusaciones como el adulterio y el abandono del domicilio conyugal, dejando atrás a su hija recién nacida.",
-          "youtube_id": "PSZGf_y4CCU",
-          "trailer_url": "https://www.youtube.com/watch?v=PSZGf_y4CCU"
-        },
-        {
-          "title": "Timbiriche",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tye6G2ACvlVF4jEmVqWaAhucLic.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4YP7E7UMfkZ3eKtBHpuJXs5XEyw.jpg",
-          "overview": "Timbiriche, un gran fenómeno musical de los 80s que muestra la compleja vida de sus jóvenes: fama, conflictos, adicciones y cambios de integrantes.",
-          "youtube_id": "fnd_D1mFXxs",
-          "trailer_url": "https://www.youtube.com/watch?v=fnd_D1mFXxs"
-        },
-        {
-          "title": "El Caso Asunta",
-          "subtitle": "SERIE • 2024 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mqVwu7nwNyYv6ehdVbRGCkLraUQ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/sU43u8iWvCT6aQ0Mvi4hB6VkuDg.jpg",
-          "overview": "Cuando los padres de Asunta, que tiene solo doce años, denuncian su desaparición, la investigación pronto se vuelve en su contra.",
-          "youtube_id": "ve9EAJ41zhU",
-          "trailer_url": "https://www.youtube.com/watch?v=ve9EAJ41zhU"
-        },
-        {
-          "title": "Velocidad y Deseo",
-          "subtitle": "PELÍCULA • 2026 • 1h 43m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 43m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
-          "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
-          "youtube_id": "tKZwT35XZ4M",
-          "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
+          "youtube_id": "dnHdIZ6VMTw",
+          "trailer_url": "https://www.youtube.com/watch?v=dnHdIZ6VMTw"
         }
       ]
     },
@@ -315,7 +315,7 @@
           "year": "2026",
           "extra_info": "2h 2m",
           "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/xDw1Qm73qioQKCOx2VP5w4CBusL.jpg",
           "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
           "youtube_id": "Jk12Xo0-oDc",
           "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
@@ -341,8 +341,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
           "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
-          "youtube_id": "9Nm2QBIZhcI",
-          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+          "youtube_id": "08c_c2Z-d78",
+          "trailer_url": "https://www.youtube.com/watch?v=08c_c2Z-d78"
         },
         {
           "title": "Animales",
@@ -405,18 +405,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
         },
         {
-          "title": "El viaje de Chihiro",
-          "subtitle": "PELÍCULA • 2001 • 2h 5m",
-          "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
-          "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
-          "youtube_id": "5Fgq4Osh6XQ",
-          "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
-        },
-        {
           "title": "El señor de los anillos: La comunidad del anillo",
           "subtitle": "PELÍCULA • 2001 • 2h 59m",
           "media_type": "PELÍCULA",
@@ -427,6 +415,18 @@
           "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
           "youtube_id": "3GJp6p_mgPo",
           "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
+        },
+        {
+          "title": "El viaje de Chihiro",
+          "subtitle": "PELÍCULA • 2001 • 2h 5m",
+          "media_type": "PELÍCULA",
+          "year": "2001",
+          "extra_info": "2h 5m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
+          "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
+          "youtube_id": "5Fgq4Osh6XQ",
+          "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         }
       ]
     },
@@ -475,11 +475,23 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 55m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6WWJiE7Dwj63H122IOG2htJsCGP.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uJNKHZLgnvWqveB4uai0kaWom6M.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
           "overview": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
           "youtube_id": "qeEYT6tFTWE",
           "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
+        },
+        {
+          "title": "Avengers: Endgame",
+          "subtitle": "PELÍCULA • 2019 • 3h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "3h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+          "youtube_id": "4WMuAEQ-LIA",
+          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
           "title": "Avengers: Endgame",
@@ -504,18 +516,6 @@
           "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
           "youtube_id": "V4ZDKt9KICo",
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
-        },
-        {
-          "title": "Avengers: Endgame",
-          "subtitle": "PELÍCULA • 2019 • 3h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "3h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ycvuLbEuMG88UPuwuAYJWY0ZI8v.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
-          "youtube_id": "4WMuAEQ-LIA",
-          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -603,8 +603,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/mgsw0NVOn5VX9rA6An8ijwUFX7q.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
           "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
-          "youtube_id": "aVaYB4QAyTI",
-          "trailer_url": "https://www.youtube.com/watch?v=aVaYB4QAyTI"
+          "youtube_id": "0bw9HnZvhF0",
+          "trailer_url": "https://www.youtube.com/watch?v=0bw9HnZvhF0"
         },
         {
           "title": "La guerra de los mundos",
@@ -792,21 +792,81 @@
           "trailer_url": "https://www.youtube.com/watch?v=lMG_C9kQUJw"
         },
         {
-          "title": "A la caza de espíritus malignos",
-          "subtitle": "SERIE • 2020 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2020",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qKO8ZSEwq50EGk3BeAh8J9Gr34K.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jNyK0FF7t7oaU4wMpRkEnEIOVlW.jpg",
-          "overview": "Un grupo de personas se llama \"Counter\". Su propósito es cazar espíritus malignos y cada uno tiene sus propias habilidades especiales. El grupo se disfraza de empleados de un restaurante de fideos.\n\nSo Moon es un estudiante de secundaria y es el miembro más joven de \"Counter\". Su habilidad especial es su fuerza física. Cuando era niño, estuvo involucrado en un sospechoso accidente automovilístico. Sus padres murieron en el accidente y quedó cojo en la pierna izquierda. Ga Mo Tak es un ex oficial de policía. Tuvo un accidente hace 7 años, lo que le hizo perder la memoria. El es una persona justa. Do Ha Na puede sentir espíritus malignos a cientos de kilómetros de distancia. Cuando toca a alguien, puede leer sus recuerdos. Choo Mae Ok es el chef del restaurante de fideos. Ella es el ancla de \"Counter\". Choi Jang Mool es el primer \"Counter\" de Corea y se encarga de gestionar los gastos del grupo.",
-          "youtube_id": "WnS2x0_hYgs",
-          "trailer_url": "https://www.youtube.com/watch?v=WnS2x0_hYgs"
+          "title": "Ready Player One: Comienza el juego",
+          "subtitle": "PELÍCULA • 2018 • 2h 20m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "2h 20m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
+          "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
+          "youtube_id": "R2DDDEQ8ceI",
+          "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Balaraw: La isla sangrienta",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/s1A6UOu8IOmw0kJXohlitMRiwQb.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/dLFyQRJqL2zyP5wmRztUKVQV6Hw.jpg",
+      "overview": "Años después de la desaparición de su madre, una pista misteriosa lleva a Sabina a una isla desierta, donde se enfrenta a los oscuros secretos de su propia familia.",
+      "youtube_id": "mNAIyJbg1lw",
+      "trailer_url": "https://www.youtube.com/watch?v=mNAIyJbg1lw"
+    },
+    {
+      "title": "Stick: El swing perfecto",
+      "subtitle": "SERIE • 2025 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2025",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5LwgtrR3CxNXAmCvDjYHvVlLKHJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/2Bt2uXrIOQASBAsni2AGGqCCF14.jpg",
+      "overview": "Pryce Cahill estaba destinado al éxito cuando un colapso desvió su carrera. Ahora esforzándose por sobrevivir, apuesta todo para entrenar a Santi, un joven talentoso con un inmenso potencial, y así poder enderezar su vida.",
+      "youtube_id": "kQovUmKXmKE",
+      "trailer_url": "https://www.youtube.com/watch?v=kQovUmKXmKE"
+    },
+    {
+      "title": "El Regalo De Cumpleaños",
+      "subtitle": "PELÍCULA • 2026 • 1h 26m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 26m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xUMZvvkriIEMmfFvEr7uXhz19oV.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
+      "overview": "Marlene Frischmann (Jeanne Goursaud) quiere celebrar por todo lo alto el cumpleaños de su hijo Theo (Levin Wopp) y lo tiene todo preparado en la elegante casa de campo de su hermano: globos, una tarta sin gluten, una piñata e incluso animales salvajes prometen convertir el día en algo inolvidable. Pero la celebración, preparada con todo el cariño, no tarda en convertirse en una pesadilla desternillante, con acaloradas discusiones sobre la crianza, los modelos de masculinidad y los principios educativos. Tampoco ayudan precisamente a poner orden su alborotador hermano banquero Timo (Edin Hasanović), su excéntrico y desorientado padre Hans (Heiner Lauterbach), su compañera Jenny (Amal Keller), una idealista empeñada en salvar el mundo, y un regalo muy especial. Entre una familia de lo más disfuncional, madres helicóptero obsesionadas con controlarlo todo y la anarquía infantil, la fiesta acaba sumida en el caos.",
+      "youtube_id": "4lSDLpPDd6E",
+      "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
+    },
+    {
+      "title": "The Mongoose",
+      "subtitle": "PELÍCULA • 2026 • 1h 39m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 39m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/2UkYw2GCXif38KoX3vDFNZnVlbi.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/fEpP7Kib3LeUz0ckTsNJ52cl1k0.jpg",
+      "overview": "Acusado de un delito que no cometió y sin nada que perder, un héroe de guerra llamado Ryan «Fang» Flanagan se enfrenta a las agresivas fuerzas del orden en una persecución en coche por todo el país, con la ayuda de sus compañeros de armas y de un público comprensivo que anima su huida.",
+      "youtube_id": "ZloLYKUFuw0",
+      "trailer_url": "https://www.youtube.com/watch?v=ZloLYKUFuw0"
+    },
+    {
+      "title": "Top Chef VIP",
+      "subtitle": "SERIE • 2022 • 5 Temporadas",
+      "media_type": "SERIE",
+      "year": "2022",
+      "extra_info": "5 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/bv5TPT00UnZCy9lfXGPo9VGuviH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/tN9wBWcG0DkjBy06X4niCasUhu4.jpg",
+      "overview": "Dieciséis celebridades ponen a prueba sus habilidades culinarias y son juzgadas por un panel de chefs profesionales con un concursante eliminado cada semana. El ganador recibirá 100.000 dólares estadounidenses.",
+      "youtube_id": "6WhXhEb4YiM",
+      "trailer_url": "https://www.youtube.com/watch?v=6WhXhEb4YiM"
+    },
     {
       "title": "Temporada de Amor",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -873,11 +933,11 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 39m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/2UkYw2GCXif38KoX3vDFNZnVlbi.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/fEpP7Kib3LeUz0ckTsNJ52cl1k0.jpg",
       "overview": "Acusado de un delito que no cometió y sin nada que perder, un héroe de guerra llamado Ryan «Fang» Flanagan se enfrenta a las agresivas fuerzas del orden en una persecución en coche por todo el país, con la ayuda de sus compañeros de armas y de un público comprensivo que anima su huida.",
-      "youtube_id": "G4z1jp6gC9A",
-      "trailer_url": "https://www.youtube.com/watch?v=G4z1jp6gC9A"
+      "youtube_id": "ZloLYKUFuw0",
+      "trailer_url": "https://www.youtube.com/watch?v=ZloLYKUFuw0"
     },
     {
       "title": "Puedes verlo todo",
@@ -972,8 +1032,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/mgsw0NVOn5VX9rA6An8ijwUFX7q.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
       "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
-      "youtube_id": "aVaYB4QAyTI",
-      "trailer_url": "https://www.youtube.com/watch?v=aVaYB4QAyTI"
+      "youtube_id": "0bw9HnZvhF0",
+      "trailer_url": "https://www.youtube.com/watch?v=0bw9HnZvhF0"
     },
     {
       "title": "Nocturno",
@@ -1006,7 +1066,7 @@
       "year": "2026",
       "extra_info": "1h 43m",
       "poster_url": "https://image.tmdb.org/t/p/w500/yTBEtVlCGxZc61JLv82tWNTgewi.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/dslA1EcpHDHKXcQmUopjEfO4jPf.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/uBRVzvMlNlKsegUCDXIwP7W6Ygb.jpg",
       "overview": "Durante una gala benéfica repleta de estrellas —entre ellas celebridades, multimillonarios y discursos vacíos—, una estrella de cine inmersa en una crisis existencial es tomada como rehén por una guerrera radical y sus fieles seguidores. A medida que la noche se precipita hacia el caos, se desarrollan simultáneamente un viaje interior y una aventura externa, donde la línea que separa la representación de la creencia, y la salvación del sacrificio, comienza a desdibujarse.",
       "youtube_id": "-Oi37LXE4GU",
       "trailer_url": "https://www.youtube.com/watch?v=-Oi37LXE4GU"
@@ -1044,68 +1104,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/5YtrWYAuw8wQwDKHSlVLmohpFw2.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
       "overview": "Para recuperar un monto millonario, el empleado de una corporación se embarca en una misión que lo sumerge en un mundo de misterio y terrorismo.",
-      "youtube_id": "J_-HdZkDWqQ",
-      "trailer_url": "https://www.youtube.com/watch?v=J_-HdZkDWqQ"
-    },
-    {
-      "title": "El último gran golpe",
-      "subtitle": "PELÍCULA • 2026 • 1h 36m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 36m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/r0ZuhQn3v1INDUavdAPY7tPWR96.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
-      "overview": "El dueño de un club nocturno está a punto de dejar atrás su peligroso pasado para volver a vivir con su novia. Cuando unos pistoleros enmascarados le roban y se ve acorralado por despiadados cárteles, llega un misterioso hombre interesado en comprar el negocio. Con el peligro acechándole por todos lados, deberá atravesar una mortífera red de engaños, poder y supervivencia, de la que escapar puede que ya no sea una opción.",
-      "youtube_id": "FA80kZmV4g8",
-      "trailer_url": "https://www.youtube.com/watch?v=FA80kZmV4g8"
-    },
-    {
-      "title": "Nosotros, Pero Un Poco Mejor",
-      "subtitle": "PELÍCULA • 2026 • 1h 47m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 47m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bxIjfl7NFM9ON8m38bsFhwYaTKC.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
-      "overview": "Una mujer llega a Roma en 1965, huyendo de un marido maltratador y de acusaciones como el adulterio y el abandono del domicilio conyugal, dejando atrás a su hija recién nacida.",
-      "youtube_id": "PSZGf_y4CCU",
-      "trailer_url": "https://www.youtube.com/watch?v=PSZGf_y4CCU"
-    },
-    {
-      "title": "Timbiriche",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tye6G2ACvlVF4jEmVqWaAhucLic.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4YP7E7UMfkZ3eKtBHpuJXs5XEyw.jpg",
-      "overview": "Timbiriche, un gran fenómeno musical de los 80s que muestra la compleja vida de sus jóvenes: fama, conflictos, adicciones y cambios de integrantes.",
-      "youtube_id": "fnd_D1mFXxs",
-      "trailer_url": "https://www.youtube.com/watch?v=fnd_D1mFXxs"
-    },
-    {
-      "title": "El Caso Asunta",
-      "subtitle": "SERIE • 2024 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mqVwu7nwNyYv6ehdVbRGCkLraUQ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/sU43u8iWvCT6aQ0Mvi4hB6VkuDg.jpg",
-      "overview": "Cuando los padres de Asunta, que tiene solo doce años, denuncian su desaparición, la investigación pronto se vuelve en su contra.",
-      "youtube_id": "ve9EAJ41zhU",
-      "trailer_url": "https://www.youtube.com/watch?v=ve9EAJ41zhU"
-    },
-    {
-      "title": "Velocidad y Deseo",
-      "subtitle": "PELÍCULA • 2026 • 1h 43m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 43m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
-      "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
-      "youtube_id": "tKZwT35XZ4M",
-      "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
+      "youtube_id": "dnHdIZ6VMTw",
+      "trailer_url": "https://www.youtube.com/watch?v=dnHdIZ6VMTw"
     }
   ]
 }
