@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Iosi, el espía arrepentido",
+          "subtitle": "SERIE • 2022 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2022",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qGXHDNhbPel7oq0maxTrO06UXB9.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mLVlVbFiTbPkrIhdYRIjd8bS0T9.jpg",
+          "overview": "Un oficial de inteligencia argentino, cuya infiltración en la comunidad judía podría haber sido utilizada para cometer dos de los mayores atentados terroristas de su país, busca justicia antes de que él y su familia sean asesinados.",
+          "youtube_id": "9k4epj1qPzs",
+          "trailer_url": "https://www.youtube.com/watch?v=9k4epj1qPzs"
+        },
+        {
+          "title": "The History of Concrete",
+          "subtitle": "PELÍCULA • 2026 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/dsyJUsyrl2rBiF0k9RpSKT2YQzL.jpg",
+          "overview": "Un cineasta aplica las lecciones de un taller de escritura de películas de Hallmark para presentar un documental sobre el concreto.",
+          "youtube_id": "UQphZKAoUDM",
+          "trailer_url": "https://www.youtube.com/watch?v=UQphZKAoUDM"
+        },
+        {
+          "title": "The Florist",
+          "subtitle": "PELÍCULA • 2026 • 1h 39m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 39m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
+          "overview": "Un tranquilo horticultor que alberga una vida secreta como asesino letal ve peligrar su verdadera identidad cuando entabla una improbable amistad con un testigo de la corrupción policial.",
+          "youtube_id": "vjL-BdDjr7s",
+          "trailer_url": "https://www.youtube.com/watch?v=vjL-BdDjr7s"
+        },
+        {
           "title": "Al norte del norte",
           "subtitle": "SERIE • 2025 • 2 Temporadas",
           "media_type": "SERIE",
@@ -94,7 +130,7 @@
           "year": "2026",
           "extra_info": "1h 37m",
           "poster_url": "https://image.tmdb.org/t/p/w500/AhHDhqLU4817cPc6crmc45vCK55.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
           "overview": "Un hombre planea fingir su muerte y culpar al amante de su esposa por dinero del seguro. Ella trama matarlo de verdad y quedarse todo, iniciando un juego mortal.",
           "youtube_id": "ib0IN9aT6zk",
           "trailer_url": "https://www.youtube.com/watch?v=ib0IN9aT6zk"
@@ -129,11 +165,11 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 26m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/xUMZvvkriIEMmfFvEr7uXhz19oV.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iY3gOboOdUdLAJPDQ93WR3AsFce.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
           "overview": "Marlene Frischmann (Jeanne Goursaud) quiere celebrar por todo lo alto el cumpleaños de su hijo Theo (Levin Wopp) y lo tiene todo preparado en la elegante casa de campo de su hermano: globos, una tarta sin gluten, una piñata e incluso animales salvajes prometen convertir el día en algo inolvidable. Pero la celebración, preparada con todo el cariño, no tarda en convertirse en una pesadilla desternillante, con acaloradas discusiones sobre la crianza, los modelos de masculinidad y los principios educativos. Tampoco ayudan precisamente a poner orden su alborotador hermano banquero Timo (Edin Hasanović), su excéntrico y desorientado padre Hans (Heiner Lauterbach), su compañera Jenny (Amal Keller), una idealista empeñada en salvar el mundo, y un regalo muy especial. Entre una familia de lo más disfuncional, madres helicóptero obsesionadas con controlarlo todo y la anarquía infantil, la fiesta acaba sumida en el caos.",
-          "youtube_id": "4lSDLpPDd6E",
-          "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
+          "youtube_id": "oGqdBoBpgaA",
+          "trailer_url": "https://www.youtube.com/watch?v=oGqdBoBpgaA"
         },
         {
           "title": "La Mangosta",
@@ -180,8 +216,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/g1LPwe6w1jWKiP45XILfzpkr5iZ.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
           "overview": "Ante la menopausia y la ansiedad por tener los nidos vacíos, las amigas Julia y Clara deciden viajar juntas para visitar a sus hijas que están en un programa de intercambio en el extranjero.",
-          "youtube_id": "XZHLeAJlqk8",
-          "trailer_url": "https://www.youtube.com/watch?v=XZHLeAJlqk8"
+          "youtube_id": "Z5xZyw9qee8",
+          "trailer_url": "https://www.youtube.com/watch?v=Z5xZyw9qee8"
         },
         {
           "title": "Caballo salvaje nueve",
@@ -266,42 +302,6 @@
           "overview": "1882. Al morir su padre, la joven Marian Brook se muda a Nueva York, una ciudad al borde de la modernidad, donde lo viejo y lo nuevo chocan.",
           "youtube_id": "LLQz_9mpmYE",
           "trailer_url": "https://www.youtube.com/watch?v=LLQz_9mpmYE"
-        },
-        {
-          "title": "Entre tierras",
-          "subtitle": "SERIE • 2023 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9CoArNRTXUxiaGvR8CUX59jRB6k.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hw3B0x3oNybeaJKZoJdlgELQFsW.jpg",
-          "overview": "María, una mujer andaluza dedicada a cuidar de su familia desde que murió su padre, decide sacrificarse por los suyos y acepta casarse con un terrateniente manchego que viene a su pueblo buscando esposa, a cambio de asegurarse el bienestar y el futuro de su madre y hermanos.",
-          "youtube_id": "9MAGNwHYVbM",
-          "trailer_url": "https://www.youtube.com/watch?v=9MAGNwHYVbM"
-        },
-        {
-          "title": "Scary Movie: Terroríficamente incorrecta",
-          "subtitle": "PELÍCULA • 2026 • 1h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cAvdDPtiuVCauhjCwqK4EX2woHL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
-          "overview": "Veintiséis años después de conseguir escapar de un asesino enmascarado sospechosamente familiar, el Core Four están de vuelta en el punto de mira del asesino y ninguna película de terror está a salvo.",
-          "youtube_id": "XkWa4YPXCOs",
-          "trailer_url": "https://www.youtube.com/watch?v=XkWa4YPXCOs"
-        },
-        {
-          "title": "París bajo fuego",
-          "subtitle": "SERIE • 2024 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5vyjrR23VssfD9ut1DPV5gTi1i8.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/3yoTM5JtkxnPZvVzQOrL0c2ILVM.jpg",
-          "overview": "Un grupo terrorista liderado por Jacob Pierce, excapitán de la Legión Francesa, irrumpe en un importante evento organizado en la embajada británica en París. Su objetivo es el ministro de Defensa francés, pero su guardaespaldas, Vincent Taleb, y una agente del MI6, Zara Taylor, frustran sus planes. Sin embargo, este asalto no es más que el primer ataque en un plan perfectamente construido.",
-          "youtube_id": "m5jmXWWv30E",
-          "trailer_url": "https://www.youtube.com/watch?v=m5jmXWWv30E"
         }
       ]
     },
@@ -357,6 +357,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
         },
         {
+          "title": "Un amor posible",
+          "subtitle": "PELÍCULA • 2026 • 2h 45m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 45m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/y6tr4niJo46r8txkdQYCAJBeZEN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg",
+          "overview": "Un hombre desempleado y su esposa conocen a una cineasta documentalista y su pareja, y los cuatro se enfrentan a sus deseos escondidos.",
+          "youtube_id": "cLXn2obB8zs",
+          "trailer_url": "https://www.youtube.com/watch?v=cLXn2obB8zs"
+        },
+        {
           "title": "Animales",
           "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
@@ -405,28 +417,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=lRp36GW1pr8"
         },
         {
-          "title": "El viaje de Chihiro",
-          "subtitle": "PELÍCULA • 2001 • 2h 5m",
+          "title": "Un poco de compañía antes de morir",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
-          "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
-          "youtube_id": "5Fgq4Osh6XQ",
-          "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
-        },
-        {
-          "title": "El señor de los anillos: La comunidad del anillo",
-          "subtitle": "PELÍCULA • 2001 • 2h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
-          "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
-          "youtube_id": "3GJp6p_mgPo",
-          "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
+          "year": "2026",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4mdyjojUihFbw76GBl6ZO8E8bCh.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
+          "overview": "Yui Katakura (Ko Shibasaki) tiene 40 años, está soltera y vive entregada a una afición muy particular: ahorrar. Poco a poco, ha ido reuniendo un buen colchón para disfrutar de una jubilación tranquila. Pero todos sus planes se desmoronan cuando, tras un chequeo gratuito, le diagnostican cáncer y le dan un año de vida. Todavía conmocionada por la noticia, se cruza de repente con Yoshitaka Sena, alias Ryuma (Eiji Akaso), un atractivo ‘host’ de pelo rosa que le pide dinero prestado. Si de todas formas se va a morir, ya no tiene sentido seguir ahorrando. Así que Yui acepta su insólita petición y «compra» a Sena por 720 000 yenes. Así comienza una relación tan insólita como imprevisible, que pronto dará un giro inesperado.",
+          "youtube_id": "54SxRe5nHjk",
+          "trailer_url": "https://www.youtube.com/watch?v=54SxRe5nHjk"
         }
       ]
     },
@@ -482,6 +482,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
         },
         {
+          "title": "Avengers: Infinity War",
+          "subtitle": "PELÍCULA • 2018 • 2h 29m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "2h 29m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/G7GOAKUjxIjMUVKBhXOviohEB0.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
+          "youtube_id": "aAoKqx9wb1I",
+          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
+        },
+        {
           "title": "Avengers: Endgame",
           "subtitle": "PELÍCULA • 2019 • 3h 0m",
           "media_type": "PELÍCULA",
@@ -506,16 +518,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
         },
         {
-          "title": "Avengers: Infinity War",
-          "subtitle": "PELÍCULA • 2018 • 2h 29m",
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
           "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "2h 29m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/G7GOAKUjxIjMUVKBhXOviohEB0.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-          "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
-          "youtube_id": "aAoKqx9wb1I",
-          "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -528,18 +540,6 @@
           "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
           "youtube_id": "z05pKcZwz-U",
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
-        },
-        {
-          "title": "El señor de los anillos: La comunidad del anillo",
-          "subtitle": "PELÍCULA • 2001 • 2h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
-          "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
-          "youtube_id": "3GJp6p_mgPo",
-          "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
         },
         {
           "title": "El club de la pelea",
@@ -559,18 +559,6 @@
       "category": "Top 10 Prime Video",
       "items": [
         {
-          "title": "Batman: El caballero de la noche",
-          "subtitle": "PELÍCULA • 2008 • 2h 32m",
-          "media_type": "PELÍCULA",
-          "year": "2008",
-          "extra_info": "2h 32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
-          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
-          "youtube_id": "kj7urtvmwrY",
-          "trailer_url": "https://www.youtube.com/watch?v=kj7urtvmwrY"
-        },
-        {
           "title": "Proyecto Fin del Mundo",
           "subtitle": "PELÍCULA • 2026 • 2h 36m",
           "media_type": "PELÍCULA",
@@ -581,6 +569,18 @@
           "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
           "youtube_id": "S7w4cDtHyFQ",
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
+        },
+        {
+          "title": "Batman: El caballero de la noche",
+          "subtitle": "PELÍCULA • 2008 • 2h 32m",
+          "media_type": "PELÍCULA",
+          "year": "2008",
+          "extra_info": "2h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
+          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+          "youtube_id": "dzQtWkpc2-c",
+          "trailer_url": "https://www.youtube.com/watch?v=dzQtWkpc2-c"
         },
         {
           "title": "Apocalipsis Z: Nuevo mundo",
@@ -639,8 +639,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/mgsw0NVOn5VX9rA6An8ijwUFX7q.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
           "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
-          "youtube_id": "aVaYB4QAyTI",
-          "trailer_url": "https://www.youtube.com/watch?v=aVaYB4QAyTI"
+          "youtube_id": "0bw9HnZvhF0",
+          "trailer_url": "https://www.youtube.com/watch?v=0bw9HnZvhF0"
         },
         {
           "title": "Masterplan",
@@ -732,6 +732,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
+          "title": "El abismo secreto",
+          "subtitle": "PELÍCULA • 2025 • 2h 8m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
+          "youtube_id": "3QbfHIKyd4I",
+          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
+        },
+        {
           "title": "Mad Max: Furia en el camino",
           "subtitle": "PELÍCULA • 2015 • 2h 0m",
           "media_type": "PELÍCULA",
@@ -756,18 +768,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
-          "title": "El abismo secreto",
-          "subtitle": "PELÍCULA • 2025 • 2h 8m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
-          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
-          "youtube_id": "3QbfHIKyd4I",
-          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
-        },
-        {
           "title": "La propuesta",
           "subtitle": "PELÍCULA • 2009 • 1h 48m",
           "media_type": "PELÍCULA",
@@ -780,18 +780,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
-          "title": "Plan familiar",
-          "subtitle": "PELÍCULA • 2023 • 1h 58m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mBiylEUJgWikljJJNB61u7dDPON.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/arNhhBd88bP3Bjoe4HT8MFE1JQA.jpg",
-          "overview": "Dan Morgan es un hombre con muchas identidades: es un esposo devoto, un padre amoroso y un reconocido vendedor de autos. También es un asesino retirado. Cuando su pasado pone en riesgo a su presente, se ve forzado a llevar a su ingenua familia en un viaje como ningún otro.",
-          "youtube_id": "KpV1w6ciVnY",
-          "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
-        },
-        {
           "title": "Ready Player One: Comienza el juego",
           "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
@@ -802,11 +790,59 @@
           "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
           "youtube_id": "R2DDDEQ8ceI",
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
+        },
+        {
+          "title": "Plan familiar",
+          "subtitle": "PELÍCULA • 2023 • 1h 58m",
+          "media_type": "PELÍCULA",
+          "year": "2023",
+          "extra_info": "1h 58m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mBiylEUJgWikljJJNB61u7dDPON.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/arNhhBd88bP3Bjoe4HT8MFE1JQA.jpg",
+          "overview": "Dan Morgan es un hombre con muchas identidades: es un esposo devoto, un padre amoroso y un reconocido vendedor de autos. También es un asesino retirado. Cuando su pasado pone en riesgo a su presente, se ve forzado a llevar a su ingenua familia en un viaje como ningún otro.",
+          "youtube_id": "KpV1w6ciVnY",
+          "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Iosi, el espía arrepentido",
+      "subtitle": "SERIE • 2022 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2022",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/qGXHDNhbPel7oq0maxTrO06UXB9.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/mLVlVbFiTbPkrIhdYRIjd8bS0T9.jpg",
+      "overview": "Un oficial de inteligencia argentino, cuya infiltración en la comunidad judía podría haber sido utilizada para cometer dos de los mayores atentados terroristas de su país, busca justicia antes de que él y su familia sean asesinados.",
+      "youtube_id": "9k4epj1qPzs",
+      "trailer_url": "https://www.youtube.com/watch?v=9k4epj1qPzs"
+    },
+    {
+      "title": "The History of Concrete",
+      "subtitle": "PELÍCULA • 2026 • 1h 41m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 41m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/dsyJUsyrl2rBiF0k9RpSKT2YQzL.jpg",
+      "overview": "Un cineasta aplica las lecciones de un taller de escritura de películas de Hallmark para presentar un documental sobre el concreto.",
+      "youtube_id": "UQphZKAoUDM",
+      "trailer_url": "https://www.youtube.com/watch?v=UQphZKAoUDM"
+    },
+    {
+      "title": "The Florist",
+      "subtitle": "PELÍCULA • 2026 • 1h 39m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 39m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
+      "overview": "Un tranquilo horticultor que alberga una vida secreta como asesino letal ve peligrar su verdadera identidad cuando entabla una improbable amistad con un testigo de la corrupción policial.",
+      "youtube_id": "vjL-BdDjr7s",
+      "trailer_url": "https://www.youtube.com/watch?v=vjL-BdDjr7s"
+    },
     {
       "title": "Al norte del norte",
       "subtitle": "SERIE • 2025 • 2 Temporadas",
@@ -898,7 +934,7 @@
       "year": "2026",
       "extra_info": "1h 37m",
       "poster_url": "https://image.tmdb.org/t/p/w500/AhHDhqLU4817cPc6crmc45vCK55.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
       "overview": "Un hombre planea fingir su muerte y culpar al amante de su esposa por dinero del seguro. Ella trama matarlo de verdad y quedarse todo, iniciando un juego mortal.",
       "youtube_id": "ib0IN9aT6zk",
       "trailer_url": "https://www.youtube.com/watch?v=ib0IN9aT6zk"
@@ -933,11 +969,11 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 26m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/xUMZvvkriIEMmfFvEr7uXhz19oV.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/iY3gOboOdUdLAJPDQ93WR3AsFce.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
       "overview": "Marlene Frischmann (Jeanne Goursaud) quiere celebrar por todo lo alto el cumpleaños de su hijo Theo (Levin Wopp) y lo tiene todo preparado en la elegante casa de campo de su hermano: globos, una tarta sin gluten, una piñata e incluso animales salvajes prometen convertir el día en algo inolvidable. Pero la celebración, preparada con todo el cariño, no tarda en convertirse en una pesadilla desternillante, con acaloradas discusiones sobre la crianza, los modelos de masculinidad y los principios educativos. Tampoco ayudan precisamente a poner orden su alborotador hermano banquero Timo (Edin Hasanović), su excéntrico y desorientado padre Hans (Heiner Lauterbach), su compañera Jenny (Amal Keller), una idealista empeñada en salvar el mundo, y un regalo muy especial. Entre una familia de lo más disfuncional, madres helicóptero obsesionadas con controlarlo todo y la anarquía infantil, la fiesta acaba sumida en el caos.",
-      "youtube_id": "4lSDLpPDd6E",
-      "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
+      "youtube_id": "oGqdBoBpgaA",
+      "trailer_url": "https://www.youtube.com/watch?v=oGqdBoBpgaA"
     },
     {
       "title": "La Mangosta",
@@ -984,8 +1020,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/g1LPwe6w1jWKiP45XILfzpkr5iZ.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
       "overview": "Ante la menopausia y la ansiedad por tener los nidos vacíos, las amigas Julia y Clara deciden viajar juntas para visitar a sus hijas que están en un programa de intercambio en el extranjero.",
-      "youtube_id": "XZHLeAJlqk8",
-      "trailer_url": "https://www.youtube.com/watch?v=XZHLeAJlqk8"
+      "youtube_id": "Z5xZyw9qee8",
+      "trailer_url": "https://www.youtube.com/watch?v=Z5xZyw9qee8"
     },
     {
       "title": "Caballo salvaje nueve",
@@ -1070,42 +1106,6 @@
       "overview": "1882. Al morir su padre, la joven Marian Brook se muda a Nueva York, una ciudad al borde de la modernidad, donde lo viejo y lo nuevo chocan.",
       "youtube_id": "LLQz_9mpmYE",
       "trailer_url": "https://www.youtube.com/watch?v=LLQz_9mpmYE"
-    },
-    {
-      "title": "Entre tierras",
-      "subtitle": "SERIE • 2023 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9CoArNRTXUxiaGvR8CUX59jRB6k.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/hw3B0x3oNybeaJKZoJdlgELQFsW.jpg",
-      "overview": "María, una mujer andaluza dedicada a cuidar de su familia desde que murió su padre, decide sacrificarse por los suyos y acepta casarse con un terrateniente manchego que viene a su pueblo buscando esposa, a cambio de asegurarse el bienestar y el futuro de su madre y hermanos.",
-      "youtube_id": "9MAGNwHYVbM",
-      "trailer_url": "https://www.youtube.com/watch?v=9MAGNwHYVbM"
-    },
-    {
-      "title": "Scary Movie: Terroríficamente incorrecta",
-      "subtitle": "PELÍCULA • 2026 • 1h 36m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 36m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/cAvdDPtiuVCauhjCwqK4EX2woHL.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
-      "overview": "Veintiséis años después de conseguir escapar de un asesino enmascarado sospechosamente familiar, el Core Four están de vuelta en el punto de mira del asesino y ninguna película de terror está a salvo.",
-      "youtube_id": "XkWa4YPXCOs",
-      "trailer_url": "https://www.youtube.com/watch?v=XkWa4YPXCOs"
-    },
-    {
-      "title": "París bajo fuego",
-      "subtitle": "SERIE • 2024 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5vyjrR23VssfD9ut1DPV5gTi1i8.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/3yoTM5JtkxnPZvVzQOrL0c2ILVM.jpg",
-      "overview": "Un grupo terrorista liderado por Jacob Pierce, excapitán de la Legión Francesa, irrumpe en un importante evento organizado en la embajada británica en París. Su objetivo es el ministro de Defensa francés, pero su guardaespaldas, Vincent Taleb, y una agente del MI6, Zara Taylor, frustran sus planes. Sin embargo, este asalto no es más que el primer ataque en un plan perfectamente construido.",
-      "youtube_id": "m5jmXWWv30E",
-      "trailer_url": "https://www.youtube.com/watch?v=m5jmXWWv30E"
     }
   ]
 }
