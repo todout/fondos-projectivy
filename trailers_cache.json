@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Zmora",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/qPwbr4eZzE6cOXVvCxemy3t4pK7.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
+          "overview": "Kama regresa a su ciudad natal y se ve envuelta en un antiguo caso de desaparición. Secretos familiares, pasiones y crímenes revelan que el pasado nunca guarda silencio.",
+          "youtube_id": "aQfz_wunRlE",
+          "trailer_url": "https://www.youtube.com/watch?v=aQfz_wunRlE"
+        },
+        {
+          "title": "Ciudad de Dios: La lucha no para",
+          "subtitle": "SERIE • 2024 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eYrfhsICvQNMMs0TbxpKCFQtZXJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/KvlbwzWi5ldhfPFRzOZy67rsKz.jpg",
+          "overview": "Sigue la vida de los residentes de la favela \"Ciudad de Dios\" 20 años después de la muerte de Zé Pequeño.",
+          "youtube_id": "pl-t85EltO4",
+          "trailer_url": "https://www.youtube.com/watch?v=pl-t85EltO4"
+        },
+        {
+          "title": "NAZA",
+          "subtitle": "PELÍCULA • 2026 • 1h 17m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 17m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qkuEfYYOZTW6ymbZMeyJeYQaMd7.jpg",
+          "overview": "Rodada por la noche en los tejados de Tel Aviv, el documental revela con todo detalle los mecanismos que hay detrás del asesinato en masa y deliberado de civiles palestinos en Gaza por parte de las tropas de Israel. Naza es la palabra utilizada por el ejército israelí para denominar a las víctimas civiles como 'daños colaterales'.",
+          "youtube_id": "jmGrEx-LL-I",
+          "trailer_url": "https://www.youtube.com/watch?v=jmGrEx-LL-I"
+        },
+        {
           "title": "Muhammad Ali: El más grande",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -24,8 +60,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
           "overview": "Loïs llega a Belrose con Max, el amor de su vida. Lane, el creador de la popular aplicación Campus Drivers, es famoso por su falta de apego. Sus caminos no estaban destinados a entrelazarse, pero hay encuentros que cambian todo y reabren viejas heridas. Cuando el amor llega inesperadamente, las certezas desaparecen.",
-          "youtube_id": "KK75maACz7M",
-          "trailer_url": "https://www.youtube.com/watch?v=KK75maACz7M"
+          "youtube_id": "v5k7cT-wW3U",
+          "trailer_url": "https://www.youtube.com/watch?v=v5k7cT-wW3U"
         },
         {
           "title": "Club Kid",
@@ -36,8 +72,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/l4q1gziNMhpVQAzCIwmtbLSB1T9.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
           "overview": "La frenética vida de un promotor de discotecas de Nueva York, amante de la fiesta, da un vuelco con la llegada del hijo de 10 años que nunca supo que tenía.",
-          "youtube_id": "R7ALT59En2M",
-          "trailer_url": "https://www.youtube.com/watch?v=R7ALT59En2M"
+          "youtube_id": "6oEy6nX6EcM",
+          "trailer_url": "https://www.youtube.com/watch?v=6oEy6nX6EcM"
         },
         {
           "title": "Yo Soy Rocky",
@@ -88,16 +124,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=O05arcJjOd0"
         },
         {
-          "title": "The Florist",
-          "subtitle": "PELÍCULA • 2026 • 1h 39m",
+          "title": "FLORES PARA UN ASESINATO",
+          "subtitle": "PELÍCULA",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 39m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/hBDrrwNZhkbBIInNYmevDxU8KrS.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
-          "overview": "Un tranquilo horticultor que alberga una vida secreta como asesino letal ve peligrar su verdadera identidad cuando entabla una improbable amistad con un testigo de la corrupción policial.",
-          "youtube_id": "vjL-BdDjr7s",
-          "trailer_url": "https://www.youtube.com/watch?v=vjL-BdDjr7s"
+          "year": "",
+          "extra_info": "",
+          "poster_url": "",
+          "backdrop_url": "",
+          "overview": "",
+          "youtube_id": "ZDWT2pIFsqU",
+          "trailer_url": "https://www.youtube.com/watch?v=ZDWT2pIFsqU"
         },
         {
           "title": "Al norte del norte",
@@ -120,8 +156,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/wywNNHCRHJ129yTGTYBujnP4vRq.jpg",
           "overview": "Una familia de agentes de la ley cierra las diferencias personales y cruza las fronteras profesionales mientras abordan los casos del FBI, los alguaciles de los Estados Unidos, el Servicio Secreto y el Departamento de Justicia. Después de que un caso aparentemente cortado y seco se convierta en una conspiración mortal, deben usar la experiencia de toda una vida de proteger a civiles y políticos para protegerse unos a otros y llevar al asesino ante la justicia ... incluso si eso significa traicionar su código jurado.",
-          "youtube_id": "rB-YJBs5fSY",
-          "trailer_url": "https://www.youtube.com/watch?v=rB-YJBs5fSY"
+          "youtube_id": "fC-Nf8qV1wo",
+          "trailer_url": "https://www.youtube.com/watch?v=fC-Nf8qV1wo"
         },
         {
           "title": "La razón de estar contigo: Una Navidad perfecta",
@@ -144,8 +180,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/4mdyjojUihFbw76GBl6ZO8E8bCh.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
           "overview": "Yui Katakura (Ko Shibasaki) tiene 40 años, está soltera y vive entregada a una afición muy particular: ahorrar. Poco a poco, ha ido reuniendo un buen colchón para disfrutar de una jubilación tranquila. Pero todos sus planes se desmoronan cuando, tras un chequeo gratuito, le diagnostican cáncer y le dan un año de vida. Todavía conmocionada por la noticia, se cruza de repente con Yoshitaka Sena, alias Ryuma (Eiji Akaso), un atractivo ‘host’ de pelo rosa que le pide dinero prestado. Si de todas formas se va a morir, ya no tiene sentido seguir ahorrando. Así que Yui acepta su insólita petición y «compra» a Sena por 720 000 yenes. Así comienza una relación tan insólita como imprevisible, que pronto dará un giro inesperado.",
-          "youtube_id": "54SxRe5nHjk",
-          "trailer_url": "https://www.youtube.com/watch?v=54SxRe5nHjk"
+          "youtube_id": "VHNv2kq7Oeg",
+          "trailer_url": "https://www.youtube.com/watch?v=VHNv2kq7Oeg"
         },
         {
           "title": "El don de engañar",
@@ -168,8 +204,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/5AylAQhBaf14tIU0q4TAEWCGLC3.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
           "overview": "Comedia que sigue a un grupo de profesores llenos de vocación, con una directora sorda, en su día a día mientras intentan apañárselas con el sistema de educación pública de Filadelfia. Pese a todos los obstáculos que se les ponen por delante, no tiran la toalla a la hora de intentar que sus alumnos logren el éxito en la vida.",
-          "youtube_id": "l4lP8roLz3I",
-          "trailer_url": "https://www.youtube.com/watch?v=l4lP8roLz3I"
+          "youtube_id": "ifaDt1eplkE",
+          "trailer_url": "https://www.youtube.com/watch?v=ifaDt1eplkE"
         },
         {
           "title": "El ladrón del aislamiento",
@@ -189,7 +225,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/AhHDhqLU4817cPc6crmc45vCK55.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/44FE2DMBkX03AaM7GHyrIjNBTSg.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
           "overview": "Un hombre planea fingir su muerte y culpar al amante de su esposa por dinero del seguro. Ella trama matarlo de verdad y quedarse todo, iniciando un juego mortal.",
           "youtube_id": "ib0IN9aT6zk",
@@ -228,8 +264,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/iY3gOboOdUdLAJPDQ93WR3AsFce.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
           "overview": "Marlene Frischmann (Jeanne Goursaud) quiere celebrar por todo lo alto el cumpleaños de su hijo Theo (Levin Wopp) y lo tiene todo preparado en la elegante casa de campo de su hermano: globos, una tarta sin gluten, una piñata e incluso animales salvajes prometen convertir el día en algo inolvidable. Pero la celebración, preparada con todo el cariño, no tarda en convertirse en una pesadilla desternillante, con acaloradas discusiones sobre la crianza, los modelos de masculinidad y los principios educativos. Tampoco ayudan precisamente a poner orden su alborotador hermano banquero Timo (Edin Hasanović), su excéntrico y desorientado padre Hans (Heiner Lauterbach), su compañera Jenny (Amal Keller), una idealista empeñada en salvar el mundo, y un regalo muy especial. Entre una familia de lo más disfuncional, madres helicóptero obsesionadas con controlarlo todo y la anarquía infantil, la fiesta acaba sumida en el caos.",
-          "youtube_id": "4lSDLpPDd6E",
-          "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
+          "youtube_id": "oGqdBoBpgaA",
+          "trailer_url": "https://www.youtube.com/watch?v=oGqdBoBpgaA"
         },
         {
           "title": "La Mangosta",
@@ -266,60 +302,12 @@
           "overview": "Tras perderlo todo de la noche a la mañana, el exitoso diseñador espacial coreano Lee Yubin viaja a Charo, una pequeña isla japonesa. Allí conoce a Shirahama Karin, una tenaz granjera decidida a cultivar fresas... Sus vidas se entrelazan por un malentendido",
           "youtube_id": "Ym2TNuLYzPo",
           "trailer_url": "https://www.youtube.com/watch?v=Ym2TNuLYzPo"
-        },
-        {
-          "title": "Mi mejor amiga",
-          "subtitle": "PELÍCULA • 2026 • 2h 5m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/g1LPwe6w1jWKiP45XILfzpkr5iZ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
-          "overview": "Ante la menopausia y la ansiedad por tener los nidos vacíos, las amigas Julia y Clara deciden viajar juntas para visitar a sus hijas que están en un programa de intercambio en el extranjero.",
-          "youtube_id": "XZHLeAJlqk8",
-          "trailer_url": "https://www.youtube.com/watch?v=XZHLeAJlqk8"
-        },
-        {
-          "title": "Caballo salvaje nueve",
-          "subtitle": "PELÍCULA • 2026 • 1h 58m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ulvGcZer26aBaNG0s4IEJGyyLIq.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
-          "overview": "Poco antes del golpe de estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-          "youtube_id": "MG14cdR2x8E",
-          "trailer_url": "https://www.youtube.com/watch?v=MG14cdR2x8E"
-        },
-        {
-          "title": "La Casa de los Famosos México",
-          "subtitle": "SERIE • 2023 • 4 Temporadas",
-          "media_type": "SERIE",
-          "year": "2023",
-          "extra_info": "4 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/dZMPtV6pTyaD89Sc339vCbrU38n.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/2Zb1bwAMpbepTvd8U0TXmAHPx5y.jpg",
-          "overview": "Distintas celebridades conviven en una misma casa observados por cámaras las 24 horas. Tendrán que superar pruebas, hacer estrategias y eliminarse entre sí para que solo uno consiga ser el ganador de la casa más famosa de México.",
-          "youtube_id": "5hSSNEM3P5Y",
-          "trailer_url": "https://www.youtube.com/watch?v=5hSSNEM3P5Y"
         }
       ]
     },
     {
       "category": "Top 10 Netflix",
       "items": [
-        {
-          "title": "Colisión",
-          "subtitle": "PELÍCULA • 2026 • 2h 2m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 2m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
-          "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
-          "youtube_id": "Jk12Xo0-oDc",
-          "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
-        },
         {
           "title": "La razón de estar contigo: Una Navidad perfecta",
           "subtitle": "PELÍCULA • 2026 • 1h 42m",
@@ -331,6 +319,18 @@
           "overview": "Cuando una emergencia médica sacude a la familia Goss, su sabio perro Winstead decide hacer todo lo posible para mantener a sus humanos unidos antes de la Nochebuena.",
           "youtube_id": "hcAc873ZFxc",
           "trailer_url": "https://www.youtube.com/watch?v=hcAc873ZFxc"
+        },
+        {
+          "title": "Colisión",
+          "subtitle": "PELÍCULA • 2026 • 2h 2m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 2m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+          "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
+          "youtube_id": "Jk12Xo0-oDc",
+          "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
         },
         {
           "title": "Contra el huracán",
@@ -357,16 +357,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
         },
         {
-          "title": "Un amor posible",
-          "subtitle": "PELÍCULA • 2026 • 2h 45m",
+          "title": "Godzilla Minus One",
+          "subtitle": "PELÍCULA • 2023 • 2h 5m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 45m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/y6tr4niJo46r8txkdQYCAJBeZEN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg",
-          "overview": "Un hombre desempleado y su esposa conocen a una cineasta documentalista y su pareja, y los cuatro se enfrentan a sus deseos escondidos.",
-          "youtube_id": "cLXn2obB8zs",
-          "trailer_url": "https://www.youtube.com/watch?v=cLXn2obB8zs"
+          "year": "2023",
+          "extra_info": "2h 5m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/q35kdC8ci9Fm2gVQazJdsohtGpD.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg",
+          "overview": "En el Japón de la posguerra surge un nuevo terror. ¿Podrán sobrevivir las personas devastadas... y mucho menos defenderse?",
+          "youtube_id": "1ESKXArWZ0M",
+          "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
         },
         {
           "title": "La Leyenda Del Charro Negro",
@@ -381,6 +381,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=YclerlveAm4"
         },
         {
+          "title": "Un amor posible",
+          "subtitle": "PELÍCULA • 2026 • 2h 45m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 45m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/y6tr4niJo46r8txkdQYCAJBeZEN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg",
+          "overview": "Un hombre desempleado y su esposa conocen a una cineasta documentalista y su pareja, y los cuatro se enfrentan a sus deseos escondidos.",
+          "youtube_id": "cLXn2obB8zs",
+          "trailer_url": "https://www.youtube.com/watch?v=cLXn2obB8zs"
+        },
+        {
           "title": "Animales",
           "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
@@ -393,18 +405,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=tr663Bu3Whk"
         },
         {
-          "title": "Godzilla Minus One",
-          "subtitle": "PELÍCULA • 2023 • 2h 5m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/q35kdC8ci9Fm2gVQazJdsohtGpD.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg",
-          "overview": "En el Japón de la posguerra surge un nuevo terror. ¿Podrán sobrevivir las personas devastadas... y mucho menos defenderse?",
-          "youtube_id": "1ESKXArWZ0M",
-          "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
-        },
-        {
           "title": "Un poco de compañía antes de morir",
           "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
@@ -413,8 +413,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/4mdyjojUihFbw76GBl6ZO8E8bCh.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
           "overview": "Yui Katakura (Ko Shibasaki) tiene 40 años, está soltera y vive entregada a una afición muy particular: ahorrar. Poco a poco, ha ido reuniendo un buen colchón para disfrutar de una jubilación tranquila. Pero todos sus planes se desmoronan cuando, tras un chequeo gratuito, le diagnostican cáncer y le dan un año de vida. Todavía conmocionada por la noticia, se cruza de repente con Yoshitaka Sena, alias Ryuma (Eiji Akaso), un atractivo ‘host’ de pelo rosa que le pide dinero prestado. Si de todas formas se va a morir, ya no tiene sentido seguir ahorrando. Así que Yui acepta su insólita petición y «compra» a Sena por 720 000 yenes. Así comienza una relación tan insólita como imprevisible, que pronto dará un giro inesperado.",
-          "youtube_id": "54SxRe5nHjk",
-          "trailer_url": "https://www.youtube.com/watch?v=54SxRe5nHjk"
+          "youtube_id": "VHNv2kq7Oeg",
+          "trailer_url": "https://www.youtube.com/watch?v=VHNv2kq7Oeg"
         },
         {
           "title": "Sueño de fuga",
@@ -506,18 +506,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=aAoKqx9wb1I"
         },
         {
-          "title": "Zootopia 2",
-          "subtitle": "PELÍCULA • 2025 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
-          "youtube_id": "4_KaABhCPPk",
-          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
-        },
-        {
           "title": "Avengers: Endgame",
           "subtitle": "PELÍCULA • 2019 • 3h 0m",
           "media_type": "PELÍCULA",
@@ -530,16 +518,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "Deadpool & Wolverine",
-          "subtitle": "PELÍCULA • 2024 • 2h 8m",
+          "title": "Zootopia 2",
+          "subtitle": "PELÍCULA • 2025 • 1h 47m",
           "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
-          "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
-          "youtube_id": "V4ZDKt9KICo",
-          "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
+          "year": "2025",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+          "overview": "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+          "youtube_id": "4_KaABhCPPk",
+          "trailer_url": "https://www.youtube.com/watch?v=4_KaABhCPPk"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -552,6 +540,18 @@
           "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
           "youtube_id": "z05pKcZwz-U",
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
+        },
+        {
+          "title": "Deadpool & Wolverine",
+          "subtitle": "PELÍCULA • 2024 • 2h 8m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+          "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
+          "youtube_id": "V4ZDKt9KICo",
+          "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
         }
       ]
     },
@@ -643,18 +643,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
-          "title": "Ali G: ¿Kién Ez Yo?",
-          "subtitle": "PELÍCULA • 2026 • 1h 29m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 29m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mgsw0NVOn5VX9rA6An8ijwUFX7q.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
-          "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
-          "youtube_id": "aVaYB4QAyTI",
-          "trailer_url": "https://www.youtube.com/watch?v=aVaYB4QAyTI"
-        },
-        {
           "title": "Masterplan",
           "subtitle": "PELÍCULA • 2026 • 1h 50m",
           "media_type": "PELÍCULA",
@@ -667,16 +655,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=jx_lmUFGGog"
         },
         {
-          "title": "Harry Potter y la piedra filosofal",
-          "subtitle": "PELÍCULA • 2001 • 2h 32m",
+          "title": "Ali G: ¿Kién Ez Yo?",
+          "subtitle": "PELÍCULA • 2026 • 1h 29m",
           "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kNNtiEp5qktfRjiwjkRq8WLmF40.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg",
-          "overview": "Al cumplir los once años, Harry Potter descubre que es un mago y que es hijo de dos destacados hechiceros. Mientras estudia en la escuela Hogwarts de Magia y Hechicería, poco a poco descubre más la verdad sobre la muerte de sus padres hechiceros.",
-          "youtube_id": "ZgrCZVjPg9g",
-          "trailer_url": "https://www.youtube.com/watch?v=ZgrCZVjPg9g"
+          "year": "2026",
+          "extra_info": "1h 29m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/mgsw0NVOn5VX9rA6An8ijwUFX7q.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
+          "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
+          "youtube_id": "aVaYB4QAyTI",
+          "trailer_url": "https://www.youtube.com/watch?v=aVaYB4QAyTI"
+        },
+        {
+          "title": "0.0MHz",
+          "subtitle": "PELÍCULA • 2019 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9usnHrtzl6CejBTr8JTvQtxTLAS.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/aWuESNzOu1hfpBxCKR8v5kf5zwr.jpg",
+          "overview": "The members of a supernatural exploration club called 0.0MHz explores a haunted house to prove the existence of frequencies that attract ghosts.",
+          "youtube_id": "IoyyYgp8cl4",
+          "trailer_url": "https://www.youtube.com/watch?v=IoyyYgp8cl4"
         }
       ]
     },
@@ -720,6 +720,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
+          "title": "Mad Max: Furia en el camino",
+          "subtitle": "PELÍCULA • 2015 • 2h 0m",
+          "media_type": "PELÍCULA",
+          "year": "2015",
+          "extra_info": "2h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ixSuKuBnSfHmyzZbcWCywOKZ6Ho.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+          "overview": "Perseguido por su turbulento pasado, Mad Max cree que la mejor forma de sobrevivir es ir solo por el mundo. Sin embargo, se ve arrastrado a formar parte de un grupo que huye a través del desierto en un War Rig conducido por una Emperatriz de élite: Furiosa. Escapan de una Ciudadela tiranizada por Immortan Joe, a quien han arrebatado algo irreemplazable. Enfurecido, el Señor de la Guerra moviliza a todas sus bandas y persigue implacablemente a los rebeldes en una \"guerra de la carretera\" de altas revoluciones... Cuarta entrega de la saga post-apocalíptica que resucita la trilogía que a principios de los ochenta protagonizó Mel Gibson.",
+          "youtube_id": "UyqFAle_4aE",
+          "trailer_url": "https://www.youtube.com/watch?v=UyqFAle_4aE"
+        },
+        {
           "title": "Spider-Man: Lejos de casa",
           "subtitle": "PELÍCULA • 2019 • 2h 9m",
           "media_type": "PELÍCULA",
@@ -732,16 +744,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
-          "title": "Mad Max: Furia en el camino",
-          "subtitle": "PELÍCULA • 2015 • 2h 0m",
+          "title": "El abismo secreto",
+          "subtitle": "PELÍCULA • 2025 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2015",
-          "extra_info": "2h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ixSuKuBnSfHmyzZbcWCywOKZ6Ho.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
-          "overview": "Perseguido por su turbulento pasado, Mad Max cree que la mejor forma de sobrevivir es ir solo por el mundo. Sin embargo, se ve arrastrado a formar parte de un grupo que huye a través del desierto en un War Rig conducido por una Emperatriz de élite: Furiosa. Escapan de una Ciudadela tiranizada por Immortan Joe, a quien han arrebatado algo irreemplazable. Enfurecido, el Señor de la Guerra moviliza a todas sus bandas y persigue implacablemente a los rebeldes en una \"guerra de la carretera\" de altas revoluciones... Cuarta entrega de la saga post-apocalíptica que resucita la trilogía que a principios de los ochenta protagonizó Mel Gibson.",
-          "youtube_id": "UyqFAle_4aE",
-          "trailer_url": "https://www.youtube.com/watch?v=UyqFAle_4aE"
+          "year": "2025",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
+          "youtube_id": "3QbfHIKyd4I",
+          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
           "title": "Los asesinos de la luna",
@@ -756,16 +768,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         },
         {
-          "title": "El abismo secreto",
-          "subtitle": "PELÍCULA • 2025 • 2h 8m",
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
-          "overview": "Dos agentes altamente entrenados se unen a la distancia tras ser enviados a proteger bordes opuestos de un abismo misterioso. Cuando la maldad emerge de él, tienen que trabajar juntos para sobrevivir a lo que yace dentro del abismo.",
-          "youtube_id": "3QbfHIKyd4I",
-          "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
           "title": "Mayday: Catástrofes Aéreas",
@@ -790,23 +802,47 @@
           "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
           "youtube_id": "R2DDDEQ8ceI",
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
-        },
-        {
-          "title": "La propuesta",
-          "subtitle": "PELÍCULA • 2009 • 1h 48m",
-          "media_type": "PELÍCULA",
-          "year": "2009",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
-          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
-          "youtube_id": "rCs8skCWF98",
-          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Zmora",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/qPwbr4eZzE6cOXVvCxemy3t4pK7.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
+      "overview": "Kama regresa a su ciudad natal y se ve envuelta en un antiguo caso de desaparición. Secretos familiares, pasiones y crímenes revelan que el pasado nunca guarda silencio.",
+      "youtube_id": "aQfz_wunRlE",
+      "trailer_url": "https://www.youtube.com/watch?v=aQfz_wunRlE"
+    },
+    {
+      "title": "Ciudad de Dios: La lucha no para",
+      "subtitle": "SERIE • 2024 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/eYrfhsICvQNMMs0TbxpKCFQtZXJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/KvlbwzWi5ldhfPFRzOZy67rsKz.jpg",
+      "overview": "Sigue la vida de los residentes de la favela \"Ciudad de Dios\" 20 años después de la muerte de Zé Pequeño.",
+      "youtube_id": "pl-t85EltO4",
+      "trailer_url": "https://www.youtube.com/watch?v=pl-t85EltO4"
+    },
+    {
+      "title": "NAZA",
+      "subtitle": "PELÍCULA • 2026 • 1h 17m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 17m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/qkuEfYYOZTW6ymbZMeyJeYQaMd7.jpg",
+      "overview": "Rodada por la noche en los tejados de Tel Aviv, el documental revela con todo detalle los mecanismos que hay detrás del asesinato en masa y deliberado de civiles palestinos en Gaza por parte de las tropas de Israel. Naza es la palabra utilizada por el ejército israelí para denominar a las víctimas civiles como 'daños colaterales'.",
+      "youtube_id": "jmGrEx-LL-I",
+      "trailer_url": "https://www.youtube.com/watch?v=jmGrEx-LL-I"
+    },
     {
       "title": "Muhammad Ali: El más grande",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -828,8 +864,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
       "overview": "Loïs llega a Belrose con Max, el amor de su vida. Lane, el creador de la popular aplicación Campus Drivers, es famoso por su falta de apego. Sus caminos no estaban destinados a entrelazarse, pero hay encuentros que cambian todo y reabren viejas heridas. Cuando el amor llega inesperadamente, las certezas desaparecen.",
-      "youtube_id": "KK75maACz7M",
-      "trailer_url": "https://www.youtube.com/watch?v=KK75maACz7M"
+      "youtube_id": "v5k7cT-wW3U",
+      "trailer_url": "https://www.youtube.com/watch?v=v5k7cT-wW3U"
     },
     {
       "title": "Club Kid",
@@ -840,8 +876,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/l4q1gziNMhpVQAzCIwmtbLSB1T9.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
       "overview": "La frenética vida de un promotor de discotecas de Nueva York, amante de la fiesta, da un vuelco con la llegada del hijo de 10 años que nunca supo que tenía.",
-      "youtube_id": "R7ALT59En2M",
-      "trailer_url": "https://www.youtube.com/watch?v=R7ALT59En2M"
+      "youtube_id": "6oEy6nX6EcM",
+      "trailer_url": "https://www.youtube.com/watch?v=6oEy6nX6EcM"
     },
     {
       "title": "Yo Soy Rocky",
@@ -892,16 +928,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=O05arcJjOd0"
     },
     {
-      "title": "The Florist",
-      "subtitle": "PELÍCULA • 2026 • 1h 39m",
+      "title": "FLORES PARA UN ASESINATO",
+      "subtitle": "PELÍCULA",
       "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 39m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hBDrrwNZhkbBIInNYmevDxU8KrS.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
-      "overview": "Un tranquilo horticultor que alberga una vida secreta como asesino letal ve peligrar su verdadera identidad cuando entabla una improbable amistad con un testigo de la corrupción policial.",
-      "youtube_id": "vjL-BdDjr7s",
-      "trailer_url": "https://www.youtube.com/watch?v=vjL-BdDjr7s"
+      "year": "",
+      "extra_info": "",
+      "poster_url": "",
+      "backdrop_url": "",
+      "overview": "",
+      "youtube_id": "ZDWT2pIFsqU",
+      "trailer_url": "https://www.youtube.com/watch?v=ZDWT2pIFsqU"
     },
     {
       "title": "Al norte del norte",
@@ -924,8 +960,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/wywNNHCRHJ129yTGTYBujnP4vRq.jpg",
       "overview": "Una familia de agentes de la ley cierra las diferencias personales y cruza las fronteras profesionales mientras abordan los casos del FBI, los alguaciles de los Estados Unidos, el Servicio Secreto y el Departamento de Justicia. Después de que un caso aparentemente cortado y seco se convierta en una conspiración mortal, deben usar la experiencia de toda una vida de proteger a civiles y políticos para protegerse unos a otros y llevar al asesino ante la justicia ... incluso si eso significa traicionar su código jurado.",
-      "youtube_id": "rB-YJBs5fSY",
-      "trailer_url": "https://www.youtube.com/watch?v=rB-YJBs5fSY"
+      "youtube_id": "fC-Nf8qV1wo",
+      "trailer_url": "https://www.youtube.com/watch?v=fC-Nf8qV1wo"
     },
     {
       "title": "La razón de estar contigo: Una Navidad perfecta",
@@ -948,8 +984,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/4mdyjojUihFbw76GBl6ZO8E8bCh.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
       "overview": "Yui Katakura (Ko Shibasaki) tiene 40 años, está soltera y vive entregada a una afición muy particular: ahorrar. Poco a poco, ha ido reuniendo un buen colchón para disfrutar de una jubilación tranquila. Pero todos sus planes se desmoronan cuando, tras un chequeo gratuito, le diagnostican cáncer y le dan un año de vida. Todavía conmocionada por la noticia, se cruza de repente con Yoshitaka Sena, alias Ryuma (Eiji Akaso), un atractivo ‘host’ de pelo rosa que le pide dinero prestado. Si de todas formas se va a morir, ya no tiene sentido seguir ahorrando. Así que Yui acepta su insólita petición y «compra» a Sena por 720 000 yenes. Así comienza una relación tan insólita como imprevisible, que pronto dará un giro inesperado.",
-      "youtube_id": "54SxRe5nHjk",
-      "trailer_url": "https://www.youtube.com/watch?v=54SxRe5nHjk"
+      "youtube_id": "VHNv2kq7Oeg",
+      "trailer_url": "https://www.youtube.com/watch?v=VHNv2kq7Oeg"
     },
     {
       "title": "El don de engañar",
@@ -972,8 +1008,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/5AylAQhBaf14tIU0q4TAEWCGLC3.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
       "overview": "Comedia que sigue a un grupo de profesores llenos de vocación, con una directora sorda, en su día a día mientras intentan apañárselas con el sistema de educación pública de Filadelfia. Pese a todos los obstáculos que se les ponen por delante, no tiran la toalla a la hora de intentar que sus alumnos logren el éxito en la vida.",
-      "youtube_id": "l4lP8roLz3I",
-      "trailer_url": "https://www.youtube.com/watch?v=l4lP8roLz3I"
+      "youtube_id": "ifaDt1eplkE",
+      "trailer_url": "https://www.youtube.com/watch?v=ifaDt1eplkE"
     },
     {
       "title": "El ladrón del aislamiento",
@@ -993,7 +1029,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 37m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/AhHDhqLU4817cPc6crmc45vCK55.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/44FE2DMBkX03AaM7GHyrIjNBTSg.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
       "overview": "Un hombre planea fingir su muerte y culpar al amante de su esposa por dinero del seguro. Ella trama matarlo de verdad y quedarse todo, iniciando un juego mortal.",
       "youtube_id": "ib0IN9aT6zk",
@@ -1032,8 +1068,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/iY3gOboOdUdLAJPDQ93WR3AsFce.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
       "overview": "Marlene Frischmann (Jeanne Goursaud) quiere celebrar por todo lo alto el cumpleaños de su hijo Theo (Levin Wopp) y lo tiene todo preparado en la elegante casa de campo de su hermano: globos, una tarta sin gluten, una piñata e incluso animales salvajes prometen convertir el día en algo inolvidable. Pero la celebración, preparada con todo el cariño, no tarda en convertirse en una pesadilla desternillante, con acaloradas discusiones sobre la crianza, los modelos de masculinidad y los principios educativos. Tampoco ayudan precisamente a poner orden su alborotador hermano banquero Timo (Edin Hasanović), su excéntrico y desorientado padre Hans (Heiner Lauterbach), su compañera Jenny (Amal Keller), una idealista empeñada en salvar el mundo, y un regalo muy especial. Entre una familia de lo más disfuncional, madres helicóptero obsesionadas con controlarlo todo y la anarquía infantil, la fiesta acaba sumida en el caos.",
-      "youtube_id": "4lSDLpPDd6E",
-      "trailer_url": "https://www.youtube.com/watch?v=4lSDLpPDd6E"
+      "youtube_id": "oGqdBoBpgaA",
+      "trailer_url": "https://www.youtube.com/watch?v=oGqdBoBpgaA"
     },
     {
       "title": "La Mangosta",
@@ -1070,42 +1106,6 @@
       "overview": "Tras perderlo todo de la noche a la mañana, el exitoso diseñador espacial coreano Lee Yubin viaja a Charo, una pequeña isla japonesa. Allí conoce a Shirahama Karin, una tenaz granjera decidida a cultivar fresas... Sus vidas se entrelazan por un malentendido",
       "youtube_id": "Ym2TNuLYzPo",
       "trailer_url": "https://www.youtube.com/watch?v=Ym2TNuLYzPo"
-    },
-    {
-      "title": "Mi mejor amiga",
-      "subtitle": "PELÍCULA • 2026 • 2h 5m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 5m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/g1LPwe6w1jWKiP45XILfzpkr5iZ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
-      "overview": "Ante la menopausia y la ansiedad por tener los nidos vacíos, las amigas Julia y Clara deciden viajar juntas para visitar a sus hijas que están en un programa de intercambio en el extranjero.",
-      "youtube_id": "XZHLeAJlqk8",
-      "trailer_url": "https://www.youtube.com/watch?v=XZHLeAJlqk8"
-    },
-    {
-      "title": "Caballo salvaje nueve",
-      "subtitle": "PELÍCULA • 2026 • 1h 58m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 58m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ulvGcZer26aBaNG0s4IEJGyyLIq.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
-      "overview": "Poco antes del golpe de estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-      "youtube_id": "MG14cdR2x8E",
-      "trailer_url": "https://www.youtube.com/watch?v=MG14cdR2x8E"
-    },
-    {
-      "title": "La Casa de los Famosos México",
-      "subtitle": "SERIE • 2023 • 4 Temporadas",
-      "media_type": "SERIE",
-      "year": "2023",
-      "extra_info": "4 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/dZMPtV6pTyaD89Sc339vCbrU38n.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/2Zb1bwAMpbepTvd8U0TXmAHPx5y.jpg",
-      "overview": "Distintas celebridades conviven en una misma casa observados por cámaras las 24 horas. Tendrán que superar pruebas, hacer estrategias y eliminarse entre sí para que solo uno consiga ser el ganador de la casa más famosa de México.",
-      "youtube_id": "5hSSNEM3P5Y",
-      "trailer_url": "https://www.youtube.com/watch?v=5hSSNEM3P5Y"
     }
   ]
 }
