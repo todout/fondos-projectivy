@@ -4,6 +4,66 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Prawo bestii",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/u7hQSvHz05x3Z6avbLDDhGuKgE8.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
+          "overview": "La historia comienza tras el brutal asesinato de cuatro niños en Polonia. El caso sitúa a la comandante e investigadora principal Anna Berz y a la psiquiatra Agnieszka Grabska ante la misión de evaluar la salud mental del principal sospechoso, Mariusz Trynkiewicz. Bajo presión, ambas toman una decisión profesional que marcará y fracturará su relación.",
+          "youtube_id": "vSwAIorrHEc",
+          "trailer_url": "https://www.youtube.com/watch?v=vSwAIorrHEc"
+        },
+        {
+          "title": "El cine según Philomena Cunk",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+          "overview": "En esta pícara serie en formato de falso documental, Philomena recorre los grandes éxitos del cine y entrevista a expertos en medio de terribles confusiones.",
+          "youtube_id": "MAV4nDKZetY",
+          "trailer_url": "https://www.youtube.com/watch?v=MAV4nDKZetY"
+        },
+        {
+          "title": "Un monstruo amable",
+          "subtitle": "PELÍCULA • 2026 • 1h 55m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 55m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
+          "overview": "Lucy y Philip son felices: acaban de mudarse con su hijo a una casa de campo cerca de Múnich. Una mañana, su vida da un vuelco cuando la policía se presenta en su domicilio para detener a Philip y confiscar sus ordenadores. Conmocionada, Lucy busca la verdad sobre su marido. ¿Quién es realmente? ¿Debe alejarlo de su hijo?",
+          "youtube_id": "sEBgOTP9Vdc",
+          "trailer_url": "https://www.youtube.com/watch?v=sEBgOTP9Vdc"
+        },
+        {
+          "title": "Madden",
+          "subtitle": "PELÍCULA • 2026 • 1h 52m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 52m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+          "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
+          "youtube_id": "7ljcNjDeF60",
+          "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
+        },
+        {
+          "title": "El crimen de Pazos",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/pk7ewQL2vAxtit0YmDEURmAInS9.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jM5dhDrpRiVxuzcvAEeHhcAKt50.jpg",
+          "overview": "En el tranquilo pueblo de Pazos, Aniceto (Miguel Borines) y su mujer Irene parecen ser la pareja perfecta hasta que, una noche, ella sufre un brutal ataque como resultado de un presunto robo. Mientras Irene lucha por su vida en el hospital, Elías (Tristán Ulloa), un sargento de la Guardia Civil convencido de que Aniceto es el autor del crimen, se enfrenta a un sistema que le parece que no está dispuesto a escuchar sus advertencias ni a proteger a la víctima. Con Aniceto en libertad y la vida de Irene pendiendo de un hilo, ¿saldrá la verdad a la luz antes de que sea demasiado tarde?",
+          "youtube_id": "P4aTWHEquos",
+          "trailer_url": "https://www.youtube.com/watch?v=P4aTWHEquos"
+        },
+        {
           "title": "El claroscuro",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -36,8 +96,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
           "overview": "Un joven viaja de Nueva York a Suiza para intentar convencer a la aclamada autora de novelas de suspense Patricia Highsmith de que escriba una última entrega de su serie sobre Tom Ripley; sus esfuerzos, sin embargo, van tornándose poco a poco más siniestros.",
-          "youtube_id": "AgOxu7ssHoE",
-          "trailer_url": "https://www.youtube.com/watch?v=AgOxu7ssHoE"
+          "youtube_id": "q0UjIrrJ2HY",
+          "trailer_url": "https://www.youtube.com/watch?v=q0UjIrrJ2HY"
         },
         {
           "title": "Sugar",
@@ -117,7 +177,7 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pg8me0oPc8CGEEmpgwqZ1EMmKnx.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
           "overview": "La antigua estrella del country Misty Jones sale de su retiro de 20 años para investigar la desaparición de su sobrina, Charlie Heart, una prometedora cantante, y acaba enfrentándose tanto a su propio pasado como al lado más turbio de Nashville. Su búsqueda la lleva a descubrir una ciudad donde nadie, ni siquiera ella, es quien parece ser.",
           "youtube_id": "8vebvZ9Q7_o",
@@ -154,7 +214,7 @@
           "year": "2026",
           "extra_info": "2h 20m",
           "poster_url": "https://image.tmdb.org/t/p/w500/6cHYHIv2tcUAZsyzUi5Hcwa1IAB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
           "overview": "Cuando una peligrosa banda asalta su remota casa, un veterano atormentado por la culpa debe unir fuerzas con sus nietos, a quienes apenas conoce, para poder sobrevivir.",
           "youtube_id": "mhf5E-jyiH0",
           "trailer_url": "https://www.youtube.com/watch?v=mhf5E-jyiH0"
@@ -202,7 +262,7 @@
           "year": "2026",
           "extra_info": "1h 55m",
           "poster_url": "https://image.tmdb.org/t/p/w500/ekfB30eDEJAHHEW7yI4gLcq0k3A.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
           "overview": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
           "youtube_id": "IM9WKWE3jXc",
           "trailer_url": "https://www.youtube.com/watch?v=IM9WKWE3jXc"
@@ -216,8 +276,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/9vCFSNwql5Be5W1LrS7hGVZYnbm.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qNvL8eup1eTFeKXEG402mjxNAzU.jpg",
           "overview": "La detective Jeanette Kihlberg investiga el asesinato de un joven inmigrante enfrentándose a los obstáculos de un fiscal y de un cuerpo de policía. Dos niños más aparecen mutilados y se descubre la existencia de un asesino en serie.",
-          "youtube_id": "Wkbj-jyPX8A",
-          "trailer_url": "https://www.youtube.com/watch?v=Wkbj-jyPX8A"
+          "youtube_id": "--QTn574AYw",
+          "trailer_url": "https://www.youtube.com/watch?v=--QTn574AYw"
         },
         {
           "title": "Colisión",
@@ -242,66 +302,6 @@
           "overview": "Luego de terminar en rehabilitación por una sobredosis, un abogado tiene una semana para salvar su carrera y prepararse para su propio juicio con la ayuda de una tenaz pasante.",
           "youtube_id": "TumuT0GJKC0",
           "trailer_url": "https://www.youtube.com/watch?v=TumuT0GJKC0"
-        },
-        {
-          "title": "Zmora",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qPwbr4eZzE6cOXVvCxemy3t4pK7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
-          "overview": "Kama regresa a su ciudad natal y se ve envuelta en un antiguo caso de desaparición. Secretos familiares, pasiones y crímenes revelan que el pasado nunca guarda silencio.",
-          "youtube_id": "aQfz_wunRlE",
-          "trailer_url": "https://www.youtube.com/watch?v=aQfz_wunRlE"
-        },
-        {
-          "title": "Ciudad de Dios: La lucha no para",
-          "subtitle": "SERIE • 2024 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eYrfhsICvQNMMs0TbxpKCFQtZXJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/KvlbwzWi5ldhfPFRzOZy67rsKz.jpg",
-          "overview": "Sigue la vida de los residentes de la favela \"Ciudad de Dios\" 20 años después de la muerte de Zé Pequeño.",
-          "youtube_id": "pl-t85EltO4",
-          "trailer_url": "https://www.youtube.com/watch?v=pl-t85EltO4"
-        },
-        {
-          "title": "NAZA",
-          "subtitle": "PELÍCULA • 2026 • 1h 17m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 17m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
-          "overview": "Filmado de noche desde azoteas en Tel Aviv, este documental de investigación examina las bajas civiles provocadas por las operaciones militares de Israel en Gaza, así como los sistemas que sustentan los asesinatos selectivos de palestinos.",
-          "youtube_id": "jmGrEx-LL-I",
-          "trailer_url": "https://www.youtube.com/watch?v=jmGrEx-LL-I"
-        },
-        {
-          "title": "Muhammad Ali: El más grande",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/wkvvZ05Ol62tGMCZhPHEK3lmKMA.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/b57tPAE2rpUoNpa63o7U2sFvIZs.jpg",
-          "overview": "Tras ganar el oro en los Juegos Olímpicos de 1960, el joven boxeador Muhammad Ali, entonces Cassius Clay, pone la mira en el campeonato de peso completo. Entre la fama, las dudas, los conflictos familiares y un país inmerso en tensiones políticas, el prodigio descubre que su mayor rival no está en el ring, sino en una sociedad que aún no está lista para que forje su propio camino.",
-          "youtube_id": "3gRhCq4R-b4",
-          "trailer_url": "https://www.youtube.com/watch?v=3gRhCq4R-b4"
-        },
-        {
-          "title": "Campus Drivers",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
-          "overview": "Loïs llega a Belrose con Max, el amor de su vida. Lane, el creador de la popular aplicación Campus Drivers, es famoso por su falta de apego. Sus caminos no estaban destinados a entrelazarse, pero hay encuentros que cambian todo y reabren viejas heridas. Cuando el amor llega inesperadamente, las certezas desaparecen.",
-          "youtube_id": "KK75maACz7M",
-          "trailer_url": "https://www.youtube.com/watch?v=KK75maACz7M"
         }
       ]
     },
@@ -315,7 +315,7 @@
           "year": "2026",
           "extra_info": "2h 20m",
           "poster_url": "https://image.tmdb.org/t/p/w500/6cHYHIv2tcUAZsyzUi5Hcwa1IAB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
           "overview": "Cuando una peligrosa banda asalta su remota casa, un veterano atormentado por la culpa debe unir fuerzas con sus nietos, a quienes apenas conoce, para poder sobrevivir.",
           "youtube_id": "mhf5E-jyiH0",
           "trailer_url": "https://www.youtube.com/watch?v=mhf5E-jyiH0"
@@ -326,11 +326,23 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/pg8me0oPc8CGEEmpgwqZ1EMmKnx.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
           "overview": "La antigua estrella del country Misty Jones sale de su retiro de 20 años para investigar la desaparición de su sobrina, Charlie Heart, una prometedora cantante, y acaba enfrentándose tanto a su propio pasado como al lado más turbio de Nashville. Su búsqueda la lleva a descubrir una ciudad donde nadie, ni siquiera ella, es quien parece ser.",
           "youtube_id": "8vebvZ9Q7_o",
           "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
+        },
+        {
+          "title": "Como proteger a una estrella",
+          "subtitle": "PELÍCULA • 2026 • 1h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+          "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
+          "youtube_id": "2oUAOVY5ycY",
+          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
         },
         {
           "title": "Godzilla Minus One",
@@ -345,6 +357,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
         },
         {
+          "title": "Allen",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+          "overview": "Veinte años después de su increíble encuentro con un alienígena, Petey sigue estancado en el pasado. Hasta que, por alguna extraña razón, su viejo amigo vuelve...",
+          "youtube_id": "RmK_ZPlzp5A",
+          "trailer_url": "https://www.youtube.com/watch?v=RmK_ZPlzp5A"
+        },
+        {
           "title": "La razón de estar contigo: Una Navidad perfecta",
           "subtitle": "PELÍCULA • 2026 • 1h 42m",
           "media_type": "PELÍCULA",
@@ -357,16 +381,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=JohzxlqNRso"
         },
         {
-          "title": "Allen",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "title": "El viaje de Chihiro",
+          "subtitle": "PELÍCULA • 2001 • 2h 5m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
-          "overview": "Veinte años después de su increíble encuentro con un alienígena, Petey sigue estancado en el pasado. Hasta que, por alguna extraña razón, su viejo amigo vuelve...",
-          "youtube_id": "RmK_ZPlzp5A",
-          "trailer_url": "https://www.youtube.com/watch?v=RmK_ZPlzp5A"
+          "year": "2001",
+          "extra_info": "2h 5m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
+          "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
+          "youtube_id": "5Fgq4Osh6XQ",
+          "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         },
         {
           "title": "Colisión",
@@ -381,30 +405,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
         },
         {
-          "title": "Contra el huracán",
-          "subtitle": "PELÍCULA • 2026 • 1h 37m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/lFaMt4I8LiQAGW9Rb5gfGFXbvOY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
-          "overview": "Dos hermanos distanciados luchan por sobrevivir al huracán Otis en Acapulco, donde su unión y valentía transforman la adversidad en esperanza. Inspirada en una historia real.",
-          "youtube_id": "zKApuso5SCo",
-          "trailer_url": "https://www.youtube.com/watch?v=zKApuso5SCo"
-        },
-        {
-          "title": "రణబాలి",
-          "subtitle": "PELÍCULA • 2026 • 2h 59m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7nSzaAYx3CyqU7TtA2X91AGXTvB.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg",
-          "overview": "Set in 19th-century British India, a fierce leader rises from a drought-stricken land to fight colonial oppression and atrocities.",
-          "youtube_id": "A36nagDzugo",
-          "trailer_url": "https://www.youtube.com/watch?v=A36nagDzugo"
-        },
-        {
           "title": "Sueño de fuga",
           "subtitle": "PELÍCULA • 1994 • 2h 23m",
           "media_type": "PELÍCULA",
@@ -417,34 +417,22 @@
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
-          "title": "Noche fatídica",
-          "subtitle": "PELÍCULA • 2026 • 2h 4m",
+          "title": "Angry Birds: La Película",
+          "subtitle": "PELÍCULA • 2016 • 1h 37m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 4m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/un3NZLu9lMneHtRlzdaMonF7qHY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
-          "overview": "La noche de un policía corrupto y atormentado se sale de madre cuando un acto de compasión involuntario hacia una chica herida lo arrastra a una peligrosa red criminal.",
-          "youtube_id": "08c_c2Z-d78",
-          "trailer_url": "https://www.youtube.com/watch?v=08c_c2Z-d78"
+          "year": "2016",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cY7nyBe2HHvWHmpafq8hjnrQp4j.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/o4mhrLxv6I70kvYA42qANGUF7ya.jpg",
+          "overview": "Una isla poblada enteramente, o casi enteramente, por pájaros felices que no vuelan. En este paraíso, Red, un pájaro con mal genio, el veloz Chuck y el volátil Bomb siempre han sido marginados. Pero cuando la isla recibe la visita de unos misteriosos cerditos verdes, estos insólitos inadaptados deberán descubrir qué traman los cerdos.",
+          "youtube_id": "nsYuDG0_MU4",
+          "trailer_url": "https://www.youtube.com/watch?v=nsYuDG0_MU4"
         }
       ]
     },
     {
       "category": "Top 10 Disney+",
       "items": [
-        {
-          "title": "Coco",
-          "subtitle": "PELÍCULA • 2017 • 1h 45m",
-          "media_type": "PELÍCULA",
-          "year": "2017",
-          "extra_info": "1h 45m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
-          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
-          "youtube_id": "_xwBcT8iBEg",
-          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
-        },
         {
           "title": "Avengers: Endgame",
           "subtitle": "PELÍCULA • 2019 • 3h 0m",
@@ -456,6 +444,18 @@
           "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
           "youtube_id": "4WMuAEQ-LIA",
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
+        },
+        {
+          "title": "Coco",
+          "subtitle": "PELÍCULA • 2017 • 1h 45m",
+          "media_type": "PELÍCULA",
+          "year": "2017",
+          "extra_info": "1h 45m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
+          "youtube_id": "_xwBcT8iBEg",
+          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
         },
         {
           "title": "Toy Story 5",
@@ -494,18 +494,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "Deadpool & Wolverine",
-          "subtitle": "PELÍCULA • 2024 • 2h 8m",
-          "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "2h 8m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
-          "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
-          "youtube_id": "V4ZDKt9KICo",
-          "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
-        },
-        {
           "title": "Backrooms: Sin salida",
           "subtitle": "PELÍCULA • 2026 • 1h 51m",
           "media_type": "PELÍCULA",
@@ -516,6 +504,18 @@
           "overview": "Una extraña puerta aparece en el sótano de una exposición de muebles. Cuando el paciente de una terapeuta desaparece en una dimensión más allá de la realidad, ella deberá adentrarse en lo desconocido para salvarlo.",
           "youtube_id": "DfNI_gPxtJ8",
           "trailer_url": "https://www.youtube.com/watch?v=DfNI_gPxtJ8"
+        },
+        {
+          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "media_type": "PELÍCULA",
+          "year": "2025",
+          "extra_info": "2h 35m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
+          "youtube_id": "sqgSm8fWe1s",
+          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -530,28 +530,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
-          "title": "Avengers: Los Vengadores",
-          "subtitle": "PELÍCULA • 2012 • 2h 23m",
+          "title": "Deadpool & Wolverine",
+          "subtitle": "PELÍCULA • 2024 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2012",
-          "extra_info": "2h 23m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cWNIua1iPA4kGyQxJGvnx7UIzoT.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-          "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel \"Los Vengadores\", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
-          "youtube_id": "yNXfOOL8824",
-          "trailer_url": "https://www.youtube.com/watch?v=yNXfOOL8824"
+          "year": "2024",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+          "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
+          "youtube_id": "V4ZDKt9KICo",
+          "trailer_url": "https://www.youtube.com/watch?v=V4ZDKt9KICo"
         },
         {
-          "title": "Spider-Man: Sin camino a casa",
-          "subtitle": "PELÍCULA • 2021 • 2h 28m",
-          "media_type": "PELÍCULA",
-          "year": "2021",
-          "extra_info": "2h 28m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9OGkKMnYgSc0TzSIErcOOiKllrK.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
-          "overview": "Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man.",
-          "youtube_id": "JAj8EheWN3o",
-          "trailer_url": "https://www.youtube.com/watch?v=JAj8EheWN3o"
+          "title": "Los vengadores",
+          "subtitle": "SERIE • 1961 • 6 Temporadas",
+          "media_type": "SERIE",
+          "year": "1961",
+          "extra_info": "6 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7D2DosFWqmNc0vfZJPqwY5uIvsR.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/AqZ48TMJRPCpbuy09S0RXFAhvFa.jpg",
+          "overview": "Esta serie nos muestra a unos vengadores cuya misión será la de afrontar cualquier peligro.",
+          "youtube_id": "qMLNwBX_f70",
+          "trailer_url": "https://www.youtube.com/watch?v=qMLNwBX_f70"
         }
       ]
     },
@@ -565,7 +565,7 @@
           "year": "2026",
           "extra_info": "2h 36m",
           "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
           "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
           "youtube_id": "S7w4cDtHyFQ",
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
@@ -619,30 +619,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "Batman: El caballero de la noche",
-          "subtitle": "PELÍCULA • 2008 • 2h 32m",
-          "media_type": "PELÍCULA",
-          "year": "2008",
-          "extra_info": "2h 32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
-          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
-          "youtube_id": "dzQtWkpc2-c",
-          "trailer_url": "https://www.youtube.com/watch?v=dzQtWkpc2-c"
-        },
-        {
-          "title": "Premoniciones",
-          "subtitle": "PELÍCULA • 2007 • 1h 34m",
-          "media_type": "PELÍCULA",
-          "year": "2007",
-          "extra_info": "1h 34m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4moBOPqMFXP3n78YobuJ9c4IokH.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/esXYvlivZ8j0HGqob949CIjqnGi.jpg",
-          "overview": "Linda Hanson tiene una vida idílica hasta que un día ella recibe la noticia de que su marido ha muerto en un accidente automovilístico. Sin embargo, cuando Linda despierta la mañana siguiente y descubre que Jim está a su lado, ella considera que sólo ha vivido un extraño sueño. Muy pronto descubre que lo que experimentó no fue un sueño, y debe luchar contra el tiempo y el destino para salvar a su familia.",
-          "youtube_id": "Y0P1eFoln-A",
-          "trailer_url": "https://www.youtube.com/watch?v=Y0P1eFoln-A"
-        },
-        {
           "title": "Interestelar",
           "subtitle": "PELÍCULA • 2014 • 2h 49m",
           "media_type": "PELÍCULA",
@@ -655,28 +631,52 @@
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
-          "title": "Harry Potter y la piedra filosofal",
-          "subtitle": "PELÍCULA • 2001 • 2h 32m",
+          "title": "Madden",
+          "subtitle": "PELÍCULA • 2026 • 1h 52m",
           "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kNNtiEp5qktfRjiwjkRq8WLmF40.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg",
-          "overview": "Al cumplir los once años, Harry Potter descubre que es un mago y que es hijo de dos destacados hechiceros. Mientras estudia en la escuela Hogwarts de Magia y Hechicería, poco a poco descubre más la verdad sobre la muerte de sus padres hechiceros.",
-          "youtube_id": "ZgrCZVjPg9g",
-          "trailer_url": "https://www.youtube.com/watch?v=ZgrCZVjPg9g"
+          "year": "2026",
+          "extra_info": "1h 52m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+          "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
+          "youtube_id": "7ljcNjDeF60",
+          "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
         },
         {
-          "title": "El señor de los anillos: La comunidad del anillo",
-          "subtitle": "PELÍCULA • 2001 • 2h 59m",
+          "title": "Yo Soy Rocky",
+          "subtitle": "PELÍCULA • 2026 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 59m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
-          "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
-          "youtube_id": "3GJp6p_mgPo",
-          "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
+          "year": "2026",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+          "overview": "Un actor desconocido, sin dinero ni contactos, tenía una sola convicción: no solo escribiría Rocky, sino que él sería Rocky Balboa. Rechazado una y otra vez por los estudios, Sylvester Stallone lo apostó todo por sí mismo y se negó a ceder el papel, incluso cuando le ofrecieron una fortuna por hacerlo.",
+          "youtube_id": "KKquTgKlXJY",
+          "trailer_url": "https://www.youtube.com/watch?v=KKquTgKlXJY"
+        },
+        {
+          "title": "Batman: El caballero de la noche",
+          "subtitle": "PELÍCULA • 2008 • 2h 32m",
+          "media_type": "PELÍCULA",
+          "year": "2008",
+          "extra_info": "2h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
+          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+          "youtube_id": "dzQtWkpc2-c",
+          "trailer_url": "https://www.youtube.com/watch?v=dzQtWkpc2-c"
+        },
+        {
+          "title": "La noche perdida",
+          "subtitle": "PELÍCULA • 2018 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
+          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
+          "youtube_id": "lJA355ncZD4",
+          "trailer_url": "https://www.youtube.com/watch?v=lJA355ncZD4"
         }
       ]
     },
@@ -780,33 +780,93 @@
           "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
         },
         {
-          "title": "La propuesta",
-          "subtitle": "PELÍCULA • 2009 • 1h 48m",
+          "title": "A Christmas Castle Proposal: A Royal in Paradise II",
+          "subtitle": "PELÍCULA • 2024 • 1h 25m",
           "media_type": "PELÍCULA",
-          "year": "2009",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
-          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
-          "youtube_id": "rCs8skCWF98",
-          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
+          "year": "2024",
+          "extra_info": "1h 25m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eXNjcygJvr0wCIgqCZKGRJKH8uw.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/5fTOeA4qulMp0sjwzuKsgl1ihoV.jpg",
+          "overview": "Tras enamorarse del príncipe Alexander, Olivia viaja a Torovia para pasar la Navidad con la familia real, pero las diferencias culturales generan una serie de desastres",
+          "youtube_id": "3zJ93bvX9cs",
+          "trailer_url": "https://www.youtube.com/watch?v=3zJ93bvX9cs"
         },
         {
-          "title": "Plan familiar",
-          "subtitle": "PELÍCULA • 2023 • 1h 58m",
+          "title": "Los asesinos de la luna",
+          "subtitle": "PELÍCULA • 2023 • 3h 26m",
           "media_type": "PELÍCULA",
           "year": "2023",
-          "extra_info": "1h 58m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mBiylEUJgWikljJJNB61u7dDPON.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/arNhhBd88bP3Bjoe4HT8MFE1JQA.jpg",
-          "overview": "Dan Morgan es un hombre con muchas identidades: es un esposo devoto, un padre amoroso y un reconocido vendedor de autos. También es un asesino retirado. Cuando su pasado pone en riesgo a su presente, se ve forzado a llevar a su ingenua familia en un viaje como ningún otro.",
-          "youtube_id": "KpV1w6ciVnY",
-          "trailer_url": "https://www.youtube.com/watch?v=KpV1w6ciVnY"
+          "extra_info": "3h 26m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/yCWQJFm2CJ5PddNxz2Ce9CNeqLT.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/jwjCWMPWSQ7h3sqG4mqI7pMEZu0.jpg",
+          "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
+          "youtube_id": "qXVsJU0I8u0",
+          "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Prawo bestii",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/u7hQSvHz05x3Z6avbLDDhGuKgE8.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
+      "overview": "La historia comienza tras el brutal asesinato de cuatro niños en Polonia. El caso sitúa a la comandante e investigadora principal Anna Berz y a la psiquiatra Agnieszka Grabska ante la misión de evaluar la salud mental del principal sospechoso, Mariusz Trynkiewicz. Bajo presión, ambas toman una decisión profesional que marcará y fracturará su relación.",
+      "youtube_id": "vSwAIorrHEc",
+      "trailer_url": "https://www.youtube.com/watch?v=vSwAIorrHEc"
+    },
+    {
+      "title": "El cine según Philomena Cunk",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "overview": "En esta pícara serie en formato de falso documental, Philomena recorre los grandes éxitos del cine y entrevista a expertos en medio de terribles confusiones.",
+      "youtube_id": "MAV4nDKZetY",
+      "trailer_url": "https://www.youtube.com/watch?v=MAV4nDKZetY"
+    },
+    {
+      "title": "Un monstruo amable",
+      "subtitle": "PELÍCULA • 2026 • 1h 55m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 55m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
+      "overview": "Lucy y Philip son felices: acaban de mudarse con su hijo a una casa de campo cerca de Múnich. Una mañana, su vida da un vuelco cuando la policía se presenta en su domicilio para detener a Philip y confiscar sus ordenadores. Conmocionada, Lucy busca la verdad sobre su marido. ¿Quién es realmente? ¿Debe alejarlo de su hijo?",
+      "youtube_id": "sEBgOTP9Vdc",
+      "trailer_url": "https://www.youtube.com/watch?v=sEBgOTP9Vdc"
+    },
+    {
+      "title": "Madden",
+      "subtitle": "PELÍCULA • 2026 • 1h 52m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 52m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
+      "youtube_id": "7ljcNjDeF60",
+      "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
+    },
+    {
+      "title": "El crimen de Pazos",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/pk7ewQL2vAxtit0YmDEURmAInS9.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/jM5dhDrpRiVxuzcvAEeHhcAKt50.jpg",
+      "overview": "En el tranquilo pueblo de Pazos, Aniceto (Miguel Borines) y su mujer Irene parecen ser la pareja perfecta hasta que, una noche, ella sufre un brutal ataque como resultado de un presunto robo. Mientras Irene lucha por su vida en el hospital, Elías (Tristán Ulloa), un sargento de la Guardia Civil convencido de que Aniceto es el autor del crimen, se enfrenta a un sistema que le parece que no está dispuesto a escuchar sus advertencias ni a proteger a la víctima. Con Aniceto en libertad y la vida de Irene pendiendo de un hilo, ¿saldrá la verdad a la luz antes de que sea demasiado tarde?",
+      "youtube_id": "P4aTWHEquos",
+      "trailer_url": "https://www.youtube.com/watch?v=P4aTWHEquos"
+    },
     {
       "title": "El claroscuro",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -840,8 +900,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
       "overview": "Un joven viaja de Nueva York a Suiza para intentar convencer a la aclamada autora de novelas de suspense Patricia Highsmith de que escriba una última entrega de su serie sobre Tom Ripley; sus esfuerzos, sin embargo, van tornándose poco a poco más siniestros.",
-      "youtube_id": "AgOxu7ssHoE",
-      "trailer_url": "https://www.youtube.com/watch?v=AgOxu7ssHoE"
+      "youtube_id": "q0UjIrrJ2HY",
+      "trailer_url": "https://www.youtube.com/watch?v=q0UjIrrJ2HY"
     },
     {
       "title": "Sugar",
@@ -921,7 +981,7 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "1h 54m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/pg8me0oPc8CGEEmpgwqZ1EMmKnx.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
       "overview": "La antigua estrella del country Misty Jones sale de su retiro de 20 años para investigar la desaparición de su sobrina, Charlie Heart, una prometedora cantante, y acaba enfrentándose tanto a su propio pasado como al lado más turbio de Nashville. Su búsqueda la lleva a descubrir una ciudad donde nadie, ni siquiera ella, es quien parece ser.",
       "youtube_id": "8vebvZ9Q7_o",
@@ -958,7 +1018,7 @@
       "year": "2026",
       "extra_info": "2h 20m",
       "poster_url": "https://image.tmdb.org/t/p/w500/6cHYHIv2tcUAZsyzUi5Hcwa1IAB.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
       "overview": "Cuando una peligrosa banda asalta su remota casa, un veterano atormentado por la culpa debe unir fuerzas con sus nietos, a quienes apenas conoce, para poder sobrevivir.",
       "youtube_id": "mhf5E-jyiH0",
       "trailer_url": "https://www.youtube.com/watch?v=mhf5E-jyiH0"
@@ -1006,7 +1066,7 @@
       "year": "2026",
       "extra_info": "1h 55m",
       "poster_url": "https://image.tmdb.org/t/p/w500/ekfB30eDEJAHHEW7yI4gLcq0k3A.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
       "overview": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
       "youtube_id": "IM9WKWE3jXc",
       "trailer_url": "https://www.youtube.com/watch?v=IM9WKWE3jXc"
@@ -1020,8 +1080,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/9vCFSNwql5Be5W1LrS7hGVZYnbm.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/qNvL8eup1eTFeKXEG402mjxNAzU.jpg",
       "overview": "La detective Jeanette Kihlberg investiga el asesinato de un joven inmigrante enfrentándose a los obstáculos de un fiscal y de un cuerpo de policía. Dos niños más aparecen mutilados y se descubre la existencia de un asesino en serie.",
-      "youtube_id": "Wkbj-jyPX8A",
-      "trailer_url": "https://www.youtube.com/watch?v=Wkbj-jyPX8A"
+      "youtube_id": "--QTn574AYw",
+      "trailer_url": "https://www.youtube.com/watch?v=--QTn574AYw"
     },
     {
       "title": "Colisión",
@@ -1046,66 +1106,6 @@
       "overview": "Luego de terminar en rehabilitación por una sobredosis, un abogado tiene una semana para salvar su carrera y prepararse para su propio juicio con la ayuda de una tenaz pasante.",
       "youtube_id": "TumuT0GJKC0",
       "trailer_url": "https://www.youtube.com/watch?v=TumuT0GJKC0"
-    },
-    {
-      "title": "Zmora",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/qPwbr4eZzE6cOXVvCxemy3t4pK7.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
-      "overview": "Kama regresa a su ciudad natal y se ve envuelta en un antiguo caso de desaparición. Secretos familiares, pasiones y crímenes revelan que el pasado nunca guarda silencio.",
-      "youtube_id": "aQfz_wunRlE",
-      "trailer_url": "https://www.youtube.com/watch?v=aQfz_wunRlE"
-    },
-    {
-      "title": "Ciudad de Dios: La lucha no para",
-      "subtitle": "SERIE • 2024 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/eYrfhsICvQNMMs0TbxpKCFQtZXJ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/KvlbwzWi5ldhfPFRzOZy67rsKz.jpg",
-      "overview": "Sigue la vida de los residentes de la favela \"Ciudad de Dios\" 20 años después de la muerte de Zé Pequeño.",
-      "youtube_id": "pl-t85EltO4",
-      "trailer_url": "https://www.youtube.com/watch?v=pl-t85EltO4"
-    },
-    {
-      "title": "NAZA",
-      "subtitle": "PELÍCULA • 2026 • 1h 17m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 17m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
-      "overview": "Filmado de noche desde azoteas en Tel Aviv, este documental de investigación examina las bajas civiles provocadas por las operaciones militares de Israel en Gaza, así como los sistemas que sustentan los asesinatos selectivos de palestinos.",
-      "youtube_id": "jmGrEx-LL-I",
-      "trailer_url": "https://www.youtube.com/watch?v=jmGrEx-LL-I"
-    },
-    {
-      "title": "Muhammad Ali: El más grande",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/wkvvZ05Ol62tGMCZhPHEK3lmKMA.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/b57tPAE2rpUoNpa63o7U2sFvIZs.jpg",
-      "overview": "Tras ganar el oro en los Juegos Olímpicos de 1960, el joven boxeador Muhammad Ali, entonces Cassius Clay, pone la mira en el campeonato de peso completo. Entre la fama, las dudas, los conflictos familiares y un país inmerso en tensiones políticas, el prodigio descubre que su mayor rival no está en el ring, sino en una sociedad que aún no está lista para que forje su propio camino.",
-      "youtube_id": "3gRhCq4R-b4",
-      "trailer_url": "https://www.youtube.com/watch?v=3gRhCq4R-b4"
-    },
-    {
-      "title": "Campus Drivers",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
-      "overview": "Loïs llega a Belrose con Max, el amor de su vida. Lane, el creador de la popular aplicación Campus Drivers, es famoso por su falta de apego. Sus caminos no estaban destinados a entrelazarse, pero hay encuentros que cambian todo y reabren viejas heridas. Cuando el amor llega inesperadamente, las certezas desaparecen.",
-      "youtube_id": "KK75maACz7M",
-      "trailer_url": "https://www.youtube.com/watch?v=KK75maACz7M"
     }
   ]
 }
