@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Los altruistas",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iRFLTlydFocAEWN2yIoBWGTXyFe.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+          "overview": "Jóvenes, idealistas y súbitamente ricos. Intentaron hacer el bien, pero sacaron lo peor del otro. Una historia de amor tóxica inspirada por un fraude real.",
+          "youtube_id": "REiLOgTemWM",
+          "trailer_url": "https://www.youtube.com/watch?v=REiLOgTemWM"
+        },
+        {
+          "title": "El deshielo",
+          "subtitle": "SERIE • 2022 • 3 Temporadas",
+          "media_type": "SERIE",
+          "year": "2022",
+          "extra_info": "3 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4vP54uZTDAnycDyVwp0i6L9jWmN.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/6Gmqi22GyK9HuYjHVnvOKAFgLd0.jpg",
+          "overview": "Finales de invierno, inicio de primavera. El deshielo revela el cadáver de una joven. Zawieja, una incansable oficial de policía, investiga el caso.",
+          "youtube_id": "3IIESL1roJ4",
+          "trailer_url": "https://www.youtube.com/watch?v=3IIESL1roJ4"
+        },
+        {
+          "title": "Peleas a Domicilio",
+          "subtitle": "PELÍCULA • 2026 • 1h 38m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 38m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/hYXBihLdaZdszwyULySLYsHPcLp.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/w4ISfPkFLdG0ew07XcrlQSB4O4q.jpg",
+          "overview": "Naim es un encanto en su vida diaria, pero un monstruo cuando se trata de pelear. Para pagar el tratamiento de su perra enferma, se ve obligado a unirse a \"Allo Bagarre\", un grupo de combatientes callejeros que resuelven disputas a puñetazos. Pero el día que descubre que los conflictos se resuelven mediante el diálogo, a Naim le resultará difícil hacerse oír.",
+          "youtube_id": "qXfd3Ex09NI",
+          "trailer_url": "https://www.youtube.com/watch?v=qXfd3Ex09NI"
+        },
+        {
+          "title": "Perfectos mentirosos",
+          "subtitle": "PELÍCULA • 2026 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/OiXyM1w9NxdV450GpV92B0YPMj.jpg",
+          "overview": "Bienvenidos a Tagus, donde el poder, el privilegio y los secretos mortales se esconden tras fachadas perfectas. Jude Derry llega a esta exclusiva universidad con una misión oculta: infiltrarse en el círculo de los hermanos Cash para descubrir la verdad sobre la muerte de su hermano. Los tres herederos del imperio familiar, Aegan, el carismático y calculador primogénito, Adrik, el enigmático y misterioso hermano mediano, y Alex, el rebelde e impredecible hermano pequeño, dominan Tagus con un magnetismo al que nadie puede resistirse. Lo que comienza como una venganza personal se transforma en un peligroso triángulo de seducción, atracción prohibida y mentiras cuando Jude queda envuelta en la compleja dinámica familiar de los Cash. Con cada pista que descubre, se acerca más a una verdad que podría no solo destruir a la poderosa familia… sino también desvelar secretos que quizás ella misma no está preparada para enfrentar.",
+          "youtube_id": "PFsZOsVnNEM",
+          "trailer_url": "https://www.youtube.com/watch?v=PFsZOsVnNEM"
+        },
+        {
           "title": "Prawo bestii",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -34,7 +82,7 @@
           "year": "2026",
           "extra_info": "1h 55m",
           "poster_url": "https://image.tmdb.org/t/p/w500/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bJsIZ6ruMzhs5z1MssENrRpb6uq.jpg",
           "overview": "Lucy y Philip son felices: acaban de mudarse con su hijo a una casa de campo cerca de Múnich. Una mañana, su vida da un vuelco cuando la policía se presenta en su domicilio para detener a Philip y confiscar sus ordenadores. Conmocionada, Lucy busca la verdad sobre su marido. ¿Quién es realmente? ¿Debe alejarlo de su hijo?",
           "youtube_id": "sEBgOTP9Vdc",
           "trailer_url": "https://www.youtube.com/watch?v=sEBgOTP9Vdc"
@@ -120,8 +168,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
           "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
-          "youtube_id": "9i4KYuJwmVo",
-          "trailer_url": "https://www.youtube.com/watch?v=9i4KYuJwmVo"
+          "youtube_id": "6Ou7KvWRm48",
+          "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
         },
         {
           "title": "El Ángel Guardián",
@@ -141,23 +189,23 @@
           "media_type": "SERIE",
           "year": "2026",
           "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/3Nio5XfjE3NbkwQJAjHTqxUAjeO.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7cS90VaWOqQhgmsT0FYXYmIMcRp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/fNcpHmuZLKoyhNMBEzdqzX8iIvg.jpg",
           "overview": "Cuando el emperador Sovieshu se enamora de una esclava fugitiva y le pide el divorcio a su esposa, la querida emperatriz Navier, ella lo sorprende con una audaz petición: solo aceptará si le permiten casarse con Heinrey, el príncipe del Reino del Oeste.",
           "youtube_id": "AK7ifrn25nY",
           "trailer_url": "https://www.youtube.com/watch?v=AK7ifrn25nY"
         },
         {
-          "title": "Palacio",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "title": "Una joya en el palacio",
+          "subtitle": "SERIE • 2003 • 1 Temporada",
           "media_type": "SERIE",
-          "year": "2026",
+          "year": "2003",
           "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ju6k9yjDo4kmGq2nylFtBCSmfML.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4GTqXYOKpd1BbDsSJoYyiM8dUv8.jpg",
-          "overview": "Noviembre de 1985: el M-19 se toma el Palacio de Justicia en Bogotá, desatando una jornada de violencia que cambiará a Colombia para siempre. Entre el fuego cruzado, rehenes desesperados, un ejército implacable y una guerrilla dispuesta a perderlo todo, la nación presencia por primera vez la guerra destrozando el corazón de la ciudad. Las consecuencias de la toma dejarán una huella indeleble en los sobrevivientes y en las familias que buscarán justicia durante décadas. A las 27 horas de horror le seguirán 40 años de preguntas sin resolver.",
-          "youtube_id": "Ne6IZUhglv4",
-          "trailer_url": "https://www.youtube.com/watch?v=Ne6IZUhglv4"
+          "poster_url": "https://image.tmdb.org/t/p/w500/wTiBK9Fj0qIXgkgYiPHZ0HoXfnh.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oHZ9e5WlZfuHBbZZsQzfR0baxt2.jpg",
+          "overview": "Historia basada en hechos reales que narra la vida de una mujer coreana durante la Dinastía Chosun unos 500 años atrás, y cómo superó una serie de discriminaciones para convertirse en la primera mujer médico personal del rey a pesar de la rigidez jerárquica y los obstáculos de género (vivía en una sociedad dominada por hombres).",
+          "youtube_id": "p-L1ofpIH7c",
+          "trailer_url": "https://www.youtube.com/watch?v=p-L1ofpIH7c"
         },
         {
           "title": "Desprotexida: el crimen de Pazos",
@@ -254,54 +302,6 @@
           "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
           "youtube_id": "tPf0_b026Ck",
           "trailer_url": "https://www.youtube.com/watch?v=tPf0_b026Ck"
-        },
-        {
-          "title": "Ebenezer: Los fantasmas de Navidad",
-          "subtitle": "PELÍCULA • 2026 • 1h 55m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 55m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/ekfB30eDEJAHHEW7yI4gLcq0k3A.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
-          "overview": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
-          "youtube_id": "IM9WKWE3jXc",
-          "trailer_url": "https://www.youtube.com/watch?v=IM9WKWE3jXc"
-        },
-        {
-          "title": "The Crow Girl",
-          "subtitle": "SERIE • 2025 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2025",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/9vCFSNwql5Be5W1LrS7hGVZYnbm.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/qNvL8eup1eTFeKXEG402mjxNAzU.jpg",
-          "overview": "La detective Jeanette Kihlberg investiga el asesinato de un joven inmigrante enfrentándose a los obstáculos de un fiscal y de un cuerpo de policía. Dos niños más aparecen mutilados y se descubre la existencia de un asesino en serie.",
-          "youtube_id": "--QTn574AYw",
-          "trailer_url": "https://www.youtube.com/watch?v=--QTn574AYw"
-        },
-        {
-          "title": "Colisión",
-          "subtitle": "PELÍCULA • 2026 • 2h 2m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 2m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
-          "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
-          "youtube_id": "Jk12Xo0-oDc",
-          "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
-        },
-        {
-          "title": "Un buen abogado",
-          "subtitle": "PELÍCULA • 2026 • 2h 1m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 1m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tVJITyPQXww6DypTDlpILM0Ppzi.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/fzlch1j1aVGJKI0GB6IdgbG5gpJ.jpg",
-          "overview": "Luego de terminar en rehabilitación por una sobredosis, un abogado tiene una semana para salvar su carrera y prepararse para su propio juicio con la ayuda de una tenaz pasante.",
-          "youtube_id": "TumuT0GJKC0",
-          "trailer_url": "https://www.youtube.com/watch?v=TumuT0GJKC0"
         }
       ]
     },
@@ -341,8 +341,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
           "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-          "youtube_id": "2oUAOVY5ycY",
-          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
+          "youtube_id": "xSqzJE3LFDQ",
+          "trailer_url": "https://www.youtube.com/watch?v=xSqzJE3LFDQ"
         },
         {
           "title": "Godzilla Minus One",
@@ -365,8 +365,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
           "overview": "Veinte años después de su increíble encuentro con un alienígena, Petey sigue estancado en el pasado. Hasta que, por alguna extraña razón, su viejo amigo vuelve...",
-          "youtube_id": "RmK_ZPlzp5A",
-          "trailer_url": "https://www.youtube.com/watch?v=RmK_ZPlzp5A"
+          "youtube_id": "lDb-wna7GbI",
+          "trailer_url": "https://www.youtube.com/watch?v=lDb-wna7GbI"
         },
         {
           "title": "La razón de estar contigo: Una Navidad perfecta",
@@ -381,16 +381,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=JohzxlqNRso"
         },
         {
-          "title": "El viaje de Chihiro",
-          "subtitle": "PELÍCULA • 2001 • 2h 5m",
+          "title": "Angry Birds: La Película",
+          "subtitle": "PELÍCULA • 2016 • 1h 37m",
           "media_type": "PELÍCULA",
-          "year": "2001",
-          "extra_info": "2h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
-          "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
-          "youtube_id": "5Fgq4Osh6XQ",
-          "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
+          "year": "2016",
+          "extra_info": "1h 37m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cY7nyBe2HHvWHmpafq8hjnrQp4j.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/o4mhrLxv6I70kvYA42qANGUF7ya.jpg",
+          "overview": "Una isla poblada enteramente, o casi enteramente, por pájaros felices que no vuelan. En este paraíso, Red, un pájaro con mal genio, el veloz Chuck y el volátil Bomb siempre han sido marginados. Pero cuando la isla recibe la visita de unos misteriosos cerditos verdes, estos insólitos inadaptados deberán descubrir qué traman los cerdos.",
+          "youtube_id": "nsYuDG0_MU4",
+          "trailer_url": "https://www.youtube.com/watch?v=nsYuDG0_MU4"
         },
         {
           "title": "Colisión",
@@ -417,22 +417,34 @@
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
-          "title": "Angry Birds: La Película",
-          "subtitle": "PELÍCULA • 2016 • 1h 37m",
+          "title": "El viaje de Chihiro",
+          "subtitle": "PELÍCULA • 2001 • 2h 5m",
           "media_type": "PELÍCULA",
-          "year": "2016",
-          "extra_info": "1h 37m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cY7nyBe2HHvWHmpafq8hjnrQp4j.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/o4mhrLxv6I70kvYA42qANGUF7ya.jpg",
-          "overview": "Una isla poblada enteramente, o casi enteramente, por pájaros felices que no vuelan. En este paraíso, Red, un pájaro con mal genio, el veloz Chuck y el volátil Bomb siempre han sido marginados. Pero cuando la isla recibe la visita de unos misteriosos cerditos verdes, estos insólitos inadaptados deberán descubrir qué traman los cerdos.",
-          "youtube_id": "nsYuDG0_MU4",
-          "trailer_url": "https://www.youtube.com/watch?v=nsYuDG0_MU4"
+          "year": "2001",
+          "extra_info": "2h 5m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
+          "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
+          "youtube_id": "5Fgq4Osh6XQ",
+          "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         }
       ]
     },
     {
       "category": "Top 10 Disney+",
       "items": [
+        {
+          "title": "Iron man - El hombre de hierro",
+          "subtitle": "PELÍCULA • 2008 • 2h 6m",
+          "media_type": "PELÍCULA",
+          "year": "2008",
+          "extra_info": "2h 6m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bFj7XRg5avQDvuvWaag3IttjEAw.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+          "overview": "El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado después de sufrir un accidente con una de sus armas. Equipado con una armadura de última generación tecnológica, se convierte en “El hombre de hierro”, un héroe que se dedica a combatir el mal en todo el mundo",
+          "youtube_id": "WUvq_9XW2Do",
+          "trailer_url": "https://www.youtube.com/watch?v=WUvq_9XW2Do"
+        },
         {
           "title": "Avengers: Endgame",
           "subtitle": "PELÍCULA • 2019 • 3h 0m",
@@ -482,18 +494,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
         },
         {
-          "title": "Avengers: Endgame",
-          "subtitle": "PELÍCULA • 2019 • 3h 0m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "3h 0m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uIPTS25whXkAAfRqptuPX4y4XiS.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
-          "youtube_id": "4WMuAEQ-LIA",
-          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
-        },
-        {
           "title": "Backrooms: Sin salida",
           "subtitle": "PELÍCULA • 2026 • 1h 51m",
           "media_type": "PELÍCULA",
@@ -506,16 +506,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=DfNI_gPxtJ8"
         },
         {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
+          "title": "Avengers: Endgame",
+          "subtitle": "PELÍCULA • 2019 • 3h 0m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
+          "year": "2019",
+          "extra_info": "3h 0m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uIPTS25whXkAAfRqptuPX4y4XiS.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+          "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+          "youtube_id": "4WMuAEQ-LIA",
+          "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -619,18 +619,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
-          "title": "Interestelar",
-          "subtitle": "PELÍCULA • 2014 • 2h 49m",
-          "media_type": "PELÍCULA",
-          "year": "2014",
-          "extra_info": "2h 49m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oBvINgU5r10WHvG6VSopCOlWtJP.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
-          "overview": "Cooper y un grupo de exploradores utilizan un agujero de gusano recién descubierto para superar las limitaciones de los viajes espaciales humanos y conquistar las vastas distancias que implica un viaje interestelar.",
-          "youtube_id": "n8xK0DK7H_E",
-          "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
-        },
-        {
           "title": "Madden",
           "subtitle": "PELÍCULA • 2026 • 1h 52m",
           "media_type": "PELÍCULA",
@@ -641,6 +629,18 @@
           "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
           "youtube_id": "7ljcNjDeF60",
           "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
+        },
+        {
+          "title": "Interestelar",
+          "subtitle": "PELÍCULA • 2014 • 2h 49m",
+          "media_type": "PELÍCULA",
+          "year": "2014",
+          "extra_info": "2h 49m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/oBvINgU5r10WHvG6VSopCOlWtJP.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
+          "overview": "Cooper y un grupo de exploradores utilizan un agujero de gusano recién descubierto para superar las limitaciones de los viajes espaciales humanos y conquistar las vastas distancias que implica un viaje interestelar.",
+          "youtube_id": "n8xK0DK7H_E",
+          "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
           "title": "Yo Soy Rocky",
@@ -655,6 +655,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=KKquTgKlXJY"
         },
         {
+          "title": "La noche perdida",
+          "subtitle": "PELÍCULA • 2018 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
+          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
+          "youtube_id": "9Nm2QBIZhcI",
+          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
+        },
+        {
           "title": "Batman: El caballero de la noche",
           "subtitle": "PELÍCULA • 2008 • 2h 32m",
           "media_type": "PELÍCULA",
@@ -665,18 +677,6 @@
           "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
           "youtube_id": "dzQtWkpc2-c",
           "trailer_url": "https://www.youtube.com/watch?v=dzQtWkpc2-c"
-        },
-        {
-          "title": "La noche perdida",
-          "subtitle": "PELÍCULA • 2018 • 1h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
-          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
-          "youtube_id": "lJA355ncZD4",
-          "trailer_url": "https://www.youtube.com/watch?v=lJA355ncZD4"
         }
       ]
     },
@@ -732,6 +732,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
+          "title": "Spider-Man: Lejos de casa",
+          "subtitle": "PELÍCULA • 2019 • 2h 9m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "2h 9m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/x4Ldcddhk8jzn3nqeODA8lHNw9M.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
+          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+          "youtube_id": "8MI5d5WXRvM",
+          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
+        },
+        {
           "title": "Mad Max: Furia en el camino",
           "subtitle": "PELÍCULA • 2015 • 2h 0m",
           "media_type": "PELÍCULA",
@@ -742,18 +754,6 @@
           "overview": "Perseguido por su turbulento pasado, Mad Max cree que la mejor forma de sobrevivir es ir solo por el mundo. Sin embargo, se ve arrastrado a formar parte de un grupo que huye a través del desierto en un War Rig conducido por una Emperatriz de élite: Furiosa. Escapan de una Ciudadela tiranizada por Immortan Joe, a quien han arrebatado algo irreemplazable. Enfurecido, el Señor de la Guerra moviliza a todas sus bandas y persigue implacablemente a los rebeldes en una \"guerra de la carretera\" de altas revoluciones... Cuarta entrega de la saga post-apocalíptica que resucita la trilogía que a principios de los ochenta protagonizó Mel Gibson.",
           "youtube_id": "UyqFAle_4aE",
           "trailer_url": "https://www.youtube.com/watch?v=UyqFAle_4aE"
-        },
-        {
-          "title": "Spider-Man: Lejos de casa",
-          "subtitle": "PELÍCULA • 2019 • 2h 9m",
-          "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 9m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/x4Ldcddhk8jzn3nqeODA8lHNw9M.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
-          "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-          "youtube_id": "8MI5d5WXRvM",
-          "trailer_url": "https://www.youtube.com/watch?v=8MI5d5WXRvM"
         },
         {
           "title": "El abismo secreto",
@@ -780,16 +780,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
         },
         {
-          "title": "A Christmas Castle Proposal: A Royal in Paradise II",
-          "subtitle": "PELÍCULA • 2024 • 1h 25m",
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
           "media_type": "PELÍCULA",
-          "year": "2024",
-          "extra_info": "1h 25m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eXNjcygJvr0wCIgqCZKGRJKH8uw.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5fTOeA4qulMp0sjwzuKsgl1ihoV.jpg",
-          "overview": "Tras enamorarse del príncipe Alexander, Olivia viaja a Torovia para pasar la Navidad con la familia real, pero las diferencias culturales generan una serie de desastres",
-          "youtube_id": "3zJ93bvX9cs",
-          "trailer_url": "https://www.youtube.com/watch?v=3zJ93bvX9cs"
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         },
         {
           "title": "Los asesinos de la luna",
@@ -807,6 +807,54 @@
     }
   ],
   "flat_list": [
+    {
+      "title": "Los altruistas",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/iRFLTlydFocAEWN2yIoBWGTXyFe.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "overview": "Jóvenes, idealistas y súbitamente ricos. Intentaron hacer el bien, pero sacaron lo peor del otro. Una historia de amor tóxica inspirada por un fraude real.",
+      "youtube_id": "REiLOgTemWM",
+      "trailer_url": "https://www.youtube.com/watch?v=REiLOgTemWM"
+    },
+    {
+      "title": "El deshielo",
+      "subtitle": "SERIE • 2022 • 3 Temporadas",
+      "media_type": "SERIE",
+      "year": "2022",
+      "extra_info": "3 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/4vP54uZTDAnycDyVwp0i6L9jWmN.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/6Gmqi22GyK9HuYjHVnvOKAFgLd0.jpg",
+      "overview": "Finales de invierno, inicio de primavera. El deshielo revela el cadáver de una joven. Zawieja, una incansable oficial de policía, investiga el caso.",
+      "youtube_id": "3IIESL1roJ4",
+      "trailer_url": "https://www.youtube.com/watch?v=3IIESL1roJ4"
+    },
+    {
+      "title": "Peleas a Domicilio",
+      "subtitle": "PELÍCULA • 2026 • 1h 38m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 38m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/hYXBihLdaZdszwyULySLYsHPcLp.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/w4ISfPkFLdG0ew07XcrlQSB4O4q.jpg",
+      "overview": "Naim es un encanto en su vida diaria, pero un monstruo cuando se trata de pelear. Para pagar el tratamiento de su perra enferma, se ve obligado a unirse a \"Allo Bagarre\", un grupo de combatientes callejeros que resuelven disputas a puñetazos. Pero el día que descubre que los conflictos se resuelven mediante el diálogo, a Naim le resultará difícil hacerse oír.",
+      "youtube_id": "qXfd3Ex09NI",
+      "trailer_url": "https://www.youtube.com/watch?v=qXfd3Ex09NI"
+    },
+    {
+      "title": "Perfectos mentirosos",
+      "subtitle": "PELÍCULA • 2026 • 1h 48m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 48m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/OiXyM1w9NxdV450GpV92B0YPMj.jpg",
+      "overview": "Bienvenidos a Tagus, donde el poder, el privilegio y los secretos mortales se esconden tras fachadas perfectas. Jude Derry llega a esta exclusiva universidad con una misión oculta: infiltrarse en el círculo de los hermanos Cash para descubrir la verdad sobre la muerte de su hermano. Los tres herederos del imperio familiar, Aegan, el carismático y calculador primogénito, Adrik, el enigmático y misterioso hermano mediano, y Alex, el rebelde e impredecible hermano pequeño, dominan Tagus con un magnetismo al que nadie puede resistirse. Lo que comienza como una venganza personal se transforma en un peligroso triángulo de seducción, atracción prohibida y mentiras cuando Jude queda envuelta en la compleja dinámica familiar de los Cash. Con cada pista que descubre, se acerca más a una verdad que podría no solo destruir a la poderosa familia… sino también desvelar secretos que quizás ella misma no está preparada para enfrentar.",
+      "youtube_id": "PFsZOsVnNEM",
+      "trailer_url": "https://www.youtube.com/watch?v=PFsZOsVnNEM"
+    },
     {
       "title": "Prawo bestii",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -838,7 +886,7 @@
       "year": "2026",
       "extra_info": "1h 55m",
       "poster_url": "https://image.tmdb.org/t/p/w500/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/bJsIZ6ruMzhs5z1MssENrRpb6uq.jpg",
       "overview": "Lucy y Philip son felices: acaban de mudarse con su hijo a una casa de campo cerca de Múnich. Una mañana, su vida da un vuelco cuando la policía se presenta en su domicilio para detener a Philip y confiscar sus ordenadores. Conmocionada, Lucy busca la verdad sobre su marido. ¿Quién es realmente? ¿Debe alejarlo de su hijo?",
       "youtube_id": "sEBgOTP9Vdc",
       "trailer_url": "https://www.youtube.com/watch?v=sEBgOTP9Vdc"
@@ -924,8 +972,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
       "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
-      "youtube_id": "9i4KYuJwmVo",
-      "trailer_url": "https://www.youtube.com/watch?v=9i4KYuJwmVo"
+      "youtube_id": "6Ou7KvWRm48",
+      "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
     },
     {
       "title": "El Ángel Guardián",
@@ -945,23 +993,23 @@
       "media_type": "SERIE",
       "year": "2026",
       "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/3Nio5XfjE3NbkwQJAjHTqxUAjeO.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7cS90VaWOqQhgmsT0FYXYmIMcRp.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/fNcpHmuZLKoyhNMBEzdqzX8iIvg.jpg",
       "overview": "Cuando el emperador Sovieshu se enamora de una esclava fugitiva y le pide el divorcio a su esposa, la querida emperatriz Navier, ella lo sorprende con una audaz petición: solo aceptará si le permiten casarse con Heinrey, el príncipe del Reino del Oeste.",
       "youtube_id": "AK7ifrn25nY",
       "trailer_url": "https://www.youtube.com/watch?v=AK7ifrn25nY"
     },
     {
-      "title": "Palacio",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "title": "Una joya en el palacio",
+      "subtitle": "SERIE • 2003 • 1 Temporada",
       "media_type": "SERIE",
-      "year": "2026",
+      "year": "2003",
       "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ju6k9yjDo4kmGq2nylFtBCSmfML.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4GTqXYOKpd1BbDsSJoYyiM8dUv8.jpg",
-      "overview": "Noviembre de 1985: el M-19 se toma el Palacio de Justicia en Bogotá, desatando una jornada de violencia que cambiará a Colombia para siempre. Entre el fuego cruzado, rehenes desesperados, un ejército implacable y una guerrilla dispuesta a perderlo todo, la nación presencia por primera vez la guerra destrozando el corazón de la ciudad. Las consecuencias de la toma dejarán una huella indeleble en los sobrevivientes y en las familias que buscarán justicia durante décadas. A las 27 horas de horror le seguirán 40 años de preguntas sin resolver.",
-      "youtube_id": "Ne6IZUhglv4",
-      "trailer_url": "https://www.youtube.com/watch?v=Ne6IZUhglv4"
+      "poster_url": "https://image.tmdb.org/t/p/w500/wTiBK9Fj0qIXgkgYiPHZ0HoXfnh.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/oHZ9e5WlZfuHBbZZsQzfR0baxt2.jpg",
+      "overview": "Historia basada en hechos reales que narra la vida de una mujer coreana durante la Dinastía Chosun unos 500 años atrás, y cómo superó una serie de discriminaciones para convertirse en la primera mujer médico personal del rey a pesar de la rigidez jerárquica y los obstáculos de género (vivía en una sociedad dominada por hombres).",
+      "youtube_id": "p-L1ofpIH7c",
+      "trailer_url": "https://www.youtube.com/watch?v=p-L1ofpIH7c"
     },
     {
       "title": "Desprotexida: el crimen de Pazos",
@@ -1058,54 +1106,6 @@
       "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
       "youtube_id": "tPf0_b026Ck",
       "trailer_url": "https://www.youtube.com/watch?v=tPf0_b026Ck"
-    },
-    {
-      "title": "Ebenezer: Los fantasmas de Navidad",
-      "subtitle": "PELÍCULA • 2026 • 1h 55m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 55m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ekfB30eDEJAHHEW7yI4gLcq0k3A.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
-      "overview": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
-      "youtube_id": "IM9WKWE3jXc",
-      "trailer_url": "https://www.youtube.com/watch?v=IM9WKWE3jXc"
-    },
-    {
-      "title": "The Crow Girl",
-      "subtitle": "SERIE • 2025 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2025",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9vCFSNwql5Be5W1LrS7hGVZYnbm.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/qNvL8eup1eTFeKXEG402mjxNAzU.jpg",
-      "overview": "La detective Jeanette Kihlberg investiga el asesinato de un joven inmigrante enfrentándose a los obstáculos de un fiscal y de un cuerpo de policía. Dos niños más aparecen mutilados y se descubre la existencia de un asesino en serie.",
-      "youtube_id": "--QTn574AYw",
-      "trailer_url": "https://www.youtube.com/watch?v=--QTn574AYw"
-    },
-    {
-      "title": "Colisión",
-      "subtitle": "PELÍCULA • 2026 • 2h 2m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 2m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
-      "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
-      "youtube_id": "Jk12Xo0-oDc",
-      "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
-    },
-    {
-      "title": "Un buen abogado",
-      "subtitle": "PELÍCULA • 2026 • 2h 1m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 1m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tVJITyPQXww6DypTDlpILM0Ppzi.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/fzlch1j1aVGJKI0GB6IdgbG5gpJ.jpg",
-      "overview": "Luego de terminar en rehabilitación por una sobredosis, un abogado tiene una semana para salvar su carrera y prepararse para su propio juicio con la ayuda de una tenaz pasante.",
-      "youtube_id": "TumuT0GJKC0",
-      "trailer_url": "https://www.youtube.com/watch?v=TumuT0GJKC0"
     }
   ]
 }
