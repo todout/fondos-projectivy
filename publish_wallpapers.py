@@ -270,10 +270,19 @@ def normalize_top_title(title: str) -> str:
     return " ".join(s.split())
 
 
-def load_top10_map(base_dir: Path) -> dict[str, str]:
-    """Return normalized_title -> badge label (e.g. 'Top #1 Netflix', 'Top 10 Prime Video')."""
+PLATFORM_LOGOS = {
+    "Netflix": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png",
+    "Prime Video": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+    "Disney+": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png",
+    "Max": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png",
+    "Apple TV+": "https://image.tmdb.org/t/p/w92/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png",
+}
+
+
+def load_top10_map(base_dir: Path) -> dict[str, dict]:
+    """Return normalized_title -> {'label': 'Top #1 Netflix', 'rank': 'TOP 1', 'platform': 'Netflix', 'logo': url}."""
     import re
-    top_map: dict[str, str] = {}
+    top_map: dict[str, dict] = {}
 
     # 1. Netflix Tudum Argentina en vivo (películas y series)
     for url in (
@@ -294,7 +303,12 @@ def load_top10_map(base_dir: Path) -> dict[str, str]:
                     clean_t = re.sub(r": Temporada \d+|: Miniserie", "", t_raw).strip()
                     norm = normalize_top_title(clean_t)
                     if norm and not clean_t.startswith("Top 10") and norm not in top_map:
-                        top_map[norm] = f"Top #{idx} Netflix"
+                        top_map[norm] = {
+                            "label": f"Top #{idx} Netflix",
+                            "rank": f"TOP {idx}",
+                            "platform": "Netflix",
+                            "logo": PLATFORM_LOGOS["Netflix"],
+                        }
         except Exception:
             pass
 
@@ -325,7 +339,13 @@ def load_top10_map(base_dir: Path) -> dict[str, str]:
                 for idx, item in enumerate((row.get("items") or [])[:10], 1):
                     norm = normalize_top_title(item.get("title") or "")
                     if norm and norm not in top_map:
-                        top_map[norm] = f"Top #{idx} {plat}" if plat == "Netflix" else f"Top 10 {plat}"
+                        is_nf = (plat == "Netflix")
+                        top_map[norm] = {
+                            "label": f"Top #{idx} {plat}" if is_nf else f"Top 10 {plat}",
+                            "rank": f"TOP {idx}" if is_nf else "TOP 10",
+                            "platform": plat,
+                            "logo": PLATFORM_LOGOS.get(plat, ""),
+                        }
             break
         except Exception:
             pass
@@ -352,14 +372,17 @@ def build_manifest(files: list[Path], raw_base: str, branch: str, base_dir: Path
         }
         meta = fetch_tmdb_metadata(title_guess, headers, cache_yt, omdb_key)
         entry.update(meta)
-        badge = ""
+        top_info = None
         for cand_title in (entry.get("title"), entry.get("title_en"), title_guess):
             norm = normalize_top_title(cand_title or "")
             if norm and norm in top10_map:
-                badge = top10_map[norm]
+                top_info = top10_map[norm]
                 break
-        if badge:
-            entry["top10"] = badge
+        if top_info:
+            entry["top10"] = top_info["label"]
+            entry["top10_rank"] = top_info["rank"]
+            entry["top10_platform"] = top_info["platform"]
+            entry["top10_logo"] = top_info["logo"]
         manifest.append(entry)
     return manifest
 
