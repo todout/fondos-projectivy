@@ -13,6 +13,8 @@ from dotenv import load_dotenv
 import re
 import urllib.parse
 from bs4 import BeautifulSoup
+import logging
+from logging.handlers import RotatingFileHandler
 
 # Intentar importar traductor, si falla lo desactivamos
 try:
@@ -23,6 +25,22 @@ except ImportError:
 
 # Cargar variables de entorno desde .env
 load_dotenv()
+
+# Configuración de log dedicado para ejecuciones, sugerencias y descartes
+LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tmdb_recommendations.log")
+tmdb_logger = logging.getLogger("tmdb_recommendations")
+tmdb_logger.setLevel(logging.INFO)
+if not tmdb_logger.handlers:
+    _handler = RotatingFileHandler(LOG_FILE, maxBytes=2 * 1024 * 1024, backupCount=3, encoding="utf-8")
+    _handler.setFormatter(logging.Formatter("%(asctime)s %(message)s", datefmt="%Y-%m-%d %H:%M:%S"))
+    tmdb_logger.addHandler(_handler)
+
+
+def log_event(category, message, also_print=True):
+    line = f"[{category}] {message}"
+    tmdb_logger.info(line)
+    if also_print:
+        print(line)
 
 # Base URL de la API de TMDB
 tmdb_url = "https://api.themoviedb.org/3/"
@@ -56,6 +74,20 @@ if not os.path.exists(font_bold_path):
             print("Fuente Roboto-Black.ttf descargada con éxito.")
     except Exception as e:
         print(f"Error descargando Roboto-Black: {e}")
+
+font_title_path = 'Anton-Regular.ttf'
+if not os.path.exists(font_title_path):
+    try:
+        print("Descargando fuente Anton-Regular.ttf...")
+        r_f = requests.get('https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf', timeout=10)
+        if r_f.status_code == 200:
+            with open(font_title_path, 'wb') as f_b:
+                f_b.write(r_f.content)
+            print("Fuente Anton-Regular.ttf descargada con éxito.")
+    except Exception as e:
+        print(f"Error descargando Anton-Regular: {e}")
+if not os.path.exists(font_title_path):
+    font_title_path = font_bold_path
 
 # Cargar Exclusiones y Parámetros Dinámicos
 exclude_genres_env = os.getenv('TMDB_EXCLUDE_GENRES', 'Animación, Terror, Horror, Ciencia ficción, Science Fiction, Sci-Fi & Fantasy')
@@ -800,9 +832,9 @@ def summarize_with_gemini(title, overview, reason=None):
     prompt += """
     Instrucciones de formato y longitud:
     1. Debes generar exactamente DOS bloques separados por un único salto de línea simple (\\n), es decir, un punto y aparte inmediato sin ninguna línea en blanco o vacía entre ellos.
-    2. El BLOQUE 1 debe ser la sinopsis condensada pero informativa de la trama (entre 260 y 310 caracteres).
-    3. El BLOQUE 2 debe ser el motivo de recomendación de por qué le gustará al usuario (entre 110 y 140 caracteres). IMPORTANTE: No incluyas ningún prefijo del estilo "Por qué te gustará:" o "Te gustará:". Escribe el motivo directamente con naturalidad en español.
-    4. La suma total de caracteres de ambos bloques combinados no debe superar los 450 caracteres bajo ninguna circunstancia.
+    2. El BLOQUE 1 debe ser la sinopsis condensada pero informativa de la trama (entre 155 y 185 caracteres).
+    3. El BLOQUE 2 debe ser el motivo de recomendación de por qué le gustará al usuario (entre 75 y 95 caracteres). IMPORTANTE: No incluyas ningún prefijo del estilo "Por qué te gustará:" o "Te gustará:". Escribe el motivo directamente con naturalidad en español.
+    4. La suma total de caracteres de ambos bloques combinados no debe superar los 280 caracteres bajo ninguna circunstancia (para que entre en 6 líneas de 52 caracteres).
     5. Devuelve ÚNICAMENTE el texto resultante en español, sin comillas externas, sin bloques de código, y sin texto introductorio.
     """
     
@@ -829,7 +861,7 @@ def summarize_with_gemini(title, overview, reason=None):
                 summary = "\n".join(lines).strip()
             return summary
     except Exception as e:
-        print(f"Error al resumir con Gemini: {e}")
+        log_event("GEMINI", f"Error al resumir '{title}': {e}")
     return None
 
 
@@ -951,7 +983,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
                 break
                 
     if not has_valid_rating and not is_recommended:
-        print(f"Saltando '{title}' (ID: {media_id}) por no alcanzar el umbral mínimo de calificación (rating >= {min_accept_rating}).")
+        log_event("DESCARTADO", f"'{title}' (ID: {media_id}) - rating < {min_accept_rating}")
         return False
         
     # Obtener descripción en español si falta
@@ -975,12 +1007,12 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
                 overview = overview_en
                 
     if not overview.strip():
-        print(f"{title} ignorado por falta de descripción")
+        log_event("DESCARTADO", f"'{title}' (ID: {media_id}) - sin descripción")
         return False
         
     # Filtrar géneros
     if any(genre_map.get(g,'') in excluded_genres for g in genre_ids):
-        print(f"{title} ignorado por género excluido")
+        log_event("DESCARTADO", f"'{title}' (ID: {media_id}) - género excluido")
         return False
         
     # Descargar imagen
@@ -989,7 +1021,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
         r.raise_for_status()
         img = Image.open(BytesIO(r.content))
     except Exception as e:
-        print(f"Error al descargar imagen de {title}: {e}")
+        log_event("DESCARTADO", f"'{title}' (ID: {media_id}) - error descargando imagen: {e}")
         return False
         
     # Redimensionar y componer fondos
@@ -1016,7 +1048,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             
     # Fuentes para el nuevo layout
     font_metadata = ImageFont.truetype('Roboto-Light.ttf', 50)
-    font_o = ImageFont.truetype('Roboto-Light.ttf', 78)
+    font_o = ImageFont.truetype('Roboto-Light.ttf', 64)
     
     # 1. Dibujar Título o Logo
     title_pos_y = 160
@@ -1030,7 +1062,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             max_w = 1600
             ratio = min(max_h/h, max_w/w)
             logo_img = logo_img.resize((int(w*ratio), int(h*ratio)), Image.Resampling.LANCZOS)
-            x_logo = 210 + (max_w - logo_img.width) // 2
+            x_logo = 130 + (max_w - logo_img.width) // 2
             y_logo = title_pos_y + (max_h - logo_img.height) // 2
             bg.paste(logo_img, (x_logo, y_logo), logo_img)
             title_actual_bottom_y = y_logo + logo_img.height
@@ -1042,8 +1074,6 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     if not logo_drawn:
         # Sanitizar título para prevenir tofu y pasar a mayúsculas
         title_clean = sanitize_title_font(title).upper()
-        # Extraer color de acento dinámico de la foto
-        accent_color = extract_accent_color(img)
         
         try:
             # Dividir en 2 líneas si tiene más de 16 caracteres y contiene espacios
@@ -1052,38 +1082,44 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
                 lines = title_text.split('\n')
                 max_line = max(lines, key=len)
                 
-                font_size = 320
-                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                if len(title_clean) >= 24:
+                    font_size = 230
+                elif len(title_clean) >= 18:
+                    font_size = 270
+                else:
+                    font_size = 320
+                font_t_bold = ImageFont.truetype(font_title_path, font_size)
                 while draw.textlength(max_line, font=font_t_bold) > 2200 and font_size > 80:
                     font_size -= 5
-                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                    font_t_bold = ImageFont.truetype(font_title_path, font_size)
                     
-                bbox = draw.multiline_textbbox((0, 0), title_text, font=font_t_bold, spacing=10)
-                title_pos = (210, title_pos_y)
-                line_spacing = 10
+                # Spacing negativo para compensar el interlineado interno amplio
+                line_spacing = -int(font_size * 0.16)
+                bbox = draw.multiline_textbbox((0, 0), title_text, font=font_t_bold, spacing=line_spacing)
+                title_pos = (130, title_pos_y)
             else:
                 title_text = title_clean
                 font_size = 380
-                font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                font_t_bold = ImageFont.truetype(font_title_path, font_size)
                 while draw.textlength(title_text, font=font_t_bold) > 2200 and font_size > 110:
                     font_size -= 5
-                    font_t_bold = ImageFont.truetype('Roboto-Black.ttf', font_size)
+                    font_t_bold = ImageFont.truetype(font_title_path, font_size)
                     
                 bbox = draw.textbbox((0, 0), title_text, font=font_t_bold)
-                title_pos = (210, title_pos_y)
+                title_pos = (130, title_pos_y)
                 line_spacing = 0
                 
             # Sombra negra
             shadow_offset = 4
             draw.multiline_text((title_pos[0]+shadow_offset, title_pos[1]+shadow_offset), title_text, fill='black', font=font_t_bold, spacing=line_spacing)
-            # Título principal con el color extraído
-            draw.multiline_text(title_pos, title_text, fill=accent_color, font=font_t_bold, spacing=line_spacing)
+            # Título principal en blanco
+            draw.multiline_text(title_pos, title_text, fill='white', font=font_t_bold, spacing=line_spacing)
             title_actual_bottom_y = title_pos_y + bbox[3]
             title_width = bbox[2] - bbox[0]
         except Exception as e:
             print(f"Error dibujando título estilizado: {e}")
             fallback_y = 338
-            draw.text((202, fallback_y), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
+            draw.text((130, fallback_y), title_clean, fill='white', font=font_t, stroke_width=2, stroke_fill='black')
             title_actual_bottom_y = fallback_y + 190
             title_width = int(draw.textlength(title_clean, font=font_t))
             
@@ -1173,10 +1209,10 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     y_text = y_center - font_offset_y
     
     # Dibujar metadatos con sombra y centrado vertical
-    draw.text((210 + 2, y_text + 2), metadata_text, fill='black', font=font_metadata)
-    draw.text((210, y_text), metadata_text, fill=(150, 150, 150), font=font_metadata)
+    draw.text((130 + 2, y_text + 2), metadata_text, fill='black', font=font_metadata)
+    draw.text((130, y_text), metadata_text, fill=(150, 150, 150), font=font_metadata)
     
-    x = 210 + int(metadata_width)
+    x = 130 + int(metadata_width)
     
     if platforms_to_draw:
         # Separador inicial
@@ -1216,7 +1252,7 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
 
     # 5. Dibujar Sinopsis
     overview_pos_y = metadata_pos_y + 80
-    overview_pos = (210, overview_pos_y)
+    overview_pos = (130, overview_pos_y)
     
     # 1. Intentar con la sinopsis oficial completa + recomendación
     tmdb_desc = overview.strip()
@@ -1230,14 +1266,14 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             return f"{desc}\n{rec_reason.strip()}"
         return desc
 
-    def wrap_text_to_paragraphs(text, max_total_lines=7):
+    def wrap_text_to_paragraphs(text, max_total_lines=6):
         paragraphs = text.split('\n')
         wrapped_p = []
         lines_count = 0
         for p in paragraphs:
             if not p.strip():
                 continue
-            p_lines = textwrap.wrap(p.strip(), 75)
+            p_lines = textwrap.wrap(p.strip(), 52)
             wrapped_p.append(p_lines)
             lines_count += len(p_lines)
         return wrapped_p, lines_count
@@ -1245,11 +1281,11 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     combined_text = format_combined(tmdb_desc, reason)
     wrapped_p, lines_count = wrap_text_to_paragraphs(combined_text)
     
-    # Si la combinación supera las 7 líneas:
-    if lines_count > 7:
+    # Si la combinación supera las 6 líneas:
+    if lines_count > 6:
         success_summarize = False
         if GEMINI_API_KEY:
-            print(f"La sinopsis completa de '{title}' supera las 7 líneas ({lines_count} líneas). Solicitando resumen dinámico a Gemini...")
+            print(f"La sinopsis completa de '{title}' supera las 6 líneas ({lines_count} líneas). Solicitando resumen dinámico a Gemini...")
             summarized = summarize_with_gemini(title, tmdb_desc, reason)
             if summarized:
                 combined_text = summarized
@@ -1261,19 +1297,19 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
             combined_text = format_combined(short_overview.strip(), reason)
             wrapped_p, lines_count = wrap_text_to_paragraphs(combined_text)
             
-    # Si sigue superando las 7 líneas, truncamos estrictamente a 7 líneas como último recurso
-    if lines_count > 7:
+    # Si sigue superando las 6 líneas, truncamos estrictamente a 6 líneas como último recurso
+    if lines_count > 6:
         flat_lines = []
         for p_lines in wrapped_p:
             flat_lines.extend(p_lines)
         
-        flat_lines = flat_lines[:7]
+        flat_lines = flat_lines[:6]
         flat_lines[-1] += '...'
         overview_text = '\n'.join(flat_lines)
     else:
         overview_text = "\n".join(["\n".join(p_lines) for p_lines in wrapped_p])
         
-    draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), 16, 'black', 2)
+    draw_multiline_text(draw, overview_pos, overview_text, font_o, (150, 150, 150), 12, 'black', 2)
     
     bg.convert('RGB').save(filename)
     print(f"Image saved: {filename}")
@@ -1297,22 +1333,22 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
         not_interested_ids = {x.get('id') for x in not_interested if x.get('id')}
         not_interested_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')}
         if item_id in not_interested_ids or (title and normalize_title(title).upper() in not_interested_titles):
-            print(f"Ignorado {title} por estar en la lista de no interesados (not_interested)")
+            log_event("DESCARTADO", f"'{title}' (ID: {item_id}) - en lista not_interested")
             return False
             
     # 0.1. Excluir si está en idioma no deseado
     if details.get('original_language') in excluded_languages:
-        print(f"Ignorado {title} por idioma original excluido: {details.get('original_language')}")
+        log_event("DESCARTADO", f"'{title}' (ID: {item_id}) - idioma original excluido: {details.get('original_language')}")
         return False
         
     # 0.2. Excluir superhéroes
     if is_superhero_content(title, overview):
-        print(f"Ignorado {title} por temática de superhéroes")
+        log_event("DESCARTADO", f"'{title}' (ID: {item_id}) - temática de superhéroes")
         return False
         
     # 0.3. Excluir por géneros
     if any(genre_map.get(g, '') in excluded_genres for g in genre_ids):
-        print(f"Ignorado {title} por género excluido")
+        log_event("DESCARTADO", f"'{title}' (ID: {item_id}) - género excluido")
         return False
     
     # Obtener todas las calificaciones
@@ -1320,7 +1356,7 @@ def process_recommended_item(item_id, media_type, short_overview=None, reason=No
     
     backdrop_path = details.get('backdrop_path')
     if not backdrop_path:
-        print(f"No hay backdrop de fondo disponible para: {title}")
+        log_event("DESCARTADO", f"'{title}' (ID: {item_id}) - sin backdrop disponible")
         return False
         
     image_url = f"https://image.tmdb.org/t/p/original{backdrop_path}"
@@ -1419,45 +1455,150 @@ def get_candidates(media_type, max_results=40):
             if item['id'] not in seen_ids:
                 seen_ids.add(item['id'])
                 candidates_list.append(item)
-                
+
+    # 4. Incluir Tops 10 reales de Streaming en Argentina (Netflix Tudum en vivo + trailers.json)
+    streaming_entries = []  # lista de tuplas (title, source_tag)
+    try:
+        tudum_url = (
+            "https://www.netflix.com/tudum/top10/es/argentina"
+            if media_type == 'movie'
+            else "https://www.netflix.com/tudum/top10/es/argentina/tv"
+        )
+        r_tudum = requests.get(
+            tudum_url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "es-AR,es;q=0.9"},
+            timeout=12,
+        )
+        if r_tudum.status_code == 200:
+            raw_t = re.findall(r'<td[^>]*class="title"[^>]*>.*?<button>([^<]+)</button>', r_tudum.text, re.DOTALL)
+            if not raw_t:
+                raw_t = re.findall(r'data-uia="top10-card-logo"[^>]*><img [^>]*alt="([^"]+)"', r_tudum.text)
+            for idx, t_raw in enumerate(raw_t[:10], 1):
+                clean_t = re.sub(r': Temporada \d+|: Miniserie', '', t_raw).strip()
+                if clean_t and not clean_t.startswith("Top 10"):
+                    streaming_entries.append((clean_t, f"Top #{idx} Netflix AR"))
+    except Exception as e:
+        log_event("CANDIDATOS", f"No se pudo consultar Netflix Tudum AR en vivo: {e}", also_print=False)
+
+    # Complementar con los Tops 10 de plataformas desde trailers.json / trailers_cache.json
+    possible_paths = [
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "trailers.json"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "trailers_cache.json"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "trailers-projectivy", "app", "src", "main", "assets", "trailers.json"),
+        "d:\\Antrigravity - Projects\\trailers-projectivy\\app\\src\\main\\assets\\trailers.json",
+        "/home/pi/trailers-projectivy/app/src/main/assets/trailers.json",
+    ]
+    platform_cats = ("Top 10 Netflix", "Top 10 Disney+", "Top 10 Prime Video", "Top 10 Max", "Top 10 Apple TV+")
+    seen_stream_titles = {normalize_title(t).upper() for t, _ in streaming_entries}
+    for p in possible_paths:
+        if os.path.exists(p):
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    tdata = json.load(f)
+                for row in (tdata.get("rows") or []):
+                    cat = row.get("category", "")
+                    if not any(pc.lower() in cat.lower() for pc in platform_cats):
+                        continue
+                    for item in (row.get("items") or [])[:10]:
+                        mraw = (str(item.get("media_type", "")) + " " + str(item.get("subtitle", ""))).lower()
+                        is_tv_item = any(k in mraw for k in ("serie", "temporada", "cap."))
+                        if (media_type == "tv" and not is_tv_item) or (media_type == "movie" and is_tv_item):
+                            continue
+                        t_title = (item.get("title") or "").strip()
+                        t_norm = normalize_title(t_title).upper()
+                        if t_title and t_norm not in seen_stream_titles:
+                            seen_stream_titles.add(t_norm)
+                            streaming_entries.append((t_title, cat))
+                break
+            except Exception:
+                pass
+
+    added_streaming = 0
+    for s_title, s_tag in streaming_entries:
+        if was_already_posted_cached(s_title):
+            continue
+        found_id = find_tmdb_id_by_title(s_title, media_type)
+        if not found_id or found_id in seen_ids:
+            continue
+        det = tmdb_get(f"{media_type}/{found_id}", {"language": "es-ES"})
+        if not det:
+            continue
+        date_val = det.get("release_date") if media_type == "movie" else det.get("first_air_date")
+        year = (date_val or "")[:4]
+        if year and year.isdigit() and int(year) < MIN_RELEASE_YEAR:
+            continue
+        tmdb_title = det.get("title") if media_type == "movie" else det.get("name")
+        if tmdb_title and was_already_posted_cached(tmdb_title):
+            continue
+        det["media_type"] = media_type
+        det["genre_ids"] = [g["id"] for g in det.get("genres", []) if "id" in g]
+        det["source_tag"] = s_tag
+        seen_ids.add(found_id)
+        candidates_list.append(det)
+        added_streaming += 1
+
+    if added_streaming:
+        log_event("CANDIDATOS", f"Agregados {added_streaming} candidatos ({media_type}) desde Tops 10 de Streaming AR", also_print=True)
+
     return candidates_list
 
-# Llamada robusta a Gemini API con reintentos automáticos
-def call_gemini_api(prompt, max_retries=3):
+# Llamada robusta a Gemini API con espera prudente, reintentos y modelos de respaldo
+def call_gemini_api(prompt, max_retries=5, timeout=180):
     if not GEMINI_API_KEY:
         return None
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
+    fallback_models = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-pro"]
+    models_to_try = []
+    for m in fallback_models:
+        if m and m not in models_to_try:
+            models_to_try.append(m)
+
     payload = {
         "contents": [{"parts": [{"text": prompt}]}]
     }
-    for attempt in range(1, max_retries + 1):
-        try:
-            r = requests.post(url, json=payload, timeout=45)
-            if r.status_code == 200:
-                resp_json = r.json()
-                text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
-                if text_res.startswith("```"):
-                    lines = text_res.split("\n")
-                    if lines[0].startswith("```"):
-                        lines = lines[1:]
-                    if lines[-1].strip() == "```":
-                        lines = lines[:-1]
-                    text_res = "\n".join(lines).strip()
-                return json.loads(text_res)
-            elif r.status_code in [429, 500, 502, 503, 504]:
-                wait_time = attempt * 3
-                print(f"Gemini API retornó HTTP {r.status_code}. Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
+    backoff_schedule = [10, 20, 30, 45, 60]
+
+    for model_name in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+        for attempt in range(1, max_retries + 1):
+            wait_time = backoff_schedule[min(attempt - 1, len(backoff_schedule) - 1)]
+            try:
+                r = requests.post(url, json=payload, timeout=timeout)
+                if r.status_code == 200:
+                    resp_json = r.json()
+                    text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
+                    if text_res.startswith("```"):
+                        lines = text_res.split("\n")
+                        if lines[0].startswith("```"):
+                            lines = lines[1:]
+                        if lines and lines[-1].strip() == "```":
+                            lines = lines[:-1]
+                        text_res = "\n".join(lines).strip()
+                    try:
+                        return json.loads(text_res)
+                    except json.JSONDecodeError:
+                        match = re.search(r'\{.*\}', text_res, re.DOTALL)
+                        if match:
+                            return json.loads(match.group(0))
+                        log_event("GEMINI", f"JSON inválido ({model_name}). Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
+                        time.sleep(wait_time)
+                elif r.status_code in [429, 500, 502, 503, 504]:
+                    log_event("GEMINI", f"HTTP {r.status_code} ({model_name}). Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
+                    time.sleep(wait_time)
+                elif r.status_code == 404:
+                    log_event("GEMINI", f"Modelo no encontrado HTTP 404 ({model_name}). Probando siguiente modelo...")
+                    break
+                else:
+                    log_event("GEMINI", f"Error HTTP {r.status_code} ({model_name}) - {r.text[:300]}")
+                    break
+            except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                log_event("GEMINI", f"Timeout/Error de conexión ({model_name}, timeout={timeout}s): {e}. Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
                 time.sleep(wait_time)
-            else:
-                print(f"Error llamando a Gemini API: HTTP {r.status_code} - {r.text}")
-                return None
-        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
-            wait_time = attempt * 3
-            print(f"Timeout/Error de conexión con Gemini API: {e}. Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
-            time.sleep(wait_time)
-        except Exception as e:
-            print(f"Excepción al llamar a Gemini API: {e}")
-            return None
+            except Exception as e:
+                log_event("GEMINI", f"Excepción al llamar a Gemini ({model_name}): {e}. Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
+                time.sleep(wait_time)
+        log_event("GEMINI", f"Se agotaron los intentos con {model_name}. Pasando al siguiente modelo de respaldo si existe...")
+
+    log_event("GEMINI", "Todos los modelos de Gemini fallaron tras los reintentos.")
     return None
 
 # Llamada inteligente a Gemini
@@ -1488,8 +1629,9 @@ def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, co
         overview = c.get('overview', '')
         if len(overview) > 200:
             overview = overview[:200] + "..."
+        tag_str = f" [{c['source_tag']}]" if c.get('source_tag') else ""
         cand_lines.append(
-            f"- [{media_type.upper()}] ID: {c['id']}, Título: '{title}', Año: {year}, Géneros: {', '.join(genres)}, Puntuación: {c.get('vote_average')}\n  Resumen: {overview}"
+            f"- [{media_type.upper()}]{tag_str} ID: {c['id']}, Título: '{title}', Año: {year}, Géneros: {', '.join(genres)}, Puntuación: {c.get('vote_average')}\n  Resumen: {overview}"
         )
     candidates_str = "\n".join(cand_lines)
     
@@ -1920,53 +2062,65 @@ def filter_candidates_list(candidates, is_movie, not_interested=None):
     excluded_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')} | {normalize_title(x.get('title', '')).upper() for x in dislikes if x.get('title')}
     
     filtered = []
+    tipo = "película" if is_movie else "serie"
     for c in candidates:
         mid = c.get('id')
-        title = c.get('title') or c.get('name')
+        title = c.get('title') or c.get('name') or f"ID {mid}"
         
         # 0. Excluir si está en not_interested o dislikes
         if mid and mid in excluded_ids:
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - en not_interested/dislikes", also_print=False)
             continue
         if title and normalize_title(title).upper() in excluded_titles:
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - título en not_interested/dislikes", also_print=False)
             continue
             
         # 0. Verificar si ya fue publicado (usando el cache local)
         if title and was_already_posted_cached(title):
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - ya publicado", also_print=False)
             continue
             
         # 0.5. Excluir producciones de superhéroes
         if is_superhero_content(title, c.get('overview', '')):
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - temática de superhéroes", also_print=False)
             continue
             
         # 0.6. Excluir producciones antiguas (centrarse en lo actual, >= MIN_RELEASE_YEAR)
         item_year = (c.get('release_date') or c.get('first_air_date') or '')[:4]
         if item_year and item_year.isdigit() and int(item_year) < MIN_RELEASE_YEAR:
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - año {item_year} < {MIN_RELEASE_YEAR}", also_print=False)
             continue
             
         # 0.7. Verificar mínimo de votos en TMDB (>= 10)
         vote_count = c.get('vote_count', 0)
         if vote_count < 10:
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - pocos votos ({vote_count} < 10)", also_print=False)
             continue
             
         # 1. Verificar exclusiones de IDs
         if is_movie:
             if mid in excluded_movies:
+                log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - exclusión manual", also_print=False)
                 continue
         else:
             if mid in excluded_tv:
+                log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - exclusión manual", also_print=False)
                 continue
                 
         # 2. Idiomas excluidos
         if c.get('original_language') in excluded_languages:
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - idioma excluido ({c.get('original_language')})", also_print=False)
             continue
             
         # 3. Sinopsis vacía o sin backdrop
         if not c.get('overview', '').strip() or not c.get('backdrop_path'):
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - sin sinopsis o sin backdrop", also_print=False)
             continue
             
         # 4. Géneros excluidos (usando genre_map robusto)
         genre_ids = c.get('genre_ids', [])
         if any(genre_map.get(gid, '') in excluded_genres for gid in genre_ids):
+            log_event("DESCARTADO", f"Candidato {tipo} '{title}' (ID: {mid}) - género excluido", also_print=False)
             continue
             
         filtered.append(c)
@@ -2002,6 +2156,7 @@ def recycle_historical_backgrounds(subreddit, needed_count):
     return recycled
 
 def main():
+    log_event("INICIO", f"Ejecución TMDB.py iniciada (modelo Gemini: {GEMINI_MODEL}, cuota: {numberofmovies} películas, {numberoftvshows} series)")
     download_favicons()
     load_genres()
     
@@ -2045,7 +2200,7 @@ def main():
     success_tv = 0
     
     if recommendations and ('movies' in recommendations or 'tv' in recommendations):
-        print("Recomendaciones inteligentes de Gemini recibidas:")
+        log_event("GEMINI", f"Recomendaciones recibidas: {len(recommendations.get('movies', []))} películas, {len(recommendations.get('tv', []))} series")
         rec_movies = recommendations.get('movies', [])
         rec_tv = recommendations.get('tv', [])
         
@@ -2060,12 +2215,12 @@ def main():
                 continue
                 
             if was_already_posted_cached(title):
-                print(f"Película '{title}' saltada porque ya fue publicada (según caché).")
+                log_event("DESCARTADO", f"Película Gemini '{title}' (ID: {mid}) - ya publicada (caché)")
                 continue
                 
             print(f"Película elegida: {title} (ID: {mid})")
             if mid in excluded_movies:
-                print(f"Ignorada (exclusión manual): {title}")
+                log_event("DESCARTADO", f"Película Gemini '{title}' (ID: {mid}) - exclusión manual")
                 continue
                 
             ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason, not_interested=not_interested)
@@ -2073,6 +2228,7 @@ def main():
             if os.path.exists(filename):
                 if ok:
                     success_movies += 1
+                    log_event("SUGERIDO", f"Película (Gemini): '{title}' (ID: {mid}) -> {filename}")
                     title_norm = normalize_title(title).upper()
                     if not was_already_posted_cached(title_norm):
                         try:
@@ -2082,7 +2238,7 @@ def main():
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
-                    print(f"No se procesó la película {title} por filtros locales o error.")
+                    log_event("DESCARTADO", f"Película Gemini '{title}' (ID: {mid}) - filtros locales o error")
                         
         # Series recomendadas por IA
         print(f"\n--- Procesando {len(rec_tv)} Series Recomendadas por Gemini ---")
@@ -2095,12 +2251,12 @@ def main():
                 continue
                 
             if was_already_posted_cached(title):
-                print(f"Serie '{title}' saltada porque ya fue publicada (según caché).")
+                log_event("DESCARTADO", f"Serie Gemini '{title}' (ID: {tid}) - ya publicada (caché)")
                 continue
                 
             print(f"Serie elegida: {title} (ID: {tid})")
             if tid in excluded_tv:
-                print(f"Ignorada (exclusión manual): {title}")
+                log_event("DESCARTADO", f"Serie Gemini '{title}' (ID: {tid}) - exclusión manual")
                 continue
                 
             ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason, not_interested=not_interested)
@@ -2108,6 +2264,7 @@ def main():
             if os.path.exists(filename):
                 if ok:
                     success_tv += 1
+                    log_event("SUGERIDO", f"Serie (Gemini): '{title}' (ID: {tid}) -> {filename}")
                     title_norm = normalize_title(title).upper()
                     if not was_already_posted_cached(title_norm):
                         try:
@@ -2117,9 +2274,9 @@ def main():
                         except Exception as e:
                             print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                 else:
-                    print(f"No se procesó la serie {title} por filtros locales o error.")
+                    log_event("DESCARTADO", f"Serie Gemini '{title}' (ID: {tid}) - filtros locales o error")
     else:
-        print("Fallo en Gemini o sin recomendaciones iniciales de candidatos.")
+        log_event("GEMINI", "Fallo en Gemini o sin recomendaciones iniciales de candidatos.")
  
     # === FALLBACK 1: SELECCIÓN DE TOPS DE STREAMING CON GEMINI (RE-SUBIDAS >= 14 DÍAS) ===
     needed_movies = numberofmovies - success_movies
@@ -2154,6 +2311,7 @@ def main():
                             if os.path.exists(filename):
                                 if ok:
                                     success_movies += 1
+                                    log_event("SUGERIDO", f"Película (Top Streaming): '{title}' (ID: {mid}) -> {filename}")
                                     title_norm = normalize_title(title).upper()
                                     try:
                                         subreddit.submit_image(title_norm, filename)
@@ -2162,7 +2320,9 @@ def main():
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                                 else:
-                                    print(f"No se pudo procesar la película de Tops {title} (filtros o error).")
+                                    log_event("DESCARTADO", f"Película Top Streaming '{title}' (ID: {mid}) - filtros o error")
+                        else:
+                            log_event("DESCARTADO", f"Película Top Streaming '{title}' ({year}) - no encontrada en TMDB")
                                     
                 # Procesar series de Tops
                 if needed_tv > 0 and 'tv' in top_recs:
@@ -2184,6 +2344,7 @@ def main():
                             if os.path.exists(filename):
                                 if ok:
                                     success_tv += 1
+                                    log_event("SUGERIDO", f"Serie (Top Streaming): '{title}' (ID: {tid}) -> {filename}")
                                     title_norm = normalize_title(title).upper()
                                     try:
                                         subreddit.submit_image(title_norm, filename)
@@ -2192,7 +2353,9 @@ def main():
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                                 else:
-                                    print(f"No se pudo procesar la serie de Tops {title} (filtros o error).")
+                                    log_event("DESCARTADO", f"Serie Top Streaming '{title}' (ID: {tid}) - filtros o error")
+                        else:
+                            log_event("DESCARTADO", f"Serie Top Streaming '{title}' ({year}) - no encontrada en TMDB")
 
     # === FALLBACK 2: BACKFILL CON RECOMENDACIONES LIBRES DE GEMINI ===
     needed_movies = numberofmovies - success_movies
@@ -2213,7 +2376,7 @@ def main():
                     reason = rec.get('reason', '')
                     
                     if was_already_posted_cached(title):
-                        print(f"Película recomendada libre '{title}' saltada porque ya fue publicada (según caché).")
+                        log_event("DESCARTADO", f"Película libre '{title}' - ya publicada (caché)")
                         continue
                         
                     print(f"Buscando ID de película recomendada libre: {title} ({year})")
@@ -2221,12 +2384,14 @@ def main():
                     if mid:
                         print(f"Encontrado ID {mid} para película {title}")
                         if mid in excluded_movies:
+                            log_event("DESCARTADO", f"Película libre '{title}' (ID: {mid}) - exclusión manual")
                             continue
                         ok = process_recommended_item(mid, 'movie', short_overview=short_overview, reason=reason, not_interested=not_interested)
                         filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
                         if os.path.exists(filename):
                             if ok:
                                 success_movies += 1
+                                log_event("SUGERIDO", f"Película (Gemini libre): '{title}' (ID: {mid}) -> {filename}")
                                 title_norm = normalize_title(title).upper()
                                 if not was_already_posted_cached(title_norm):
                                     try:
@@ -2236,9 +2401,9 @@ def main():
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
-                                print(f"No se pudo procesar la película libre {title} (filtros o error).")
+                                log_event("DESCARTADO", f"Película libre '{title}' (ID: {mid}) - filtros o error")
                     else:
-                        print(f"No se pudo encontrar el ID para la película: {title}")
+                        log_event("DESCARTADO", f"Película libre '{title}' ({year}) - no encontrada en TMDB")
                         
             # Procesar series libres
             if needed_tv > 0 and 'tv' in free_recs:
@@ -2251,7 +2416,7 @@ def main():
                     reason = rec.get('reason', '')
                     
                     if was_already_posted_cached(title):
-                        print(f"Serie recomendada libre '{title}' saltada porque ya fue publicada (según caché).")
+                        log_event("DESCARTADO", f"Serie libre '{title}' - ya publicada (caché)")
                         continue
                         
                     print(f"Buscando ID de serie recomendada libre: {title} ({year})")
@@ -2259,12 +2424,14 @@ def main():
                     if tid:
                         print(f"Encontrado ID {tid} para serie {title}")
                         if tid in excluded_tv:
+                            log_event("DESCARTADO", f"Serie libre '{title}' (ID: {tid}) - exclusión manual")
                             continue
                         ok = process_recommended_item(tid, 'tv', short_overview=short_overview, reason=reason, not_interested=not_interested)
                         filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
                         if os.path.exists(filename):
                             if ok:
                                 success_tv += 1
+                                log_event("SUGERIDO", f"Serie (Gemini libre): '{title}' (ID: {tid}) -> {filename}")
                                 title_norm = normalize_title(title).upper()
                                 if not was_already_posted_cached(title_norm):
                                     try:
@@ -2274,9 +2441,9 @@ def main():
                                     except Exception as e:
                                         print(f"Error subiendo '{title_norm}' a Reddit: {e}")
                             else:
-                                print(f"No se pudo procesar la serie libre {title} (filtros o error).")
+                                log_event("DESCARTADO", f"Serie libre '{title}' (ID: {tid}) - filtros o error")
                     else:
-                        print(f"No se pudo encontrar el ID para la serie: {title}")
+                        log_event("DESCARTADO", f"Serie libre '{title}' ({year}) - no encontrada en TMDB")
  
     # === ULTIMO RECURSO: FALLBACK TRADICIONAL ===
     if success_movies < numberofmovies or success_tv < numberoftvshows:
@@ -2421,7 +2588,7 @@ def main():
         success_movies += recycled_m
         success_tv += recycled_t
                         
-    print(f"\nProceso finalizado. Películas generadas/subidas: {success_movies}, Series: {success_tv}")
+    log_event("RESUMEN", f"Proceso finalizado. Películas generadas/subidas: {success_movies}, Series: {success_tv}")
 
     # === ACTUALIZACIÓN AUTOMÁTICA DE TRAILERS CACHE Y SYNC CON GITHUB ===
     print("\n--- Actualizando índice de tráileres para la APK de Android TV... ---")
