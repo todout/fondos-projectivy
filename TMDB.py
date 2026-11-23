@@ -1561,8 +1561,10 @@ def call_gemini_api(prompt, max_retries=5, timeout=180):
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
         for attempt in range(1, max_retries + 1):
             wait_time = backoff_schedule[min(attempt - 1, len(backoff_schedule) - 1)]
+            t_req = time.time()
             try:
                 r = requests.post(url, json=payload, timeout=timeout)
+                elapsed = time.time() - t_req
                 if r.status_code == 200:
                     resp_json = r.json()
                     text_res = resp_json['candidates'][0]['content']['parts'][0]['text'].strip()
@@ -1574,11 +1576,15 @@ def call_gemini_api(prompt, max_retries=5, timeout=180):
                             lines = lines[:-1]
                         text_res = "\n".join(lines).strip()
                     try:
-                        return json.loads(text_res)
+                        parsed = json.loads(text_res)
+                        log_event("GEMINI", f"Éxito con {model_name} en intento {attempt}/{max_retries} ({elapsed:.1f}s)")
+                        return parsed
                     except json.JSONDecodeError:
                         match = re.search(r'\{.*\}', text_res, re.DOTALL)
                         if match:
-                            return json.loads(match.group(0))
+                            parsed = json.loads(match.group(0))
+                            log_event("GEMINI", f"Éxito (regex JSON) con {model_name} en intento {attempt}/{max_retries} ({elapsed:.1f}s)")
+                            return parsed
                         log_event("GEMINI", f"JSON inválido ({model_name}). Reintentando ({attempt}/{max_retries}) en {wait_time}s...")
                         time.sleep(wait_time)
                 elif r.status_code in [429, 500, 502, 503, 504]:
