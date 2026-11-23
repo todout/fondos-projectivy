@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "La ley de Alicia",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7o9nY3GO97jyeVWdtWr12nR0Qpt.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yb58l4VGT687EbQAYjc6ecPRjmg.jpg",
+          "overview": "Cuando la idílica vida de Alicia se derrumba, decide retomar su carrera de abogada y descubre que reconstruirla significa tener que reinventarse como madre, esposa y mujer.",
+          "youtube_id": "nkodVSNUF9c",
+          "trailer_url": "https://www.youtube.com/watch?v=nkodVSNUF9c"
+        },
+        {
+          "title": "Infamia",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/ngq8DgkTahjjMM4UGbfmPIopjUX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/j1eW6rSf2rpa9FqU6sg3YuUuoqE.jpg",
+          "overview": "La historia sigue a Emma Cruz (Susana Abaitua), una abogada penalista en crisis existencial que regresa a un pueblo claustrofóbico y se obsesiona con la desaparición sin resolver de dos niñas ocurrida hace veinte años. La investigación se mezcla con la culpa que siente por la muerte de su propia hermana en la infancia y la pone en peligro frente a quienes ocultan la verdad.",
+          "youtube_id": "m2T5Vewt0iE",
+          "trailer_url": "https://www.youtube.com/watch?v=m2T5Vewt0iE"
+        },
+        {
+          "title": "El Intercambio Navideño",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/xKhsKS0VY21uHXTBk5Wyrx9VfPZ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/tNoB9ptCmp8bzdanndxswxrOfG6.jpg",
+          "overview": "En Navidad, una joven citadina vuelve a su pueblo a encargarse de la tienda familiar para que su hermana trabaje en Estocolmo…, y a ambas les atrae la idea de empezar de cero.",
+          "youtube_id": "GFPSUwf7wNw",
+          "trailer_url": "https://www.youtube.com/watch?v=GFPSUwf7wNw"
+        },
+        {
+          "title": "El corazón de la bestia",
+          "subtitle": "PELÍCULA • 2026 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kVDHPDggier9ciMc8Xglinq1jWv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/yE766yhgg98tKwTKd8CyNvAtmn6.jpg",
+          "overview": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odin, quedan varados en lo profundo de la naturaleza salvaje de Alaska. Juntos, se ven obligados a librar una brutal lucha por la supervivencia contra los elementos.",
+          "youtube_id": "OAGoEmCirOY",
+          "trailer_url": "https://www.youtube.com/watch?v=OAGoEmCirOY"
+        },
+        {
           "title": "Valentín: La muerte del Gallo de Oro",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -36,8 +84,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
           "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-          "youtube_id": "iz9IdB0628s",
-          "trailer_url": "https://www.youtube.com/watch?v=iz9IdB0628s"
+          "youtube_id": "2oUAOVY5ycY",
+          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
         },
         {
           "title": "Coraje, el perro cobarde",
@@ -82,7 +130,7 @@
           "year": "2026",
           "extra_info": "1h 38m",
           "poster_url": "https://image.tmdb.org/t/p/w500/hYXBihLdaZdszwyULySLYsHPcLp.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/w4ISfPkFLdG0ew07XcrlQSB4O4q.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/dVIm10SWH9drCmKO95ofv2BMVgD.jpg",
           "overview": "Naim es un encanto en su vida diaria, pero un monstruo cuando se trata de pelear. Para pagar el tratamiento de su perra enferma, se ve obligado a unirse a \"Allo Bagarre\", un grupo de combatientes callejeros que resuelven disputas a puñetazos. Pero el día que descubre que los conflictos se resuelven mediante el diálogo, a Naim le resultará difícil hacerse oír.",
           "youtube_id": "qXfd3Ex09NI",
           "trailer_url": "https://www.youtube.com/watch?v=qXfd3Ex09NI"
@@ -94,10 +142,10 @@
           "year": "2026",
           "extra_info": "1h 48m",
           "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/OiXyM1w9NxdV450GpV92B0YPMj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
           "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
-          "youtube_id": "PFsZOsVnNEM",
-          "trailer_url": "https://www.youtube.com/watch?v=PFsZOsVnNEM"
+          "youtube_id": "Om1IDTtPMRA",
+          "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
         },
         {
           "title": "Prawo bestii",
@@ -120,8 +168,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
           "overview": "En esta pícara serie en formato de falso documental, Philomena recorre los grandes éxitos del cine y entrevista a expertos en medio de terribles confusiones.",
-          "youtube_id": "NDnQ2P4ZHSQ",
-          "trailer_url": "https://www.youtube.com/watch?v=NDnQ2P4ZHSQ"
+          "youtube_id": "MAV4nDKZetY",
+          "trailer_url": "https://www.youtube.com/watch?v=MAV4nDKZetY"
         },
         {
           "title": "Un monstruo amable",
@@ -130,7 +178,7 @@
           "year": "2026",
           "extra_info": "1h 55m",
           "poster_url": "https://image.tmdb.org/t/p/w500/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ldJGJ6Wy0hTMls2f0j6NTrXlUIF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
           "overview": "Lucy y Philip son felices: acaban de mudarse con su hijo a una casa de campo cerca de Múnich. Una mañana, su vida da un vuelco cuando la policía se presenta en su domicilio para detener a Philip y confiscar sus ordenadores. Conmocionada, Lucy busca la verdad sobre su marido. ¿Quién es realmente? ¿Debe alejarlo de su hijo?",
           "youtube_id": "sEBgOTP9Vdc",
           "trailer_url": "https://www.youtube.com/watch?v=sEBgOTP9Vdc"
@@ -190,10 +238,10 @@
           "year": "2026",
           "extra_info": "1h 46m",
           "poster_url": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
           "overview": "Un joven viaja de Nueva York a Suiza para intentar convencer a la aclamada autora de novelas de suspense Patricia Highsmith de que escriba una última entrega de su serie sobre Tom Ripley; sus esfuerzos, sin embargo, van tornándose poco a poco más siniestros.",
-          "youtube_id": "AgOxu7ssHoE",
-          "trailer_url": "https://www.youtube.com/watch?v=AgOxu7ssHoE"
+          "youtube_id": "q0UjIrrJ2HY",
+          "trailer_url": "https://www.youtube.com/watch?v=q0UjIrrJ2HY"
         },
         {
           "title": "Sugar",
@@ -244,64 +292,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=AK7ifrn25nY"
         },
         {
-          "title": "La historia del palacio Yanxi",
-          "subtitle": "SERIE • 2018 • 1 Temporada",
+          "title": "Una joya en el palacio",
+          "subtitle": "SERIE • 2003 • 1 Temporada",
           "media_type": "SERIE",
-          "year": "2018",
+          "year": "2003",
           "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/zwX7vV5WuEdLR433A6X27H0tX7f.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/4YH2y43g2DBsxfuWW46xfiMNXG2.jpg",
-          "overview": "Una historia que gira en torno a una doncella de palacio con una actitud valiente, inteligencia de la calle y un buen corazón mientras maniobra los peligros en el palacio para convertirse en una concubina del Emperador Qian Long.\n\nDurante el sexto año del reinado de Qian Long, Wei Ying Luo encuentra su camino a la Ciudad Prohibida como sirvienta de palacio para investigar la verdad detrás de la muerte de su hermana mayor. Ella jura exigir justicia después de saber que Hong Zhou está conectado con el caso. La amable y gentil emperatriz Xiao Xian Chun se preocupa de que Wei Ying Luo recorra un camino sin retorno, por lo que hace todo lo que está a su alcance para ayudar a Ying Luo y ser su pilar de apoyo. Bajo la guía de la Emperatriz, Ying Luo se convierte en una oficial y comienza a dejar de lado su odio. Sin embargo, la emperatriz tiene una muerte prematura.",
-          "youtube_id": "6pznjWmPpJc",
-          "trailer_url": "https://www.youtube.com/watch?v=6pznjWmPpJc"
-        },
-        {
-          "title": "Desprotexida: el crimen de Pazos",
-          "subtitle": "PELÍCULA • 2026 • 1h 5m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uvwAKeTTf9s0k69xelRXQbs6Hb7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/5DEE6tP6FOkgfjvoQYvjNjvt3cn.jpg",
-          "overview": "Documental que narra el caso de Isabel Fuentes. En abril de 2015, unos supuestos ladrones la dejaron al borde de la muerte en su propia casa, en la aldea de Pazos, en Verín. Desde el primer momento, el sargento de la Guardia Civil que llevó el caso sospechó que la versión de lo ocurrido no cuadraba e intentó proteger a Isabel de una nueva agresión.",
-          "youtube_id": "-Dru_aAhccI",
-          "trailer_url": "https://www.youtube.com/watch?v=-Dru_aAhccI"
-        },
-        {
-          "title": "Heartland",
-          "subtitle": "PELÍCULA • 2026 • 1h 54m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-          "overview": "La antigua estrella del country Misty Jones sale de su retiro de 20 años para investigar la desaparición de su sobrina, Charlie Heart, una prometedora cantante, y acaba enfrentándose tanto a su propio pasado como al lado más turbio de Nashville. Su búsqueda la lleva a descubrir una ciudad donde nadie, ni siquiera ella, es quien parece ser.",
-          "youtube_id": "8vebvZ9Q7_o",
-          "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
-        },
-        {
-          "title": "12 12 12",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/wqiJp937rgCXf2eZRTo5m5dhpp2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
-          "overview": "Planificar un gran golpe lleva 12 meses y ejecutarlo 12 horas; si un ladrón no es capturado en un plazo de 12 días, ya no lo atraparán jamás. A través de tres líneas temporales trepidantes, un agente del FBI y un delincuente profesional se enfrentan en un juego mortal del gato y el ratón por toda Europa.",
-          "youtube_id": "smSDmWkc8MM",
-          "trailer_url": "https://www.youtube.com/watch?v=smSDmWkc8MM"
-        },
-        {
-          "title": "The Good Daughter",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/nDU6mUk4wVU1EkDkDvcLvT2UWdy.jpg",
-          "overview": "Las hermanas Quinn, Samantha y Charlotte (Meghann Fahy y Rose Byrne), llevan veintiocho años intentando recomponer sus vidas que quedaron destrozadas tras una noche de violencia.",
-          "youtube_id": "YVipo_K1LOY",
-          "trailer_url": "https://www.youtube.com/watch?v=YVipo_K1LOY"
+          "poster_url": "https://image.tmdb.org/t/p/w500/wTiBK9Fj0qIXgkgYiPHZ0HoXfnh.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oHZ9e5WlZfuHBbZZsQzfR0baxt2.jpg",
+          "overview": "Historia basada en hechos reales que narra la vida de una mujer coreana durante la Dinastía Chosun unos 500 años atrás, y cómo superó una serie de discriminaciones para convertirse en la primera mujer médico personal del rey a pesar de la rigidez jerárquica y los obstáculos de género (vivía en una sociedad dominada por hombres).",
+          "youtube_id": "p-L1ofpIH7c",
+          "trailer_url": "https://www.youtube.com/watch?v=p-L1ofpIH7c"
         }
       ]
     },
@@ -329,8 +329,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
           "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-          "youtube_id": "iz9IdB0628s",
-          "trailer_url": "https://www.youtube.com/watch?v=iz9IdB0628s"
+          "youtube_id": "2oUAOVY5ycY",
+          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
         },
         {
           "title": "Heartland",
@@ -345,6 +345,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
         },
         {
+          "title": "Hermanastras",
+          "subtitle": "PELÍCULA • 2026 • 1h 47m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 47m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5f69fuZBiPoa8H1AJ3UHH4AztOb.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+          "overview": "Culpada de hacer travesuras mágicas en el Royal Ball, la hermanastra Lilith convierte a su hermana en una rana. Debe trabajar con Cenicienta y un troll para salvar el reino y demostrar que los villanos también merecen un final feliz.",
+          "youtube_id": "PrUmaqhAN-A",
+          "trailer_url": "https://www.youtube.com/watch?v=PrUmaqhAN-A"
+        },
+        {
           "title": "Godzilla Minus One",
           "subtitle": "PELÍCULA • 2023 • 2h 5m",
           "media_type": "PELÍCULA",
@@ -355,18 +367,6 @@
           "overview": "En el Japón de la posguerra surge un nuevo terror. ¿Podrán sobrevivir las personas devastadas... y mucho menos defenderse?",
           "youtube_id": "1ESKXArWZ0M",
           "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
-        },
-        {
-          "title": "Hermanastras",
-          "subtitle": "PELÍCULA • 2026 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5f69fuZBiPoa8H1AJ3UHH4AztOb.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
-          "overview": "Culpada de hacer travesuras mágicas en el Royal Ball, la hermanastra Lilith convierte a su hermana en una rana. Debe trabajar con Cenicienta y un troll para salvar el reino y demostrar que los villanos también merecen un final feliz.",
-          "youtube_id": "PrUmaqhAN-A",
-          "trailer_url": "https://www.youtube.com/watch?v=PrUmaqhAN-A"
         },
         {
           "title": "Sueño de fuga",
@@ -381,18 +381,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
-          "title": "Allen",
-          "subtitle": "PELÍCULA • 2026 • 1h 47m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 47m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
-          "overview": "Veinte años después de su increíble encuentro con un alienígena, Petey sigue estancado en el pasado. Hasta que, por alguna extraña razón, su viejo amigo vuelve...",
-          "youtube_id": "RmK_ZPlzp5A",
-          "trailer_url": "https://www.youtube.com/watch?v=RmK_ZPlzp5A"
-        },
-        {
           "title": "El viaje de Chihiro",
           "subtitle": "PELÍCULA • 2001 • 2h 5m",
           "media_type": "PELÍCULA",
@@ -405,18 +393,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
         },
         {
-          "title": "La razón de estar contigo: Una Navidad perfecta",
-          "subtitle": "PELÍCULA • 2026 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eixA3LDfxqMKpz2L8uIM1kTIJ8g.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
-          "overview": "Cuando una emergencia médica sacude a la familia Goss, su sabio perro Winstead decide hacer todo lo posible para mantener a sus humanos unidos antes de la Nochebuena.",
-          "youtube_id": "JohzxlqNRso",
-          "trailer_url": "https://www.youtube.com/watch?v=JohzxlqNRso"
-        },
-        {
           "title": "Colisión",
           "subtitle": "PELÍCULA • 2026 • 2h 2m",
           "media_type": "PELÍCULA",
@@ -427,6 +403,30 @@
           "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
           "youtube_id": "Jk12Xo0-oDc",
           "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
+        },
+        {
+          "title": "Parásitos",
+          "subtitle": "PELÍCULA • 2019 • 2h 12m",
+          "media_type": "PELÍCULA",
+          "year": "2019",
+          "extra_info": "2h 12m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/j4AOjNlhvudYDijiT0lxeHAsPkk.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+          "overview": "Tanto Gi Taek como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo, empieza a recibir clases particulares en casa de Park, las dos familias, que tienen mucho en común pese a pertenecer a dos mundos totalmente distintos, comienzan una interrelación de resultados impresivibles.",
+          "youtube_id": "broPd_xWuTw",
+          "trailer_url": "https://www.youtube.com/watch?v=broPd_xWuTw"
+        },
+        {
+          "title": "La razón de estar contigo: Una Navidad perfecta",
+          "subtitle": "PELÍCULA • 2026 • 1h 42m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 42m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eixA3LDfxqMKpz2L8uIM1kTIJ8g.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+          "overview": "Cuando una emergencia médica sacude a la familia Goss, su sabio perro Winstead decide hacer todo lo posible para mantener a sus humanos unidos antes de la Nochebuena.",
+          "youtube_id": "JohzxlqNRso",
+          "trailer_url": "https://www.youtube.com/watch?v=JohzxlqNRso"
         }
       ]
     },
@@ -571,18 +571,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=mOSlem4qjGA"
         },
         {
-          "title": "Proyecto Fin del Mundo",
-          "subtitle": "PELÍCULA • 2026 • 2h 36m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 36m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
-          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
-          "youtube_id": "S7w4cDtHyFQ",
-          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
-        },
-        {
           "title": "La Mangosta",
           "subtitle": "PELÍCULA • 2026 • 1h 39m",
           "media_type": "PELÍCULA",
@@ -595,16 +583,28 @@
           "trailer_url": "https://www.youtube.com/watch?v=ZloLYKUFuw0"
         },
         {
-          "title": "Velocidad y Deseo",
-          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "title": "Proyecto Fin del Mundo",
+          "subtitle": "PELÍCULA • 2026 • 2h 36m",
           "media_type": "PELÍCULA",
           "year": "2026",
-          "extra_info": "1h 43m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
-          "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
-          "youtube_id": "tKZwT35XZ4M",
-          "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
+          "extra_info": "2h 36m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
+          "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
+          "youtube_id": "S7w4cDtHyFQ",
+          "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
+        },
+        {
+          "title": "Perfectos mentirosos",
+          "subtitle": "PELÍCULA • 2026 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
+          "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
+          "youtube_id": "Om1IDTtPMRA",
+          "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
         },
         {
           "title": "La guerra de los mundos",
@@ -619,6 +619,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
         },
         {
+          "title": "Velocidad y Deseo",
+          "subtitle": "PELÍCULA • 2026 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/aSvA1Xat045jh8ck7U626PPkzH1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+          "overview": "Una joven mecánica de autos de carreras finge estar comprometida con la estrella más polémica del automovilismo. Oficialmente, es para salvar su reputación, pero en secreto es la oportunidad de ella de volver al volante. Pronto, la mentira amenaza con destruir todo, incluso lo que ya se ha convertido en mucho más que un simple trato…",
+          "youtube_id": "tKZwT35XZ4M",
+          "trailer_url": "https://www.youtube.com/watch?v=tKZwT35XZ4M"
+        },
+        {
           "title": "Madden",
           "subtitle": "PELÍCULA • 2026 • 1h 52m",
           "media_type": "PELÍCULA",
@@ -629,6 +641,18 @@
           "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
           "youtube_id": "7ljcNjDeF60",
           "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
+        },
+        {
+          "title": "La noche perdida",
+          "subtitle": "PELÍCULA • 2018 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
+          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
+          "youtube_id": "9Nm2QBIZhcI",
+          "trailer_url": "https://www.youtube.com/watch?v=9Nm2QBIZhcI"
         },
         {
           "title": "Interestelar",
@@ -643,40 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
-          "title": "Perfectos mentirosos",
-          "subtitle": "PELÍCULA • 2026 • 1h 48m",
+          "title": "Atrapar a un asesino",
+          "subtitle": "PELÍCULA • 2017 • 2h 8m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/OiXyM1w9NxdV450GpV92B0YPMj.jpg",
-          "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
-          "youtube_id": "Om1IDTtPMRA",
-          "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
-        },
-        {
-          "title": "La noche perdida",
-          "subtitle": "PELÍCULA • 2018 • 1h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
-          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
-          "youtube_id": "lJA355ncZD4",
-          "trailer_url": "https://www.youtube.com/watch?v=lJA355ncZD4"
-        },
-        {
-          "title": "Batman: El caballero de la noche",
-          "subtitle": "PELÍCULA • 2008 • 2h 32m",
-          "media_type": "PELÍCULA",
-          "year": "2008",
-          "extra_info": "2h 32m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
-          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
-          "youtube_id": "dzQtWkpc2-c",
-          "trailer_url": "https://www.youtube.com/watch?v=dzQtWkpc2-c"
+          "year": "2017",
+          "extra_info": "2h 8m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/lUC5ljVVAuf2d2hoonmBzK6aOlW.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/axRYPjeLD4zjJNaIw4TPopbKVfs.jpg",
+          "overview": "Un antiguo asesino en serie con Alzheimer lucha para proteger a su hija de su novio psicótico.",
+          "youtube_id": "FXt3kw11Ysc",
+          "trailer_url": "https://www.youtube.com/watch?v=FXt3kw11Ysc"
         }
       ]
     },
@@ -720,18 +720,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=NzbdHV0fPNg"
         },
         {
-          "title": "Ser Heumann",
-          "subtitle": "PELÍCULA • 2026 • 2h 7m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 7m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
-          "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
-          "youtube_id": "6Ou7KvWRm48",
-          "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
-        },
-        {
           "title": "Spider-Man: Lejos de casa",
           "subtitle": "PELÍCULA • 2019 • 2h 9m",
           "media_type": "PELÍCULA",
@@ -768,6 +756,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
+          "title": "Ser Heumann",
+          "subtitle": "PELÍCULA • 2026 • 2h 7m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 7m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+          "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
+          "youtube_id": "6Ou7KvWRm48",
+          "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
+        },
+        {
           "title": "Tenzing: Conquistando el Everest",
           "subtitle": "PELÍCULA • 2026 • 2h 6m",
           "media_type": "PELÍCULA",
@@ -780,18 +780,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
         },
         {
-          "title": "La propuesta",
-          "subtitle": "PELÍCULA • 2009 • 1h 48m",
-          "media_type": "PELÍCULA",
-          "year": "2009",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
-          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
-          "youtube_id": "rCs8skCWF98",
-          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
-        },
-        {
           "title": "Ready Player One: Comienza el juego",
           "subtitle": "PELÍCULA • 2018 • 2h 20m",
           "media_type": "PELÍCULA",
@@ -802,11 +790,71 @@
           "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
           "youtube_id": "R2DDDEQ8ceI",
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
+        },
+        {
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "La ley de Alicia",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7o9nY3GO97jyeVWdtWr12nR0Qpt.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yb58l4VGT687EbQAYjc6ecPRjmg.jpg",
+      "overview": "Cuando la idílica vida de Alicia se derrumba, decide retomar su carrera de abogada y descubre que reconstruirla significa tener que reinventarse como madre, esposa y mujer.",
+      "youtube_id": "nkodVSNUF9c",
+      "trailer_url": "https://www.youtube.com/watch?v=nkodVSNUF9c"
+    },
+    {
+      "title": "Infamia",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ngq8DgkTahjjMM4UGbfmPIopjUX.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/j1eW6rSf2rpa9FqU6sg3YuUuoqE.jpg",
+      "overview": "La historia sigue a Emma Cruz (Susana Abaitua), una abogada penalista en crisis existencial que regresa a un pueblo claustrofóbico y se obsesiona con la desaparición sin resolver de dos niñas ocurrida hace veinte años. La investigación se mezcla con la culpa que siente por la muerte de su propia hermana en la infancia y la pone en peligro frente a quienes ocultan la verdad.",
+      "youtube_id": "m2T5Vewt0iE",
+      "trailer_url": "https://www.youtube.com/watch?v=m2T5Vewt0iE"
+    },
+    {
+      "title": "El Intercambio Navideño",
+      "subtitle": "PELÍCULA • 2026 • 1h 43m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 43m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xKhsKS0VY21uHXTBk5Wyrx9VfPZ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/tNoB9ptCmp8bzdanndxswxrOfG6.jpg",
+      "overview": "En Navidad, una joven citadina vuelve a su pueblo a encargarse de la tienda familiar para que su hermana trabaje en Estocolmo…, y a ambas les atrae la idea de empezar de cero.",
+      "youtube_id": "GFPSUwf7wNw",
+      "trailer_url": "https://www.youtube.com/watch?v=GFPSUwf7wNw"
+    },
+    {
+      "title": "El corazón de la bestia",
+      "subtitle": "PELÍCULA • 2026 • 1h 41m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 41m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/kVDHPDggier9ciMc8Xglinq1jWv.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/yE766yhgg98tKwTKd8CyNvAtmn6.jpg",
+      "overview": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odin, quedan varados en lo profundo de la naturaleza salvaje de Alaska. Juntos, se ven obligados a librar una brutal lucha por la supervivencia contra los elementos.",
+      "youtube_id": "OAGoEmCirOY",
+      "trailer_url": "https://www.youtube.com/watch?v=OAGoEmCirOY"
+    },
     {
       "title": "Valentín: La muerte del Gallo de Oro",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -840,8 +888,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
       "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-      "youtube_id": "iz9IdB0628s",
-      "trailer_url": "https://www.youtube.com/watch?v=iz9IdB0628s"
+      "youtube_id": "2oUAOVY5ycY",
+      "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
     },
     {
       "title": "Coraje, el perro cobarde",
@@ -886,7 +934,7 @@
       "year": "2026",
       "extra_info": "1h 38m",
       "poster_url": "https://image.tmdb.org/t/p/w500/hYXBihLdaZdszwyULySLYsHPcLp.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/w4ISfPkFLdG0ew07XcrlQSB4O4q.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/dVIm10SWH9drCmKO95ofv2BMVgD.jpg",
       "overview": "Naim es un encanto en su vida diaria, pero un monstruo cuando se trata de pelear. Para pagar el tratamiento de su perra enferma, se ve obligado a unirse a \"Allo Bagarre\", un grupo de combatientes callejeros que resuelven disputas a puñetazos. Pero el día que descubre que los conflictos se resuelven mediante el diálogo, a Naim le resultará difícil hacerse oír.",
       "youtube_id": "qXfd3Ex09NI",
       "trailer_url": "https://www.youtube.com/watch?v=qXfd3Ex09NI"
@@ -898,10 +946,10 @@
       "year": "2026",
       "extra_info": "1h 48m",
       "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/OiXyM1w9NxdV450GpV92B0YPMj.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
       "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
-      "youtube_id": "PFsZOsVnNEM",
-      "trailer_url": "https://www.youtube.com/watch?v=PFsZOsVnNEM"
+      "youtube_id": "Om1IDTtPMRA",
+      "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
     },
     {
       "title": "Prawo bestii",
@@ -924,8 +972,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
       "overview": "En esta pícara serie en formato de falso documental, Philomena recorre los grandes éxitos del cine y entrevista a expertos en medio de terribles confusiones.",
-      "youtube_id": "NDnQ2P4ZHSQ",
-      "trailer_url": "https://www.youtube.com/watch?v=NDnQ2P4ZHSQ"
+      "youtube_id": "MAV4nDKZetY",
+      "trailer_url": "https://www.youtube.com/watch?v=MAV4nDKZetY"
     },
     {
       "title": "Un monstruo amable",
@@ -934,7 +982,7 @@
       "year": "2026",
       "extra_info": "1h 55m",
       "poster_url": "https://image.tmdb.org/t/p/w500/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/ldJGJ6Wy0hTMls2f0j6NTrXlUIF.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
       "overview": "Lucy y Philip son felices: acaban de mudarse con su hijo a una casa de campo cerca de Múnich. Una mañana, su vida da un vuelco cuando la policía se presenta en su domicilio para detener a Philip y confiscar sus ordenadores. Conmocionada, Lucy busca la verdad sobre su marido. ¿Quién es realmente? ¿Debe alejarlo de su hijo?",
       "youtube_id": "sEBgOTP9Vdc",
       "trailer_url": "https://www.youtube.com/watch?v=sEBgOTP9Vdc"
@@ -994,10 +1042,10 @@
       "year": "2026",
       "extra_info": "1h 46m",
       "poster_url": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
       "overview": "Un joven viaja de Nueva York a Suiza para intentar convencer a la aclamada autora de novelas de suspense Patricia Highsmith de que escriba una última entrega de su serie sobre Tom Ripley; sus esfuerzos, sin embargo, van tornándose poco a poco más siniestros.",
-      "youtube_id": "AgOxu7ssHoE",
-      "trailer_url": "https://www.youtube.com/watch?v=AgOxu7ssHoE"
+      "youtube_id": "q0UjIrrJ2HY",
+      "trailer_url": "https://www.youtube.com/watch?v=q0UjIrrJ2HY"
     },
     {
       "title": "Sugar",
@@ -1048,64 +1096,16 @@
       "trailer_url": "https://www.youtube.com/watch?v=AK7ifrn25nY"
     },
     {
-      "title": "La historia del palacio Yanxi",
-      "subtitle": "SERIE • 2018 • 1 Temporada",
+      "title": "Una joya en el palacio",
+      "subtitle": "SERIE • 2003 • 1 Temporada",
       "media_type": "SERIE",
-      "year": "2018",
+      "year": "2003",
       "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/zwX7vV5WuEdLR433A6X27H0tX7f.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/4YH2y43g2DBsxfuWW46xfiMNXG2.jpg",
-      "overview": "Una historia que gira en torno a una doncella de palacio con una actitud valiente, inteligencia de la calle y un buen corazón mientras maniobra los peligros en el palacio para convertirse en una concubina del Emperador Qian Long.\n\nDurante el sexto año del reinado de Qian Long, Wei Ying Luo encuentra su camino a la Ciudad Prohibida como sirvienta de palacio para investigar la verdad detrás de la muerte de su hermana mayor. Ella jura exigir justicia después de saber que Hong Zhou está conectado con el caso. La amable y gentil emperatriz Xiao Xian Chun se preocupa de que Wei Ying Luo recorra un camino sin retorno, por lo que hace todo lo que está a su alcance para ayudar a Ying Luo y ser su pilar de apoyo. Bajo la guía de la Emperatriz, Ying Luo se convierte en una oficial y comienza a dejar de lado su odio. Sin embargo, la emperatriz tiene una muerte prematura.",
-      "youtube_id": "6pznjWmPpJc",
-      "trailer_url": "https://www.youtube.com/watch?v=6pznjWmPpJc"
-    },
-    {
-      "title": "Desprotexida: el crimen de Pazos",
-      "subtitle": "PELÍCULA • 2026 • 1h 5m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 5m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/uvwAKeTTf9s0k69xelRXQbs6Hb7.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/5DEE6tP6FOkgfjvoQYvjNjvt3cn.jpg",
-      "overview": "Documental que narra el caso de Isabel Fuentes. En abril de 2015, unos supuestos ladrones la dejaron al borde de la muerte en su propia casa, en la aldea de Pazos, en Verín. Desde el primer momento, el sargento de la Guardia Civil que llevó el caso sospechó que la versión de lo ocurrido no cuadraba e intentó proteger a Isabel de una nueva agresión.",
-      "youtube_id": "-Dru_aAhccI",
-      "trailer_url": "https://www.youtube.com/watch?v=-Dru_aAhccI"
-    },
-    {
-      "title": "Heartland",
-      "subtitle": "PELÍCULA • 2026 • 1h 54m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 54m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-      "overview": "La antigua estrella del country Misty Jones sale de su retiro de 20 años para investigar la desaparición de su sobrina, Charlie Heart, una prometedora cantante, y acaba enfrentándose tanto a su propio pasado como al lado más turbio de Nashville. Su búsqueda la lleva a descubrir una ciudad donde nadie, ni siquiera ella, es quien parece ser.",
-      "youtube_id": "8vebvZ9Q7_o",
-      "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
-    },
-    {
-      "title": "12 12 12",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/wqiJp937rgCXf2eZRTo5m5dhpp2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
-      "overview": "Planificar un gran golpe lleva 12 meses y ejecutarlo 12 horas; si un ladrón no es capturado en un plazo de 12 días, ya no lo atraparán jamás. A través de tres líneas temporales trepidantes, un agente del FBI y un delincuente profesional se enfrentan en un juego mortal del gato y el ratón por toda Europa.",
-      "youtube_id": "smSDmWkc8MM",
-      "trailer_url": "https://www.youtube.com/watch?v=smSDmWkc8MM"
-    },
-    {
-      "title": "The Good Daughter",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/nDU6mUk4wVU1EkDkDvcLvT2UWdy.jpg",
-      "overview": "Las hermanas Quinn, Samantha y Charlotte (Meghann Fahy y Rose Byrne), llevan veintiocho años intentando recomponer sus vidas que quedaron destrozadas tras una noche de violencia.",
-      "youtube_id": "YVipo_K1LOY",
-      "trailer_url": "https://www.youtube.com/watch?v=YVipo_K1LOY"
+      "poster_url": "https://image.tmdb.org/t/p/w500/wTiBK9Fj0qIXgkgYiPHZ0HoXfnh.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/oHZ9e5WlZfuHBbZZsQzfR0baxt2.jpg",
+      "overview": "Historia basada en hechos reales que narra la vida de una mujer coreana durante la Dinastía Chosun unos 500 años atrás, y cómo superó una serie de discriminaciones para convertirse en la primera mujer médico personal del rey a pesar de la rigidez jerárquica y los obstáculos de género (vivía en una sociedad dominada por hombres).",
+      "youtube_id": "p-L1ofpIH7c",
+      "trailer_url": "https://www.youtube.com/watch?v=p-L1ofpIH7c"
     }
   ]
 }
