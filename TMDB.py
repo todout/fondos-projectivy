@@ -1546,7 +1546,7 @@ def get_candidates(media_type, max_results=40):
 def call_gemini_api(prompt, max_retries=5, timeout=180):
     if not GEMINI_API_KEY:
         return None
-    fallback_models = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-pro"]
+    fallback_models = [GEMINI_MODEL, "gemini-4-hydrogen", "gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-2.5-flash"]
     models_to_try = []
     for m in fallback_models:
         if m and m not in models_to_try:
