@@ -1635,65 +1635,66 @@ def ask_gemini_recommendations(likes, dislikes, neutral, candidates, count_m, co
         )
     candidates_str = "\n".join(cand_lines)
     
-    prompt = f"""Eres un recomendador experto de cine y televisión. Tu tarea es analizar la lista de candidatos y seleccionar las mejores recomendaciones para el usuario basándote en su historial.
+    prompt = f"""Eres un curador experto de cine y series. Tu tarea es analizar los candidatos disponibles y elegir exactamente {count_m} películas y {count_t} series que encajen a la perfección con el perfil del usuario.
 
-Historial del usuario:
-Películas y series que le gustaron (LIKES):
+PERFIL DE GUSTOS DEL USUARIO (extraído de su historial):
+- LO QUE LE ENCANTA:
+  1. Thrillers de ingenio, misterio, crimen y giros narrativos con ritmo ágil y resoluciones satisfactorias (ej. Contratiempo, El cuerpo, El secreto de sus ojos, Nueve reinas, Tiempo de valientes, Los Simuladores, All Her Fault, Elize).
+  2. Sátira social, humor negro y comedia inteligente con personajes afilados y conflictos llevados al extremo, especialmente cine/series argentinas y españolas (ej. Parásitos, Relatos salvajes, El encargado, El ciudadano ilustre, El hombre de al lado, Mi obra maestra, División Palermo, Envidiosa).
+  3. Dramas atrapantes basados en hechos reales, supervivencia, casos judiciales, biopics o crisis históricas con tensión y buen ritmo (ej. Argentina 1985, Chernobyl, El patrón, Bohemian Rhapsody).
+- LO QUE NO LE GUSTA (EVITAR INCLUSO DENTRO DE THRILLER/DRAMA/COMEDIA):
+  1. Thrillers lentos, contemplativos, fríos, sombríos o pretenciosos sin ritmo ni ingenio (ej. El aura, Tesis sobre un homicidio, Nieve negra, Al final del túnel, Plata quemada).
+  2. Dramas meramente depresivos/lacrimógenos o distopías oscuras/claustrofóbicas (ej. Cromañón, El hoyo).
+  3. Comedias burdas, absurdas, escatológicas, adolescentes o románticas genéricas (ej. Porno y helado, Sin hijos, Élite, Jackass) y realities.
+
+Historial detallado del usuario (PROHIBIDO recomendar CUALQUIERA de estos títulos; el usuario ya los vio o los descartó):
+- LIKES (ya vistos, le encantaron):
 {likes_str}
 
-Películas y series que NO le gustaron (DISLIKES):
+- DISLIKES (ya vistos, NO le gustaron):
 {dislikes_str}
 
-Películas y series neutrales ("ni fu ni fa"):
+- NEUTRAL / "ni fu ni fa" (YA VISTOS — le resultaron indiferentes; NO volver a recomendar):
 {neutral_str}
 
-Películas y series NO vistas pero SIN INTERÉS (descartadas por sinopsis/temática):
+- SIN INTERÉS (descartados por sinopsis/temática; NO recomendar):
 {not_interested_str}
 
-Candidatos disponibles (películas y series nuevas, en tendencia o en streaming):
+Candidatos disponibles (películas y series recientes en tendencia TMDB o Tops 10 de streaming en Argentina):
 {candidates_str}
 
-Instrucciones de recomendación:
-1. FOCO ESTRICTO EN CONTENIDO ACTUAL Y RECIENTE (ÚLTIMOS AÑOS, 2021 A 2026):
-   - PROHIBICIÓN ABSOLUTA DE SERIES O PELÍCULAS VIEJAS O CLÁSICAS: NUNCA recomiendes series de décadas anteriores o viejas (ej. NO recomiendes Ley y orden de 1990, NCIS de 2003, Friends, CSI, Dexter, etc.).
-   - Recomienda exclusivamente producciones recientes y actuales estrenadas entre 2021 y 2026 con fácil disponibilidad en plataformas de streaming (Netflix, Max, Prime Video, Apple TV+, Disney+).
-2. CONTROL DE GÉNEROS Y SELECCIÓN DE CONTENIDO:
-   - PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN Y CIENCIA FICCIÓN / FANTASÍA (Sci-Fi & Fantasy): NUNCA recomiendes películas o series de terror, horror, animación ni ciencia ficción o fantasía bajo ninguna circunstancia. El usuario NO tiene ningún interés en estos géneros.
-   - ROMANCE (RECOMENDAR CON MENOR HABITUALIDAD / FRECUENCIA BAJA OCASIONAL):
-     * Romance: Incluir películas y series de romance pero NO con tanta habitualidad. Prioriza obras bien valoradas, dramas románticos maduros o comedias románticas inteligentes.
-   - PROHIBICIÓN ABSOLUTA DE SUPERHÉROES: NUNCA recomiendes películas o series de superhéroes (ejemplos a omitir por completo: Marvel, DC, Supergirl, Spider-Man, Batman, Avengers, X-Men, Superman, etc.). El usuario NO tiene interés en producciones de superhéroes.
-   - PROHIBICIÓN ABSOLUTA de comedias absurdas, producciones de serie B, parodias ridículas o películas de bajo presupuesto.
-3. PREFERENCIA POR DRAMAS Y THRILLERS EN ESPAÑOL (ESPAÑA/ARGENTINA):
-   - El usuario valora mucho los thrillers ingeniosos, suspense policial con giros narrativos, comedias negras con personajes satíricos y dramas en español (España/Argentina, como 'Los creyentes', 'El encargado', 'La odisea de los giles').
-   - Para dramas o thrillers españoles/argentinos populares en streaming (como 'Los creyentes'), sé flexible con las calificaciones (puntuación >= 6.0).
-4. Selecciona las mejores {count_m} películas y las mejores {count_t} series de la lista de candidatos que más se adapten a sus gustos.
-5. Evita a toda costa recomendar títulos similares a los que NO le gustaron (DISLIKES). Usa la lista NEUTRAL para entender qué cosas le parecen indiferentes y afinar el límite. PROHIBICIÓN ABSOLUTA de volver a recomendar cualquier título que figure en la lista SIN INTERÉS.
-6. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
+Instrucciones estrictas de selección:
+1. PROHIBICIÓN DE REPETIDOS: NUNCA elijas ningún título que ya figure en LIKES, DISLIKES, NEUTRAL o SIN INTERÉS.
+2. CONTENIDO RECIENTE (2021 a 2026): Recomienda exclusivamente producciones estrenadas entre 2021 y 2026. Prohibido recomendar clásicos o series viejas anteriores a 2021.
+3. GÉNEROS PROHIBIDOS (EXCLUSIÓN ABSOLUTA):
+   - NUNCA recomiendes Terror / Horror, Animación, Ciencia Ficción / Fantasía (Sci-Fi & Fantasy) ni Superhéroes (Marvel, DC, etc.), ni realities, ni serie B / parodias.
+   - Romance: solo con muy baja frecuencia y únicamente si es un drama romántico maduro o comedia romántica inteligente muy bien valorada.
+4. PRIORIDAD A HITS DE STREAMING EN ARGENTINA Y CONTENIDO EN ESPAÑOL:
+   - Si un candidato viene marcado con [Top #1..#10 Netflix AR] o [Top 10 Prime Video / Max / Disney+ / Apple TV+] y encaja con el perfil (especialmente suspenso, hechos reales, supervivencia, crimen inteligente o sátira), dale prioridad alta frente a títulos poco conocidos.
+   - Para producciones argentinas o españolas populares en streaming que encajen con el perfil, sé flexible con la nota (>= 6.0).
+5. Selecciona exactamente las mejores {count_m} películas y {count_t} series de la lista de candidatos.
+6. Devuelve ÚNICAMENTE JSON válido con esta estructura exacta (sin bloques markdown ni texto adicional):
 {{
   "movies": [
     {{
-      "id": <tmdb_id>, 
-      "title": "<titulo>", 
+      "id": <tmdb_id>,
+      "title": "<titulo>",
       "short_overview": "<sinopsis_condensada_en_espanol>",
       "reason": "<motivo_de_recomendacion>"
     }}
   ],
   "tv": [
     {{
-      "id": <tmdb_id>, 
-      "title": "<titulo>", 
+      "id": <tmdb_id>,
+      "title": "<titulo>",
       "short_overview": "<sinopsis_condensada_en_espanol>",
       "reason": "<motivo_de_recomendacion>"
     }}
   ]
 }}
 Nota crítica sobre los campos:
-- "short_overview" debe ser una sinopsis condensada de la trama en español, muy concisa y directa (máximo 150 caracteres).
-- "reason" debe ser una explicación breve de por qué se recomienda o gustará (máximo 100 caracteres).
-  - No incluyas ningún prefijo del estilo "Por qué te gustará" ni "Te gustará" por defecto. Escribe el motivo directamente con naturalidad en español.
-- Mantén el lenguaje natural y atractivo en español.
-
-Devuelve ÚNICAMENTE el código JSON limpio. No uses bloques de código markdown (como ```json) ni explicaciones de texto adicionales.
+- "short_overview": sinopsis condensada en español, concisa y directa (máximo 150 caracteres).
+- "reason": motivo breve y natural en español de por qué encaja con sus gustos (máximo 100 caracteres, sin prefijos como "Te gustará" ni "Por qué te gustará").
 """
     return call_gemini_api(prompt)
 
@@ -2053,13 +2054,18 @@ def filter_candidates_list(candidates, is_movie, not_interested=None):
         if not_interested is None:
             not_interested = prefs.get('not_interested', [])
         dislikes = prefs.get('dislikes', [])
+        likes = prefs.get('likes', [])
+        neutral = prefs.get('neutral', [])
     except Exception:
         if not_interested is None:
             not_interested = []
         dislikes = []
-            
-    excluded_ids = {x.get('id') for x in not_interested if x.get('id')} | {x.get('id') for x in dislikes if x.get('id')}
-    excluded_titles = {normalize_title(x.get('title', '')).upper() for x in not_interested if x.get('title')} | {normalize_title(x.get('title', '')).upper() for x in dislikes if x.get('title')}
+        likes = []
+        neutral = []
+
+    already_rated = list(not_interested) + list(dislikes) + list(likes) + list(neutral)
+    excluded_ids = {x.get('id') for x in already_rated if x.get('id')}
+    excluded_titles = {normalize_title(x.get('title', '')).upper() for x in already_rated if x.get('title')}
     
     filtered = []
     tipo = "película" if is_movie else "serie"
