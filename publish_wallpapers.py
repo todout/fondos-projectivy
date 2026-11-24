@@ -162,11 +162,18 @@ def fetch_tmdb_metadata(title_guess: str, headers: dict, cache_yt: dict[str, str
     mtype = best["media_type"]
     item_id = best["id"]
 
-    det_es = tmdb_get(f"{mtype}/{item_id}", headers, {"language": "es-ES"}) or {}
+    det_es = tmdb_get(f"{mtype}/{item_id}", headers, {"language": "es-ES", "append_to_response": "alternative_titles"}) or {}
     det_en = tmdb_get(f"{mtype}/{item_id}", headers, {"language": "en-US"}) or {}
     credits = tmdb_get(f"{mtype}/{item_id}/credits", headers, {"language": "es-ES"}) or {}
     providers_data = tmdb_get(f"{mtype}/{item_id}/watch/providers", headers) or {}
     ext_ids = tmdb_get(f"{mtype}/{item_id}/external_ids", headers) or {}
+
+    alt_block = det_es.get("alternative_titles") or {}
+    alt_items = alt_block.get("titles") or alt_block.get("results") or []
+    alt_titles = [a.get("title") for a in alt_items if a.get("title")]
+    for orig_k in ("original_title", "original_name"):
+        if det_es.get(orig_k):
+            alt_titles.append(det_es[orig_k])
 
     title_es = det_es.get("title") or det_es.get("name") or title_guess
     title_en = det_en.get("title") or det_en.get("name") or det_es.get("original_title") or det_es.get("original_name") or ""
@@ -256,6 +263,9 @@ def fetch_tmdb_metadata(title_guess: str, headers: dict, cache_yt: dict[str, str
         "trailer_lang": yt_lang,
         "providers": providers,
         "awards": awards,
+        "_tmdb_key": (mtype, item_id),
+        "_poster_path": poster_path or "",
+        "_alt_titles": alt_titles,
     })
     return meta
 
@@ -279,15 +289,38 @@ PLATFORM_LOGOS = {
 }
 
 
-def load_top10_map(base_dir: Path) -> dict[str, dict]:
-    """Return normalized_title -> {'label': 'Top #1 Netflix', 'rank': 'TOP 1', 'platform': 'Netflix', 'logo': url}."""
+def _extract_poster_path(url: str) -> str:
+    """Extract TMDB poster filename (e.g. '/abc123.jpg') from a full poster_url."""
+    if not url:
+        return ""
+    idx = url.rfind("/")
+    return url[idx:] if idx != -1 else ""
+
+
+def _resolve_tmdb_identity(title: str, mtype: str, headers: dict) -> tuple[tuple[str, int] | None, str]:
+    """Resolve a streaming chart title (e.g. LatAm/AR Netflix title) to (tmdb_key, poster_path)."""
+    if not title or not headers.get("Authorization") or headers["Authorization"] == "Bearer None":
+        return None, ""
+    for lang in ("es-MX", "es-ES"):
+        res = tmdb_get(f"search/{mtype}", headers, {"query": title, "language": lang})
+        items = (res or {}).get("results") or []
+        if items:
+            best = items[0]
+            return (mtype, best["id"]), (best.get("poster_path") or "")
+    return None, ""
+
+
+def load_top10_maps(base_dir: Path, headers: dict | None = None) -> tuple[dict[str, dict], dict[tuple[str, int], dict], dict[str, dict]]:
+    """Return (by_title, by_tmdb_key, by_poster_path) -> {'label', 'rank', 'platform', 'logo'}."""
     import re
-    top_map: dict[str, dict] = {}
+    by_title: dict[str, dict] = {}
+    by_tmdb: dict[tuple[str, int], dict] = {}
+    by_poster: dict[str, dict] = {}
 
     # 1. Netflix Tudum Argentina en vivo (películas y series)
-    for url in (
-        "https://www.netflix.com/tudum/top10/es/argentina",
-        "https://www.netflix.com/tudum/top10/es/argentina/tv",
+    for mtype, url in (
+        ("movie", "https://www.netflix.com/tudum/top10/es/argentina"),
+        ("tv", "https://www.netflix.com/tudum/top10/es/argentina/tv"),
     ):
         try:
             r = requests.get(
@@ -300,19 +333,28 @@ def load_top10_map(base_dir: Path) -> dict[str, dict]:
                 if not raw_t:
                     raw_t = re.findall(r'data-uia="top10-card-logo"[^>]*><img [^>]*alt="([^"]+)"', r.text)
                 for idx, t_raw in enumerate(raw_t[:10], 1):
-                    clean_t = re.sub(r": Temporada \d+|: Miniserie", "", t_raw).strip()
+                    clean_t = re.sub(r": Temporada \d+|: Miniserie|: Parte \d+", "", t_raw).strip()
                     norm = normalize_top_title(clean_t)
-                    if norm and not clean_t.startswith("Top 10") and norm not in top_map:
-                        top_map[norm] = {
-                            "label": f"Top #{idx} Netflix",
-                            "rank": f"TOP {idx}",
-                            "platform": "Netflix",
-                            "logo": PLATFORM_LOGOS["Netflix"],
-                        }
+                    if not norm or clean_t.startswith("Top 10"):
+                        continue
+                    info = {
+                        "label": f"Top #{idx} Netflix",
+                        "rank": f"TOP {idx}",
+                        "platform": "Netflix",
+                        "logo": PLATFORM_LOGOS["Netflix"],
+                    }
+                    if norm not in by_title:
+                        by_title[norm] = info
+                    if headers:
+                        tkey, ppath = _resolve_tmdb_identity(clean_t, mtype, headers)
+                        if tkey and tkey not in by_tmdb:
+                            by_tmdb[tkey] = info
+                        if ppath and ppath not in by_poster:
+                            by_poster[ppath] = info
         except Exception:
             pass
 
-    # 2. Tops 10 de plataformas desde trailers.json / trailers_cache.json
+    # 2. Tops 10 de plataformas desde trailers.json (remoto actualizado o local)
     platform_labels = {
         "top 10 netflix": "Netflix",
         "top 10 disney+": "Disney+",
@@ -320,37 +362,57 @@ def load_top10_map(base_dir: Path) -> dict[str, dict]:
         "top 10 max": "Max",
         "top 10 apple tv+": "Apple TV+",
     }
-    possible_paths = [
-        base_dir / "trailers.json",
-        base_dir / "trailers_cache.json",
-        base_dir.parent / "trailers-projectivy" / "app" / "src" / "main" / "assets" / "trailers.json",
-        Path("/home/pi/trailers-projectivy/app/src/main/assets/trailers.json"),
-    ]
-    for p in possible_paths:
-        if not p.exists():
-            continue
-        try:
-            data = json.loads(p.read_text(encoding="utf-8"))
-            for row in data.get("rows", []):
-                cat_l = (row.get("category") or "").strip().lower()
-                plat = platform_labels.get(cat_l)
-                if not plat:
-                    continue
-                for idx, item in enumerate((row.get("items") or [])[:10], 1):
-                    norm = normalize_top_title(item.get("title") or "")
-                    if norm and norm not in top_map:
-                        is_nf = (plat == "Netflix")
-                        top_map[norm] = {
-                            "label": f"Top #{idx} {plat}" if is_nf else f"Top 10 {plat}",
-                            "rank": f"TOP {idx}" if is_nf else "TOP 10",
-                            "platform": plat,
-                            "logo": PLATFORM_LOGOS.get(plat, ""),
-                        }
-            break
-        except Exception:
-            pass
 
-    return top_map
+    def _ingest_trailers_data(data: dict) -> None:
+        for row in data.get("rows", []):
+            cat_l = (row.get("category") or "").strip().lower()
+            plat = platform_labels.get(cat_l)
+            if not plat:
+                continue
+            for idx, item in enumerate((row.get("items") or [])[:10], 1):
+                is_nf = (plat == "Netflix")
+                info = {
+                    "label": f"Top #{idx} {plat}" if is_nf else f"Top 10 {plat}",
+                    "rank": f"TOP {idx}" if is_nf else "TOP 10",
+                    "platform": plat,
+                    "logo": PLATFORM_LOGOS.get(plat, ""),
+                }
+                norm = normalize_top_title(item.get("title") or "")
+                if norm and norm not in by_title:
+                    by_title[norm] = info
+                ppath = _extract_poster_path(item.get("poster_url") or "")
+                if ppath and ppath not in by_poster:
+                    by_poster[ppath] = info
+
+    loaded_remote = False
+    try:
+        r_tr = requests.get(
+            "https://raw.githubusercontent.com/todout/trailers-projectivy/main/app/src/main/assets/trailers.json",
+            timeout=10,
+        )
+        if r_tr.status_code == 200:
+            _ingest_trailers_data(r_tr.json())
+            loaded_remote = True
+    except Exception:
+        pass
+
+    if not loaded_remote:
+        possible_paths = [
+            base_dir / "trailers.json",
+            base_dir.parent / "trailers-projectivy" / "app" / "src" / "main" / "assets" / "trailers.json",
+            Path("/home/pi/trailers-projectivy/app/src/main/assets/trailers.json"),
+            base_dir / "trailers_cache.json",
+        ]
+        for p in possible_paths:
+            if not p.exists():
+                continue
+            try:
+                _ingest_trailers_data(json.loads(p.read_text(encoding="utf-8")))
+                break
+            except Exception:
+                pass
+
+    return by_title, by_tmdb, by_poster
 
 
 def build_manifest(files: list[Path], raw_base: str, branch: str, base_dir: Path) -> list[dict]:
@@ -360,7 +422,7 @@ def build_manifest(files: list[Path], raw_base: str, branch: str, base_dir: Path
     omdb_key = os.getenv("OMDB_API_KEY")
     headers = {"accept": "application/json", "Authorization": f"Bearer {tmdb_token}"}
     cache_yt = load_trailers_cache_map(base_dir)
-    top10_map = load_top10_map(base_dir)
+    top_by_title, top_by_tmdb, top_by_poster = load_top10_maps(base_dir, headers)
 
     base = f"{raw_base.rstrip('/')}/{branch}"
     manifest = []
@@ -371,13 +433,22 @@ def build_manifest(files: list[Path], raw_base: str, branch: str, base_dir: Path
             "url_img": f"{base}/{p.name}",
         }
         meta = fetch_tmdb_metadata(title_guess, headers, cache_yt, omdb_key)
+        tmdb_key = meta.pop("_tmdb_key", None)
+        poster_path = meta.pop("_poster_path", "")
+        alt_titles = meta.pop("_alt_titles", [])
         entry.update(meta)
+
         top_info = None
-        for cand_title in (entry.get("title"), entry.get("title_en"), title_guess):
-            norm = normalize_top_title(cand_title or "")
-            if norm and norm in top10_map:
-                top_info = top10_map[norm]
-                break
+        if tmdb_key and tmdb_key in top_by_tmdb:
+            top_info = top_by_tmdb[tmdb_key]
+        if not top_info and poster_path and poster_path in top_by_poster:
+            top_info = top_by_poster[poster_path]
+        if not top_info:
+            for cand_title in (entry.get("title"), entry.get("title_en"), title_guess, *alt_titles):
+                norm = normalize_top_title(cand_title or "")
+                if norm and norm in top_by_title:
+                    top_info = top_by_title[norm]
+                    break
         if top_info:
             entry["top10"] = top_info["label"]
             entry["top10_rank"] = top_info["rank"]
