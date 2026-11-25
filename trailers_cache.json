@@ -4,6 +4,54 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "DIG",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/eyW6V0R0SzG3BqtYKhlZKGBaUCn.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/apHJDHRa0LMtZlcMvKK74InRMfc.jpg",
+          "overview": "Sigue a cuatro mujeres que trabajan en una excavación arqueológica en Grecia. Cuando el equipo descubre un secreto enterrado hace mucho tiempo, con el potencial de reescribir la historia, se ven envueltas en una conspiración internacional de gran envergadura.",
+          "youtube_id": "ir2zni8_tP4",
+          "trailer_url": "https://www.youtube.com/watch?v=ir2zni8_tP4"
+        },
+        {
+          "title": "Rivales en la nieve",
+          "subtitle": "PELÍCULA • 2026 • 1h 50m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 50m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1oljTBjhbuIzd6UDRAhVpvbxxnY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/x6kwEsxxqLIoqpIrZOXRV0LORqm.jpg",
+          "overview": "Los editores rivales Ryan Mitchell y Hannah Hendricks quedan atrapados en una tormenta de nieve y deben compartir un auto alquilado para ir a Nueva York, donde los espera un contrato que salvará sus carreras. Se acumulan los percances en el camino y las desviaciones obligadas, mas el espíritu navideño derrite su feroz rivalidad y la transforma en algo inesperado.",
+          "youtube_id": "P29EZ_xWlIQ",
+          "trailer_url": "https://www.youtube.com/watch?v=P29EZ_xWlIQ"
+        },
+        {
+          "title": "Suzane von Richthofen: Lo que el tiempo no borra",
+          "subtitle": "PELÍCULA • 2026 • 1h 40m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 40m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7H4W20Uc3aDOwpv2kNcNzzxxukU.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/bjdgmMhTKcxqFO7RdXYhTlGzffB.jpg",
+          "overview": "Décadas de interrogantes y un crimen que conmocionó a Brasil. Suzane von Richthofen, condenada por el asesinato de sus padres, relata toda la historia con sus propias palabras.",
+          "youtube_id": "LE2gthq4dfc",
+          "trailer_url": "https://www.youtube.com/watch?v=LE2gthq4dfc"
+        },
+        {
+          "title": "Caballos lentos",
+          "subtitle": "SERIE • 2022 • 6 Temporadas",
+          "media_type": "SERIE",
+          "year": "2022",
+          "extra_info": "6 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/jnbQWjyWxcCf6DaGQXC5AACHCYv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+          "overview": "Esta ingeniosa serie de espionaje sigue a un equipo disfuncional de agentes del MI5, y a su insoportable jefe, el famoso Jackson Lamb, mientras exploran el engañoso mundo del espionaje para defender a Inglaterra de perversos enemigos.",
+          "youtube_id": "lBE9aXCZY50",
+          "trailer_url": "https://www.youtube.com/watch?v=lBE9aXCZY50"
+        },
+        {
           "title": "Anestesia",
           "subtitle": "SERIE • 2026 • 1 Temporada",
           "media_type": "SERIE",
@@ -64,7 +112,7 @@
           "trailer_url": "https://www.youtube.com/watch?v=m2T5Vewt0iE"
         },
         {
-          "title": "El Intercambio Navideño",
+          "title": "El intercambio navideño",
           "subtitle": "PELÍCULA • 2026 • 1h 43m",
           "media_type": "PELÍCULA",
           "year": "2026",
@@ -112,7 +160,7 @@
           "trailer_url": "https://www.youtube.com/watch?v=BWs_qLVSNMo"
         },
         {
-          "title": "Como proteger a una estrella",
+          "title": "Cómo proteger a una estrella",
           "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
           "year": "2026",
@@ -178,7 +226,7 @@
           "year": "2026",
           "extra_info": "1h 48m",
           "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qKFLZz7rnZAJuyZ9HVEhwIINftz.jpg",
           "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
           "youtube_id": "Om1IDTtPMRA",
           "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
@@ -190,7 +238,7 @@
           "year": "2026",
           "extra_info": "1 Temporada",
           "poster_url": "https://image.tmdb.org/t/p/w500/u7hQSvHz05x3Z6avbLDDhGuKgE8.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/9ims6WUxFggBrlmgA9Rew1Co5MD.jpg",
           "overview": "La historia comienza tras el brutal asesinato de cuatro niños en Polonia. El caso sitúa a la comandante e investigadora principal Anna Berz y a la psiquiatra Agnieszka Grabska ante la misión de evaluar la salud mental del principal sospechoso, Mariusz Trynkiewicz. Bajo presión, ambas toman una decisión profesional que marcará y fracturará su relación.",
           "youtube_id": "vSwAIorrHEc",
           "trailer_url": "https://www.youtube.com/watch?v=vSwAIorrHEc"
@@ -252,62 +300,26 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/m9eZy0jzWCHSUUzbzIpysOrLgFb.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/wM62vjwgxjQTlXX76xmQS1T49O2.jpg",
           "overview": "Tras hallarse un cadáver en un museo romano, un experto en arte recurre a su instinto y su talento para ayudar a la policía a resolver un misterio relacionado con su pasado.",
-          "youtube_id": "SHJJ2fGlxzQ",
-          "trailer_url": "https://www.youtube.com/watch?v=SHJJ2fGlxzQ"
-        },
-        {
-          "title": "The Gospel of Christmas",
-          "subtitle": "PELÍCULA • 2026 • 1h 43m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 43m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kzTJg0zhWJRDHJPYEpSqxkFigTv.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
-          "overview": "Un joven pastor, que intenta estar a la altura del legado de su padre, traslada a su esposa e hijos de Georgia a Nueva York para salvar una iglesia moribunda con un poco de ayuda de sus ángeles guardianes.",
-          "youtube_id": "kC4Q5x-TvvU",
-          "trailer_url": "https://www.youtube.com/watch?v=kC4Q5x-TvvU"
-        },
-        {
-          "title": "Maestros Del Crimen",
-          "subtitle": "PELÍCULA • 2026 • 1h 46m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 46m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
-          "overview": "Un joven viaja de Nueva York a Suiza para intentar convencer a la aclamada autora de novelas de suspense Patricia Highsmith de que escriba una última entrega de su serie sobre Tom Ripley; sus esfuerzos, sin embargo, van tornándose poco a poco más siniestros.",
-          "youtube_id": "AgOxu7ssHoE",
-          "trailer_url": "https://www.youtube.com/watch?v=AgOxu7ssHoE"
-        },
-        {
-          "title": "Sugar",
-          "subtitle": "SERIE • 2024 • 2 Temporadas",
-          "media_type": "SERIE",
-          "year": "2024",
-          "extra_info": "2 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hL8GNwTjFlvB3nyMuIYldLWWYb5.jpg",
-          "overview": "John Sugar es un investigador privado que navega los rincones oscuros de Los Ángeles. Aunque solo ve lo bueno de la humanidad, está afligido por un secreto muy peligroso de exponer.",
-          "youtube_id": "GKnxWxREACo",
-          "trailer_url": "https://www.youtube.com/watch?v=GKnxWxREACo"
-        },
-        {
-          "title": "Ser Heumann",
-          "subtitle": "PELÍCULA • 2026 • 2h 7m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 7m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
-          "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
-          "youtube_id": "6Ou7KvWRm48",
-          "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
+          "youtube_id": "WFSeOootC8o",
+          "trailer_url": "https://www.youtube.com/watch?v=WFSeOootC8o"
         }
       ]
     },
     {
       "category": "Top 10 Netflix",
       "items": [
+        {
+          "title": "కల్కి 2898-ఎ.డి",
+          "subtitle": "PELÍCULA • 2024 • 2h 56m",
+          "media_type": "PELÍCULA",
+          "year": "2024",
+          "extra_info": "2h 56m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/seAIZLEq2Il2psjMUREDbSdRmbu.jpg",
+          "overview": "La historia se desarrolla en un futuro lejano, en el año 2898 AD. El mundo está en caos y decadencia, y una sociedad llamada 'The Complex', formada por la élite y los ricos, tiene acceso a todos los recursos restantes del planeta. Aquellos que no pudieron comprar su entrada en el complejo viven en extensos barrios marginales, donde la comida y el agua son muy escasas.  En este mundo, llega un rayo de esperanza, donde la gente cree que Dios vendrá a rescatarlos en forma de un avatar. Ashwathama, un guerrero inmortal de la era del Mahabharata, busca redención protegiendo al niño que reside en el vientre de Sumathi.  Al mismo tiempo, The Complex intenta capturar a Sumathi, colocando una recompensa por su cabeza. Aquí es donde entra Bhairava, un cazarrecompensas. Él intenta luchar contra Ashwathama y reclamar la recompensa para sí mismo.",
+          "youtube_id": "aninoDcPWo4",
+          "trailer_url": "https://www.youtube.com/watch?v=aninoDcPWo4"
+        },
         {
           "title": "No nos rendimos",
           "subtitle": "PELÍCULA • 2026 • 2h 20m",
@@ -317,11 +329,11 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/6cHYHIv2tcUAZsyzUi5Hcwa1IAB.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
           "overview": "Cuando una peligrosa banda asalta su remota casa, un veterano atormentado por la culpa debe unir fuerzas con sus nietos, a quienes apenas conoce, para poder sobrevivir.",
-          "youtube_id": "mhf5E-jyiH0",
-          "trailer_url": "https://www.youtube.com/watch?v=mhf5E-jyiH0"
+          "youtube_id": "YO32XnVMrBg",
+          "trailer_url": "https://www.youtube.com/watch?v=YO32XnVMrBg"
         },
         {
-          "title": "Como proteger a una estrella",
+          "title": "Cómo proteger a una estrella",
           "subtitle": "PELÍCULA • 2026 • 1h 49m",
           "media_type": "PELÍCULA",
           "year": "2026",
@@ -329,8 +341,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
           "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-          "youtube_id": "2oUAOVY5ycY",
-          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
+          "youtube_id": "xSqzJE3LFDQ",
+          "trailer_url": "https://www.youtube.com/watch?v=xSqzJE3LFDQ"
         },
         {
           "title": "Hermanastras",
@@ -345,18 +357,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=PrUmaqhAN-A"
         },
         {
-          "title": "Heartland",
-          "subtitle": "PELÍCULA • 2026 • 1h 54m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 54m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-          "overview": "La antigua estrella del country Misty Jones sale de su retiro de 20 años para investigar la desaparición de su sobrina, Charlie Heart, una prometedora cantante, y acaba enfrentándose tanto a su propio pasado como al lado más turbio de Nashville. Su búsqueda la lleva a descubrir una ciudad donde nadie, ni siquiera ella, es quien parece ser.",
-          "youtube_id": "8vebvZ9Q7_o",
-          "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
-        },
-        {
           "title": "Godzilla Minus One",
           "subtitle": "PELÍCULA • 2023 • 2h 5m",
           "media_type": "PELÍCULA",
@@ -367,6 +367,18 @@
           "overview": "En el Japón de la posguerra surge un nuevo terror. ¿Podrán sobrevivir las personas devastadas... y mucho menos defenderse?",
           "youtube_id": "1ESKXArWZ0M",
           "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
+        },
+        {
+          "title": "Heartland",
+          "subtitle": "SERIE • 2007 • 20 Temporadas",
+          "media_type": "SERIE",
+          "year": "2007",
+          "extra_info": "20 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/osAYIqIGtnVpqz4FDdGjCezE11z.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
+          "overview": "La rebelde Amy se recupera de la súbita muerte de su madre cuando a ella y a su abuelo los amenazan con quitarles el rancho.",
+          "youtube_id": "8vebvZ9Q7_o",
+          "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
         },
         {
           "title": "Sueño de fuga",
@@ -381,37 +393,13 @@
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
-          "title": "Colisión",
-          "subtitle": "PELÍCULA • 2026 • 2h 2m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 2m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
-          "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
-          "youtube_id": "Jk12Xo0-oDc",
-          "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
-        },
-        {
-          "title": "La razón de estar contigo: Una Navidad perfecta",
-          "subtitle": "PELÍCULA • 2026 • 1h 42m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 42m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/eixA3LDfxqMKpz2L8uIM1kTIJ8g.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
-          "overview": "Cuando una emergencia médica sacude a la familia Goss, su sabio perro Winstead decide hacer todo lo posible para mantener a sus humanos unidos antes de la Nochebuena.",
-          "youtube_id": "JohzxlqNRso",
-          "trailer_url": "https://www.youtube.com/watch?v=JohzxlqNRso"
-        },
-        {
           "title": "El viaje de Chihiro",
           "subtitle": "PELÍCULA • 2001 • 2h 5m",
           "media_type": "PELÍCULA",
           "year": "2001",
           "extra_info": "2h 5m",
           "poster_url": "https://image.tmdb.org/t/p/w500/4TfZdXABpM0j0FIyRSUQDUXxVwV.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
           "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
           "youtube_id": "5Fgq4Osh6XQ",
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
@@ -427,6 +415,18 @@
           "overview": "Tanto Gi Taek como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo, empieza a recibir clases particulares en casa de Park, las dos familias, que tienen mucho en común pese a pertenecer a dos mundos totalmente distintos, comienzan una interrelación de resultados impresivibles.",
           "youtube_id": "broPd_xWuTw",
           "trailer_url": "https://www.youtube.com/watch?v=broPd_xWuTw"
+        },
+        {
+          "title": "Colisión",
+          "subtitle": "PELÍCULA • 2026 • 2h 2m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 2m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/wnoCQo9N5m3ay00KRx20d4axRPJ.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+          "overview": "En plena crisis económica, un grupo de atracadores asalta un banco de Madrid y desencadena una serie de acontecimientos imprevisibles. Lo que al principio parece un robo más se convierte en un juego de engaños, miedo y supervivencia, donde cada decisión cuenta, cada gesto esconde algo y todos buscan evitar algo más que ir la cárcel.",
+          "youtube_id": "Jk12Xo0-oDc",
+          "trailer_url": "https://www.youtube.com/watch?v=Jk12Xo0-oDc"
         }
       ]
     },
@@ -470,6 +470,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=DW8GC9SQ9Xw"
         },
         {
+          "title": "Mi pobre angelito",
+          "subtitle": "PELÍCULA • 1990 • 1h 43m",
+          "media_type": "PELÍCULA",
+          "year": "1990",
+          "extra_info": "1h 43m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/iruzQaa7OHmtb6qKbW278v6Ml4b.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+          "overview": "Kevin McAllister es un niño de ocho años, miembro de una familia numerosa que accidentalmente se queda abandonado en su casa cuando toda la familia se marcha a pasar las vacaciones a Francia. Kevin aprende a valerse por sí mismo e incluso a protegerse de dos bribones que se proponen asaltar todas las casas cerradas de su vecindario.",
+          "youtube_id": "1kSJ6vLDV0c",
+          "trailer_url": "https://www.youtube.com/watch?v=1kSJ6vLDV0c"
+        },
+        {
           "title": "Moana",
           "subtitle": "PELÍCULA • 2026 • 1h 55m",
           "media_type": "PELÍCULA",
@@ -482,18 +494,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
         },
         {
-          "title": "Coco",
-          "subtitle": "PELÍCULA • 2017 • 1h 45m",
-          "media_type": "PELÍCULA",
-          "year": "2017",
-          "extra_info": "1h 45m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
-          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
-          "youtube_id": "_xwBcT8iBEg",
-          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
-        },
-        {
           "title": "Backrooms: Sin salida",
           "subtitle": "PELÍCULA • 2026 • 1h 51m",
           "media_type": "PELÍCULA",
@@ -504,6 +504,18 @@
           "overview": "Una extraña puerta aparece en el sótano de una exposición de muebles. Cuando el paciente de una terapeuta desaparece en una dimensión más allá de la realidad, ella deberá adentrarse en lo desconocido para salvarlo.",
           "youtube_id": "DfNI_gPxtJ8",
           "trailer_url": "https://www.youtube.com/watch?v=DfNI_gPxtJ8"
+        },
+        {
+          "title": "Coco",
+          "subtitle": "PELÍCULA • 2017 • 1h 45m",
+          "media_type": "PELÍCULA",
+          "year": "2017",
+          "extra_info": "1h 45m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/oburjHqzOrTtDLYbLunKLwUHhk1.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+          "overview": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
+          "youtube_id": "_xwBcT8iBEg",
+          "trailer_url": "https://www.youtube.com/watch?v=_xwBcT8iBEg"
         },
         {
           "title": "Avatar: Fuego y ceniza",
@@ -540,18 +552,6 @@
           "overview": "Esta serie nos muestra a unos vengadores cuya misión será la de afrontar cualquier peligro.",
           "youtube_id": "qMLNwBX_f70",
           "trailer_url": "https://www.youtube.com/watch?v=qMLNwBX_f70"
-        },
-        {
-          "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
-          "subtitle": "PELÍCULA • 2025 • 2h 35m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "2h 35m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/6N21gcFbhT4ocdTU4MGREAaM5Vz.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-          "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
-          "youtube_id": "sqgSm8fWe1s",
-          "trailer_url": "https://www.youtube.com/watch?v=sqgSm8fWe1s"
         }
       ]
     },
@@ -583,6 +583,18 @@
           "trailer_url": "https://www.youtube.com/watch?v=ZloLYKUFuw0"
         },
         {
+          "title": "Perfectos mentirosos",
+          "subtitle": "PELÍCULA • 2026 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/qKFLZz7rnZAJuyZ9HVEhwIINftz.jpg",
+          "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
+          "youtube_id": "Om1IDTtPMRA",
+          "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
+        },
+        {
           "title": "La noche perdida",
           "subtitle": "PELÍCULA • 2018 • 1h 41m",
           "media_type": "PELÍCULA",
@@ -595,18 +607,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=lJA355ncZD4"
         },
         {
-          "title": "Perfectos mentirosos",
-          "subtitle": "PELÍCULA • 2026 • 1h 48m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg",
-          "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
-          "youtube_id": "Om1IDTtPMRA",
-          "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
-        },
-        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -617,6 +617,30 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
+          "title": "Madden",
+          "subtitle": "PELÍCULA • 2026 • 1h 52m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 52m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+          "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
+          "youtube_id": "7ljcNjDeF60",
+          "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
+        },
+        {
+          "title": "Rivales en la nieve",
+          "subtitle": "PELÍCULA • 2026 • 1h 50m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "1h 50m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1oljTBjhbuIzd6UDRAhVpvbxxnY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/x6kwEsxxqLIoqpIrZOXRV0LORqm.jpg",
+          "overview": "Los editores rivales Ryan Mitchell y Hannah Hendricks quedan atrapados en una tormenta de nieve y deben compartir un auto alquilado para ir a Nueva York, donde los espera un contrato que salvará sus carreras. Se acumulan los percances en el camino y las desviaciones obligadas, mas el espíritu navideño derrite su feroz rivalidad y la transforma en algo inesperado.",
+          "youtube_id": "P29EZ_xWlIQ",
+          "trailer_url": "https://www.youtube.com/watch?v=P29EZ_xWlIQ"
         },
         {
           "title": "Velocidad y Deseo",
@@ -643,18 +667,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
         },
         {
-          "title": "Madden",
-          "subtitle": "PELÍCULA • 2026 • 1h 52m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
-          "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
-          "youtube_id": "7ljcNjDeF60",
-          "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
-        },
-        {
           "title": "Interestelar",
           "subtitle": "PELÍCULA • 2014 • 2h 49m",
           "media_type": "PELÍCULA",
@@ -665,18 +677,6 @@
           "overview": "Cooper y un grupo de exploradores utilizan un agujero de gusano recién descubierto para superar las limitaciones de los viajes espaciales humanos y conquistar las vastas distancias que implica un viaje interestelar.",
           "youtube_id": "n8xK0DK7H_E",
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
-        },
-        {
-          "title": "The Baby in the Basket",
-          "subtitle": "PELÍCULA • 2025 • 1h 40m",
-          "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "1h 40m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/dIe2EA9dJoWadXFqR6MYiBE8X22.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/8QneCqkYuxUkOeTCAWh2Lmrfkpd.jpg",
-          "overview": "Es 1944 y la Segunda Guerra Mundial continúa mientras las monjas del aislado monasterio escocés San Agustín se preparan para un frente de tormenta entrante. Durante la noche un bebé en una canasta se deja en la puerta y las hermanas lo toman para cuidarlo. A medida que avanza la noche, una monja, la hermana Agnes pronto sospecha que el niño es el hijo del Diablo.",
-          "youtube_id": "VwO2IaWbPiQ",
-          "trailer_url": "https://www.youtube.com/watch?v=VwO2IaWbPiQ"
         }
       ]
     },
@@ -738,7 +738,7 @@
           "year": "2015",
           "extra_info": "2h 0m",
           "poster_url": "https://image.tmdb.org/t/p/w500/ixSuKuBnSfHmyzZbcWCywOKZ6Ho.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/uT895WNwm0aIJRtGizcQhrejWUo.jpg",
           "overview": "Perseguido por su turbulento pasado, Mad Max cree que la mejor forma de sobrevivir es ir solo por el mundo. Sin embargo, se ve arrastrado a formar parte de un grupo que huye a través del desierto en un War Rig conducido por una Emperatriz de élite: Furiosa. Escapan de una Ciudadela tiranizada por Immortan Joe, a quien han arrebatado algo irreemplazable. Enfurecido, el Señor de la Guerra moviliza a todas sus bandas y persigue implacablemente a los rebeldes en una \"guerra de la carretera\" de altas revoluciones... Cuarta entrega de la saga post-apocalíptica que resucita la trilogía que a principios de los ochenta protagonizó Mel Gibson.",
           "youtube_id": "UyqFAle_4aE",
           "trailer_url": "https://www.youtube.com/watch?v=UyqFAle_4aE"
@@ -756,18 +756,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=3QbfHIKyd4I"
         },
         {
-          "title": "Ser Heumann",
-          "subtitle": "PELÍCULA • 2026 • 2h 7m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "2h 7m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
-          "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
-          "youtube_id": "6Ou7KvWRm48",
-          "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
-        },
-        {
           "title": "Tenzing: Conquistando el Everest",
           "subtitle": "PELÍCULA • 2026 • 2h 6m",
           "media_type": "PELÍCULA",
@@ -780,16 +768,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=1y9P8Eax1LI"
         },
         {
-          "title": "La propuesta",
-          "subtitle": "PELÍCULA • 2009 • 1h 48m",
+          "title": "Ser Heumann",
+          "subtitle": "PELÍCULA • 2026 • 2h 7m",
           "media_type": "PELÍCULA",
-          "year": "2009",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
-          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
-          "youtube_id": "rCs8skCWF98",
-          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
+          "year": "2026",
+          "extra_info": "2h 7m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+          "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
+          "youtube_id": "6Ou7KvWRm48",
+          "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
         },
         {
           "title": "Ready Player One: Comienza el juego",
@@ -802,11 +790,71 @@
           "overview": "La historia sucede en 2045, con el mundo al borde del caos y el colapso. Pero la gente encuentra la salvación en OASIS, universo expansivo de realidad virtual creado por el brillante y excéntrico James Halliday. Halliday muere y su inmensa fortuna será heredada por la primera persona que encuentre un huevo de Pascua digital que él escondió en algún lugar de OASIS... y así se detona una competencia que engancha al mundo entero. Cuando Wade Watts un joven e improbable héroe decide unirse a la competencia, se ve arrastrado dentro de una vertiginosa cacería de tesoros que distrosiona la realidad a través de un universo fantástico de misterio, exploración y peligro.",
           "youtube_id": "R2DDDEQ8ceI",
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
+        },
+        {
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "DIG",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/eyW6V0R0SzG3BqtYKhlZKGBaUCn.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/apHJDHRa0LMtZlcMvKK74InRMfc.jpg",
+      "overview": "Sigue a cuatro mujeres que trabajan en una excavación arqueológica en Grecia. Cuando el equipo descubre un secreto enterrado hace mucho tiempo, con el potencial de reescribir la historia, se ven envueltas en una conspiración internacional de gran envergadura.",
+      "youtube_id": "ir2zni8_tP4",
+      "trailer_url": "https://www.youtube.com/watch?v=ir2zni8_tP4"
+    },
+    {
+      "title": "Rivales en la nieve",
+      "subtitle": "PELÍCULA • 2026 • 1h 50m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 50m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1oljTBjhbuIzd6UDRAhVpvbxxnY.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/x6kwEsxxqLIoqpIrZOXRV0LORqm.jpg",
+      "overview": "Los editores rivales Ryan Mitchell y Hannah Hendricks quedan atrapados en una tormenta de nieve y deben compartir un auto alquilado para ir a Nueva York, donde los espera un contrato que salvará sus carreras. Se acumulan los percances en el camino y las desviaciones obligadas, mas el espíritu navideño derrite su feroz rivalidad y la transforma en algo inesperado.",
+      "youtube_id": "P29EZ_xWlIQ",
+      "trailer_url": "https://www.youtube.com/watch?v=P29EZ_xWlIQ"
+    },
+    {
+      "title": "Suzane von Richthofen: Lo que el tiempo no borra",
+      "subtitle": "PELÍCULA • 2026 • 1h 40m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "1h 40m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7H4W20Uc3aDOwpv2kNcNzzxxukU.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/bjdgmMhTKcxqFO7RdXYhTlGzffB.jpg",
+      "overview": "Décadas de interrogantes y un crimen que conmocionó a Brasil. Suzane von Richthofen, condenada por el asesinato de sus padres, relata toda la historia con sus propias palabras.",
+      "youtube_id": "LE2gthq4dfc",
+      "trailer_url": "https://www.youtube.com/watch?v=LE2gthq4dfc"
+    },
+    {
+      "title": "Caballos lentos",
+      "subtitle": "SERIE • 2022 • 6 Temporadas",
+      "media_type": "SERIE",
+      "year": "2022",
+      "extra_info": "6 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/jnbQWjyWxcCf6DaGQXC5AACHCYv.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+      "overview": "Esta ingeniosa serie de espionaje sigue a un equipo disfuncional de agentes del MI5, y a su insoportable jefe, el famoso Jackson Lamb, mientras exploran el engañoso mundo del espionaje para defender a Inglaterra de perversos enemigos.",
+      "youtube_id": "lBE9aXCZY50",
+      "trailer_url": "https://www.youtube.com/watch?v=lBE9aXCZY50"
+    },
     {
       "title": "Anestesia",
       "subtitle": "SERIE • 2026 • 1 Temporada",
@@ -868,7 +916,7 @@
       "trailer_url": "https://www.youtube.com/watch?v=m2T5Vewt0iE"
     },
     {
-      "title": "El Intercambio Navideño",
+      "title": "El intercambio navideño",
       "subtitle": "PELÍCULA • 2026 • 1h 43m",
       "media_type": "PELÍCULA",
       "year": "2026",
@@ -916,7 +964,7 @@
       "trailer_url": "https://www.youtube.com/watch?v=BWs_qLVSNMo"
     },
     {
-      "title": "Como proteger a una estrella",
+      "title": "Cómo proteger a una estrella",
       "subtitle": "PELÍCULA • 2026 • 1h 49m",
       "media_type": "PELÍCULA",
       "year": "2026",
@@ -982,7 +1030,7 @@
       "year": "2026",
       "extra_info": "1h 48m",
       "poster_url": "https://image.tmdb.org/t/p/w500/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/qKFLZz7rnZAJuyZ9HVEhwIINftz.jpg",
       "overview": "Sigue a Jude Derry en una universidad elitista donde busca desenmascarar los secretos de los poderosos hermanos Cash, mientras se ve envuelta en engaños, tensión y un triángulo amoroso.",
       "youtube_id": "Om1IDTtPMRA",
       "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
@@ -994,7 +1042,7 @@
       "year": "2026",
       "extra_info": "1 Temporada",
       "poster_url": "https://image.tmdb.org/t/p/w500/u7hQSvHz05x3Z6avbLDDhGuKgE8.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/9ims6WUxFggBrlmgA9Rew1Co5MD.jpg",
       "overview": "La historia comienza tras el brutal asesinato de cuatro niños en Polonia. El caso sitúa a la comandante e investigadora principal Anna Berz y a la psiquiatra Agnieszka Grabska ante la misión de evaluar la salud mental del principal sospechoso, Mariusz Trynkiewicz. Bajo presión, ambas toman una decisión profesional que marcará y fracturará su relación.",
       "youtube_id": "vSwAIorrHEc",
       "trailer_url": "https://www.youtube.com/watch?v=vSwAIorrHEc"
@@ -1056,56 +1104,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/m9eZy0jzWCHSUUzbzIpysOrLgFb.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/wM62vjwgxjQTlXX76xmQS1T49O2.jpg",
       "overview": "Tras hallarse un cadáver en un museo romano, un experto en arte recurre a su instinto y su talento para ayudar a la policía a resolver un misterio relacionado con su pasado.",
-      "youtube_id": "SHJJ2fGlxzQ",
-      "trailer_url": "https://www.youtube.com/watch?v=SHJJ2fGlxzQ"
-    },
-    {
-      "title": "The Gospel of Christmas",
-      "subtitle": "PELÍCULA • 2026 • 1h 43m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 43m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kzTJg0zhWJRDHJPYEpSqxkFigTv.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
-      "overview": "Un joven pastor, que intenta estar a la altura del legado de su padre, traslada a su esposa e hijos de Georgia a Nueva York para salvar una iglesia moribunda con un poco de ayuda de sus ángeles guardianes.",
-      "youtube_id": "kC4Q5x-TvvU",
-      "trailer_url": "https://www.youtube.com/watch?v=kC4Q5x-TvvU"
-    },
-    {
-      "title": "Maestros Del Crimen",
-      "subtitle": "PELÍCULA • 2026 • 1h 46m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 46m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
-      "overview": "Un joven viaja de Nueva York a Suiza para intentar convencer a la aclamada autora de novelas de suspense Patricia Highsmith de que escriba una última entrega de su serie sobre Tom Ripley; sus esfuerzos, sin embargo, van tornándose poco a poco más siniestros.",
-      "youtube_id": "AgOxu7ssHoE",
-      "trailer_url": "https://www.youtube.com/watch?v=AgOxu7ssHoE"
-    },
-    {
-      "title": "Sugar",
-      "subtitle": "SERIE • 2024 • 2 Temporadas",
-      "media_type": "SERIE",
-      "year": "2024",
-      "extra_info": "2 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/hL8GNwTjFlvB3nyMuIYldLWWYb5.jpg",
-      "overview": "John Sugar es un investigador privado que navega los rincones oscuros de Los Ángeles. Aunque solo ve lo bueno de la humanidad, está afligido por un secreto muy peligroso de exponer.",
-      "youtube_id": "GKnxWxREACo",
-      "trailer_url": "https://www.youtube.com/watch?v=GKnxWxREACo"
-    },
-    {
-      "title": "Ser Heumann",
-      "subtitle": "PELÍCULA • 2026 • 2h 7m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "2h 7m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bFw3y0v6xl24qxG36ve1ZjNnufo.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
-      "overview": "La valiente Judy Heumann convierte su indignación en revolución. En 1977, manifestantes por los derechos de las personas con discapacidad y ella levantaron la voz: El sistema es el que está roto, nosotros no.",
-      "youtube_id": "6Ou7KvWRm48",
-      "trailer_url": "https://www.youtube.com/watch?v=6Ou7KvWRm48"
+      "youtube_id": "WFSeOootC8o",
+      "trailer_url": "https://www.youtube.com/watch?v=WFSeOootC8o"
     }
   ]
 }
