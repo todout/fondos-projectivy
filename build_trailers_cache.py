@@ -20,7 +20,10 @@ OVERRIDE_TRAILERS = {
     'LOS CREYENTES': 'svGU1Mq5irI',
     'THE BELIEVERS': 'svGU1Mq5irI',
     'SILO': '0I7Q1WtTf_c',
-    'HOUSE': 'BLt3K0phvX0'
+    'HOUSE': 'BLt3K0phvX0',
+    'LA ÚLTIMA CENA': 'eIaINwEouCw',
+    'LA ULTIMA CENA': 'eIaINwEouCw',
+    'LAST MEAL': 'eIaINwEouCw',
 }
 
 def slugify_title(title):

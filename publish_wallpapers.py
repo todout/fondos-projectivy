@@ -21,6 +21,9 @@ OVERRIDE_TRAILERS = {
     "THE BELIEVERS": "svGU1Mq5irI",
     "SILO": "0I7Q1WtTf_c",
     "HOUSE": "BLt3K0phvX0",
+    "LA ÚLTIMA CENA": "eIaINwEouCw",
+    "LA ULTIMA CENA": "eIaINwEouCw",
+    "LAST MEAL": "eIaINwEouCw",
 }
 
 COUNTRY_ES = {
@@ -215,12 +218,20 @@ def fetch_tmdb_metadata(title_guess: str, headers: dict, cache_yt: dict[str, str
     vote_avg = det_es.get("vote_average") or 0
     rating = f"{vote_avg:.1f}" if vote_avg else ""
 
-    yt_id, yt_lang = pick_youtube_trailer(mtype, item_id, title_es, title_en, headers)
-    if not yt_id:
-        key_up = title_es.upper()
-        yt_id = OVERRIDE_TRAILERS.get(key_up) or cache_yt.get(key_up) or cache_yt.get(title_guess.upper())
-        if yt_id:
-            yt_lang = "Latino"
+    key_up = title_es.upper().strip()
+    override_yt = (
+        OVERRIDE_TRAILERS.get(key_up)
+        or OVERRIDE_TRAILERS.get(title_en.upper().strip())
+        or OVERRIDE_TRAILERS.get(title_guess.upper().strip())
+    )
+    if override_yt:
+        yt_id, yt_lang = override_yt, "Latino"
+    else:
+        yt_id, yt_lang = pick_youtube_trailer(mtype, item_id, title_es, title_en, headers)
+        if not yt_id:
+            yt_id = cache_yt.get(key_up) or cache_yt.get(title_guess.upper().strip())
+            if yt_id:
+                yt_lang = "Latino"
 
     ar_prov = (providers_data.get("results") or {}).get("AR") or {}
     raw_providers = ar_prov.get("flatrate") or ar_prov.get("free") or ar_prov.get("ads") or []
