@@ -169,10 +169,13 @@ def load_posted_cache(subreddit=None):
             for sub in subreddit.new(limit=1000):
                 title_norm = normalize_title(sub.title).upper()
                 created_utc = getattr(sub, 'created_utc', time.time())
-                reddit_dict[title_norm] = created_utc
+                if title_norm not in reddit_dict or created_utc > reddit_dict[title_norm]:
+                    reddit_dict[title_norm] = created_utc
             
             before_len = len(already_posted_dict)
-            already_posted_dict.update(reddit_dict)
+            for k, v in reddit_dict.items():
+                if v > already_posted_dict.get(k, 0):
+                    already_posted_dict[k] = v
             added = len(already_posted_dict) - before_len
             print(f"Sincronizados {len(reddit_dict)} títulos desde Reddit. Añadidos {added} nuevos al caché.")
             save_posted_cache()
@@ -187,12 +190,42 @@ def save_posted_cache():
     except Exception as e:
         print(f"Error al guardar caché de títulos publicados: {e}")
 
+TOP_WAIT_CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "top_repost_wait.json")
+
+def load_top_wait_cache():
+    if os.path.exists(TOP_WAIT_CACHE_FILE):
+        try:
+            with open(TOP_WAIT_CACHE_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, dict):
+                    return data
+        except Exception as e:
+            print(f"Error al cargar caché de espera de Tops: {e}")
+    return {}
+
+def save_top_wait_cache(wait_cache):
+    try:
+        with open(TOP_WAIT_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(wait_cache, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        print(f"Error al guardar caché de espera de Tops: {e}")
+
+def clear_top_wait(title):
+    if not title:
+        return
+    title_norm = normalize_title(str(title)).upper()
+    wait_cache = load_top_wait_cache()
+    if title_norm in wait_cache:
+        del wait_cache[title_norm]
+        save_top_wait_cache(wait_cache)
+
 def mark_as_posted(title):
     if not title:
         return
     title_norm = normalize_title(str(title)).upper()
     already_posted_dict[title_norm] = time.time()
     save_posted_cache()
+    clear_top_wait(title_norm)
 
 def was_already_posted_cached(title, rating=None):
     if not title:
@@ -1906,14 +1939,28 @@ def get_streaming_tops_candidates(not_interested=None, dislikes=None):
             if is_superhero_content(title, overview):
                 continue
                 
-            # Filtro 3: Ventana de 14 días (2 semanas)
+            # Filtro 3: Ventana de 14 días (2 semanas) + contador de días en espera
+            wait_cache = load_top_wait_cache() if 'wait_cache' not in locals() else wait_cache
+            today_str = datetime.now().strftime("%Y-%m-%d")
             posted_ts = already_posted_dict.get(title_norm, 0)
+            days_since_posted = 0
             if posted_ts > 0:
                 days_ago = (now - posted_ts) / 86400.0
+                days_since_posted = int(days_ago)
                 if days_ago < TOP_REPOST_DAYS:
+                    entry = wait_cache.get(title_norm, {"blocked_days": 0, "last_blocked_date": ""})
+                    if entry.get("last_blocked_date") != today_str:
+                        entry["blocked_days"] = int(entry.get("blocked_days", 0)) + 1
+                        entry["last_blocked_date"] = today_str
+                        wait_cache[title_norm] = entry
+                        save_top_wait_cache(wait_cache)
+                    print(f"Candidato de Top '{title}' en cooldown ({days_since_posted}/{TOP_REPOST_DAYS} días). Días esperando: {entry['blocked_days']}.")
                     continue
                 else:
-                    print(f"Candidato de Top '{title}' publicado hace {int(days_ago)} días (>= {TOP_REPOST_DAYS} días). Elegible para re-subir.")
+                    blocked_days = int(wait_cache.get(title_norm, {}).get("blocked_days", 0))
+                    print(f"Candidato de Top '{title}' publicado hace {days_since_posted} días (>= {TOP_REPOST_DAYS} días, esperó {blocked_days} días). Elegible para re-subir.")
+            else:
+                blocked_days = int(wait_cache.get(title_norm, {}).get("blocked_days", 0))
                     
             # Filtro 4: Año mínimo reciente (>= MIN_RELEASE_YEAR)
             if year.isdigit() and int(year) < MIN_RELEASE_YEAR:
@@ -1925,13 +1972,17 @@ def get_streaming_tops_candidates(not_interested=None, dislikes=None):
                 'media_type': media_type,
                 'year': year,
                 'overview': overview,
-                'category': cat_name
+                'category': cat_name,
+                'blocked_days': blocked_days,
+                'days_since_posted': days_since_posted,
             }
             if media_type == 'movie':
                 candidates['movies'].append(candidate_entry)
             else:
                 candidates['tv'].append(candidate_entry)
                 
+    candidates['movies'].sort(key=lambda c: (c.get('blocked_days', 0), c.get('days_since_posted', 0)), reverse=True)
+    candidates['tv'].sort(key=lambda c: (c.get('blocked_days', 0), c.get('days_since_posted', 0)), reverse=True)
     print(f"Candidatos elegibles desde Tops: {len(candidates['movies'])} películas, {len(candidates['tv'])} series.")
     return candidates
 
@@ -1950,8 +2001,12 @@ def ask_gemini_top_recommendations(likes, dislikes, neutral, top_candidates, nee
     neutral_str = format_pref_list(neutral)
     not_interested_str = format_pref_list(not_interested)
     
-    cand_m_lines = [f"- [PELÍCULA] '{c['title']}' ({c['year']}) [{c['category']}]: {c['overview'][:180]}" for c in top_candidates.get('movies', [])[:30]]
-    cand_t_lines = [f"- [SERIE] '{c['title']}' ({c['year']}) [{c['category']}]: {c['overview'][:180]}" for c in top_candidates.get('tv', [])[:30]]
+    def _wait_tag(c):
+        bd = c.get('blocked_days', 0)
+        return f" [PRIORIDAD: esperó {bd} días en cooldown]" if bd > 0 else ""
+
+    cand_m_lines = [f"- [PELÍCULA] '{c['title']}' ({c['year']}) [{c['category']}]{_wait_tag(c)}: {c['overview'][:180]}" for c in top_candidates.get('movies', [])[:30]]
+    cand_t_lines = [f"- [SERIE] '{c['title']}' ({c['year']}) [{c['category']}]{_wait_tag(c)}: {c['overview'][:180]}" for c in top_candidates.get('tv', [])[:30]]
     all_cand_str = "\n".join(cand_m_lines + cand_t_lines)
     
     if not all_cand_str.strip():
@@ -1979,7 +2034,8 @@ Títulos candidatos de los Tops de Streaming:
 Instrucciones:
 1. Elige las {needed_movies} películas y {needed_tv} series de la lista de Tops que mejor conecten con el usuario (prioriza thrillers inteligentes, suspense policial con giros, comedias negras ingeniosas y producciones argentinas/españolas de calidad de los últimos años).
 2. PROHIBICIÓN ABSOLUTA DE TERROR / HORROR, ANIMACIÓN, SUPERHÉROES Y CIENCIA FICCIÓN / FANTASÍA.
-3. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
+3. Prioriza especialmente los títulos marcados con [PRIORIDAD: esperó X días en cooldown] (cuantos más días hayan esperado, mayor prioridad), ya que estuvieron en el Top 10 sin poder salir hasta cumplir el cooldown y merecen volver a destacarse siempre que encajen con el perfil del usuario.
+4. Devuelve los resultados en formato JSON con la siguiente estructura exacta:
 {{
   "movies": [
     {{
