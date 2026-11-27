@@ -967,6 +967,10 @@ def process_image(image_url, title, overview, is_movie, genre_ids, year, ratings
     filename = os.path.join(background_dir, clean_filename(title) + '.jpg')
     if os.path.exists(filename) and not FORCE_REGENERATE:
         print(f"Imagen ya existe: {filename}")
+        try:
+            os.utime(filename, None)
+        except Exception:
+            pass
         return True
         
     # Validar que tenga al menos una plataforma con calificación aceptable y suficientes votos
@@ -2160,6 +2164,10 @@ def recycle_historical_backgrounds(subreddit, needed_count):
             continue
         try:
             subreddit.submit_image(title_norm, filepath)
+            try:
+                os.utime(filepath, None)
+            except Exception:
+                pass
             print(f"Re-destacado fondo histórico en Reddit: {title_norm}")
             recycled += 1
         except Exception as e:
