@@ -4,6 +4,42 @@
       "category": "Recomendaciones para vos",
       "items": [
         {
+          "title": "Coppola, el representante",
+          "subtitle": "SERIE • 2024 • 2 Temporadas",
+          "media_type": "SERIE",
+          "year": "2024",
+          "extra_info": "2 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/1YjZ2U8m5hphz7RmEYmegQB0oTt.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mE9t0xryrKlTdbbhmM06rJPy2M4.jpg",
+          "overview": "La vida y las anécdotas de Guillermo Coppola, célebre \"bon vivant\", y su lucha por conciliar su agitada vida privada con las insólitas consecuencias de ser el mánager de Diego Armando Maradona, el jugador de fútbol más famoso del mundo.",
+          "youtube_id": "Z4PEQb1sFts",
+          "trailer_url": "https://www.youtube.com/watch?v=Z4PEQb1sFts"
+        },
+        {
+          "title": "S.W.A.T. Exiles: Nueva generación",
+          "subtitle": "SERIE • 2026 • 1 Temporada",
+          "media_type": "SERIE",
+          "year": "2026",
+          "extra_info": "1 Temporada",
+          "poster_url": "https://image.tmdb.org/t/p/w500/769W69oQiOQR4LiTjezF312GmcF.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/mNIc5QqjBuXHeeyj6P4WSqTCBu9.jpg",
+          "overview": "Tras el fracaso de una misión de alto perfil, Daniel \"Hondo\" Harrelson sale de su retiro forzoso para liderar una unidad experimental de SWAT de última oportunidad, compuesta por jóvenes reclutas impredecibles y sin experiencia. Hondo debe superar una brecha generacional, lidiar con personalidades contrapuestas y convertir a un escuadrón de forasteros en un equipo capaz de proteger la ciudad y salvar el programa que lo convirtió en quien es.",
+          "youtube_id": "WZa9WIJUpwQ",
+          "trailer_url": "https://www.youtube.com/watch?v=WZa9WIJUpwQ"
+        },
+        {
+          "title": "LAS NUEVAS DESVENTURAS DE CLIFF BOOTH",
+          "subtitle": "PELÍCULA • 2026 • 2h 21m",
+          "media_type": "PELÍCULA",
+          "year": "2026",
+          "extra_info": "2h 21m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/40bbOEa0ISI1KQmQmy2zQ2DD0tD.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/aRO4TuqF8dkRCb5tPlsSlpJbmQD.jpg",
+          "overview": "Ocho años después de los sucesos de Érase una vez en... Hollywood, Cliff Booth regresa a un Los Ángeles en plena transformación. Ahora, trabajando como intermediario en las sombras del sistema de estudios de Hollywood, Cliff se ve envuelto en una peligrosa red de secretos, crímenes y traiciones que pondrá a prueba todo lo que sabe sobre lealtad y supervivencia.",
+          "youtube_id": "Iy7l-Y2BAwk",
+          "trailer_url": "https://www.youtube.com/watch?v=Iy7l-Y2BAwk"
+        },
+        {
           "title": "Caballos lentos",
           "subtitle": "SERIE • 2022 • 6 Temporadas",
           "media_type": "SERIE",
@@ -36,8 +72,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/7jgWeKWsfKNsP435209TWnv84Ta.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/xxV9AJ3n5izxUd88UduwroYqXZp.jpg",
           "overview": "Desde las barricadas de París hasta las arenas del desierto africano, el pueblo responde al llamado de De Gaulle para liberar su país. Pero, mientras los Aliados deciden el futuro de Francia sin él, la resistencia desafía lo que la Historia parecía haber escrito ya.",
-          "youtube_id": "wONDTU-3HDM",
-          "trailer_url": "https://www.youtube.com/watch?v=wONDTU-3HDM"
+          "youtube_id": "TXRfaZ6QZ78",
+          "trailer_url": "https://www.youtube.com/watch?v=TXRfaZ6QZ78"
         },
         {
           "title": "Tigre De Papel",
@@ -58,10 +94,10 @@
           "year": "2025",
           "extra_info": "2 Temporadas",
           "poster_url": "https://image.tmdb.org/t/p/w500/1HaPE9JjSjwQpXunsq5otOA8Hdj.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/6PerjrTmwTNiRcfn0SpjU8N9Nio.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/hfhv6hCXP6U9BCSVESN2zATwO4X.jpg",
           "overview": "Sophie O'Neil se traslada al profundo este de Texas y sucumbe a los encantos de Margo, una socialité de la zona. Su vida pronto se ve consumida por la obsesión, la seducción y el asesinato",
-          "youtube_id": "oI7vL0vXZIw",
-          "trailer_url": "https://www.youtube.com/watch?v=oI7vL0vXZIw"
+          "youtube_id": "UbuwWdp-MG0",
+          "trailer_url": "https://www.youtube.com/watch?v=UbuwWdp-MG0"
         },
         {
           "title": "The Mosquito Bowl: Un partido en plena guerra",
@@ -69,8 +105,8 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 9m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yWhMnr8pkhgZ1rGlj4z2dxLbS99.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/k2djfMwL3LhpvZMfPN7IFX4DG5N.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uYjAyQJTsZMyVvAWsjnXQaci4Zj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nfcXn5yvBejpbljQIBrTlOMQZoC.jpg",
           "overview": "Tras el ataque a Pearl Harbor, cuatro atletas universitarios se unen a la Marina estadounidense y descubren la fuerza de la hermandad y el costo de la guerra.",
           "youtube_id": "-NrSorYhpl4",
           "trailer_url": "https://www.youtube.com/watch?v=-NrSorYhpl4"
@@ -192,8 +228,8 @@
           "poster_url": "",
           "backdrop_url": "",
           "overview": "",
-          "youtube_id": "RhoJWAOkerg",
-          "trailer_url": "https://www.youtube.com/watch?v=RhoJWAOkerg"
+          "youtube_id": "m2T5Vewt0iE",
+          "trailer_url": "https://www.youtube.com/watch?v=m2T5Vewt0iE"
         },
         {
           "title": "El intercambio navideño",
@@ -202,7 +238,7 @@
           "year": "2026",
           "extra_info": "1h 43m",
           "poster_url": "https://image.tmdb.org/t/p/w500/xKhsKS0VY21uHXTBk5Wyrx9VfPZ.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/tNoB9ptCmp8bzdanndxswxrOfG6.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/tiwSeVdbQSEb1FgjQbZvIGrYvLo.jpg",
           "overview": "En Navidad, una joven citadina vuelve a su pueblo a encargarse de la tienda familiar para que su hermana trabaje en Estocolmo…, y a ambas les atrae la idea de empezar de cero.",
           "youtube_id": "GFPSUwf7wNw",
           "trailer_url": "https://www.youtube.com/watch?v=GFPSUwf7wNw"
@@ -252,8 +288,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
           "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-          "youtube_id": "2oUAOVY5ycY",
-          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
+          "youtube_id": "iz9IdB0628s",
+          "trailer_url": "https://www.youtube.com/watch?v=iz9IdB0628s"
         },
         {
           "title": "Coraje, el perro cobarde",
@@ -266,42 +302,6 @@
           "overview": "Las extravagantes aventuras de Coraje, un perro cobarde que debe superar sus propios miedos para defender heroicamente a sus desprevenidos dueños, unos granjeros, de todo tipo de peligros, sucesos paranormales y amenazas que acechan sus tierras.",
           "youtube_id": "5pBHLRTHBT8",
           "trailer_url": "https://www.youtube.com/watch?v=5pBHLRTHBT8"
-        },
-        {
-          "title": "Los altruistas",
-          "subtitle": "SERIE • 2026 • 1 Temporada",
-          "media_type": "SERIE",
-          "year": "2026",
-          "extra_info": "1 Temporada",
-          "poster_url": "https://image.tmdb.org/t/p/w500/iRFLTlydFocAEWN2yIoBWGTXyFe.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
-          "overview": "Jóvenes, idealistas y súbitamente ricos. Intentaron hacer el bien, pero sacaron lo peor del otro. Una historia de amor tóxica inspirada por un fraude real.",
-          "youtube_id": "REiLOgTemWM",
-          "trailer_url": "https://www.youtube.com/watch?v=REiLOgTemWM"
-        },
-        {
-          "title": "El deshielo",
-          "subtitle": "SERIE • 2022 • 3 Temporadas",
-          "media_type": "SERIE",
-          "year": "2022",
-          "extra_info": "3 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/4vP54uZTDAnycDyVwp0i6L9jWmN.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/6Gmqi22GyK9HuYjHVnvOKAFgLd0.jpg",
-          "overview": "Finales de invierno, inicio de primavera. El deshielo revela el cadáver de una joven. Zawieja, una incansable oficial de policía, investiga el caso.",
-          "youtube_id": "3IIESL1roJ4",
-          "trailer_url": "https://www.youtube.com/watch?v=3IIESL1roJ4"
-        },
-        {
-          "title": "Peleas a Domicilio",
-          "subtitle": "PELÍCULA • 2026 • 1h 38m",
-          "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 38m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/hYXBihLdaZdszwyULySLYsHPcLp.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/dVIm10SWH9drCmKO95ofv2BMVgD.jpg",
-          "overview": "Naim es un encanto en su vida diaria, pero un monstruo cuando se trata de pelear. Para pagar el tratamiento de su perra enferma, se ve obligado a unirse a \"Allo Bagarre\", un grupo de combatientes callejeros que resuelven disputas a puñetazos. Pero el día que descubre que los conflictos se resuelven mediante el diálogo, a Naim le resultará difícil hacerse oír.",
-          "youtube_id": "qXfd3Ex09NI",
-          "trailer_url": "https://www.youtube.com/watch?v=qXfd3Ex09NI"
         }
       ]
     },
@@ -317,8 +317,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/seAIZLEq2Il2psjMUREDbSdRmbu.jpg",
           "overview": "La historia se desarrolla en un futuro lejano, en el año 2898 AD. El mundo está en caos y decadencia, y una sociedad llamada 'The Complex', formada por la élite y los ricos, tiene acceso a todos los recursos restantes del planeta. Aquellos que no pudieron comprar su entrada en el complejo viven en extensos barrios marginales, donde la comida y el agua son muy escasas.  En este mundo, llega un rayo de esperanza, donde la gente cree que Dios vendrá a rescatarlos en forma de un avatar. Ashwathama, un guerrero inmortal de la era del Mahabharata, busca redención protegiendo al niño que reside en el vientre de Sumathi.  Al mismo tiempo, The Complex intenta capturar a Sumathi, colocando una recompensa por su cabeza. Aquí es donde entra Bhairava, un cazarrecompensas. Él intenta luchar contra Ashwathama y reclamar la recompensa para sí mismo.",
-          "youtube_id": "aninoDcPWo4",
-          "trailer_url": "https://www.youtube.com/watch?v=aninoDcPWo4"
+          "youtube_id": "Bsu3V6mayHs",
+          "trailer_url": "https://www.youtube.com/watch?v=Bsu3V6mayHs"
         },
         {
           "title": "Cómo proteger a una estrella",
@@ -329,8 +329,8 @@
           "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
           "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
           "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-          "youtube_id": "iz9IdB0628s",
-          "trailer_url": "https://www.youtube.com/watch?v=iz9IdB0628s"
+          "youtube_id": "2oUAOVY5ycY",
+          "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
         },
         {
           "title": "No nos rendimos",
@@ -362,23 +362,11 @@
           "media_type": "PELÍCULA",
           "year": "2026",
           "extra_info": "2h 9m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/yWhMnr8pkhgZ1rGlj4z2dxLbS99.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/k2djfMwL3LhpvZMfPN7IFX4DG5N.jpg",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uYjAyQJTsZMyVvAWsjnXQaci4Zj.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/nfcXn5yvBejpbljQIBrTlOMQZoC.jpg",
           "overview": "Tras el ataque a Pearl Harbor, cuatro atletas universitarios se unen a la Marina estadounidense y descubren la fuerza de la hermandad y el costo de la guerra.",
           "youtube_id": "-NrSorYhpl4",
           "trailer_url": "https://www.youtube.com/watch?v=-NrSorYhpl4"
-        },
-        {
-          "title": "Godzilla Minus One",
-          "subtitle": "PELÍCULA • 2023 • 2h 5m",
-          "media_type": "PELÍCULA",
-          "year": "2023",
-          "extra_info": "2h 5m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/5EANtRFXIv4LND2hhsHXATpCegy.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg",
-          "overview": "En el Japón de la posguerra surge un nuevo terror. ¿Podrán sobrevivir las personas devastadas... y mucho menos defenderse?",
-          "youtube_id": "1ESKXArWZ0M",
-          "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
         },
         {
           "title": "Sueño de fuga",
@@ -393,28 +381,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=4u87tmlj4oE"
         },
         {
-          "title": "Heartland",
-          "subtitle": "SERIE • 2007 • 20 Temporadas",
-          "media_type": "SERIE",
-          "year": "2007",
-          "extra_info": "20 Temporadas",
-          "poster_url": "https://image.tmdb.org/t/p/w500/osAYIqIGtnVpqz4FDdGjCezE11z.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
-          "overview": "La rebelde Amy se recupera de la súbita muerte de su madre cuando a ella y a su abuelo los amenazan con quitarles el rancho.",
-          "youtube_id": "8vebvZ9Q7_o",
-          "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
-        },
-        {
-          "title": "Parásitos",
-          "subtitle": "PELÍCULA • 2019 • 2h 12m",
+          "title": "Godzilla Minus One",
+          "subtitle": "PELÍCULA • 2023 • 2h 5m",
           "media_type": "PELÍCULA",
-          "year": "2019",
-          "extra_info": "2h 12m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/j4AOjNlhvudYDijiT0lxeHAsPkk.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
-          "overview": "Tanto Gi Taek como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo, empieza a recibir clases particulares en casa de Park, las dos familias, que tienen mucho en común pese a pertenecer a dos mundos totalmente distintos, comienzan una interrelación de resultados impresivibles.",
-          "youtube_id": "broPd_xWuTw",
-          "trailer_url": "https://www.youtube.com/watch?v=broPd_xWuTw"
+          "year": "2023",
+          "extra_info": "2h 5m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/5EANtRFXIv4LND2hhsHXATpCegy.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg",
+          "overview": "En el Japón de la posguerra surge un nuevo terror. ¿Podrán sobrevivir las personas devastadas... y mucho menos defenderse?",
+          "youtube_id": "1ESKXArWZ0M",
+          "trailer_url": "https://www.youtube.com/watch?v=1ESKXArWZ0M"
         },
         {
           "title": "El viaje de Chihiro",
@@ -427,6 +403,30 @@
           "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias.",
           "youtube_id": "5Fgq4Osh6XQ",
           "trailer_url": "https://www.youtube.com/watch?v=5Fgq4Osh6XQ"
+        },
+        {
+          "title": "El señor de los anillos: La comunidad del anillo",
+          "subtitle": "PELÍCULA • 2001 • 2h 59m",
+          "media_type": "PELÍCULA",
+          "year": "2001",
+          "extra_info": "2h 59m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+          "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media. EXTENDIDA",
+          "youtube_id": "3GJp6p_mgPo",
+          "trailer_url": "https://www.youtube.com/watch?v=3GJp6p_mgPo"
+        },
+        {
+          "title": "Heartland",
+          "subtitle": "SERIE • 2007 • 20 Temporadas",
+          "media_type": "SERIE",
+          "year": "2007",
+          "extra_info": "20 Temporadas",
+          "poster_url": "https://image.tmdb.org/t/p/w500/osAYIqIGtnVpqz4FDdGjCezE11z.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
+          "overview": "La rebelde Amy se recupera de la súbita muerte de su madre cuando a ella y a su abuelo los amenazan con quitarles el rancho.",
+          "youtube_id": "8vebvZ9Q7_o",
+          "trailer_url": "https://www.youtube.com/watch?v=8vebvZ9Q7_o"
         }
       ]
     },
@@ -494,16 +494,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=4WMuAEQ-LIA"
         },
         {
-          "title": "Moana",
-          "subtitle": "PELÍCULA • 2026 • 1h 55m",
+          "title": "Avatar: Fuego y ceniza",
+          "subtitle": "PELÍCULA • 2025 • 3h 18m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 55m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/uJNKHZLgnvWqveB4uai0kaWom6M.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
-          "overview": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
-          "youtube_id": "qeEYT6tFTWE",
-          "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
+          "year": "2025",
+          "extra_info": "3h 18m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
+          "youtube_id": "z05pKcZwz-U",
+          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
         },
         {
           "title": "Los vengadores",
@@ -518,16 +518,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=qMLNwBX_f70"
         },
         {
-          "title": "Avatar: Fuego y ceniza",
-          "subtitle": "PELÍCULA • 2025 • 3h 18m",
+          "title": "Moana",
+          "subtitle": "PELÍCULA • 2026 • 1h 55m",
           "media_type": "PELÍCULA",
-          "year": "2025",
-          "extra_info": "3h 18m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/coJkkPBDeBsYecxoqMnZm8TKlBL.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
-          "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
-          "youtube_id": "z05pKcZwz-U",
-          "trailer_url": "https://www.youtube.com/watch?v=z05pKcZwz-U"
+          "year": "2026",
+          "extra_info": "1h 55m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/uJNKHZLgnvWqveB4uai0kaWom6M.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+          "overview": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
+          "youtube_id": "qeEYT6tFTWE",
+          "trailer_url": "https://www.youtube.com/watch?v=qeEYT6tFTWE"
         },
         {
           "title": "Deadpool & Wolverine",
@@ -595,18 +595,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=Om1IDTtPMRA"
         },
         {
-          "title": "La noche perdida",
-          "subtitle": "PELÍCULA • 2018 • 1h 41m",
-          "media_type": "PELÍCULA",
-          "year": "2018",
-          "extra_info": "1h 41m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
-          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
-          "youtube_id": "lJA355ncZD4",
-          "trailer_url": "https://www.youtube.com/watch?v=lJA355ncZD4"
-        },
-        {
           "title": "La guerra de los mundos",
           "subtitle": "PELÍCULA • 2025 • 1h 31m",
           "media_type": "PELÍCULA",
@@ -617,6 +605,18 @@
           "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
           "youtube_id": "VeXEOwwFFG8",
           "trailer_url": "https://www.youtube.com/watch?v=VeXEOwwFFG8"
+        },
+        {
+          "title": "La noche perdida",
+          "subtitle": "PELÍCULA • 2018 • 1h 41m",
+          "media_type": "PELÍCULA",
+          "year": "2018",
+          "extra_info": "1h 41m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/kSfSkI8UvLXykJJWIpQemY1nCNY.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/z3OgVzd06puEx9KD68T5zzFTrdt.jpg",
+          "overview": "Un hombre mata a su esposa y planea encubrirlo, pero su cadáver desaparece misteriosamente antes de la autopsia. Mientras un detective investiga, el marido insiste en que todo forma parte de un plan más grande y la verdad se vuelve cada vez más incierta.",
+          "youtube_id": "lJA355ncZD4",
+          "trailer_url": "https://www.youtube.com/watch?v=lJA355ncZD4"
         },
         {
           "title": "Rivales en la nieve",
@@ -637,7 +637,7 @@
           "year": "2026",
           "extra_info": "2h 36m",
           "poster_url": "https://image.tmdb.org/t/p/w500/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
           "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
           "youtube_id": "S7w4cDtHyFQ",
           "trailer_url": "https://www.youtube.com/watch?v=S7w4cDtHyFQ"
@@ -667,16 +667,16 @@
           "trailer_url": "https://www.youtube.com/watch?v=n8xK0DK7H_E"
         },
         {
-          "title": "Madden",
-          "subtitle": "PELÍCULA • 2026 • 1h 52m",
+          "title": "Batman: El caballero de la noche",
+          "subtitle": "PELÍCULA • 2008 • 2h 32m",
           "media_type": "PELÍCULA",
-          "year": "2026",
-          "extra_info": "1h 52m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
-          "overview": "Inspirada en la vida del aclamado ícono, Madden presenta la trayectoria de John Madden, de ganar el Super Bowl con Al Davis y los Raiders a ser una voz reconocida en el fútbol americano y crear el videojuego Madden NFL. Celebra a una mente brillante, cuyo espíritu y personalidad únicos, junto con el ímpetu de su esposa y su contagioso amor por la gente, trascendieron el mundo del deporte.",
-          "youtube_id": "7ljcNjDeF60",
-          "trailer_url": "https://www.youtube.com/watch?v=7ljcNjDeF60"
+          "year": "2008",
+          "extra_info": "2h 32m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
+          "overview": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+          "youtube_id": "dzQtWkpc2-c",
+          "trailer_url": "https://www.youtube.com/watch?v=dzQtWkpc2-c"
         }
       ]
     },
@@ -780,18 +780,6 @@
           "trailer_url": "https://www.youtube.com/watch?v=R2DDDEQ8ceI"
         },
         {
-          "title": "La propuesta",
-          "subtitle": "PELÍCULA • 2009 • 1h 48m",
-          "media_type": "PELÍCULA",
-          "year": "2009",
-          "extra_info": "1h 48m",
-          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
-          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
-          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
-          "youtube_id": "rCs8skCWF98",
-          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
-        },
-        {
           "title": "Los asesinos de la luna",
           "subtitle": "PELÍCULA • 2023 • 3h 26m",
           "media_type": "PELÍCULA",
@@ -802,11 +790,59 @@
           "overview": "Ambientada en la década de 1920 en Oklahoma, cuenta la historia de los asesinatos en serie de miembros de la Nación Osage, un pueblo originario rico en petróleo. Una serie de crímenes brutales que llegaron a conocerse como el Reino del terror.",
           "youtube_id": "qXVsJU0I8u0",
           "trailer_url": "https://www.youtube.com/watch?v=qXVsJU0I8u0"
+        },
+        {
+          "title": "La propuesta",
+          "subtitle": "PELÍCULA • 2009 • 1h 48m",
+          "media_type": "PELÍCULA",
+          "year": "2009",
+          "extra_info": "1h 48m",
+          "poster_url": "https://image.tmdb.org/t/p/w500/7pSdQ7KngvmwtqAgdGFTl5W4fWE.jpg",
+          "backdrop_url": "https://image.tmdb.org/t/p/w500/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+          "overview": "Cuando se entera de que está en peligro de perder su estatus de visado y de ser deportada, la arrogante redactora de libros Margaret Tate obliga a su asistente, Andrew Paxton, a casarse con ella.",
+          "youtube_id": "rCs8skCWF98",
+          "trailer_url": "https://www.youtube.com/watch?v=rCs8skCWF98"
         }
       ]
     }
   ],
   "flat_list": [
+    {
+      "title": "Coppola, el representante",
+      "subtitle": "SERIE • 2024 • 2 Temporadas",
+      "media_type": "SERIE",
+      "year": "2024",
+      "extra_info": "2 Temporadas",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1YjZ2U8m5hphz7RmEYmegQB0oTt.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/mE9t0xryrKlTdbbhmM06rJPy2M4.jpg",
+      "overview": "La vida y las anécdotas de Guillermo Coppola, célebre \"bon vivant\", y su lucha por conciliar su agitada vida privada con las insólitas consecuencias de ser el mánager de Diego Armando Maradona, el jugador de fútbol más famoso del mundo.",
+      "youtube_id": "Z4PEQb1sFts",
+      "trailer_url": "https://www.youtube.com/watch?v=Z4PEQb1sFts"
+    },
+    {
+      "title": "S.W.A.T. Exiles: Nueva generación",
+      "subtitle": "SERIE • 2026 • 1 Temporada",
+      "media_type": "SERIE",
+      "year": "2026",
+      "extra_info": "1 Temporada",
+      "poster_url": "https://image.tmdb.org/t/p/w500/769W69oQiOQR4LiTjezF312GmcF.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/mNIc5QqjBuXHeeyj6P4WSqTCBu9.jpg",
+      "overview": "Tras el fracaso de una misión de alto perfil, Daniel \"Hondo\" Harrelson sale de su retiro forzoso para liderar una unidad experimental de SWAT de última oportunidad, compuesta por jóvenes reclutas impredecibles y sin experiencia. Hondo debe superar una brecha generacional, lidiar con personalidades contrapuestas y convertir a un escuadrón de forasteros en un equipo capaz de proteger la ciudad y salvar el programa que lo convirtió en quien es.",
+      "youtube_id": "WZa9WIJUpwQ",
+      "trailer_url": "https://www.youtube.com/watch?v=WZa9WIJUpwQ"
+    },
+    {
+      "title": "LAS NUEVAS DESVENTURAS DE CLIFF BOOTH",
+      "subtitle": "PELÍCULA • 2026 • 2h 21m",
+      "media_type": "PELÍCULA",
+      "year": "2026",
+      "extra_info": "2h 21m",
+      "poster_url": "https://image.tmdb.org/t/p/w500/40bbOEa0ISI1KQmQmy2zQ2DD0tD.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/aRO4TuqF8dkRCb5tPlsSlpJbmQD.jpg",
+      "overview": "Ocho años después de los sucesos de Érase una vez en... Hollywood, Cliff Booth regresa a un Los Ángeles en plena transformación. Ahora, trabajando como intermediario en las sombras del sistema de estudios de Hollywood, Cliff se ve envuelto en una peligrosa red de secretos, crímenes y traiciones que pondrá a prueba todo lo que sabe sobre lealtad y supervivencia.",
+      "youtube_id": "Iy7l-Y2BAwk",
+      "trailer_url": "https://www.youtube.com/watch?v=Iy7l-Y2BAwk"
+    },
     {
       "title": "Caballos lentos",
       "subtitle": "SERIE • 2022 • 6 Temporadas",
@@ -840,8 +876,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/7jgWeKWsfKNsP435209TWnv84Ta.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/xxV9AJ3n5izxUd88UduwroYqXZp.jpg",
       "overview": "Desde las barricadas de París hasta las arenas del desierto africano, el pueblo responde al llamado de De Gaulle para liberar su país. Pero, mientras los Aliados deciden el futuro de Francia sin él, la resistencia desafía lo que la Historia parecía haber escrito ya.",
-      "youtube_id": "wONDTU-3HDM",
-      "trailer_url": "https://www.youtube.com/watch?v=wONDTU-3HDM"
+      "youtube_id": "TXRfaZ6QZ78",
+      "trailer_url": "https://www.youtube.com/watch?v=TXRfaZ6QZ78"
     },
     {
       "title": "Tigre De Papel",
@@ -862,10 +898,10 @@
       "year": "2025",
       "extra_info": "2 Temporadas",
       "poster_url": "https://image.tmdb.org/t/p/w500/1HaPE9JjSjwQpXunsq5otOA8Hdj.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/6PerjrTmwTNiRcfn0SpjU8N9Nio.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/hfhv6hCXP6U9BCSVESN2zATwO4X.jpg",
       "overview": "Sophie O'Neil se traslada al profundo este de Texas y sucumbe a los encantos de Margo, una socialité de la zona. Su vida pronto se ve consumida por la obsesión, la seducción y el asesinato",
-      "youtube_id": "oI7vL0vXZIw",
-      "trailer_url": "https://www.youtube.com/watch?v=oI7vL0vXZIw"
+      "youtube_id": "UbuwWdp-MG0",
+      "trailer_url": "https://www.youtube.com/watch?v=UbuwWdp-MG0"
     },
     {
       "title": "The Mosquito Bowl: Un partido en plena guerra",
@@ -873,8 +909,8 @@
       "media_type": "PELÍCULA",
       "year": "2026",
       "extra_info": "2h 9m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/yWhMnr8pkhgZ1rGlj4z2dxLbS99.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/k2djfMwL3LhpvZMfPN7IFX4DG5N.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/uYjAyQJTsZMyVvAWsjnXQaci4Zj.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/nfcXn5yvBejpbljQIBrTlOMQZoC.jpg",
       "overview": "Tras el ataque a Pearl Harbor, cuatro atletas universitarios se unen a la Marina estadounidense y descubren la fuerza de la hermandad y el costo de la guerra.",
       "youtube_id": "-NrSorYhpl4",
       "trailer_url": "https://www.youtube.com/watch?v=-NrSorYhpl4"
@@ -996,8 +1032,8 @@
       "poster_url": "",
       "backdrop_url": "",
       "overview": "",
-      "youtube_id": "RhoJWAOkerg",
-      "trailer_url": "https://www.youtube.com/watch?v=RhoJWAOkerg"
+      "youtube_id": "m2T5Vewt0iE",
+      "trailer_url": "https://www.youtube.com/watch?v=m2T5Vewt0iE"
     },
     {
       "title": "El intercambio navideño",
@@ -1006,7 +1042,7 @@
       "year": "2026",
       "extra_info": "1h 43m",
       "poster_url": "https://image.tmdb.org/t/p/w500/xKhsKS0VY21uHXTBk5Wyrx9VfPZ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/tNoB9ptCmp8bzdanndxswxrOfG6.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/w500/tiwSeVdbQSEb1FgjQbZvIGrYvLo.jpg",
       "overview": "En Navidad, una joven citadina vuelve a su pueblo a encargarse de la tienda familiar para que su hermana trabaje en Estocolmo…, y a ambas les atrae la idea de empezar de cero.",
       "youtube_id": "GFPSUwf7wNw",
       "trailer_url": "https://www.youtube.com/watch?v=GFPSUwf7wNw"
@@ -1056,8 +1092,8 @@
       "poster_url": "https://image.tmdb.org/t/p/w500/wQUXEPumBrVJR3Fe9h0xnwcnyFp.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/w500/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
       "overview": "En esta comedia romántica llena de acción, una guardaespaldas (Leighton Meester) se enamora del famoso actor (Jared Padalecki) al que debe proteger durante Navidad.",
-      "youtube_id": "2oUAOVY5ycY",
-      "trailer_url": "https://www.youtube.com/watch?v=2oUAOVY5ycY"
+      "youtube_id": "iz9IdB0628s",
+      "trailer_url": "https://www.youtube.com/watch?v=iz9IdB0628s"
     },
     {
       "title": "Coraje, el perro cobarde",
@@ -1070,42 +1106,6 @@
       "overview": "Las extravagantes aventuras de Coraje, un perro cobarde que debe superar sus propios miedos para defender heroicamente a sus desprevenidos dueños, unos granjeros, de todo tipo de peligros, sucesos paranormales y amenazas que acechan sus tierras.",
       "youtube_id": "5pBHLRTHBT8",
       "trailer_url": "https://www.youtube.com/watch?v=5pBHLRTHBT8"
-    },
-    {
-      "title": "Los altruistas",
-      "subtitle": "SERIE • 2026 • 1 Temporada",
-      "media_type": "SERIE",
-      "year": "2026",
-      "extra_info": "1 Temporada",
-      "poster_url": "https://image.tmdb.org/t/p/w500/iRFLTlydFocAEWN2yIoBWGTXyFe.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
-      "overview": "Jóvenes, idealistas y súbitamente ricos. Intentaron hacer el bien, pero sacaron lo peor del otro. Una historia de amor tóxica inspirada por un fraude real.",
-      "youtube_id": "REiLOgTemWM",
-      "trailer_url": "https://www.youtube.com/watch?v=REiLOgTemWM"
-    },
-    {
-      "title": "El deshielo",
-      "subtitle": "SERIE • 2022 • 3 Temporadas",
-      "media_type": "SERIE",
-      "year": "2022",
-      "extra_info": "3 Temporadas",
-      "poster_url": "https://image.tmdb.org/t/p/w500/4vP54uZTDAnycDyVwp0i6L9jWmN.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/6Gmqi22GyK9HuYjHVnvOKAFgLd0.jpg",
-      "overview": "Finales de invierno, inicio de primavera. El deshielo revela el cadáver de una joven. Zawieja, una incansable oficial de policía, investiga el caso.",
-      "youtube_id": "3IIESL1roJ4",
-      "trailer_url": "https://www.youtube.com/watch?v=3IIESL1roJ4"
-    },
-    {
-      "title": "Peleas a Domicilio",
-      "subtitle": "PELÍCULA • 2026 • 1h 38m",
-      "media_type": "PELÍCULA",
-      "year": "2026",
-      "extra_info": "1h 38m",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hYXBihLdaZdszwyULySLYsHPcLp.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/w500/dVIm10SWH9drCmKO95ofv2BMVgD.jpg",
-      "overview": "Naim es un encanto en su vida diaria, pero un monstruo cuando se trata de pelear. Para pagar el tratamiento de su perra enferma, se ve obligado a unirse a \"Allo Bagarre\", un grupo de combatientes callejeros que resuelven disputas a puñetazos. Pero el día que descubre que los conflictos se resuelven mediante el diálogo, a Naim le resultará difícil hacerse oír.",
-      "youtube_id": "qXfd3Ex09NI",
-      "trailer_url": "https://www.youtube.com/watch?v=qXfd3Ex09NI"
     }
   ]
 }
